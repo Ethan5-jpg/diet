@@ -18,3 +18,15 @@
 ./timeseries/cgm__10k__8055750742__20200310.parquet,2020-03-10 00:03:00+02:00,abbott_freestyle_libre_pro,0.10766847405112316,asia/jerusalem
 ./timeseries/cgm__10k__5825593435__20220811.parquet,2022-08-11 00:01:00+03:00,abbott_freestyle_libre_pro_iq,0.06796116504854369,asia/jerusalem
 ./timeseries/cgm__10k__6973128800__20210804.parquet,2021-08-04 00:09:00+03:00,abbott_freestyle_libre_pro_iq,0.1977715877437326,asia/jerusalem
+./timeseries/cgm__10k__8364752999__20201116.parquet,2020-11-16 00:13:00+02:00,abbott_freestyle_libre_pro,0.06796116504854369,asia/jerusalem
+./timeseries/cgm__10k__3631841391__20220824.parquet,2022-08-24 00:08:00+03:00,abbott_freestyle_libre_pro_iq,0.10835913312693499,asia/jerusalem
+./timeseries/cgm__10k__7778926703__20200609.parquet,2020-06-09 00:07:00+03:00,abbott_freestyle_libre_pro,0.0658682634730539,asia/jerusalem
+./timeseries/cgm__10k__5016256627__20200214.parquet,2020-02-14 00:06:00+02:00,abbott_freestyle_libre_pro,0.07393577296489919,asia/jerusalem
+./timeseries/cgm__10k__5886935156__20190731.parquet,2019-07-31 00:05:00+03:00,abbott_freestyle_libre_pro,0.09859154929577464,asia/jerusalem
+./timeseries/cgm__10k__3811934325__20190926.parquet,2019-09-26 00:03:00+03:00,abbott_freestyle_libre_pro,0.11179645335338936,asia/jerusalem
+./timeseries/cgm__10k__5427593335__20220113.parquet,2022-01-13 00:10:00+02:00,abbott_freestyle_libre_pro_iq,0.06796116504854369,asia/jerusalem
+./timeseries/cgm__10k__9814081656__20220818.parquet,2022-08-18 00:04:00+03:00,abbott_freestyle_libre_pro_iq,0.10863509749303621,asia/jerusalem
+./timeseries/cgm__10k__6339919993__20220520.parquet,2022-05-20 00:12:00+03:00,abbott_freestyle_libre_pro_iq,0.05239179954441914,asia/jerusalem
+./timeseries/cgm__10k__1121222777__20190417.parquet,2019-04-17 00:12:00+03:00,abbott_freestyle_libre_pro,0.06726457399103139,asia/jerusalem
+./timeseries/cgm__10k__3743416445__20220802.parquet,2022-08-02 00:00:00+03:00,abbott_freestyle_libre_pro_iq,0.19101123595505617,asia/jerusalem
+./timeseries/cgm__10k__5384765568__20201109.parquet,2020-11-09 00:00:00+02:00,abbott_freestyle_libre_pro,0.07793345008756568,asia/jerusalem
