@@ -1,0 +1,11 @@
+summary_type,mapping_status,amed_component,food_category,food_id_count,event_count
+mapping_status,mapped,,,2345,1064333
+mapping_status,not_applicable,,,5057,1564684
+mapping_status,unmapped_missing_labels,,,368,11942
+mapped_component,mapped,fish,,311,50902
+mapped_component,mapped,fruit,,269,246936
+mapped_component,mapped,legumes,,250,63902
+mapped_component,mapped,nuts,,99,113478
+mapped_component,mapped,red_processed_meat,,392,58564
+mapped_component,mapped,vegetables,,693,429065
+mapped_component,mapped,whole_grains,,331,101486

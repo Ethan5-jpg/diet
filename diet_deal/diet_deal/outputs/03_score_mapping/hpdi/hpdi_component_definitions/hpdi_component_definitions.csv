@@ -1,0 +1,19 @@
+﻿hpdi_component,hpdi_parent_group,standard_food_group,scoring_direction,lowest_quintile_score,highest_quintile_score,planned_intake_basis
+whole_grains,healthy_plant,Whole grains,positive,1,5,mean daily grams proxy
+fruits,healthy_plant,Fruits,positive,1,5,mean daily grams proxy
+vegetables,healthy_plant,Vegetables,positive,1,5,mean daily grams proxy
+nuts,healthy_plant,Nuts,positive,1,5,mean daily grams proxy
+legumes,healthy_plant,Legumes,positive,1,5,mean daily grams proxy
+vegetable_oils,healthy_plant,Vegetable oils,positive,1,5,mean daily grams proxy
+tea_coffee,healthy_plant,Tea and coffee,positive,1,5,mean daily grams proxy
+fruit_juice,less_healthy_plant,Fruit juice,reverse,5,1,mean daily grams proxy
+refined_grains,less_healthy_plant,Refined grains,reverse,5,1,mean daily grams proxy
+potatoes,less_healthy_plant,Potatoes,reverse,5,1,mean daily grams proxy
+sugar_sweetened_beverages,less_healthy_plant,Sugar-sweetened beverages,reverse,5,1,mean daily grams proxy
+sweets_desserts,less_healthy_plant,Sweets and desserts,reverse,5,1,mean daily grams proxy
+animal_fat,animal,Animal fat,reverse,5,1,mean daily grams proxy
+dairy,animal,Dairy,reverse,5,1,mean daily grams proxy
+eggs,animal,Eggs,reverse,5,1,mean daily grams proxy
+fish_seafood,animal,Fish and seafood,reverse,5,1,mean daily grams proxy
+meat,animal,Meat,reverse,5,1,mean daily grams proxy
+miscellaneous_animal_foods,animal,Miscellaneous animal-based foods,reverse,5,1,mean daily grams proxy

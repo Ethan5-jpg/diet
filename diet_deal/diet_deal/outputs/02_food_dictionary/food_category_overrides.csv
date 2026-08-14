@@ -1,0 +1,13 @@
+food_id,canonical_short_food_name,canonical_product_name,food_id_event_count,assigned_food_category,review_status,review_basis
+1011465,Coconut milk,Coconut milk (liquid obtained from grinding the meat with the coconut water),896,"milk, cream cheese and yogurts",reviewed,Existing coconut-milk drinks use this category.
+1009040,Sesame oil,Sesame oil,406,Oils and fats,reviewed,The item is pure sesame cooking oil.
+1012992,Protein Powder,Herbalife protein powder,291,Industrialized vegetarian food ready to eat,reviewed,Generic protein powders predominantly use this category.
+1012247,Flavored milk drinks,Vanilla flavored milk 3% fat,274,sweet milk products,reviewed,The item is a vanilla-flavored milk drink.
+1013278,Protein Powder,Prostar protein powder,260,Industrialized vegetarian food ready to eat,reviewed,Generic protein powders predominantly use this category.
+1012144,Vegetable Soup,Clear vegetable soup with salt,230,Vegetables,reviewed,Existing plain vegetable soups use this category.
+1010729,Wheatgrass Juice,Wheat grass juice,208,fruit juices and soft drinks,reviewed,Wheatgrass is recorded as juice rather than whole vegetables.
+1008612,Grouper,Locust fish cooked in tomato sauce and Harima canola oil,203,Fish and seafood,reviewed,Matched locust-fish and grouper dishes use this category.
+1010647,Coconut water,vita coco coconut water,181,Drinks,reviewed,The product is coconut water rather than coconut cream.
+1012232,Protein Powder,Trofix protein powder with vanilla flavor,176,Industrialized vegetarian food ready to eat,reviewed,Generic protein powders predominantly use this category.
+1010477,Artichoke,Canned artichokes with oil,170,Canned veg and fruits,reviewed,The product is explicitly canned artichoke with oil.
+1013656,Seaweeds,Roasted seaweed snack with sea salt,87,Snacks,reviewed,The product is explicitly a roasted seaweed snack.

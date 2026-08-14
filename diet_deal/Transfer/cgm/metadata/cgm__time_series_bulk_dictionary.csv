@@ -1,0 +1,2 @@
+﻿tabular_field_name,field_string,description_string,customer_field,folder_id,feature_set,field_type,strata,data_coding,array,pandas_dtype,dependency,transformation,old_data_loader,old_lab_data_column_name,min_plausible_value,max_plausible_value,units,sampling_rate,list_of_tags,sexed,debut
+glucose,glucose,glucose measured via CGM,ready,17,,column,Primary,,,float,,,CGMLoader,GlucoseValue,40,500,mg/dL,15 minutes,,Both sexes,2018-12-27

@@ -1,0 +1,9 @@
+metric,value
+input_rows,2640959
+missing_food_id_rows,0
+all_food_labels_missing_rows,11942
+invalid_numeric_weight_g,0
+unique_food_ids,7770
+observed_label_combinations,7770
+food_ids_with_label_conflict,0
+food_ids_with_complete_canonical_mapping,2003

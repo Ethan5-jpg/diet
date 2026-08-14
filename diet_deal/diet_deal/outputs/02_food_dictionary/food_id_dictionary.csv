@@ -1,0 +1,40 @@
+food_id,canonical_short_food_name,canonical_product_name,canonical_food_category,food_id_event_count,food_id_weight_g_total,canonical_combination_event_count,canonical_combination_event_share,observed_label_combinations,short_food_name_variants,product_name_variants,food_category_variants,canonical_mapping_complete,has_label_conflict
+1006770,,Chinese style chicken soup with corn,Poultry and its products,71,21320,71,1,1,0,1,1,False,False
+1006771,Hamantaschen,Hamman's ears on the basis of butter and filled with chocolate,sweets,511,24488.5,511,1,1,1,1,1,True,False
+1006772,Turkey Shawarma,Roasted turkey shawarma,"Beef, veal, lamb, and other meat products",1240,217166.8,1240,1,1,1,1,1,True,False
+1006774,,Dry tapioca grains,"Pasta, Grains and Side dishes",26,961,26,1,1,0,1,1,False,False
+1006775,,Chopped liver delicacy with fried onions Yachiam,"Beef, veal, lamb, and other meat products",19,980,19,1,1,0,1,1,False,False
+1006776,,Goat cheese 5% total fat for spreading/with extra olives,"milk, cream cheese and yogurts",153,8288,153,1,1,0,1,1,False,False
+1006777,,Magnum ice cream with berries and white chocolate,sweets,18,1126,18,1,1,0,1,1,False,False
+1006779,Beet,beet,Vegetables,2927,180386.43,2927,1,1,1,1,1,True,False
+1006780,Cooked green beans,Green beans cooked with garlic and olive oil,Vegetables,878,89516,878,1,1,1,1,1,True,False
+1006781,,white bread cl,Bread,59,3203,59,1,1,0,1,1,False,False
+1006782,,A yellow cheese sandwich with a full-flavored flour bite bun,Bread_wholewheat,176,19437.6,176,1,1,0,1,1,False,False
+1006783,Chicken Pad Thai,Chicken Pad Thai,"Pasta, Grains and Side dishes",577,167137.2,577,1,1,1,1,1,True,False
+1006784,,Beef steak with fried fat,"Beef, veal, lamb, and other meat products",10,1816,10,1,1,0,1,1,False,False
+1006785,,Glacier sherbet different flavors Vitaminchik,sweets,10,800,10,1,1,0,1,1,False,False
+1006787,,Real chicken schnitzel with home-made coating/crispy from Mama Chicken,Poultry and its products,26,3246,26,1,1,0,1,1,False,False
+1006790,,Seasoned soy snack roasted sycamore,Snacks,53,1756,53,1,1,0,1,1,False,False
+1006792,,Cabbage soup,Vegetables,174,49260,174,1,1,0,1,1,False,False
+1006793,,Nuts and silan health snack without added sugar Abrahamson,sweets,22,651,22,1,1,0,1,1,False,False
+1006794,,Strawberry sherbet ice cream scoops wrapped in Willy Food rice leaves,sweets,4,104,4,1,1,0,1,1,False,False
+1006795,,Yopla 3% fat yogurt with a refined texture,sweet milk products,157,29200,157,1,1,0,1,1,False,False
+1006796,,Chopped salad with lettuce and chicken steak in Thousand Islands Light McDonald's sauce,Vegetables,6,2365,6,1,1,0,1,1,False,False
+1006797,,Hummus salad with mushrooms and fried onions,Pulses and products,20,2060,20,1,1,0,1,1,False,False
+1006798,Sausages,Smoked pork sausages,"Beef, veal, lamb, and other meat products",154,14776,154,1,1,1,1,1,True,False
+1006799,,Compressed fresh yeast,Others,2,51,2,1,1,0,1,1,False,False
+1006800,,"Vegetable soup with carrots, celery and margarine",Vegetables,46,13750,46,1,1,0,1,1,False,False
+1006801,,Field buckwheat flakes,sweets,119,2717,119,1,1,0,1,1,False,False
+1006802,,Gluten-free lentil bread with no added sugar Zen food,Bread_wholewheat,15,510,15,1,1,0,1,1,False,False
+1006803,Pate,Chicken liver spread,Poultry and its products,446,20616,446,1,1,1,1,1,True,False
+1006804,,Banana in fried batter,Fruits,77,7593.7,77,1,1,0,1,1,False,False
+1006805,,Foam roses cookies based on homemade butter,sweets,31,1574.5,31,1,1,0,1,1,False,False
+1006807,,Ben and Jerry's chocolate brownies without dairy,sweets,2,272,2,1,1,0,1,1,False,False
+1006808,,Gluten-free chocolate and coconut cookies,sweets,4,120,4,1,1,0,1,1,False,False
+1006809,,Danish butter flavored cookies (fur),sweets,117,3193.5,117,1,1,0,1,1,False,False
+1006810,,Creamy vegan cheese with natural cheese flavor 15% fat,Industrialized vegetarian food ready to eat,83,2086.5,83,1,1,0,1,1,False,False
+1006811,,Beef and chicken meatballs cooked in pureed tomato sauce without oil,"Beef, veal, lamb, and other meat products",15,1636,15,1,1,0,1,1,False,False
+1006812,Halva,Mini Halva in different flavors Achava,sweets,480,10303,480,1,1,1,1,1,True,False
+1006813,,Chicken shank fried in olive oil,Poultry and its products,6,760,6,1,1,0,1,1,False,False
+1006814,Coffee,Instant Coffee,Drinks,34371,234448.5,34371,1,1,1,1,1,True,False
+1006815,Fruit Drink,Nasty peach,fruit juices and soft drinks,152,44118,152,1,1,1,1,1,True,False

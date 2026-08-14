@@ -1,0 +1,8 @@
+amed_component,intake_column,intake_unit,direction,one_point_rule,population_median,participant_count_used,missing_intake_count,equal_to_median_count,one_point_count,one_point_share
+fruit,mean_daily_fruit_g_proxy,mean daily grams proxy,beneficial,mean_daily_fruit_g_proxy > median,135.428571428571,9737,0,2,4867,0.499845948444079
+vegetables,mean_daily_vegetables_g_proxy,mean daily grams proxy,beneficial,mean_daily_vegetables_g_proxy > median,256.5,9737,0,4,4868,0.49994864948136
+whole_grains,mean_daily_whole_grains_g_proxy,mean daily grams proxy,beneficial,mean_daily_whole_grains_g_proxy > median,27.9285714285714,9737,0,5,4865,0.499640546369518
+nuts,mean_daily_nuts_g_proxy,mean daily grams proxy,beneficial,mean_daily_nuts_g_proxy > median,6.53846153846154,9737,0,9,4866,0.499743247406799
+legumes,mean_daily_legumes_g_proxy,mean daily grams proxy,beneficial,mean_daily_legumes_g_proxy > median,22.9285714285714,9737,0,3,4867,0.499845948444079
+fish,mean_daily_fish_g_proxy,mean daily grams proxy,beneficial,mean_daily_fish_g_proxy > median,27.6363636363636,9737,0,7,4863,0.499435144294957
+red_processed_meat,mean_daily_red_processed_meat_g_proxy,mean daily grams proxy,adverse,mean_daily_red_processed_meat_g_proxy <= median,34,9737,0,6,4872,0.500359453630482

@@ -1,0 +1,2 @@
+﻿script_version,method,eligible_participant_count,missing_or_nonpositive_energy_count,winsor_lower_quantile,winsor_upper_quantile,winsor_lower_value,winsor_upper_value,mean_energy_kcal,mean_winsorized_raw_score,slope_score_per_kcal,adjusted_score_min,adjusted_score_max,adjusted_score_mean
+2026-08-08-hpdi-scores-v3,winsorize raw score at 0.5th/99.5th percentiles; residual method versus mean daily total energy; add residual to mean winsorized score,9737,0,0.005,0.995,35,75,1729.78018096802,54.0569990756907,-0.003153479477482,34.0832394722498,79.6463732978615,54.0569990756907

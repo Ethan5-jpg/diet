@@ -1,0 +1,10 @@
+amed_component,paper_unit,paper_food_items,score_1_rule,score_0_rule,available_in_hpp
+fruit,servings/day,All fruit and juices,intake > cohort median,intake <= cohort median,True
+vegetables,servings/day,All vegetables except potatoes,intake > cohort median,intake <= cohort median,True
+whole_grains,servings/day,"Whole-grain cereals, dark breads, brown rice and other whole grains",intake > cohort median,intake <= cohort median,True
+nuts,servings/day,Nuts and peanut butter,intake > cohort median,intake <= cohort median,True
+legumes,servings/day,"Tofu, string beans, peas and beans",intake > cohort median,intake <= cohort median,True
+red_processed_meat,servings/day,Red and processed meat,intake <= cohort median,intake > cohort median,True
+fish,servings/day,"Fish, shrimp and breaded fish",intake > cohort median,intake <= cohort median,True
+alcohol,g/day,Alcohol from all logged items,women: 5-15; men: 10-25,outside the sex-specific range,True
+mufa_sfa_ratio,ratio,Monounsaturated fat / saturated fat,intake > cohort median,intake <= cohort median,False
