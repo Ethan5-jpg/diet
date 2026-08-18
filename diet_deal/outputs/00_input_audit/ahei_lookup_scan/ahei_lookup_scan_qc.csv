@@ -1,0 +1,9 @@
+﻿metric,value
+script_version,2026-08-18-ahei-lookup-scan-v3
+transfer_dir,/Users/blizzardxu/Desktop/HPP/Data/Transfer
+requested_file_limit,0
+scanned_file_count,14
+file_limit_reached,False
+scan_complete_without_limit,True
+header_error_count,0
+likely_candidate_count,0

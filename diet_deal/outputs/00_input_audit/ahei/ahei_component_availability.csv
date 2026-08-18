@@ -1,0 +1,11 @@
+﻿ahei_component,included_in_final_score,availability_status,reason,current_eligible_participant_count
+vegetables,True,protocol_defined_mapping_pending,映射后按30 kcal/serving换算，0至5 servings/day线性计分。,1
+fruit,True,protocol_defined_mapping_pending,完整水果按70 kcal/serving换算；果汁进入不利组件。,1
+whole_grains,True,proxy_protocol_approved_mapping_pending,whole_grain_proxy_g = 明确全谷物映射事件的有效或批准填补 weight_g；不声称为严格干重。,1
+ssb_plus_fruit_juice,True,protocol_defined_mapping_pending,含糖饮料与果汁合并，按70 kcal/serving换算。,1
+nuts_plus_legumes,True,protocol_defined_mapping_pending,坚果和豆类有效重量合并，28.35 g/serving。,1
+red_plus_processed_meat,True,protocol_defined_mapping_pending,红肉和加工肉按220 kcal/serving换算。,1
+trans_fat,False,excluded_by_user_protocol,无可靠营养素来源；整项排除，不填补且不按0分处理。,0
+pufa,False,excluded_by_user_protocol,无可靠营养素来源；整项排除，不填补且不按0分处理。,0
+sodium,False,excluded_by_user_protocol,按已确认mAHEI-7协议整项排除；保留覆盖QC，不填补、不算十分位也不按0分处理。,0
+alcohol,True,shared_input_incomplete,使用AMED纯乙醇g/day，除以14 g/standard drink得到drinks/day；不饮酒者得2.5分。,1

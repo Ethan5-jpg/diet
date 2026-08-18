@@ -1,0 +1,11 @@
+﻿ahei_component,included_in_final_score,unit,criterion_score_0,criterion_score_10,hpp_input_protocol,availability_status
+vegetables,True,servings/day,0,>=5,30 kcal/serving proxy,available_by_food_mapping
+fruit,True,servings/day,0,>=4,70 kcal/serving proxy; excludes fruit juice,available_by_food_mapping
+whole_grains,True,g/day,0,female 75; male 90,mapped event weight_g proxy,available_by_food_mapping
+ssb_plus_fruit_juice,True,servings/day,>=1,0,70 kcal/serving proxy,available_by_food_mapping
+nuts_plus_legumes,True,servings/day,0,>=1,28.35 g/serving,available_by_food_mapping
+red_plus_processed_meat,True,servings/day,>=1.5,0,220 kcal/serving proxy,available_by_food_mapping
+alcohol,True,servings/day,sex-specific heavy,sex-specific moderate,AMED ethanol g/day / 14 g per standard drink,available_from_amed_shared_input
+trans_fat,False,% energy,>=4,<=0.5,not calculated,excluded_by_user_protocol
+pufa,False,% energy,<=2,>=10,not calculated,excluded_by_user_protocol
+sodium,False,mg/day,highest decile,lowest decile,coverage-only QC; no imputation or scoring,excluded_by_user_protocol

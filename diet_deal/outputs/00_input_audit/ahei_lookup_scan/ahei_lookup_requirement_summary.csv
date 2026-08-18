@@ -1,0 +1,5 @@
+﻿requirement,candidate_table_count,formal_ahei_status,interpretation
+serving_or_portion,0,not_required_hpp_proxy_conversion_frozen,HPP kcal/g serving proxies are frozen; candidates are sensitivity-only.
+whole_grain,0,optional_strict_source_proxy_protocol_approved,Mapped food weight is the approved proxy; a strict source would support sensitivity analysis.
+trans_fat,0,not_required_excluded_by_user_protocol,Excluded from mAHEI-7; discovered sources remain informational only.
+pufa,0,not_required_excluded_by_user_protocol,Excluded from mAHEI-7; discovered sources remain informational only.
