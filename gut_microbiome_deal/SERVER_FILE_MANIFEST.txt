@@ -1,0 +1,41 @@
+Reconstructed from the server screenshots and prior run logs.
+
+SERVER TOP-LEVEL
+gut_microbiome_deal/
+├── data/
+├── logs/
+├── reports/
+└── scripts/
+
+KNOWN DATA OUTPUTS
+data/01_metaphlan_species_baseline_9087.csv
+data/02_species_prevalence_filtered.csv
+data/03_species_mean_abundance_filtered.csv
+data/04_sample_missingness_filtered.csv
+data/05_species_half_min_imputed.csv
+data/06_alpha_diversity.csv
+data/07_species_clr.csv
+data/08_species_clr_zscore.csv
+
+KNOWN REPORT OUTPUTS
+reports/01_baseline_qc.txt
+reports/02_prevalence_qc.txt
+reports/02_species_prevalence_details.csv
+reports/03_mean_abundance_qc.txt
+reports/03_species_mean_abundance_details.csv
+reports/04a_baseline_selection_pipeline_summary.csv
+reports/04a_duplicate_baseline_missingness.csv
+reports/04b_species_near_mean_0.01.csv
+reports/04c_qc_before_dedup_all_baseline_records.csv
+reports/04_sample_missingness_details.csv
+reports/04_sample_missingness_qc.txt
+reports/04_sample_qc_discrepancy_note.txt
+reports/05_imputation_qc.txt
+reports/05_imputation_values_by_species.csv
+reports/06_alpha_diversity_qc.txt
+reports/07_clr_qc.txt
+reports/08_zscore_parameters.csv
+reports/08_zscore_qc.txt
+
+The actual data/report contents are intentionally not included in this ZIP.
+The scripts recreate them from the HPP raw data on the server.
