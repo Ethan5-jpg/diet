@@ -1,0 +1,10 @@
+source,input_rows,eligible_rows,input_unique_participants,eligible_unique_participants,derived_unique_participants,matched_master_participants
+population,12014,12014,12014,12014,12014,12014
+selected_baseline_cgm,9405,9405,9405,9405,9405,9405
+sociodemographics,7416,6699,7383,6680,6680,6680
+lifestyle,14861,8636,9262,8581,8581,8581
+medications,43417,28268,10787,10269,10269,10269
+anthropometrics,12956,10402,10404,10402,10402,10402
+family_history,7416,6699,7383,6680,6680,6680
+medical_conditions,52540,41213,10792,10160,10160,10160
+alcohol,9737,9737,9737,9737,9737,9737

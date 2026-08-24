@@ -1,0 +1,12 @@
+metric,value
+participants_in_master,12014
+participants_with_baseline_cgm,9405
+participants_known_diabetes,43
+participants_a10_medication_use,243
+participants_exclude_diabetes_or_a10,256
+amed_model2_covariates_complete,1048
+hpdi_model2_covariates_complete,1029
+amed_model3_covariates_complete,1046
+hpdi_model3_covariates_complete,1027
+amed_model4_covariates_complete,317
+hpdi_model4_covariates_complete,309
