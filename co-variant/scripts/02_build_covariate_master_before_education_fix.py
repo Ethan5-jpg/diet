@@ -3,10 +3,8 @@
 
 The population table defines the participant universe.  Every derived source
 is left-joined to that universe, so missing source data remains missing and no
-participant is removed at this stage.  Analysis-specific complete-case flags are reported separately for microbiome and CGM
-analyses so CGM device type never removes otherwise eligible microbiome participants.
-Education is derived from the HPP
-UKBB-style pre-baseline qualification questionnaire and grouped as high/low.
+participant is removed at this stage.  Model-specific complete-case flags are
+reported separately for later analyses.
 """
 
 from __future__ import print_function
@@ -27,7 +25,7 @@ KEYS = ["participant_id", "cohort"]
 DEFAULT_COHORT = "10k"
 DEFAULT_RESEARCH_STAGE = "00_00_visit"
 
-MICROBIOME_MODEL2_COMMON = [
+MODEL2_COMMON = [
     "age_years",
     "sex",
     "education_level",
@@ -36,15 +34,8 @@ MICROBIOME_MODEL2_COMMON = [
     "physical_activity_met_h_week",
     "vitamin_use",
     "hormone_use",
-]
-
-CGM_MODEL2_COMMON = MICROBIOME_MODEL2_COMMON + [
     "cgm_device_type",
 ]
-
-# Backward-compatible alias.  Historical *_modelX_covariates_complete flags
-# correspond to the CGM-adjusted definitions because they include device type.
-MODEL2_COMMON = CGM_MODEL2_COMMON
 
 CORE_COVARIATES = [
     "age_years",
@@ -70,21 +61,6 @@ EXCLUSION_COLUMNS = [
 ]
 
 MODEL_FLAG_COLUMNS = [
-    # Analysis-specific complete-case flags.
-    "amed_microbiome_model2_covariates_complete",
-    "hpdi_microbiome_model2_covariates_complete",
-    "amed_microbiome_model3_covariates_complete",
-    "hpdi_microbiome_model3_covariates_complete",
-    "amed_microbiome_model4_covariates_complete",
-    "hpdi_microbiome_model4_covariates_complete",
-    "amed_cgm_model2_covariates_complete",
-    "hpdi_cgm_model2_covariates_complete",
-    "amed_cgm_model3_covariates_complete",
-    "hpdi_cgm_model3_covariates_complete",
-    "amed_cgm_model4_covariates_complete",
-    "hpdi_cgm_model4_covariates_complete",
-
-    # Legacy aliases kept so existing downstream scripts do not break.
     "amed_model2_covariates_complete",
     "hpdi_model2_covariates_complete",
     "amed_model3_covariates_complete",
@@ -231,113 +207,6 @@ def _normalize_education(value):
     if text.lower() in {"", "nan", "none", "missing", "unknown"}:
         return np.nan
     return text
-
-
-def _parse_numeric_multiselect(value):
-    """Parse HPP multi-select cells that may be arrays, lists, or strings."""
-    if isinstance(value, np.ndarray):
-        raw_values = value.ravel().tolist()
-    elif isinstance(value, (list, tuple, set)):
-        raw_values = list(value)
-    else:
-        if value is None:
-            return []
-        try:
-            if pd.isna(value):
-                return []
-        except (TypeError, ValueError):
-            pass
-        raw_values = re.findall(r"-?\d+", str(value))
-
-    codes = []
-    for item in raw_values:
-        try:
-            if pd.isna(item):
-                continue
-        except (TypeError, ValueError):
-            pass
-        try:
-            codes.append(int(float(item)))
-        except (TypeError, ValueError):
-            matches = re.findall(r"-?\d+", str(item))
-            codes.extend(int(match) for match in matches)
-    return codes
-
-
-def derive_ukbb_education_level(series):
-    """Map HPP UKBB-style education qualifications to high/low/missing.
-
-    Audit of ``sociodemographics/ukbb.parquet`` showed the paper-like
-    qualification structure at baseline.  Codes 1-6 represent an explicit
-    educational qualification and are grouped as ``high``; code 7 represents
-    the explicit low-education / no-qualification category.  Empty responses
-    and special code 0 remain missing.  When an inconsistent response contains
-    both code 7 and an explicit qualification, the explicit qualification wins.
-    """
-    output = pd.Series(np.nan, index=series.index, dtype=object)
-
-    for index, value in series.items():
-        codes = set(_parse_numeric_multiselect(value))
-        if not codes:
-            continue
-        if codes.intersection({1, 2, 3, 4, 5, 6}):
-            output.loc[index] = "high"
-        elif 7 in codes:
-            output.loc[index] = "low"
-
-    return output
-
-
-def prepare_ukbb_education(frame, cohort, research_stage):
-    """Select one baseline UKBB education record per participant.
-
-    The UKBB sociodemographics parquet stores participant identity in a
-    MultiIndex in the raw HPP dataset.  ``read_parquet`` restores those index
-    fields as ordinary columns before this function is called.  At baseline,
-    the smallest ``array_index`` is selected deterministically, matching the
-    education audit used to validate the high/low mapping.
-    """
-    required = KEYS + ["research_stage", "domestic_education_qualifications"]
-    require_columns(frame, required, "sociodemographics UKBB education")
-    work = filter_baseline(
-        frame,
-        "sociodemographics UKBB education",
-        cohort,
-        research_stage,
-    )
-
-    if work.empty:
-        return pd.DataFrame(
-            columns=KEYS
-            + [
-                "education_qualifications_raw",
-                "education_level",
-                "education_ukbb_array_index",
-            ]
-        )
-
-    if "array_index" in work.columns:
-        work["_array_order"] = pd.to_numeric(
-            work["array_index"], errors="coerce"
-        ).fillna(np.inf)
-    else:
-        work["_array_order"] = np.inf
-
-    work = work.sort_values(KEYS + ["_array_order"], kind="mergesort")
-    selected = work.drop_duplicates(KEYS, keep="first").copy()
-
-    output = selected[KEYS + ["domestic_education_qualifications"]].rename(
-        columns={
-            "domestic_education_qualifications": "education_qualifications_raw"
-        }
-    )
-    output["education_level"] = derive_ukbb_education_level(
-        selected["domestic_education_qualifications"]
-    ).values
-    output["education_ukbb_array_index"] = selected.get(
-        "array_index", pd.Series(np.nan, index=selected.index)
-    ).values
-    return output
 
 
 def derive_smoking_status(current, past):
@@ -708,7 +577,6 @@ def build_covariate_master(
     population,
     cgm,
     sociodemographics,
-    education_ukbb,
     lifestyle,
     medications,
     anthropometrics,
@@ -791,13 +659,9 @@ def build_covariate_master(
     )
     socio_piece = socio_selected[KEYS + ["education", "collection_timestamp"]].rename(
         columns={
-            "education": "education_initial_medical_raw",
+            "education": "education_raw",
             "collection_timestamp": "sociodemographics_collection_timestamp",
         }
-    )
-
-    education_piece = prepare_ukbb_education(
-        education_ukbb, cohort, research_stage
     )
 
     lifestyle_fields = [
@@ -881,7 +745,6 @@ def build_covariate_master(
 
     pieces = [
         socio_piece,
-        education_piece,
         lifestyle_piece,
         anthropometric_piece,
         family_piece,
@@ -927,21 +790,19 @@ def build_covariate_master(
 
     master["age_years"] = _derive_age(master)
     master["sex"] = master["sex_raw"].map(_normalize_sex)
+    master["education_level"] = master["education_raw"].map(_normalize_education)
     master["exclude_diabetes_or_a10"] = _three_state_union(
         master["known_diabetes"], master["a10_medication_use"]
     )
 
-    microbiome_model_definitions = {
-        "amed_microbiome_model2_covariates_complete": MICROBIOME_MODEL2_COMMON,
-        "hpdi_microbiome_model2_covariates_complete": MICROBIOME_MODEL2_COMMON
-        + ["alcohol_intake_g_day"],
-        "amed_microbiome_model3_covariates_complete": MICROBIOME_MODEL2_COMMON
-        + ["bmi"],
-        "hpdi_microbiome_model3_covariates_complete": MICROBIOME_MODEL2_COMMON
-        + ["bmi", "alcohol_intake_g_day"],
-        "amed_microbiome_model4_covariates_complete": MICROBIOME_MODEL2_COMMON
+    model_definitions = {
+        "amed_model2_covariates_complete": MODEL2_COMMON,
+        "hpdi_model2_covariates_complete": MODEL2_COMMON + ["alcohol_intake_g_day"],
+        "amed_model3_covariates_complete": MODEL2_COMMON + ["bmi"],
+        "hpdi_model3_covariates_complete": MODEL2_COMMON + ["bmi", "alcohol_intake_g_day"],
+        "amed_model4_covariates_complete": MODEL2_COMMON
         + ["nsaid_aspirin_use", "family_history_diabetes", "family_history_cvd"],
-        "hpdi_microbiome_model4_covariates_complete": MICROBIOME_MODEL2_COMMON
+        "hpdi_model4_covariates_complete": MODEL2_COMMON
         + [
             "nsaid_aspirin_use",
             "family_history_diabetes",
@@ -949,43 +810,8 @@ def build_covariate_master(
             "alcohol_intake_g_day",
         ],
     }
-
-    cgm_model_definitions = {
-        "amed_cgm_model2_covariates_complete": CGM_MODEL2_COMMON,
-        "hpdi_cgm_model2_covariates_complete": CGM_MODEL2_COMMON
-        + ["alcohol_intake_g_day"],
-        "amed_cgm_model3_covariates_complete": CGM_MODEL2_COMMON + ["bmi"],
-        "hpdi_cgm_model3_covariates_complete": CGM_MODEL2_COMMON
-        + ["bmi", "alcohol_intake_g_day"],
-        "amed_cgm_model4_covariates_complete": CGM_MODEL2_COMMON
-        + ["nsaid_aspirin_use", "family_history_diabetes", "family_history_cvd"],
-        "hpdi_cgm_model4_covariates_complete": CGM_MODEL2_COMMON
-        + [
-            "nsaid_aspirin_use",
-            "family_history_diabetes",
-            "family_history_cvd",
-            "alcohol_intake_g_day",
-        ],
-    }
-
-    for flag, columns in {
-        **microbiome_model_definitions,
-        **cgm_model_definitions,
-    }.items():
+    for flag, columns in model_definitions.items():
         master[flag] = master[columns].notna().all(axis=1).astype(bool)
-
-    # Backward compatibility: the historical flags included CGM device type,
-    # so preserve them as exact aliases of the CGM-specific definitions.
-    legacy_aliases = {
-        "amed_model2_covariates_complete": "amed_cgm_model2_covariates_complete",
-        "hpdi_model2_covariates_complete": "hpdi_cgm_model2_covariates_complete",
-        "amed_model3_covariates_complete": "amed_cgm_model3_covariates_complete",
-        "hpdi_model3_covariates_complete": "hpdi_cgm_model3_covariates_complete",
-        "amed_model4_covariates_complete": "amed_cgm_model4_covariates_complete",
-        "hpdi_model4_covariates_complete": "hpdi_cgm_model4_covariates_complete",
-    }
-    for legacy_flag, canonical_flag in legacy_aliases.items():
-        master[legacy_flag] = master[canonical_flag].astype(bool)
 
     source_rows = []
     source_specs = [
@@ -996,17 +822,6 @@ def build_covariate_master(
             sociodemographics,
             filter_baseline(sociodemographics, "sociodemographics", cohort, research_stage),
             socio_selected,
-        ),
-        (
-            "sociodemographics_ukbb_education",
-            education_ukbb,
-            filter_baseline(
-                education_ukbb,
-                "sociodemographics UKBB education",
-                cohort,
-                research_stage,
-            ),
-            education_piece,
         ),
         (
             "lifestyle",
@@ -1075,9 +890,6 @@ def build_covariate_master(
     summary = {
         "participants_in_master": int(len(master)),
         "participants_with_baseline_cgm": int(master["has_baseline_cgm"].sum()),
-        "participants_education_high": int(master["education_level"].eq("high").sum()),
-        "participants_education_low": int(master["education_level"].eq("low").sum()),
-        "participants_education_missing": int(master["education_level"].isna().sum()),
         "participants_known_diabetes": int(master["known_diabetes"].eq(1).sum()),
         "participants_a10_medication_use": int(master["a10_medication_use"].eq(1).sum()),
         "participants_exclude_diabetes_or_a10": int(
@@ -1144,18 +956,6 @@ def read_csv(path, label):
     )
 
 
-def read_parquet(path, label):
-    """Read an HPP parquet and restore named index fields as columns."""
-    path = Path(path)
-    if not path.is_file():
-        raise FileNotFoundError("{} does not exist: {}".format(label, path))
-    frame = pd.read_parquet(str(path))
-    named_index = [name for name in frame.index.names if name is not None]
-    if named_index:
-        frame = frame.reset_index()
-    return frame
-
-
 def parse_args(argv=None):
     script_path = Path(__file__).resolve()
     default_project_root = script_path.parents[1]
@@ -1165,17 +965,6 @@ def parse_args(argv=None):
     )
     parser.add_argument("--project-root", default=str(default_project_root))
     parser.add_argument("--csv-dir", default=str(default_project_root / "csv"))
-    default_hpp_dataset_root = Path(
-        os.environ.get("HPP_DATASET_ROOT", "/home/ec2-user/studies/hpp_datasets")
-    )
-    parser.add_argument(
-        "--education-ukbb-parquet",
-        default=str(
-            default_hpp_dataset_root
-            / "sociodemographics"
-            / "ukbb.parquet"
-        ),
-    )
     parser.add_argument(
         "--baseline-cgm-csv",
         default=str(
@@ -1217,10 +1006,6 @@ def main(argv=None):
             csv_dir / "sociodemographics_initial_medical.csv",
             "sociodemographics CSV",
         ),
-        "education_ukbb": read_parquet(
-            args.education_ukbb_parquet,
-            "sociodemographics UKBB education parquet",
-        ),
         "lifestyle": read_csv(
             csv_dir / "lifestyle_and_environment.csv", "lifestyle CSV"
         ),
@@ -1240,7 +1025,6 @@ def main(argv=None):
     print("=== 02 PARTICIPANT COVARIATE MASTER ===")
     print("PROJECT_ROOT={}".format(Path(args.project_root)))
     print("CSV_DIR={}".format(csv_dir))
-    print("EDUCATION_UKBB_PARQUET={}".format(args.education_ukbb_parquet))
     print("BASELINE_CGM_CSV={}".format(args.baseline_cgm_csv))
     print("ALCOHOL_CSV={}".format(args.alcohol_csv))
     print("OUTPUT_DIR={}".format(args.output_dir))

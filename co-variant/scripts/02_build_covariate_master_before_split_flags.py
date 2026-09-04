@@ -3,9 +3,8 @@
 
 The population table defines the participant universe.  Every derived source
 is left-joined to that universe, so missing source data remains missing and no
-participant is removed at this stage.  Analysis-specific complete-case flags are reported separately for microbiome and CGM
-analyses so CGM device type never removes otherwise eligible microbiome participants.
-Education is derived from the HPP
+participant is removed at this stage.  Model-specific complete-case flags are
+reported separately for later analyses. Education is derived from the HPP
 UKBB-style pre-baseline qualification questionnaire and grouped as high/low.
 """
 
@@ -27,7 +26,7 @@ KEYS = ["participant_id", "cohort"]
 DEFAULT_COHORT = "10k"
 DEFAULT_RESEARCH_STAGE = "00_00_visit"
 
-MICROBIOME_MODEL2_COMMON = [
+MODEL2_COMMON = [
     "age_years",
     "sex",
     "education_level",
@@ -36,15 +35,8 @@ MICROBIOME_MODEL2_COMMON = [
     "physical_activity_met_h_week",
     "vitamin_use",
     "hormone_use",
-]
-
-CGM_MODEL2_COMMON = MICROBIOME_MODEL2_COMMON + [
     "cgm_device_type",
 ]
-
-# Backward-compatible alias.  Historical *_modelX_covariates_complete flags
-# correspond to the CGM-adjusted definitions because they include device type.
-MODEL2_COMMON = CGM_MODEL2_COMMON
 
 CORE_COVARIATES = [
     "age_years",
@@ -70,21 +62,6 @@ EXCLUSION_COLUMNS = [
 ]
 
 MODEL_FLAG_COLUMNS = [
-    # Analysis-specific complete-case flags.
-    "amed_microbiome_model2_covariates_complete",
-    "hpdi_microbiome_model2_covariates_complete",
-    "amed_microbiome_model3_covariates_complete",
-    "hpdi_microbiome_model3_covariates_complete",
-    "amed_microbiome_model4_covariates_complete",
-    "hpdi_microbiome_model4_covariates_complete",
-    "amed_cgm_model2_covariates_complete",
-    "hpdi_cgm_model2_covariates_complete",
-    "amed_cgm_model3_covariates_complete",
-    "hpdi_cgm_model3_covariates_complete",
-    "amed_cgm_model4_covariates_complete",
-    "hpdi_cgm_model4_covariates_complete",
-
-    # Legacy aliases kept so existing downstream scripts do not break.
     "amed_model2_covariates_complete",
     "hpdi_model2_covariates_complete",
     "amed_model3_covariates_complete",
@@ -931,17 +908,14 @@ def build_covariate_master(
         master["known_diabetes"], master["a10_medication_use"]
     )
 
-    microbiome_model_definitions = {
-        "amed_microbiome_model2_covariates_complete": MICROBIOME_MODEL2_COMMON,
-        "hpdi_microbiome_model2_covariates_complete": MICROBIOME_MODEL2_COMMON
-        + ["alcohol_intake_g_day"],
-        "amed_microbiome_model3_covariates_complete": MICROBIOME_MODEL2_COMMON
-        + ["bmi"],
-        "hpdi_microbiome_model3_covariates_complete": MICROBIOME_MODEL2_COMMON
-        + ["bmi", "alcohol_intake_g_day"],
-        "amed_microbiome_model4_covariates_complete": MICROBIOME_MODEL2_COMMON
+    model_definitions = {
+        "amed_model2_covariates_complete": MODEL2_COMMON,
+        "hpdi_model2_covariates_complete": MODEL2_COMMON + ["alcohol_intake_g_day"],
+        "amed_model3_covariates_complete": MODEL2_COMMON + ["bmi"],
+        "hpdi_model3_covariates_complete": MODEL2_COMMON + ["bmi", "alcohol_intake_g_day"],
+        "amed_model4_covariates_complete": MODEL2_COMMON
         + ["nsaid_aspirin_use", "family_history_diabetes", "family_history_cvd"],
-        "hpdi_microbiome_model4_covariates_complete": MICROBIOME_MODEL2_COMMON
+        "hpdi_model4_covariates_complete": MODEL2_COMMON
         + [
             "nsaid_aspirin_use",
             "family_history_diabetes",
@@ -949,43 +923,8 @@ def build_covariate_master(
             "alcohol_intake_g_day",
         ],
     }
-
-    cgm_model_definitions = {
-        "amed_cgm_model2_covariates_complete": CGM_MODEL2_COMMON,
-        "hpdi_cgm_model2_covariates_complete": CGM_MODEL2_COMMON
-        + ["alcohol_intake_g_day"],
-        "amed_cgm_model3_covariates_complete": CGM_MODEL2_COMMON + ["bmi"],
-        "hpdi_cgm_model3_covariates_complete": CGM_MODEL2_COMMON
-        + ["bmi", "alcohol_intake_g_day"],
-        "amed_cgm_model4_covariates_complete": CGM_MODEL2_COMMON
-        + ["nsaid_aspirin_use", "family_history_diabetes", "family_history_cvd"],
-        "hpdi_cgm_model4_covariates_complete": CGM_MODEL2_COMMON
-        + [
-            "nsaid_aspirin_use",
-            "family_history_diabetes",
-            "family_history_cvd",
-            "alcohol_intake_g_day",
-        ],
-    }
-
-    for flag, columns in {
-        **microbiome_model_definitions,
-        **cgm_model_definitions,
-    }.items():
+    for flag, columns in model_definitions.items():
         master[flag] = master[columns].notna().all(axis=1).astype(bool)
-
-    # Backward compatibility: the historical flags included CGM device type,
-    # so preserve them as exact aliases of the CGM-specific definitions.
-    legacy_aliases = {
-        "amed_model2_covariates_complete": "amed_cgm_model2_covariates_complete",
-        "hpdi_model2_covariates_complete": "hpdi_cgm_model2_covariates_complete",
-        "amed_model3_covariates_complete": "amed_cgm_model3_covariates_complete",
-        "hpdi_model3_covariates_complete": "hpdi_cgm_model3_covariates_complete",
-        "amed_model4_covariates_complete": "amed_cgm_model4_covariates_complete",
-        "hpdi_model4_covariates_complete": "hpdi_cgm_model4_covariates_complete",
-    }
-    for legacy_flag, canonical_flag in legacy_aliases.items():
-        master[legacy_flag] = master[canonical_flag].astype(bool)
 
     source_rows = []
     source_specs = [
