@@ -1,0 +1,108 @@
+[
+  {
+    "source_relative_to_parent": "scripts/cgm_models_current4_common.py",
+    "source_sha256": "105d879935cb85dfbb228c1642317b2446efe9530339c183f6747850709be82e",
+    "target": "scripts/legacy_diet_models.py",
+    "target_sha256": "45f08de509aaf3059abbbf8fbd2ab2e36eff668bf54f838ac4dd3b952d9a52b3",
+    "symbols": [
+      {
+        "symbol": "BASE_CONTINUOUS",
+        "source_line": 29,
+        "sha256": "97345fd4587fd93eb941e7864828ff1401f02743350628de2c6db681b575e45e"
+      },
+      {
+        "symbol": "BINARY",
+        "source_line": 34,
+        "sha256": "ce61f7c7a8719272c1003454407b6aa606369308789c2cad75f45cf646354726"
+      },
+      {
+        "symbol": "bh_fdr",
+        "source_line": 37,
+        "sha256": "feac5b16c5ce947759a97573905ff54b1b0579e239e6ed749fcf2e63afa2c7fc"
+      },
+      {
+        "symbol": "to_bool",
+        "source_line": 51,
+        "sha256": "92bc825addf03b952aa94df5011a5732c50ff5dc7d9af5d3611fa7ebe3c2ff43"
+      },
+      {
+        "symbol": "z_numeric",
+        "source_line": 72,
+        "sha256": "dcaebc2e644e2f24483421c7f76921db737c270bacc8a5ea0f7fb067f637a25c"
+      },
+      {
+        "symbol": "binary_numeric",
+        "source_line": 83,
+        "sha256": "3f78236e74d43c576ae528577998e0d4a7d6b426f9290846f4a8f649faa45463"
+      },
+      {
+        "symbol": "normalize_text",
+        "source_line": 93,
+        "sha256": "cc4870590a96c6a12656afad547743b23771345c0b67963321070d4e772e3363"
+      },
+      {
+        "symbol": "add_dummy",
+        "source_line": 97,
+        "sha256": "5c66738e700c541bb9e8c47679aa4becbe1bc0a7a4d9fed1ddc6e9f047cc4a01"
+      },
+      {
+        "symbol": "build_design",
+        "source_line": 112,
+        "sha256": "99f512ff6dfa9c97ff23dd7b992f2daf042e97dbd6ef902cc9e6a6b59eaa77cc"
+      },
+      {
+        "symbol": "fit_ols",
+        "source_line": 204,
+        "sha256": "0d92333e8c6ed04aa847ec9091d35e1959e42d749a4c43860bd3a47906a2630f"
+      }
+    ]
+  },
+  {
+    "source_relative_to_parent": "scripts/07_microbiome_to_cgm_model3_bmi.py",
+    "source_sha256": "a4f1ba4cdc2be6e2a10a91f9c286bfaca94e0a5230d0b8c0b070fdedd21f524e",
+    "target": "scripts/legacy_microbiome_models.py",
+    "target_sha256": "640d9277519edf00625888e8068e1f9a142c8287bc40a37a7d799ead34d881a6",
+    "symbols": [
+      {
+        "symbol": "BASE_CONTINUOUS_COVARS",
+        "source_line": 89,
+        "sha256": "9afde9223a1831fc3b44fc69fb6ea110f4472ee0fd03b29fe9f2f06020e443ef"
+      },
+      {
+        "symbol": "BINARY_COVARS",
+        "source_line": 95,
+        "sha256": "e09a27063f8c285c9fe29c216723338842c16d4da6a1c8af6664ffe588145829"
+      },
+      {
+        "symbol": "normalize_text",
+        "source_line": 220,
+        "sha256": "cc4870590a96c6a12656afad547743b23771345c0b67963321070d4e772e3363"
+      },
+      {
+        "symbol": "numeric_binary",
+        "source_line": 224,
+        "sha256": "93ec0cf79c3d488204b5e21e8a8d7bd8703660d99740f189b4a1ac4fc9ffb985"
+      },
+      {
+        "symbol": "zscore",
+        "source_line": 240,
+        "sha256": "2cad783bd7b3a1de8109d008de0d850192da4573579c9e37be4b9419987873a6"
+      },
+      {
+        "symbol": "build_covariate_design",
+        "source_line": 255,
+        "sha256": "291bc0bc813e928e576e7cd7603befb9da27455e6ae62f9ec5355f6cb153fc1f"
+      },
+      {
+        "symbol": "residualize_against_covariates",
+        "source_line": 371,
+        "sha256": "82d3f48cc392105e49cf22552949e40c7cef7daeedc306157276fe139a6e61ab"
+      },
+      {
+        "symbol": "fit_all_species_adjusted",
+        "source_line": 376,
+        "sha256": "83d11187991f576f600effef8abbfb3e3ae7d5749fc0b0ea0365a1187cce5670"
+      }
+    ]
+  }
+]

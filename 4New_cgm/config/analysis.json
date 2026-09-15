@@ -1,0 +1,11 @@
+{
+  "cgm_csv": "cgm_deal/outputs/cgm_extension/data/finalize_20260915T074925_139680Z_b375d22f/06_cgm_extended_phenotypes.csv",
+  "old_scores_csv": "diet_microbiome_analysis/data/00_current_four_scores_all_participants.csv",
+  "new_scores_csv": "diet_microbiome_glucose_analysis/outputs/reports/new_diet_extension/15b_new_diet_extension_candidate_master.csv",
+  "microbiome_csv": "gut_microbiome_deal/data/08_species_clr_zscore.csv",
+  "covariates_csv": "co-variant/outputs/data/02_covariate_master.csv",
+  "expected_species": 379,
+  "minimum_model_n": 100,
+  "run_strict_sensitivity": true,
+  "run_same_cohort_comparisons": true
+}
