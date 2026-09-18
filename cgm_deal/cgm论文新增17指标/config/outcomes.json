@@ -1,0 +1,23 @@
+{
+  "version": "2026-09-18.1",
+  "official_dictionary": "https://knowledgebase.pheno.ai/datasets/017-cgm.html",
+  "outcomes": [
+    {"field": "cgm_median", "label": "Median glucose", "domain": "nonnegative", "rule": "robust95_8_5"},
+    {"field": "cgm_gmi", "label": "GMI", "domain": "nonnegative", "rule": "reuse_legacy", "note": "Mean glucose的线性换算，不作为独立重复证据"},
+    {"field": "cgm_iqr", "label": "IQR", "domain": "nonnegative", "rule": "robust95_8_5"},
+    {"field": "cgm_mad", "label": "MAD", "domain": "nonnegative", "rule": "robust95_8_5"},
+    {"field": "cgm_mag", "label": "MAG", "domain": "nonnegative", "rule": "robust95_8_5", "note": "MAG与MAGE不同"},
+    {"field": "cgm_modd", "label": "MODD", "domain": "nonnegative", "rule": "reuse_legacy"},
+    {"field": "cgm_sd_roc", "label": "SD of rate of change", "domain": "nonnegative", "rule": "robust95_8_5"},
+    {"field": "cgm_sdhhmm", "label": "Time-of-day SD (SDhhmm)", "domain": "nonnegative", "rule": "robust95_8_5"},
+    {"field": "cgm_sdb", "label": "Between-day SD at matched time points (SDb)", "domain": "nonnegative", "rule": "robust95_8_5", "note": "与SDdm分别保留；论文Interday SD映射未定"},
+    {"field": "cgm_sddm", "label": "SD of daily means (SDdm)", "domain": "nonnegative", "rule": "robust95_8_5", "note": "与SDb分别保留；论文Interday SD映射未定"},
+    {"field": "cgm_sdwsh", "label": "Within-hour SD (SDwsh)", "domain": "nonnegative", "rule": "robust95_8_5"},
+    {"field": "cgm_hbgi", "label": "HBGI", "domain": "nonnegative", "rule": "robust95_8_5"},
+    {"field": "cgm_lbgi", "label": "LBGI", "domain": "nonnegative", "rule": "robust95_8_5"},
+    {"field": "cgm_adrr", "label": "ADRR", "domain": "nonnegative", "rule": "robust95_8_5"},
+    {"field": "cgm_cogi", "label": "COGI", "domain": "bounded_0_100", "rule": "legal_unchanged"},
+    {"field": "cgm_grade", "label": "GRADE", "domain": "nonnegative", "rule": "robust95_8_5"},
+    {"field": "cgm_grade_eugly", "label": "GRADE Euglycemia", "domain": "bounded_0_100", "rule": "legal_unchanged", "note": "正常范围对GRADE的贡献百分比，不是TIR"}
+  ]
+}
