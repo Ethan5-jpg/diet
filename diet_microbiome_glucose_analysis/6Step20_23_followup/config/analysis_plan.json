@@ -1,0 +1,32 @@
+{
+  "version": "2026-09-20.1",
+  "known_step19b_run": "step19b_20260920T030809_033720Z",
+  "expected": {
+    "candidates": 1490,
+    "retained": 871,
+    "species": 109,
+    "primary": 1003,
+    "strict_retained": 887,
+    "protocol_retained": 940,
+    "domains": {
+      "glycemic_level": 202,
+      "glycemic_variability": 598,
+      "glycemic_risk_range": 71
+    }
+  },
+  "min_pair_n": 100,
+  "high_correlation_threshold": 0.8,
+  "total_near_zero_threshold": 0.01,
+  "representative_fields": [
+    "cgm_mean",
+    "cgm_cv",
+    "cgm_modd",
+    "cgm_sdw",
+    "cgm_lbgi",
+    "cgm_hbgi",
+    "cgm_above_140",
+    "cgm_cogi",
+    "cgm_grade_eugly"
+  ],
+  "representative_note": "Post-results descriptive reduced panel chosen by metric meaning; not preregistered and not a new inferential family. Full20 and no-GMI19 always reported."
+}

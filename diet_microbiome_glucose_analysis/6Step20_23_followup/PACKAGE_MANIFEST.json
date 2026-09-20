@@ -1,0 +1,122 @@
+{
+  "package": "HPP Step20-23 followup",
+  "version": "2026-09-20.1",
+  "purpose": "Upload-content inventory; not a signed attestation or proof of server results",
+  "files": [
+    {
+      "file": "README.md",
+      "bytes": 4519,
+      "sha256": "56339979e9d71eb3b441790b71ee175ed1d90dc69dbc87fd3665a60829df0948"
+    },
+    {
+      "file": "config/analysis_plan.json",
+      "bytes": 837,
+      "sha256": "f340fb09d5c070f8c0dc3bc91fd037c05c344c0e1beb8562a6f29a7370d8b818"
+    },
+    {
+      "file": "config/literature_starting_evidence.csv",
+      "bytes": 1861,
+      "sha256": "9f8ae0b4c92349401a37f4baf7790493be24ce9ca6c821d3ff366d5eddfe4630"
+    },
+    {
+      "file": "config/outcome_dictionary.csv",
+      "bytes": 8725,
+      "sha256": "fcbb51905717800e7d6ea11f4b15b41c6803ba100604fc2560df5a3b7b943472"
+    },
+    {
+      "file": "docs/local_code_reference_hashes.json",
+      "bytes": 2521,
+      "sha256": "55f65e63dbbb3ccddcea0efc7bfce22ddcd882af8c8fd635a71585e2a70b67b9"
+    },
+    {
+      "file": "docs/local_test_execution_log.txt",
+      "bytes": 3559,
+      "sha256": "874c3ec954d784407070fad783b381be168edafb6f72f1f7f9203b99f2812bdf"
+    },
+    {
+      "file": "docs/plans/2026-09-20-followup.md",
+      "bytes": 2152,
+      "sha256": "e84e2a193e4a49072958e42f0b11334b8b96d1d880b7961ff6fb8b7b7055da51"
+    },
+    {
+      "file": "docs/public_source_register.json",
+      "bytes": 1405,
+      "sha256": "88487e50c7c421bb8b4544c1bd922361a36ed6bfb48015680c914af646186813"
+    },
+    {
+      "file": "docs/官方定义核查与解释修正.md",
+      "bytes": 3933,
+      "sha256": "3b69a8991da597fd10dc1f9f97e09baa23c60251161f7ed95240e45313619601"
+    },
+    {
+      "file": "docs/方法核对及后续写作边界.md",
+      "bytes": 3773,
+      "sha256": "24a7dd48fd90e93bbfb61006b10e4ac63b277988b2bdb9a438270664dac58533"
+    },
+    {
+      "file": "docs/本地验证记录.md",
+      "bytes": 3048,
+      "sha256": "98814bd20c6442d412347d97100eb844a1a11dbfc67f093b4c0605e2df0e587d"
+    },
+    {
+      "file": "docs/机制证据起点与研究清单.md",
+      "bytes": 2938,
+      "sha256": "eb04ab4e47a055c915df323c1b9b15f136054421115501718cbf62450a655286"
+    },
+    {
+      "file": "docs/输入路径与输出索引.md",
+      "bytes": 3890,
+      "sha256": "fbf3a8dc079b322cac09bc516fc88d0113a826e8c6df9185e0ebd8544395ef73"
+    },
+    {
+      "file": "requirements.txt",
+      "bytes": 40,
+      "sha256": "74de79464cdb4f6571f07b3a5bf412452be6efbe58968b6f29384657139068e9"
+    },
+    {
+      "file": "run_followup.sh",
+      "bytes": 781,
+      "sha256": "14e1fb6c4104acc7ab47183bfd0df91177772d437deae1bb87a72b155adeed5a"
+    },
+    {
+      "file": "scripts/analyses.py",
+      "bytes": 15280,
+      "sha256": "dff32d80046360dc2ada4a156260d1555f0d3602ba1dbfc56568fbaf1fe440b1"
+    },
+    {
+      "file": "scripts/cohort.py",
+      "bytes": 14038,
+      "sha256": "1f533145ed2aa210cebf2e6cd37ee85aaba653980d1d29016872ad5df357a71b"
+    },
+    {
+      "file": "scripts/common.py",
+      "bytes": 5497,
+      "sha256": "581cf1f55ada4dc22270bd896e7f633d508f6d1fcdfe53da7d26a6f064078b35"
+    },
+    {
+      "file": "scripts/plots.py",
+      "bytes": 8318,
+      "sha256": "ac9625cfb164820984d19d761b74fe82c74cf5d9ec387ef17010e99c1c125f25"
+    },
+    {
+      "file": "scripts/run_followup.py",
+      "bytes": 20249,
+      "sha256": "0be8bad423093f858af484e460d8123fae36c014c6da4d50b167c9eb5b26eee5"
+    },
+    {
+      "file": "scripts/show_results.py",
+      "bytes": 833,
+      "sha256": "01a64a4573b6fc3599402cf693d2cdeb3b9d15f0dc045f8c59e70687f8de83d8"
+    },
+    {
+      "file": "tests/fixtures.py",
+      "bytes": 8788,
+      "sha256": "35b7ea33a2322c74df79bb2eb6647ad3196901e85c1b3fe3ed3615082224b303"
+    },
+    {
+      "file": "tests/test_followup.py",
+      "bytes": 10127,
+      "sha256": "55cdc895f5f9d9e95eaf6a9c8c65d0f5d7d0c5462531ef09a6d145b5f2d6222e"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "evidence_type": "manual_transcription_of_user_server_screenshot",
+  "server_run": "followup_20260920T044755_767120Z",
+  "screenshot": {
+    "file": "server_global_fdr_joint3.png",
+    "original_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_Y7wxF6/截屏2026-09-20 13.13.09.png",
+    "sha256": "0ea9927a46da23b00113dab2cd1e9d20ed3c20bfaa6a3690a4c4c73e0cb9a9bf"
+  },
+  "independent_CSV_review_completed": false,
+  "frozen_paths": 871,
+  "missing_global_q": {
+    "primary": 0,
+    "strict": 0,
+    "protocol": 0
+  },
+  "passed_global_q_lt_0_05": {
+    "primary": 865,
+    "strict": 837,
+    "protocol": 863,
+    "joint3": 832
+  },
+  "core_taxa": [
+    {
+      "taxon_id": "T023",
+      "frozen": 16,
+      "primary": 16,
+      "strict": 16,
+      "protocol": 16,
+      "joint3": 16,
+      "not_joint3": 0
+    },
+    {
+      "taxon_id": "T046",
+      "frozen": 19,
+      "primary": 19,
+      "strict": 16,
+      "protocol": 19,
+      "joint3": 16,
+      "not_joint3": 3
+    },
+    {
+      "taxon_id": "T068",
+      "frozen": 28,
+      "primary": 28,
+      "strict": 28,
+      "protocol": 28,
+      "joint3": 28,
+      "not_joint3": 0
+    },
+    {
+      "taxon_id": "T096",
+      "frozen": 27,
+      "primary": 27,
+      "strict": 27,
+      "protocol": 27,
+      "joint3": 27,
+      "not_joint3": 0
+    }
+  ],
+  "derived": {
+    "joint3_retention_pct": 95.5223880597015,
+    "not_joint3_paths": 39,
+    "core_frozen_paths": 90,
+    "core_joint3_paths": 87,
+    "core_joint3_retention_pct": 96.66666666666667
+  },
+  "pending": [
+    "T046_three_non_joint_path_identities_and_global_q",
+    "T046_domain_coverage_after_joint_global_q_filter",
+    "all_domain_counts_after_joint_global_q_filter"
+  ],
+  "interpretation": "Existing global q values applied as sensitivity labels within original frozen 871; neither new FDR computation nor replacement of primary frozen selection."
+}

@@ -1,0 +1,118 @@
+{
+  "evidence_type": "manual_transcription_of_user_server_screenshot",
+  "server_run": "followup_20260920T044755_767120Z",
+  "screenshot": {
+    "file": "server_redundancy_core_panels.png",
+    "original_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_ngt6hp/截屏2026-09-20 13.06.11.png",
+    "sha256": "4fa2eec6ff84bc41f545f9b4a8c3bafa8e2078ffd9ec2b5895caceebbe66c3e7"
+  },
+  "independent_CSV_review_completed": false,
+  "mean_gmi_path_overlap": [
+    {
+      "stage": "all_candidates",
+      "mean_paths": 76,
+      "gmi_paths": 76,
+      "intersection": 76,
+      "union": 76,
+      "Jaccard_display": "1.0000",
+      "mean_only": 0,
+      "gmi_only": 0
+    },
+    {
+      "stage": "primary_robust",
+      "mean_paths": 66,
+      "gmi_paths": 69,
+      "intersection": 66,
+      "union": 69,
+      "Jaccard_display": "0.9565",
+      "mean_only": 0,
+      "gmi_only": 3
+    },
+    {
+      "stage": "retained_both",
+      "mean_paths": 62,
+      "gmi_paths": 62,
+      "intersection": 61,
+      "union": 63,
+      "Jaccard_display": "0.9683",
+      "mean_only": 1,
+      "gmi_only": 1
+    }
+  ],
+  "original_four_core_taxa_panels": [
+    {
+      "taxon_id": "T023",
+      "panel": "full20",
+      "retained_paths": 16,
+      "domain_breadth": 3
+    },
+    {
+      "taxon_id": "T023",
+      "panel": "no_GMI19",
+      "retained_paths": 13,
+      "domain_breadth": 3
+    },
+    {
+      "taxon_id": "T023",
+      "panel": "concept_panel9",
+      "retained_paths": 7,
+      "domain_breadth": 2
+    },
+    {
+      "taxon_id": "T046",
+      "panel": "full20",
+      "retained_paths": 19,
+      "domain_breadth": 3
+    },
+    {
+      "taxon_id": "T046",
+      "panel": "no_GMI19",
+      "retained_paths": 15,
+      "domain_breadth": 3
+    },
+    {
+      "taxon_id": "T046",
+      "panel": "concept_panel9",
+      "retained_paths": 9,
+      "domain_breadth": 2
+    },
+    {
+      "taxon_id": "T068",
+      "panel": "full20",
+      "retained_paths": 28,
+      "domain_breadth": 3
+    },
+    {
+      "taxon_id": "T068",
+      "panel": "no_GMI19",
+      "retained_paths": 26,
+      "domain_breadth": 3
+    },
+    {
+      "taxon_id": "T068",
+      "panel": "concept_panel9",
+      "retained_paths": 11,
+      "domain_breadth": 3
+    },
+    {
+      "taxon_id": "T096",
+      "panel": "full20",
+      "retained_paths": 27,
+      "domain_breadth": 3
+    },
+    {
+      "taxon_id": "T096",
+      "panel": "no_GMI19",
+      "retained_paths": 23,
+      "domain_breadth": 3
+    },
+    {
+      "taxon_id": "T096",
+      "panel": "concept_panel9",
+      "retained_paths": 14,
+      "domain_breadth": 2
+    }
+  ],
+  "derived_note": "Deleting all 62 GMI paths would leave 809 of 871. Collapsing only the 61 shared Mean/GMI pairs would leave 810; these are different operations, neither establishes independence of remaining paths.",
+  "interpretation_limit": "concept_panel9 is post-results descriptive selection, not an independently validated or preregistered panel."
+}

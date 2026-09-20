@@ -1,0 +1,189 @@
+{
+  "evidence_type": "manual transcription from user screenshot; not server CSV",
+  "source_image": "05_cross_domain2_summary.png",
+  "full_taxonomy_not_in_screenshot": true,
+  "rows": [
+    {
+      "taxon_id": "T019",
+      "display_species": "Alistipes_ihumii",
+      "paths": 26,
+      "b_positive": 0,
+      "b_negative": 26,
+      "indirect_positive": 26,
+      "indirect_negative": 0,
+      "indirect_stable_paths": 26
+    },
+    {
+      "taxon_id": "T107",
+      "display_species": "Escherichia_coli",
+      "paths": 21,
+      "b_positive": 4,
+      "b_negative": 17,
+      "indirect_positive": 17,
+      "indirect_negative": 4,
+      "indirect_stable_paths": 21
+    },
+    {
+      "taxon_id": "T028",
+      "display_species": "Streptococcus_salivarius",
+      "paths": 20,
+      "b_positive": 20,
+      "b_negative": 0,
+      "indirect_positive": 11,
+      "indirect_negative": 9,
+      "indirect_stable_paths": 20
+    },
+    {
+      "taxon_id": "T082",
+      "display_species": "GGB9615_SGB15052",
+      "paths": 16,
+      "b_positive": 11,
+      "b_negative": 5,
+      "indirect_positive": 11,
+      "indirect_negative": 5,
+      "indirect_stable_paths": 16
+    },
+    {
+      "taxon_id": "T042",
+      "display_species": "GGB9522_SGB14921",
+      "paths": 16,
+      "b_positive": 4,
+      "b_negative": 12,
+      "indirect_positive": 12,
+      "indirect_negative": 4,
+      "indirect_stable_paths": 16
+    },
+    {
+      "taxon_id": "T098",
+      "display_species": "Firmicutes_bacterium",
+      "paths": 16,
+      "b_positive": 4,
+      "b_negative": 12,
+      "indirect_positive": 12,
+      "indirect_negative": 4,
+      "indirect_stable_paths": 16
+    },
+    {
+      "taxon_id": "T037",
+      "display_species": "Clostridia_unclassified_SGB4447",
+      "paths": 13,
+      "b_positive": 10,
+      "b_negative": 3,
+      "indirect_positive": 10,
+      "indirect_negative": 3,
+      "indirect_stable_paths": 13
+    },
+    {
+      "taxon_id": "T088",
+      "display_species": "GGB9667_SGB15164",
+      "paths": 12,
+      "b_positive": 3,
+      "b_negative": 9,
+      "indirect_positive": 9,
+      "indirect_negative": 3,
+      "indirect_stable_paths": 12
+    },
+    {
+      "taxon_id": "T045",
+      "display_species": "Clostridium_SGB6179",
+      "paths": 12,
+      "b_positive": 9,
+      "b_negative": 3,
+      "indirect_positive": 9,
+      "indirect_negative": 3,
+      "indirect_stable_paths": 12
+    },
+    {
+      "taxon_id": "T010",
+      "display_species": "Adlercreutzia_equolifaciens",
+      "paths": 11,
+      "b_positive": 0,
+      "b_negative": 11,
+      "indirect_positive": 11,
+      "indirect_negative": 0,
+      "indirect_stable_paths": 11
+    },
+    {
+      "taxon_id": "T081",
+      "display_species": "GGB9614_SGB15049",
+      "paths": 11,
+      "b_positive": 11,
+      "b_negative": 0,
+      "indirect_positive": 11,
+      "indirect_negative": 0,
+      "indirect_stable_paths": 11
+    },
+    {
+      "taxon_id": "T078",
+      "display_species": "Dysosmobacter_sp_NSJ_60",
+      "paths": 10,
+      "b_positive": 0,
+      "b_negative": 10,
+      "indirect_positive": 10,
+      "indirect_negative": 0,
+      "indirect_stable_paths": 10
+    },
+    {
+      "taxon_id": "T018",
+      "display_species": "Prevotella_copri_clade_C",
+      "paths": 9,
+      "b_positive": 6,
+      "b_negative": 3,
+      "indirect_positive": 6,
+      "indirect_negative": 3,
+      "indirect_stable_paths": 9
+    },
+    {
+      "taxon_id": "T073",
+      "display_species": "Lachnospira_sp_NSJ_43",
+      "paths": 9,
+      "b_positive": 7,
+      "b_negative": 2,
+      "indirect_positive": 7,
+      "indirect_negative": 2,
+      "indirect_stable_paths": 9
+    },
+    {
+      "taxon_id": "T054",
+      "display_species": "Intestinimonas_butyriciproducens",
+      "paths": 5,
+      "b_positive": 0,
+      "b_negative": 5,
+      "indirect_positive": 5,
+      "indirect_negative": 0,
+      "indirect_stable_paths": 5
+    },
+    {
+      "taxon_id": "T048",
+      "display_species": "Clostridium_sp_AF20_17LB",
+      "paths": 3,
+      "b_positive": 1,
+      "b_negative": 2,
+      "indirect_positive": 1,
+      "indirect_negative": 2,
+      "indirect_stable_paths": 3
+    },
+    {
+      "taxon_id": "T031",
+      "display_species": "GGB9237_SGB14179",
+      "paths": 2,
+      "b_positive": 0,
+      "b_negative": 2,
+      "indirect_positive": 2,
+      "indirect_negative": 0,
+      "indirect_stable_paths": 2
+    }
+  ],
+  "arithmetic_summary": {
+    "taxa": 17,
+    "paths": 212,
+    "b_positive": 90,
+    "b_negative": 122,
+    "indirect_positive": 170,
+    "indirect_negative": 42,
+    "all_positive_indirect_taxa": 6,
+    "all_positive_indirect_paths": 65,
+    "mixed_indirect_taxa": 11,
+    "mixed_indirect_paths": 147
+  }
+}

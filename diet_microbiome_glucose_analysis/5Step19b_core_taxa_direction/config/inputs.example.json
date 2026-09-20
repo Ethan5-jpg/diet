@@ -1,0 +1,5 @@
+{
+  "primary": "/home/ec2-user/Desktop/HPP/Data/diet_microbiome_glucose_analysis/4New_cgm/outputs/paper20_mediation_REPLACE_primary/models/18b_primary_mediation_paths.csv",
+  "strict": "/home/ec2-user/Desktop/HPP/Data/diet_microbiome_glucose_analysis/4New_cgm/outputs/paper20_mediation_REPLACE_strict/models/18c_strict_mediation_paths.csv",
+  "protocol": "/home/ec2-user/Desktop/HPP/Data/diet_microbiome_glucose_analysis/4New_cgm/outputs/paper20_mediation_protocol_abxppi_REPLACE_primary/models/18b_primary_mediation_paths.csv"
+}

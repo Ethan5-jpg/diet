@@ -1,0 +1,37 @@
+[
+  {
+    "source_id": "HPP_CGM",
+    "url": "https://knowledgebase.pheno.ai/datasets/017-cgm.html",
+    "claim_scope": "Official field identities and IGLU provenance; some descriptions truncated",
+    "accessed": "2026-09-20",
+    "historical_HPP_implementation_verified": false
+  },
+  {
+    "source_id": "IGLU_SD",
+    "url": "https://irinagain.github.io/iglu/reference/sd_measures.html",
+    "claim_scope": "Mean within-day SD; distinct SDb/SDdm/SDhhmm/SDwsh definitions",
+    "accessed": "2026-09-20",
+    "historical_HPP_implementation_verified": false
+  },
+  {
+    "source_id": "IGLU_COGI",
+    "url": "https://irinagain.github.io/iglu/reference/cogi.html",
+    "claim_scope": "Current default thresholds and component weights; not HPP historical parameters",
+    "accessed": "2026-09-20",
+    "historical_HPP_implementation_verified": false
+  },
+  {
+    "source_id": "IGLU_GRADE_EUGLY",
+    "url": "https://irinagain.github.io/iglu/reference/grade_eugly.html",
+    "claim_scope": "GRADE contribution percentage; current default 70-140 mg/dL",
+    "accessed": "2026-09-20",
+    "historical_HPP_implementation_verified": false
+  },
+  {
+    "source_id": "COGI_ORIGINAL",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30931606/",
+    "claim_scope": "Original composite score and favorable higher-score orientation",
+    "accessed": "2026-09-20",
+    "historical_HPP_implementation_verified": false
+  }
+]

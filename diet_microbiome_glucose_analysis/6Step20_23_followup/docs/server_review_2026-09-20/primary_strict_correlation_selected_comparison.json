@@ -1,0 +1,177 @@
+{
+  "evidence_type": "manual_transcription_of_selected_cells_in_user_heatmap_screenshot",
+  "screenshot": {
+    "file": "server_primary_paper20_correlation.png",
+    "original_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_i1PhpC/截屏2026-09-20 13.34.15.png",
+    "sha256": "febb2188ea805713f65c02c800f4026472cc38b4ead10776df5befe5ef1f24af"
+  },
+  "cohort_from_visible_title": "primary common-base cohort",
+  "N_common_base": 4139,
+  "correlation_method": "Spearman",
+  "value_scale_from_title": "Existing Z values",
+  "N_per_pair": "not shown in heatmap; previous terminal summary reports Mean/GMI pair N=4137",
+  "run_association": "Follow-up run identified from preceding conversation; screenshot itself does not show run path",
+  "expected_server_figure_name": "20_primary_paper20_correlation.png",
+  "independent_CSV_review_completed": false,
+  "comparison_scope": "Exactly the 21 indicator pairs previously recorded from strict screenshot; not the full 190 unique off-diagonal pairs. Rounded values only.",
+  "selected_pair_comparison": [
+    {
+      "outcome_1": "cgm_mean",
+      "outcome_2": "cgm_gmi",
+      "primary_spearman_display": "1.00",
+      "strict_spearman_display": "1.00",
+      "absolute_display_difference": "0.00"
+    },
+    {
+      "outcome_1": "cgm_mean",
+      "outcome_2": "cgm_median",
+      "primary_spearman_display": "0.99",
+      "strict_spearman_display": "0.99",
+      "absolute_display_difference": "0.00"
+    },
+    {
+      "outcome_1": "cgm_median",
+      "outcome_2": "cgm_gmi",
+      "primary_spearman_display": "0.99",
+      "strict_spearman_display": "0.99",
+      "absolute_display_difference": "0.00"
+    },
+    {
+      "outcome_1": "cgm_sd_roc",
+      "outcome_2": "cgm_sdwsh",
+      "primary_spearman_display": "0.98",
+      "strict_spearman_display": "0.98",
+      "absolute_display_difference": "0.00"
+    },
+    {
+      "outcome_1": "cgm_mag",
+      "outcome_2": "cgm_sdwsh",
+      "primary_spearman_display": "0.93",
+      "strict_spearman_display": "0.93",
+      "absolute_display_difference": "0.00"
+    },
+    {
+      "outcome_1": "cgm_mag",
+      "outcome_2": "cgm_sd_roc",
+      "primary_spearman_display": "0.89",
+      "strict_spearman_display": "0.90",
+      "absolute_display_difference": "0.01"
+    },
+    {
+      "outcome_1": "cgm_iqr",
+      "outcome_2": "cgm_mad",
+      "primary_spearman_display": "0.91",
+      "strict_spearman_display": "0.91",
+      "absolute_display_difference": "0.00"
+    },
+    {
+      "outcome_1": "cgm_mag",
+      "outcome_2": "cgm_sdw",
+      "primary_spearman_display": "0.88",
+      "strict_spearman_display": "0.88",
+      "absolute_display_difference": "0.00"
+    },
+    {
+      "outcome_1": "cgm_modd",
+      "outcome_2": "cgm_sdw",
+      "primary_spearman_display": "0.87",
+      "strict_spearman_display": "0.86",
+      "absolute_display_difference": "0.01"
+    },
+    {
+      "outcome_1": "cgm_cv",
+      "outcome_2": "cgm_sdw",
+      "primary_spearman_display": "0.81",
+      "strict_spearman_display": "0.81",
+      "absolute_display_difference": "0.00"
+    },
+    {
+      "outcome_1": "cgm_modd",
+      "outcome_2": "cgm_sdhhmm",
+      "primary_spearman_display": "0.50",
+      "strict_spearman_display": "0.49",
+      "absolute_display_difference": "0.01"
+    },
+    {
+      "outcome_1": "cgm_hbgi",
+      "outcome_2": "cgm_above_140",
+      "primary_spearman_display": "0.98",
+      "strict_spearman_display": "0.98",
+      "absolute_display_difference": "0.00"
+    },
+    {
+      "outcome_1": "cgm_mean",
+      "outcome_2": "cgm_lbgi",
+      "primary_spearman_display": "-0.97",
+      "strict_spearman_display": "-0.97",
+      "absolute_display_difference": "0.00"
+    },
+    {
+      "outcome_1": "cgm_mean",
+      "outcome_2": "cgm_cogi",
+      "primary_spearman_display": "0.81",
+      "strict_spearman_display": "0.81",
+      "absolute_display_difference": "0.00"
+    },
+    {
+      "outcome_1": "cgm_cogi",
+      "outcome_2": "cgm_lbgi",
+      "primary_spearman_display": "-0.89",
+      "strict_spearman_display": "-0.89",
+      "absolute_display_difference": "0.00"
+    },
+    {
+      "outcome_1": "cgm_cogi",
+      "outcome_2": "cgm_adrr",
+      "primary_spearman_display": "-0.90",
+      "strict_spearman_display": "-0.90",
+      "absolute_display_difference": "0.00"
+    },
+    {
+      "outcome_1": "cgm_cogi",
+      "outcome_2": "cgm_grade_eugly",
+      "primary_spearman_display": "0.80",
+      "strict_spearman_display": "0.80",
+      "absolute_display_difference": "0.00"
+    },
+    {
+      "outcome_1": "cgm_cogi",
+      "outcome_2": "cgm_cv",
+      "primary_spearman_display": "-0.52",
+      "strict_spearman_display": "-0.52",
+      "absolute_display_difference": "0.00"
+    },
+    {
+      "outcome_1": "cgm_cogi",
+      "outcome_2": "cgm_sdw",
+      "primary_spearman_display": "-0.03",
+      "strict_spearman_display": "-0.03",
+      "absolute_display_difference": "0.00"
+    },
+    {
+      "outcome_1": "cgm_grade_eugly",
+      "outcome_2": "cgm_cv",
+      "primary_spearman_display": "-0.69",
+      "strict_spearman_display": "-0.70",
+      "absolute_display_difference": "0.01"
+    },
+    {
+      "outcome_1": "cgm_grade_eugly",
+      "outcome_2": "cgm_adrr",
+      "primary_spearman_display": "-0.88",
+      "strict_spearman_display": "-0.88",
+      "absolute_display_difference": "0.00"
+    }
+  ],
+  "derived_from_rounded_cells": {
+    "pairs_compared": 21,
+    "same_display_value": 17,
+    "max_absolute_display_difference": "0.01"
+  },
+  "formal_between_cohort_difference_test": false,
+  "interpretation_limits": [
+    "Primary and strict cohorts overlap; comparison is descriptive sensitivity, not independent replication.",
+    "Do not claim all 190 pairwise correlations differ by at most 0.01.",
+    "Two-decimal display equality does not establish equality of full-precision estimates."
+  ]
+}

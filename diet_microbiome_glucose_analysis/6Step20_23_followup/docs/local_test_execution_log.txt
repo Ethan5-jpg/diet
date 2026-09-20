@@ -1,0 +1,36 @@
+test_1490_871_109_and_4470_sample_checks (test_followup.FullScaleTests.test_1490_871_109_and_4470_sample_checks) ... /tmp/hpp-followup-py312-compat/lib/python3.12/site-packages/matplotlib/_fontconfig_pattern.py:88: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+  parse = parser.parseString(pattern)
+/tmp/hpp-followup-py312-compat/lib/python3.12/site-packages/matplotlib/_fontconfig_pattern.py:92: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+  parser.resetCache()
+/tmp/hpp-followup-py312-compat/lib/python3.12/site-packages/matplotlib/_mathtext.py:45: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+  ParserElement.enablePackrat()
+In /tmp/hpp-followup-py312-compat/lib/python3.12/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'parseString' deprecated - use 'parse_string'
+In /tmp/hpp-followup-py312-compat/lib/python3.12/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'resetCache' deprecated - use 'reset_cache'
+ok
+test_changed_source_rejected_before_outputs (test_followup.PipelineTests.test_changed_source_rejected_before_outputs) ... ok
+test_covariate_drift_rejected (test_followup.PipelineTests.test_covariate_drift_rejected) ... ok
+test_duplicate_participant_rejected (test_followup.PipelineTests.test_duplicate_participant_rejected) ... ok
+test_end_to_end_figures_and_no_participant_export (test_followup.PipelineTests.test_end_to_end_figures_and_no_participant_export) ... ok
+test_existing_18g_disagreement_is_reported (test_followup.PipelineTests.test_existing_18g_disagreement_is_reported) ... ok
+test_lineage_failure_skips_correlations (test_followup.PipelineTests.test_lineage_failure_skips_correlations) ... ok
+test_missing_cgm_row_not_eligible_unknown (test_followup.PipelineTests.test_missing_cgm_row_not_eligible_unknown) ... ok
+test_missing_medication_is_not_imputed (test_followup.PipelineTests.test_missing_medication_is_not_imputed) ... ok
+test_missing_source_is_pending_not_assumed (test_followup.PipelineTests.test_missing_source_is_pending_not_assumed) ... ok
+test_production_rejects_synthetic_manifest (test_followup.PipelineTests.test_production_rejects_synthetic_manifest) ... ok
+test_repeated_read_cannot_reset_fingerprint (test_followup.PipelineTests.test_repeated_read_cannot_reset_fingerprint) ... ok
+test_sample_hash_mismatch_rejected (test_followup.PipelineTests.test_sample_hash_mismatch_rejected) ... ok
+test_wrong_sdw_alias_detected (test_followup.PipelineTests.test_wrong_sdw_alias_detected) ... ok
+test_z_sign_reversal_detected (test_followup.PipelineTests.test_z_sign_reversal_detected) ... ok
+test_booleans_false_not_truthy_string (test_followup.PrimitiveTests.test_booleans_false_not_truthy_string) ... ok
+test_empty_ids_rejected (test_followup.PrimitiveTests.test_empty_ids_rejected) ... ok
+test_hash_invariant_to_order (test_followup.PrimitiveTests.test_hash_invariant_to_order) ... ok
+test_identity_leading_zero_and_decimal (test_followup.PrimitiveTests.test_identity_leading_zero_and_decimal) ... ok
+test_pairwise_ranks_after_missing_filter (test_followup.PrimitiveTests.test_pairwise_ranks_after_missing_filter) ... ok
+test_python38_syntax (test_followup.PrimitiveTests.test_python38_syntax) ... ok
+test_ties_and_nonfinite_values (test_followup.PrimitiveTests.test_ties_and_nonfinite_values) ... ok
+test_unknown_boolean_rejected (test_followup.PrimitiveTests.test_unknown_boolean_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 30.142s
+
+OK

@@ -1,0 +1,593 @@
+{
+  "evidence_type": "manual_sign_pattern_transcription_from_user_heatmap_crosschecked_against_prior_Step19b_detail_screenshots",
+  "screenshot": {
+    "file": "server_core_indirect_direction.png",
+    "original_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_pddrek/截屏2026-09-20 13.38.05.png",
+    "sha256": "86cd50862ff84ede2c2b2a2c9c2ba3a07b6b9a54a68754f83ad4d55d36fe40c4"
+  },
+  "expected_server_figure_name": "23_core_indirect_direction.png",
+  "run_association": "Inferred from ongoing followup context; figure screenshot does not show run path",
+  "independent_CSV_review_completed": false,
+  "selection": "Original 90 paths for four pan-domain taxa within frozen retained871; not filtered to joint global q<0.05",
+  "plotted_model": "primary point-estimate indirect-effect signs only",
+  "taxon_sign_counts": {
+    "T023": {
+      "paths": 16,
+      "positive": 12,
+      "negative": 4
+    },
+    "T046": {
+      "paths": 19,
+      "positive": 14,
+      "negative": 5
+    },
+    "T068": {
+      "paths": 28,
+      "positive": 19,
+      "negative": 9
+    },
+    "T096": {
+      "paths": 27,
+      "positive": 22,
+      "negative": 5
+    }
+  },
+  "total_paths": 90,
+  "positive": 67,
+  "negative": 23,
+  "path_signs": [
+    {
+      "taxon_id": "T023",
+      "exposure": "AMED",
+      "outcome_field": "cgm_mean",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T023",
+      "exposure": "AMED",
+      "outcome_field": "cgm_median",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T023",
+      "exposure": "AMED",
+      "outcome_field": "cgm_gmi",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T023",
+      "exposure": "AMED",
+      "outcome_field": "cgm_lbgi",
+      "primary_indirect_sign": "-"
+    },
+    {
+      "taxon_id": "T023",
+      "exposure": "Carbohydrate_pct",
+      "outcome_field": "cgm_mean",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T023",
+      "exposure": "Carbohydrate_pct",
+      "outcome_field": "cgm_median",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T023",
+      "exposure": "Carbohydrate_pct",
+      "outcome_field": "cgm_gmi",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T023",
+      "exposure": "Carbohydrate_pct",
+      "outcome_field": "cgm_lbgi",
+      "primary_indirect_sign": "-"
+    },
+    {
+      "taxon_id": "T023",
+      "exposure": "EAT13",
+      "outcome_field": "cgm_mean",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T023",
+      "exposure": "EAT13",
+      "outcome_field": "cgm_median",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T023",
+      "exposure": "EAT13",
+      "outcome_field": "cgm_gmi",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T023",
+      "exposure": "EAT13",
+      "outcome_field": "cgm_lbgi",
+      "primary_indirect_sign": "-"
+    },
+    {
+      "taxon_id": "T023",
+      "exposure": "rEDIH",
+      "outcome_field": "cgm_mag",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T023",
+      "exposure": "rEDIH",
+      "outcome_field": "cgm_sd_roc",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T023",
+      "exposure": "rEDIH",
+      "outcome_field": "cgm_sdwsh",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T023",
+      "exposure": "rEDIH",
+      "outcome_field": "cgm_lbgi",
+      "primary_indirect_sign": "-"
+    },
+    {
+      "taxon_id": "T046",
+      "exposure": "AHEI",
+      "outcome_field": "cgm_mean",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T046",
+      "exposure": "AHEI",
+      "outcome_field": "cgm_median",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T046",
+      "exposure": "AHEI",
+      "outcome_field": "cgm_gmi",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T046",
+      "exposure": "AHEI",
+      "outcome_field": "cgm_lbgi",
+      "primary_indirect_sign": "-"
+    },
+    {
+      "taxon_id": "T046",
+      "exposure": "AMED",
+      "outcome_field": "cgm_mean",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T046",
+      "exposure": "AMED",
+      "outcome_field": "cgm_median",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T046",
+      "exposure": "AMED",
+      "outcome_field": "cgm_gmi",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T046",
+      "exposure": "AMED",
+      "outcome_field": "cgm_lbgi",
+      "primary_indirect_sign": "-"
+    },
+    {
+      "taxon_id": "T046",
+      "exposure": "Carbohydrate_pct",
+      "outcome_field": "cgm_mean",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T046",
+      "exposure": "Carbohydrate_pct",
+      "outcome_field": "cgm_median",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T046",
+      "exposure": "Carbohydrate_pct",
+      "outcome_field": "cgm_gmi",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T046",
+      "exposure": "Carbohydrate_pct",
+      "outcome_field": "cgm_lbgi",
+      "primary_indirect_sign": "-"
+    },
+    {
+      "taxon_id": "T046",
+      "exposure": "EAT13",
+      "outcome_field": "cgm_mean",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T046",
+      "exposure": "EAT13",
+      "outcome_field": "cgm_median",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T046",
+      "exposure": "EAT13",
+      "outcome_field": "cgm_gmi",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T046",
+      "exposure": "EAT13",
+      "outcome_field": "cgm_lbgi",
+      "primary_indirect_sign": "-"
+    },
+    {
+      "taxon_id": "T046",
+      "exposure": "rEDIH",
+      "outcome_field": "cgm_iqr",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T046",
+      "exposure": "rEDIH",
+      "outcome_field": "cgm_mad",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T046",
+      "exposure": "rEDIH",
+      "outcome_field": "cgm_lbgi",
+      "primary_indirect_sign": "-"
+    },
+    {
+      "taxon_id": "T068",
+      "exposure": "Carbohydrate_pct",
+      "outcome_field": "cgm_mean",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T068",
+      "exposure": "Carbohydrate_pct",
+      "outcome_field": "cgm_gmi",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T068",
+      "exposure": "Carbohydrate_pct",
+      "outcome_field": "cgm_mag",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T068",
+      "exposure": "Carbohydrate_pct",
+      "outcome_field": "cgm_sd_roc",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T068",
+      "exposure": "Carbohydrate_pct",
+      "outcome_field": "cgm_sdwsh",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T068",
+      "exposure": "NOVA4",
+      "outcome_field": "cgm_mean",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T068",
+      "exposure": "NOVA4",
+      "outcome_field": "cgm_median",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T068",
+      "exposure": "NOVA4",
+      "outcome_field": "cgm_gmi",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T068",
+      "exposure": "NOVA4",
+      "outcome_field": "cgm_cv",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T068",
+      "exposure": "NOVA4",
+      "outcome_field": "cgm_iqr",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T068",
+      "exposure": "NOVA4",
+      "outcome_field": "cgm_mad",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T068",
+      "exposure": "NOVA4",
+      "outcome_field": "cgm_mag",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T068",
+      "exposure": "NOVA4",
+      "outcome_field": "cgm_modd",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T068",
+      "exposure": "NOVA4",
+      "outcome_field": "cgm_sd_roc",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T068",
+      "exposure": "NOVA4",
+      "outcome_field": "cgm_sdhhmm",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T068",
+      "exposure": "NOVA4",
+      "outcome_field": "cgm_sdw",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T068",
+      "exposure": "NOVA4",
+      "outcome_field": "cgm_sdwsh",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T068",
+      "exposure": "NOVA4",
+      "outcome_field": "cgm_hbgi",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T068",
+      "exposure": "NOVA4",
+      "outcome_field": "cgm_above_140",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T068",
+      "exposure": "NOVA4",
+      "outcome_field": "cgm_lbgi",
+      "primary_indirect_sign": "-"
+    },
+    {
+      "taxon_id": "T068",
+      "exposure": "hPDI",
+      "outcome_field": "cgm_cv",
+      "primary_indirect_sign": "-"
+    },
+    {
+      "taxon_id": "T068",
+      "exposure": "hPDI",
+      "outcome_field": "cgm_iqr",
+      "primary_indirect_sign": "-"
+    },
+    {
+      "taxon_id": "T068",
+      "exposure": "hPDI",
+      "outcome_field": "cgm_mad",
+      "primary_indirect_sign": "-"
+    },
+    {
+      "taxon_id": "T068",
+      "exposure": "hPDI",
+      "outcome_field": "cgm_mag",
+      "primary_indirect_sign": "-"
+    },
+    {
+      "taxon_id": "T068",
+      "exposure": "hPDI",
+      "outcome_field": "cgm_modd",
+      "primary_indirect_sign": "-"
+    },
+    {
+      "taxon_id": "T068",
+      "exposure": "hPDI",
+      "outcome_field": "cgm_sd_roc",
+      "primary_indirect_sign": "-"
+    },
+    {
+      "taxon_id": "T068",
+      "exposure": "hPDI",
+      "outcome_field": "cgm_sdw",
+      "primary_indirect_sign": "-"
+    },
+    {
+      "taxon_id": "T068",
+      "exposure": "hPDI",
+      "outcome_field": "cgm_sdwsh",
+      "primary_indirect_sign": "-"
+    },
+    {
+      "taxon_id": "T096",
+      "exposure": "AHEI",
+      "outcome_field": "cgm_mean",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T096",
+      "exposure": "AHEI",
+      "outcome_field": "cgm_median",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T096",
+      "exposure": "AHEI",
+      "outcome_field": "cgm_gmi",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T096",
+      "exposure": "AHEI",
+      "outcome_field": "cgm_cogi",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T096",
+      "exposure": "AHEI",
+      "outcome_field": "cgm_lbgi",
+      "primary_indirect_sign": "-"
+    },
+    {
+      "taxon_id": "T096",
+      "exposure": "AMED",
+      "outcome_field": "cgm_mean",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T096",
+      "exposure": "AMED",
+      "outcome_field": "cgm_median",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T096",
+      "exposure": "AMED",
+      "outcome_field": "cgm_gmi",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T096",
+      "exposure": "AMED",
+      "outcome_field": "cgm_cogi",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T096",
+      "exposure": "AMED",
+      "outcome_field": "cgm_lbgi",
+      "primary_indirect_sign": "-"
+    },
+    {
+      "taxon_id": "T096",
+      "exposure": "Carbohydrate_pct",
+      "outcome_field": "cgm_mean",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T096",
+      "exposure": "Carbohydrate_pct",
+      "outcome_field": "cgm_median",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T096",
+      "exposure": "Carbohydrate_pct",
+      "outcome_field": "cgm_gmi",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T096",
+      "exposure": "Carbohydrate_pct",
+      "outcome_field": "cgm_cogi",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T096",
+      "exposure": "Carbohydrate_pct",
+      "outcome_field": "cgm_lbgi",
+      "primary_indirect_sign": "-"
+    },
+    {
+      "taxon_id": "T096",
+      "exposure": "EAT13",
+      "outcome_field": "cgm_mean",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T096",
+      "exposure": "EAT13",
+      "outcome_field": "cgm_median",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T096",
+      "exposure": "EAT13",
+      "outcome_field": "cgm_gmi",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T096",
+      "exposure": "EAT13",
+      "outcome_field": "cgm_cogi",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T096",
+      "exposure": "EAT13",
+      "outcome_field": "cgm_lbgi",
+      "primary_indirect_sign": "-"
+    },
+    {
+      "taxon_id": "T096",
+      "exposure": "hPDI",
+      "outcome_field": "cgm_cogi",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T096",
+      "exposure": "rEDIH",
+      "outcome_field": "cgm_iqr",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T096",
+      "exposure": "rEDIH",
+      "outcome_field": "cgm_mad",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T096",
+      "exposure": "rEDIH",
+      "outcome_field": "cgm_mag",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T096",
+      "exposure": "rEDIH",
+      "outcome_field": "cgm_sd_roc",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T096",
+      "exposure": "rEDIH",
+      "outcome_field": "cgm_sdwsh",
+      "primary_indirect_sign": "+"
+    },
+    {
+      "taxon_id": "T096",
+      "exposure": "rEDIH",
+      "outcome_field": "cgm_lbgi",
+      "primary_indirect_sign": "-"
+    }
+  ],
+  "blank_meaning": "Not in original retained set; no claim of zero effect, no association, or untested status",
+  "known_global_sensitivity_exception": {
+    "taxon_id": "T046",
+    "exposure": "rEDIH",
+    "outcomes": [
+      "cgm_iqr",
+      "cgm_mad",
+      "cgm_lbgi"
+    ],
+    "note": "These remain on the original-set heatmap but fail global q<0.05 only in strict, per earlier screenshot."
+  },
+  "next_figure": "23_three_model_illustrative_forest.png",
+  "forest_visual_review_completed": false
+}

@@ -1,0 +1,50 @@
+{
+  "review_date": "2026-09-20",
+  "scope": "Local source code reviewed; server snapshots and study result tables not verified",
+  "files": [
+    {
+      "relative_to_Data": "diet_microbiome_glucose_analysis/4New_cgm/scripts/18b_paper20_primary_mediation.py",
+      "sha256": "c6b3ca6e6b2028a31826f9f130a196c5068e65014abf223f08c5194d39f43302"
+    },
+    {
+      "relative_to_Data": "diet_microbiome_glucose_analysis/4New_cgm/scripts/18c_paper20_strict_mediation_parallel.py",
+      "sha256": "8240b609f2ca65933780f28d4d693c45f8f681828503be5bbcc05389d1db7f77"
+    },
+    {
+      "relative_to_Data": "diet_microbiome_glucose_analysis/4New_cgm/scripts/18e2_paper20_protocol_abxppi_mediation.py",
+      "sha256": "9aaa6d31d41346e113e66aa6d3aef80f88f7a6513d9e60e9aa9131128e91d5b9"
+    },
+    {
+      "relative_to_Data": "diet_microbiome_glucose_analysis/4New_cgm/scripts/18f_paper20_threeway_mediation_robustness.py",
+      "sha256": "0857a913e32729e09f90cabe0ad656b97e1dac5cc0c3917a01c38cc6cbf3c64d"
+    },
+    {
+      "relative_to_Data": "diet_microbiome_glucose_analysis/4New_cgm/scripts/18g_paper20_phenotype_domain_consolidation.py",
+      "sha256": "337502c45005c75cd98edefc2b29c8312a5c5bc4fcce11b3b9d5191e62a634d2"
+    },
+    {
+      "relative_to_Data": "diet_microbiome_glucose_analysis/4New_cgm/scripts/19a_final_biological_architecture_synthesis.py",
+      "sha256": "c8fd4069f020cf3c54c703685d0103095af7e21cce64dcf89e5b0e0784a07fc3"
+    },
+    {
+      "relative_to_Data": "diet_microbiome_glucose_analysis/scripts/10_diet_microbiome_cgm_mediation.py",
+      "sha256": "3027d03b24ed77aeb130746c862208ac7b14cef07305512545eb21d3394991e8"
+    },
+    {
+      "relative_to_Data": "diet_deal/scripts/redih/05_calculate_redih_scores.py",
+      "sha256": "ed5e53d7b7781f2c0b62b27fc21f4f5a6e0dcee10248b15699bbfa242906de36"
+    },
+    {
+      "relative_to_Data": "diet_microbiome_analysis/scripts/00_build_and_align_current_scores.py",
+      "sha256": "a1d2872cda444f645b5d7bbe139e439cf33e6895f47942501b6270128522edfb"
+    },
+    {
+      "relative_to_Data": "diet_microbiome_glucose_analysis/scripts/00_build_formal_diet_cgm_cohort.py",
+      "sha256": "dabc97c035c590bc19051e5092402230a6455c035ba18d98bf7f0bc932467626"
+    },
+    {
+      "relative_to_Data": "cgm_deal/cgm论文新增17指标/config/outcomes.json",
+      "sha256": "03e112c2c70d8eb835e26781cd0268a642b0f21a827419ef1dd213a5f4f8ccb7"
+    }
+  ]
+}

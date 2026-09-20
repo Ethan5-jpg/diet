@@ -1,0 +1,102 @@
+{
+  "evidence_type": "manual_transcription_of_user_server_screenshot",
+  "server_run": "followup_20260920T044755_767120Z",
+  "screenshot": {
+    "file": "server_T046_global_fdr_domains.png",
+    "original_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_Nd95K4/截屏2026-09-20 13.18.53.png",
+    "sha256": "b7d2c385039884ee54c4fecef2137b682ba1a767dd9cfbd6233ed4be4878f05a"
+  },
+  "independent_CSV_review_completed": false,
+  "T046_paths_not_joint3": [
+    {
+      "taxon_id": "T046",
+      "exposure": "rEDIH",
+      "outcome_field": "cgm_iqr",
+      "domain": "V",
+      "primary_global_q_display": 0.022959046,
+      "strict_global_q_display": 0.053532881,
+      "protocol_global_q_display": 0.023410403
+    },
+    {
+      "taxon_id": "T046",
+      "exposure": "rEDIH",
+      "outcome_field": "cgm_lbgi",
+      "domain": "R",
+      "primary_global_q_display": 0.034182936,
+      "strict_global_q_display": 0.057250442,
+      "protocol_global_q_display": 0.040188264
+    },
+    {
+      "taxon_id": "T046",
+      "exposure": "rEDIH",
+      "outcome_field": "cgm_mad",
+      "domain": "V",
+      "primary_global_q_display": 0.034182936,
+      "strict_global_q_display": 0.055400036,
+      "protocol_global_q_display": 0.040188264
+    }
+  ],
+  "all_frozen_domain_sensitivity": [
+    {
+      "domain": "L",
+      "frozen": 202,
+      "joint3": 192,
+      "lost": 10,
+      "joint3_over_frozen_pct": 95.04950495049505
+    },
+    {
+      "domain": "R",
+      "frozen": 71,
+      "joint3": 65,
+      "lost": 6,
+      "joint3_over_frozen_pct": 91.54929577464789
+    },
+    {
+      "domain": "V",
+      "frozen": 598,
+      "joint3": 575,
+      "lost": 23,
+      "joint3_over_frozen_pct": 96.15384615384616
+    }
+  ],
+  "core_joint3_domain_counts": [
+    {
+      "taxon_id": "T023",
+      "L": 9,
+      "V": 3,
+      "R": 4,
+      "domain_breadth": 3,
+      "joint3_paths": 16
+    },
+    {
+      "taxon_id": "T046",
+      "L": 12,
+      "V": 0,
+      "R": 4,
+      "domain_breadth": 2,
+      "joint3_paths": 16
+    },
+    {
+      "taxon_id": "T068",
+      "L": 5,
+      "V": 20,
+      "R": 3,
+      "domain_breadth": 3,
+      "joint3_paths": 28
+    },
+    {
+      "taxon_id": "T096",
+      "L": 12,
+      "V": 5,
+      "R": 10,
+      "domain_breadth": 3,
+      "joint3_paths": 27
+    }
+  ],
+  "correction": {
+    "previous_incorrect_statement": "T046 originally had only one variability path (IQR).",
+    "corrected_statement": "T046 originally had two variability paths, rEDIH-IQR and rEDIH-MAD; both fail global q<0.05 only in strict model.",
+    "prior_crosscheck": "5Step19b_core_taxa_direction/docs/Step19b_服务器截图结果解读_2026-09-20.md already recorded both IQR and MAD."
+  },
+  "conclusion": "Original frozen four pan-domain taxa remain the primary classification. Within paths passing original global q<0.05 in all three models, T023/T068/T096 retain three domains; T046 retains level and risk/range only."
+}

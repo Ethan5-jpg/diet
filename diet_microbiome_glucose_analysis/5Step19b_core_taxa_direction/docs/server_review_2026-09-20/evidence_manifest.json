@@ -1,0 +1,58 @@
+{
+  "evidence_type": "user_supplied_server_screenshots",
+  "review_date": "2026-09-20",
+  "server_result_csvs_read_locally": false,
+  "numeric_precision": "terminal display rounding; not full-precision CSV",
+  "screenshots": [
+    {
+      "file": "00_run_summary.png",
+      "source": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_HLVzxh/截屏2026-09-20 11.08.35.png",
+      "sha256": "4991e6e57f826835137024bd6896157b430ceae1576d8688b85ad2efc06e8434"
+    },
+    {
+      "file": "01_T068_Eubacterium_rectale.png",
+      "source": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_EIJ8oE/截屏2026-09-20 11.10.29.png",
+      "sha256": "5f28adcec2fb6d6512ebb4dc2eb37f1164fd30425c5c9f9a0597359a5582e103"
+    },
+    {
+      "file": "02_T096_Ruthenibacterium_lactatiformans.png",
+      "source": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_qRl9i5/截屏2026-09-20 11.13.03.png",
+      "sha256": "0370961e32f16241b98f29610e1ca618947f85ff398b54a00216b9413eef8805"
+    },
+    {
+      "file": "03_T046_Clostridium_phoceensis.png",
+      "source": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_lkIX9Q/截屏2026-09-20 11.14.37.png",
+      "sha256": "d97ce844f2fc8ccede122f8a9fa50ad49c7f413c44835d8ade256e8437dc44ea"
+    },
+    {
+      "file": "04_T023_GGB6012_SGB8640.png",
+      "source": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_TjyG6v/截屏2026-09-20 11.15.31.png",
+      "sha256": "0122005b9bf851117160d7a172b22806cbbc9dd03e9df0eff54c72c2c50402ae"
+    },
+    {
+      "file": "05_cross_domain2_summary.png",
+      "source": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_XnSH9Z/截屏2026-09-20 11.20.41.png",
+      "sha256": "5a721be38a46bae2c7ac3f49e6db3b62dcd2129eb41713ea02576f005abc437c"
+    },
+    {
+      "file": "06_T019_Alistipes_ihumii_details.png",
+      "source": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_j8b8Y5/截屏2026-09-20 11.25.33.png",
+      "sha256": "aaddea6b0b3e1b8fbd7e231c94a0d413ed45a01c143963e4f334d88afa57fce9"
+    },
+    {
+      "file": "07_T028_T107_details.png",
+      "source": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_bC8a4b/截屏2026-09-20 11.28.21.png",
+      "sha256": "21db1ff177ff397fbc9ea66cf9b72c02f75b124d81cbd3b05af25756cd82eecb"
+    },
+    {
+      "file": "08_core_direction_heatmap_server_screenshot.png",
+      "source": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_hyblVe/截屏2026-09-20 11.33.37.png",
+      "sha256": "7e42eb04097ec70da250bb99e2fc20023f65d1e8c105fef5b6f39e45773b845b"
+    },
+    {
+      "file": "09_core_indirect_forest_server_screenshot.png",
+      "source": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_KI86lY/截屏2026-09-20 11.36.48.png",
+      "sha256": "0b6f1e511b3a4aa1d27e254c0125a37e3df185a6bd21f90cb56927dd52bee55a"
+    }
+  ]
+}

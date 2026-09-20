@@ -1,0 +1,34 @@
+{
+  "evidence_type": "manual_transcription_of_user_server_screenshot",
+  "server_run": "followup_20260920T044755_767120Z",
+  "screenshot": {
+    "file": "server_step22_23_summary.png",
+    "original_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_QHxifw/截屏2026-09-20 13.23.31.png",
+    "sha256": "a002815fe1bd4098bcc89f311d49e762b6220c99d22144711dddbec3e600f410"
+  },
+  "independent_CSV_review_completed": false,
+  "step22": {
+    "status": "PASS",
+    "species": 109,
+    "path_contexts": 348,
+    "candidate_function_files": 0,
+    "evidence_status": "Structured worklist ready; species/strain-specific mechanism review remains open"
+  },
+  "step23": {
+    "status": "PASS",
+    "core_paths": 90,
+    "forest_paths": 12,
+    "paired_erectale_paths": 6
+  },
+  "code_verified_semantics": {
+    "path_context": "one full-taxonomy species x exposure x phenotype-domain group within original retained871",
+    "function_inventory": "filename/path/extension-limited scan, not comprehensive evidence of absence",
+    "core_paths": "original four pan-domain taxa in original retained871, not the later joint-global-FDR subset",
+    "paired_erectale_paths": "NOVA4 and hPDI x CV, MODD, SDw; 6 distinct illustrative paths, 3 original model estimates each"
+  },
+  "pending": [
+    "actual generated correlation/forest/direction figure screenshot review",
+    "path-specific external literature review",
+    "historical IGLU execution metadata"
+  ]
+}

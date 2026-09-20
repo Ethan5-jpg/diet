@@ -1,0 +1,126 @@
+{
+  "evidence_type": "manual_transcription_of_user_server_screenshot",
+  "server_run": "followup_20260920T044755_767120Z",
+  "screenshot": {
+    "file": "server_step20_21.png",
+    "original_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_miVFDU/截屏2026-09-20 12.56.12.png",
+    "sha256": "859183137a7777f11d94d741ba0b3935e6d60758f3395b6403f79f882da5efa7"
+  },
+  "independent_CSV_review_completed": false,
+  "correlation_precision_note": "Displayed to four decimal places; exact values not available from screenshot.",
+  "domains": [
+    {
+      "domain": "glycemic_level",
+      "metrics": 3,
+      "candidates": 238,
+      "primary": 213,
+      "both": 202,
+      "both_over_candidates_pct_display": 84.9,
+      "both_over_primary_pct_display": 94.8
+    },
+    {
+      "domain": "glycemic_variability",
+      "metrics": 9,
+      "candidates": 1171,
+      "primary": 714,
+      "both": 598,
+      "both_over_candidates_pct_display": 51.1,
+      "both_over_primary_pct_display": 83.8
+    },
+    {
+      "domain": "glycemic_risk_range",
+      "metrics": 8,
+      "candidates": 81,
+      "primary": 76,
+      "both": 71,
+      "both_over_candidates_pct_display": 87.7,
+      "both_over_primary_pct_display": 93.4
+    }
+  ],
+  "correlations": [
+    {
+      "cohort": "all_frozen_CGM",
+      "N": 7493,
+      "mean_gmi_pair_N": 7481,
+      "spearman_display": "1.0000"
+    },
+    {
+      "cohort": "primary",
+      "N": 4139,
+      "mean_gmi_pair_N": 4137,
+      "spearman_display": "1.0000"
+    },
+    {
+      "cohort": "strict",
+      "N": 3883,
+      "mean_gmi_pair_N": 3881,
+      "spearman_display": "1.0000"
+    },
+    {
+      "cohort": "primary_path_union",
+      "N": 4139,
+      "mean_gmi_pair_N": 4137,
+      "spearman_display": "1.0000"
+    },
+    {
+      "cohort": "strict_path_union",
+      "N": 3883,
+      "mean_gmi_pair_N": 3881,
+      "spearman_display": "1.0000"
+    }
+  ],
+  "model_FDR": [
+    {
+      "model": "primary",
+      "within_FDR05": 1003,
+      "global_FDR05": 1052,
+      "retained871_global_FDR05": 865,
+      "N_min": 3654,
+      "N_max": 4139,
+      "retained871_global_FDR05_pct_derived": 99.3
+    },
+    {
+      "model": "strict",
+      "within_FDR05": 914,
+      "global_FDR05": 966,
+      "retained871_global_FDR05": 837,
+      "N_min": 3417,
+      "N_max": 3883,
+      "retained871_global_FDR05_pct_derived": 96.1
+    },
+    {
+      "model": "protocol",
+      "within_FDR05": 943,
+      "global_FDR05": 1015,
+      "retained871_global_FDR05": 863,
+      "N_min": 3654,
+      "N_max": 4139,
+      "retained871_global_FDR05_pct_derived": 99.1
+    }
+  ],
+  "CGM_source": {
+    "N": 7493,
+    "source": "/home/ec2-user/Desktop/HPP/Data/cgm_deal/cgm论文新增17指标/outputs/run_20260919T030229_482714Z_c1a0f480/data/07_cgm_paper_extended_phenotypes.csv"
+  },
+  "lineage": {
+    "verified": 25,
+    "total": 25,
+    "needs_review": []
+  },
+  "preprocessing": {
+    "preprocessing_records": 3,
+    "sdw_code_references": 1,
+    "historical_iglu_parameters": "UNRESOLVED: public defaults are not proof of HPP historical implementation"
+  },
+  "sample_audit": {
+    "paths_checked": 4470,
+    "N_hash_matches": 4470,
+    "primary_common_base_N": 4139,
+    "strict_common_base_N": 3883
+  },
+  "pending": [
+    "three_model_joint_global_FDR_intersection",
+    "no_GMI19_and_concept_panel9_taxon_domain_breadth",
+    "historical_iglu_execution_version_and_parameters"
+  ]
+}

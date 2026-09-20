@@ -1,0 +1,49 @@
+{
+  "note": "Local reference files used to trace paths and relevant logic; not proof of server historical execution.",
+  "files": [
+    {
+      "path_relative_to_HPP": "Data/diet_microbiome_glucose_analysis/4New_cgm/scripts/14a_cgm_paper20_plus5_qc.py",
+      "sha256": "0f687e0bb7cf1abfc567995988c632b89302d60616151e347f6c949aa621ba76"
+    },
+    {
+      "path_relative_to_HPP": "Data/diet_microbiome_glucose_analysis/4New_cgm/scripts/14b_freeze_paper20_analysis_registry.py",
+      "sha256": "8cdf8f33a1f071f5729ce30180addeecf7f12f210c9e3a01c32379d56c89c7fb"
+    },
+    {
+      "path_relative_to_HPP": "Data/diet_microbiome_glucose_analysis/4New_cgm/scripts/15_paper20_seven_diet_cgm_associations.py",
+      "sha256": "0a9ad6154b73f788d06d6f5de6d888f39398096d11f7b498eca302f09b251cff"
+    },
+    {
+      "path_relative_to_HPP": "Data/diet_microbiome_glucose_analysis/4New_cgm/scripts/16a_paper20_microbiome_mwas.py",
+      "sha256": "25d58ba124a670e45732f5c317da75ef55ad93384a1b6a0ca5996c10974c2cb5"
+    },
+    {
+      "path_relative_to_HPP": "Data/diet_microbiome_glucose_analysis/4New_cgm/scripts/18b_paper20_primary_mediation.py",
+      "sha256": "c6b3ca6e6b2028a31826f9f130a196c5068e65014abf223f08c5194d39f43302"
+    },
+    {
+      "path_relative_to_HPP": "Data/diet_microbiome_glucose_analysis/4New_cgm/scripts/18c_paper20_strict_mediation_parallel.py",
+      "sha256": "8240b609f2ca65933780f28d4d693c45f8f681828503be5bbcc05389d1db7f77"
+    },
+    {
+      "path_relative_to_HPP": "Data/diet_microbiome_glucose_analysis/4New_cgm/scripts/18e2_paper20_protocol_abxppi_mediation.py",
+      "sha256": "9aaa6d31d41346e113e66aa6d3aef80f88f7a6513d9e60e9aa9131128e91d5b9"
+    },
+    {
+      "path_relative_to_HPP": "Data/diet_microbiome_glucose_analysis/4New_cgm/scripts/18f_paper20_threeway_mediation_robustness.py",
+      "sha256": "0857a913e32729e09f90cabe0ad656b97e1dac5cc0c3917a01c38cc6cbf3c64d"
+    },
+    {
+      "path_relative_to_HPP": "Data/diet_microbiome_glucose_analysis/4New_cgm/scripts/18g_paper20_phenotype_domain_consolidation.py",
+      "sha256": "337502c45005c75cd98edefc2b29c8312a5c5bc4fcce11b3b9d5191e62a634d2"
+    },
+    {
+      "path_relative_to_HPP": "Data/cgm_deal/cgm论文新增17指标/scripts/process_cgm17.py",
+      "sha256": "bfa1e006d37c016e74385fc0bab86462107e1e384d739c06999c4cc338d60c6e"
+    },
+    {
+      "path_relative_to_HPP": "Data/cgm_deal/cgm论文新增17指标/config/outcomes.json",
+      "sha256": "03e112c2c70d8eb835e26781cd0268a642b0f21a827419ef1dd213a5f4f8ccb7"
+    }
+  ]
+}

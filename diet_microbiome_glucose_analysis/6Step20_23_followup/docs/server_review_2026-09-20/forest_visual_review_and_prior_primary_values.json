@@ -1,0 +1,223 @@
+{
+  "evidence_type": "user_forest_screenshot_visual_review_plus_separately_identified_prior_numeric_screenshot",
+  "screenshot": {
+    "file": "server_three_model_illustrative_forest.png",
+    "original_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_orsQ6S/截屏2026-09-20 13.42.19.png",
+    "sha256": "d580aea5a0d088274eb5ccbc6e2b6ad0859d59ed55cb94a7b365d2071169604f"
+  },
+  "expected_server_figure_name": "23_three_model_illustrative_forest.png",
+  "run_association": "Inferred from ongoing followup context; screenshot itself does not show run path",
+  "independent_CSV_review_completed": false,
+  "panels": [
+    {
+      "panel_order": 1,
+      "taxon_id": "T023",
+      "exposure": "AMED",
+      "outcome_field": "cgm_mean",
+      "N_primary": 4137,
+      "N_strict": 3881,
+      "N_protocol": 4137,
+      "point_sign_all_three_models": "+",
+      "all_three_CI_exclude_zero_visually": true
+    },
+    {
+      "panel_order": 2,
+      "taxon_id": "T023",
+      "exposure": "AMED",
+      "outcome_field": "cgm_lbgi",
+      "N_primary": 4133,
+      "N_strict": 3877,
+      "N_protocol": 4133,
+      "point_sign_all_three_models": "-",
+      "all_three_CI_exclude_zero_visually": true
+    },
+    {
+      "panel_order": 3,
+      "taxon_id": "T046",
+      "exposure": "AHEI",
+      "outcome_field": "cgm_mean",
+      "N_primary": 4137,
+      "N_strict": 3881,
+      "N_protocol": 4137,
+      "point_sign_all_three_models": "+",
+      "all_three_CI_exclude_zero_visually": true
+    },
+    {
+      "panel_order": 4,
+      "taxon_id": "T046",
+      "exposure": "AHEI",
+      "outcome_field": "cgm_lbgi",
+      "N_primary": 4133,
+      "N_strict": 3877,
+      "N_protocol": 4133,
+      "point_sign_all_three_models": "-",
+      "all_three_CI_exclude_zero_visually": true
+    },
+    {
+      "panel_order": 5,
+      "taxon_id": "T096",
+      "exposure": "AHEI",
+      "outcome_field": "cgm_mean",
+      "N_primary": 4137,
+      "N_strict": 3881,
+      "N_protocol": 4137,
+      "point_sign_all_three_models": "+",
+      "all_three_CI_exclude_zero_visually": true
+    },
+    {
+      "panel_order": 6,
+      "taxon_id": "T096",
+      "exposure": "AHEI",
+      "outcome_field": "cgm_cogi",
+      "N_primary": 4139,
+      "N_strict": 3883,
+      "N_protocol": 4139,
+      "point_sign_all_three_models": "+",
+      "all_three_CI_exclude_zero_visually": true
+    },
+    {
+      "panel_order": 7,
+      "taxon_id": "T068",
+      "exposure": "NOVA4",
+      "outcome_field": "cgm_cv",
+      "N_primary": 3691,
+      "N_strict": 3454,
+      "N_protocol": 3691,
+      "point_sign_all_three_models": "+",
+      "all_three_CI_exclude_zero_visually": true
+    },
+    {
+      "panel_order": 8,
+      "taxon_id": "T068",
+      "exposure": "hPDI",
+      "outcome_field": "cgm_cv",
+      "N_primary": 4136,
+      "N_strict": 3880,
+      "N_protocol": 4136,
+      "point_sign_all_three_models": "-",
+      "all_three_CI_exclude_zero_visually": true
+    },
+    {
+      "panel_order": 9,
+      "taxon_id": "T068",
+      "exposure": "NOVA4",
+      "outcome_field": "cgm_modd",
+      "N_primary": 3692,
+      "N_strict": 3455,
+      "N_protocol": 3692,
+      "point_sign_all_three_models": "+",
+      "all_three_CI_exclude_zero_visually": true
+    },
+    {
+      "panel_order": 10,
+      "taxon_id": "T068",
+      "exposure": "hPDI",
+      "outcome_field": "cgm_modd",
+      "N_primary": 4136,
+      "N_strict": 3880,
+      "N_protocol": 4136,
+      "point_sign_all_three_models": "-",
+      "all_three_CI_exclude_zero_visually": true
+    },
+    {
+      "panel_order": 11,
+      "taxon_id": "T068",
+      "exposure": "NOVA4",
+      "outcome_field": "cgm_sdw",
+      "N_primary": 3693,
+      "N_strict": 3456,
+      "N_protocol": 3693,
+      "point_sign_all_three_models": "+",
+      "all_three_CI_exclude_zero_visually": true
+    },
+    {
+      "panel_order": 12,
+      "taxon_id": "T068",
+      "exposure": "hPDI",
+      "outcome_field": "cgm_sdw",
+      "N_primary": 4137,
+      "N_strict": 3881,
+      "N_protocol": 4137,
+      "point_sign_all_three_models": "-",
+      "all_three_CI_exclude_zero_visually": true
+    }
+  ],
+  "path_count": 12,
+  "model_estimate_count": 36,
+  "T068_paired_path_count": 6,
+  "all_36_intervals_exclude_zero": "Visual finding at screenshot resolution; not full-precision numeric endpoint audit",
+  "primary_numeric_source": {
+    "path": "/Users/blizzardxu/Desktop/HPP/Data/diet_microbiome_glucose_analysis/5Step19b_core_taxa_direction/docs/server_review_2026-09-20/01_T068_Eubacterium_rectale.png",
+    "sha256": "5f28adcec2fb6d6512ebb4dc2eb37f1164fd30425c5c9f9a0597359a5582e103",
+    "precision": "rounded terminal display values"
+  },
+  "T068_primary_numbers_from_prior_terminal_screenshot": [
+    {
+      "taxon_id": "T068",
+      "exposure": "NOVA4",
+      "outcome_field": "cgm_cv",
+      "indirect_primary_display": "0.00952",
+      "CI95_lower_display": "0.00424",
+      "CI95_upper_display": "0.0151",
+      "N": 3691,
+      "value_source": "Earlier Step19b terminal screenshot, re-inspected during forest review; not numerical extraction from plotted pixel positions."
+    },
+    {
+      "taxon_id": "T068",
+      "exposure": "hPDI",
+      "outcome_field": "cgm_cv",
+      "indirect_primary_display": "-0.00594",
+      "CI95_lower_display": "-0.00951",
+      "CI95_upper_display": "-0.0029",
+      "N": 4136,
+      "value_source": "Earlier Step19b terminal screenshot, re-inspected during forest review; not numerical extraction from plotted pixel positions."
+    },
+    {
+      "taxon_id": "T068",
+      "exposure": "NOVA4",
+      "outcome_field": "cgm_modd",
+      "indirect_primary_display": "0.0116",
+      "CI95_lower_display": "0.00708",
+      "CI95_upper_display": "0.0172",
+      "N": 3692,
+      "value_source": "Earlier Step19b terminal screenshot, re-inspected during forest review; not numerical extraction from plotted pixel positions."
+    },
+    {
+      "taxon_id": "T068",
+      "exposure": "hPDI",
+      "outcome_field": "cgm_modd",
+      "indirect_primary_display": "-0.00739",
+      "CI95_lower_display": "-0.0115",
+      "CI95_upper_display": "-0.00401",
+      "N": 4136,
+      "value_source": "Earlier Step19b terminal screenshot, re-inspected during forest review; not numerical extraction from plotted pixel positions."
+    },
+    {
+      "taxon_id": "T068",
+      "exposure": "NOVA4",
+      "outcome_field": "cgm_sdw",
+      "indirect_primary_display": "0.013",
+      "CI95_lower_display": "0.00792",
+      "CI95_upper_display": "0.0188",
+      "N": 3693,
+      "value_source": "Earlier Step19b terminal screenshot, re-inspected during forest review; not numerical extraction from plotted pixel positions."
+    },
+    {
+      "taxon_id": "T068",
+      "exposure": "hPDI",
+      "outcome_field": "cgm_sdw",
+      "indirect_primary_display": "-0.00814",
+      "CI95_lower_display": "-0.0123",
+      "CI95_upper_display": "-0.00457",
+      "N": 4137,
+      "value_source": "Earlier Step19b terminal screenshot, re-inspected during forest review; not numerical extraction from plotted pixel positions."
+    }
+  ],
+  "interpretation_limits": [
+    "Separate x axes across panels; no direct visual comparison of line lengths.",
+    "NOVA4 and hPDI have different path-specific sample sizes; no formal difference or interaction test was performed.",
+    "Model cohorts overlap; consistency is sensitivity evidence, not independent replication.",
+    "Figures show original bootstrap CI, not simultaneous FDR-adjusted confidence intervals.",
+    "Strict and protocol numerical endpoints were not transcribed from the plot."
+  ]
+}

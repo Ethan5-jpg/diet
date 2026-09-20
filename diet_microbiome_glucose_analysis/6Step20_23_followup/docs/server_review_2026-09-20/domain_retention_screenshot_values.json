@@ -1,0 +1,67 @@
+{
+  "evidence_type": "user_domain_retention_screenshot_and_existing_count_records",
+  "screenshot": {
+    "attachment_name": "截屏2026-09-20 14.36.26.png",
+    "original_path": "/Users/blizzardxu/Desktop/截屏2026-09-20 14.36.26.png",
+    "local_copy_status": "SOURCE_PATH_NOT_FOUND",
+    "sha256": null,
+    "evidence_available": "Image visible in user conversation; values transcribed from that attachment. Original binary not archived locally."
+  },
+  "expected_server_figure_name": "20_domain_retention.png",
+  "run_association": "Inferred from preceding followup context; screenshot itself does not show run path",
+  "independent_CSV_review_completed": false,
+  "left_panel_counts_transcribed": [
+    {
+      "domain": "glycemic_level",
+      "candidate_paths": 238,
+      "primary_robust": 213,
+      "retained_both": 202,
+      "both_over_candidates_pct": 84.87394957983193,
+      "both_over_primary_pct": 94.83568075117371
+    },
+    {
+      "domain": "glycemic_variability",
+      "candidate_paths": 1171,
+      "primary_robust": 714,
+      "retained_both": 598,
+      "both_over_candidates_pct": 51.06746370623399,
+      "both_over_primary_pct": 83.75350140056022
+    },
+    {
+      "domain": "glycemic_risk_range",
+      "candidate_paths": 81,
+      "primary_robust": 76,
+      "retained_both": 71,
+      "both_over_candidates_pct": 87.65432098765432,
+      "both_over_primary_pct": 93.42105263157895
+    }
+  ],
+  "right_panel_denominator": "Primary robust paths within the same domain and the same panel; not all candidates and not original871 global-FDR sensitivity",
+  "right_panel_reduced_rates_labelled": false,
+  "derived_from_previous_screenshot_counts": {
+    "no_GMI19_level": {
+      "domain": "glycemic_level",
+      "candidate_paths": 162,
+      "primary_robust": 144,
+      "retained_both": 140,
+      "both_over_primary_pct": 97.22222222222223,
+      "source": "Derived from full20 counts and earlier Mean/GMI overlap screenshot, not extracted from unlabelled bar height."
+    },
+    "concept_panel9_level": {
+      "domain": "glycemic_level",
+      "candidate_paths": 76,
+      "primary_robust": 66,
+      "retained_both": 62,
+      "both_over_primary_pct": 93.93939393939394,
+      "source": "Derived from concept_panel9 selecting Mean only for level domain and earlier Mean/GMI overlap screenshot."
+    }
+  },
+  "visual_findings": [
+    "no_GMI19 variability and risk/range bars match full20, expected because GMI belongs only to level",
+    "concept_panel9 variability retention bar is lower than full20/no_GMI19 and lower than its level/risk bars",
+    "Risk/range bars appear similar across panels, but equal rates would not prove identical path composition"
+  ],
+  "reduced_panel_variability_and_risk_exact_counts": "Not transcribed; not recoverable exactly from unlabeled bars alone.",
+  "no_model_refit_or_FDR_recompute": true,
+  "all_five_generated_figures_now_reviewed_as_screenshots": true
+}

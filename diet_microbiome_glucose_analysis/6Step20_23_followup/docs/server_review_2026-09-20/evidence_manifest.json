@@ -1,0 +1,108 @@
+{
+  "evidence_type": "user_server_terminal_screenshots_only",
+  "overall_status": "PASS",
+  "data_kind": "SERVER_RESULT_TABLES",
+  "server_run": "followup_20260920T044755_767120Z",
+  "software": {
+    "python": "3.11.5",
+    "numpy": "1.26.4",
+    "pandas": "2.1.0",
+    "matplotlib": "3.8.3"
+  },
+  "stages": {
+    "00_frozen_input_integrity": "PASS",
+    "20_domains": "PASS",
+    "21_original_models_FDR": "PASS",
+    "20_CGM_source": "PASS",
+    "21_preprocessing_trace": "PASS",
+    "20_field_lineage": "PASS",
+    "21_sample_N_and_hash": "PASS",
+    "20_correlations": "PASS",
+    "22_mechanism_materials": "PASS",
+    "23_figures": "PASS",
+    "99_inputs_unchanged": "PASS"
+  },
+  "models_refit": false,
+  "fdr_recomputed": false,
+  "frozen_selection_changed": false,
+  "source_step19b": "step19b_20260920T030809_033720Z",
+  "result_tables_downloaded_and_independently_reviewed": false,
+  "screenshots": [
+    {
+      "file": "server_run_01.png",
+      "original_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_fE5z2v/截屏2026-09-20 12.53.28.png",
+      "sha256": "102f7b03dc25fdd5e8bfc3d3f3d363a8dc921c653e32042bf55d04cb3d669194"
+    },
+    {
+      "file": "server_run_02.png",
+      "original_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_YZybM4/截屏2026-09-20 12.53.42.png",
+      "sha256": "ce170d1c27ad04ab9fe61656afaca677f17ff15ebf7442d32d6264233b3b6fd1"
+    },
+    {
+      "file": "server_step20_21.png",
+      "original_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_miVFDU/截屏2026-09-20 12.56.12.png",
+      "sha256": "859183137a7777f11d94d741ba0b3935e6d60758f3395b6403f79f882da5efa7"
+    },
+    {
+      "file": "server_redundancy_core_panels.png",
+      "original_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_ngt6hp/截屏2026-09-20 13.06.11.png",
+      "sha256": "4fa2eec6ff84bc41f545f9b4a8c3bafa8e2078ffd9ec2b5895caceebbe66c3e7"
+    },
+    {
+      "file": "server_global_fdr_joint3.png",
+      "original_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_Y7wxF6/截屏2026-09-20 13.13.09.png",
+      "sha256": "0ea9927a46da23b00113dab2cd1e9d20ed3c20bfaa6a3690a4c4c73e0cb9a9bf"
+    },
+    {
+      "file": "server_T046_global_fdr_domains.png",
+      "original_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_Nd95K4/截屏2026-09-20 13.18.53.png",
+      "sha256": "b7d2c385039884ee54c4fecef2137b682ba1a767dd9cfbd6233ed4be4878f05a"
+    },
+    {
+      "file": "server_step22_23_summary.png",
+      "original_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_QHxifw/截屏2026-09-20 13.23.31.png",
+      "sha256": "a002815fe1bd4098bcc89f311d49e762b6220c99d22144711dddbec3e600f410"
+    },
+    {
+      "file": "server_strict_paper20_correlation.png",
+      "original_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_AHTvTv/截屏2026-09-20 13.28.12.png",
+      "sha256": "a0a6d655da41eb514e75efd972b990e9a83df8a9f2edf7908de1bd0bf5753bef"
+    },
+    {
+      "file": "server_primary_paper20_correlation.png",
+      "original_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_i1PhpC/截屏2026-09-20 13.34.15.png",
+      "sha256": "febb2188ea805713f65c02c800f4026472cc38b4ead10776df5befe5ef1f24af"
+    },
+    {
+      "file": "server_core_indirect_direction.png",
+      "original_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_pddrek/截屏2026-09-20 13.38.05.png",
+      "sha256": "86cd50862ff84ede2c2b2a2c9c2ba3a07b6b9a54a68754f83ad4d55d36fe40c4"
+    },
+    {
+      "file": "server_three_model_illustrative_forest.png",
+      "original_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_orsQ6S/截屏2026-09-20 13.42.19.png",
+      "sha256": "d580aea5a0d088274eb5ccbc6e2b6ad0859d59ed55cb94a7b365d2071169604f"
+    }
+  ],
+  "conversation_only_screenshots": [
+    {
+      "attachment_name": "截屏2026-09-20 14.36.26.png",
+      "original_path": "/Users/blizzardxu/Desktop/截屏2026-09-20 14.36.26.png",
+      "local_copy_status": "SOURCE_PATH_NOT_FOUND",
+      "sha256": null,
+      "evidence_available": "Image visible in user conversation; values transcribed from that attachment. Original binary not archived locally."
+    }
+  ],
+  "five_generated_figures_screenshot_review": {
+    "status": "COMPLETED_AT_SCREENSHOT_LEVEL",
+    "figures": [
+      "20_primary_paper20_correlation.png",
+      "20_strict_paper20_correlation.png",
+      "20_domain_retention.png",
+      "23_core_indirect_direction.png",
+      "23_three_model_illustrative_forest.png"
+    ],
+    "not_equivalent_to": "Full-precision independent audit of all source CSV values or full mechanism review.",
+    "domain_figure_binary_archive": "Unavailable at supplied local path; visible conversation attachment reviewed."
+  }
+}
