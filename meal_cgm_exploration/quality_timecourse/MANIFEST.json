@@ -1,0 +1,34 @@
+{
+  "version": "2026.09.25.1",
+  "files": {
+    "PLAN.md": "12edbdc6782252d537abacfd30d90f725c077470f2f57ba4b594fe74257ddddb",
+    "README.md": "a529051f1e07d2f7e6a954f45d2edf6296054bab679697a3de84448601aca9c6",
+    "REVIEW.md": "92aa9fc34c420f1e6e1aa80a24cddd113a0fe545aa6dfe4a4cf8d0b9c7518312",
+    "__init__.py": "c84cbbf9f682801a370ca927bd20f9acfda73d60887f58e8e454cfd261cfc100",
+    "analysis.py": "407db2fc2592a5b3490ed935680bc36f15e120b172b1b8f8d0abb49cf4c86956",
+    "coverage.py": "f59b51ee19c7f85ad40d57878eca7918017056cb53274d7c0e91718af3762d28",
+    "inputs.py": "b2744f427ae68c0df48fff1fcb1a75c34285771d107415e40ea4153f0a826b43",
+    "reporting.py": "8dfa3fbf5f46b25d145df121557ee934544546666a95cf0450270c2eb32cf30d",
+    "run_analysis.py": "bbce359f919537aa1cd067770473822ad39f4ea0746dd472266b3b2503cf158a",
+    "run_quality_timecourse.sh": "a525a544ea0b7c3766b1283042bb58f3213b608fe3797925756e81f58a369f08",
+    "tests/test_extension.py": "570d6853d7dab0e7c74a834220ea3ca76b0fbf241432795d20d0b9fa024f72f3"
+  },
+  "dependencies": {
+    "hppmeal/__init__.py": "4758c2933302e367229b79ca85f532884c0c6236b5d74e6c179c091c2a5af27b",
+    "hppmeal/cgm.py": "5818892483242c25794182e828bb1f8cc02a267978216886da2015bb238bc9a8",
+    "hppmeal/common.py": "1ba7c4715bb3e734e9c36b0cbb30c8879a13862726c9730f95cde2f26476096a",
+    "hppmeal/ingest.py": "1242244d6dc2ef2c2fece9fbd6234da8dea223db7cfa03482baaaf2034de916c",
+    "hppmeal/meals.py": "bbcdca85382a5e0eaad449f4fd8fb1ed4d78bbc6df9dec15a1751ad7d6d41933",
+    "hppmeal/models.py": "799d1e43edde2cb469e7716edb0c704a7fd4196e4a80bef0e9114f557193701f",
+    "hppmeal/pipeline.py": "63f7479deebbfd63146539c78a848e940e6dc2c644430ea48871b78e7eae49f0",
+    "hppmeal/preflight.py": "b9f6ac9d98552ab63663695ffeac8ec7cbe3ddadc2a25a56141006e498e9bf7a",
+    "hppmeal/report.py": "c9665ed54b0f2fb62dfa8be058adbca9ab5d9b396a64863a4907c15f2fc67e23",
+    "scripts/run_pipeline.py": "5f95f0fb0a05dad232b24a84075ef125fcdff99b0a8b9c53959a6a4116822f85",
+    "scripts/show_results.py": "54cb63b3177cba57d1644d83db96027bfb43971e8f4c6c9b9e4389412d0379ef",
+    "seven_diet_meals/__init__.py": "3642de64b8850eb19a64f8c367fcc7c5ee4a42082ca54d6899ca47c22f959d1a",
+    "seven_diet_meals/inputs.py": "0cf5bbdd88289419fd4b9a4d6ebce75c6487b2755c72dbc9c03dc4d6c646e0bd",
+    "seven_diet_meals/models.py": "ba021569c7d5e7f6efda1c6eaebee649d048faa014eb00c157ae9a2277a23ba7",
+    "seven_diet_meals/reporting.py": "dcb9d29076c4a2d7132b5885a2dc0377e1e9e17ca6bc762803c4c309763e4ca9",
+    "seven_diet_meals/run_analysis.py": "26047ba0164e214a2b5e12c4a52ca69bdffd5e861a3ed71749f7f0409c5ebd6e"
+  }
+}

@@ -1,0 +1,1603 @@
+{
+  "run_id": "nutrition_bridge_20260926T071736_080048Z",
+  "data_kind": "REAL",
+  "evidence_cutoff": "2026-09-27 21:04:38 Asia/Shanghai",
+  "pages": [
+    36,
+    37,
+    38,
+    39
+  ],
+  "source_images": [
+    {
+      "original_filename": "截屏2026-09-27 21.04.28.png",
+      "original_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_vj2lQk/截屏2026-09-27 21.04.28.png",
+      "archive_path": "evidence/nutrition_bridge_2026-09-27_210428_pages36-37.png",
+      "pages": [
+        36,
+        37
+      ],
+      "visible_content": "Complete headers and all7 diet rows on both pages; REAL/run_id confirmed",
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "copy_status": "COPIED_UNMODIFIED",
+      "sha256": "cb9d03564df6ccdeb445a254109cfaa2d5d052ee3aa46f3d3890e36247374224"
+    },
+    {
+      "original_filename": "截屏2026-09-27 21.04.38.png",
+      "original_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_Pq6x7I/截屏2026-09-27 21.04.38.png",
+      "archive_path": "evidence/nutrition_bridge_2026-09-27_210438_pages38-39.png",
+      "pages": [
+        38,
+        39
+      ],
+      "visible_content": "Complete headers and all7 diet rows on both pages; REAL/run_id confirmed",
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "copy_status": "COPIED_UNMODIFIED",
+      "sha256": "b598fbb01c24ceb23afcea31986562b5e7ed9b1dc3799e493b8ae0b59da4328e"
+    }
+  ],
+  "rows": [
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "background",
+      "model_label": "BG",
+      "diet": "AHEI",
+      "people": 4595,
+      "meals": null,
+      "estimate": 0.04659,
+      "ci_low": -0.2224,
+      "ci_high": 0.3156,
+      "p": null,
+      "q": 0.8307,
+      "display": {
+        "people": "4595",
+        "estimate": "0.04659",
+        "ci_low": "-0.2224",
+        "ci_high": "0.3156",
+        "q": "0.8307"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_210428_pages36-37.png"
+      ],
+      "source_pages": [
+        36
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "status_source": "Explicit ESTIMATED on detailed adjustment page",
+      "inference": "HC3;pointwise95%CI;q over70 planned adjustment specs within source_primary;fixed participants/meals across5 models"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "background",
+      "model_label": "BG",
+      "diet": "AMED",
+      "people": 4595,
+      "meals": null,
+      "estimate": 0.1377,
+      "ci_low": -0.1226,
+      "ci_high": 0.398,
+      "p": null,
+      "q": 0.602,
+      "display": {
+        "people": "4595",
+        "estimate": "0.1377",
+        "ci_low": "-0.1226",
+        "ci_high": "0.398",
+        "q": "0.602"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_210428_pages36-37.png"
+      ],
+      "source_pages": [
+        36
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "status_source": "Explicit ESTIMATED on detailed adjustment page",
+      "inference": "HC3;pointwise95%CI;q over70 planned adjustment specs within source_primary;fixed participants/meals across5 models"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "background",
+      "model_label": "BG",
+      "diet": "hPDI",
+      "people": 5393,
+      "meals": null,
+      "estimate": -0.2375,
+      "ci_low": -0.4802,
+      "ci_high": 0.005126,
+      "p": null,
+      "q": 0.1835,
+      "display": {
+        "people": "5393",
+        "estimate": "-0.2375",
+        "ci_low": "-0.4802",
+        "ci_high": "0.005126",
+        "q": "0.1835"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_210428_pages36-37.png"
+      ],
+      "source_pages": [
+        36
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "status_source": "Explicit ESTIMATED on detailed adjustment page",
+      "inference": "HC3;pointwise95%CI;q over70 planned adjustment specs within source_primary;fixed participants/meals across5 models"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "background",
+      "model_label": "BG",
+      "diet": "rEDIH",
+      "people": 4595,
+      "meals": null,
+      "estimate": 0.06593,
+      "ci_low": -0.2409,
+      "ci_high": 0.3728,
+      "p": null,
+      "q": 0.8307,
+      "display": {
+        "people": "4595",
+        "estimate": "0.06593",
+        "ci_low": "-0.2409",
+        "ci_high": "0.3728",
+        "q": "0.8307"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_210428_pages36-37.png"
+      ],
+      "source_pages": [
+        36
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "status_source": "Explicit ESTIMATED on detailed adjustment page",
+      "inference": "HC3;pointwise95%CI;q over70 planned adjustment specs within source_primary;fixed participants/meals across5 models"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "background",
+      "model_label": "BG",
+      "diet": "EAT13",
+      "people": 4504,
+      "meals": null,
+      "estimate": 0.03168,
+      "ci_low": -0.2388,
+      "ci_high": 0.3022,
+      "p": null,
+      "q": 0.8459,
+      "display": {
+        "people": "4504",
+        "estimate": "0.03168",
+        "ci_low": "-0.2388",
+        "ci_high": "0.3022",
+        "q": "0.8459"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_210428_pages36-37.png"
+      ],
+      "source_pages": [
+        36
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "status_source": "Explicit ESTIMATED on detailed adjustment page",
+      "inference": "HC3;pointwise95%CI;q over70 planned adjustment specs within source_primary;fixed participants/meals across5 models"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "background",
+      "model_label": "BG",
+      "diet": "NOVA4",
+      "people": 4102,
+      "meals": null,
+      "estimate": 0.9566,
+      "ci_low": 0.6792,
+      "ci_high": 1.234,
+      "p": null,
+      "q": 1.55e-10,
+      "display": {
+        "people": "4102",
+        "estimate": "0.9566",
+        "ci_low": "0.6792",
+        "ci_high": "1.234",
+        "q": "1.55e-10"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_210428_pages36-37.png"
+      ],
+      "source_pages": [
+        36
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "status_source": "Explicit ESTIMATED on detailed adjustment page",
+      "inference": "HC3;pointwise95%CI;q over70 planned adjustment specs within source_primary;fixed participants/meals across5 models"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "background",
+      "model_label": "BG",
+      "diet": "Carbohydrate_pct",
+      "people": 4573,
+      "meals": null,
+      "estimate": 2.169,
+      "ci_low": 1.921,
+      "ci_high": 2.417,
+      "p": null,
+      "q": 2.896e-62,
+      "display": {
+        "people": "4573",
+        "estimate": "2.169",
+        "ci_low": "1.921",
+        "ci_high": "2.417",
+        "q": "2.896e-62"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_210428_pages36-37.png"
+      ],
+      "source_pages": [
+        36
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "status_source": "Explicit ESTIMATED on detailed adjustment page",
+      "inference": "HC3;pointwise95%CI;q over70 planned adjustment specs within source_primary;fixed participants/meals across5 models"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_energy",
+      "model_label": "+E",
+      "diet": "AHEI",
+      "people": 4595,
+      "meals": null,
+      "estimate": 0.05684,
+      "ci_low": -0.212,
+      "ci_high": 0.3256,
+      "p": null,
+      "q": 0.8307,
+      "display": {
+        "people": "4595",
+        "estimate": "0.05684",
+        "ci_low": "-0.212",
+        "ci_high": "0.3256",
+        "q": "0.8307"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_210428_pages36-37.png"
+      ],
+      "source_pages": [
+        37
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "status_source": "Explicit ESTIMATED on detailed adjustment page",
+      "inference": "HC3;pointwise95%CI;q over70 planned adjustment specs within source_primary;fixed participants/meals across5 models"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_energy",
+      "model_label": "+E",
+      "diet": "AMED",
+      "people": 4595,
+      "meals": null,
+      "estimate": 0.1267,
+      "ci_low": -0.1335,
+      "ci_high": 0.387,
+      "p": null,
+      "q": 0.6608,
+      "display": {
+        "people": "4595",
+        "estimate": "0.1267",
+        "ci_low": "-0.1335",
+        "ci_high": "0.387",
+        "q": "0.6608"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_210428_pages36-37.png"
+      ],
+      "source_pages": [
+        37
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "status_source": "Explicit ESTIMATED on detailed adjustment page",
+      "inference": "HC3;pointwise95%CI;q over70 planned adjustment specs within source_primary;fixed participants/meals across5 models"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_energy",
+      "model_label": "+E",
+      "diet": "hPDI",
+      "people": 5393,
+      "meals": null,
+      "estimate": -0.2359,
+      "ci_low": -0.4768,
+      "ci_high": 0.004887,
+      "p": null,
+      "q": 0.1835,
+      "display": {
+        "people": "5393",
+        "estimate": "-0.2359",
+        "ci_low": "-0.4768",
+        "ci_high": "0.004887",
+        "q": "0.1835"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_210428_pages36-37.png"
+      ],
+      "source_pages": [
+        37
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "status_source": "Explicit ESTIMATED on detailed adjustment page",
+      "inference": "HC3;pointwise95%CI;q over70 planned adjustment specs within source_primary;fixed participants/meals across5 models"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_energy",
+      "model_label": "+E",
+      "diet": "rEDIH",
+      "people": 4595,
+      "meals": null,
+      "estimate": 0.117,
+      "ci_low": -0.1926,
+      "ci_high": 0.4266,
+      "p": null,
+      "q": 0.661,
+      "display": {
+        "people": "4595",
+        "estimate": "0.117",
+        "ci_low": "-0.1926",
+        "ci_high": "0.4266",
+        "q": "0.661"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_210428_pages36-37.png"
+      ],
+      "source_pages": [
+        37
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "status_source": "Explicit ESTIMATED on detailed adjustment page",
+      "inference": "HC3;pointwise95%CI;q over70 planned adjustment specs within source_primary;fixed participants/meals across5 models"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_energy",
+      "model_label": "+E",
+      "diet": "EAT13",
+      "people": 4504,
+      "meals": null,
+      "estimate": 0.03431,
+      "ci_low": -0.2347,
+      "ci_high": 0.3034,
+      "p": null,
+      "q": 0.8459,
+      "display": {
+        "people": "4504",
+        "estimate": "0.03431",
+        "ci_low": "-0.2347",
+        "ci_high": "0.3034",
+        "q": "0.8459"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_210428_pages36-37.png"
+      ],
+      "source_pages": [
+        37
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "status_source": "Explicit ESTIMATED on detailed adjustment page",
+      "inference": "HC3;pointwise95%CI;q over70 planned adjustment specs within source_primary;fixed participants/meals across5 models"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_energy",
+      "model_label": "+E",
+      "diet": "NOVA4",
+      "people": 4102,
+      "meals": null,
+      "estimate": 0.9725,
+      "ci_low": 0.6946,
+      "ci_high": 1.25,
+      "p": null,
+      "q": 9.236e-11,
+      "display": {
+        "people": "4102",
+        "estimate": "0.9725",
+        "ci_low": "0.6946",
+        "ci_high": "1.25",
+        "q": "9.236e-11"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_210428_pages36-37.png"
+      ],
+      "source_pages": [
+        37
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "status_source": "Explicit ESTIMATED on detailed adjustment page",
+      "inference": "HC3;pointwise95%CI;q over70 planned adjustment specs within source_primary;fixed participants/meals across5 models"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_energy",
+      "model_label": "+E",
+      "diet": "Carbohydrate_pct",
+      "people": 4573,
+      "meals": null,
+      "estimate": 2.34,
+      "ci_low": 2.083,
+      "ci_high": 2.597,
+      "p": null,
+      "q": 3.722e-67,
+      "display": {
+        "people": "4573",
+        "estimate": "2.34",
+        "ci_low": "2.083",
+        "ci_high": "2.597",
+        "q": "3.722e-67"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_210428_pages36-37.png"
+      ],
+      "source_pages": [
+        37
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "status_source": "Explicit ESTIMATED on detailed adjustment page",
+      "inference": "HC3;pointwise95%CI;q over70 planned adjustment specs within source_primary;fixed participants/meals across5 models"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_carb",
+      "model_label": "+C",
+      "diet": "AHEI",
+      "people": 4595,
+      "meals": null,
+      "estimate": -0.09644,
+      "ci_low": -0.3517,
+      "ci_high": 0.1588,
+      "p": null,
+      "q": 0.661,
+      "display": {
+        "people": "4595",
+        "estimate": "-0.09644",
+        "ci_low": "-0.3517",
+        "ci_high": "0.1588",
+        "q": "0.661"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_210438_pages38-39.png"
+      ],
+      "source_pages": [
+        38
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "status_source": "Explicit ESTIMATED on detailed adjustment page",
+      "inference": "HC3;pointwise95%CI;q over70 planned adjustment specs within source_primary;fixed participants/meals across5 models"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_carb",
+      "model_label": "+C",
+      "diet": "AMED",
+      "people": 4595,
+      "meals": null,
+      "estimate": 0.04627,
+      "ci_low": -0.2039,
+      "ci_high": 0.2965,
+      "p": null,
+      "q": 0.8307,
+      "display": {
+        "people": "4595",
+        "estimate": "0.04627",
+        "ci_low": "-0.2039",
+        "ci_high": "0.2965",
+        "q": "0.8307"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_210438_pages38-39.png"
+      ],
+      "source_pages": [
+        38
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "status_source": "Explicit ESTIMATED on detailed adjustment page",
+      "inference": "HC3;pointwise95%CI;q over70 planned adjustment specs within source_primary;fixed participants/meals across5 models"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_carb",
+      "model_label": "+C",
+      "diet": "hPDI",
+      "people": 5393,
+      "meals": null,
+      "estimate": -0.1668,
+      "ci_low": -0.4019,
+      "ci_high": 0.06835,
+      "p": null,
+      "q": 0.4129,
+      "display": {
+        "people": "5393",
+        "estimate": "-0.1668",
+        "ci_low": "-0.4019",
+        "ci_high": "0.06835",
+        "q": "0.4129"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_210438_pages38-39.png"
+      ],
+      "source_pages": [
+        38
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "status_source": "Explicit ESTIMATED on detailed adjustment page",
+      "inference": "HC3;pointwise95%CI;q over70 planned adjustment specs within source_primary;fixed participants/meals across5 models"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_carb",
+      "model_label": "+C",
+      "diet": "rEDIH",
+      "people": 4595,
+      "meals": null,
+      "estimate": -0.2888,
+      "ci_low": -0.57,
+      "ci_high": -0.007677,
+      "p": null,
+      "q": 0.1623,
+      "display": {
+        "people": "4595",
+        "estimate": "-0.2888",
+        "ci_low": "-0.57",
+        "ci_high": "-0.007677",
+        "q": "0.1623"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_210438_pages38-39.png"
+      ],
+      "source_pages": [
+        38
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "status_source": "Explicit ESTIMATED on detailed adjustment page",
+      "inference": "HC3;pointwise95%CI;q over70 planned adjustment specs within source_primary;fixed participants/meals across5 models"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_carb",
+      "model_label": "+C",
+      "diet": "EAT13",
+      "people": 4504,
+      "meals": null,
+      "estimate": -0.1352,
+      "ci_low": -0.3914,
+      "ci_high": 0.121,
+      "p": null,
+      "q": 0.602,
+      "display": {
+        "people": "4504",
+        "estimate": "-0.1352",
+        "ci_low": "-0.3914",
+        "ci_high": "0.121",
+        "q": "0.602"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_210438_pages38-39.png"
+      ],
+      "source_pages": [
+        38
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "status_source": "Explicit ESTIMATED on detailed adjustment page",
+      "inference": "HC3;pointwise95%CI;q over70 planned adjustment specs within source_primary;fixed participants/meals across5 models"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_carb",
+      "model_label": "+C",
+      "diet": "NOVA4",
+      "people": 4102,
+      "meals": null,
+      "estimate": 0.414,
+      "ci_low": 0.1338,
+      "ci_high": 0.6942,
+      "p": null,
+      "q": 0.01656,
+      "display": {
+        "people": "4102",
+        "estimate": "0.414",
+        "ci_low": "0.1338",
+        "ci_high": "0.6942",
+        "q": "0.01656"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_210438_pages38-39.png"
+      ],
+      "source_pages": [
+        38
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "status_source": "Explicit ESTIMATED on detailed adjustment page",
+      "inference": "HC3;pointwise95%CI;q over70 planned adjustment specs within source_primary;fixed participants/meals across5 models"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_carb",
+      "model_label": "+C",
+      "diet": "Carbohydrate_pct",
+      "people": 4573,
+      "meals": null,
+      "estimate": 1.088,
+      "ci_low": 0.7768,
+      "ci_high": 1.399,
+      "p": null,
+      "q": 9.236e-11,
+      "display": {
+        "people": "4573",
+        "estimate": "1.088",
+        "ci_low": "0.7768",
+        "ci_high": "1.399",
+        "q": "9.236e-11"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_210438_pages38-39.png"
+      ],
+      "source_pages": [
+        38
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "status_source": "Explicit ESTIMATED on detailed adjustment page",
+      "inference": "HC3;pointwise95%CI;q over70 planned adjustment specs within source_primary;fixed participants/meals across5 models"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_both",
+      "model_label": "+E+C",
+      "diet": "AHEI",
+      "people": 4595,
+      "meals": null,
+      "estimate": -0.2052,
+      "ci_low": -0.4581,
+      "ci_high": 0.04765,
+      "p": null,
+      "q": 0.3126,
+      "display": {
+        "people": "4595",
+        "estimate": "-0.2052",
+        "ci_low": "-0.4581",
+        "ci_high": "0.04765",
+        "q": "0.3126"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_210438_pages38-39.png"
+      ],
+      "source_pages": [
+        39
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "status_source": "Explicit ESTIMATED on detailed adjustment page",
+      "inference": "HC3;pointwise95%CI;q over70 planned adjustment specs within source_primary;fixed participants/meals across5 models"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_both",
+      "model_label": "+E+C",
+      "diet": "AMED",
+      "people": 4595,
+      "meals": null,
+      "estimate": 0.0373,
+      "ci_low": -0.2094,
+      "ci_high": 0.284,
+      "p": null,
+      "q": 0.8459,
+      "display": {
+        "people": "4595",
+        "estimate": "0.0373",
+        "ci_low": "-0.2094",
+        "ci_high": "0.284",
+        "q": "0.8459"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_210438_pages38-39.png"
+      ],
+      "source_pages": [
+        39
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "status_source": "Explicit ESTIMATED on detailed adjustment page",
+      "inference": "HC3;pointwise95%CI;q over70 planned adjustment specs within source_primary;fixed participants/meals across5 models"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_both",
+      "model_label": "+E+C",
+      "diet": "hPDI",
+      "people": 5393,
+      "meals": null,
+      "estimate": -0.1356,
+      "ci_low": -0.371,
+      "ci_high": 0.09968,
+      "p": null,
+      "q": 0.5484,
+      "display": {
+        "people": "5393",
+        "estimate": "-0.1356",
+        "ci_low": "-0.371",
+        "ci_high": "0.09968",
+        "q": "0.5484"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_210438_pages38-39.png"
+      ],
+      "source_pages": [
+        39
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "status_source": "Explicit ESTIMATED on detailed adjustment page",
+      "inference": "HC3;pointwise95%CI;q over70 planned adjustment specs within source_primary;fixed participants/meals across5 models"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_both",
+      "model_label": "+E+C",
+      "diet": "rEDIH",
+      "people": 4595,
+      "meals": null,
+      "estimate": -0.6814,
+      "ci_low": -0.9659,
+      "ci_high": -0.3969,
+      "p": null,
+      "q": 1.598e-05,
+      "display": {
+        "people": "4595",
+        "estimate": "-0.6814",
+        "ci_low": "-0.9659",
+        "ci_high": "-0.3969",
+        "q": "1.598e-05"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_210438_pages38-39.png"
+      ],
+      "source_pages": [
+        39
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "status_source": "Explicit ESTIMATED on detailed adjustment page",
+      "inference": "HC3;pointwise95%CI;q over70 planned adjustment specs within source_primary;fixed participants/meals across5 models"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_both",
+      "model_label": "+E+C",
+      "diet": "EAT13",
+      "people": 4504,
+      "meals": null,
+      "estimate": -0.1971,
+      "ci_low": -0.4522,
+      "ci_high": 0.0581,
+      "p": null,
+      "q": 0.3502,
+      "display": {
+        "people": "4504",
+        "estimate": "-0.1971",
+        "ci_low": "-0.4522",
+        "ci_high": "0.0581",
+        "q": "0.3502"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_210438_pages38-39.png"
+      ],
+      "source_pages": [
+        39
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "status_source": "Explicit ESTIMATED on detailed adjustment page",
+      "inference": "HC3;pointwise95%CI;q over70 planned adjustment specs within source_primary;fixed participants/meals across5 models"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_both",
+      "model_label": "+E+C",
+      "diet": "NOVA4",
+      "people": 4102,
+      "meals": null,
+      "estimate": 0.1924,
+      "ci_low": -0.09083,
+      "ci_high": 0.4756,
+      "p": null,
+      "q": 0.4271,
+      "display": {
+        "people": "4102",
+        "estimate": "0.1924",
+        "ci_low": "-0.09083",
+        "ci_high": "0.4756",
+        "q": "0.4271"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_210438_pages38-39.png"
+      ],
+      "source_pages": [
+        39
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "status_source": "Explicit ESTIMATED on detailed adjustment page",
+      "inference": "HC3;pointwise95%CI;q over70 planned adjustment specs within source_primary;fixed participants/meals across5 models"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_both",
+      "model_label": "+E+C",
+      "diet": "Carbohydrate_pct",
+      "people": 4573,
+      "meals": null,
+      "estimate": -0.1979,
+      "ci_low": -0.708,
+      "ci_high": 0.3121,
+      "p": null,
+      "q": 0.661,
+      "display": {
+        "people": "4573",
+        "estimate": "-0.1979",
+        "ci_low": "-0.708",
+        "ci_high": "0.3121",
+        "q": "0.661"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_210438_pages38-39.png"
+      ],
+      "source_pages": [
+        39
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "status_source": "Explicit ESTIMATED on detailed adjustment page",
+      "inference": "HC3;pointwise95%CI;q over70 planned adjustment specs within source_primary;fixed participants/meals across5 models"
+    }
+  ],
+  "new_unique_model_specs": 0,
+  "existing_adjustment_specs_enriched": 28,
+  "new_ci_pairs": 28,
+  "new_q_values": 28,
+  "duplicate_checks": [
+    {
+      "diet": "AHEI",
+      "model": "background",
+      "page": 36,
+      "estimate_and_people_match": true,
+      "newly_observed_fields": [
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "diet": "AMED",
+      "model": "background",
+      "page": 36,
+      "estimate_and_people_match": true,
+      "newly_observed_fields": [
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "diet": "hPDI",
+      "model": "background",
+      "page": 36,
+      "estimate_and_people_match": true,
+      "newly_observed_fields": [
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "diet": "rEDIH",
+      "model": "background",
+      "page": 36,
+      "estimate_and_people_match": true,
+      "newly_observed_fields": [
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "diet": "EAT13",
+      "model": "background",
+      "page": 36,
+      "estimate_and_people_match": true,
+      "newly_observed_fields": [
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "diet": "NOVA4",
+      "model": "background",
+      "page": 36,
+      "estimate_and_people_match": true,
+      "newly_observed_fields": [
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "diet": "Carbohydrate_pct",
+      "model": "background",
+      "page": 36,
+      "estimate_and_people_match": true,
+      "newly_observed_fields": [
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "diet": "AHEI",
+      "model": "plus_energy",
+      "page": 37,
+      "estimate_and_people_match": true,
+      "newly_observed_fields": [
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "diet": "AMED",
+      "model": "plus_energy",
+      "page": 37,
+      "estimate_and_people_match": true,
+      "newly_observed_fields": [
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "diet": "hPDI",
+      "model": "plus_energy",
+      "page": 37,
+      "estimate_and_people_match": true,
+      "newly_observed_fields": [
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "diet": "rEDIH",
+      "model": "plus_energy",
+      "page": 37,
+      "estimate_and_people_match": true,
+      "newly_observed_fields": [
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "diet": "EAT13",
+      "model": "plus_energy",
+      "page": 37,
+      "estimate_and_people_match": true,
+      "newly_observed_fields": [
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "diet": "NOVA4",
+      "model": "plus_energy",
+      "page": 37,
+      "estimate_and_people_match": true,
+      "newly_observed_fields": [
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "diet": "Carbohydrate_pct",
+      "model": "plus_energy",
+      "page": 37,
+      "estimate_and_people_match": true,
+      "newly_observed_fields": [
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "diet": "AHEI",
+      "model": "plus_carb",
+      "page": 38,
+      "estimate_and_people_match": true,
+      "newly_observed_fields": [
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "diet": "AMED",
+      "model": "plus_carb",
+      "page": 38,
+      "estimate_and_people_match": true,
+      "newly_observed_fields": [
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "diet": "hPDI",
+      "model": "plus_carb",
+      "page": 38,
+      "estimate_and_people_match": true,
+      "newly_observed_fields": [
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "diet": "rEDIH",
+      "model": "plus_carb",
+      "page": 38,
+      "estimate_and_people_match": true,
+      "newly_observed_fields": [
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "diet": "EAT13",
+      "model": "plus_carb",
+      "page": 38,
+      "estimate_and_people_match": true,
+      "newly_observed_fields": [
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "diet": "NOVA4",
+      "model": "plus_carb",
+      "page": 38,
+      "estimate_and_people_match": true,
+      "newly_observed_fields": [
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "diet": "Carbohydrate_pct",
+      "model": "plus_carb",
+      "page": 38,
+      "estimate_and_people_match": true,
+      "newly_observed_fields": [
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "diet": "AHEI",
+      "model": "plus_both",
+      "page": 39,
+      "estimate_and_people_match": true,
+      "newly_observed_fields": [
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "diet": "AMED",
+      "model": "plus_both",
+      "page": 39,
+      "estimate_and_people_match": true,
+      "newly_observed_fields": [
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "diet": "hPDI",
+      "model": "plus_both",
+      "page": 39,
+      "estimate_and_people_match": true,
+      "newly_observed_fields": [
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "diet": "rEDIH",
+      "model": "plus_both",
+      "page": 39,
+      "estimate_and_people_match": true,
+      "newly_observed_fields": [
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "diet": "EAT13",
+      "model": "plus_both",
+      "page": 39,
+      "estimate_and_people_match": true,
+      "newly_observed_fields": [
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "diet": "NOVA4",
+      "model": "plus_both",
+      "page": 39,
+      "estimate_and_people_match": true,
+      "newly_observed_fields": [
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "diet": "Carbohydrate_pct",
+      "model": "plus_both",
+      "page": 39,
+      "estimate_and_people_match": true,
+      "newly_observed_fields": [
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    }
+  ],
+  "notes": [
+    "All7 diets retained for all4 specs;28N/beta match page4.",
+    "+E and+C are parallel additions to background;not a cumulative sequence.",
+    "rEDIH plus_carb CI excludes0 but q=.1623,not FDR-supported at.05;plus_both is supported.",
+    "Unlike net,peak NOVA4 andCarbohydrate_pct remain positively supported in+C;this is not a formal between-outcome difference test.",
+    "Page40 full-model CI still unavailable locally in this run;existing full beta/q remain as earlier overview values.",
+    "No new fitted models or server rerun."
+  ],
+  "prior_quality_endpoint_checks": [
+    {
+      "diet": "AHEI",
+      "people_estimate_ci_match_at_current_precision": true,
+      "q_compared": false,
+      "note": "Current corrected quality table used;old/new FDR families differ"
+    },
+    {
+      "diet": "AMED",
+      "people_estimate_ci_match_at_current_precision": true,
+      "q_compared": false,
+      "note": "Current corrected quality table used;old/new FDR families differ"
+    },
+    {
+      "diet": "hPDI",
+      "people_estimate_ci_match_at_current_precision": true,
+      "q_compared": false,
+      "note": "Current corrected quality table used;old/new FDR families differ"
+    },
+    {
+      "diet": "rEDIH",
+      "people_estimate_ci_match_at_current_precision": true,
+      "q_compared": false,
+      "note": "Current corrected quality table used;old/new FDR families differ"
+    },
+    {
+      "diet": "EAT13",
+      "people_estimate_ci_match_at_current_precision": true,
+      "q_compared": false,
+      "note": "Current corrected quality table used;old/new FDR families differ"
+    },
+    {
+      "diet": "NOVA4",
+      "people_estimate_ci_match_at_current_precision": true,
+      "q_compared": false,
+      "note": "Current corrected quality table used;old/new FDR families differ"
+    },
+    {
+      "diet": "Carbohydrate_pct",
+      "people_estimate_ci_match_at_current_precision": true,
+      "q_compared": false,
+      "note": "Current corrected quality table used;old/new FDR families differ"
+    }
+  ],
+  "displayed_peak_support_summary": {
+    "background": [
+      "NOVA4",
+      "Carbohydrate_pct"
+    ],
+    "plus_energy": [
+      "NOVA4",
+      "Carbohydrate_pct"
+    ],
+    "plus_carb": [
+      "NOVA4",
+      "Carbohydrate_pct"
+    ],
+    "plus_both": [
+      "rEDIH"
+    ]
+  },
+  "support_summary_note": "Per-model q<.05 classification within70-spec family;not a test of differences between outcomes or adjustment models."
+}

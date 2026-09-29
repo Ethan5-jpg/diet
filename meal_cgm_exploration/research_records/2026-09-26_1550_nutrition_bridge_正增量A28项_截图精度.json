@@ -1,0 +1,1518 @@
+{
+  "run_id": "nutrition_bridge_20260926T071736_080048Z",
+  "data_kind": "REAL",
+  "evidence_cutoff": "2026-09-26 15:50:32 Asia/Shanghai",
+  "pages": [
+    6,
+    7,
+    9,
+    10
+  ],
+  "source_images": [
+    {
+      "original_filename": "截屏2026-09-26 15.50.21.png",
+      "original_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_dFg1UP/截屏2026-09-26 15.50.21.png",
+      "archive_path": "evidence/nutrition_bridge_2026-09-26_155021_pages06-07_page09header.png",
+      "pages": [
+        6,
+        7,
+        9
+      ],
+      "partial_page_note": "Page9 header only; its table continues in second image",
+      "copy_status": "COPIED_UNMODIFIED",
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "sha256": "349d059d4dace935fb296f42f9e467748a3e04f01f578213ee95085b277805b5"
+    },
+    {
+      "original_filename": "截屏2026-09-26 15.50.32.png",
+      "original_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_cQ2ZJK/截屏2026-09-26 15.50.32.png",
+      "archive_path": "evidence/nutrition_bridge_2026-09-26_155032_pages09-10.png",
+      "pages": [
+        9,
+        10
+      ],
+      "partial_page_note": "Starts with page9 table continuing preceding image; page10 header is explicit",
+      "copy_status": "COPIED_UNMODIFIED",
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "sha256": "f56d0dd74d9ac26d05a6a5cd598f16badc4da7819c1b3193f766c19a404525ae"
+    }
+  ],
+  "scope": "28 positive-mean A models, all7 diets in two settings and two adjustment conditions; B interactions not shown",
+  "precision": "Terminal .4g; display strings retained; full-precision server files not downloaded",
+  "rows": [
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "positive",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "positive_mean",
+      "model": "background",
+      "diet": "AHEI",
+      "people": 4595,
+      "meals": null,
+      "net_est": 0.06197,
+      "estimate": -0.02493,
+      "ci_low": -0.1862,
+      "ci_high": 0.1363,
+      "p": null,
+      "q": 0.8217,
+      "display": {
+        "people": "4595",
+        "net_est": "0.06197",
+        "estimate": "-0.02493",
+        "ci_low": "-0.1862",
+        "ci_high": "0.1363",
+        "q": "0.8217"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_positive_21",
+      "planned_family_size": 21,
+      "family_scope": "7 A background + 7 A meal_adjusted + 7 B interactions within this setting; q not recomputed from screenshot subset",
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155021_pages06-07_page09header.png"
+      ],
+      "source_pages": [
+        6
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "derived_positive_minus_net": "-0.08690",
+      "derived_difference_note": "Descriptive subtraction of rounded coefficients, not a tested contrast"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "positive",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "positive_mean",
+      "model": "background",
+      "diet": "AMED",
+      "people": 4595,
+      "meals": null,
+      "net_est": 0.1244,
+      "estimate": -0.009766,
+      "ci_low": -0.1657,
+      "ci_high": 0.1462,
+      "p": null,
+      "q": 0.9023,
+      "display": {
+        "people": "4595",
+        "net_est": "0.1244",
+        "estimate": "-0.009766",
+        "ci_low": "-0.1657",
+        "ci_high": "0.1462",
+        "q": "0.9023"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_positive_21",
+      "planned_family_size": 21,
+      "family_scope": "7 A background + 7 A meal_adjusted + 7 B interactions within this setting; q not recomputed from screenshot subset",
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155021_pages06-07_page09header.png"
+      ],
+      "source_pages": [
+        6
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "derived_positive_minus_net": "-0.134166",
+      "derived_difference_note": "Descriptive subtraction of rounded coefficients, not a tested contrast"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "positive",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "positive_mean",
+      "model": "background",
+      "diet": "hPDI",
+      "people": 5393,
+      "meals": null,
+      "net_est": -0.07313,
+      "estimate": -0.1742,
+      "ci_low": -0.3219,
+      "ci_high": -0.0265,
+      "p": null,
+      "q": 0.04956,
+      "display": {
+        "people": "5393",
+        "net_est": "-0.07313",
+        "estimate": "-0.1742",
+        "ci_low": "-0.3219",
+        "ci_high": "-0.0265",
+        "q": "0.04956"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_positive_21",
+      "planned_family_size": 21,
+      "family_scope": "7 A background + 7 A meal_adjusted + 7 B interactions within this setting; q not recomputed from screenshot subset",
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155021_pages06-07_page09header.png"
+      ],
+      "source_pages": [
+        6
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "derived_positive_minus_net": "-0.10107",
+      "derived_difference_note": "Descriptive subtraction of rounded coefficients, not a tested contrast"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "positive",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "positive_mean",
+      "model": "background",
+      "diet": "rEDIH",
+      "people": 4595,
+      "meals": null,
+      "net_est": -0.0896,
+      "estimate": -0.05237,
+      "ci_low": -0.2384,
+      "ci_high": 0.1337,
+      "p": null,
+      "q": 0.742,
+      "display": {
+        "people": "4595",
+        "net_est": "-0.0896",
+        "estimate": "-0.05237",
+        "ci_low": "-0.2384",
+        "ci_high": "0.1337",
+        "q": "0.742"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_positive_21",
+      "planned_family_size": 21,
+      "family_scope": "7 A background + 7 A meal_adjusted + 7 B interactions within this setting; q not recomputed from screenshot subset",
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155021_pages06-07_page09header.png"
+      ],
+      "source_pages": [
+        6
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "derived_positive_minus_net": "0.03723",
+      "derived_difference_note": "Descriptive subtraction of rounded coefficients, not a tested contrast"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "positive",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "positive_mean",
+      "model": "background",
+      "diet": "EAT13",
+      "people": 4504,
+      "meals": null,
+      "net_est": 0.06711,
+      "estimate": -0.04366,
+      "ci_low": -0.2072,
+      "ci_high": 0.1198,
+      "p": null,
+      "q": 0.742,
+      "display": {
+        "people": "4504",
+        "net_est": "0.06711",
+        "estimate": "-0.04366",
+        "ci_low": "-0.2072",
+        "ci_high": "0.1198",
+        "q": "0.742"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_positive_21",
+      "planned_family_size": 21,
+      "family_scope": "7 A background + 7 A meal_adjusted + 7 B interactions within this setting; q not recomputed from screenshot subset",
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155021_pages06-07_page09header.png"
+      ],
+      "source_pages": [
+        6
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "derived_positive_minus_net": "-0.11077",
+      "derived_difference_note": "Descriptive subtraction of rounded coefficients, not a tested contrast"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "positive",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "positive_mean",
+      "model": "background",
+      "diet": "NOVA4",
+      "people": 4102,
+      "meals": null,
+      "net_est": 0.451,
+      "estimate": 0.4966,
+      "ci_low": 0.3313,
+      "ci_high": 0.6618,
+      "p": null,
+      "q": 4.348e-08,
+      "display": {
+        "people": "4102",
+        "net_est": "0.451",
+        "estimate": "0.4966",
+        "ci_low": "0.3313",
+        "ci_high": "0.6618",
+        "q": "4.348e-08"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_positive_21",
+      "planned_family_size": 21,
+      "family_scope": "7 A background + 7 A meal_adjusted + 7 B interactions within this setting; q not recomputed from screenshot subset",
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155021_pages06-07_page09header.png"
+      ],
+      "source_pages": [
+        6
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "derived_positive_minus_net": "0.0456",
+      "derived_difference_note": "Descriptive subtraction of rounded coefficients, not a tested contrast"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "positive",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "positive_mean",
+      "model": "background",
+      "diet": "Carbohydrate_pct",
+      "people": 4573,
+      "meals": null,
+      "net_est": 0.9505,
+      "estimate": 1.057,
+      "ci_low": 0.9127,
+      "ci_high": 1.202,
+      "p": null,
+      "q": 3.268e-44,
+      "display": {
+        "people": "4573",
+        "net_est": "0.9505",
+        "estimate": "1.057",
+        "ci_low": "0.9127",
+        "ci_high": "1.202",
+        "q": "3.268e-44"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_positive_21",
+      "planned_family_size": 21,
+      "family_scope": "7 A background + 7 A meal_adjusted + 7 B interactions within this setting; q not recomputed from screenshot subset",
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155021_pages06-07_page09header.png"
+      ],
+      "source_pages": [
+        6
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "derived_positive_minus_net": "0.1065",
+      "derived_difference_note": "Descriptive subtraction of rounded coefficients, not a tested contrast"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "positive",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "positive_mean",
+      "model": "meal_adjusted",
+      "diet": "AHEI",
+      "people": 4595,
+      "meals": null,
+      "net_est": -0.07957,
+      "estimate": -0.1752,
+      "ci_low": -0.3278,
+      "ci_high": -0.02249,
+      "p": null,
+      "q": 0.05155,
+      "display": {
+        "people": "4595",
+        "net_est": "-0.07957",
+        "estimate": "-0.1752",
+        "ci_low": "-0.3278",
+        "ci_high": "-0.02249",
+        "q": "0.05155"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_positive_21",
+      "planned_family_size": 21,
+      "family_scope": "7 A background + 7 A meal_adjusted + 7 B interactions within this setting; q not recomputed from screenshot subset",
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155021_pages06-07_page09header.png"
+      ],
+      "source_pages": [
+        7
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "derived_positive_minus_net": "-0.09563",
+      "derived_difference_note": "Descriptive subtraction of rounded coefficients, not a tested contrast"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "positive",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "positive_mean",
+      "model": "meal_adjusted",
+      "diet": "AMED",
+      "people": 4595,
+      "meals": null,
+      "net_est": 0.04752,
+      "estimate": -0.08658,
+      "ci_low": -0.2356,
+      "ci_high": 0.06248,
+      "p": null,
+      "q": 0.4461,
+      "display": {
+        "people": "4595",
+        "net_est": "0.04752",
+        "estimate": "-0.08658",
+        "ci_low": "-0.2356",
+        "ci_high": "0.06248",
+        "q": "0.4461"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_positive_21",
+      "planned_family_size": 21,
+      "family_scope": "7 A background + 7 A meal_adjusted + 7 B interactions within this setting; q not recomputed from screenshot subset",
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155021_pages06-07_page09header.png"
+      ],
+      "source_pages": [
+        7
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "derived_positive_minus_net": "-0.13410",
+      "derived_difference_note": "Descriptive subtraction of rounded coefficients, not a tested contrast"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "positive",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "positive_mean",
+      "model": "meal_adjusted",
+      "diet": "hPDI",
+      "people": 5393,
+      "meals": null,
+      "net_est": -0.02273,
+      "estimate": -0.1208,
+      "ci_low": -0.2631,
+      "ci_high": 0.02137,
+      "p": null,
+      "q": 0.1829,
+      "display": {
+        "people": "5393",
+        "net_est": "-0.02273",
+        "estimate": "-0.1208",
+        "ci_low": "-0.2631",
+        "ci_high": "0.02137",
+        "q": "0.1829"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_positive_21",
+      "planned_family_size": 21,
+      "family_scope": "7 A background + 7 A meal_adjusted + 7 B interactions within this setting; q not recomputed from screenshot subset",
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155021_pages06-07_page09header.png"
+      ],
+      "source_pages": [
+        7
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "derived_positive_minus_net": "-0.09807",
+      "derived_difference_note": "Descriptive subtraction of rounded coefficients, not a tested contrast"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "positive",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "positive_mean",
+      "model": "meal_adjusted",
+      "diet": "rEDIH",
+      "people": 4595,
+      "meals": null,
+      "net_est": -0.4869,
+      "estimate": -0.4756,
+      "ci_low": -0.654,
+      "ci_high": -0.2972,
+      "p": null,
+      "q": 1.263e-06,
+      "display": {
+        "people": "4595",
+        "net_est": "-0.4869",
+        "estimate": "-0.4756",
+        "ci_low": "-0.654",
+        "ci_high": "-0.2972",
+        "q": "1.263e-06"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_positive_21",
+      "planned_family_size": 21,
+      "family_scope": "7 A background + 7 A meal_adjusted + 7 B interactions within this setting; q not recomputed from screenshot subset",
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155021_pages06-07_page09header.png"
+      ],
+      "source_pages": [
+        7
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "derived_positive_minus_net": "0.0113",
+      "derived_difference_note": "Descriptive subtraction of rounded coefficients, not a tested contrast"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "positive",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "positive_mean",
+      "model": "meal_adjusted",
+      "diet": "EAT13",
+      "people": 4504,
+      "meals": null,
+      "net_est": -0.06819,
+      "estimate": -0.1849,
+      "ci_low": -0.3423,
+      "ci_high": -0.0276,
+      "p": null,
+      "q": 0.04956,
+      "display": {
+        "people": "4504",
+        "net_est": "-0.06819",
+        "estimate": "-0.1849",
+        "ci_low": "-0.3423",
+        "ci_high": "-0.0276",
+        "q": "0.04956"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_positive_21",
+      "planned_family_size": 21,
+      "family_scope": "7 A background + 7 A meal_adjusted + 7 B interactions within this setting; q not recomputed from screenshot subset",
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155021_pages06-07_page09header.png"
+      ],
+      "source_pages": [
+        7
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "derived_positive_minus_net": "-0.11671",
+      "derived_difference_note": "Descriptive subtraction of rounded coefficients, not a tested contrast"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "positive",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "positive_mean",
+      "model": "meal_adjusted",
+      "diet": "NOVA4",
+      "people": 4102,
+      "meals": null,
+      "net_est": 0.000202,
+      "estimate": 0.02389,
+      "ci_low": -0.1458,
+      "ci_high": 0.1936,
+      "p": null,
+      "q": 0.8217,
+      "display": {
+        "people": "4102",
+        "net_est": "0.000202",
+        "estimate": "0.02389",
+        "ci_low": "-0.1458",
+        "ci_high": "0.1936",
+        "q": "0.8217"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_positive_21",
+      "planned_family_size": 21,
+      "family_scope": "7 A background + 7 A meal_adjusted + 7 B interactions within this setting; q not recomputed from screenshot subset",
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155021_pages06-07_page09header.png"
+      ],
+      "source_pages": [
+        7
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "derived_positive_minus_net": "0.023688",
+      "derived_difference_note": "Descriptive subtraction of rounded coefficients, not a tested contrast"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "positive",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "positive_mean",
+      "model": "meal_adjusted",
+      "diet": "Carbohydrate_pct",
+      "people": 4573,
+      "meals": null,
+      "net_est": -0.7705,
+      "estimate": -0.6468,
+      "ci_low": -0.9495,
+      "ci_high": -0.3442,
+      "p": null,
+      "q": 0.0001487,
+      "display": {
+        "people": "4573",
+        "net_est": "-0.7705",
+        "estimate": "-0.6468",
+        "ci_low": "-0.9495",
+        "ci_high": "-0.3442",
+        "q": "0.0001487"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_positive_21",
+      "planned_family_size": 21,
+      "family_scope": "7 A background + 7 A meal_adjusted + 7 B interactions within this setting; q not recomputed from screenshot subset",
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155021_pages06-07_page09header.png"
+      ],
+      "source_pages": [
+        7
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "derived_positive_minus_net": "0.1237",
+      "derived_difference_note": "Descriptive subtraction of rounded coefficients, not a tested contrast"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "positive",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "positive_mean",
+      "model": "background",
+      "diet": "AHEI",
+      "people": 4370,
+      "meals": null,
+      "net_est": 0.02256,
+      "estimate": -0.0549,
+      "ci_low": -0.2207,
+      "ci_high": 0.1109,
+      "p": null,
+      "q": 0.6124,
+      "display": {
+        "people": "4370",
+        "net_est": "0.02256",
+        "estimate": "-0.0549",
+        "ci_low": "-0.2207",
+        "ci_high": "0.1109",
+        "q": "0.6124"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "joint_positive_21",
+      "planned_family_size": 21,
+      "family_scope": "7 A background + 7 A meal_adjusted + 7 B interactions within this setting; q not recomputed from screenshot subset",
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155021_pages06-07_page09header.png",
+        "evidence/nutrition_bridge_2026-09-26_155032_pages09-10.png"
+      ],
+      "source_pages": [
+        9
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "derived_positive_minus_net": "-0.07746",
+      "derived_difference_note": "Descriptive subtraction of rounded coefficients, not a tested contrast"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "positive",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "positive_mean",
+      "model": "background",
+      "diet": "AMED",
+      "people": 4370,
+      "meals": null,
+      "net_est": 0.07867,
+      "estimate": -0.05512,
+      "ci_low": -0.2146,
+      "ci_high": 0.1043,
+      "p": null,
+      "q": 0.6124,
+      "display": {
+        "people": "4370",
+        "net_est": "0.07867",
+        "estimate": "-0.05512",
+        "ci_low": "-0.2146",
+        "ci_high": "0.1043",
+        "q": "0.6124"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "joint_positive_21",
+      "planned_family_size": 21,
+      "family_scope": "7 A background + 7 A meal_adjusted + 7 B interactions within this setting; q not recomputed from screenshot subset",
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155021_pages06-07_page09header.png",
+        "evidence/nutrition_bridge_2026-09-26_155032_pages09-10.png"
+      ],
+      "source_pages": [
+        9
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "derived_positive_minus_net": "-0.13379",
+      "derived_difference_note": "Descriptive subtraction of rounded coefficients, not a tested contrast"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "positive",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "positive_mean",
+      "model": "background",
+      "diet": "hPDI",
+      "people": 4627,
+      "meals": null,
+      "net_est": -0.1114,
+      "estimate": -0.2134,
+      "ci_low": -0.3698,
+      "ci_high": -0.05688,
+      "p": null,
+      "q": 0.01979,
+      "display": {
+        "people": "4627",
+        "net_est": "-0.1114",
+        "estimate": "-0.2134",
+        "ci_low": "-0.3698",
+        "ci_high": "-0.05688",
+        "q": "0.01979"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "joint_positive_21",
+      "planned_family_size": 21,
+      "family_scope": "7 A background + 7 A meal_adjusted + 7 B interactions within this setting; q not recomputed from screenshot subset",
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155021_pages06-07_page09header.png",
+        "evidence/nutrition_bridge_2026-09-26_155032_pages09-10.png"
+      ],
+      "source_pages": [
+        9
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "derived_positive_minus_net": "-0.1020",
+      "derived_difference_note": "Descriptive subtraction of rounded coefficients, not a tested contrast"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "positive",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "positive_mean",
+      "model": "background",
+      "diet": "rEDIH",
+      "people": 4370,
+      "meals": null,
+      "net_est": -0.1187,
+      "estimate": -0.09293,
+      "ci_low": -0.2862,
+      "ci_high": 0.1004,
+      "p": null,
+      "q": 0.5189,
+      "display": {
+        "people": "4370",
+        "net_est": "-0.1187",
+        "estimate": "-0.09293",
+        "ci_low": "-0.2862",
+        "ci_high": "0.1004",
+        "q": "0.5189"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "joint_positive_21",
+      "planned_family_size": 21,
+      "family_scope": "7 A background + 7 A meal_adjusted + 7 B interactions within this setting; q not recomputed from screenshot subset",
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155021_pages06-07_page09header.png",
+        "evidence/nutrition_bridge_2026-09-26_155032_pages09-10.png"
+      ],
+      "source_pages": [
+        9
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "derived_positive_minus_net": "0.02577",
+      "derived_difference_note": "Descriptive subtraction of rounded coefficients, not a tested contrast"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "positive",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "positive_mean",
+      "model": "background",
+      "diet": "EAT13",
+      "people": 4282,
+      "meals": null,
+      "net_est": 0.05155,
+      "estimate": -0.06279,
+      "ci_low": -0.2301,
+      "ci_high": 0.1046,
+      "p": null,
+      "q": 0.6124,
+      "display": {
+        "people": "4282",
+        "net_est": "0.05155",
+        "estimate": "-0.06279",
+        "ci_low": "-0.2301",
+        "ci_high": "0.1046",
+        "q": "0.6124"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "joint_positive_21",
+      "planned_family_size": 21,
+      "family_scope": "7 A background + 7 A meal_adjusted + 7 B interactions within this setting; q not recomputed from screenshot subset",
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155021_pages06-07_page09header.png",
+        "evidence/nutrition_bridge_2026-09-26_155032_pages09-10.png"
+      ],
+      "source_pages": [
+        9
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "derived_positive_minus_net": "-0.11434",
+      "derived_difference_note": "Descriptive subtraction of rounded coefficients, not a tested contrast"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "positive",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "positive_mean",
+      "model": "background",
+      "diet": "NOVA4",
+      "people": 3913,
+      "meals": null,
+      "net_est": 0.4235,
+      "estimate": 0.4798,
+      "ci_low": 0.3093,
+      "ci_high": 0.6503,
+      "p": null,
+      "q": 3.864e-07,
+      "display": {
+        "people": "3913",
+        "net_est": "0.4235",
+        "estimate": "0.4798",
+        "ci_low": "0.3093",
+        "ci_high": "0.6503",
+        "q": "3.864e-07"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "joint_positive_21",
+      "planned_family_size": 21,
+      "family_scope": "7 A background + 7 A meal_adjusted + 7 B interactions within this setting; q not recomputed from screenshot subset",
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155021_pages06-07_page09header.png",
+        "evidence/nutrition_bridge_2026-09-26_155032_pages09-10.png"
+      ],
+      "source_pages": [
+        9
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "derived_positive_minus_net": "0.0563",
+      "derived_difference_note": "Descriptive subtraction of rounded coefficients, not a tested contrast"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "positive",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "positive_mean",
+      "model": "background",
+      "diet": "Carbohydrate_pct",
+      "people": 4349,
+      "meals": null,
+      "net_est": 0.9146,
+      "estimate": 1.028,
+      "ci_low": 0.8759,
+      "ci_high": 1.18,
+      "p": null,
+      "q": 4.484e-38,
+      "display": {
+        "people": "4349",
+        "net_est": "0.9146",
+        "estimate": "1.028",
+        "ci_low": "0.8759",
+        "ci_high": "1.18",
+        "q": "4.484e-38"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "joint_positive_21",
+      "planned_family_size": 21,
+      "family_scope": "7 A background + 7 A meal_adjusted + 7 B interactions within this setting; q not recomputed from screenshot subset",
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155021_pages06-07_page09header.png",
+        "evidence/nutrition_bridge_2026-09-26_155032_pages09-10.png"
+      ],
+      "source_pages": [
+        9
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "derived_positive_minus_net": "0.1134",
+      "derived_difference_note": "Descriptive subtraction of rounded coefficients, not a tested contrast"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "positive",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "positive_mean",
+      "model": "meal_adjusted",
+      "diet": "AHEI",
+      "people": 4370,
+      "meals": null,
+      "net_est": -0.1085,
+      "estimate": -0.1927,
+      "ci_low": -0.3498,
+      "ci_high": -0.0355,
+      "p": null,
+      "q": 0.038,
+      "display": {
+        "people": "4370",
+        "net_est": "-0.1085",
+        "estimate": "-0.1927",
+        "ci_low": "-0.3498",
+        "ci_high": "-0.0355",
+        "q": "0.038"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "joint_positive_21",
+      "planned_family_size": 21,
+      "family_scope": "7 A background + 7 A meal_adjusted + 7 B interactions within this setting; q not recomputed from screenshot subset",
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155032_pages09-10.png"
+      ],
+      "source_pages": [
+        10
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "derived_positive_minus_net": "-0.0842",
+      "derived_difference_note": "Descriptive subtraction of rounded coefficients, not a tested contrast"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "positive",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "positive_mean",
+      "model": "meal_adjusted",
+      "diet": "AMED",
+      "people": 4370,
+      "meals": null,
+      "net_est": 0.01201,
+      "estimate": -0.122,
+      "ci_low": -0.2748,
+      "ci_high": 0.03077,
+      "p": null,
+      "q": 0.2056,
+      "display": {
+        "people": "4370",
+        "net_est": "0.01201",
+        "estimate": "-0.122",
+        "ci_low": "-0.2748",
+        "ci_high": "0.03077",
+        "q": "0.2056"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "joint_positive_21",
+      "planned_family_size": 21,
+      "family_scope": "7 A background + 7 A meal_adjusted + 7 B interactions within this setting; q not recomputed from screenshot subset",
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155032_pages09-10.png"
+      ],
+      "source_pages": [
+        10
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "derived_positive_minus_net": "-0.13401",
+      "derived_difference_note": "Descriptive subtraction of rounded coefficients, not a tested contrast"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "positive",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "positive_mean",
+      "model": "meal_adjusted",
+      "diet": "hPDI",
+      "people": 4627,
+      "meals": null,
+      "net_est": -0.04502,
+      "estimate": -0.1433,
+      "ci_low": -0.2947,
+      "ci_high": 0.008203,
+      "p": null,
+      "q": 0.1217,
+      "display": {
+        "people": "4627",
+        "net_est": "-0.04502",
+        "estimate": "-0.1433",
+        "ci_low": "-0.2947",
+        "ci_high": "0.008203",
+        "q": "0.1217"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "joint_positive_21",
+      "planned_family_size": 21,
+      "family_scope": "7 A background + 7 A meal_adjusted + 7 B interactions within this setting; q not recomputed from screenshot subset",
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155032_pages09-10.png"
+      ],
+      "source_pages": [
+        10
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "derived_positive_minus_net": "-0.09828",
+      "derived_difference_note": "Descriptive subtraction of rounded coefficients, not a tested contrast"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "positive",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "positive_mean",
+      "model": "meal_adjusted",
+      "diet": "rEDIH",
+      "people": 4370,
+      "meals": null,
+      "net_est": -0.5057,
+      "estimate": -0.5031,
+      "ci_low": -0.6871,
+      "ci_high": -0.3192,
+      "p": null,
+      "q": 6.025e-07,
+      "display": {
+        "people": "4370",
+        "net_est": "-0.5057",
+        "estimate": "-0.5031",
+        "ci_low": "-0.6871",
+        "ci_high": "-0.3192",
+        "q": "6.025e-07"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "joint_positive_21",
+      "planned_family_size": 21,
+      "family_scope": "7 A background + 7 A meal_adjusted + 7 B interactions within this setting; q not recomputed from screenshot subset",
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155032_pages09-10.png"
+      ],
+      "source_pages": [
+        10
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "derived_positive_minus_net": "0.0026",
+      "derived_difference_note": "Descriptive subtraction of rounded coefficients, not a tested contrast"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "positive",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "positive_mean",
+      "model": "meal_adjusted",
+      "diet": "EAT13",
+      "people": 4282,
+      "meals": null,
+      "net_est": -0.07421,
+      "estimate": -0.1931,
+      "ci_low": -0.3541,
+      "ci_high": -0.03213,
+      "p": null,
+      "q": 0.03933,
+      "display": {
+        "people": "4282",
+        "net_est": "-0.07421",
+        "estimate": "-0.1931",
+        "ci_low": "-0.3541",
+        "ci_high": "-0.03213",
+        "q": "0.03933"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "joint_positive_21",
+      "planned_family_size": 21,
+      "family_scope": "7 A background + 7 A meal_adjusted + 7 B interactions within this setting; q not recomputed from screenshot subset",
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155032_pages09-10.png"
+      ],
+      "source_pages": [
+        10
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "derived_positive_minus_net": "-0.11889",
+      "derived_difference_note": "Descriptive subtraction of rounded coefficients, not a tested contrast"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "positive",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "positive_mean",
+      "model": "meal_adjusted",
+      "diet": "NOVA4",
+      "people": 3913,
+      "meals": null,
+      "net_est": -0.02292,
+      "estimate": 0.01212,
+      "ci_low": -0.1629,
+      "ci_high": 0.1872,
+      "p": null,
+      "q": 0.9366,
+      "display": {
+        "people": "3913",
+        "net_est": "-0.02292",
+        "estimate": "0.01212",
+        "ci_low": "-0.1629",
+        "ci_high": "0.1872",
+        "q": "0.9366"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "joint_positive_21",
+      "planned_family_size": 21,
+      "family_scope": "7 A background + 7 A meal_adjusted + 7 B interactions within this setting; q not recomputed from screenshot subset",
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155032_pages09-10.png"
+      ],
+      "source_pages": [
+        10
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "derived_positive_minus_net": "0.03504",
+      "derived_difference_note": "Descriptive subtraction of rounded coefficients, not a tested contrast"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "positive",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "positive_mean",
+      "model": "meal_adjusted",
+      "diet": "Carbohydrate_pct",
+      "people": 4349,
+      "meals": null,
+      "net_est": -0.8549,
+      "estimate": -0.6999,
+      "ci_low": -1.015,
+      "ci_high": -0.3846,
+      "p": null,
+      "q": 7.277e-05,
+      "display": {
+        "people": "4349",
+        "net_est": "-0.8549",
+        "estimate": "-0.6999",
+        "ci_low": "-1.015",
+        "ci_high": "-0.3846",
+        "q": "7.277e-05"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "joint_positive_21",
+      "planned_family_size": 21,
+      "family_scope": "7 A background + 7 A meal_adjusted + 7 B interactions within this setting; q not recomputed from screenshot subset",
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155032_pages09-10.png"
+      ],
+      "source_pages": [
+        10
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "derived_positive_minus_net": "0.1550",
+      "derived_difference_note": "Descriptive subtraction of rounded coefficients, not a tested contrast"
+    }
+  ],
+  "checks": [
+    {
+      "page": 6,
+      "diet": "AHEI",
+      "setting": "source_primary",
+      "model": "background",
+      "net_est_and_people_match_prior_pages2_3": true,
+      "CI_contains_estimate": true
+    },
+    {
+      "page": 6,
+      "diet": "AMED",
+      "setting": "source_primary",
+      "model": "background",
+      "net_est_and_people_match_prior_pages2_3": true,
+      "CI_contains_estimate": true
+    },
+    {
+      "page": 6,
+      "diet": "hPDI",
+      "setting": "source_primary",
+      "model": "background",
+      "net_est_and_people_match_prior_pages2_3": true,
+      "CI_contains_estimate": true
+    },
+    {
+      "page": 6,
+      "diet": "rEDIH",
+      "setting": "source_primary",
+      "model": "background",
+      "net_est_and_people_match_prior_pages2_3": true,
+      "CI_contains_estimate": true
+    },
+    {
+      "page": 6,
+      "diet": "EAT13",
+      "setting": "source_primary",
+      "model": "background",
+      "net_est_and_people_match_prior_pages2_3": true,
+      "CI_contains_estimate": true
+    },
+    {
+      "page": 6,
+      "diet": "NOVA4",
+      "setting": "source_primary",
+      "model": "background",
+      "net_est_and_people_match_prior_pages2_3": true,
+      "CI_contains_estimate": true
+    },
+    {
+      "page": 6,
+      "diet": "Carbohydrate_pct",
+      "setting": "source_primary",
+      "model": "background",
+      "net_est_and_people_match_prior_pages2_3": true,
+      "CI_contains_estimate": true
+    },
+    {
+      "page": 7,
+      "diet": "AHEI",
+      "setting": "source_primary",
+      "model": "meal_adjusted",
+      "net_est_and_people_match_prior_pages2_3": true,
+      "CI_contains_estimate": true
+    },
+    {
+      "page": 7,
+      "diet": "AMED",
+      "setting": "source_primary",
+      "model": "meal_adjusted",
+      "net_est_and_people_match_prior_pages2_3": true,
+      "CI_contains_estimate": true
+    },
+    {
+      "page": 7,
+      "diet": "hPDI",
+      "setting": "source_primary",
+      "model": "meal_adjusted",
+      "net_est_and_people_match_prior_pages2_3": true,
+      "CI_contains_estimate": true
+    },
+    {
+      "page": 7,
+      "diet": "rEDIH",
+      "setting": "source_primary",
+      "model": "meal_adjusted",
+      "net_est_and_people_match_prior_pages2_3": true,
+      "CI_contains_estimate": true
+    },
+    {
+      "page": 7,
+      "diet": "EAT13",
+      "setting": "source_primary",
+      "model": "meal_adjusted",
+      "net_est_and_people_match_prior_pages2_3": true,
+      "CI_contains_estimate": true
+    },
+    {
+      "page": 7,
+      "diet": "NOVA4",
+      "setting": "source_primary",
+      "model": "meal_adjusted",
+      "net_est_and_people_match_prior_pages2_3": true,
+      "CI_contains_estimate": true
+    },
+    {
+      "page": 7,
+      "diet": "Carbohydrate_pct",
+      "setting": "source_primary",
+      "model": "meal_adjusted",
+      "net_est_and_people_match_prior_pages2_3": true,
+      "CI_contains_estimate": true
+    },
+    {
+      "page": 9,
+      "diet": "AHEI",
+      "setting": "joint",
+      "model": "background",
+      "net_est_and_people_match_prior_pages2_3": true,
+      "CI_contains_estimate": true
+    },
+    {
+      "page": 9,
+      "diet": "AMED",
+      "setting": "joint",
+      "model": "background",
+      "net_est_and_people_match_prior_pages2_3": true,
+      "CI_contains_estimate": true
+    },
+    {
+      "page": 9,
+      "diet": "hPDI",
+      "setting": "joint",
+      "model": "background",
+      "net_est_and_people_match_prior_pages2_3": true,
+      "CI_contains_estimate": true
+    },
+    {
+      "page": 9,
+      "diet": "rEDIH",
+      "setting": "joint",
+      "model": "background",
+      "net_est_and_people_match_prior_pages2_3": true,
+      "CI_contains_estimate": true
+    },
+    {
+      "page": 9,
+      "diet": "EAT13",
+      "setting": "joint",
+      "model": "background",
+      "net_est_and_people_match_prior_pages2_3": true,
+      "CI_contains_estimate": true
+    },
+    {
+      "page": 9,
+      "diet": "NOVA4",
+      "setting": "joint",
+      "model": "background",
+      "net_est_and_people_match_prior_pages2_3": true,
+      "CI_contains_estimate": true
+    },
+    {
+      "page": 9,
+      "diet": "Carbohydrate_pct",
+      "setting": "joint",
+      "model": "background",
+      "net_est_and_people_match_prior_pages2_3": true,
+      "CI_contains_estimate": true
+    },
+    {
+      "page": 10,
+      "diet": "AHEI",
+      "setting": "joint",
+      "model": "meal_adjusted",
+      "net_est_and_people_match_prior_pages2_3": true,
+      "CI_contains_estimate": true
+    },
+    {
+      "page": 10,
+      "diet": "AMED",
+      "setting": "joint",
+      "model": "meal_adjusted",
+      "net_est_and_people_match_prior_pages2_3": true,
+      "CI_contains_estimate": true
+    },
+    {
+      "page": 10,
+      "diet": "hPDI",
+      "setting": "joint",
+      "model": "meal_adjusted",
+      "net_est_and_people_match_prior_pages2_3": true,
+      "CI_contains_estimate": true
+    },
+    {
+      "page": 10,
+      "diet": "rEDIH",
+      "setting": "joint",
+      "model": "meal_adjusted",
+      "net_est_and_people_match_prior_pages2_3": true,
+      "CI_contains_estimate": true
+    },
+    {
+      "page": 10,
+      "diet": "EAT13",
+      "setting": "joint",
+      "model": "meal_adjusted",
+      "net_est_and_people_match_prior_pages2_3": true,
+      "CI_contains_estimate": true
+    },
+    {
+      "page": 10,
+      "diet": "NOVA4",
+      "setting": "joint",
+      "model": "meal_adjusted",
+      "net_est_and_people_match_prior_pages2_3": true,
+      "CI_contains_estimate": true
+    },
+    {
+      "page": 10,
+      "diet": "Carbohydrate_pct",
+      "setting": "joint",
+      "model": "meal_adjusted",
+      "net_est_and_people_match_prior_pages2_3": true,
+      "CI_contains_estimate": true
+    }
+  ],
+  "notes": [
+    "Page9 provenance spans both original screenshots",
+    "Same people and meals as corresponding net model; positive area includes only portions above baseline, and retains eligible meals",
+    "Confidence intervals are pointwise95%; q uses21 planned models per setting",
+    "Net and positive q families differ; no test of net vs positive coefficient difference",
+    "Original and joint samples overlap and are not independent replication"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "date": "2026-09-28",
+  "version": "2026.09.28.2",
+  "tests_passed": 27,
+  "tests_skipped": 0,
+  "hashes_verified": 73,
+  "manifest_sha256": "2cdfb32017b2c36f11ecca2342b5566f8dac36083347c740126b5eb2fff1a734",
+  "new_real_model_estimates": 0,
+  "real_server_execution": false,
+  "fixed_issues": [
+    "early_preflight_failure_can_expose_older_success_via_latest",
+    "output_mkdir_failure_secondary_error_write"
+  ],
+  "science_contract_unchanged_except_version": true,
+  "synthetic_scientific_tables_exact_match": [
+    "models",
+    "scales",
+    "flow",
+    "legacy_concordance",
+    "selection"
+  ],
+  "synthetic_primary_estimated": 24,
+  "synthetic_full_estimated": 24,
+  "synthetic_difference_estimated": 24,
+  "key_summary_count": 3,
+  "previous_archive_entries_verified": 268,
+  "package_manifest": {
+    "version": "2026.09.28.2",
+    "files": {
+      "CONTRACT.json": "4253cce38310890fdfa3251842702ce136b851bdde5bcf790601e10aa3993d87",
+      "PLAN.md": "3be268bbdbc507073bef819ce06d5be241bde4c529cde139858e5e6c9dd65b8e",
+      "README.md": "03d49e3ebe39d0497c998dad188e0eb0a9b38d5376af61243cd7796cfd5b8d9e",
+      "REVIEW.md": "c56db43a70f5735067de81f2ff72f51362479af9003d006a45eaae043576440b",
+      "__init__.py": "16b059211ac3c38255c79882a686f97ab1c5f8ae850d63fc7c3326a9e9a5963b",
+      "build.py": "1a8a786eb3986b5d1735f73a25a931669bc69f44bf0b5e5ae063a703626fb74a",
+      "inputs.py": "b94f05d0473711069df25a9bbd514f073c00c3714a043be0303531ed93e06a13",
+      "metrics.py": "cb5ced41001593d06af199d36f588037076049ddebc1550384357a952de764c9",
+      "models.py": "496f45d2df0b1fc9ebfbda23b8e7f52881a326336491b563c4a6f1cd7ac5cf52",
+      "reporting.py": "04156aa6163a09755869e3ec75bde9c056e16d39cc3166c5babb1f422e3f5851",
+      "run_analysis.py": "8d61c2756f3f32ea94e38190b9ea7d60261b9fd4bebd5002f276e1424748c618",
+      "run_date_split_bridge.sh": "7d4c5009f048e69bbd4063201cb324b45e66c4f36e94a5db641c6067430a478f",
+      "tests/test_date_split.py": "f8c9dee518788cc6d112f24436e1c02674700cebc3ae0952abf5dfbd0a158706"
+    }
+  }
+}

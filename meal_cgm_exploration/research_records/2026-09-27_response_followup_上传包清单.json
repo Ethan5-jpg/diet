@@ -1,0 +1,31 @@
+{
+  "version": "2026.09.27.1",
+  "path": "/Users/blizzardxu/Desktop/HPP/Data/meal_cgm_exploration/response_followup",
+  "manifest_sha256": "299cc51b3ed6f611d2bbb820279c8af84b2ab3e5cb6fc851d18e8ecc884fda1d",
+  "manifest": {
+    "version": "2026.09.27.1",
+    "files": {
+      "PLAN.md": "bf8e610ce8a403cdad494b3ce9edcc3659f9b8ca7eaec2aca6e965df7b2ff8b4",
+      "README.md": "332ce7557de8005a8dd0a836b13cf5a0a90041121446a707cda7ad0c1304518b",
+      "REVIEW.md": "0bf2d11dd04865bf6a695b0ebf7319140cde22bbe347afe3fd021c61e1ef78a9",
+      "__init__.py": "67cf115fc85be23676ceda28b3cb93a521ea2f7819e985876ac7b27cef106b9e",
+      "feasibility.py": "3d4631553f55e43a76b7b80604ea497603a2da78f534bfb44c985f97219a473c",
+      "inputs.py": "edf30a68d92038a3496c915b9bb848709da3f7bdba002ceeafec12c8860e199c",
+      "plot_local.py": "8422c2141ec48dfa62970e0a33e20b74cdea5e1da66570aa275342455b831843",
+      "reporting.py": "da5ea006e1cc6b9254e3ed8d0c39880d52b37d0926692d71b1d24da275646ae2",
+      "run_analysis.py": "7b9204b42d7670a765180c4ee0c5982c8f0b0143d6578054c9e1bd19d0ba685e",
+      "run_response_followup.sh": "7d4c5009f048e69bbd4063201cb324b45e66c4f36e94a5db641c6067430a478f",
+      "support.py": "40f15125451068d1e180b781346f2a8b2a9a2d4d56a44613a93d94cef73c8aa3",
+      "tests/test_followup.py": "f9eb0ba28e8c631fe5d947a7355263a5288f327c62d4d4ca4a195b3ca248b37f"
+    }
+  },
+  "validation": {
+    "tests_passed": 12,
+    "python_tested": "3.12",
+    "python38_syntax_passed": true,
+    "bash_syntax_passed": true,
+    "real_server_execution": false,
+    "synthetic_execution": true
+  },
+  "scope": "All real research numbers remain screenshot precision; no new real fits"
+}

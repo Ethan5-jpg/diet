@@ -1,0 +1,24 @@
+{
+  "version": "2026.09.29.2",
+  "taxa": [
+    {"id": "T023", "species": "GGB6012_SGB8640"},
+    {"id": "T046", "species": "Clostridium_phoceensis"},
+    {"id": "T068", "species": "Eubacterium_rectale"},
+    {"id": "T096", "species": "Ruthenibacterium_lactatiformans"}
+  ],
+  "meal_outcomes": ["mean_increment", "baseline_glucose", "peak_rise_0_120"],
+  "reference_outcomes": ["cgm_mean_z", "cgm_cv_z", "cgm_sdw_z"],
+  "diet_covariates": ["hPDI", "NOVA4", "mean_daily_energy_kcal", "alcohol_intake_g_day"],
+  "settings": ["primary_common", "strict_common"],
+  "minimum_meals": 5,
+  "minimum_dates": 3,
+  "minimum_people": 50,
+  "minimum_residual_df": 30,
+  "fdr": {"net_primary": 4, "baseline_peak_secondary": 8, "whole_cgm_reference": 12, "meal_all_sensitivity": 12},
+  "planned_models": 48,
+  "weighting": "one row per participant; equal participant weights",
+  "inference": "OLS HC3 with residual-df t reference; pointwise 95% CI",
+  "microbiome_scale": "original species CLR-Z; no renormalization",
+  "date_policy": "audit only; unknown or ambiguous timing retained and disclosed",
+  "interpretation": "selected same-cohort exploratory associations; not causal mediation, independent validation, or prediction"
+}

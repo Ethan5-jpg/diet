@@ -1,0 +1,391 @@
+{
+  "count": 77,
+  "note": "File inventory with fingerprints; not a statement that all 77 were re-transcribed in this audit. Early originals visually re-read, later key fields checked against current corrected JSON and cited images.",
+  "files": [
+    {
+      "path": "../evidence/date_split_bridge_2026-09-28_235533_key1.png",
+      "bytes": 225212,
+      "sha256": "624db12cb9b6d263f65a9e29f3a7c87d58df9060119828d48e8d842bb7c2afbd"
+    },
+    {
+      "path": "../evidence/date_split_bridge_2026-09-28_235550_key2.png",
+      "bytes": 209105,
+      "sha256": "e848bb1706a36e25e3d7d82fd2acc4432696be6dcbfb0f1b6b098bf77f72450a"
+    },
+    {
+      "path": "../evidence/date_split_bridge_2026-09-28_235602_key3.png",
+      "bytes": 215002,
+      "sha256": "ec83e492caf010fb45e416b75933691ce5bc39d2dcc7a4ad09f146bd8197035b"
+    },
+    {
+      "path": "../evidence/nutrition_bridge_2026-09-26_151842.png",
+      "bytes": 54947,
+      "sha256": "712203c45c1a5a47f925fa019a8580def8cbe7b9517b5751b62aa19728b7c4ae"
+    },
+    {
+      "path": "../evidence/nutrition_bridge_2026-09-26_152533.png",
+      "bytes": 219458,
+      "sha256": "302446adbfafa8bc331bc7440247e042a33861763f659f34580e50a6b71ad791"
+    },
+    {
+      "path": "../evidence/nutrition_bridge_2026-09-26_154124.png",
+      "bytes": 225049,
+      "sha256": "946a9f3be8469994a9c750aa909bd2c2291dd99fc63aa03eb68a0359bf7cb16a"
+    },
+    {
+      "path": "../evidence/nutrition_bridge_2026-09-26_154401_pages02-03.png",
+      "bytes": 300491,
+      "sha256": "b0d4b83b806b80d6872d94d783acc03c3bf696c2098a4acd8036e6ae85914156"
+    },
+    {
+      "path": "../evidence/nutrition_bridge_2026-09-26_155021_pages06-07_page09header.png",
+      "bytes": 266010,
+      "sha256": "349d059d4dace935fb296f42f9e467748a3e04f01f578213ee95085b277805b5"
+    },
+    {
+      "path": "../evidence/nutrition_bridge_2026-09-26_155032_pages09-10.png",
+      "bytes": 187699,
+      "sha256": "f56d0dd74d9ac26d05a6a5cd598f16badc4da7819c1b3193f766c19a404525ae"
+    },
+    {
+      "path": "../evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png",
+      "bytes": 270132,
+      "sha256": "087222451c57a3072e3ed6d100f17182e74df8b5a93f4b0bd165ef2d6ec86c7e"
+    },
+    {
+      "path": "../evidence/nutrition_bridge_2026-09-26_155728_pages08-11.png",
+      "bytes": 187637,
+      "sha256": "166f1eb17f207eefedcebd43ad2a55880c87ee5eda491e32a26a10fd02698a7a"
+    },
+    {
+      "path": "../evidence/nutrition_bridge_2026-09-26_160708_pages12-13.png",
+      "bytes": 167974,
+      "sha256": "5b067536d511460f91cd969c9ce35b13d0373104aee185cc1f683661548910eb"
+    },
+    {
+      "path": "../evidence/nutrition_bridge_2026-09-26_160727_pages13-14.png",
+      "bytes": 104584,
+      "sha256": "12aa79bc42bebbc4cd075855447b7543a7b08eaa07ababa94ce31a4af1c36906"
+    },
+    {
+      "path": "../evidence/nutrition_bridge_2026-09-26_160737_pages14-15.png",
+      "bytes": 119900,
+      "sha256": "131647c5112bff3b30ac22e9309ceab67abe5ad7ca34d9df0fe31876d97817a0"
+    },
+    {
+      "path": "../evidence/nutrition_bridge_2026-09-26_160746_pages15.png",
+      "bytes": 114779,
+      "sha256": "742aade309d6f4e1082a878b06e99b17adc89c62646ee901ea2cfbd5d4cf19fd"
+    },
+    {
+      "path": "../evidence/nutrition_bridge_2026-09-26_162641_page28.png",
+      "bytes": 147096,
+      "sha256": "bbe01ec8da2352bffafbfb2431d2cd7c9643f3c82ea176cb7d38fa5e5622b4a9"
+    },
+    {
+      "path": "../evidence/nutrition_bridge_2026-09-26_162657_page29.png",
+      "bytes": 105788,
+      "sha256": "4594b1717ff1c465f3421e9b3f5bcd0ed5b741ff8fc2c5d408dd74afd00a6c4c"
+    },
+    {
+      "path": "../evidence/nutrition_bridge_2026-09-26_162818_page51.png",
+      "bytes": 161268,
+      "sha256": "89a8d5be4407f7ca871cfc50ea08154906b014ac0481cc2ca3f16025df26c77d"
+    },
+    {
+      "path": "../evidence/nutrition_bridge_2026-09-26_162832_page52.png",
+      "bytes": 160211,
+      "sha256": "bb6104643fae48623b142cbcbc9a3e9dca0315f0dba6f2a557ba870dc935062d"
+    },
+    {
+      "path": "../evidence/nutrition_bridge_2026-09-26_223303.png",
+      "bytes": 143744,
+      "sha256": "905828663f7259269acbe1ed1ad4bdfdadf519181a506578532198326ce8594a"
+    },
+    {
+      "path": "../evidence/nutrition_bridge_2026-09-26_223410.png",
+      "bytes": 172161,
+      "sha256": "46107f582010fd8258f66ee0dbe29b4568ab773d2edb14cfcd884de581db69c0"
+    },
+    {
+      "path": "../evidence/nutrition_bridge_2026-09-26_223435.png",
+      "bytes": 128344,
+      "sha256": "8d94158e76b9804c2ab3587237aeff1cf5223d0c1e3fcc7c0b573441e053a5e0"
+    },
+    {
+      "path": "../evidence/nutrition_bridge_2026-09-26_223446.png",
+      "bytes": 334299,
+      "sha256": "b83f0884226eb2633ae40b010a03fd1cb411f742e4cfe42bd7b3d04136edfd15"
+    },
+    {
+      "path": "../evidence/nutrition_bridge_2026-09-27_140336_page18.png",
+      "bytes": 159163,
+      "sha256": "aa8c7a69eaef4c94f78a730958f1b7191e6255696a04e04bae00cf1a2fae3ba6"
+    },
+    {
+      "path": "../evidence/nutrition_bridge_2026-09-27_140400_page19.png",
+      "bytes": 132426,
+      "sha256": "38ed29460d61a1773371b8e944e18eab1c0dbf98f2dd5baf0f5fe9ee4ce46d5e"
+    },
+    {
+      "path": "../evidence/nutrition_bridge_2026-09-27_140410_pages20-21.png",
+      "bytes": 257013,
+      "sha256": "1e3fc64b9f0c0a5f7f257f0a8cbe39855b9aa7d8b93ab4483f74f6c59eea351c"
+    },
+    {
+      "path": "../evidence/nutrition_bridge_2026-09-27_143528_page22.png",
+      "bytes": 162091,
+      "sha256": "b4a9120f5a4076de90f7e2977d91030df2040e4a7ff3866487f495918e03a6f2"
+    },
+    {
+      "path": "../evidence/nutrition_bridge_2026-09-27_143540_page23.png",
+      "bytes": 128531,
+      "sha256": "647f626e11ad7aeaa52b37091224f9a681620e70f8b40ad389dde24561f8b7a1"
+    },
+    {
+      "path": "../evidence/nutrition_bridge_2026-09-27_143552_page24.png",
+      "bytes": 118674,
+      "sha256": "812baabb08dd01c191470f7aa0d6b2b048cd8abbf90b85f65199a933a498f751"
+    },
+    {
+      "path": "../evidence/nutrition_bridge_2026-09-27_143601_page25.png",
+      "bytes": 139996,
+      "sha256": "b7a6952420bdf647d94009279140887ad1242844f66bd7c45a0862f1499798e6"
+    },
+    {
+      "path": "../evidence/nutrition_bridge_2026-09-27_204226_page26.png",
+      "bytes": 158749,
+      "sha256": "d147140d5563121e899afd59e08956d0f8bb18bd9177cd427b6b0402830ba54b"
+    },
+    {
+      "path": "../evidence/nutrition_bridge_2026-09-27_204249_pages27-30-31.png",
+      "bytes": 266713,
+      "sha256": "3f2af39385d7021d078020bdb9a930890f6aac144c34fa32b29131aafe56293c"
+    },
+    {
+      "path": "../evidence/nutrition_bridge_2026-09-27_205635_pages32-33.png",
+      "bytes": 242997,
+      "sha256": "809168da2a37c07f987ccde967559cbd20d9b34915ff6fb4fc5eb2d8d2872954"
+    },
+    {
+      "path": "../evidence/nutrition_bridge_2026-09-27_205645_pages34-35.png",
+      "bytes": 207696,
+      "sha256": "66749c07add516871519821fddc996a4740772af5e286bc62c2d70925fb14e21"
+    },
+    {
+      "path": "../evidence/nutrition_bridge_2026-09-27_210428_pages36-37.png",
+      "bytes": 247462,
+      "sha256": "cb9d03564df6ccdeb445a254109cfaa2d5d052ee3aa46f3d3890e36247374224"
+    },
+    {
+      "path": "../evidence/nutrition_bridge_2026-09-27_210438_pages38-39.png",
+      "bytes": 208689,
+      "sha256": "b598fbb01c24ceb23afcea31986562b5e7ed9b1dc3799e493b8ae0b59da4328e"
+    },
+    {
+      "path": "../evidence/nutrition_bridge_2026-09-27_211227_pages40-41.png",
+      "bytes": 243890,
+      "sha256": "47588dc5ba500d8ed8288944acd73e2b2a77274642781daa9046f0952f42bf97"
+    },
+    {
+      "path": "../evidence/nutrition_bridge_2026-09-27_211237_pages42-43.png",
+      "bytes": 202392,
+      "sha256": "d1ade86e706c90bc8e07a2e75c67014d80383b7f91acd510d188e107f0c59533"
+    },
+    {
+      "path": "../evidence/nutrition_bridge_2026-09-27_212922_pages44-45.png",
+      "bytes": 244036,
+      "sha256": "151d39e85f7db1bdf8ec41f31f058e6a925ca01a1908b055d4504bfd944cb7d6"
+    },
+    {
+      "path": "../evidence/nutrition_bridge_2026-09-27_212931_pages46-47.png",
+      "bytes": 209758,
+      "sha256": "fe35129ef8efc81c5c4fb4d99ded6ae3540007a679288f1ad43fee2cf8ab5af2"
+    },
+    {
+      "path": "../evidence/nutrition_bridge_2026-09-27_214445_page48.png",
+      "bytes": 136242,
+      "sha256": "91e96aa93705cfd370639865f7032dfef88d2dde30ec41e4a56fdc6861d3f141"
+    },
+    {
+      "path": "../evidence/nutrition_bridge_2026-09-27_214455_pages49-50.png",
+      "bytes": 205518,
+      "sha256": "fd72b5ecf698a1567a2ea48b6e2e9ec182b46419d8f3d320f63dab0194fffc11"
+    },
+    {
+      "path": "../evidence/response_followup_2026-09-28_000411_key1.png",
+      "bytes": 212955,
+      "sha256": "9961c5351e1b5f17ab27201df20b9d0d77b32197fcb6fec3e08fab9d0cac8a76"
+    },
+    {
+      "path": "../evidence/response_followup_2026-09-28_000425_key2.png",
+      "bytes": 239282,
+      "sha256": "534ec02f68fda9df74cb9b8c1885d6430c952d7800aa21e0069a552f807fea0b"
+    },
+    {
+      "path": "../evidence/response_followup_2026-09-28_000433_key3.png",
+      "bytes": 247745,
+      "sha256": "03bec61ad0fd0193340edc844aaedadceee57b4d97f708c697ff93fd0a2b36d4"
+    },
+    {
+      "path": "../evidence/截屏2026-09-25 00.25.19.png",
+      "bytes": 193982,
+      "sha256": "eb80801ff6227b6560cb95efccf088446b83cd016c0743a465d6b0eeb4726301"
+    },
+    {
+      "path": "../evidence/截屏2026-09-25 00.28.08.png",
+      "bytes": 122238,
+      "sha256": "1ab598713038023ed8e0188250075712537ead13096be7ea06f97fa0da38cdd7"
+    },
+    {
+      "path": "../evidence/截屏2026-09-25 00.28.22.png",
+      "bytes": 172660,
+      "sha256": "5fa69f3453c072060aae91d5cc8e3659d5ef74d50eed6f8b6f45cb56e6c2a06e"
+    },
+    {
+      "path": "../evidence/截屏2026-09-25 00.28.36.png",
+      "bytes": 200219,
+      "sha256": "a2b50a2a900d4e1092c5797cb9dd2f1587daf6332d6e819c4d42181592856177"
+    },
+    {
+      "path": "../evidence/截屏2026-09-25 00.35.55.png",
+      "bytes": 76952,
+      "sha256": "4d80588baa25aadd970088538e2119104dd0c34f875c1ddb0da5d1246862a02c"
+    },
+    {
+      "path": "../evidence/截屏2026-09-25 00.45.23.png",
+      "bytes": 106061,
+      "sha256": "86aed6fc8a6a86bf99af741d644dbb530dcfd9901e718e4a1a855cbe63676486"
+    },
+    {
+      "path": "../evidence/截屏2026-09-25 00.49.53.png",
+      "bytes": 85342,
+      "sha256": "b01643061163aef9327f9f3bf2e0fe313ce42101299823a1c6b5095438e59039"
+    },
+    {
+      "path": "../evidence/截屏2026-09-25 15.45.53.png",
+      "bytes": 176523,
+      "sha256": "d93edbea65f653c0bd6186757e3b3e1e1a5ec82f5a6bee35b6ed8facd3447532"
+    },
+    {
+      "path": "../evidence/截屏2026-09-25 15.46.58.png",
+      "bytes": 190836,
+      "sha256": "4991306c9dddc4eafe115481d53ee2256f813c7b38002e6e135fb3a03b23c778"
+    },
+    {
+      "path": "../evidence/截屏2026-09-25 15.47.11.png",
+      "bytes": 240891,
+      "sha256": "48b3978b81dcf3ed8d94794a68ae165e60c809afa128ac84f1aff9299dd7360d"
+    },
+    {
+      "path": "../evidence/截屏2026-09-25 15.47.21.png",
+      "bytes": 201357,
+      "sha256": "1fe452b214bfc72c6070d56b4d733afe9b90f4c5122a3c46d89432d5c412d719"
+    },
+    {
+      "path": "../evidence/截屏2026-09-25 17.39.59.png",
+      "bytes": 228849,
+      "sha256": "1983cb257492cb187e9c936cc0479250fc7824c9addf5fc3d4249a8dad75b001"
+    },
+    {
+      "path": "../evidence/截屏2026-09-25 17.41.21.png",
+      "bytes": 169508,
+      "sha256": "74da5519d20beff9ed0512f31898a12a743c071918cc0ec6a1ec4ff08a49ea65"
+    },
+    {
+      "path": "../evidence/截屏2026-09-25 17.41.36.png",
+      "bytes": 337434,
+      "sha256": "fdd0670ab0f6094fb97a34a853e7e9944b6781127d41bd5499bc8e4f638b36b4"
+    },
+    {
+      "path": "../evidence/截屏2026-09-25 17.41.46.png",
+      "bytes": 158464,
+      "sha256": "aaa8c1060bc1cc775b8bb6e90b7dc263b6261ef3e4425908d3e9c551166a1860"
+    },
+    {
+      "path": "../evidence/截屏2026-09-25 17.46.47.png",
+      "bytes": 233790,
+      "sha256": "66ca5c5a814dc0434fc0c851b344e841e1bb3ae7a946b5fe229c85a6dccf3ec5"
+    },
+    {
+      "path": "../evidence/截屏2026-09-25 17.52.54.png",
+      "bytes": 153242,
+      "sha256": "b538c7449e3eab310ef0f65d928be41e4b42403f35907313f38a5d3e87d771eb"
+    },
+    {
+      "path": "../evidence/截屏2026-09-25 18.02.44.png",
+      "bytes": 143066,
+      "sha256": "c59ce9b73a7ee04c589670a4d9744438ce93bcba072f9f334fec77aae6b6dec0"
+    },
+    {
+      "path": "../evidence/截屏2026-09-25 21.16.56.png",
+      "bytes": 156634,
+      "sha256": "509a2f4eabbbcd9cf7d5b9bb3ba5a18891aeb3e6aba918f15d5a6dbc5d811b2a"
+    },
+    {
+      "path": "../evidence/截屏2026-09-25 21.21.11.png",
+      "bytes": 200754,
+      "sha256": "9ca07db672b48bde5443af1ccc652cd8021e6d37d600a0c8bc33716e380d3bb9"
+    },
+    {
+      "path": "../evidence/截屏2026-09-25 21.34.09.png",
+      "bytes": 166358,
+      "sha256": "1d6d449dd49627caa757729fb02a72d7d427ce3bc1d1edf8dbc19ac925a1d59a"
+    },
+    {
+      "path": "../evidence/截屏2026-09-25 21.34.36.png",
+      "bytes": 189129,
+      "sha256": "22738b8b9972ee367588be010c49b3a231f4003695429b29076a9fe28b6d9f9a"
+    },
+    {
+      "path": "../evidence/截屏2026-09-25 21.34.55.png",
+      "bytes": 189340,
+      "sha256": "43c027604cbf7a736b6ed0df892ce98e683e6f59b01b34562e879720a915ce20"
+    },
+    {
+      "path": "../evidence/截屏2026-09-25 21.35.07.png",
+      "bytes": 167385,
+      "sha256": "02c7949c7a21061da035b86a0c5013f3dd11351a5534c89fdc8158c7be1bb419"
+    },
+    {
+      "path": "../evidence/截屏2026-09-25 21.35.17.png",
+      "bytes": 164620,
+      "sha256": "c1fc587baec4d1a8ed918e437b10c368a5d06e6d954f4769de2c0406a0d6629e"
+    },
+    {
+      "path": "../evidence/截屏2026-09-25 21.35.32.png",
+      "bytes": 326621,
+      "sha256": "0aa95d498a5ab416ae4116548f3ddc898eeb5adfdde96c3a5ebeb45eaad7a8da"
+    },
+    {
+      "path": "../evidence/截屏2026-09-25 22.13.44.png",
+      "bytes": 223153,
+      "sha256": "234627b8a8a32dc00e1c0a937a25b06ccc1e435b1e699794a62cad6403cf4b29"
+    },
+    {
+      "path": "../evidence/截屏2026-09-25 22.14.05.png",
+      "bytes": 159630,
+      "sha256": "f6ceda0108624630ceed81024788b2a67b3999a3e71ce972c86e77afcd87b199"
+    },
+    {
+      "path": "../evidence/截屏2026-09-25 22.25.34.png",
+      "bytes": 222927,
+      "sha256": "af3206330be9f74c1df81adf706d71fb59d3fbdb07ae32bc1360a1691bba15d8"
+    },
+    {
+      "path": "../evidence/截屏2026-09-25 22.25.43.png",
+      "bytes": 160940,
+      "sha256": "9ad7df38926e51f15227ddb23dd41288703fc2928b6c67c747bf6683b420149a"
+    },
+    {
+      "path": "../evidence/截屏2026-09-25 22.35.12.png",
+      "bytes": 285084,
+      "sha256": "0b75a05ce59111b173b887edca9b32ffcb08a0113eb7e6ac6055eedb2dd48d6c"
+    },
+    {
+      "path": "../evidence/截屏2026-09-25 23.00.34.png",
+      "bytes": 240357,
+      "sha256": "43d12e484de9a54bad10495e2d04f186727a4f863ea4cf8b8924d99f2309c31c"
+    }
+  ]
+}

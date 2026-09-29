@@ -1,0 +1,85 @@
+{
+  "scope": "Reference pointers; counts must not be summed as independent discoveries",
+  "files": [
+    {
+      "path": "../七项饮食_42项已展示结果_截图精度.json",
+      "sha256": "599e527e3c33de8908f19df0f017ad6e8282e3709dc6d39ee9f6d935adcd773d",
+      "bytes": 15944,
+      "run_id": "seven_diets_20260925T093822_426339Z",
+      "row_count": 42,
+      "precision": "as archived; displayed precision only"
+    },
+    {
+      "path": "../quality_timecourse_累计133项已展示结果_截图精度.json",
+      "sha256": "4376e2d51b6bc619b9a4e4c66369250f2a0a8ffb415edff61da2cf2d65821b94",
+      "bytes": 104122,
+      "run_id": "quality_timecourse_20260925T130549_263963Z",
+      "row_count": 133,
+      "precision": "as archived; displayed precision only"
+    },
+    {
+      "path": "../nutrition_bridge_累计已展示结果_截图精度.json",
+      "sha256": "b618424f657a7f799b9169e717345e12d118d5825a8f77599bfd791f2de7089d",
+      "bytes": 752093,
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "row_count": 302,
+      "precision": "as archived; displayed precision only"
+    },
+    {
+      "path": "../2026-09-28_response_followup_三份摘要_截图精度.json",
+      "sha256": "d6fac7ae6083bec02f64f160132b969b51b828c3026614d16c7d28dc5875d028",
+      "bytes": 58654,
+      "run_id": "response_followup_20260927T155611_920880Z",
+      "row_count": 42,
+      "precision": "as archived; displayed precision only"
+    },
+    {
+      "path": "../2026-09-28_date_split_bridge_三份摘要_截图精度.json",
+      "sha256": "933a70eff66ac4fff064b4c0385aa1b89f03e8c1f09b9218ddbbbe0d664784af",
+      "bytes": 30797,
+      "run_id": "date_split_bridge_20260928T154342_539217Z",
+      "row_count": 24,
+      "precision": "as archived; displayed precision only"
+    },
+    {
+      "path": "../2026-09-25_2300_样本保留率_更正后.json",
+      "sha256": "3b059341b626f0cc53a9a3de5c39c914e65743a080dcbd37babbf7ab5afcf2e8",
+      "bytes": 4835,
+      "run_id": "quality_timecourse_20260925T130549_263963Z",
+      "row_count": 14,
+      "precision": "as archived; displayed precision only"
+    },
+    {
+      "path": "../2026-09-25_2235_条件数与选择人群_截图精度.json",
+      "sha256": "c6d5c0605f38c09d00f8c56f13decb0e8b6be423a9d7fb434f936fd71dd6ca61",
+      "bytes": 15627,
+      "run_id": "quality_timecourse_20260925T130549_263963Z",
+      "row_count": null,
+      "precision": "as archived; displayed precision only"
+    },
+    {
+      "path": "../2026-09-29_研究结果整合/evidence_rows.json",
+      "sha256": "aa9470f7c7c15ddb349127ad8c91921592847811a8e6a0ac9728877079603163",
+      "bytes": 334816,
+      "run_id": null,
+      "row_count": null,
+      "precision": "as archived; displayed precision only"
+    },
+    {
+      "path": "../2026-09-29_菌群餐前餐后衔接结果/截图数值转录.json",
+      "sha256": "0a05f3cd45e95982ca95fad5577134ff846aaaa56ec4757436c3e2aeccc33ff5",
+      "bytes": 13067,
+      "run_id": "gut_meal_bridge_v2_20260929T044951_469958Z",
+      "row_count": 36,
+      "precision": "displayed values; original family q; no new inference"
+    },
+    {
+      "path": "../2026-09-29_菌群餐前餐后衔接结果/时间核对_截图转录.json",
+      "sha256": "c019ee21d2416fc289c38723ee40080913923016ad3f7a49c1ae94d324861fed",
+      "bytes": 4079,
+      "run_id": "gut_meal_bridge_v2_20260929T044951_469958Z",
+      "row_count": 4,
+      "precision": "displayed values; original family q; no new inference"
+    }
+  ]
+}

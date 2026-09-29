@@ -1,0 +1,459 @@
+{
+  "date": "2026-09-29",
+  "scope": "Review of existing REAL evidence; not a new scientific analysis",
+  "status": "PASS",
+  "prior_archive_entries_verified": 322,
+  "prior_archive_mismatches": [],
+  "package_manifest_checks": [
+    {
+      "manifest": "PACKAGE_MANIFEST.json",
+      "checked": 27,
+      "mismatches": []
+    },
+    {
+      "manifest": "nutrition_bridge/MANIFEST.json",
+      "checked": 34,
+      "mismatches": []
+    },
+    {
+      "manifest": "followup/MANIFEST.json",
+      "checked": 11,
+      "mismatches": []
+    },
+    {
+      "manifest": "quality_timecourse/MANIFEST.json",
+      "checked": 27,
+      "mismatches": []
+    },
+    {
+      "manifest": "response_followup/MANIFEST.json",
+      "checked": 12,
+      "mismatches": []
+    },
+    {
+      "manifest": "seven_diet_meals/MANIFEST.json",
+      "checked": 11,
+      "mismatches": []
+    },
+    {
+      "manifest": "date_split_bridge/MANIFEST.json",
+      "checked": 13,
+      "mismatches": []
+    }
+  ],
+  "package_hash_entries_checked": 135,
+  "original_files_baselined": 430,
+  "allowed_living_file_updates": [
+    "research_records/BACKUP_MANIFEST.json",
+    "research_records/研究结论总览.md",
+    "research_records/来源与待补文件.md"
+  ],
+  "immutable_source_changes": [],
+  "early_source_references_checked": 38,
+  "unique_early_source_images": 8,
+  "later_source_files_frozen": 8,
+  "claim_checks": [
+    {
+      "claim": "archived nutrition rows",
+      "value": 302,
+      "expected": 302,
+      "source": "nutrition cumulative JSON",
+      "status": "PASS"
+    },
+    {
+      "claim": "archived quality rows",
+      "value": 133,
+      "expected": 133,
+      "source": "quality cumulative JSON",
+      "status": "PASS"
+    },
+    {
+      "claim": "early original models",
+      "value": 6,
+      "expected": 6,
+      "source": "11 early original screenshots visually reviewed",
+      "status": "PASS"
+    },
+    {
+      "claim": "early prediction comparisons",
+      "value": 8,
+      "expected": 8,
+      "source": "15.47.11 original screenshot",
+      "status": "PASS"
+    },
+    {
+      "claim": "original NOVA people/meals/effect",
+      "value": [
+        5211,
+        102116,
+        20.6,
+        17.39,
+        23.81
+      ],
+      "expected": [
+        5211,
+        102116,
+        20.6,
+        17.39,
+        23.81
+      ],
+      "source": "00.28.36 original screenshot",
+      "status": "PASS"
+    },
+    {
+      "claim": "repeat bootstrap main",
+      "value": [
+        2133,
+        4450,
+        5.896,
+        5.634,
+        6.138
+      ],
+      "expected": [
+        2133,
+        4450,
+        5.896,
+        5.634,
+        6.138
+      ],
+      "source": "15.46.58 original screenshot",
+      "status": "PASS"
+    },
+    {
+      "claim": "prediction primary premeal gain",
+      "value": [
+        0.744,
+        0.571,
+        0.938
+      ],
+      "expected": [
+        0.744,
+        0.571,
+        0.938
+      ],
+      "source": "15.47.11 original screenshot",
+      "status": "PASS"
+    },
+    {
+      "claim": "prediction strict gain",
+      "value": [
+        0.747,
+        0.576,
+        0.942
+      ],
+      "expected": [
+        0.747,
+        0.576,
+        0.942
+      ],
+      "source": "15.47.11 original screenshot",
+      "status": "PASS"
+    },
+    {
+      "claim": "diary sample",
+      "value": [
+        9087,
+        116906,
+        14,
+        16
+      ],
+      "expected": [
+        9087,
+        116906,
+        14,
+        16
+      ],
+      "source": "18.02.44 original screenshot",
+      "status": "PASS"
+    },
+    {
+      "claim": "rEDIH full A source_primary",
+      "value": [
+        -0.4869,
+        -0.749,
+        -0.4756
+      ],
+      "expected": [
+        -0.4869,
+        -0.749,
+        -0.4756
+      ],
+      "source": "nutrition cumulative JSON",
+      "status": "PASS"
+    },
+    {
+      "claim": "rEDIH full A joint",
+      "value": [
+        -0.5057,
+        -0.7965,
+        -0.5031
+      ],
+      "expected": [
+        -0.5057,
+        -0.7965,
+        -0.5031
+      ],
+      "source": "nutrition cumulative JSON",
+      "status": "PASS"
+    },
+    {
+      "claim": "AHEI positive q",
+      "value": [
+        0.05155,
+        0.038
+      ],
+      "expected": [
+        0.05155,
+        0.038
+      ],
+      "source": "nutrition cumulative JSON",
+      "status": "PASS"
+    },
+    {
+      "claim": "EAT13 positive q",
+      "value": [
+        0.04956,
+        0.03933
+      ],
+      "expected": [
+        0.04956,
+        0.03933
+      ],
+      "source": "nutrition cumulative JSON",
+      "status": "PASS"
+    },
+    {
+      "claim": "NOVA full net beta",
+      "value": 0.000202,
+      "expected": 0.000202,
+      "source": "nutrition cumulative JSON",
+      "status": "PASS"
+    },
+    {
+      "claim": "rEDIH common7 B q",
+      "value": 0.07852,
+      "expected": 0.07852,
+      "source": "seven corrected42 JSON",
+      "status": "PASS"
+    },
+    {
+      "claim": "negative supported transformed contrasts",
+      "value": 18,
+      "expected": 18,
+      "source": "response_followup JSON; count only",
+      "status": "PASS"
+    },
+    {
+      "claim": "transformation models newly fitted",
+      "value": 0,
+      "expected": 0,
+      "source": "response_followup summary key1",
+      "status": "PASS"
+    },
+    {
+      "claim": "minimum endpoint support",
+      "value": 663,
+      "expected": 663,
+      "source": "response_followup support rows",
+      "status": "PASS"
+    },
+    {
+      "claim": "minimum within-person cross support",
+      "value": 563,
+      "expected": 563,
+      "source": "response_followup support rows",
+      "status": "PASS"
+    },
+    {
+      "claim": "AMED time source_primary",
+      "value": [
+        -0.2698,
+        0.0006089
+      ],
+      "expected": [
+        -0.2698,
+        0.0006089
+      ],
+      "source": "quality cumulative JSON",
+      "status": "PASS"
+    },
+    {
+      "claim": "AMED time joint",
+      "value": [
+        -0.2753,
+        0.000716
+      ],
+      "expected": [
+        -0.2753,
+        0.000716
+      ],
+      "source": "quality cumulative JSON",
+      "status": "PASS"
+    },
+    {
+      "claim": "carb time q source_primary",
+      "value": 0.05863,
+      "expected": 0.05863,
+      "source": "quality cumulative JSON",
+      "status": "PASS"
+    },
+    {
+      "claim": "carb time q joint",
+      "value": 0.01749,
+      "expected": 0.01749,
+      "source": "quality cumulative JSON",
+      "status": "PASS"
+    },
+    {
+      "claim": "old bridge supported source_primary/mean_increment",
+      "value": 19,
+      "expected": 19,
+      "source": "nutrition bridge; existing q classification only",
+      "status": "PASS"
+    },
+    {
+      "claim": "old bridge supported source_primary/peak_rise_0_120",
+      "value": 19,
+      "expected": 19,
+      "source": "nutrition bridge; existing q classification only",
+      "status": "PASS"
+    },
+    {
+      "claim": "old bridge supported source_primary/positive_mean",
+      "value": 19,
+      "expected": 19,
+      "source": "nutrition bridge; existing q classification only",
+      "status": "PASS"
+    },
+    {
+      "claim": "old bridge supported joint/mean_increment",
+      "value": 19,
+      "expected": 19,
+      "source": "nutrition bridge; existing q classification only",
+      "status": "PASS"
+    },
+    {
+      "claim": "old bridge supported joint/peak_rise_0_120",
+      "value": 19,
+      "expected": 19,
+      "source": "nutrition bridge; existing q classification only",
+      "status": "PASS"
+    },
+    {
+      "claim": "old bridge supported joint/positive_mean",
+      "value": 19,
+      "expected": 19,
+      "source": "nutrition bridge; existing q classification only",
+      "status": "PASS"
+    },
+    {
+      "claim": "date split main q24 support",
+      "value": 24,
+      "expected": 24,
+      "source": "date split JSON",
+      "status": "PASS"
+    },
+    {
+      "claim": "date split paired qD24 support",
+      "value": 20,
+      "expected": 20,
+      "source": "date split JSON",
+      "status": "PASS"
+    },
+    {
+      "claim": "variability supported negative deltas",
+      "value": 18,
+      "expected": 18,
+      "source": "date split JSON",
+      "status": "PASS"
+    },
+    {
+      "claim": "late variability effect range",
+      "value": [
+        0.435,
+        0.644
+      ],
+      "expected": [
+        0.435,
+        0.644
+      ],
+      "source": "date split JSON",
+      "status": "PASS"
+    },
+    {
+      "claim": "late Mean effect range",
+      "value": [
+        0.153,
+        0.221
+      ],
+      "expected": [
+        0.153,
+        0.221
+      ],
+      "source": "date split JSON",
+      "status": "PASS"
+    },
+    {
+      "claim": "joint positive Mean qD24",
+      "value": 0.0539,
+      "expected": 0.0539,
+      "source": "date split JSON",
+      "status": "PASS"
+    }
+  ],
+  "requirements": {
+    "meal_definition_quality": "完整中文分析报告.md 第2节；S01/S02/S09",
+    "original_NOVA": "第3节；4 models；S03",
+    "repeated_meals": "第4节；4 distributions +3 bootstrap groups；S05/S06",
+    "completed_prediction": "第5节；all8 comparisons +training/testing scope；S07",
+    "all_seven_dietary_scores": "第6/7节；all7 A across3 outcomes retained；S08/S10/S11",
+    "within_person_interaction": "第8节；42D +14support；S12",
+    "nutrition_adjustment_positive": "第7节；5 fixed-sample specs,21 positive families,diagnostics；S10/S11",
+    "time_distribution": "第9节；all7 difference conclusions and42-row reference；S13",
+    "whole_CGM_bridge": "第10节；all20 included,COGI negative,shared readings；S14",
+    "date_split_bridge": "第11节；24main/24full/24paired difference,same scales；S15",
+    "microbiome": "第12节；2 negative interactions +unknown timing；S04",
+    "negative_and_missing_evidence": "第6,9,12,14,15节；no imputation of unknown results",
+    "one_page_summary": "一页核心结论.md",
+    "complete_report": "完整中文分析报告.md",
+    "overview_table": "研究结果总表.md",
+    "evidence_index": "证据来源索引.md",
+    "requested_reusable_prompt": "可复用提示词.md",
+    "no_new_scientific_analysis": "No statistical fitting or significance calculation was run; only reading, transcription, counting, unit conversion, document generation and hashes."
+  },
+  "manual_review": [
+    "Early original screenshots visually read, including the original6 models,4repeat metrics,3bootstrap groups and8prediction gains.",
+    "Diary precheck screenshot re-read.",
+    "Later reported numbers checked against current corrected JSON and original screenshots/correction trail.",
+    "All7scores and key negatives retained,pointwise CI distinguished from q.",
+    "Existing figures are linked unchanged; prior figure QA retained. No claim of new rendering or all77 images newly transcribed."
+  ],
+  "limitations": [
+    "Full precision server CSV/raw CGM absent locally",
+    "Cannot independently certify actual server code/input hashes or no-shared-readings implementation outcome",
+    "Prediction absolute MAE/RMSE not shown",
+    "Some strict/common7 and intermediate quality results available as status only",
+    "Microbiome timing unknown; server time review/config not downloaded"
+  ],
+  "new_model_fits": 0,
+  "new_p_or_q_computations": 0,
+  "original_images_modified": false,
+  "existing_figures_modified": false,
+  "existing_scientific_JSON_modified": false,
+  "markdown_link_errors": [],
+  "markdown_links_checked": 141,
+  "deliverable_files": [
+    "README.md",
+    "一页核心结论.md",
+    "交付核查.json",
+    "关键数值核查表.md",
+    "可复用提示词.md",
+    "完整中文分析报告.md",
+    "截图文件索引.json",
+    "早期真实结果_核对转录.json",
+    "研究模块盘点.json",
+    "研究结果总表.md",
+    "结果引用清单.json",
+    "证据来源索引.md"
+  ]
+}

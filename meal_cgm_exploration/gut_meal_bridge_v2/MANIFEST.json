@@ -1,0 +1,26 @@
+{
+  "version": "2026.09.29.2",
+  "files": {
+    "CONTRACT.json": "ead7fd6a3a1c89dc17d516024a5a5bcea2356e8a16f92729ee72f089d45bd129",
+    "PLAN.md": "787e82acd6331befeaa8d79397d639c6432608935d339120da0dbbfc2961f4bf",
+    "README.md": "2954375c8cf8862efd00b0e31160c37bfeab61dea1f15ec663cf60432d7b3894",
+    "REVIEW.md": "f9e895f27dc12cc00a344b65aee4e187b816b700f07fb4675f8e8ca1fc35b971",
+    "__init__.py": "7302f84fc35e95c6579c157d85e243b36511a2e559912d9be6b8ace3394cabf7",
+    "analysis.py": "aeea815a3b395f94f35710087d5d06331cd66c68c473b06c5a3ace1592c9b69b",
+    "inputs.py": "1996b1f653268ad5bebcf809dad63b803436275dc2beb41059eb27da08b96ea5",
+    "reporting.py": "28aa39d759e6a751d5cc0569e131c71c013da7d79ad7e15e761ea0b6b98131c4",
+    "run_analysis.py": "ba27095623254309a869dfde360562ac58083921e8a6f24af4ba07a4a25e985a",
+    "run_gut_meal_bridge_v2.sh": "6e2311136fc5b3863fa0660c3176f44bede83ca20619ea1c5a259bd4fc4829b7",
+    "sources.json": "ff9cd5eff2cf53526a03a4e75af3aaed39a31472c0744766e7de922a83746144",
+    "tests/test_bridge.py": "98d6df2ed2efb1699add0e189dcec2b07cedb40a5eadcaf3819ddac60ad246f6"
+  },
+  "dependencies": {
+    "hppmeal/__init__.py": "4758c2933302e367229b79ca85f532884c0c6236b5d74e6c179c091c2a5af27b",
+    "hppmeal/common.py": "1ba7c4715bb3e734e9c36b0cbb30c8879a13862726c9730f95cde2f26476096a",
+    "hppmeal/models.py": "799d1e43edde2cb469e7716edb0c704a7fd4196e4a80bef0e9114f557193701f",
+    "seven_diet_meals/__init__.py": "3642de64b8850eb19a64f8c367fcc7c5ee4a42082ca54d6899ca47c22f959d1a",
+    "seven_diet_meals/inputs.py": "0cf5bbdd88289419fd4b9a4d6ebce75c6487b2755c72dbc9c03dc4d6c646e0bd",
+    "seven_diet_meals/models.py": "ba021569c7d5e7f6efda1c6eaebee649d048faa014eb00c157ae9a2277a23ba7",
+    "seven_diet_meals/sources.json": "a53eb1728da6675d24b3f108bca1a9a55a7e5829c0341a6e088aee1f4ea7a82a"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "current4": "diet_microbiome_glucose_analysis/outputs/data/00_current4_diet_cgm_cohort.csv",
+  "new3": "diet_microbiome_glucose_analysis/outputs/new_diet_extension/data/15d0_new_diet_cgm_cohort.csv",
+  "corrected_hpdi": "diet_microbiome_glucose_analysis/outputs/reports/new_diet_extension/hpdi_correction_audit/corrected_scores/hpdi_participant_scores.csv"
+}

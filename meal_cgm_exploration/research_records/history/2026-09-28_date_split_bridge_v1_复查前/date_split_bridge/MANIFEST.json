@@ -1,0 +1,18 @@
+{
+  "version": "2026.09.28.1",
+  "files": {
+    "CONTRACT.json": "a4aeb8d794595eaf8a5f42b2a9c28657c4b460b8a3834368747b348ffc9023fb",
+    "PLAN.md": "3be268bbdbc507073bef819ce06d5be241bde4c529cde139858e5e6c9dd65b8e",
+    "README.md": "ad035283aba735fb02b2b5860f9bda6dd251086533a90396f6db41d8e6e2a56b",
+    "REVIEW.md": "0cf400f93d8861c0ffe03ac01c5b9e222e34e43ddd2ab687fc9ca473a705875a",
+    "__init__.py": "e29c3e8e9276170bb9acd17ad39f94c37b861439c1559b848dc2e60ef8165515",
+    "build.py": "1a8a786eb3986b5d1735f73a25a931669bc69f44bf0b5e5ae063a703626fb74a",
+    "inputs.py": "b94f05d0473711069df25a9bbd514f073c00c3714a043be0303531ed93e06a13",
+    "metrics.py": "cb5ced41001593d06af199d36f588037076049ddebc1550384357a952de764c9",
+    "models.py": "496f45d2df0b1fc9ebfbda23b8e7f52881a326336491b563c4a6f1cd7ac5cf52",
+    "reporting.py": "04156aa6163a09755869e3ec75bde9c056e16d39cc3166c5babb1f422e3f5851",
+    "run_analysis.py": "c93288b97922dbcdd95a2e62df09c35b87551a383c6a4a8ce74b521fdb330461",
+    "run_date_split_bridge.sh": "7d4c5009f048e69bbd4063201cb324b45e66c4f36e94a5db641c6067430a478f",
+    "tests/test_date_split.py": "e142f2b75b7c60d772d2fa2f12d9c66fb0f8537903cbdebb8299d0015de7d214"
+  }
+}

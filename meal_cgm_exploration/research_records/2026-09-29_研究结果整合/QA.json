@@ -1,0 +1,94 @@
+{
+  "date": "2026-09-29",
+  "data_kind": "REAL_SCREENSHOT_PRECISION",
+  "new_models": 0,
+  "FDR_recomputed": false,
+  "generated_unique_figures": 1,
+  "reused_unique_figures": 2,
+  "row_counts": {
+    "A_background_and_full": 84,
+    "B_transformed": 42,
+    "timecourse": 42,
+    "date_split": 24
+  },
+  "all_seven_scores_retained": true,
+  "main_figure_1_marks": 84,
+  "date_primary_FDR_supported": 24,
+  "variability_differences_FDR_supported": 18,
+  "all_paired_differences_FDR_supported": 20,
+  "original_source_files_unchanged": true,
+  "visual_QA": "PASS: inspected all three PNG figures; legible labels, no clipping/overlap; main figure displays all score groups and model contrasts",
+  "manuscript_QA": "PASS: reviewed narrative, effect units, sample denominators, q-family separation, nulls, and causal/prediction boundaries",
+  "manuscript_claim_checks": [
+    {
+      "claim": "A sample N ranges",
+      "status": "PASS"
+    },
+    {
+      "claim": "B sample N ranges",
+      "status": "PASS"
+    },
+    {
+      "claim": "rEDIH three full A outcomes supported in both settings",
+      "status": "PASS"
+    },
+    {
+      "claim": "AHEI/AMED/hPDI/EAT13 full net/peak do not pass original q",
+      "status": "PASS"
+    },
+    {
+      "claim": "B support confined to three named scores in all 18 contrasts",
+      "status": "PASS"
+    },
+    {
+      "claim": "Selected B contrast magnitude range 0.105–0.355 mg/dL",
+      "status": "PASS"
+    },
+    {
+      "claim": "AMED direct late-minus-early findings",
+      "status": "PASS"
+    },
+    {
+      "claim": "Date primary all 24 supported",
+      "status": "PASS"
+    },
+    {
+      "claim": "Date variability beta range 0.435–0.644",
+      "status": "PASS"
+    },
+    {
+      "claim": "Date Mean beta range 0.153–0.221",
+      "status": "PASS"
+    },
+    {
+      "claim": "All 18 variability delta estimates negative and supported",
+      "status": "PASS"
+    },
+    {
+      "claim": "Joint Positive–Mean pointwise CI excludes zero but qD does not pass",
+      "status": "PASS"
+    },
+    {
+      "claim": "Rounded attenuation 6.5–8.8 percent",
+      "status": "PASS"
+    },
+    {
+      "claim": "Common-seven rEDIH B caveat retained",
+      "status": "PASS"
+    }
+  ],
+  "original_archive_entries_verified": 302,
+  "markdown_links_checked": 33,
+  "markdown_link_status": "PASS",
+  "row_provenance_comparisons": 192,
+  "row_provenance_status": "PASS",
+  "attenuation_percent_from_display": {
+    "minimum": 6.473509933774835,
+    "maximum": 8.7858347386172
+  },
+  "limitations": [
+    "Original screenshot precision only; full server exports not retrieved.",
+    "Local numerical and figure verification does not independently validate raw server CGM inputs.",
+    "No new statistical evidence or models generated."
+  ]
+}

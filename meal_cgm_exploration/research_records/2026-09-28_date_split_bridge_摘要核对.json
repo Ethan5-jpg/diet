@@ -1,0 +1,226 @@
+{
+  "run_id": "date_split_bridge_20260928T154342_539217Z",
+  "scope": "Local checks of displayed summaries and previous screenshot archive, not independent re-fit or raw membership verification",
+  "primary_specs": 24,
+  "all_primary_q_below_005": true,
+  "positive_primary_CIs": 24,
+  "paired_negative_points": 24,
+  "paired_q_below_005": 20,
+  "variability_paired_q_below_005": 18,
+  "variability_total": 18,
+  "mean_paired_q_below_005_by_setting": {
+    "source_primary": 2,
+    "joint": 0
+  },
+  "sample_and_exclusion_counts_match_previous": true,
+  "metric_counts_match_previous_basic_or_MODD_proxy": true,
+  "no_additional_observed_count_loss_after_new_metric_construction": true,
+  "NOTE_matching_MODD_count_not_proof_of_identical_individual_members": true,
+  "model_checks": [
+    {
+      "setting": "source_primary",
+      "X": "Net",
+      "Y": "Mean",
+      "people_matches_key1": true,
+      "ordered_CIs": true,
+      "paired_identity_compatible_with_display_rounding": true
+    },
+    {
+      "setting": "source_primary",
+      "X": "Net",
+      "Y": "CV",
+      "people_matches_key1": true,
+      "ordered_CIs": true,
+      "paired_identity_compatible_with_display_rounding": true
+    },
+    {
+      "setting": "source_primary",
+      "X": "Net",
+      "Y": "SDw",
+      "people_matches_key1": true,
+      "ordered_CIs": true,
+      "paired_identity_compatible_with_display_rounding": true
+    },
+    {
+      "setting": "source_primary",
+      "X": "Net",
+      "Y": "MODD15",
+      "people_matches_key1": true,
+      "ordered_CIs": true,
+      "paired_identity_compatible_with_display_rounding": true
+    },
+    {
+      "setting": "source_primary",
+      "X": "Peak",
+      "Y": "Mean",
+      "people_matches_key1": true,
+      "ordered_CIs": true,
+      "paired_identity_compatible_with_display_rounding": true
+    },
+    {
+      "setting": "source_primary",
+      "X": "Peak",
+      "Y": "CV",
+      "people_matches_key1": true,
+      "ordered_CIs": true,
+      "paired_identity_compatible_with_display_rounding": true
+    },
+    {
+      "setting": "source_primary",
+      "X": "Peak",
+      "Y": "SDw",
+      "people_matches_key1": true,
+      "ordered_CIs": true,
+      "paired_identity_compatible_with_display_rounding": true
+    },
+    {
+      "setting": "source_primary",
+      "X": "Peak",
+      "Y": "MODD15",
+      "people_matches_key1": true,
+      "ordered_CIs": true,
+      "paired_identity_compatible_with_display_rounding": true
+    },
+    {
+      "setting": "source_primary",
+      "X": "Positive",
+      "Y": "Mean",
+      "people_matches_key1": true,
+      "ordered_CIs": true,
+      "paired_identity_compatible_with_display_rounding": true
+    },
+    {
+      "setting": "source_primary",
+      "X": "Positive",
+      "Y": "CV",
+      "people_matches_key1": true,
+      "ordered_CIs": true,
+      "paired_identity_compatible_with_display_rounding": true
+    },
+    {
+      "setting": "source_primary",
+      "X": "Positive",
+      "Y": "SDw",
+      "people_matches_key1": true,
+      "ordered_CIs": true,
+      "paired_identity_compatible_with_display_rounding": true
+    },
+    {
+      "setting": "source_primary",
+      "X": "Positive",
+      "Y": "MODD15",
+      "people_matches_key1": true,
+      "ordered_CIs": true,
+      "paired_identity_compatible_with_display_rounding": true
+    },
+    {
+      "setting": "joint",
+      "X": "Net",
+      "Y": "Mean",
+      "people_matches_key1": true,
+      "ordered_CIs": true,
+      "paired_identity_compatible_with_display_rounding": true
+    },
+    {
+      "setting": "joint",
+      "X": "Net",
+      "Y": "CV",
+      "people_matches_key1": true,
+      "ordered_CIs": true,
+      "paired_identity_compatible_with_display_rounding": true
+    },
+    {
+      "setting": "joint",
+      "X": "Net",
+      "Y": "SDw",
+      "people_matches_key1": true,
+      "ordered_CIs": true,
+      "paired_identity_compatible_with_display_rounding": true
+    },
+    {
+      "setting": "joint",
+      "X": "Net",
+      "Y": "MODD15",
+      "people_matches_key1": true,
+      "ordered_CIs": true,
+      "paired_identity_compatible_with_display_rounding": true
+    },
+    {
+      "setting": "joint",
+      "X": "Peak",
+      "Y": "Mean",
+      "people_matches_key1": true,
+      "ordered_CIs": true,
+      "paired_identity_compatible_with_display_rounding": true
+    },
+    {
+      "setting": "joint",
+      "X": "Peak",
+      "Y": "CV",
+      "people_matches_key1": true,
+      "ordered_CIs": true,
+      "paired_identity_compatible_with_display_rounding": true
+    },
+    {
+      "setting": "joint",
+      "X": "Peak",
+      "Y": "SDw",
+      "people_matches_key1": true,
+      "ordered_CIs": true,
+      "paired_identity_compatible_with_display_rounding": true
+    },
+    {
+      "setting": "joint",
+      "X": "Peak",
+      "Y": "MODD15",
+      "people_matches_key1": true,
+      "ordered_CIs": true,
+      "paired_identity_compatible_with_display_rounding": true
+    },
+    {
+      "setting": "joint",
+      "X": "Positive",
+      "Y": "Mean",
+      "people_matches_key1": true,
+      "ordered_CIs": true,
+      "paired_identity_compatible_with_display_rounding": true
+    },
+    {
+      "setting": "joint",
+      "X": "Positive",
+      "Y": "CV",
+      "people_matches_key1": true,
+      "ordered_CIs": true,
+      "paired_identity_compatible_with_display_rounding": true
+    },
+    {
+      "setting": "joint",
+      "X": "Positive",
+      "Y": "SDw",
+      "people_matches_key1": true,
+      "ordered_CIs": true,
+      "paired_identity_compatible_with_display_rounding": true
+    },
+    {
+      "setting": "joint",
+      "X": "Positive",
+      "Y": "MODD15",
+      "people_matches_key1": true,
+      "ordered_CIs": true,
+      "paired_identity_compatible_with_display_rounding": true
+    }
+  ],
+  "descriptive_variability_coefficient_reduction_pct_range_from_display": [
+    6.473509933774835,
+    8.7858347386172
+  ],
+  "reduction_note": "100*(-paired delta)/full B from displayed rounded coefficients; descriptive only, not explained variance, bias attribution or causal mediation",
+  "primary_variability_beta_range": [
+    0.435,
+    0.644
+  ],
+  "primary_mean_beta_range": [
+    0.153,
+    0.221
+  ]
+}

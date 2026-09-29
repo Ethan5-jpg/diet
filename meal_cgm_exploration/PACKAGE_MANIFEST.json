@@ -1,0 +1,149 @@
+{
+  "package": "HPP meal-CGM exploration",
+  "version": "2026.09.24.3",
+  "contains_raw_data": false,
+  "contains_synthetic_results": false,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 50,
+      "sha256": "4bad49856e016f73ce6df9e259064956c5977bcf79dd8af696ce210a35d0319b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 12191,
+      "sha256": "f0542abeb7c6a8c6dc0826bb748e9b01d52d0b505043c2d5156347b6ea22ae9a"
+    },
+    {
+      "path": "config/default.json",
+      "bytes": 1905,
+      "sha256": "c92fa41bbca87f2ea44b72fbb40ce5d8394b82683a02863bae9ab147716bd578"
+    },
+    {
+      "path": "docs/plans/2026-09-24-meal-cgm.md",
+      "bytes": 3378,
+      "sha256": "a03aaf95ca6886c1c5883f69328ebbeaffa7657423e46957a5e69a274464a5d8"
+    },
+    {
+      "path": "docs/上传前复核.md",
+      "bytes": 5379,
+      "sha256": "0c8570d25fdd64fb715d133994ea714af9ec2a4db13ec2961a804d0a4be4994b"
+    },
+    {
+      "path": "docs/再次复核_2026-09-24.md",
+      "bytes": 4862,
+      "sha256": "07fb82690b10d842c8e500b069f3157c4fc7c64d66512066a05fec9290d63d9f"
+    },
+    {
+      "path": "docs/分析规则.md",
+      "bytes": 10073,
+      "sha256": "04977b278cb9edad02d0b2103c1a5f9f35feb0bea6545381d82983f5b7682ea1"
+    },
+    {
+      "path": "docs/本地验证记录.md",
+      "bytes": 3726,
+      "sha256": "1b4bfab09664f0f7ba8f8739be86d0aaa57da27eacbff66f294e7715262dd7b8"
+    },
+    {
+      "path": "hppmeal/__init__.py",
+      "bytes": 100,
+      "sha256": "4758c2933302e367229b79ca85f532884c0c6236b5d74e6c179c091c2a5af27b"
+    },
+    {
+      "path": "hppmeal/cgm.py",
+      "bytes": 5872,
+      "sha256": "5818892483242c25794182e828bb1f8cc02a267978216886da2015bb238bc9a8"
+    },
+    {
+      "path": "hppmeal/common.py",
+      "bytes": 12782,
+      "sha256": "1ba7c4715bb3e734e9c36b0cbb30c8879a13862726c9730f95cde2f26476096a"
+    },
+    {
+      "path": "hppmeal/ingest.py",
+      "bytes": 7644,
+      "sha256": "1242244d6dc2ef2c2fece9fbd6234da8dea223db7cfa03482baaaf2034de916c"
+    },
+    {
+      "path": "hppmeal/meals.py",
+      "bytes": 3824,
+      "sha256": "bbcdca85382a5e0eaad449f4fd8fb1ed4d78bbc6df9dec15a1751ad7d6d41933"
+    },
+    {
+      "path": "hppmeal/models.py",
+      "bytes": 12324,
+      "sha256": "799d1e43edde2cb469e7716edb0c704a7fd4196e4a80bef0e9114f557193701f"
+    },
+    {
+      "path": "hppmeal/pipeline.py",
+      "bytes": 4371,
+      "sha256": "63f7479deebbfd63146539c78a848e940e6dc2c644430ea48871b78e7eae49f0"
+    },
+    {
+      "path": "hppmeal/preflight.py",
+      "bytes": 5732,
+      "sha256": "b9f6ac9d98552ab63663695ffeac8ec7cbe3ddadc2a25a56141006e498e9bf7a"
+    },
+    {
+      "path": "hppmeal/report.py",
+      "bytes": 8919,
+      "sha256": "c9665ed54b0f2fb62dfa8be058adbca9ab5d9b396a64863a4907c15f2fc67e23"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 63,
+      "sha256": "a6d0865cd4e3bea7dbfb8303a7494f2180f8a996389c6e8872e3798cb69851b5"
+    },
+    {
+      "path": "run_server.sh",
+      "bytes": 208,
+      "sha256": "c0489357e7334f78a377ef8738d15f745e2579c9b381363a261faba1366d80f2"
+    },
+    {
+      "path": "scripts/run_pipeline.py",
+      "bytes": 9303,
+      "sha256": "5f95f0fb0a05dad232b24a84075ef125fcdff99b0a8b9c53959a6a4116822f85"
+    },
+    {
+      "path": "scripts/show_results.py",
+      "bytes": 1722,
+      "sha256": "54cb63b3177cba57d1644d83db96027bfb43971e8f4c6c9b9e4389412d0379ef"
+    },
+    {
+      "path": "tests/conftest.py",
+      "bytes": 293,
+      "sha256": "d1419269c61f0312b5b8f1a33ee648298ad0029002ec97c22c4b186f456dabfc"
+    },
+    {
+      "path": "tests/fixtures.py",
+      "bytes": 3775,
+      "sha256": "7a368fafe54327a9184a5cbb8cc3297c3218415f0c38644d79945ad73f25b441"
+    },
+    {
+      "path": "tests/test_core.py",
+      "bytes": 7980,
+      "sha256": "dd60bbf7f10dd892fe83e5b6834dc428e7bb9268683034fb99cbe945ca5b955f"
+    },
+    {
+      "path": "tests/test_pipeline.py",
+      "bytes": 4751,
+      "sha256": "38b6848fa0c71ddf111fbceee49eedbf0af2c9f518c7ce1b561307fcf2e0cde4"
+    },
+    {
+      "path": "tests/test_readiness.py",
+      "bytes": 5433,
+      "sha256": "df2bf72195f64a183f643aab2fcb9e9cc4a144835c9070cad191f528d9d193ea"
+    },
+    {
+      "path": "tests/test_scope_and_failures.py",
+      "bytes": 7455,
+      "sha256": "bf6ac46dc037ef8afac498b7cf5e041c32eeb1744f63932706bd8f752ef2928c"
+    },
+    {
+      "path": "RESEARCH_SUMMARY.md",
+      "bytes": 33122,
+      "sha256": "c5ecad18a73daacb4b5fee80dbfff4f3cb09ae00d6c821dc3f56c87aadf971ac"
+    }
+  ],
+  "documentation_updated": "2026-09-29"
+}

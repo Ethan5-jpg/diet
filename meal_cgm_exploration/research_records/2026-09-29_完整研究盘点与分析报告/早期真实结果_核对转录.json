@@ -1,0 +1,484 @@
+{
+  "scope": "Existing REAL screenshot results only; no refitting, new inference, or raw-server validation. Numbers preserve screenshot precision.",
+  "transcribed_on": "2026-09-29",
+  "source_root": "../evidence",
+  "source_read_method": "Visual inspection of archived original screenshots, checked against dated history; source names below are relative to project root.",
+  "meal_run_id": "meal_20260924T143630_752200Z",
+  "followup_run_id": "repeated_20260925T074243_557265Z",
+  "flow": [
+    {
+      "stage": "all_eating_episodes",
+      "people": 9737,
+      "meals": 658084,
+      "branch": "build",
+      "source": "research_records/evidence/截屏2026-09-25 00.28.22.png"
+    },
+    {
+      "stage": "amount_identity_timezone_valid",
+      "people": 9737,
+      "meals": 522613,
+      "branch": "build",
+      "source": "research_records/evidence/截屏2026-09-25 00.28.22.png"
+    },
+    {
+      "stage": "with_valid_CGM",
+      "people": 8290,
+      "meals": 376148,
+      "branch": "build",
+      "source": "research_records/evidence/截屏2026-09-25 00.28.22.png"
+    },
+    {
+      "stage": "known_isolated_window",
+      "people": 8272,
+      "meals": 183709,
+      "branch": "build",
+      "source": "research_records/evidence/截屏2026-09-25 00.28.22.png"
+    },
+    {
+      "stage": "no_invalid_diet_timestamps",
+      "people": 8272,
+      "meals": 183709,
+      "branch": "build",
+      "source": "research_records/evidence/截屏2026-09-25 00.28.22.png"
+    },
+    {
+      "stage": "NOVA_coverage",
+      "people": 8262,
+      "meals": 151250,
+      "branch": "build",
+      "source": "research_records/evidence/截屏2026-09-25 00.28.22.png"
+    },
+    {
+      "stage": "primary_covariates",
+      "people": 5678,
+      "meals": 126956,
+      "branch": "primary_from_isolated",
+      "source": "research_records/evidence/截屏2026-09-25 00.35.55.png"
+    },
+    {
+      "stage": "strict_covariates",
+      "people": 5335,
+      "meals": 118933,
+      "branch": "strict_from_isolated",
+      "source": "research_records/evidence/截屏2026-09-25 00.35.55.png"
+    },
+    {
+      "stage": "final_NOVA_primary",
+      "people": 5211,
+      "meals": 102116,
+      "branch": "primary",
+      "source": "research_records/evidence/截屏2026-09-25 00.28.36.png"
+    },
+    {
+      "stage": "final_NOVA_strict",
+      "people": 4898,
+      "meals": 95574,
+      "branch": "strict",
+      "source": "research_records/evidence/截屏2026-09-25 00.28.36.png"
+    }
+  ],
+  "NOVA_models": [
+    {
+      "model": "primary_net_iAUC",
+      "people": 5211,
+      "meals": 102116,
+      "estimate": 20.6,
+      "ci_low": 17.39,
+      "ci_high": 23.81,
+      "p": 8.738e-36,
+      "unit": "mg/dL*min per meal NOVA4 +10 percentage points",
+      "source": "research_records/evidence/截屏2026-09-25 00.28.36.png",
+      "p_role": "nominal; not q"
+    },
+    {
+      "model": "secondary_peak",
+      "people": 5211,
+      "meals": 102116,
+      "estimate": 0.2691,
+      "ci_low": 0.2295,
+      "ci_high": 0.3087,
+      "p": 7.159e-40,
+      "unit": "mg/dL per meal NOVA4 +10 percentage points",
+      "source": "research_records/evidence/截屏2026-09-25 00.28.36.png",
+      "p_role": "nominal; not q"
+    },
+    {
+      "model": "strict_net_iAUC",
+      "people": 4898,
+      "meals": 95574,
+      "estimate": 20.33,
+      "ci_low": 17.01,
+      "ci_high": 23.64,
+      "p": 9.32e-33,
+      "unit": "mg/dL*min per meal NOVA4 +10 percentage points",
+      "source": "research_records/evidence/截屏2026-09-25 00.28.36.png",
+      "p_role": "nominal; not q"
+    },
+    {
+      "model": "coverage95_net_iAUC",
+      "people": 5137,
+      "meals": 93652,
+      "estimate": 21,
+      "ci_low": 17.73,
+      "ci_high": 24.27,
+      "p": 8.662e-36,
+      "unit": "mg/dL*min per meal NOVA4 +10 percentage points",
+      "source": "research_records/evidence/截屏2026-09-25 00.28.36.png",
+      "p_role": "nominal; not q"
+    }
+  ],
+  "NOVA_display_conversion": {
+    "source_model": "primary_net_iAUC",
+    "operation": "divide estimate and CI by 120 minutes",
+    "estimate": 0.1716666666666667,
+    "ci_low": 0.14491666666666667,
+    "ci_high": 0.19841666666666666,
+    "unit": "mg/dL per meal NOVA4 +10 percentage points",
+    "new_model": false
+  },
+  "microbe_models": [
+    {
+      "species": "Eubacterium rectale",
+      "people": 4622,
+      "meals": 90589,
+      "estimate": 1.559,
+      "ci_low": -1.991,
+      "ci_high": 5.11,
+      "p": 0.3893,
+      "q": 0.7787,
+      "q_family_size": 2,
+      "unit": "mg/dL*min per meal NOVA4 +10pp per original species CLR-Z",
+      "timing": "UNKNOWN",
+      "source": "research_records/evidence/截屏2026-09-25 00.28.36.png"
+    },
+    {
+      "species": "Ruthenibacterium lactatiformans",
+      "people": 4622,
+      "meals": 90589,
+      "estimate": 0.2006,
+      "ci_low": -3.27,
+      "ci_high": 3.671,
+      "p": 0.9098,
+      "q": 0.9098,
+      "q_family_size": 2,
+      "unit": "mg/dL*min per meal NOVA4 +10pp per original species CLR-Z",
+      "timing": "UNKNOWN",
+      "source": "research_records/evidence/截屏2026-09-25 00.28.36.png"
+    }
+  ],
+  "repeat_structure": {
+    "people": 3040,
+    "pairs": 6281,
+    "unique_meals": 12562,
+    "people_at_least_two_pairs": 1522,
+    "people_exactly_one_pair_derived": 1518,
+    "pair_count_p25_p50_p75": [
+      1,
+      2,
+      3
+    ],
+    "pair_count_max": 23,
+    "pair_count_mean": 2.07,
+    "pair_count_sd": 1.58,
+    "different_connection_pairs": 0,
+    "source": [
+      "research_records/evidence/截屏2026-09-25 00.35.55.png",
+      "research_records/evidence/截屏2026-09-25 00.45.23.png",
+      "research_records/evidence/截屏2026-09-25 00.49.53.png"
+    ]
+  },
+  "repeat_quantiles": [
+    {
+      "metric": "premeal_baseline",
+      "signed_P10_P50_P90": [
+        -12.6,
+        0,
+        13.5
+      ],
+      "absolute_P10_P50_P90": [
+        0.9,
+        5.4,
+        18.9
+      ],
+      "unit": "mg/dL",
+      "direction": "later minus earlier",
+      "interval_type": "empirical percentiles, NOT confidence intervals",
+      "source": "research_records/evidence/截屏2026-09-25 00.49.53.png"
+    },
+    {
+      "metric": "postmeal_absolute_mean",
+      "signed_P10_P50_P90": [
+        -11.28,
+        -0.2,
+        11.38
+      ],
+      "absolute_P10_P50_P90": [
+        0.93,
+        5.29,
+        15.89
+      ],
+      "unit": "mg/dL",
+      "direction": "later minus earlier",
+      "interval_type": "empirical percentiles, NOT confidence intervals",
+      "source": "research_records/evidence/截屏2026-09-25 00.49.53.png"
+    },
+    {
+      "metric": "net_mean",
+      "signed_P10_P50_P90": [
+        -15.05,
+        -0.29,
+        13.2
+      ],
+      "absolute_P10_P50_P90": [
+        0.98,
+        6.01,
+        21.28
+      ],
+      "unit": "mg/dL",
+      "direction": "later minus earlier",
+      "interval_type": "empirical percentiles, NOT confidence intervals",
+      "source": "research_records/evidence/截屏2026-09-25 00.49.53.png"
+    },
+    {
+      "metric": "peak_rise",
+      "signed_P10_P50_P90": [
+        -19.8,
+        -0.9,
+        18
+      ],
+      "absolute_P10_P50_P90": [
+        1.8,
+        8.1,
+        27.9
+      ],
+      "unit": "mg/dL",
+      "direction": "later minus earlier",
+      "interval_type": "empirical percentiles, NOT confidence intervals",
+      "source": "research_records/evidence/截屏2026-09-25 00.49.53.png"
+    }
+  ],
+  "repeat_composition": {
+    "energy_kcal_P10_P50_P90": [
+      81.18,
+      198.01,
+      529.64
+    ],
+    "carbohydrate_g_P10_P50_P90": [
+      7.5,
+      22.94,
+      57.5
+    ],
+    "elapsed_days_P10_P50_P90": [
+      0.98,
+      1.97,
+      5.99
+    ],
+    "energy_abs_diff_P10_P50_P90": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "carb_abs_diff_P10_P50_P90": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "zero_caveat": "rounded percentiles, not proof every pair is exactly identical",
+    "source": "research_records/evidence/截屏2026-09-25 00.45.23.png"
+  },
+  "repeat_bootstrap": [
+    {
+      "setting": "all_descriptive",
+      "people": 3040,
+      "pairs": 6281,
+      "estimate": 6.012,
+      "ci_low": 5.82,
+      "ci_high": 6.26,
+      "statistic": "pair median absolute difference in net mean",
+      "unit": "mg/dL",
+      "draws": 1000,
+      "ci_method": "participant cluster percentile bootstrap, fixed pairs",
+      "source": "research_records/evidence/截屏2026-09-25 15.46.58.png"
+    },
+    {
+      "setting": "primary",
+      "people": 2133,
+      "pairs": 4450,
+      "estimate": 5.896,
+      "ci_low": 5.634,
+      "ci_high": 6.138,
+      "statistic": "pair median absolute difference in net mean",
+      "unit": "mg/dL",
+      "draws": 1000,
+      "ci_method": "participant cluster percentile bootstrap, fixed pairs",
+      "source": "research_records/evidence/截屏2026-09-25 15.46.58.png"
+    },
+    {
+      "setting": "strict",
+      "people": 1997,
+      "pairs": 4148,
+      "estimate": 5.919,
+      "ci_low": 5.678,
+      "ci_high": 6.215,
+      "statistic": "pair median absolute difference in net mean",
+      "unit": "mg/dL",
+      "draws": 1000,
+      "ci_method": "participant cluster percentile bootstrap, fixed pairs",
+      "source": "research_records/evidence/截屏2026-09-25 15.46.58.png"
+    }
+  ],
+  "prediction_samples": [
+    {
+      "setting": "primary",
+      "train_people": 2067,
+      "train_meals": 8245,
+      "test_people": 814,
+      "test_meals": 1660,
+      "source": "research_records/evidence/截屏2026-09-25 15.47.11.png"
+    },
+    {
+      "setting": "strict",
+      "train_people": 1934,
+      "train_meals": 7685,
+      "test_people": 754,
+      "test_meals": 1559,
+      "source": "research_records/evidence/截屏2026-09-25 15.47.11.png"
+    }
+  ],
+  "prediction_gains": [
+    {
+      "setting": "primary",
+      "previous": "template_history",
+      "newer": "plus_context",
+      "estimate": 0.015,
+      "ci_low": -0.018,
+      "ci_high": 0.05,
+      "unit": "mg/dL gain in person-equal MAE (previous minus newer)",
+      "target": "later-date two-hour absolute mean glucose of known participants and previously seen templates",
+      "ci_scope": "participant bootstrap, conditional on fixed fitted models; no refitting",
+      "p": null,
+      "q": null,
+      "source": "research_records/evidence/截屏2026-09-25 15.47.11.png"
+    },
+    {
+      "setting": "primary",
+      "previous": "plus_context",
+      "newer": "plus_premeal",
+      "estimate": 0.744,
+      "ci_low": 0.571,
+      "ci_high": 0.938,
+      "unit": "mg/dL gain in person-equal MAE (previous minus newer)",
+      "target": "later-date two-hour absolute mean glucose of known participants and previously seen templates",
+      "ci_scope": "participant bootstrap, conditional on fixed fitted models; no refitting",
+      "p": null,
+      "q": null,
+      "source": "research_records/evidence/截屏2026-09-25 15.47.11.png"
+    },
+    {
+      "setting": "primary",
+      "previous": "template_history",
+      "newer": "plus_premeal",
+      "estimate": 0.758,
+      "ci_low": 0.583,
+      "ci_high": 0.95,
+      "unit": "mg/dL gain in person-equal MAE (previous minus newer)",
+      "target": "later-date two-hour absolute mean glucose of known participants and previously seen templates",
+      "ci_scope": "participant bootstrap, conditional on fixed fitted models; no refitting",
+      "p": null,
+      "q": null,
+      "source": "research_records/evidence/截屏2026-09-25 15.47.11.png"
+    },
+    {
+      "setting": "primary",
+      "previous": "premeal_persistence",
+      "newer": "plus_premeal",
+      "estimate": 3.627,
+      "ci_low": 2.916,
+      "ci_high": 4.248,
+      "unit": "mg/dL gain in person-equal MAE (previous minus newer)",
+      "target": "later-date two-hour absolute mean glucose of known participants and previously seen templates",
+      "ci_scope": "participant bootstrap, conditional on fixed fitted models; no refitting",
+      "p": null,
+      "q": null,
+      "source": "research_records/evidence/截屏2026-09-25 15.47.11.png"
+    },
+    {
+      "setting": "strict",
+      "previous": "template_history",
+      "newer": "plus_context",
+      "estimate": 0.02,
+      "ci_low": -0.023,
+      "ci_high": 0.06,
+      "unit": "mg/dL gain in person-equal MAE (previous minus newer)",
+      "target": "later-date two-hour absolute mean glucose of known participants and previously seen templates",
+      "ci_scope": "participant bootstrap, conditional on fixed fitted models; no refitting",
+      "p": null,
+      "q": null,
+      "source": "research_records/evidence/截屏2026-09-25 15.47.11.png"
+    },
+    {
+      "setting": "strict",
+      "previous": "plus_context",
+      "newer": "plus_premeal",
+      "estimate": 0.747,
+      "ci_low": 0.576,
+      "ci_high": 0.942,
+      "unit": "mg/dL gain in person-equal MAE (previous minus newer)",
+      "target": "later-date two-hour absolute mean glucose of known participants and previously seen templates",
+      "ci_scope": "participant bootstrap, conditional on fixed fitted models; no refitting",
+      "p": null,
+      "q": null,
+      "source": "research_records/evidence/截屏2026-09-25 15.47.11.png"
+    },
+    {
+      "setting": "strict",
+      "previous": "template_history",
+      "newer": "plus_premeal",
+      "estimate": 0.766,
+      "ci_low": 0.579,
+      "ci_high": 0.967,
+      "unit": "mg/dL gain in person-equal MAE (previous minus newer)",
+      "target": "later-date two-hour absolute mean glucose of known participants and previously seen templates",
+      "ci_scope": "participant bootstrap, conditional on fixed fitted models; no refitting",
+      "p": null,
+      "q": null,
+      "source": "research_records/evidence/截屏2026-09-25 15.47.11.png"
+    },
+    {
+      "setting": "strict",
+      "previous": "premeal_persistence",
+      "newer": "plus_premeal",
+      "estimate": 3.556,
+      "ci_low": 2.866,
+      "ci_high": 4.244,
+      "unit": "mg/dL gain in person-equal MAE (previous minus newer)",
+      "target": "later-date two-hour absolute mean glucose of known participants and previously seen templates",
+      "ci_scope": "participant bootstrap, conditional on fixed fitted models; no refitting",
+      "p": null,
+      "q": null,
+      "source": "research_records/evidence/截屏2026-09-25 15.47.11.png"
+    }
+  ],
+  "unavailable": [
+    "Full server CSV/participant data/model config and hashes",
+    "Microbe sample dates and precise matched taxonomic columns",
+    "Absolute prediction MAE/RMSE and complete flow",
+    "Other repeat statistics and full template repeat counts",
+    "ICC or individual stability scores (not estimated)"
+  ],
+  "diary_precheck": {
+    "people": 9087,
+    "person_day_rows": 116906,
+    "invalid_identity_or_date_rows": 0,
+    "duplicate_person_dates": 0,
+    "invalid_food_items_rows": 0,
+    "personal_logging_days_median": 14,
+    "food_items_per_recorded_day_median": 16,
+    "people_at_least_3_days": 9084,
+    "people_at_least_7_days": 8849,
+    "people_at_least_10_days": 8358,
+    "people_at_least_14_days": 5436,
+    "source": "research_records/evidence/截屏2026-09-25 18.02.44.png",
+    "not_proof_of_complete_intake": true
+  }
+}

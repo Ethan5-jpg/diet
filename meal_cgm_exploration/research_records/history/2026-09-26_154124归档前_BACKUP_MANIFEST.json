@@ -1,0 +1,391 @@
+{
+  "date": "2026-09-25",
+  "scope": "Research conclusions, screenshot display transcriptions, and source images; not full server result files",
+  "server_result_csv_downloaded": false,
+  "screenshot_image_files_copied": true,
+  "latest_update_evidence": "2026-09-26 15:25:33; nutrition_bridge REAL/COMPLETE;84/84 reproduced;302/302 estimated;effect tables not yet received",
+  "image_count": 34,
+  "transcribed_quality_rows": 91,
+  "previous_seven_rows": 42,
+  "archive_verification": "133 unique keys; all source images present; CI/q/display checks; source/joint each42 expected specs; B mean/peak people and meals reconcile after documented hPDI count correction; old snapshots hashes unchanged",
+  "analysis_package_manifest_checks": [
+    {
+      "package": "original",
+      "checked_hashes": 27,
+      "status": "MATCH"
+    },
+    {
+      "package": "followup",
+      "checked_hashes": 11,
+      "status": "MATCH"
+    },
+    {
+      "package": "seven_diet_meals",
+      "checked_hashes": 11,
+      "status": "MATCH"
+    },
+    {
+      "package": "quality_timecourse",
+      "checked_hashes": 27,
+      "status": "MATCH"
+    },
+    {
+      "package": "nutrition_bridge",
+      "checked_hashes": 34,
+      "status": "MATCH"
+    }
+  ],
+  "files": {
+    "2026-09-25_211656_quality_timecourse_完成记录.md": {
+      "bytes": 1518,
+      "sha256": "5e67bf6f5e1ff355d5d4dbedcc7061e6f66c4142d0bcf1c2bac5fcfddc83bc8b"
+    },
+    "2026-09-25_2214_主样本A调整与峰值28项_截图精度.json": {
+      "bytes": 22565,
+      "sha256": "37cacb263718c82d4f46cb0ff96eb185f8dab2ee6b1b116290cea3e615dbde81"
+    },
+    "2026-09-25_2214_主样本调整与峰值结果解读.md": {
+      "bytes": 8680,
+      "sha256": "65bcfb06905c8e33cc06bc4f6e1c0859438b190567f252ee07ab28291afb63dd"
+    },
+    "2026-09-25_2225_joint调整与峰值28项_截图精度.json": {
+      "bytes": 23448,
+      "sha256": "ac326354afed10c455fb2d09953c07e2aca0df56b1959aa08b0727a96a8f53f8"
+    },
+    "2026-09-25_2225_joint调整与峰值结果解读.md": {
+      "bytes": 7688,
+      "sha256": "e3c7deade129f18185f7e0d22f39c795d6f375e64407f60b3dbc483da8b1e079"
+    },
+    "2026-09-25_2235_数值诊断与筛选人群解读.md": {
+      "bytes": 5955,
+      "sha256": "e6c45f92a65fbd188957bc98857d6c2d2dbd8f2ea87a7f51c4d01f5b64fc2b8f"
+    },
+    "2026-09-25_2235_条件数与选择人群_截图精度.json": {
+      "bytes": 15627,
+      "sha256": "c6d5c0605f38c09d00f8c56f13decb0e8b6be423a9d7fb434f936fd71dd6ca61"
+    },
+    "2026-09-25_2300_B峰值14项_截图精度.json": {
+      "bytes": 11776,
+      "sha256": "fa98288da5fcc20a544f1f8499a1bbcef8bdfaa02a63817a43868861e2bfd819"
+    },
+    "2026-09-25_2300_B峰值交互结果解读.md": {
+      "bytes": 5465,
+      "sha256": "2f444d4e8f29e2d4036ae59002b30e90e84fa5a0bfbfb0104264c94f6a3dc4fb"
+    },
+    "2026-09-25_2300_样本保留率_更正后.json": {
+      "bytes": 4835,
+      "sha256": "3b059341b626f0cc53a9a3de5c39c914e65743a080dcbd37babbf7ab5afcf2e8"
+    },
+    "2026-09-25_quality_timecourse_真实结果解读.md": {
+      "bytes": 16883,
+      "sha256": "f6e6e741211da72eabd0091eede85f5bc9243c1848dbb920a539cf4c2107b187"
+    },
+    "2026-09-25_阶段成果总结_七项饮食与餐次血糖.md": {
+      "bytes": 8911,
+      "sha256": "d11dc07e6a793b0ad8907d7cace9b437fe27fefff6b97e788bdf93099f979268"
+    },
+    "2026-09-26_下一轮结局选择与优先顺序.md": {
+      "bytes": 5146,
+      "sha256": "f8d22b7ce9880e464e6f04469fbe9582ae083a66af99fc90e667fafce1aa00fc"
+    },
+    "2026-09-26_研究结论与后续分析建议.md": {
+      "bytes": 9015,
+      "sha256": "fc00c1e227e2ba9699e85611904ea602b132d410faa2c25633dd2b78dada3df7"
+    },
+    "2026-09-26_血糖指标口径_整体CGM与餐次反应.md": {
+      "bytes": 4148,
+      "sha256": "3b2beea34b30bcc48ba79a72c3c2224633112abf69c6cbddad47eaaddfd8e501"
+    },
+    "evidence/截屏2026-09-25 00.25.19.png": {
+      "bytes": 193982,
+      "sha256": "eb80801ff6227b6560cb95efccf088446b83cd016c0743a465d6b0eeb4726301"
+    },
+    "evidence/截屏2026-09-25 00.28.08.png": {
+      "bytes": 122238,
+      "sha256": "1ab598713038023ed8e0188250075712537ead13096be7ea06f97fa0da38cdd7"
+    },
+    "evidence/截屏2026-09-25 00.28.22.png": {
+      "bytes": 172660,
+      "sha256": "5fa69f3453c072060aae91d5cc8e3659d5ef74d50eed6f8b6f45cb56e6c2a06e"
+    },
+    "evidence/截屏2026-09-25 00.28.36.png": {
+      "bytes": 200219,
+      "sha256": "a2b50a2a900d4e1092c5797cb9dd2f1587daf6332d6e819c4d42181592856177"
+    },
+    "evidence/截屏2026-09-25 00.35.55.png": {
+      "bytes": 76952,
+      "sha256": "4d80588baa25aadd970088538e2119104dd0c34f875c1ddb0da5d1246862a02c"
+    },
+    "evidence/截屏2026-09-25 00.45.23.png": {
+      "bytes": 106061,
+      "sha256": "86aed6fc8a6a86bf99af741d644dbb530dcfd9901e718e4a1a855cbe63676486"
+    },
+    "evidence/截屏2026-09-25 00.49.53.png": {
+      "bytes": 85342,
+      "sha256": "b01643061163aef9327f9f3bf2e0fe313ce42101299823a1c6b5095438e59039"
+    },
+    "evidence/截屏2026-09-25 15.45.53.png": {
+      "bytes": 176523,
+      "sha256": "d93edbea65f653c0bd6186757e3b3e1e1a5ec82f5a6bee35b6ed8facd3447532"
+    },
+    "evidence/截屏2026-09-25 15.46.58.png": {
+      "bytes": 190836,
+      "sha256": "4991306c9dddc4eafe115481d53ee2256f813c7b38002e6e135fb3a03b23c778"
+    },
+    "evidence/截屏2026-09-25 15.47.11.png": {
+      "bytes": 240891,
+      "sha256": "48b3978b81dcf3ed8d94794a68ae165e60c809afa128ac84f1aff9299dd7360d"
+    },
+    "evidence/截屏2026-09-25 15.47.21.png": {
+      "bytes": 201357,
+      "sha256": "1fe452b214bfc72c6070d56b4d733afe9b90f4c5122a3c46d89432d5c412d719"
+    },
+    "evidence/截屏2026-09-25 17.39.59.png": {
+      "bytes": 228849,
+      "sha256": "1983cb257492cb187e9c936cc0479250fc7824c9addf5fc3d4249a8dad75b001"
+    },
+    "evidence/截屏2026-09-25 17.41.21.png": {
+      "bytes": 169508,
+      "sha256": "74da5519d20beff9ed0512f31898a12a743c071918cc0ec6a1ec4ff08a49ea65"
+    },
+    "evidence/截屏2026-09-25 17.41.36.png": {
+      "bytes": 337434,
+      "sha256": "fdd0670ab0f6094fb97a34a853e7e9944b6781127d41bd5499bc8e4f638b36b4"
+    },
+    "evidence/截屏2026-09-25 17.41.46.png": {
+      "bytes": 158464,
+      "sha256": "aaa8c1060bc1cc775b8bb6e90b7dc263b6261ef3e4425908d3e9c551166a1860"
+    },
+    "evidence/截屏2026-09-25 17.46.47.png": {
+      "bytes": 233790,
+      "sha256": "66ca5c5a814dc0434fc0c851b344e841e1bb3ae7a946b5fe229c85a6dccf3ec5"
+    },
+    "evidence/截屏2026-09-25 17.52.54.png": {
+      "bytes": 153242,
+      "sha256": "b538c7449e3eab310ef0f65d928be41e4b42403f35907313f38a5d3e87d771eb"
+    },
+    "evidence/截屏2026-09-25 18.02.44.png": {
+      "bytes": 143066,
+      "sha256": "c59ce9b73a7ee04c589670a4d9744438ce93bcba072f9f334fec77aae6b6dec0"
+    },
+    "evidence/截屏2026-09-25 21.16.56.png": {
+      "bytes": 156634,
+      "sha256": "509a2f4eabbbcd9cf7d5b9bb3ba5a18891aeb3e6aba918f15d5a6dbc5d811b2a"
+    },
+    "evidence/截屏2026-09-25 21.21.11.png": {
+      "bytes": 200754,
+      "sha256": "9ca07db672b48bde5443af1ccc652cd8021e6d37d600a0c8bc33716e380d3bb9"
+    },
+    "evidence/截屏2026-09-25 21.34.09.png": {
+      "bytes": 166358,
+      "sha256": "1d6d449dd49627caa757729fb02a72d7d427ce3bc1d1edf8dbc19ac925a1d59a"
+    },
+    "evidence/截屏2026-09-25 21.34.36.png": {
+      "bytes": 189129,
+      "sha256": "22738b8b9972ee367588be010c49b3a231f4003695429b29076a9fe28b6d9f9a"
+    },
+    "evidence/截屏2026-09-25 21.34.55.png": {
+      "bytes": 189340,
+      "sha256": "43c027604cbf7a736b6ed0df892ce98e683e6f59b01b34562e879720a915ce20"
+    },
+    "evidence/截屏2026-09-25 21.35.07.png": {
+      "bytes": 167385,
+      "sha256": "02c7949c7a21061da035b86a0c5013f3dd11351a5534c89fdc8158c7be1bb419"
+    },
+    "evidence/截屏2026-09-25 21.35.17.png": {
+      "bytes": 164620,
+      "sha256": "c1fc587baec4d1a8ed918e437b10c368a5d06e6d954f4769de2c0406a0d6629e"
+    },
+    "evidence/截屏2026-09-25 21.35.32.png": {
+      "bytes": 326621,
+      "sha256": "0aa95d498a5ab416ae4116548f3ddc898eeb5adfdde96c3a5ebeb45eaad7a8da"
+    },
+    "evidence/截屏2026-09-25 22.13.44.png": {
+      "bytes": 223153,
+      "sha256": "234627b8a8a32dc00e1c0a937a25b06ccc1e435b1e699794a62cad6403cf4b29"
+    },
+    "evidence/截屏2026-09-25 22.14.05.png": {
+      "bytes": 159630,
+      "sha256": "f6ceda0108624630ceed81024788b2a67b3999a3e71ce972c86e77afcd87b199"
+    },
+    "evidence/截屏2026-09-25 22.25.34.png": {
+      "bytes": 222927,
+      "sha256": "af3206330be9f74c1df81adf706d71fb59d3fbdb07ae32bc1360a1691bba15d8"
+    },
+    "evidence/截屏2026-09-25 22.25.43.png": {
+      "bytes": 160940,
+      "sha256": "9ad7df38926e51f15227ddb23dd41288703fc2928b6c67c747bf6683b420149a"
+    },
+    "evidence/截屏2026-09-25 22.35.12.png": {
+      "bytes": 285084,
+      "sha256": "0b75a05ce59111b173b887edca9b32ffcb08a0113eb7e6ac6055eedb2dd48d6c"
+    },
+    "evidence/截屏2026-09-25 23.00.34.png": {
+      "bytes": 240357,
+      "sha256": "43d12e484de9a54bad10495e2d04f186727a4f863ea4cf8b8924d99f2309c31c"
+    },
+    "history/2026-09-25_2214前_研究结论总览.md": {
+      "bytes": 18191,
+      "sha256": "3433d8575d20d1b554a4c70c6d172de11dedaad76031ed12f3f736c592bdb208"
+    },
+    "history/2026-09-25_2225前_研究结论总览.md": {
+      "bytes": 19577,
+      "sha256": "ec076e8404db8f2ecb4aacbf9174fac7ceaddb93055ffe61f3351962f0d2995f"
+    },
+    "history/2026-09-25_2235前_研究结论总览.md": {
+      "bytes": 20264,
+      "sha256": "6c65086d00070d411a717cc1cb633201ac04e02c1323bc292c0a9784d8573875"
+    },
+    "history/2026-09-25_2300前_来源与待补文件.md": {
+      "bytes": 7344,
+      "sha256": "29c93a064724ba7ce6e7c3b910d77f7d7b1911af58d75a97ac0eb3b26c1f7c55"
+    },
+    "history/2026-09-25_2300前_研究结论总览.md": {
+      "bytes": 21433,
+      "sha256": "6da7d4d597a035de3dce92b76050dab33f6835c0d1764dfdfbd70cc8cadb7304"
+    },
+    "history/2026-09-25_七项饮食42项_更正前转录.json": {
+      "bytes": 15007,
+      "sha256": "7c59302de2fffb4127a0ee7b91a909232ca0693536a9e42c23e8f2048c2e5d25"
+    },
+    "history/2026-09-25_阶段记录快照.md": {
+      "bytes": 42134,
+      "sha256": "ec6ebe31a3409e52ff279fa1fc41f11f77dc6554aeb240add116e5192777051b"
+    },
+    "history/2026-09-26_建议整理前_研究结论总览.md": {
+      "bytes": 22895,
+      "sha256": "e6374e786b7bd246a5d070099c36bc74d4755bc8af5589a4074397bebddf1181"
+    },
+    "history/2026-09-26_指标口径补充前_研究结论总览.md": {
+      "bytes": 23162,
+      "sha256": "adc83c5623fea99dc0e05125943977eb9b6e8ea9b7aef57afe017fec2729e5ab"
+    },
+    "history/2026-09-26_结局选择建议前_研究结论总览.md": {
+      "bytes": 23510,
+      "sha256": "c6ef9c846a070c9ea437c145841c2aae75dbabad8f1938630b4b9d8e0dbd196d"
+    },
+    "quality_timecourse_77项已展示结果_截图精度.json": {
+      "bytes": 49509,
+      "sha256": "df6d14d74d35c0ba8c61ac4781e89efa7c7fce24790962e96a2438ede32a16b0"
+    },
+    "quality_timecourse_样本保留率_由截图计数计算.json": {
+      "bytes": 3969,
+      "sha256": "b96fb74227e703ec011e6a53044429b72e4775b51de1fca7bb63ebf88e98e73a"
+    },
+    "quality_timecourse_累计119项已展示结果_截图精度.json": {
+      "bytes": 88970,
+      "sha256": "98963fa8b4be91da26c3edf2ad6010a5e677ca705017b83fa6fb50eecfb823de"
+    },
+    "quality_timecourse_累计133项已展示结果_截图精度.json": {
+      "bytes": 101106,
+      "sha256": "f1f6038a1c6b19ffff742a765bc31eec00b46af37d75a1fa05a8df997583e639"
+    },
+    "quality_timecourse_累计98项已展示结果_截图精度.json": {
+      "bytes": 70906,
+      "sha256": "e7aad10246c06ce6940d1a9b577aba11f186e0f9048f75ea4f7283b1dbbc0849"
+    },
+    "七项饮食_42项已展示结果_截图精度.json": {
+      "bytes": 15944,
+      "sha256": "599e527e3c33de8908f19df0f017ad6e8282e3709dc6d39ee9f6d935adcd773d"
+    },
+    "来源与待补文件.md": {
+      "bytes": 9237,
+      "sha256": "e41516d63fd462cf6a7f7691c57c5b909be16f51ca4b423d7694756e1c4c8680"
+    },
+    "研究结论总览.md": {
+      "bytes": 24908,
+      "sha256": "d13a282807b85d5661ed20c093d03ff33274f8dce5078675ac5dfa95eaf19780"
+    },
+    "2026-09-26_nutrition_bridge_构建与待运行记录.md": {
+      "bytes": 1546,
+      "sha256": "67bc0d96d0fd4a259bb95f75d978131bb35e25405654a27e08953793c0ac3153"
+    },
+    "evidence/nutrition_bridge_2026-09-26_151842.png": {
+      "bytes": 54947,
+      "sha256": "712203c45c1a5a47f925fa019a8580def8cbe7b9517b5751b62aa19728b7c4ae"
+    },
+    "evidence/nutrition_bridge_2026-09-26_152533.png": {
+      "bytes": 219458,
+      "sha256": "302446adbfafa8bc331bc7440247e042a33861763f659f34580e50a6b71ad791"
+    },
+    "2026-09-26_152533_nutrition_bridge_完成记录.md": {
+      "bytes": 1941,
+      "sha256": "55f0e6c3408dde516f3572226ddacf123c33e1befcadefff25c3ab001a3d0019"
+    },
+    "2026-09-26_新窗口交接_nutrition_bridge.md": {
+      "bytes": 24693,
+      "sha256": "c779fd5b20715af4b23a9b35b404bd71d4124f213e245930a898bde8d854e5aa"
+    }
+  },
+  "transfer_workflow": "User cannot download server results; use read-only terminal tables and screenshots, retain server originals, archive screenshot precision locally.",
+  "quality_specs": 91,
+  "timecourse_specs": 42,
+  "latest_batch_rows": 14,
+  "transcribed_total_model_rows": 133,
+  "next_terminal_commands_validated": "No new server command needed for this phase summary; prior read-only commands are historical.",
+  "condition_values_archived": 28,
+  "selection_profile_rows_archived": 14,
+  "latest_batch_new_model_estimates": 14,
+  "unseen_quality_specs": 161,
+  "original_seven_corresponding_specs_seen": 70,
+  "original_seven_corresponding_specs_unseen": 56,
+  "latest_model_snapshot": "quality_timecourse_累计133项已展示结果_截图精度.json",
+  "latest_phase_summary": "2026-09-25_阶段成果总结_七项饮食与餐次血糖.md",
+  "corrections": [
+    {
+      "record_key": {
+        "analysis": "quality",
+        "setting": "joint",
+        "branch": "B",
+        "outcome": "mean_increment",
+        "model": "carb_interaction",
+        "diet": "hPDI"
+      },
+      "field": "meals",
+      "previous_value": 105260,
+      "corrected_value": 105200,
+      "evidence": [
+        "截屏2026-09-25 21.34.55.png",
+        "截屏2026-09-25 23.00.34.png"
+      ],
+      "reason": "Local screenshot transcription error; re-read original mean screenshot and new peak screenshot, both show105200.",
+      "affected_derived_value": "joint B hPDI meal retention percentage",
+      "model_estimates_changed": false,
+      "historical_snapshots_preserved": true
+    }
+  ],
+  "latest_document_update": "2026-09-26; advised retaining2 core outcomes, adding1 positive-iAUC sensitivity and prioritizing whole-CGM linkage;0 new results",
+  "latest_recommendation_document": "2026-09-26_下一轮结局选择与优先顺序.md",
+  "outcome_scope_clarification": "2026-09-26_血糖指标口径_整体CGM与餐次反应.md",
+  "last_maintenance_date": "2026-09-26",
+  "latest_package_build": {
+    "package": "nutrition_bridge",
+    "version": "2026.09.26.1",
+    "tests_passed": 15,
+    "synthetic_only": true,
+    "server_run_pending": false,
+    "record": "2026-09-26_nutrition_bridge_构建与待运行记录.md"
+  },
+  "latest_nutrition_bridge_run": {
+    "run_id": "nutrition_bridge_20260926T071736_080048Z",
+    "data_kind": "REAL",
+    "status": "COMPLETE",
+    "reproduced_models": 84,
+    "estimated_models": 302,
+    "input_ready_meals": 183709,
+    "input_cgm_people": 7493,
+    "effect_rows_transcribed": 0,
+    "full_server_results_downloaded": false,
+    "evidence": [
+      "evidence/nutrition_bridge_2026-09-26_151842.png",
+      "evidence/nutrition_bridge_2026-09-26_152533.png"
+    ],
+    "record": "2026-09-26_152533_nutrition_bridge_完成记录.md"
+  },
+  "latest_handoff": {
+    "file": "2026-09-26_新窗口交接_nutrition_bridge.md",
+    "evidence_cutoff": "2026-09-26 15:25:33 Asia/Shanghai",
+    "purpose": "Continue interpreting nutrition_bridge screenshots in a new window",
+    "effect_rows_received": 0
+  }
+}

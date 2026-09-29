@@ -1,0 +1,4042 @@
+{
+  "run_id": "nutrition_bridge_20260926T071736_080048Z",
+  "data_kind": "REAL",
+  "evidence_cutoff": "2026-09-26 15:57:28 Asia/Shanghai",
+  "source_images": [
+    {
+      "original_filename": "截屏2026-09-26 15.57.16.png",
+      "original_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_Wb86vX/截屏2026-09-26 15.57.16.png",
+      "archive_path": "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png",
+      "pages": [
+        4,
+        5
+      ],
+      "data_kind": "REAL",
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "copy_status": "COPIED_UNMODIFIED",
+      "sha256": "087222451c57a3072e3ed6d100f17182e74df8b5a93f4b0bd165ef2d6ec86c7e"
+    },
+    {
+      "original_filename": "截屏2026-09-26 15.57.28.png",
+      "original_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_XqlbEU/截屏2026-09-26 15.57.28.png",
+      "archive_path": "evidence/nutrition_bridge_2026-09-26_155728_pages08-11.png",
+      "pages": [
+        8,
+        11
+      ],
+      "page8_header_visible": false,
+      "page8_identification": "Inferred from explicit command order4,5,8,11 in preceding image, expected7-diet B-table schema, and exact matches of all7 people/net_est pairs to old source_primary B mean models; page11 has explicit RUN/DATA/page/setting header",
+      "data_kind": "REAL",
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "copy_status": "COPIED_UNMODIFIED",
+      "sha256": "166f1eb17f207eefedcebd43ad2a55880c87ee5eda491e32a26a10fd02698a7a"
+    }
+  ],
+  "pages": [
+    4,
+    5,
+    8,
+    11
+  ],
+  "rows": [
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "background",
+      "model_label": "BG",
+      "diet": "AHEI",
+      "people": 4595,
+      "meals": null,
+      "estimate": 0.04659,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "4595",
+        "estimate": "0.04659",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_energy",
+      "model_label": "+E",
+      "diet": "AHEI",
+      "people": 4595,
+      "meals": null,
+      "estimate": 0.05684,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "4595",
+        "estimate": "0.05684",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_carb",
+      "model_label": "+C",
+      "diet": "AHEI",
+      "people": 4595,
+      "meals": null,
+      "estimate": -0.09644,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "4595",
+        "estimate": "-0.09644",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_both",
+      "model_label": "+E+C",
+      "diet": "AHEI",
+      "people": 4595,
+      "meals": null,
+      "estimate": -0.2052,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "4595",
+        "estimate": "-0.2052",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "meal_adjusted",
+      "model_label": "+E+C+C2",
+      "diet": "AHEI",
+      "people": 4595,
+      "meals": null,
+      "estimate": -0.2407,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": 0.1903,
+      "display": {
+        "people": "4595",
+        "estimate": "-0.2407",
+        "q": "0.1903"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "background",
+      "model_label": "BG",
+      "diet": "AMED",
+      "people": 4595,
+      "meals": null,
+      "estimate": 0.1377,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "4595",
+        "estimate": "0.1377",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_energy",
+      "model_label": "+E",
+      "diet": "AMED",
+      "people": 4595,
+      "meals": null,
+      "estimate": 0.1267,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "4595",
+        "estimate": "0.1267",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_carb",
+      "model_label": "+C",
+      "diet": "AMED",
+      "people": 4595,
+      "meals": null,
+      "estimate": 0.04627,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "4595",
+        "estimate": "0.04627",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_both",
+      "model_label": "+E+C",
+      "diet": "AMED",
+      "people": 4595,
+      "meals": null,
+      "estimate": 0.0373,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "4595",
+        "estimate": "0.0373",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "meal_adjusted",
+      "model_label": "+E+C+C2",
+      "diet": "AMED",
+      "people": 4595,
+      "meals": null,
+      "estimate": 0.001099,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": 0.9983,
+      "display": {
+        "people": "4595",
+        "estimate": "0.001099",
+        "q": "0.9983"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "background",
+      "model_label": "BG",
+      "diet": "hPDI",
+      "people": 5393,
+      "meals": null,
+      "estimate": -0.2375,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "5393",
+        "estimate": "-0.2375",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_energy",
+      "model_label": "+E",
+      "diet": "hPDI",
+      "people": 5393,
+      "meals": null,
+      "estimate": -0.2359,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "5393",
+        "estimate": "-0.2359",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_carb",
+      "model_label": "+C",
+      "diet": "hPDI",
+      "people": 5393,
+      "meals": null,
+      "estimate": -0.1668,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "5393",
+        "estimate": "-0.1668",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_both",
+      "model_label": "+E+C",
+      "diet": "hPDI",
+      "people": 5393,
+      "meals": null,
+      "estimate": -0.1356,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "5393",
+        "estimate": "-0.1356",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "meal_adjusted",
+      "model_label": "+E+C+C2",
+      "diet": "hPDI",
+      "people": 5393,
+      "meals": null,
+      "estimate": -0.1366,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": 0.5456,
+      "display": {
+        "people": "5393",
+        "estimate": "-0.1366",
+        "q": "0.5456"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "background",
+      "model_label": "BG",
+      "diet": "rEDIH",
+      "people": 4595,
+      "meals": null,
+      "estimate": 0.06593,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "4595",
+        "estimate": "0.06593",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_energy",
+      "model_label": "+E",
+      "diet": "rEDIH",
+      "people": 4595,
+      "meals": null,
+      "estimate": 0.117,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "4595",
+        "estimate": "0.117",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_carb",
+      "model_label": "+C",
+      "diet": "rEDIH",
+      "people": 4595,
+      "meals": null,
+      "estimate": -0.2888,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "4595",
+        "estimate": "-0.2888",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_both",
+      "model_label": "+E+C",
+      "diet": "rEDIH",
+      "people": 4595,
+      "meals": null,
+      "estimate": -0.6814,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "4595",
+        "estimate": "-0.6814",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "meal_adjusted",
+      "model_label": "+E+C+C2",
+      "diet": "rEDIH",
+      "people": 4595,
+      "meals": null,
+      "estimate": -0.749,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": 2.445e-06,
+      "display": {
+        "people": "4595",
+        "estimate": "-0.749",
+        "q": "2.445e-06"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "background",
+      "model_label": "BG",
+      "diet": "EAT13",
+      "people": 4504,
+      "meals": null,
+      "estimate": 0.03168,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "4504",
+        "estimate": "0.03168",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_energy",
+      "model_label": "+E",
+      "diet": "EAT13",
+      "people": 4504,
+      "meals": null,
+      "estimate": 0.03431,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "4504",
+        "estimate": "0.03431",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_carb",
+      "model_label": "+C",
+      "diet": "EAT13",
+      "people": 4504,
+      "meals": null,
+      "estimate": -0.1352,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "4504",
+        "estimate": "-0.1352",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_both",
+      "model_label": "+E+C",
+      "diet": "EAT13",
+      "people": 4504,
+      "meals": null,
+      "estimate": -0.1971,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "4504",
+        "estimate": "-0.1971",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "meal_adjusted",
+      "model_label": "+E+C+C2",
+      "diet": "EAT13",
+      "people": 4504,
+      "meals": null,
+      "estimate": -0.2306,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": 0.2471,
+      "display": {
+        "people": "4504",
+        "estimate": "-0.2306",
+        "q": "0.2471"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "background",
+      "model_label": "BG",
+      "diet": "NOVA4",
+      "people": 4102,
+      "meals": null,
+      "estimate": 0.9566,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "4102",
+        "estimate": "0.9566",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_energy",
+      "model_label": "+E",
+      "diet": "NOVA4",
+      "people": 4102,
+      "meals": null,
+      "estimate": 0.9725,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "4102",
+        "estimate": "0.9725",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_carb",
+      "model_label": "+C",
+      "diet": "NOVA4",
+      "people": 4102,
+      "meals": null,
+      "estimate": 0.414,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "4102",
+        "estimate": "0.414",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_both",
+      "model_label": "+E+C",
+      "diet": "NOVA4",
+      "people": 4102,
+      "meals": null,
+      "estimate": 0.1924,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "4102",
+        "estimate": "0.1924",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "meal_adjusted",
+      "model_label": "+E+C+C2",
+      "diet": "NOVA4",
+      "people": 4102,
+      "meals": null,
+      "estimate": 0.07045,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": 0.7922,
+      "display": {
+        "people": "4102",
+        "estimate": "0.07045",
+        "q": "0.7922"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "background",
+      "model_label": "BG",
+      "diet": "Carbohydrate_pct",
+      "people": 4573,
+      "meals": null,
+      "estimate": 2.169,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "4573",
+        "estimate": "2.169",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_energy",
+      "model_label": "+E",
+      "diet": "Carbohydrate_pct",
+      "people": 4573,
+      "meals": null,
+      "estimate": 2.34,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "4573",
+        "estimate": "2.34",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_carb",
+      "model_label": "+C",
+      "diet": "Carbohydrate_pct",
+      "people": 4573,
+      "meals": null,
+      "estimate": 1.088,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "4573",
+        "estimate": "1.088",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_both",
+      "model_label": "+E+C",
+      "diet": "Carbohydrate_pct",
+      "people": 4573,
+      "meals": null,
+      "estimate": -0.1979,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "4573",
+        "estimate": "-0.1979",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "meal_adjusted",
+      "model_label": "+E+C+C2",
+      "diet": "Carbohydrate_pct",
+      "people": 4573,
+      "meals": null,
+      "estimate": -0.7551,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": 0.0204,
+      "display": {
+        "people": "4573",
+        "estimate": "-0.7551",
+        "q": "0.0204"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        4
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "background",
+      "model_label": "BG",
+      "diet": "AHEI",
+      "people": 4370,
+      "meals": null,
+      "estimate": -0.01138,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "4370",
+        "estimate": "-0.01138",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "joint_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_energy",
+      "model_label": "+E",
+      "diet": "AHEI",
+      "people": 4370,
+      "meals": null,
+      "estimate": -0.006653,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "4370",
+        "estimate": "-0.006653",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "joint_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_carb",
+      "model_label": "+C",
+      "diet": "AHEI",
+      "people": 4370,
+      "meals": null,
+      "estimate": -0.1477,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "4370",
+        "estimate": "-0.1477",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "joint_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_both",
+      "model_label": "+E+C",
+      "diet": "AHEI",
+      "people": 4370,
+      "meals": null,
+      "estimate": -0.2398,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "4370",
+        "estimate": "-0.2398",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "joint_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "meal_adjusted",
+      "model_label": "+E+C+C2",
+      "diet": "AHEI",
+      "people": 4370,
+      "meals": null,
+      "estimate": -0.2736,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": 0.1181,
+      "display": {
+        "people": "4370",
+        "estimate": "-0.2736",
+        "q": "0.1181"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "joint_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "background",
+      "model_label": "BG",
+      "diet": "AMED",
+      "people": 4370,
+      "meals": null,
+      "estimate": 0.05678,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "4370",
+        "estimate": "0.05678",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "joint_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_energy",
+      "model_label": "+E",
+      "diet": "AMED",
+      "people": 4370,
+      "meals": null,
+      "estimate": 0.04977,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "4370",
+        "estimate": "0.04977",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "joint_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_carb",
+      "model_label": "+C",
+      "diet": "AMED",
+      "people": 4370,
+      "meals": null,
+      "estimate": -0.01242,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "4370",
+        "estimate": "-0.01242",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "joint_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_both",
+      "model_label": "+E+C",
+      "diet": "AMED",
+      "people": 4370,
+      "meals": null,
+      "estimate": -0.02548,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "4370",
+        "estimate": "-0.02548",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "joint_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "meal_adjusted",
+      "model_label": "+E+C+C2",
+      "diet": "AMED",
+      "people": 4370,
+      "meals": null,
+      "estimate": -0.06293,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": 0.8608,
+      "display": {
+        "people": "4370",
+        "estimate": "-0.06293",
+        "q": "0.8608"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "joint_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "background",
+      "model_label": "BG",
+      "diet": "hPDI",
+      "people": 4627,
+      "meals": null,
+      "estimate": -0.2997,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "4627",
+        "estimate": "-0.2997",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "joint_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_energy",
+      "model_label": "+E",
+      "diet": "hPDI",
+      "people": 4627,
+      "meals": null,
+      "estimate": -0.2981,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "4627",
+        "estimate": "-0.2981",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "joint_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_carb",
+      "model_label": "+C",
+      "diet": "hPDI",
+      "people": 4627,
+      "meals": null,
+      "estimate": -0.2099,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "4627",
+        "estimate": "-0.2099",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "joint_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_both",
+      "model_label": "+E+C",
+      "diet": "hPDI",
+      "people": 4627,
+      "meals": null,
+      "estimate": -0.1667,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "4627",
+        "estimate": "-0.1667",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "joint_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "meal_adjusted",
+      "model_label": "+E+C+C2",
+      "diet": "hPDI",
+      "people": 4627,
+      "meals": null,
+      "estimate": -0.1667,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": 0.46,
+      "display": {
+        "people": "4627",
+        "estimate": "-0.1667",
+        "q": "0.46"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "joint_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "background",
+      "model_label": "BG",
+      "diet": "rEDIH",
+      "people": 4370,
+      "meals": null,
+      "estimate": -0.004114,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "4370",
+        "estimate": "-0.004114",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "joint_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_energy",
+      "model_label": "+E",
+      "diet": "rEDIH",
+      "people": 4370,
+      "meals": null,
+      "estimate": 0.03832,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "4370",
+        "estimate": "0.03832",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "joint_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_carb",
+      "model_label": "+C",
+      "diet": "rEDIH",
+      "people": 4370,
+      "meals": null,
+      "estimate": -0.3493,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "4370",
+        "estimate": "-0.3493",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "joint_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_both",
+      "model_label": "+E+C",
+      "diet": "rEDIH",
+      "people": 4370,
+      "meals": null,
+      "estimate": -0.7244,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "4370",
+        "estimate": "-0.7244",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "joint_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "meal_adjusted",
+      "model_label": "+E+C+C2",
+      "diet": "rEDIH",
+      "people": 4370,
+      "meals": null,
+      "estimate": -0.7965,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": 1.062e-06,
+      "display": {
+        "people": "4370",
+        "estimate": "-0.7965",
+        "q": "1.062e-06"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "joint_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "background",
+      "model_label": "BG",
+      "diet": "EAT13",
+      "people": 4282,
+      "meals": null,
+      "estimate": -0.0157,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "4282",
+        "estimate": "-0.0157",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "joint_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_energy",
+      "model_label": "+E",
+      "diet": "EAT13",
+      "people": 4282,
+      "meals": null,
+      "estimate": -0.01488,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "4282",
+        "estimate": "-0.01488",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "joint_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_carb",
+      "model_label": "+C",
+      "diet": "EAT13",
+      "people": 4282,
+      "meals": null,
+      "estimate": -0.1683,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "4282",
+        "estimate": "-0.1683",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "joint_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_both",
+      "model_label": "+E+C",
+      "diet": "EAT13",
+      "people": 4282,
+      "meals": null,
+      "estimate": -0.2232,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "4282",
+        "estimate": "-0.2232",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "joint_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "meal_adjusted",
+      "model_label": "+E+C+C2",
+      "diet": "EAT13",
+      "people": 4282,
+      "meals": null,
+      "estimate": -0.257,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": 0.1741,
+      "display": {
+        "people": "4282",
+        "estimate": "-0.257",
+        "q": "0.1741"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "joint_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "background",
+      "model_label": "BG",
+      "diet": "NOVA4",
+      "people": 3913,
+      "meals": null,
+      "estimate": 0.9268,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "3913",
+        "estimate": "0.9268",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "joint_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_energy",
+      "model_label": "+E",
+      "diet": "NOVA4",
+      "people": 3913,
+      "meals": null,
+      "estimate": 0.944,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "3913",
+        "estimate": "0.944",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "joint_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_carb",
+      "model_label": "+C",
+      "diet": "NOVA4",
+      "people": 3913,
+      "meals": null,
+      "estimate": 0.3995,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "3913",
+        "estimate": "0.3995",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "joint_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_both",
+      "model_label": "+E+C",
+      "diet": "NOVA4",
+      "people": 3913,
+      "meals": null,
+      "estimate": 0.1686,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "3913",
+        "estimate": "0.1686",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "joint_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "meal_adjusted",
+      "model_label": "+E+C+C2",
+      "diet": "NOVA4",
+      "people": 3913,
+      "meals": null,
+      "estimate": 0.04752,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": 0.9035,
+      "display": {
+        "people": "3913",
+        "estimate": "0.04752",
+        "q": "0.9035"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "joint_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "background",
+      "model_label": "BG",
+      "diet": "Carbohydrate_pct",
+      "people": 4349,
+      "meals": null,
+      "estimate": 2.13,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "4349",
+        "estimate": "2.13",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "joint_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_energy",
+      "model_label": "+E",
+      "diet": "Carbohydrate_pct",
+      "people": 4349,
+      "meals": null,
+      "estimate": 2.29,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "4349",
+        "estimate": "2.29",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "joint_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_carb",
+      "model_label": "+C",
+      "diet": "Carbohydrate_pct",
+      "people": 4349,
+      "meals": null,
+      "estimate": 1.073,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "4349",
+        "estimate": "1.073",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "joint_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "plus_both",
+      "model_label": "+E+C",
+      "diet": "Carbohydrate_pct",
+      "people": 4349,
+      "meals": null,
+      "estimate": -0.2697,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": null,
+      "display": {
+        "people": "4349",
+        "estimate": "-0.2697",
+        "q": null
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "joint_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "meal_adjusted",
+      "model_label": "+E+C+C2",
+      "diet": "Carbohydrate_pct",
+      "people": 4349,
+      "meals": null,
+      "estimate": -0.8482,
+      "ci_low": null,
+      "ci_high": null,
+      "p": null,
+      "q": 0.009378,
+      "display": {
+        "people": "4349",
+        "estimate": "-0.8482",
+        "q": "0.009378"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "joint_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "source_pages": [
+        5
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "positive",
+      "setting": "source_primary",
+      "branch": "B",
+      "outcome": "positive_mean",
+      "model": "carb_interaction",
+      "diet": "AHEI",
+      "people": 4409,
+      "meals": null,
+      "net_est": -0.01478,
+      "estimate": -0.0184,
+      "ci_low": -0.05332,
+      "ci_high": 0.01652,
+      "p": null,
+      "q": 0.4524,
+      "display": {
+        "people": "4409",
+        "net_est": "-0.01478",
+        "estimate": "-0.0184",
+        "ci_low": "-0.05332",
+        "ci_high": "0.01652",
+        "q": "0.4524"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per10g meal carbohydrate per original personal diet Z",
+      "family": "source_primary_positive_21",
+      "planned_family_size": 21,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png",
+        "evidence/nutrition_bridge_2026-09-26_155728_pages08-11.png"
+      ],
+      "source_pages": [
+        8
+      ],
+      "page_header_visible": false,
+      "page_identification": "Inferred from explicit command order4,5,8,11 in preceding image, expected7-diet B-table schema, and exact matches of all7 people/net_est pairs to old source_primary B mean models; page11 has explicit RUN/DATA/page/setting header",
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "positive",
+      "setting": "source_primary",
+      "branch": "B",
+      "outcome": "positive_mean",
+      "model": "carb_interaction",
+      "diet": "AMED",
+      "people": 4409,
+      "meals": null,
+      "net_est": 0.003058,
+      "estimate": 0.004631,
+      "ci_low": -0.0254,
+      "ci_high": 0.03467,
+      "p": null,
+      "q": 0.8217,
+      "display": {
+        "people": "4409",
+        "net_est": "0.003058",
+        "estimate": "0.004631",
+        "ci_low": "-0.0254",
+        "ci_high": "0.03467",
+        "q": "0.8217"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per10g meal carbohydrate per original personal diet Z",
+      "family": "source_primary_positive_21",
+      "planned_family_size": 21,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png",
+        "evidence/nutrition_bridge_2026-09-26_155728_pages08-11.png"
+      ],
+      "source_pages": [
+        8
+      ],
+      "page_header_visible": false,
+      "page_identification": "Inferred from explicit command order4,5,8,11 in preceding image, expected7-diet B-table schema, and exact matches of all7 people/net_est pairs to old source_primary B mean models; page11 has explicit RUN/DATA/page/setting header",
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "positive",
+      "setting": "source_primary",
+      "branch": "B",
+      "outcome": "positive_mean",
+      "model": "carb_interaction",
+      "diet": "hPDI",
+      "people": 4970,
+      "meals": null,
+      "net_est": 0.01558,
+      "estimate": 0.01528,
+      "ci_low": -0.01325,
+      "ci_high": 0.0438,
+      "p": null,
+      "q": 0.4524,
+      "display": {
+        "people": "4970",
+        "net_est": "0.01558",
+        "estimate": "0.01528",
+        "ci_low": "-0.01325",
+        "ci_high": "0.0438",
+        "q": "0.4524"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per10g meal carbohydrate per original personal diet Z",
+      "family": "source_primary_positive_21",
+      "planned_family_size": 21,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png",
+        "evidence/nutrition_bridge_2026-09-26_155728_pages08-11.png"
+      ],
+      "source_pages": [
+        8
+      ],
+      "page_header_visible": false,
+      "page_identification": "Inferred from explicit command order4,5,8,11 in preceding image, expected7-diet B-table schema, and exact matches of all7 people/net_est pairs to old source_primary B mean models; page11 has explicit RUN/DATA/page/setting header",
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "positive",
+      "setting": "source_primary",
+      "branch": "B",
+      "outcome": "positive_mean",
+      "model": "carb_interaction",
+      "diet": "rEDIH",
+      "people": 4409,
+      "meals": null,
+      "net_est": -0.04496,
+      "estimate": -0.04954,
+      "ci_low": -0.08407,
+      "ci_high": -0.01502,
+      "p": null,
+      "q": 0.01479,
+      "display": {
+        "people": "4409",
+        "net_est": "-0.04496",
+        "estimate": "-0.04954",
+        "ci_low": "-0.08407",
+        "ci_high": "-0.01502",
+        "q": "0.01479"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per10g meal carbohydrate per original personal diet Z",
+      "family": "source_primary_positive_21",
+      "planned_family_size": 21,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png",
+        "evidence/nutrition_bridge_2026-09-26_155728_pages08-11.png"
+      ],
+      "source_pages": [
+        8
+      ],
+      "page_header_visible": false,
+      "page_identification": "Inferred from explicit command order4,5,8,11 in preceding image, expected7-diet B-table schema, and exact matches of all7 people/net_est pairs to old source_primary B mean models; page11 has explicit RUN/DATA/page/setting header",
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "positive",
+      "setting": "source_primary",
+      "branch": "B",
+      "outcome": "positive_mean",
+      "model": "carb_interaction",
+      "diet": "EAT13",
+      "people": 4322,
+      "meals": null,
+      "net_est": 0.01012,
+      "estimate": 0.01138,
+      "ci_low": -0.02349,
+      "ci_high": 0.04626,
+      "p": null,
+      "q": 0.7311,
+      "display": {
+        "people": "4322",
+        "net_est": "0.01012",
+        "estimate": "0.01138",
+        "ci_low": "-0.02349",
+        "ci_high": "0.04626",
+        "q": "0.7311"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per10g meal carbohydrate per original personal diet Z",
+      "family": "source_primary_positive_21",
+      "planned_family_size": 21,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png",
+        "evidence/nutrition_bridge_2026-09-26_155728_pages08-11.png"
+      ],
+      "source_pages": [
+        8
+      ],
+      "page_header_visible": false,
+      "page_identification": "Inferred from explicit command order4,5,8,11 in preceding image, expected7-diet B-table schema, and exact matches of all7 people/net_est pairs to old source_primary B mean models; page11 has explicit RUN/DATA/page/setting header",
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "positive",
+      "setting": "source_primary",
+      "branch": "B",
+      "outcome": "positive_mean",
+      "model": "carb_interaction",
+      "diet": "NOVA4",
+      "people": 3943,
+      "meals": null,
+      "net_est": -0.07323,
+      "estimate": -0.07009,
+      "ci_low": -0.1071,
+      "ci_high": -0.03313,
+      "p": null,
+      "q": 0.0008553,
+      "display": {
+        "people": "3943",
+        "net_est": "-0.07323",
+        "estimate": "-0.07009",
+        "ci_low": "-0.1071",
+        "ci_high": "-0.03313",
+        "q": "0.0008553"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per10g meal carbohydrate per original personal diet Z",
+      "family": "source_primary_positive_21",
+      "planned_family_size": 21,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png",
+        "evidence/nutrition_bridge_2026-09-26_155728_pages08-11.png"
+      ],
+      "source_pages": [
+        8
+      ],
+      "page_header_visible": false,
+      "page_identification": "Inferred from explicit command order4,5,8,11 in preceding image, expected7-diet B-table schema, and exact matches of all7 people/net_est pairs to old source_primary B mean models; page11 has explicit RUN/DATA/page/setting header",
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "positive",
+      "setting": "source_primary",
+      "branch": "B",
+      "outcome": "positive_mean",
+      "model": "carb_interaction",
+      "diet": "Carbohydrate_pct",
+      "people": 4391,
+      "meals": null,
+      "net_est": -0.09017,
+      "estimate": -0.09114,
+      "ci_low": -0.1478,
+      "ci_high": -0.03445,
+      "p": null,
+      "q": 0.005714,
+      "display": {
+        "people": "4391",
+        "net_est": "-0.09017",
+        "estimate": "-0.09114",
+        "ci_low": "-0.1478",
+        "ci_high": "-0.03445",
+        "q": "0.005714"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per10g meal carbohydrate per original personal diet Z",
+      "family": "source_primary_positive_21",
+      "planned_family_size": 21,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png",
+        "evidence/nutrition_bridge_2026-09-26_155728_pages08-11.png"
+      ],
+      "source_pages": [
+        8
+      ],
+      "page_header_visible": false,
+      "page_identification": "Inferred from explicit command order4,5,8,11 in preceding image, expected7-diet B-table schema, and exact matches of all7 people/net_est pairs to old source_primary B mean models; page11 has explicit RUN/DATA/page/setting header",
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "positive",
+      "setting": "joint",
+      "branch": "B",
+      "outcome": "positive_mean",
+      "model": "carb_interaction",
+      "diet": "AHEI",
+      "people": 4196,
+      "meals": null,
+      "net_est": -0.01757,
+      "estimate": -0.02005,
+      "ci_low": -0.057,
+      "ci_high": 0.0169,
+      "p": null,
+      "q": 0.4644,
+      "display": {
+        "people": "4196",
+        "net_est": "-0.01757",
+        "estimate": "-0.02005",
+        "ci_low": "-0.057",
+        "ci_high": "0.0169",
+        "q": "0.4644"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per10g meal carbohydrate per original personal diet Z",
+      "family": "joint_positive_21",
+      "planned_family_size": 21,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155728_pages08-11.png"
+      ],
+      "source_pages": [
+        11
+      ],
+      "page_header_visible": true,
+      "page_identification": "Explicit page11 header",
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "positive",
+      "setting": "joint",
+      "branch": "B",
+      "outcome": "positive_mean",
+      "model": "carb_interaction",
+      "diet": "AMED",
+      "people": 4196,
+      "meals": null,
+      "net_est": -0.00305,
+      "estimate": -0.0001766,
+      "ci_low": -0.03107,
+      "ci_high": 0.03071,
+      "p": null,
+      "q": 0.9911,
+      "display": {
+        "people": "4196",
+        "net_est": "-0.00305",
+        "estimate": "-0.0001766",
+        "ci_low": "-0.03107",
+        "ci_high": "0.03071",
+        "q": "0.9911"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per10g meal carbohydrate per original personal diet Z",
+      "family": "joint_positive_21",
+      "planned_family_size": 21,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155728_pages08-11.png"
+      ],
+      "source_pages": [
+        11
+      ],
+      "page_header_visible": true,
+      "page_identification": "Explicit page11 header",
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "positive",
+      "setting": "joint",
+      "branch": "B",
+      "outcome": "positive_mean",
+      "model": "carb_interaction",
+      "diet": "hPDI",
+      "people": 4424,
+      "meals": null,
+      "net_est": 0.005697,
+      "estimate": 0.009736,
+      "ci_low": -0.02028,
+      "ci_high": 0.03975,
+      "p": null,
+      "q": 0.6124,
+      "display": {
+        "people": "4424",
+        "net_est": "0.005697",
+        "estimate": "0.009736",
+        "ci_low": "-0.02028",
+        "ci_high": "0.03975",
+        "q": "0.6124"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per10g meal carbohydrate per original personal diet Z",
+      "family": "joint_positive_21",
+      "planned_family_size": 21,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155728_pages08-11.png"
+      ],
+      "source_pages": [
+        11
+      ],
+      "page_header_visible": true,
+      "page_identification": "Explicit page11 header",
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "positive",
+      "setting": "joint",
+      "branch": "B",
+      "outcome": "positive_mean",
+      "model": "carb_interaction",
+      "diet": "rEDIH",
+      "people": 4196,
+      "meals": null,
+      "net_est": -0.04773,
+      "estimate": -0.04972,
+      "ci_low": -0.08591,
+      "ci_high": -0.01353,
+      "p": null,
+      "q": 0.01979,
+      "display": {
+        "people": "4196",
+        "net_est": "-0.04773",
+        "estimate": "-0.04972",
+        "ci_low": "-0.08591",
+        "ci_high": "-0.01353",
+        "q": "0.01979"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per10g meal carbohydrate per original personal diet Z",
+      "family": "joint_positive_21",
+      "planned_family_size": 21,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155728_pages08-11.png"
+      ],
+      "source_pages": [
+        11
+      ],
+      "page_header_visible": true,
+      "page_identification": "Explicit page11 header",
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "positive",
+      "setting": "joint",
+      "branch": "B",
+      "outcome": "positive_mean",
+      "model": "carb_interaction",
+      "diet": "EAT13",
+      "people": 4111,
+      "meals": null,
+      "net_est": 0.0003803,
+      "estimate": 0.006117,
+      "ci_low": -0.02957,
+      "ci_high": 0.0418,
+      "p": null,
+      "q": 0.8144,
+      "display": {
+        "people": "4111",
+        "net_est": "0.0003803",
+        "estimate": "0.006117",
+        "ci_low": "-0.02957",
+        "ci_high": "0.0418",
+        "q": "0.8144"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per10g meal carbohydrate per original personal diet Z",
+      "family": "joint_positive_21",
+      "planned_family_size": 21,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155728_pages08-11.png"
+      ],
+      "source_pages": [
+        11
+      ],
+      "page_header_visible": true,
+      "page_identification": "Explicit page11 header",
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "positive",
+      "setting": "joint",
+      "branch": "B",
+      "outcome": "positive_mean",
+      "model": "carb_interaction",
+      "diet": "NOVA4",
+      "people": 3763,
+      "meals": null,
+      "net_est": -0.0731,
+      "estimate": -0.07045,
+      "ci_low": -0.109,
+      "ci_high": -0.03186,
+      "p": null,
+      "q": 0.001463,
+      "display": {
+        "people": "3763",
+        "net_est": "-0.0731",
+        "estimate": "-0.07045",
+        "ci_low": "-0.109",
+        "ci_high": "-0.03186",
+        "q": "0.001463"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per10g meal carbohydrate per original personal diet Z",
+      "family": "joint_positive_21",
+      "planned_family_size": 21,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155728_pages08-11.png"
+      ],
+      "source_pages": [
+        11
+      ],
+      "page_header_visible": true,
+      "page_identification": "Explicit page11 header",
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "positive",
+      "setting": "joint",
+      "branch": "B",
+      "outcome": "positive_mean",
+      "model": "carb_interaction",
+      "diet": "Carbohydrate_pct",
+      "people": 4180,
+      "meals": null,
+      "net_est": -0.09068,
+      "estimate": -0.09105,
+      "ci_low": -0.15,
+      "ci_high": -0.03213,
+      "p": null,
+      "q": 0.00862,
+      "display": {
+        "people": "4180",
+        "net_est": "-0.09068",
+        "estimate": "-0.09105",
+        "ci_low": "-0.15",
+        "ci_high": "-0.03213",
+        "q": "0.00862"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per10g meal carbohydrate per original personal diet Z",
+      "family": "joint_positive_21",
+      "planned_family_size": 21,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_155728_pages08-11.png"
+      ],
+      "source_pages": [
+        11
+      ],
+      "page_header_visible": true,
+      "page_identification": "Explicit page11 header",
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ]
+    }
+  ],
+  "peak_grids": {
+    "4": [
+      [
+        "AHEI",
+        "0.04659",
+        "0.05684",
+        "-0.09644",
+        "-0.2052",
+        "-0.2407",
+        "4595",
+        "0.1903"
+      ],
+      [
+        "AMED",
+        "0.1377",
+        "0.1267",
+        "0.04627",
+        "0.0373",
+        "0.001099",
+        "4595",
+        "0.9983"
+      ],
+      [
+        "hPDI",
+        "-0.2375",
+        "-0.2359",
+        "-0.1668",
+        "-0.1356",
+        "-0.1366",
+        "5393",
+        "0.5456"
+      ],
+      [
+        "rEDIH",
+        "0.06593",
+        "0.117",
+        "-0.2888",
+        "-0.6814",
+        "-0.749",
+        "4595",
+        "2.445e-06"
+      ],
+      [
+        "EAT13",
+        "0.03168",
+        "0.03431",
+        "-0.1352",
+        "-0.1971",
+        "-0.2306",
+        "4504",
+        "0.2471"
+      ],
+      [
+        "NOVA4",
+        "0.9566",
+        "0.9725",
+        "0.414",
+        "0.1924",
+        "0.07045",
+        "4102",
+        "0.7922"
+      ],
+      [
+        "Carbohydrate_pct",
+        "2.169",
+        "2.34",
+        "1.088",
+        "-0.1979",
+        "-0.7551",
+        "4573",
+        "0.0204"
+      ]
+    ],
+    "5": [
+      [
+        "AHEI",
+        "-0.01138",
+        "-0.006653",
+        "-0.1477",
+        "-0.2398",
+        "-0.2736",
+        "4370",
+        "0.1181"
+      ],
+      [
+        "AMED",
+        "0.05678",
+        "0.04977",
+        "-0.01242",
+        "-0.02548",
+        "-0.06293",
+        "4370",
+        "0.8608"
+      ],
+      [
+        "hPDI",
+        "-0.2997",
+        "-0.2981",
+        "-0.2099",
+        "-0.1667",
+        "-0.1667",
+        "4627",
+        "0.46"
+      ],
+      [
+        "rEDIH",
+        "-0.004114",
+        "0.03832",
+        "-0.3493",
+        "-0.7244",
+        "-0.7965",
+        "4370",
+        "1.062e-06"
+      ],
+      [
+        "EAT13",
+        "-0.0157",
+        "-0.01488",
+        "-0.1683",
+        "-0.2232",
+        "-0.257",
+        "4282",
+        "0.1741"
+      ],
+      [
+        "NOVA4",
+        "0.9268",
+        "0.944",
+        "0.3995",
+        "0.1686",
+        "0.04752",
+        "3913",
+        "0.9035"
+      ],
+      [
+        "Carbohydrate_pct",
+        "2.13",
+        "2.29",
+        "1.073",
+        "-0.2697",
+        "-0.8482",
+        "4349",
+        "0.009378"
+      ]
+    ]
+  },
+  "checks": [
+    {
+      "setting": "source_primary",
+      "branch": "A",
+      "diet": "AHEI",
+      "model": "background",
+      "estimate_people_match": true,
+      "after_documented_old_transcription_correction": false
+    },
+    {
+      "setting": "source_primary",
+      "branch": "A",
+      "diet": "AHEI",
+      "model": "meal_adjusted",
+      "estimate_people_match": true,
+      "after_documented_old_transcription_correction": false
+    },
+    {
+      "setting": "source_primary",
+      "branch": "A",
+      "diet": "AMED",
+      "model": "background",
+      "estimate_people_match": true,
+      "after_documented_old_transcription_correction": false
+    },
+    {
+      "setting": "source_primary",
+      "branch": "A",
+      "diet": "AMED",
+      "model": "meal_adjusted",
+      "estimate_people_match": true,
+      "after_documented_old_transcription_correction": false
+    },
+    {
+      "setting": "source_primary",
+      "branch": "A",
+      "diet": "hPDI",
+      "model": "background",
+      "estimate_people_match": true,
+      "after_documented_old_transcription_correction": false
+    },
+    {
+      "setting": "source_primary",
+      "branch": "A",
+      "diet": "hPDI",
+      "model": "meal_adjusted",
+      "estimate_people_match": true,
+      "after_documented_old_transcription_correction": false
+    },
+    {
+      "setting": "source_primary",
+      "branch": "A",
+      "diet": "rEDIH",
+      "model": "background",
+      "estimate_people_match": true,
+      "after_documented_old_transcription_correction": false
+    },
+    {
+      "setting": "source_primary",
+      "branch": "A",
+      "diet": "rEDIH",
+      "model": "meal_adjusted",
+      "estimate_people_match": true,
+      "after_documented_old_transcription_correction": false
+    },
+    {
+      "setting": "source_primary",
+      "branch": "A",
+      "diet": "EAT13",
+      "model": "background",
+      "estimate_people_match": true,
+      "after_documented_old_transcription_correction": false
+    },
+    {
+      "setting": "source_primary",
+      "branch": "A",
+      "diet": "EAT13",
+      "model": "meal_adjusted",
+      "estimate_people_match": true,
+      "after_documented_old_transcription_correction": false
+    },
+    {
+      "setting": "source_primary",
+      "branch": "A",
+      "diet": "NOVA4",
+      "model": "background",
+      "estimate_people_match": true,
+      "after_documented_old_transcription_correction": true
+    },
+    {
+      "setting": "source_primary",
+      "branch": "A",
+      "diet": "NOVA4",
+      "model": "meal_adjusted",
+      "estimate_people_match": true,
+      "after_documented_old_transcription_correction": false
+    },
+    {
+      "setting": "source_primary",
+      "branch": "A",
+      "diet": "Carbohydrate_pct",
+      "model": "background",
+      "estimate_people_match": true,
+      "after_documented_old_transcription_correction": false
+    },
+    {
+      "setting": "source_primary",
+      "branch": "A",
+      "diet": "Carbohydrate_pct",
+      "model": "meal_adjusted",
+      "estimate_people_match": true,
+      "after_documented_old_transcription_correction": false
+    },
+    {
+      "setting": "joint",
+      "branch": "A",
+      "diet": "AHEI",
+      "model": "background",
+      "estimate_people_match": true,
+      "after_documented_old_transcription_correction": false
+    },
+    {
+      "setting": "joint",
+      "branch": "A",
+      "diet": "AHEI",
+      "model": "meal_adjusted",
+      "estimate_people_match": true,
+      "after_documented_old_transcription_correction": false
+    },
+    {
+      "setting": "joint",
+      "branch": "A",
+      "diet": "AMED",
+      "model": "background",
+      "estimate_people_match": true,
+      "after_documented_old_transcription_correction": false
+    },
+    {
+      "setting": "joint",
+      "branch": "A",
+      "diet": "AMED",
+      "model": "meal_adjusted",
+      "estimate_people_match": true,
+      "after_documented_old_transcription_correction": false
+    },
+    {
+      "setting": "joint",
+      "branch": "A",
+      "diet": "hPDI",
+      "model": "background",
+      "estimate_people_match": true,
+      "after_documented_old_transcription_correction": false
+    },
+    {
+      "setting": "joint",
+      "branch": "A",
+      "diet": "hPDI",
+      "model": "meal_adjusted",
+      "estimate_people_match": true,
+      "after_documented_old_transcription_correction": false
+    },
+    {
+      "setting": "joint",
+      "branch": "A",
+      "diet": "rEDIH",
+      "model": "background",
+      "estimate_people_match": true,
+      "after_documented_old_transcription_correction": false
+    },
+    {
+      "setting": "joint",
+      "branch": "A",
+      "diet": "rEDIH",
+      "model": "meal_adjusted",
+      "estimate_people_match": true,
+      "after_documented_old_transcription_correction": false
+    },
+    {
+      "setting": "joint",
+      "branch": "A",
+      "diet": "EAT13",
+      "model": "background",
+      "estimate_people_match": true,
+      "after_documented_old_transcription_correction": false
+    },
+    {
+      "setting": "joint",
+      "branch": "A",
+      "diet": "EAT13",
+      "model": "meal_adjusted",
+      "estimate_people_match": true,
+      "after_documented_old_transcription_correction": false
+    },
+    {
+      "setting": "joint",
+      "branch": "A",
+      "diet": "NOVA4",
+      "model": "background",
+      "estimate_people_match": true,
+      "after_documented_old_transcription_correction": false
+    },
+    {
+      "setting": "joint",
+      "branch": "A",
+      "diet": "NOVA4",
+      "model": "meal_adjusted",
+      "estimate_people_match": true,
+      "after_documented_old_transcription_correction": false
+    },
+    {
+      "setting": "joint",
+      "branch": "A",
+      "diet": "Carbohydrate_pct",
+      "model": "background",
+      "estimate_people_match": true,
+      "after_documented_old_transcription_correction": false
+    },
+    {
+      "setting": "joint",
+      "branch": "A",
+      "diet": "Carbohydrate_pct",
+      "model": "meal_adjusted",
+      "estimate_people_match": true,
+      "after_documented_old_transcription_correction": false
+    },
+    {
+      "setting": "source_primary",
+      "branch": "B",
+      "diet": "AHEI",
+      "model": "carb_interaction",
+      "net_est_people_match": true,
+      "CI_contains_estimate": true
+    },
+    {
+      "setting": "source_primary",
+      "branch": "B",
+      "diet": "AMED",
+      "model": "carb_interaction",
+      "net_est_people_match": true,
+      "CI_contains_estimate": true
+    },
+    {
+      "setting": "source_primary",
+      "branch": "B",
+      "diet": "hPDI",
+      "model": "carb_interaction",
+      "net_est_people_match": true,
+      "CI_contains_estimate": true
+    },
+    {
+      "setting": "source_primary",
+      "branch": "B",
+      "diet": "rEDIH",
+      "model": "carb_interaction",
+      "net_est_people_match": true,
+      "CI_contains_estimate": true
+    },
+    {
+      "setting": "source_primary",
+      "branch": "B",
+      "diet": "EAT13",
+      "model": "carb_interaction",
+      "net_est_people_match": true,
+      "CI_contains_estimate": true
+    },
+    {
+      "setting": "source_primary",
+      "branch": "B",
+      "diet": "NOVA4",
+      "model": "carb_interaction",
+      "net_est_people_match": true,
+      "CI_contains_estimate": true
+    },
+    {
+      "setting": "source_primary",
+      "branch": "B",
+      "diet": "Carbohydrate_pct",
+      "model": "carb_interaction",
+      "net_est_people_match": true,
+      "CI_contains_estimate": true
+    },
+    {
+      "setting": "joint",
+      "branch": "B",
+      "diet": "AHEI",
+      "model": "carb_interaction",
+      "net_est_people_match": true,
+      "CI_contains_estimate": true
+    },
+    {
+      "setting": "joint",
+      "branch": "B",
+      "diet": "AMED",
+      "model": "carb_interaction",
+      "net_est_people_match": true,
+      "CI_contains_estimate": true
+    },
+    {
+      "setting": "joint",
+      "branch": "B",
+      "diet": "hPDI",
+      "model": "carb_interaction",
+      "net_est_people_match": true,
+      "CI_contains_estimate": true
+    },
+    {
+      "setting": "joint",
+      "branch": "B",
+      "diet": "rEDIH",
+      "model": "carb_interaction",
+      "net_est_people_match": true,
+      "CI_contains_estimate": true
+    },
+    {
+      "setting": "joint",
+      "branch": "B",
+      "diet": "EAT13",
+      "model": "carb_interaction",
+      "net_est_people_match": true,
+      "CI_contains_estimate": true
+    },
+    {
+      "setting": "joint",
+      "branch": "B",
+      "diet": "NOVA4",
+      "model": "carb_interaction",
+      "net_est_people_match": true,
+      "CI_contains_estimate": true
+    },
+    {
+      "setting": "joint",
+      "branch": "B",
+      "diet": "Carbohydrate_pct",
+      "model": "carb_interaction",
+      "net_est_people_match": true,
+      "CI_contains_estimate": true
+    }
+  ],
+  "old_transcription_correction": {
+    "record_key": {
+      "analysis": "quality",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "background",
+      "diet": "NOVA4"
+    },
+    "changes": {
+      "estimate": {
+        "previous": 0.955681,
+        "corrected": 0.956581
+      },
+      "ci_low": {
+        "previous": 0.672249,
+        "corrected": 0.679249
+      },
+      "ci_high": {
+        "previous": 1.2391,
+        "corrected": 1.23391
+      }
+    },
+    "corrected_display": {
+      "estimate": "0.956581",
+      "ci_low": "0.679249",
+      "ci_high": "1.23391"
+    },
+    "evidence": [
+      "evidence/截屏2026-09-25 22.13.44.png",
+      "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+    ],
+    "reason": "Local transcription errors found by old/new endpoint comparison; re-read archived original screenshot with native OCR corroboration. Current page4 estimate0.9566 agrees with corrected old6-significant-digit value.",
+    "q_people_meals_unchanged": true,
+    "q_unchanged": 7.2333e-11,
+    "server_analysis_changed": false,
+    "historical_snapshots_preserved": true,
+    "affected_historical_files_retained": [
+      "2026-09-25_2214_主样本A调整与峰值28项_截图精度.json",
+      "2026-09-25_2214_主样本调整与峰值结果解读.md",
+      "quality_timecourse_累计98项已展示结果_截图精度.json",
+      "quality_timecourse_累计119项已展示结果_截图精度.json"
+    ]
+  },
+  "notes": [
+    "70 peak adjustment coefficients; only14 full-model q, no new peak CI shown",
+    "14 positive B interactions with q21 and pointwise95%CI; same3 supported diets as net B",
+    "Page8 header absent, setting identified by command context and all7 old reference pairs; not represented as explicitly visible header",
+    "No server analysis rerun; all7 diets retained"
+  ]
+}

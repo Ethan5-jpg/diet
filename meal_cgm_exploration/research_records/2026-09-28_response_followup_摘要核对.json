@@ -1,0 +1,356 @@
+{
+  "run_id": "response_followup_20260927T155611_920880Z",
+  "source": "screenshot transcription against archived earlier model results and current package logic",
+  "unique_contrasts": 42,
+  "support_rows": 14,
+  "flow_rows": 14,
+  "prior_people_and_q_checks": [
+    {
+      "setting": "source_primary",
+      "diet": "AHEI",
+      "outcome": "mean_increment",
+      "people_match": true,
+      "original_q_matches_4sig": true,
+      "estimate_CI_consistent_with_positive_scaling_at_display_precision": true
+    },
+    {
+      "setting": "source_primary",
+      "diet": "AHEI",
+      "outcome": "peak_rise_0_120",
+      "people_match": true,
+      "original_q_matches_4sig": true,
+      "estimate_CI_consistent_with_positive_scaling_at_display_precision": true
+    },
+    {
+      "setting": "source_primary",
+      "diet": "AHEI",
+      "outcome": "positive_mean",
+      "people_match": true,
+      "original_q_matches_4sig": true,
+      "estimate_CI_consistent_with_positive_scaling_at_display_precision": true
+    },
+    {
+      "setting": "source_primary",
+      "diet": "AMED",
+      "outcome": "mean_increment",
+      "people_match": true,
+      "original_q_matches_4sig": true,
+      "estimate_CI_consistent_with_positive_scaling_at_display_precision": true
+    },
+    {
+      "setting": "source_primary",
+      "diet": "AMED",
+      "outcome": "peak_rise_0_120",
+      "people_match": true,
+      "original_q_matches_4sig": true,
+      "estimate_CI_consistent_with_positive_scaling_at_display_precision": true
+    },
+    {
+      "setting": "source_primary",
+      "diet": "AMED",
+      "outcome": "positive_mean",
+      "people_match": true,
+      "original_q_matches_4sig": true,
+      "estimate_CI_consistent_with_positive_scaling_at_display_precision": true
+    },
+    {
+      "setting": "source_primary",
+      "diet": "hPDI",
+      "outcome": "mean_increment",
+      "people_match": true,
+      "original_q_matches_4sig": true,
+      "estimate_CI_consistent_with_positive_scaling_at_display_precision": true
+    },
+    {
+      "setting": "source_primary",
+      "diet": "hPDI",
+      "outcome": "peak_rise_0_120",
+      "people_match": true,
+      "original_q_matches_4sig": true,
+      "estimate_CI_consistent_with_positive_scaling_at_display_precision": true
+    },
+    {
+      "setting": "source_primary",
+      "diet": "hPDI",
+      "outcome": "positive_mean",
+      "people_match": true,
+      "original_q_matches_4sig": true,
+      "estimate_CI_consistent_with_positive_scaling_at_display_precision": true
+    },
+    {
+      "setting": "source_primary",
+      "diet": "rEDIH",
+      "outcome": "mean_increment",
+      "people_match": true,
+      "original_q_matches_4sig": true,
+      "estimate_CI_consistent_with_positive_scaling_at_display_precision": true
+    },
+    {
+      "setting": "source_primary",
+      "diet": "rEDIH",
+      "outcome": "peak_rise_0_120",
+      "people_match": true,
+      "original_q_matches_4sig": true,
+      "estimate_CI_consistent_with_positive_scaling_at_display_precision": true
+    },
+    {
+      "setting": "source_primary",
+      "diet": "rEDIH",
+      "outcome": "positive_mean",
+      "people_match": true,
+      "original_q_matches_4sig": true,
+      "estimate_CI_consistent_with_positive_scaling_at_display_precision": true
+    },
+    {
+      "setting": "source_primary",
+      "diet": "EAT13",
+      "outcome": "mean_increment",
+      "people_match": true,
+      "original_q_matches_4sig": true,
+      "estimate_CI_consistent_with_positive_scaling_at_display_precision": true
+    },
+    {
+      "setting": "source_primary",
+      "diet": "EAT13",
+      "outcome": "peak_rise_0_120",
+      "people_match": true,
+      "original_q_matches_4sig": true,
+      "estimate_CI_consistent_with_positive_scaling_at_display_precision": true
+    },
+    {
+      "setting": "source_primary",
+      "diet": "EAT13",
+      "outcome": "positive_mean",
+      "people_match": true,
+      "original_q_matches_4sig": true,
+      "estimate_CI_consistent_with_positive_scaling_at_display_precision": true
+    },
+    {
+      "setting": "source_primary",
+      "diet": "NOVA4",
+      "outcome": "mean_increment",
+      "people_match": true,
+      "original_q_matches_4sig": true,
+      "estimate_CI_consistent_with_positive_scaling_at_display_precision": true
+    },
+    {
+      "setting": "source_primary",
+      "diet": "NOVA4",
+      "outcome": "peak_rise_0_120",
+      "people_match": true,
+      "original_q_matches_4sig": true,
+      "estimate_CI_consistent_with_positive_scaling_at_display_precision": true
+    },
+    {
+      "setting": "source_primary",
+      "diet": "NOVA4",
+      "outcome": "positive_mean",
+      "people_match": true,
+      "original_q_matches_4sig": true,
+      "estimate_CI_consistent_with_positive_scaling_at_display_precision": true
+    },
+    {
+      "setting": "source_primary",
+      "diet": "Carbohydrate_pct",
+      "outcome": "mean_increment",
+      "people_match": true,
+      "original_q_matches_4sig": true,
+      "estimate_CI_consistent_with_positive_scaling_at_display_precision": true
+    },
+    {
+      "setting": "source_primary",
+      "diet": "Carbohydrate_pct",
+      "outcome": "peak_rise_0_120",
+      "people_match": true,
+      "original_q_matches_4sig": true,
+      "estimate_CI_consistent_with_positive_scaling_at_display_precision": true
+    },
+    {
+      "setting": "source_primary",
+      "diet": "Carbohydrate_pct",
+      "outcome": "positive_mean",
+      "people_match": true,
+      "original_q_matches_4sig": true,
+      "estimate_CI_consistent_with_positive_scaling_at_display_precision": true
+    },
+    {
+      "setting": "joint",
+      "diet": "AHEI",
+      "outcome": "mean_increment",
+      "people_match": true,
+      "original_q_matches_4sig": true,
+      "estimate_CI_consistent_with_positive_scaling_at_display_precision": true
+    },
+    {
+      "setting": "joint",
+      "diet": "AHEI",
+      "outcome": "peak_rise_0_120",
+      "people_match": true,
+      "original_q_matches_4sig": true,
+      "estimate_CI_consistent_with_positive_scaling_at_display_precision": true
+    },
+    {
+      "setting": "joint",
+      "diet": "AHEI",
+      "outcome": "positive_mean",
+      "people_match": true,
+      "original_q_matches_4sig": true,
+      "estimate_CI_consistent_with_positive_scaling_at_display_precision": true
+    },
+    {
+      "setting": "joint",
+      "diet": "AMED",
+      "outcome": "mean_increment",
+      "people_match": true,
+      "original_q_matches_4sig": true,
+      "estimate_CI_consistent_with_positive_scaling_at_display_precision": true
+    },
+    {
+      "setting": "joint",
+      "diet": "AMED",
+      "outcome": "peak_rise_0_120",
+      "people_match": true,
+      "original_q_matches_4sig": true,
+      "estimate_CI_consistent_with_positive_scaling_at_display_precision": true
+    },
+    {
+      "setting": "joint",
+      "diet": "AMED",
+      "outcome": "positive_mean",
+      "people_match": true,
+      "original_q_matches_4sig": true,
+      "estimate_CI_consistent_with_positive_scaling_at_display_precision": true
+    },
+    {
+      "setting": "joint",
+      "diet": "hPDI",
+      "outcome": "mean_increment",
+      "people_match": true,
+      "original_q_matches_4sig": true,
+      "estimate_CI_consistent_with_positive_scaling_at_display_precision": true
+    },
+    {
+      "setting": "joint",
+      "diet": "hPDI",
+      "outcome": "peak_rise_0_120",
+      "people_match": true,
+      "original_q_matches_4sig": true,
+      "estimate_CI_consistent_with_positive_scaling_at_display_precision": true
+    },
+    {
+      "setting": "joint",
+      "diet": "hPDI",
+      "outcome": "positive_mean",
+      "people_match": true,
+      "original_q_matches_4sig": true,
+      "estimate_CI_consistent_with_positive_scaling_at_display_precision": true
+    },
+    {
+      "setting": "joint",
+      "diet": "rEDIH",
+      "outcome": "mean_increment",
+      "people_match": true,
+      "original_q_matches_4sig": true,
+      "estimate_CI_consistent_with_positive_scaling_at_display_precision": true
+    },
+    {
+      "setting": "joint",
+      "diet": "rEDIH",
+      "outcome": "peak_rise_0_120",
+      "people_match": true,
+      "original_q_matches_4sig": true,
+      "estimate_CI_consistent_with_positive_scaling_at_display_precision": true
+    },
+    {
+      "setting": "joint",
+      "diet": "rEDIH",
+      "outcome": "positive_mean",
+      "people_match": true,
+      "original_q_matches_4sig": true,
+      "estimate_CI_consistent_with_positive_scaling_at_display_precision": true
+    },
+    {
+      "setting": "joint",
+      "diet": "EAT13",
+      "outcome": "mean_increment",
+      "people_match": true,
+      "original_q_matches_4sig": true,
+      "estimate_CI_consistent_with_positive_scaling_at_display_precision": true
+    },
+    {
+      "setting": "joint",
+      "diet": "EAT13",
+      "outcome": "peak_rise_0_120",
+      "people_match": true,
+      "original_q_matches_4sig": true,
+      "estimate_CI_consistent_with_positive_scaling_at_display_precision": true
+    },
+    {
+      "setting": "joint",
+      "diet": "EAT13",
+      "outcome": "positive_mean",
+      "people_match": true,
+      "original_q_matches_4sig": true,
+      "estimate_CI_consistent_with_positive_scaling_at_display_precision": true
+    },
+    {
+      "setting": "joint",
+      "diet": "NOVA4",
+      "outcome": "mean_increment",
+      "people_match": true,
+      "original_q_matches_4sig": true,
+      "estimate_CI_consistent_with_positive_scaling_at_display_precision": true
+    },
+    {
+      "setting": "joint",
+      "diet": "NOVA4",
+      "outcome": "peak_rise_0_120",
+      "people_match": true,
+      "original_q_matches_4sig": true,
+      "estimate_CI_consistent_with_positive_scaling_at_display_precision": true
+    },
+    {
+      "setting": "joint",
+      "diet": "NOVA4",
+      "outcome": "positive_mean",
+      "people_match": true,
+      "original_q_matches_4sig": true,
+      "estimate_CI_consistent_with_positive_scaling_at_display_precision": true
+    },
+    {
+      "setting": "joint",
+      "diet": "Carbohydrate_pct",
+      "outcome": "mean_increment",
+      "people_match": true,
+      "original_q_matches_4sig": true,
+      "estimate_CI_consistent_with_positive_scaling_at_display_precision": true
+    },
+    {
+      "setting": "joint",
+      "diet": "Carbohydrate_pct",
+      "outcome": "peak_rise_0_120",
+      "people_match": true,
+      "original_q_matches_4sig": true,
+      "estimate_CI_consistent_with_positive_scaling_at_display_precision": true
+    },
+    {
+      "setting": "joint",
+      "diet": "Carbohydrate_pct",
+      "outcome": "positive_mean",
+      "people_match": true,
+      "original_q_matches_4sig": true,
+      "estimate_CI_consistent_with_positive_scaling_at_display_precision": true
+    }
+  ],
+  "all_support_thresholds_passed": true,
+  "global_min_endpoint_cell_people": 663,
+  "global_min_crossing_people": 563,
+  "q_below_005_rows": 18,
+  "prespecified_diets_with_supported_negative_interactions": [
+    "rEDIH",
+    "NOVA4",
+    "Carbohydrate_pct"
+  ],
+  "rounding_check_scope": "Compatibility with rounding intervals only; not independent recomputation from full-precision server inputs",
+  "new_association_models": 0
+}

@@ -1,0 +1,17 @@
+{
+  "version": "2026.09.27.2",
+  "files": {
+    "PLAN.md": "a59919b2be6c88c3e8f136031c8d1cbc7d4676ba316fbc1858d6879e48781bc8",
+    "README.md": "97a8f29f40e7cf0b5dd45aebe2d0585f1a618a5668eca33d53b30971f73db0f2",
+    "REVIEW.md": "bf936a00f5e7c8fdb5961f4c6980b6e00075748a48f74dc8824bcbdf7c0c8b33",
+    "__init__.py": "e47d47dac3704b49443377d4dcaad212485bc6f7956f7f289cc7927fd442fc52",
+    "feasibility.py": "3d4631553f55e43a76b7b80604ea497603a2da78f534bfb44c985f97219a473c",
+    "inputs.py": "edf30a68d92038a3496c915b9bb848709da3f7bdba002ceeafec12c8860e199c",
+    "plot_local.py": "8422c2141ec48dfa62970e0a33e20b74cdea5e1da66570aa275342455b831843",
+    "reporting.py": "4bb5507227f873c3e7f271b90f3d2a51501ba1da3c5cf890bec1d7ac7e3020fb",
+    "run_analysis.py": "162622cbdd6e7d3b15fbf769eb10987aa79d1712f25aa9d90da7d67827c72d00",
+    "run_response_followup.sh": "7d4c5009f048e69bbd4063201cb324b45e66c4f36e94a5db641c6067430a478f",
+    "support.py": "1ab097663e2df17b8913539a1bb768d3c13ec79c00c89e37cd12a3950d61446e",
+    "tests/test_followup.py": "17096380ca0a00b5c58208fbc5848afd017b71298a6b45df545f6792c9f0bf32"
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "run": "gut_meal_bridge_v2_20260929T044951_469958Z",
+  "data_kind": "REAL",
+  "evidence": "Manual transcription of user-provided server screenshot; no individual data received or models recomputed",
+  "evidence_image": "04_时间核对.png",
+  "image_sha256": "c941d869860b020fda1468fc4a6bc5258685c04c758dab72ceb262b4a04c1213",
+  "cgm_source": "Frozen original CGM cache; reported SHA256 verification passed; first/last timestamped records of matched connection",
+  "main_date_match_status": {
+    "SINGLE_VISIT_RECORD": 3575,
+    "UNKNOWN_NO_MATCH": 46,
+    "AMBIGUOUS_MULTIPLE_SAMPLES": 10
+  },
+  "rows": [
+    {
+      "sample": "Main",
+      "window": "Meals",
+      "total": 3631,
+      "date_known": 3575,
+      "before": 43,
+      "within": 0,
+      "after": 3532,
+      "unknown": 56,
+      "days_from_window_end": {
+        "negative": 43,
+        "same_day": 0,
+        "1_to_7": 928,
+        "8_to_14": 1953,
+        "15_to_30": 527,
+        "over_30": 124,
+        "missing": 56
+      },
+      "quantile_probabilities": [
+        0.1,
+        0.25,
+        0.5,
+        0.75,
+        0.9
+      ],
+      "days_from_start_quantiles": [
+        16,
+        18,
+        20,
+        24,
+        29
+      ],
+      "days_from_end_quantiles": [
+        5,
+        7,
+        9,
+        13,
+        19
+      ],
+      "quantile_population": "all date-known participants, including dates before the window"
+    },
+    {
+      "sample": "Main",
+      "window": "CGM",
+      "total": 3631,
+      "date_known": 3575,
+      "before": 43,
+      "within": 0,
+      "after": 3532,
+      "unknown": 56,
+      "days_from_window_end": {
+        "negative": 43,
+        "same_day": 0,
+        "1_to_7": 1020,
+        "8_to_14": 1916,
+        "15_to_30": 475,
+        "over_30": 121,
+        "missing": 56
+      },
+      "quantile_probabilities": [
+        0.1,
+        0.25,
+        0.5,
+        0.75,
+        0.9
+      ],
+      "days_from_start_quantiles": [
+        17,
+        19,
+        20,
+        24,
+        30
+      ],
+      "days_from_end_quantiles": [
+        5,
+        7,
+        9,
+        12,
+        18
+      ],
+      "quantile_population": "all date-known participants, including dates before the window"
+    },
+    {
+      "sample": "Strict",
+      "window": "Meals",
+      "total": 3398,
+      "date_known": 3342,
+      "before": 43,
+      "within": 0,
+      "after": 3299,
+      "unknown": 56,
+      "days_from_window_end": {
+        "negative": 43,
+        "same_day": 0,
+        "1_to_7": 881,
+        "8_to_14": 1813,
+        "15_to_30": 486,
+        "over_30": 119,
+        "missing": 56
+      },
+      "quantile_probabilities": [
+        0.1,
+        0.25,
+        0.5,
+        0.75,
+        0.9
+      ],
+      "days_from_start_quantiles": [
+        16,
+        18,
+        20,
+        24,
+        30
+      ],
+      "days_from_end_quantiles": [
+        5,
+        7,
+        9,
+        13,
+        19
+      ],
+      "quantile_population": "all date-known participants, including dates before the window"
+    },
+    {
+      "sample": "Strict",
+      "window": "CGM",
+      "total": 3398,
+      "date_known": 3342,
+      "before": 43,
+      "within": 0,
+      "after": 3299,
+      "unknown": 56,
+      "days_from_window_end": {
+        "negative": 43,
+        "same_day": 0,
+        "1_to_7": 966,
+        "8_to_14": 1779,
+        "15_to_30": 437,
+        "over_30": 117,
+        "missing": 56
+      },
+      "quantile_probabilities": [
+        0.1,
+        0.25,
+        0.5,
+        0.75,
+        0.9
+      ],
+      "days_from_start_quantiles": [
+        17,
+        19,
+        20,
+        24,
+        30
+      ],
+      "days_from_end_quantiles": [
+        5,
+        7,
+        9,
+        12,
+        18
+      ],
+      "quantile_population": "all date-known participants, including dates before the window"
+    }
+  ],
+  "limitations": [
+    "No exact sample_name matches demonstrated",
+    "Collection-versus-sample-provision time remains unresolved",
+    "Strict overlaps Main",
+    "No extension of timing proportions to historical mediation samples"
+  ]
+}

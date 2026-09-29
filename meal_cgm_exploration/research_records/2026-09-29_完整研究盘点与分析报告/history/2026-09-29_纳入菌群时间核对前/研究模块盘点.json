@@ -1,0 +1,65 @@
+{
+  "modules": [
+    {
+      "module": "hppmeal",
+      "run_id": "meal_20260924T143630_752200Z",
+      "status": "REAL；CHECK/AUDIT/BUILD/ANALYZE PASS",
+      "locally_reviewable": "6/6模型可核对（4项NOVA、2项菌交互）；流程和重复餐描述可见",
+      "limits": "真实CSV、时间核查文件和菌采样日期不在本地",
+      "source_ids": "S01–S04"
+    },
+    {
+      "module": "followup",
+      "run_id": "repeated_20260925T074243_557265Z",
+      "status": "REAL；COMPLETE",
+      "locally_reviewable": "重复餐3人群关键区间、预测8项MAE改善及人数可核对",
+      "limits": "其余重复统计、绝对预测误差和完整筛选流量未展示",
+      "source_ids": "S05–S07"
+    },
+    {
+      "module": "seven_diet_meals",
+      "run_id": "seven_diets_20260925T093822_426339Z",
+      "status": "REAL；COMPLETE，报告126/126",
+      "locally_reviewable": "原截图42项净增量；主样本其他28项由后续复现页提供，合计可关联70个规格",
+      "limits": "strict/common7的其余56个规格未逐项核对",
+      "source_ids": "S08"
+    },
+    {
+      "module": "quality_timecourse",
+      "run_id": "quality_timecourse_20260925T130549_263963Z",
+      "status": "REAL；COMPLETE，294个固定规格",
+      "locally_reviewable": "91项质量规格+42项时间=133条；source_primary/joint各42项完整",
+      "limits": "其他161条质量规格缺少具体数值；42条旧模型为复现非新发现",
+      "source_ids": "S09/S13"
+    },
+    {
+      "module": "nutrition_bridge",
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "status": "REAL；COMPLETE，84/84复现、302/302估计",
+      "locally_reviewable": "54页全部归档；140分步+42正增量+120衔接，β/逐项CI/q齐全",
+      "limits": "多数原p/SE、部分餐数、尺度及成员哈希未展示；与旧模型有重复",
+      "source_ids": "S10/S11/S14"
+    },
+    {
+      "module": "response_followup",
+      "run_id": "response_followup_20260927T155611_920880Z",
+      "status": "REAL；COMPLETE_WITH_LIMITATIONS",
+      "locally_reviewable": "14成员核对、42换算和观测支持；日期分离可行性人数",
+      "limits": "新增效应模型0；不是42次新拟合；日期分离当时仅可行性",
+      "source_ids": "S12"
+    },
+    {
+      "module": "date_split_bridge",
+      "run_id": "date_split_bridge_20260928T154342_539217Z",
+      "status": "REAL；COMPLETE_WITH_LIMITATIONS",
+      "locally_reviewable": "24主关联+24全期+24差值；72点估计、48CI、48q可核对",
+      "limits": "全期比较模型CI/q未展示；本地无法用原读数复查无共享声明",
+      "source_ids": "S15"
+    }
+  ],
+  "not_research_results": [
+    "Synthetic/unit/end-to-end tests in REVIEW/VALIDATION",
+    "Old planned time-shift/ICC/novel-microbe/causal work without REAL evidence"
+  ],
+  "local_outputs_directory_exists": false
+}

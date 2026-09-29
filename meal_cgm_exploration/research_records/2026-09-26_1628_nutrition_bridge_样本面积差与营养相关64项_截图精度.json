@@ -1,0 +1,2455 @@
+{
+  "run_id": "nutrition_bridge_20260926T071736_080048Z",
+  "data_kind": "REAL",
+  "evidence_cutoff": "2026-09-26 16:28:32 Asia/Shanghai",
+  "pages": [
+    28,
+    29,
+    51,
+    52
+  ],
+  "source_images": [
+    {
+      "original_filename": "截屏2026-09-26 16.26.41.png",
+      "original_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_766Ijd/截屏2026-09-26 16.26.41.png",
+      "archive_path": "evidence/nutrition_bridge_2026-09-26_162641_page28.png",
+      "pages": [
+        28
+      ],
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "copy_status": "COPIED_UNMODIFIED",
+      "page_header_visible": true,
+      "sha256": "bbe01ec8da2352bffafbfb2431d2cd7c9643f3c82ea176cb7d38fa5e5622b4a9"
+    },
+    {
+      "original_filename": "截屏2026-09-26 16.26.57.png",
+      "original_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_kazWgf/截屏2026-09-26 16.26.57.png",
+      "archive_path": "evidence/nutrition_bridge_2026-09-26_162657_page29.png",
+      "pages": [
+        29
+      ],
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "copy_status": "COPIED_UNMODIFIED",
+      "page_header_visible": true,
+      "sha256": "4594b1717ff1c465f3421e9b3f5bcd0ed5b741ff8fc2c5d408dd74afd00a6c4c"
+    },
+    {
+      "original_filename": "截屏2026-09-26 16.28.18.png",
+      "original_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_4sRtQE/截屏2026-09-26 16.28.18.png",
+      "archive_path": "evidence/nutrition_bridge_2026-09-26_162818_page51.png",
+      "pages": [
+        51
+      ],
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "copy_status": "COPIED_UNMODIFIED",
+      "page_header_visible": true,
+      "sha256": "89a8d5be4407f7ca871cfc50ea08154906b014ac0481cc2ca3f16025df26c77d"
+    },
+    {
+      "original_filename": "截屏2026-09-26 16.28.32.png",
+      "original_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_uz7jlh/截屏2026-09-26 16.28.32.png",
+      "archive_path": "evidence/nutrition_bridge_2026-09-26_162832_page52.png",
+      "pages": [
+        52
+      ],
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "copy_status": "COPIED_UNMODIFIED",
+      "page_header_visible": true,
+      "sha256": "bb6104643fae48623b142cbcbc9a3e9dca0315f0dba6f2a557ba870dc935062d"
+    }
+  ],
+  "new_model_specifications": 0,
+  "bridge_flow_rows": [
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "setting": "source_primary",
+      "analysis": "bridge_flow",
+      "stage": "primary_covariates_and_quality",
+      "stage_order": 1,
+      "people": 5678,
+      "meals": 126956,
+      "display": {
+        "people": "5678",
+        "meals": "126956"
+      },
+      "sample_scope": "bridge sample; no diet-score-completeness filter",
+      "source_pages": [
+        28
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162641_page28.png"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "setting": "source_primary",
+      "analysis": "bridge_flow",
+      "stage": "whole_CGM_participant_present",
+      "stage_order": 2,
+      "people": 4620,
+      "meals": 114861,
+      "display": {
+        "people": "4620",
+        "meals": "114861"
+      },
+      "sample_scope": "bridge sample; no diet-score-completeness filter",
+      "source_pages": [
+        28
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162641_page28.png"
+      ],
+      "derived_loss_from_previous": {
+        "people": 1058,
+        "meals": 12095,
+        "people_pct_of_previous": 18.633321592109898,
+        "meals_pct_of_previous": 9.526922713381014
+      }
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "setting": "source_primary",
+      "analysis": "bridge_flow",
+      "stage": "same_CGM_connection",
+      "stage_order": 3,
+      "people": 4617,
+      "meals": 114828,
+      "display": {
+        "people": "4617",
+        "meals": "114828"
+      },
+      "sample_scope": "bridge sample; no diet-score-completeness filter",
+      "source_pages": [
+        28
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162641_page28.png"
+      ],
+      "derived_loss_from_previous": {
+        "people": 3,
+        "meals": 33,
+        "people_pct_of_previous": 0.06493506493506493,
+        "meals_pct_of_previous": 0.02873037845743986
+      }
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "setting": "source_primary",
+      "analysis": "bridge_flow",
+      "stage": "complete_core_fields_5meals_3days",
+      "stage_order": 4,
+      "people": 4593,
+      "meals": 114761,
+      "display": {
+        "people": "4593",
+        "meals": "114761"
+      },
+      "sample_scope": "bridge sample; no diet-score-completeness filter",
+      "source_pages": [
+        28
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162641_page28.png"
+      ],
+      "derived_loss_from_previous": {
+        "people": 24,
+        "meals": 67,
+        "people_pct_of_previous": 0.5198180636777128,
+        "meals_pct_of_previous": 0.058348138084787685
+      }
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "setting": "joint",
+      "analysis": "bridge_flow",
+      "stage": "primary_covariates_and_quality",
+      "stage_order": 1,
+      "people": 4653,
+      "meals": 107182,
+      "display": {
+        "people": "4653",
+        "meals": "107182"
+      },
+      "sample_scope": "bridge sample; no diet-score-completeness filter",
+      "source_pages": [
+        29
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162657_page29.png"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "setting": "joint",
+      "analysis": "bridge_flow",
+      "stage": "whole_CGM_participant_present",
+      "stage_order": 2,
+      "people": 4391,
+      "meals": 103068,
+      "display": {
+        "people": "4391",
+        "meals": "103068"
+      },
+      "sample_scope": "bridge sample; no diet-score-completeness filter",
+      "source_pages": [
+        29
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162657_page29.png"
+      ],
+      "derived_loss_from_previous": {
+        "people": 262,
+        "meals": 4114,
+        "people_pct_of_previous": 5.630775843541801,
+        "meals_pct_of_previous": 3.8383310630516316
+      }
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "setting": "joint",
+      "analysis": "bridge_flow",
+      "stage": "same_CGM_connection",
+      "stage_order": 3,
+      "people": 4391,
+      "meals": 103068,
+      "display": {
+        "people": "4391",
+        "meals": "103068"
+      },
+      "sample_scope": "bridge sample; no diet-score-completeness filter",
+      "source_pages": [
+        29
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162657_page29.png"
+      ],
+      "derived_loss_from_previous": {
+        "people": 0,
+        "meals": 0,
+        "people_pct_of_previous": 0.0,
+        "meals_pct_of_previous": 0.0
+      }
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "setting": "joint",
+      "analysis": "bridge_flow",
+      "stage": "complete_core_fields_5meals_3days",
+      "stage_order": 4,
+      "people": 4370,
+      "meals": 103007,
+      "display": {
+        "people": "4370",
+        "meals": "103007"
+      },
+      "sample_scope": "bridge sample; no diet-score-completeness filter",
+      "source_pages": [
+        29
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162657_page29.png"
+      ],
+      "derived_loss_from_previous": {
+        "people": 21,
+        "meals": 61,
+        "people_pct_of_previous": 0.47825096788886357,
+        "meals_pct_of_previous": 0.059184227888384365
+      }
+    }
+  ],
+  "bridge_flow_derived_summary": [
+    {
+      "setting": "source_primary",
+      "initial_people": 5678,
+      "final_pool_people": 4593,
+      "people_lost": 1085,
+      "people_retention_pct": 80.89115885875309,
+      "initial_meals": 126956,
+      "final_pool_meals": 114761,
+      "meals_lost": 12195,
+      "meal_retention_pct": 90.39430983962947,
+      "paired_focus_CGM_people_loss_after_final_pool": {
+        "Mean": 2,
+        "CV": 3,
+        "MODD": 4,
+        "SDw": 3
+      },
+      "note": "Percentages computed from displayed integer counts; final_pool precedes per-CGM complete-pair filtering, not per-diet distribution N"
+    },
+    {
+      "setting": "joint",
+      "initial_people": 4653,
+      "final_pool_people": 4370,
+      "people_lost": 283,
+      "people_retention_pct": 93.91790242854073,
+      "initial_meals": 107182,
+      "final_pool_meals": 103007,
+      "meals_lost": 4175,
+      "meal_retention_pct": 96.10475639566346,
+      "paired_focus_CGM_people_loss_after_final_pool": {
+        "Mean": 2,
+        "CV": 3,
+        "MODD": 4,
+        "SDw": 3
+      },
+      "note": "Percentages computed from displayed integer counts; final_pool precedes per-CGM complete-pair filtering, not per-diet distribution N"
+    }
+  ],
+  "response_distribution_rows": [
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "response_distribution",
+      "setting": "source_primary",
+      "sample_scope": "diet-specific A sample, not bridge pool",
+      "branch": "A",
+      "level": "person_equal_weight",
+      "field": "positive_minus_net",
+      "diet": "AHEI",
+      "valid": 4595,
+      "missing": 0,
+      "mean": 2.839,
+      "median": 2.473,
+      "p90": 5.082,
+      "p99": 8.902,
+      "sd": null,
+      "zero_fraction": null,
+      "display": {
+        "valid": "4595",
+        "missing": "0",
+        "mean": "2.839",
+        "median": "2.473",
+        "p90": "5.082",
+        "p99": "8.902"
+      },
+      "unit": "mg/dL; person mean of below-baseline area magnitude divided by120min",
+      "source_pages": [
+        28
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162641_page28.png"
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "sd",
+        "zero_fraction"
+      ],
+      "definition_note": "positive minus net equals nonnegative magnitude of below-own-premeal-baseline area/120, averaged within person; not glucose below clinical threshold, not regression coefficient"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "response_distribution",
+      "setting": "source_primary",
+      "sample_scope": "diet-specific A sample, not bridge pool",
+      "branch": "A",
+      "level": "person_equal_weight",
+      "field": "positive_minus_net",
+      "diet": "AMED",
+      "valid": 4595,
+      "missing": 0,
+      "mean": 2.839,
+      "median": 2.473,
+      "p90": 5.082,
+      "p99": 8.902,
+      "sd": null,
+      "zero_fraction": null,
+      "display": {
+        "valid": "4595",
+        "missing": "0",
+        "mean": "2.839",
+        "median": "2.473",
+        "p90": "5.082",
+        "p99": "8.902"
+      },
+      "unit": "mg/dL; person mean of below-baseline area magnitude divided by120min",
+      "source_pages": [
+        28
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162641_page28.png"
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "sd",
+        "zero_fraction"
+      ],
+      "definition_note": "positive minus net equals nonnegative magnitude of below-own-premeal-baseline area/120, averaged within person; not glucose below clinical threshold, not regression coefficient"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "response_distribution",
+      "setting": "source_primary",
+      "sample_scope": "diet-specific A sample, not bridge pool",
+      "branch": "A",
+      "level": "person_equal_weight",
+      "field": "positive_minus_net",
+      "diet": "hPDI",
+      "valid": 5393,
+      "missing": 0,
+      "mean": 2.885,
+      "median": 2.49,
+      "p90": 5.235,
+      "p99": 9.152,
+      "sd": null,
+      "zero_fraction": null,
+      "display": {
+        "valid": "5393",
+        "missing": "0",
+        "mean": "2.885",
+        "median": "2.49",
+        "p90": "5.235",
+        "p99": "9.152"
+      },
+      "unit": "mg/dL; person mean of below-baseline area magnitude divided by120min",
+      "source_pages": [
+        28
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162641_page28.png"
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "sd",
+        "zero_fraction"
+      ],
+      "definition_note": "positive minus net equals nonnegative magnitude of below-own-premeal-baseline area/120, averaged within person; not glucose below clinical threshold, not regression coefficient"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "response_distribution",
+      "setting": "source_primary",
+      "sample_scope": "diet-specific A sample, not bridge pool",
+      "branch": "A",
+      "level": "person_equal_weight",
+      "field": "positive_minus_net",
+      "diet": "rEDIH",
+      "valid": 4595,
+      "missing": 0,
+      "mean": 2.839,
+      "median": 2.473,
+      "p90": 5.082,
+      "p99": 8.902,
+      "sd": null,
+      "zero_fraction": null,
+      "display": {
+        "valid": "4595",
+        "missing": "0",
+        "mean": "2.839",
+        "median": "2.473",
+        "p90": "5.082",
+        "p99": "8.902"
+      },
+      "unit": "mg/dL; person mean of below-baseline area magnitude divided by120min",
+      "source_pages": [
+        28
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162641_page28.png"
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "sd",
+        "zero_fraction"
+      ],
+      "definition_note": "positive minus net equals nonnegative magnitude of below-own-premeal-baseline area/120, averaged within person; not glucose below clinical threshold, not regression coefficient"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "response_distribution",
+      "setting": "source_primary",
+      "sample_scope": "diet-specific A sample, not bridge pool",
+      "branch": "A",
+      "level": "person_equal_weight",
+      "field": "positive_minus_net",
+      "diet": "EAT13",
+      "valid": 4504,
+      "missing": 0,
+      "mean": 2.841,
+      "median": 2.474,
+      "p90": 5.087,
+      "p99": 8.877,
+      "sd": null,
+      "zero_fraction": null,
+      "display": {
+        "valid": "4504",
+        "missing": "0",
+        "mean": "2.841",
+        "median": "2.474",
+        "p90": "5.087",
+        "p99": "8.877"
+      },
+      "unit": "mg/dL; person mean of below-baseline area magnitude divided by120min",
+      "source_pages": [
+        28
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162641_page28.png"
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "sd",
+        "zero_fraction"
+      ],
+      "definition_note": "positive minus net equals nonnegative magnitude of below-own-premeal-baseline area/120, averaged within person; not glucose below clinical threshold, not regression coefficient"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "response_distribution",
+      "setting": "source_primary",
+      "sample_scope": "diet-specific A sample, not bridge pool",
+      "branch": "A",
+      "level": "person_equal_weight",
+      "field": "positive_minus_net",
+      "diet": "NOVA4",
+      "valid": 4102,
+      "missing": 0,
+      "mean": 2.828,
+      "median": 2.468,
+      "p90": 5.026,
+      "p99": 8.665,
+      "sd": null,
+      "zero_fraction": null,
+      "display": {
+        "valid": "4102",
+        "missing": "0",
+        "mean": "2.828",
+        "median": "2.468",
+        "p90": "5.026",
+        "p99": "8.665"
+      },
+      "unit": "mg/dL; person mean of below-baseline area magnitude divided by120min",
+      "source_pages": [
+        28
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162641_page28.png"
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "sd",
+        "zero_fraction"
+      ],
+      "definition_note": "positive minus net equals nonnegative magnitude of below-own-premeal-baseline area/120, averaged within person; not glucose below clinical threshold, not regression coefficient"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "response_distribution",
+      "setting": "source_primary",
+      "sample_scope": "diet-specific A sample, not bridge pool",
+      "branch": "A",
+      "level": "person_equal_weight",
+      "field": "positive_minus_net",
+      "diet": "Carbohydrate_pct",
+      "valid": 4573,
+      "missing": 0,
+      "mean": 2.84,
+      "median": 2.474,
+      "p90": 5.084,
+      "p99": 8.903,
+      "sd": null,
+      "zero_fraction": null,
+      "display": {
+        "valid": "4573",
+        "missing": "0",
+        "mean": "2.84",
+        "median": "2.474",
+        "p90": "5.084",
+        "p99": "8.903"
+      },
+      "unit": "mg/dL; person mean of below-baseline area magnitude divided by120min",
+      "source_pages": [
+        28
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162641_page28.png"
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "sd",
+        "zero_fraction"
+      ],
+      "definition_note": "positive minus net equals nonnegative magnitude of below-own-premeal-baseline area/120, averaged within person; not glucose below clinical threshold, not regression coefficient"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "response_distribution",
+      "setting": "joint",
+      "sample_scope": "diet-specific A sample, not bridge pool",
+      "branch": "A",
+      "level": "person_equal_weight",
+      "field": "positive_minus_net",
+      "diet": "AHEI",
+      "valid": 4370,
+      "missing": 0,
+      "mean": 2.795,
+      "median": 2.426,
+      "p90": 5.025,
+      "p99": 8.828,
+      "sd": null,
+      "zero_fraction": null,
+      "display": {
+        "valid": "4370",
+        "missing": "0",
+        "mean": "2.795",
+        "median": "2.426",
+        "p90": "5.025",
+        "p99": "8.828"
+      },
+      "unit": "mg/dL; person mean of below-baseline area magnitude divided by120min",
+      "source_pages": [
+        29
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162657_page29.png"
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "sd",
+        "zero_fraction"
+      ],
+      "definition_note": "positive minus net equals nonnegative magnitude of below-own-premeal-baseline area/120, averaged within person; not glucose below clinical threshold, not regression coefficient"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "response_distribution",
+      "setting": "joint",
+      "sample_scope": "diet-specific A sample, not bridge pool",
+      "branch": "A",
+      "level": "person_equal_weight",
+      "field": "positive_minus_net",
+      "diet": "AMED",
+      "valid": 4370,
+      "missing": 0,
+      "mean": 2.795,
+      "median": 2.426,
+      "p90": 5.025,
+      "p99": 8.828,
+      "sd": null,
+      "zero_fraction": null,
+      "display": {
+        "valid": "4370",
+        "missing": "0",
+        "mean": "2.795",
+        "median": "2.426",
+        "p90": "5.025",
+        "p99": "8.828"
+      },
+      "unit": "mg/dL; person mean of below-baseline area magnitude divided by120min",
+      "source_pages": [
+        29
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162657_page29.png"
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "sd",
+        "zero_fraction"
+      ],
+      "definition_note": "positive minus net equals nonnegative magnitude of below-own-premeal-baseline area/120, averaged within person; not glucose below clinical threshold, not regression coefficient"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "response_distribution",
+      "setting": "joint",
+      "sample_scope": "diet-specific A sample, not bridge pool",
+      "branch": "A",
+      "level": "person_equal_weight",
+      "field": "positive_minus_net",
+      "diet": "hPDI",
+      "valid": 4627,
+      "missing": 0,
+      "mean": 2.812,
+      "median": 2.438,
+      "p90": 5.091,
+      "p99": 8.895,
+      "sd": null,
+      "zero_fraction": null,
+      "display": {
+        "valid": "4627",
+        "missing": "0",
+        "mean": "2.812",
+        "median": "2.438",
+        "p90": "5.091",
+        "p99": "8.895"
+      },
+      "unit": "mg/dL; person mean of below-baseline area magnitude divided by120min",
+      "source_pages": [
+        29
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162657_page29.png"
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "sd",
+        "zero_fraction"
+      ],
+      "definition_note": "positive minus net equals nonnegative magnitude of below-own-premeal-baseline area/120, averaged within person; not glucose below clinical threshold, not regression coefficient"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "response_distribution",
+      "setting": "joint",
+      "sample_scope": "diet-specific A sample, not bridge pool",
+      "branch": "A",
+      "level": "person_equal_weight",
+      "field": "positive_minus_net",
+      "diet": "rEDIH",
+      "valid": 4370,
+      "missing": 0,
+      "mean": 2.795,
+      "median": 2.426,
+      "p90": 5.025,
+      "p99": 8.828,
+      "sd": null,
+      "zero_fraction": null,
+      "display": {
+        "valid": "4370",
+        "missing": "0",
+        "mean": "2.795",
+        "median": "2.426",
+        "p90": "5.025",
+        "p99": "8.828"
+      },
+      "unit": "mg/dL; person mean of below-baseline area magnitude divided by120min",
+      "source_pages": [
+        29
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162657_page29.png"
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "sd",
+        "zero_fraction"
+      ],
+      "definition_note": "positive minus net equals nonnegative magnitude of below-own-premeal-baseline area/120, averaged within person; not glucose below clinical threshold, not regression coefficient"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "response_distribution",
+      "setting": "joint",
+      "sample_scope": "diet-specific A sample, not bridge pool",
+      "branch": "A",
+      "level": "person_equal_weight",
+      "field": "positive_minus_net",
+      "diet": "EAT13",
+      "valid": 4282,
+      "missing": 0,
+      "mean": 2.799,
+      "median": 2.426,
+      "p90": 5.04,
+      "p99": 8.82,
+      "sd": null,
+      "zero_fraction": null,
+      "display": {
+        "valid": "4282",
+        "missing": "0",
+        "mean": "2.799",
+        "median": "2.426",
+        "p90": "5.04",
+        "p99": "8.82"
+      },
+      "unit": "mg/dL; person mean of below-baseline area magnitude divided by120min",
+      "source_pages": [
+        29
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162657_page29.png"
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "sd",
+        "zero_fraction"
+      ],
+      "definition_note": "positive minus net equals nonnegative magnitude of below-own-premeal-baseline area/120, averaged within person; not glucose below clinical threshold, not regression coefficient"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "response_distribution",
+      "setting": "joint",
+      "sample_scope": "diet-specific A sample, not bridge pool",
+      "branch": "A",
+      "level": "person_equal_weight",
+      "field": "positive_minus_net",
+      "diet": "NOVA4",
+      "valid": 3913,
+      "missing": 0,
+      "mean": 2.787,
+      "median": 2.428,
+      "p90": 4.958,
+      "p99": 8.645,
+      "sd": null,
+      "zero_fraction": null,
+      "display": {
+        "valid": "3913",
+        "missing": "0",
+        "mean": "2.787",
+        "median": "2.428",
+        "p90": "4.958",
+        "p99": "8.645"
+      },
+      "unit": "mg/dL; person mean of below-baseline area magnitude divided by120min",
+      "source_pages": [
+        29
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162657_page29.png"
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "sd",
+        "zero_fraction"
+      ],
+      "definition_note": "positive minus net equals nonnegative magnitude of below-own-premeal-baseline area/120, averaged within person; not glucose below clinical threshold, not regression coefficient"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "response_distribution",
+      "setting": "joint",
+      "sample_scope": "diet-specific A sample, not bridge pool",
+      "branch": "A",
+      "level": "person_equal_weight",
+      "field": "positive_minus_net",
+      "diet": "Carbohydrate_pct",
+      "valid": 4349,
+      "missing": 0,
+      "mean": 2.795,
+      "median": 2.426,
+      "p90": 5.019,
+      "p99": 8.842,
+      "sd": null,
+      "zero_fraction": null,
+      "display": {
+        "valid": "4349",
+        "missing": "0",
+        "mean": "2.795",
+        "median": "2.426",
+        "p90": "5.019",
+        "p99": "8.842"
+      },
+      "unit": "mg/dL; person mean of below-baseline area magnitude divided by120min",
+      "source_pages": [
+        29
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162657_page29.png"
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "sd",
+        "zero_fraction"
+      ],
+      "definition_note": "positive minus net equals nonnegative magnitude of below-own-premeal-baseline area/120, averaged within person; not glucose below clinical threshold, not regression coefficient"
+    }
+  ],
+  "score_nutrient_correlation_rows": [
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "score_nutrient_correlation",
+      "setting": "source_primary",
+      "branch": "A",
+      "diet": "AHEI",
+      "field": "C",
+      "nutrient_field": "carb_10",
+      "people": 4595,
+      "raw_r": -0.01642,
+      "raw_rho": -0.03528,
+      "resid_r": 0.0577,
+      "display": {
+        "people": "4595",
+        "raw_r": "-0.01642",
+        "raw_rho": "-0.03528",
+        "resid_r": "0.0577"
+      },
+      "inference": null,
+      "p": null,
+      "q": null,
+      "ci_low": null,
+      "ci_high": null,
+      "source_pages": [
+        51
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162818_page51.png"
+      ],
+      "precision_significant_digits": 4,
+      "definition": "raw_r=Pearson, raw_rho=Spearman; resid_r=Pearson of score and nutrient residuals each after BASE+score-specific extras+CONTEXT; other meal nutrients not mutually adjusted here",
+      "unknown_fields": [
+        "p",
+        "q",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "score_nutrient_correlation",
+      "setting": "source_primary",
+      "branch": "A",
+      "diet": "AHEI",
+      "field": "C2",
+      "nutrient_field": "carb_10_squared",
+      "people": 4595,
+      "raw_r": -0.03138,
+      "raw_rho": -0.05462,
+      "resid_r": 0.03204,
+      "display": {
+        "people": "4595",
+        "raw_r": "-0.03138",
+        "raw_rho": "-0.05462",
+        "resid_r": "0.03204"
+      },
+      "inference": null,
+      "p": null,
+      "q": null,
+      "ci_low": null,
+      "ci_high": null,
+      "source_pages": [
+        51
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162818_page51.png"
+      ],
+      "precision_significant_digits": 4,
+      "definition": "raw_r=Pearson, raw_rho=Spearman; resid_r=Pearson of score and nutrient residuals each after BASE+score-specific extras+CONTEXT; other meal nutrients not mutually adjusted here",
+      "unknown_fields": [
+        "p",
+        "q",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "score_nutrient_correlation",
+      "setting": "source_primary",
+      "branch": "A",
+      "diet": "AHEI",
+      "field": "E",
+      "nutrient_field": "energy_100",
+      "people": 4595,
+      "raw_r": -0.09922,
+      "raw_rho": -0.1059,
+      "resid_r": -0.0183,
+      "display": {
+        "people": "4595",
+        "raw_r": "-0.09922",
+        "raw_rho": "-0.1059",
+        "resid_r": "-0.0183"
+      },
+      "inference": null,
+      "p": null,
+      "q": null,
+      "ci_low": null,
+      "ci_high": null,
+      "source_pages": [
+        51
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162818_page51.png"
+      ],
+      "precision_significant_digits": 4,
+      "definition": "raw_r=Pearson, raw_rho=Spearman; resid_r=Pearson of score and nutrient residuals each after BASE+score-specific extras+CONTEXT; other meal nutrients not mutually adjusted here",
+      "unknown_fields": [
+        "p",
+        "q",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "score_nutrient_correlation",
+      "setting": "source_primary",
+      "branch": "A",
+      "diet": "AMED",
+      "field": "C",
+      "nutrient_field": "carb_10",
+      "people": 4595,
+      "raw_r": -0.04244,
+      "raw_rho": -0.06811,
+      "resid_r": 0.03669,
+      "display": {
+        "people": "4595",
+        "raw_r": "-0.04244",
+        "raw_rho": "-0.06811",
+        "resid_r": "0.03669"
+      },
+      "inference": null,
+      "p": null,
+      "q": null,
+      "ci_low": null,
+      "ci_high": null,
+      "source_pages": [
+        51
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162818_page51.png"
+      ],
+      "precision_significant_digits": 4,
+      "definition": "raw_r=Pearson, raw_rho=Spearman; resid_r=Pearson of score and nutrient residuals each after BASE+score-specific extras+CONTEXT; other meal nutrients not mutually adjusted here",
+      "unknown_fields": [
+        "p",
+        "q",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "score_nutrient_correlation",
+      "setting": "source_primary",
+      "branch": "A",
+      "diet": "AMED",
+      "field": "C2",
+      "nutrient_field": "carb_10_squared",
+      "people": 4595,
+      "raw_r": -0.05441,
+      "raw_rho": -0.08564,
+      "resid_r": 0.01608,
+      "display": {
+        "people": "4595",
+        "raw_r": "-0.05441",
+        "raw_rho": "-0.08564",
+        "resid_r": "0.01608"
+      },
+      "inference": null,
+      "p": null,
+      "q": null,
+      "ci_low": null,
+      "ci_high": null,
+      "source_pages": [
+        51
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162818_page51.png"
+      ],
+      "precision_significant_digits": 4,
+      "definition": "raw_r=Pearson, raw_rho=Spearman; resid_r=Pearson of score and nutrient residuals each after BASE+score-specific extras+CONTEXT; other meal nutrients not mutually adjusted here",
+      "unknown_fields": [
+        "p",
+        "q",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "score_nutrient_correlation",
+      "setting": "source_primary",
+      "branch": "A",
+      "diet": "AMED",
+      "field": "E",
+      "nutrient_field": "energy_100",
+      "people": 4595,
+      "raw_r": -0.08316,
+      "raw_rho": -0.1028,
+      "resid_r": 0.01955,
+      "display": {
+        "people": "4595",
+        "raw_r": "-0.08316",
+        "raw_rho": "-0.1028",
+        "resid_r": "0.01955"
+      },
+      "inference": null,
+      "p": null,
+      "q": null,
+      "ci_low": null,
+      "ci_high": null,
+      "source_pages": [
+        51
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162818_page51.png"
+      ],
+      "precision_significant_digits": 4,
+      "definition": "raw_r=Pearson, raw_rho=Spearman; resid_r=Pearson of score and nutrient residuals each after BASE+score-specific extras+CONTEXT; other meal nutrients not mutually adjusted here",
+      "unknown_fields": [
+        "p",
+        "q",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "score_nutrient_correlation",
+      "setting": "source_primary",
+      "branch": "A",
+      "diet": "hPDI",
+      "field": "C",
+      "nutrient_field": "carb_10",
+      "people": 5393,
+      "raw_r": -0.09035,
+      "raw_rho": -0.1347,
+      "resid_r": -0.0301,
+      "display": {
+        "people": "5393",
+        "raw_r": "-0.09035",
+        "raw_rho": "-0.1347",
+        "resid_r": "-0.0301"
+      },
+      "inference": null,
+      "p": null,
+      "q": null,
+      "ci_low": null,
+      "ci_high": null,
+      "source_pages": [
+        51
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162818_page51.png"
+      ],
+      "precision_significant_digits": 4,
+      "definition": "raw_r=Pearson, raw_rho=Spearman; resid_r=Pearson of score and nutrient residuals each after BASE+score-specific extras+CONTEXT; other meal nutrients not mutually adjusted here",
+      "unknown_fields": [
+        "p",
+        "q",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "score_nutrient_correlation",
+      "setting": "source_primary",
+      "branch": "A",
+      "diet": "hPDI",
+      "field": "C2",
+      "nutrient_field": "carb_10_squared",
+      "people": 5393,
+      "raw_r": -0.08338,
+      "raw_rho": -0.1519,
+      "resid_r": -0.02595,
+      "display": {
+        "people": "5393",
+        "raw_r": "-0.08338",
+        "raw_rho": "-0.1519",
+        "resid_r": "-0.02595"
+      },
+      "inference": null,
+      "p": null,
+      "q": null,
+      "ci_low": null,
+      "ci_high": null,
+      "source_pages": [
+        51
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162818_page51.png"
+      ],
+      "precision_significant_digits": 4,
+      "definition": "raw_r=Pearson, raw_rho=Spearman; resid_r=Pearson of score and nutrient residuals each after BASE+score-specific extras+CONTEXT; other meal nutrients not mutually adjusted here",
+      "unknown_fields": [
+        "p",
+        "q",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "score_nutrient_correlation",
+      "setting": "source_primary",
+      "branch": "A",
+      "diet": "hPDI",
+      "field": "E",
+      "nutrient_field": "energy_100",
+      "people": 5393,
+      "raw_r": -0.08631,
+      "raw_rho": -0.1163,
+      "resid_r": -0.002463,
+      "display": {
+        "people": "5393",
+        "raw_r": "-0.08631",
+        "raw_rho": "-0.1163",
+        "resid_r": "-0.002463"
+      },
+      "inference": null,
+      "p": null,
+      "q": null,
+      "ci_low": null,
+      "ci_high": null,
+      "source_pages": [
+        51
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162818_page51.png"
+      ],
+      "precision_significant_digits": 4,
+      "definition": "raw_r=Pearson, raw_rho=Spearman; resid_r=Pearson of score and nutrient residuals each after BASE+score-specific extras+CONTEXT; other meal nutrients not mutually adjusted here",
+      "unknown_fields": [
+        "p",
+        "q",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "score_nutrient_correlation",
+      "setting": "source_primary",
+      "branch": "A",
+      "diet": "rEDIH",
+      "field": "C",
+      "nutrient_field": "carb_10",
+      "people": 4595,
+      "raw_r": -0.004828,
+      "raw_rho": -0.02231,
+      "resid_r": 0.1349,
+      "display": {
+        "people": "4595",
+        "raw_r": "-0.004828",
+        "raw_rho": "-0.02231",
+        "resid_r": "0.1349"
+      },
+      "inference": null,
+      "p": null,
+      "q": null,
+      "ci_low": null,
+      "ci_high": null,
+      "source_pages": [
+        51
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162818_page51.png"
+      ],
+      "precision_significant_digits": 4,
+      "definition": "raw_r=Pearson, raw_rho=Spearman; resid_r=Pearson of score and nutrient residuals each after BASE+score-specific extras+CONTEXT; other meal nutrients not mutually adjusted here",
+      "unknown_fields": [
+        "p",
+        "q",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "score_nutrient_correlation",
+      "setting": "source_primary",
+      "branch": "A",
+      "diet": "rEDIH",
+      "field": "C2",
+      "nutrient_field": "carb_10_squared",
+      "people": 4595,
+      "raw_r": -0.03341,
+      "raw_rho": -0.04188,
+      "resid_r": 0.08302,
+      "display": {
+        "people": "4595",
+        "raw_r": "-0.03341",
+        "raw_rho": "-0.04188",
+        "resid_r": "0.08302"
+      },
+      "inference": null,
+      "p": null,
+      "q": null,
+      "ci_low": null,
+      "ci_high": null,
+      "source_pages": [
+        51
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162818_page51.png"
+      ],
+      "precision_significant_digits": 4,
+      "definition": "raw_r=Pearson, raw_rho=Spearman; resid_r=Pearson of score and nutrient residuals each after BASE+score-specific extras+CONTEXT; other meal nutrients not mutually adjusted here",
+      "unknown_fields": [
+        "p",
+        "q",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "score_nutrient_correlation",
+      "setting": "source_primary",
+      "branch": "A",
+      "diet": "rEDIH",
+      "field": "E",
+      "nutrient_field": "energy_100",
+      "people": 4595,
+      "raw_r": -0.2196,
+      "raw_rho": -0.2106,
+      "resid_r": -0.08582,
+      "display": {
+        "people": "4595",
+        "raw_r": "-0.2196",
+        "raw_rho": "-0.2106",
+        "resid_r": "-0.08582"
+      },
+      "inference": null,
+      "p": null,
+      "q": null,
+      "ci_low": null,
+      "ci_high": null,
+      "source_pages": [
+        51
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162818_page51.png"
+      ],
+      "precision_significant_digits": 4,
+      "definition": "raw_r=Pearson, raw_rho=Spearman; resid_r=Pearson of score and nutrient residuals each after BASE+score-specific extras+CONTEXT; other meal nutrients not mutually adjusted here",
+      "unknown_fields": [
+        "p",
+        "q",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "score_nutrient_correlation",
+      "setting": "source_primary",
+      "branch": "A",
+      "diet": "EAT13",
+      "field": "C",
+      "nutrient_field": "carb_10",
+      "people": 4504,
+      "raw_r": 0.03439,
+      "raw_rho": 0.01892,
+      "resid_r": 0.06352,
+      "display": {
+        "people": "4504",
+        "raw_r": "0.03439",
+        "raw_rho": "0.01892",
+        "resid_r": "0.06352"
+      },
+      "inference": null,
+      "p": null,
+      "q": null,
+      "ci_low": null,
+      "ci_high": null,
+      "source_pages": [
+        51
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162818_page51.png"
+      ],
+      "precision_significant_digits": 4,
+      "definition": "raw_r=Pearson, raw_rho=Spearman; resid_r=Pearson of score and nutrient residuals each after BASE+score-specific extras+CONTEXT; other meal nutrients not mutually adjusted here",
+      "unknown_fields": [
+        "p",
+        "q",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "score_nutrient_correlation",
+      "setting": "source_primary",
+      "branch": "A",
+      "diet": "EAT13",
+      "field": "C2",
+      "nutrient_field": "carb_10_squared",
+      "people": 4504,
+      "raw_r": 0.01315,
+      "raw_rho": 0.0002655,
+      "resid_r": 0.03819,
+      "display": {
+        "people": "4504",
+        "raw_r": "0.01315",
+        "raw_rho": "0.0002655",
+        "resid_r": "0.03819"
+      },
+      "inference": null,
+      "p": null,
+      "q": null,
+      "ci_low": null,
+      "ci_high": null,
+      "source_pages": [
+        51
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162818_page51.png"
+      ],
+      "precision_significant_digits": 4,
+      "definition": "raw_r=Pearson, raw_rho=Spearman; resid_r=Pearson of score and nutrient residuals each after BASE+score-specific extras+CONTEXT; other meal nutrients not mutually adjusted here",
+      "unknown_fields": [
+        "p",
+        "q",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "score_nutrient_correlation",
+      "setting": "source_primary",
+      "branch": "A",
+      "diet": "EAT13",
+      "field": "E",
+      "nutrient_field": "energy_100",
+      "people": 4504,
+      "raw_r": -0.03132,
+      "raw_rho": -0.04085,
+      "resid_r": -0.006327,
+      "display": {
+        "people": "4504",
+        "raw_r": "-0.03132",
+        "raw_rho": "-0.04085",
+        "resid_r": "-0.006327"
+      },
+      "inference": null,
+      "p": null,
+      "q": null,
+      "ci_low": null,
+      "ci_high": null,
+      "source_pages": [
+        51
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162818_page51.png"
+      ],
+      "precision_significant_digits": 4,
+      "definition": "raw_r=Pearson, raw_rho=Spearman; resid_r=Pearson of score and nutrient residuals each after BASE+score-specific extras+CONTEXT; other meal nutrients not mutually adjusted here",
+      "unknown_fields": [
+        "p",
+        "q",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "score_nutrient_correlation",
+      "setting": "source_primary",
+      "branch": "A",
+      "diet": "NOVA4",
+      "field": "C",
+      "nutrient_field": "carb_10",
+      "people": 4102,
+      "raw_r": 0.2062,
+      "raw_rho": 0.2205,
+      "resid_r": 0.2317,
+      "display": {
+        "people": "4102",
+        "raw_r": "0.2062",
+        "raw_rho": "0.2205",
+        "resid_r": "0.2317"
+      },
+      "inference": null,
+      "p": null,
+      "q": null,
+      "ci_low": null,
+      "ci_high": null,
+      "source_pages": [
+        51
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162818_page51.png"
+      ],
+      "precision_significant_digits": 4,
+      "definition": "raw_r=Pearson, raw_rho=Spearman; resid_r=Pearson of score and nutrient residuals each after BASE+score-specific extras+CONTEXT; other meal nutrients not mutually adjusted here",
+      "unknown_fields": [
+        "p",
+        "q",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "score_nutrient_correlation",
+      "setting": "source_primary",
+      "branch": "A",
+      "diet": "NOVA4",
+      "field": "C2",
+      "nutrient_field": "carb_10_squared",
+      "people": 4102,
+      "raw_r": 0.1454,
+      "raw_rho": 0.2042,
+      "resid_r": 0.1477,
+      "display": {
+        "people": "4102",
+        "raw_r": "0.1454",
+        "raw_rho": "0.2042",
+        "resid_r": "0.1477"
+      },
+      "inference": null,
+      "p": null,
+      "q": null,
+      "ci_low": null,
+      "ci_high": null,
+      "source_pages": [
+        51
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162818_page51.png"
+      ],
+      "precision_significant_digits": 4,
+      "definition": "raw_r=Pearson, raw_rho=Spearman; resid_r=Pearson of score and nutrient residuals each after BASE+score-specific extras+CONTEXT; other meal nutrients not mutually adjusted here",
+      "unknown_fields": [
+        "p",
+        "q",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "score_nutrient_correlation",
+      "setting": "source_primary",
+      "branch": "A",
+      "diet": "NOVA4",
+      "field": "E",
+      "nutrient_field": "energy_100",
+      "people": 4102,
+      "raw_r": 0.01591,
+      "raw_rho": 0.005207,
+      "resid_r": -0.02954,
+      "display": {
+        "people": "4102",
+        "raw_r": "0.01591",
+        "raw_rho": "0.005207",
+        "resid_r": "-0.02954"
+      },
+      "inference": null,
+      "p": null,
+      "q": null,
+      "ci_low": null,
+      "ci_high": null,
+      "source_pages": [
+        51
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162818_page51.png"
+      ],
+      "precision_significant_digits": 4,
+      "definition": "raw_r=Pearson, raw_rho=Spearman; resid_r=Pearson of score and nutrient residuals each after BASE+score-specific extras+CONTEXT; other meal nutrients not mutually adjusted here",
+      "unknown_fields": [
+        "p",
+        "q",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "score_nutrient_correlation",
+      "setting": "source_primary",
+      "branch": "A",
+      "diet": "Carbohydrate_pct",
+      "field": "C",
+      "nutrient_field": "carb_10",
+      "people": 4573,
+      "raw_r": 0.4201,
+      "raw_rho": 0.3982,
+      "resid_r": 0.5747,
+      "display": {
+        "people": "4573",
+        "raw_r": "0.4201",
+        "raw_rho": "0.3982",
+        "resid_r": "0.5747"
+      },
+      "inference": null,
+      "p": null,
+      "q": null,
+      "ci_low": null,
+      "ci_high": null,
+      "source_pages": [
+        51
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162818_page51.png"
+      ],
+      "precision_significant_digits": 4,
+      "definition": "raw_r=Pearson, raw_rho=Spearman; resid_r=Pearson of score and nutrient residuals each after BASE+score-specific extras+CONTEXT; other meal nutrients not mutually adjusted here",
+      "unknown_fields": [
+        "p",
+        "q",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "score_nutrient_correlation",
+      "setting": "source_primary",
+      "branch": "A",
+      "diet": "Carbohydrate_pct",
+      "field": "C2",
+      "nutrient_field": "carb_10_squared",
+      "people": 4573,
+      "raw_r": 0.2963,
+      "raw_rho": 0.3626,
+      "resid_r": 0.3981,
+      "display": {
+        "people": "4573",
+        "raw_r": "0.2963",
+        "raw_rho": "0.3626",
+        "resid_r": "0.3981"
+      },
+      "inference": null,
+      "p": null,
+      "q": null,
+      "ci_low": null,
+      "ci_high": null,
+      "source_pages": [
+        51
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162818_page51.png"
+      ],
+      "precision_significant_digits": 4,
+      "definition": "raw_r=Pearson, raw_rho=Spearman; resid_r=Pearson of score and nutrient residuals each after BASE+score-specific extras+CONTEXT; other meal nutrients not mutually adjusted here",
+      "unknown_fields": [
+        "p",
+        "q",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "score_nutrient_correlation",
+      "setting": "source_primary",
+      "branch": "A",
+      "diet": "Carbohydrate_pct",
+      "field": "E",
+      "nutrient_field": "energy_100",
+      "people": 4573,
+      "raw_r": -0.2254,
+      "raw_rho": -0.1641,
+      "resid_r": -0.1915,
+      "display": {
+        "people": "4573",
+        "raw_r": "-0.2254",
+        "raw_rho": "-0.1641",
+        "resid_r": "-0.1915"
+      },
+      "inference": null,
+      "p": null,
+      "q": null,
+      "ci_low": null,
+      "ci_high": null,
+      "source_pages": [
+        51
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162818_page51.png"
+      ],
+      "precision_significant_digits": 4,
+      "definition": "raw_r=Pearson, raw_rho=Spearman; resid_r=Pearson of score and nutrient residuals each after BASE+score-specific extras+CONTEXT; other meal nutrients not mutually adjusted here",
+      "unknown_fields": [
+        "p",
+        "q",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "score_nutrient_correlation",
+      "setting": "joint",
+      "branch": "A",
+      "diet": "AHEI",
+      "field": "C",
+      "nutrient_field": "carb_10",
+      "people": 4370,
+      "raw_r": -0.01566,
+      "raw_rho": -0.03491,
+      "resid_r": 0.05591,
+      "display": {
+        "people": "4370",
+        "raw_r": "-0.01566",
+        "raw_rho": "-0.03491",
+        "resid_r": "0.05591"
+      },
+      "inference": null,
+      "p": null,
+      "q": null,
+      "ci_low": null,
+      "ci_high": null,
+      "source_pages": [
+        52
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162832_page52.png"
+      ],
+      "precision_significant_digits": 4,
+      "definition": "raw_r=Pearson, raw_rho=Spearman; resid_r=Pearson of score and nutrient residuals each after BASE+score-specific extras+CONTEXT; other meal nutrients not mutually adjusted here",
+      "unknown_fields": [
+        "p",
+        "q",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "score_nutrient_correlation",
+      "setting": "joint",
+      "branch": "A",
+      "diet": "AHEI",
+      "field": "C2",
+      "nutrient_field": "carb_10_squared",
+      "people": 4370,
+      "raw_r": -0.0288,
+      "raw_rho": -0.05306,
+      "resid_r": 0.03149,
+      "display": {
+        "people": "4370",
+        "raw_r": "-0.0288",
+        "raw_rho": "-0.05306",
+        "resid_r": "0.03149"
+      },
+      "inference": null,
+      "p": null,
+      "q": null,
+      "ci_low": null,
+      "ci_high": null,
+      "source_pages": [
+        52
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162832_page52.png"
+      ],
+      "precision_significant_digits": 4,
+      "definition": "raw_r=Pearson, raw_rho=Spearman; resid_r=Pearson of score and nutrient residuals each after BASE+score-specific extras+CONTEXT; other meal nutrients not mutually adjusted here",
+      "unknown_fields": [
+        "p",
+        "q",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "score_nutrient_correlation",
+      "setting": "joint",
+      "branch": "A",
+      "diet": "AHEI",
+      "field": "E",
+      "nutrient_field": "energy_100",
+      "people": 4370,
+      "raw_r": -0.08648,
+      "raw_rho": -0.09787,
+      "resid_r": -0.008446,
+      "display": {
+        "people": "4370",
+        "raw_r": "-0.08648",
+        "raw_rho": "-0.09787",
+        "resid_r": "-0.008446"
+      },
+      "inference": null,
+      "p": null,
+      "q": null,
+      "ci_low": null,
+      "ci_high": null,
+      "source_pages": [
+        52
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162832_page52.png"
+      ],
+      "precision_significant_digits": 4,
+      "definition": "raw_r=Pearson, raw_rho=Spearman; resid_r=Pearson of score and nutrient residuals each after BASE+score-specific extras+CONTEXT; other meal nutrients not mutually adjusted here",
+      "unknown_fields": [
+        "p",
+        "q",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "score_nutrient_correlation",
+      "setting": "joint",
+      "branch": "A",
+      "diet": "AMED",
+      "field": "C",
+      "nutrient_field": "carb_10",
+      "people": 4370,
+      "raw_r": -0.04538,
+      "raw_rho": -0.0737,
+      "resid_r": 0.02861,
+      "display": {
+        "people": "4370",
+        "raw_r": "-0.04538",
+        "raw_rho": "-0.0737",
+        "resid_r": "0.02861"
+      },
+      "inference": null,
+      "p": null,
+      "q": null,
+      "ci_low": null,
+      "ci_high": null,
+      "source_pages": [
+        52
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162832_page52.png"
+      ],
+      "precision_significant_digits": 4,
+      "definition": "raw_r=Pearson, raw_rho=Spearman; resid_r=Pearson of score and nutrient residuals each after BASE+score-specific extras+CONTEXT; other meal nutrients not mutually adjusted here",
+      "unknown_fields": [
+        "p",
+        "q",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "score_nutrient_correlation",
+      "setting": "joint",
+      "branch": "A",
+      "diet": "AMED",
+      "field": "C2",
+      "nutrient_field": "carb_10_squared",
+      "people": 4370,
+      "raw_r": -0.05702,
+      "raw_rho": -0.09084,
+      "resid_r": 0.007941,
+      "display": {
+        "people": "4370",
+        "raw_r": "-0.05702",
+        "raw_rho": "-0.09084",
+        "resid_r": "0.007941"
+      },
+      "inference": null,
+      "p": null,
+      "q": null,
+      "ci_low": null,
+      "ci_high": null,
+      "source_pages": [
+        52
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162832_page52.png"
+      ],
+      "precision_significant_digits": 4,
+      "definition": "raw_r=Pearson, raw_rho=Spearman; resid_r=Pearson of score and nutrient residuals each after BASE+score-specific extras+CONTEXT; other meal nutrients not mutually adjusted here",
+      "unknown_fields": [
+        "p",
+        "q",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "score_nutrient_correlation",
+      "setting": "joint",
+      "branch": "A",
+      "diet": "AMED",
+      "field": "E",
+      "nutrient_field": "energy_100",
+      "people": 4370,
+      "raw_r": -0.08101,
+      "raw_rho": -0.1053,
+      "resid_r": 0.01761,
+      "display": {
+        "people": "4370",
+        "raw_r": "-0.08101",
+        "raw_rho": "-0.1053",
+        "resid_r": "0.01761"
+      },
+      "inference": null,
+      "p": null,
+      "q": null,
+      "ci_low": null,
+      "ci_high": null,
+      "source_pages": [
+        52
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162832_page52.png"
+      ],
+      "precision_significant_digits": 4,
+      "definition": "raw_r=Pearson, raw_rho=Spearman; resid_r=Pearson of score and nutrient residuals each after BASE+score-specific extras+CONTEXT; other meal nutrients not mutually adjusted here",
+      "unknown_fields": [
+        "p",
+        "q",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "score_nutrient_correlation",
+      "setting": "joint",
+      "branch": "A",
+      "diet": "hPDI",
+      "field": "C",
+      "nutrient_field": "carb_10",
+      "people": 4627,
+      "raw_r": -0.09394,
+      "raw_rho": -0.1381,
+      "resid_r": -0.03808,
+      "display": {
+        "people": "4627",
+        "raw_r": "-0.09394",
+        "raw_rho": "-0.1381",
+        "resid_r": "-0.03808"
+      },
+      "inference": null,
+      "p": null,
+      "q": null,
+      "ci_low": null,
+      "ci_high": null,
+      "source_pages": [
+        52
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162832_page52.png"
+      ],
+      "precision_significant_digits": 4,
+      "definition": "raw_r=Pearson, raw_rho=Spearman; resid_r=Pearson of score and nutrient residuals each after BASE+score-specific extras+CONTEXT; other meal nutrients not mutually adjusted here",
+      "unknown_fields": [
+        "p",
+        "q",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "score_nutrient_correlation",
+      "setting": "joint",
+      "branch": "A",
+      "diet": "hPDI",
+      "field": "C2",
+      "nutrient_field": "carb_10_squared",
+      "people": 4627,
+      "raw_r": -0.08448,
+      "raw_rho": -0.1538,
+      "resid_r": -0.03177,
+      "display": {
+        "people": "4627",
+        "raw_r": "-0.08448",
+        "raw_rho": "-0.1538",
+        "resid_r": "-0.03177"
+      },
+      "inference": null,
+      "p": null,
+      "q": null,
+      "ci_low": null,
+      "ci_high": null,
+      "source_pages": [
+        52
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162832_page52.png"
+      ],
+      "precision_significant_digits": 4,
+      "definition": "raw_r=Pearson, raw_rho=Spearman; resid_r=Pearson of score and nutrient residuals each after BASE+score-specific extras+CONTEXT; other meal nutrients not mutually adjusted here",
+      "unknown_fields": [
+        "p",
+        "q",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "score_nutrient_correlation",
+      "setting": "joint",
+      "branch": "A",
+      "diet": "hPDI",
+      "field": "E",
+      "nutrient_field": "energy_100",
+      "people": 4627,
+      "raw_r": -0.08349,
+      "raw_rho": -0.1167,
+      "resid_r": -0.002861,
+      "display": {
+        "people": "4627",
+        "raw_r": "-0.08349",
+        "raw_rho": "-0.1167",
+        "resid_r": "-0.002861"
+      },
+      "inference": null,
+      "p": null,
+      "q": null,
+      "ci_low": null,
+      "ci_high": null,
+      "source_pages": [
+        52
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162832_page52.png"
+      ],
+      "precision_significant_digits": 4,
+      "definition": "raw_r=Pearson, raw_rho=Spearman; resid_r=Pearson of score and nutrient residuals each after BASE+score-specific extras+CONTEXT; other meal nutrients not mutually adjusted here",
+      "unknown_fields": [
+        "p",
+        "q",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "score_nutrient_correlation",
+      "setting": "joint",
+      "branch": "A",
+      "diet": "rEDIH",
+      "field": "C",
+      "nutrient_field": "carb_10",
+      "people": 4370,
+      "raw_r": -0.00213,
+      "raw_rho": -0.02003,
+      "resid_r": 0.1333,
+      "display": {
+        "people": "4370",
+        "raw_r": "-0.00213",
+        "raw_rho": "-0.02003",
+        "resid_r": "0.1333"
+      },
+      "inference": null,
+      "p": null,
+      "q": null,
+      "ci_low": null,
+      "ci_high": null,
+      "source_pages": [
+        52
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162832_page52.png"
+      ],
+      "precision_significant_digits": 4,
+      "definition": "raw_r=Pearson, raw_rho=Spearman; resid_r=Pearson of score and nutrient residuals each after BASE+score-specific extras+CONTEXT; other meal nutrients not mutually adjusted here",
+      "unknown_fields": [
+        "p",
+        "q",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "score_nutrient_correlation",
+      "setting": "joint",
+      "branch": "A",
+      "diet": "rEDIH",
+      "field": "C2",
+      "nutrient_field": "carb_10_squared",
+      "people": 4370,
+      "raw_r": -0.03084,
+      "raw_rho": -0.03906,
+      "resid_r": 0.08005,
+      "display": {
+        "people": "4370",
+        "raw_r": "-0.03084",
+        "raw_rho": "-0.03906",
+        "resid_r": "0.08005"
+      },
+      "inference": null,
+      "p": null,
+      "q": null,
+      "ci_low": null,
+      "ci_high": null,
+      "source_pages": [
+        52
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162832_page52.png"
+      ],
+      "precision_significant_digits": 4,
+      "definition": "raw_r=Pearson, raw_rho=Spearman; resid_r=Pearson of score and nutrient residuals each after BASE+score-specific extras+CONTEXT; other meal nutrients not mutually adjusted here",
+      "unknown_fields": [
+        "p",
+        "q",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "score_nutrient_correlation",
+      "setting": "joint",
+      "branch": "A",
+      "diet": "rEDIH",
+      "field": "E",
+      "nutrient_field": "energy_100",
+      "people": 4370,
+      "raw_r": -0.2024,
+      "raw_rho": -0.2022,
+      "resid_r": -0.07215,
+      "display": {
+        "people": "4370",
+        "raw_r": "-0.2024",
+        "raw_rho": "-0.2022",
+        "resid_r": "-0.07215"
+      },
+      "inference": null,
+      "p": null,
+      "q": null,
+      "ci_low": null,
+      "ci_high": null,
+      "source_pages": [
+        52
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162832_page52.png"
+      ],
+      "precision_significant_digits": 4,
+      "definition": "raw_r=Pearson, raw_rho=Spearman; resid_r=Pearson of score and nutrient residuals each after BASE+score-specific extras+CONTEXT; other meal nutrients not mutually adjusted here",
+      "unknown_fields": [
+        "p",
+        "q",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "score_nutrient_correlation",
+      "setting": "joint",
+      "branch": "A",
+      "diet": "EAT13",
+      "field": "C",
+      "nutrient_field": "carb_10",
+      "people": 4282,
+      "raw_r": 0.03273,
+      "raw_rho": 0.01536,
+      "resid_r": 0.05912,
+      "display": {
+        "people": "4282",
+        "raw_r": "0.03273",
+        "raw_rho": "0.01536",
+        "resid_r": "0.05912"
+      },
+      "inference": null,
+      "p": null,
+      "q": null,
+      "ci_low": null,
+      "ci_high": null,
+      "source_pages": [
+        52
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162832_page52.png"
+      ],
+      "precision_significant_digits": 4,
+      "definition": "raw_r=Pearson, raw_rho=Spearman; resid_r=Pearson of score and nutrient residuals each after BASE+score-specific extras+CONTEXT; other meal nutrients not mutually adjusted here",
+      "unknown_fields": [
+        "p",
+        "q",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "score_nutrient_correlation",
+      "setting": "joint",
+      "branch": "A",
+      "diet": "EAT13",
+      "field": "C2",
+      "nutrient_field": "carb_10_squared",
+      "people": 4282,
+      "raw_r": 0.012,
+      "raw_rho": -0.001331,
+      "resid_r": 0.03459,
+      "display": {
+        "people": "4282",
+        "raw_r": "0.012",
+        "raw_rho": "-0.001331",
+        "resid_r": "0.03459"
+      },
+      "inference": null,
+      "p": null,
+      "q": null,
+      "ci_low": null,
+      "ci_high": null,
+      "source_pages": [
+        52
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162832_page52.png"
+      ],
+      "precision_significant_digits": 4,
+      "definition": "raw_r=Pearson, raw_rho=Spearman; resid_r=Pearson of score and nutrient residuals each after BASE+score-specific extras+CONTEXT; other meal nutrients not mutually adjusted here",
+      "unknown_fields": [
+        "p",
+        "q",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "score_nutrient_correlation",
+      "setting": "joint",
+      "branch": "A",
+      "diet": "EAT13",
+      "field": "E",
+      "nutrient_field": "energy_100",
+      "people": 4282,
+      "raw_r": -0.02534,
+      "raw_rho": -0.03695,
+      "resid_r": -0.001773,
+      "display": {
+        "people": "4282",
+        "raw_r": "-0.02534",
+        "raw_rho": "-0.03695",
+        "resid_r": "-0.001773"
+      },
+      "inference": null,
+      "p": null,
+      "q": null,
+      "ci_low": null,
+      "ci_high": null,
+      "source_pages": [
+        52
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162832_page52.png"
+      ],
+      "precision_significant_digits": 4,
+      "definition": "raw_r=Pearson, raw_rho=Spearman; resid_r=Pearson of score and nutrient residuals each after BASE+score-specific extras+CONTEXT; other meal nutrients not mutually adjusted here",
+      "unknown_fields": [
+        "p",
+        "q",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "score_nutrient_correlation",
+      "setting": "joint",
+      "branch": "A",
+      "diet": "NOVA4",
+      "field": "C",
+      "nutrient_field": "carb_10",
+      "people": 3913,
+      "raw_r": 0.2031,
+      "raw_rho": 0.2159,
+      "resid_r": 0.2255,
+      "display": {
+        "people": "3913",
+        "raw_r": "0.2031",
+        "raw_rho": "0.2159",
+        "resid_r": "0.2255"
+      },
+      "inference": null,
+      "p": null,
+      "q": null,
+      "ci_low": null,
+      "ci_high": null,
+      "source_pages": [
+        52
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162832_page52.png"
+      ],
+      "precision_significant_digits": 4,
+      "definition": "raw_r=Pearson, raw_rho=Spearman; resid_r=Pearson of score and nutrient residuals each after BASE+score-specific extras+CONTEXT; other meal nutrients not mutually adjusted here",
+      "unknown_fields": [
+        "p",
+        "q",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "score_nutrient_correlation",
+      "setting": "joint",
+      "branch": "A",
+      "diet": "NOVA4",
+      "field": "C2",
+      "nutrient_field": "carb_10_squared",
+      "people": 3913,
+      "raw_r": 0.1414,
+      "raw_rho": 0.1985,
+      "resid_r": 0.1398,
+      "display": {
+        "people": "3913",
+        "raw_r": "0.1414",
+        "raw_rho": "0.1985",
+        "resid_r": "0.1398"
+      },
+      "inference": null,
+      "p": null,
+      "q": null,
+      "ci_low": null,
+      "ci_high": null,
+      "source_pages": [
+        52
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162832_page52.png"
+      ],
+      "precision_significant_digits": 4,
+      "definition": "raw_r=Pearson, raw_rho=Spearman; resid_r=Pearson of score and nutrient residuals each after BASE+score-specific extras+CONTEXT; other meal nutrients not mutually adjusted here",
+      "unknown_fields": [
+        "p",
+        "q",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "score_nutrient_correlation",
+      "setting": "joint",
+      "branch": "A",
+      "diet": "NOVA4",
+      "field": "E",
+      "nutrient_field": "energy_100",
+      "people": 3913,
+      "raw_r": 0.01289,
+      "raw_rho": 0.006352,
+      "resid_r": -0.03218,
+      "display": {
+        "people": "3913",
+        "raw_r": "0.01289",
+        "raw_rho": "0.006352",
+        "resid_r": "-0.03218"
+      },
+      "inference": null,
+      "p": null,
+      "q": null,
+      "ci_low": null,
+      "ci_high": null,
+      "source_pages": [
+        52
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162832_page52.png"
+      ],
+      "precision_significant_digits": 4,
+      "definition": "raw_r=Pearson, raw_rho=Spearman; resid_r=Pearson of score and nutrient residuals each after BASE+score-specific extras+CONTEXT; other meal nutrients not mutually adjusted here",
+      "unknown_fields": [
+        "p",
+        "q",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "score_nutrient_correlation",
+      "setting": "joint",
+      "branch": "A",
+      "diet": "Carbohydrate_pct",
+      "field": "C",
+      "nutrient_field": "carb_10",
+      "people": 4349,
+      "raw_r": 0.4158,
+      "raw_rho": 0.3966,
+      "resid_r": 0.5664,
+      "display": {
+        "people": "4349",
+        "raw_r": "0.4158",
+        "raw_rho": "0.3966",
+        "resid_r": "0.5664"
+      },
+      "inference": null,
+      "p": null,
+      "q": null,
+      "ci_low": null,
+      "ci_high": null,
+      "source_pages": [
+        52
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162832_page52.png"
+      ],
+      "precision_significant_digits": 4,
+      "definition": "raw_r=Pearson, raw_rho=Spearman; resid_r=Pearson of score and nutrient residuals each after BASE+score-specific extras+CONTEXT; other meal nutrients not mutually adjusted here",
+      "unknown_fields": [
+        "p",
+        "q",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "score_nutrient_correlation",
+      "setting": "joint",
+      "branch": "A",
+      "diet": "Carbohydrate_pct",
+      "field": "C2",
+      "nutrient_field": "carb_10_squared",
+      "people": 4349,
+      "raw_r": 0.2885,
+      "raw_rho": 0.3595,
+      "resid_r": 0.3832,
+      "display": {
+        "people": "4349",
+        "raw_r": "0.2885",
+        "raw_rho": "0.3595",
+        "resid_r": "0.3832"
+      },
+      "inference": null,
+      "p": null,
+      "q": null,
+      "ci_low": null,
+      "ci_high": null,
+      "source_pages": [
+        52
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162832_page52.png"
+      ],
+      "precision_significant_digits": 4,
+      "definition": "raw_r=Pearson, raw_rho=Spearman; resid_r=Pearson of score and nutrient residuals each after BASE+score-specific extras+CONTEXT; other meal nutrients not mutually adjusted here",
+      "unknown_fields": [
+        "p",
+        "q",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "analysis": "score_nutrient_correlation",
+      "setting": "joint",
+      "branch": "A",
+      "diet": "Carbohydrate_pct",
+      "field": "E",
+      "nutrient_field": "energy_100",
+      "people": 4349,
+      "raw_r": -0.2123,
+      "raw_rho": -0.1581,
+      "resid_r": -0.1848,
+      "display": {
+        "people": "4349",
+        "raw_r": "-0.2123",
+        "raw_rho": "-0.1581",
+        "resid_r": "-0.1848"
+      },
+      "inference": null,
+      "p": null,
+      "q": null,
+      "ci_low": null,
+      "ci_high": null,
+      "source_pages": [
+        52
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-26_162832_page52.png"
+      ],
+      "precision_significant_digits": 4,
+      "definition": "raw_r=Pearson, raw_rho=Spearman; resid_r=Pearson of score and nutrient residuals each after BASE+score-specific extras+CONTEXT; other meal nutrients not mutually adjusted here",
+      "unknown_fields": [
+        "p",
+        "q",
+        "ci_low",
+        "ci_high"
+      ]
+    }
+  ],
+  "notes": [
+    "64 descriptive/diagnostic rows, not extra models; cumulative model count remains206",
+    "Upper page28/29 bridge flow and lower7-diet distributions have different samples, not one denominator",
+    "Missing0 refers to positive-minus-net values in each selected dietary A sample; not no missing logs/CGM in entire cohort",
+    "Residual correlations condition on background only, not all other meal nutrients; no inferential statistics shown",
+    "Future pages53/54 add positive_mean distributions under different field key; retain positive_minus_net separately"
+  ]
+}

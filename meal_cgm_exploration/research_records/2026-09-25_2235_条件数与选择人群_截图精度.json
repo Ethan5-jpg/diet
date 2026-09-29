@@ -1,0 +1,591 @@
+{
+  "run_id": "quality_timecourse_20260925T130549_263963Z",
+  "data_kind": "REAL",
+  "evidence_time": "2026-09-25 22:35:12",
+  "source_screenshot": "evidence/截屏2026-09-25 22.35.12.png",
+  "source_sha256": "0b75a05ce59111b173b887edca9b32ffcb08a0113eb7e6ac6055eedb2dd48d6c",
+  "precision": "4 significant digits from terminal screenshots; counts are displayed integers; server originals retained remotely",
+  "condition_definition": "max/min singular value of RMS-column-scaled design matrix; A includes intercept and is not centered; not diet-specific VIF",
+  "profile_definition": "Person-equal group means calculated using original eligible meals; groups indicate whether a source participant is retained in final joint A sample",
+  "new_model_estimates": 0,
+  "conditions": [
+    {
+      "diet": "AHEI",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "mean_increment",
+      "model": "background",
+      "design_condition": 60.47,
+      "display": "60.47"
+    },
+    {
+      "diet": "AHEI",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "mean_increment",
+      "model": "meal_adjusted",
+      "design_condition": 67.41,
+      "display": "67.41"
+    },
+    {
+      "diet": "AHEI",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "mean_increment",
+      "model": "background",
+      "design_condition": 61.38,
+      "display": "61.38"
+    },
+    {
+      "diet": "AHEI",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "mean_increment",
+      "model": "meal_adjusted",
+      "design_condition": 68.33,
+      "display": "68.33"
+    },
+    {
+      "diet": "AMED",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "mean_increment",
+      "model": "background",
+      "design_condition": 60.49,
+      "display": "60.49"
+    },
+    {
+      "diet": "AMED",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "mean_increment",
+      "model": "meal_adjusted",
+      "design_condition": 67.43,
+      "display": "67.43"
+    },
+    {
+      "diet": "AMED",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "mean_increment",
+      "model": "background",
+      "design_condition": 61.39,
+      "display": "61.39"
+    },
+    {
+      "diet": "AMED",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "mean_increment",
+      "model": "meal_adjusted",
+      "design_condition": 68.35,
+      "display": "68.35"
+    },
+    {
+      "diet": "Carbohydrate_pct",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "mean_increment",
+      "model": "background",
+      "design_condition": 64.3,
+      "display": "64.3"
+    },
+    {
+      "diet": "Carbohydrate_pct",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "mean_increment",
+      "model": "meal_adjusted",
+      "design_condition": 71.35,
+      "display": "71.35"
+    },
+    {
+      "diet": "Carbohydrate_pct",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "mean_increment",
+      "model": "background",
+      "design_condition": 65.64,
+      "display": "65.64"
+    },
+    {
+      "diet": "Carbohydrate_pct",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "mean_increment",
+      "model": "meal_adjusted",
+      "design_condition": 72.69,
+      "display": "72.69"
+    },
+    {
+      "diet": "EAT13",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "mean_increment",
+      "model": "background",
+      "design_condition": 64.68,
+      "display": "64.68"
+    },
+    {
+      "diet": "EAT13",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "mean_increment",
+      "model": "meal_adjusted",
+      "design_condition": 72.19,
+      "display": "72.19"
+    },
+    {
+      "diet": "EAT13",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "mean_increment",
+      "model": "background",
+      "design_condition": 65.77,
+      "display": "65.77"
+    },
+    {
+      "diet": "EAT13",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "mean_increment",
+      "model": "meal_adjusted",
+      "design_condition": 73.2,
+      "display": "73.2"
+    },
+    {
+      "diet": "NOVA4",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "mean_increment",
+      "model": "background",
+      "design_condition": 65.08,
+      "display": "65.08"
+    },
+    {
+      "diet": "NOVA4",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "mean_increment",
+      "model": "meal_adjusted",
+      "design_condition": 72.22,
+      "display": "72.22"
+    },
+    {
+      "diet": "NOVA4",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "mean_increment",
+      "model": "background",
+      "design_condition": 66.25,
+      "display": "66.25"
+    },
+    {
+      "diet": "NOVA4",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "mean_increment",
+      "model": "meal_adjusted",
+      "design_condition": 73.49,
+      "display": "73.49"
+    },
+    {
+      "diet": "hPDI",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "mean_increment",
+      "model": "background",
+      "design_condition": 58.47,
+      "display": "58.47"
+    },
+    {
+      "diet": "hPDI",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "mean_increment",
+      "model": "meal_adjusted",
+      "design_condition": 65.14,
+      "display": "65.14"
+    },
+    {
+      "diet": "hPDI",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "mean_increment",
+      "model": "background",
+      "design_condition": 61.11,
+      "display": "61.11"
+    },
+    {
+      "diet": "hPDI",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "mean_increment",
+      "model": "meal_adjusted",
+      "design_condition": 67.89,
+      "display": "67.89"
+    },
+    {
+      "diet": "rEDIH",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "mean_increment",
+      "model": "background",
+      "design_condition": 60.46,
+      "display": "60.46"
+    },
+    {
+      "diet": "rEDIH",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "mean_increment",
+      "model": "meal_adjusted",
+      "design_condition": 67.38,
+      "display": "67.38"
+    },
+    {
+      "diet": "rEDIH",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "mean_increment",
+      "model": "background",
+      "design_condition": 61.36,
+      "display": "61.36"
+    },
+    {
+      "diet": "rEDIH",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "mean_increment",
+      "model": "meal_adjusted",
+      "design_condition": 68.29,
+      "display": "68.29"
+    }
+  ],
+  "profiles": [
+    {
+      "diet": "AHEI",
+      "branch": "A",
+      "group": "drop",
+      "people": 225,
+      "display": {
+        "age_years": "49.89",
+        "bmi": "26.81",
+        "original_eligible_meals_avg": "14.67",
+        "diet_Z": "-0.2446"
+      },
+      "age_years": 49.89,
+      "bmi": 26.81,
+      "original_eligible_meals_avg": 14.67,
+      "diet_Z": -0.2446
+    },
+    {
+      "diet": "AHEI",
+      "branch": "A",
+      "group": "keep",
+      "people": 4370,
+      "display": {
+        "age_years": "51.49",
+        "bmi": "25.79",
+        "original_eligible_meals_avg": "25.51",
+        "diet_Z": "0.02881"
+      },
+      "age_years": 51.49,
+      "bmi": 25.79,
+      "original_eligible_meals_avg": 25.51,
+      "diet_Z": 0.02881
+    },
+    {
+      "diet": "AMED",
+      "branch": "A",
+      "group": "drop",
+      "people": 225,
+      "display": {
+        "age_years": "49.89",
+        "bmi": "26.81",
+        "original_eligible_meals_avg": "14.67",
+        "diet_Z": "-0.4232"
+      },
+      "age_years": 49.89,
+      "bmi": 26.81,
+      "original_eligible_meals_avg": 14.67,
+      "diet_Z": -0.4232
+    },
+    {
+      "diet": "AMED",
+      "branch": "A",
+      "group": "keep",
+      "people": 4370,
+      "display": {
+        "age_years": "51.49",
+        "bmi": "25.79",
+        "original_eligible_meals_avg": "25.51",
+        "diet_Z": "0.05557"
+      },
+      "age_years": 51.49,
+      "bmi": 25.79,
+      "original_eligible_meals_avg": 25.51,
+      "diet_Z": 0.05557
+    },
+    {
+      "diet": "Carbohydrate_pct",
+      "branch": "A",
+      "group": "drop",
+      "people": 224,
+      "display": {
+        "age_years": "49.92",
+        "bmi": "26.78",
+        "original_eligible_meals_avg": "14.67",
+        "diet_Z": "-0.2155"
+      },
+      "age_years": 49.92,
+      "bmi": 26.78,
+      "original_eligible_meals_avg": 14.67,
+      "diet_Z": -0.2155
+    },
+    {
+      "diet": "Carbohydrate_pct",
+      "branch": "A",
+      "group": "keep",
+      "people": 4349,
+      "display": {
+        "age_years": "51.48",
+        "bmi": "25.79",
+        "original_eligible_meals_avg": "25.55",
+        "diet_Z": "0.0219"
+      },
+      "age_years": 51.48,
+      "bmi": 25.79,
+      "original_eligible_meals_avg": 25.55,
+      "diet_Z": 0.0219
+    },
+    {
+      "diet": "EAT13",
+      "branch": "A",
+      "group": "drop",
+      "people": 222,
+      "display": {
+        "age_years": "49.79",
+        "bmi": "26.78",
+        "original_eligible_meals_avg": "14.67",
+        "diet_Z": "-0.3699"
+      },
+      "age_years": 49.79,
+      "bmi": 26.78,
+      "original_eligible_meals_avg": 14.67,
+      "diet_Z": -0.3699
+    },
+    {
+      "diet": "EAT13",
+      "branch": "A",
+      "group": "keep",
+      "people": 4282,
+      "display": {
+        "age_years": "51.49",
+        "bmi": "25.81",
+        "original_eligible_meals_avg": "25.5",
+        "diet_Z": "0.04872"
+      },
+      "age_years": 51.49,
+      "bmi": 25.81,
+      "original_eligible_meals_avg": 25.5,
+      "diet_Z": 0.04872
+    },
+    {
+      "diet": "NOVA4",
+      "branch": "A",
+      "group": "drop",
+      "people": 189,
+      "display": {
+        "age_years": "49.94",
+        "bmi": "26.68",
+        "original_eligible_meals_avg": "14.7",
+        "diet_Z": "-0.08968"
+      },
+      "age_years": 49.94,
+      "bmi": 26.68,
+      "original_eligible_meals_avg": 14.7,
+      "diet_Z": -0.08968
+    },
+    {
+      "diet": "NOVA4",
+      "branch": "A",
+      "group": "keep",
+      "people": 3913,
+      "display": {
+        "age_years": "51.48",
+        "bmi": "25.77",
+        "original_eligible_meals_avg": "25.64",
+        "diet_Z": "0.01522"
+      },
+      "age_years": 51.48,
+      "bmi": 25.77,
+      "original_eligible_meals_avg": 25.64,
+      "diet_Z": 0.01522
+    },
+    {
+      "diet": "hPDI",
+      "branch": "A",
+      "group": "drop",
+      "people": 766,
+      "display": {
+        "age_years": "50.98",
+        "bmi": "26.66",
+        "original_eligible_meals_avg": "12.91",
+        "diet_Z": "-0.07742"
+      },
+      "age_years": 50.98,
+      "bmi": 26.66,
+      "original_eligible_meals_avg": 12.91,
+      "diet_Z": -0.07742
+    },
+    {
+      "diet": "hPDI",
+      "branch": "A",
+      "group": "keep",
+      "people": 4627,
+      "display": {
+        "age_years": "51.5",
+        "bmi": "25.82",
+        "original_eligible_meals_avg": "25.09",
+        "diet_Z": "0.03619"
+      },
+      "age_years": 51.5,
+      "bmi": 25.82,
+      "original_eligible_meals_avg": 25.09,
+      "diet_Z": 0.03619
+    },
+    {
+      "diet": "rEDIH",
+      "branch": "A",
+      "group": "drop",
+      "people": 225,
+      "display": {
+        "age_years": "49.89",
+        "bmi": "26.81",
+        "original_eligible_meals_avg": "14.67",
+        "diet_Z": "-0.2128"
+      },
+      "age_years": 49.89,
+      "bmi": 26.81,
+      "original_eligible_meals_avg": 14.67,
+      "diet_Z": -0.2128
+    },
+    {
+      "diet": "rEDIH",
+      "branch": "A",
+      "group": "keep",
+      "people": 4370,
+      "display": {
+        "age_years": "51.49",
+        "bmi": "25.79",
+        "original_eligible_meals_avg": "25.51",
+        "diet_Z": "0.03154"
+      },
+      "age_years": 51.49,
+      "bmi": 25.79,
+      "original_eligible_meals_avg": 25.51,
+      "diet_Z": 0.03154
+    }
+  ],
+  "derived_differences": [
+    {
+      "diet": "AHEI",
+      "source_people": 4595,
+      "retained_people": 4370,
+      "excluded_people": 225,
+      "excluded_pct": 4.896626768226333,
+      "mean_differences_keep_minus_drop": {
+        "age_years": 1.6000000000000014,
+        "bmi": -1.0199999999999996,
+        "original_eligible_meals_avg": 10.840000000000002,
+        "diet_Z": 0.27341
+      },
+      "precision": "Differences calculated from4-significant-digit group means; not standardized mean differences or significance tests"
+    },
+    {
+      "diet": "AMED",
+      "source_people": 4595,
+      "retained_people": 4370,
+      "excluded_people": 225,
+      "excluded_pct": 4.896626768226333,
+      "mean_differences_keep_minus_drop": {
+        "age_years": 1.6000000000000014,
+        "bmi": -1.0199999999999996,
+        "original_eligible_meals_avg": 10.840000000000002,
+        "diet_Z": 0.47877000000000003
+      },
+      "precision": "Differences calculated from4-significant-digit group means; not standardized mean differences or significance tests"
+    },
+    {
+      "diet": "Carbohydrate_pct",
+      "source_people": 4573,
+      "retained_people": 4349,
+      "excluded_people": 224,
+      "excluded_pct": 4.898316203804942,
+      "mean_differences_keep_minus_drop": {
+        "age_years": 1.5599999999999952,
+        "bmi": -0.990000000000002,
+        "original_eligible_meals_avg": 10.88,
+        "diet_Z": 0.2374
+      },
+      "precision": "Differences calculated from4-significant-digit group means; not standardized mean differences or significance tests"
+    },
+    {
+      "diet": "EAT13",
+      "source_people": 4504,
+      "retained_people": 4282,
+      "excluded_people": 222,
+      "excluded_pct": 4.928952042628774,
+      "mean_differences_keep_minus_drop": {
+        "age_years": 1.7000000000000028,
+        "bmi": -0.9700000000000024,
+        "original_eligible_meals_avg": 10.83,
+        "diet_Z": 0.41862
+      },
+      "precision": "Differences calculated from4-significant-digit group means; not standardized mean differences or significance tests"
+    },
+    {
+      "diet": "NOVA4",
+      "source_people": 4102,
+      "retained_people": 3913,
+      "excluded_people": 189,
+      "excluded_pct": 4.607508532423208,
+      "mean_differences_keep_minus_drop": {
+        "age_years": 1.5399999999999991,
+        "bmi": -0.9100000000000001,
+        "original_eligible_meals_avg": 10.940000000000001,
+        "diet_Z": 0.1049
+      },
+      "precision": "Differences calculated from4-significant-digit group means; not standardized mean differences or significance tests"
+    },
+    {
+      "diet": "hPDI",
+      "source_people": 5393,
+      "retained_people": 4627,
+      "excluded_people": 766,
+      "excluded_pct": 14.203597255701835,
+      "mean_differences_keep_minus_drop": {
+        "age_years": 0.5200000000000031,
+        "bmi": -0.8399999999999999,
+        "original_eligible_meals_avg": 12.18,
+        "diet_Z": 0.11361
+      },
+      "precision": "Differences calculated from4-significant-digit group means; not standardized mean differences or significance tests"
+    },
+    {
+      "diet": "rEDIH",
+      "source_people": 4595,
+      "retained_people": 4370,
+      "excluded_people": 225,
+      "excluded_pct": 4.896626768226333,
+      "mean_differences_keep_minus_drop": {
+        "age_years": 1.6000000000000014,
+        "bmi": -1.0199999999999996,
+        "original_eligible_meals_avg": 10.840000000000002,
+        "diet_Z": 0.24434
+      },
+      "precision": "Differences calculated from4-significant-digit group means; not standardized mean differences or significance tests"
+    }
+  ]
+}

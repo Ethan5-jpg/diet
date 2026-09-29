@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "data_kind": "REAL",
+  "inputs": {
+    "diet": "Transfer/diet_logging/diet_logging_events.csv",
+    "cgm_glob": "Transfer/cgm/timeseries/*.csv",
+    "nova_mapping": "diet_deal/outputs/03_score_mapping/new_diet_indicators/new_diet_indicator_food_id_mapping.csv",
+    "covariates": "co-variant/outputs/data/02_covariate_master.csv",
+    "microbiome": "gut_microbiome_deal/data/08_species_clr_zscore.csv",
+    "microbiome_dates": null
+  },
+  "cohort": "10k",
+  "research_stage": "00_00_visit",
+  "time": {
+    "diet_column": "collection_timestamp",
+    "cgm_column": "collection_timestamp",
+    "local_timezone": "Asia/Jerusalem",
+    "naive_timezone": null,
+    "consumption_time_verified": false
+  },
+  "ingest": {"chunksize": 100000},
+  "meal": {
+    "max_span_minutes": 30,
+    "minimum_kcal": 50,
+    "minimum_carbohydrate_g": 5,
+    "nova_min_coverage": 0.8,
+    "previous_event_gap_minutes": 120,
+    "next_event_gap_minutes": 120,
+    "signature_weight_decimals": 0
+  },
+  "cgm": {
+    "sampling_minutes": 15,
+    "baseline_minutes": 30,
+    "baseline_min_points": 2,
+    "baseline_nearest_minutes": 15,
+    "post_minutes": 120,
+    "max_gap_minutes": 20,
+    "minimum_post_points": 7,
+    "plausible_min": 40,
+    "plausible_max": 500,
+    "warmup_minutes": 0
+  },
+  "analysis": {
+    "minimum_people": 50,
+    "minimum_meals_per_person": 5,
+    "minimum_nova_range_pp": 10,
+    "minimum_residual_df": 30,
+    "require_covariate_columns": ["age_years", "sex", "education_level", "smoking_status", "sleep_duration_hours_day", "physical_activity_met_h_week", "vitamin_use", "hormone_use", "bmi", "cgm_device_type"],
+    "taxa": [
+      {"label": "Eubacterium_rectale", "column": null, "match": "Eubacterium_rectale"},
+      {"label": "Ruthenibacterium_lactatiformans", "column": null, "match": "Ruthenibacterium_lactatiformans"}
+    ]
+  },
+  "plots": {"example_meals": 6}
+}

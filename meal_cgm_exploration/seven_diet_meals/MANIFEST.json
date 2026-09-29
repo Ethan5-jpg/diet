@@ -1,0 +1,16 @@
+{
+  "version": "2026.09.25.2",
+  "files": {
+    "seven_diet_meals/PLAN.md": "c1a27c28474a56b8dbd9185199c24f73c41bdc4ddd004ff7b86d5ce0a4467525",
+    "seven_diet_meals/README.md": "ef361e06f35868ffe8b89690c26a366804059f23ae1fb82b7d36dd379d68bc5e",
+    "seven_diet_meals/REVIEW.md": "a99bcdafb70a132126b9846e4c7d54bc8045795973339a8a48a472563899c8a0",
+    "seven_diet_meals/__init__.py": "3642de64b8850eb19a64f8c367fcc7c5ee4a42082ca54d6899ca47c22f959d1a",
+    "seven_diet_meals/inputs.py": "0cf5bbdd88289419fd4b9a4d6ebce75c6487b2755c72dbc9c03dc4d6c646e0bd",
+    "seven_diet_meals/models.py": "ba021569c7d5e7f6efda1c6eaebee649d048faa014eb00c157ae9a2277a23ba7",
+    "seven_diet_meals/reporting.py": "dcb9d29076c4a2d7132b5885a2dc0377e1e9e17ca6bc762803c4c309763e4ca9",
+    "seven_diet_meals/run_analysis.py": "26047ba0164e214a2b5e12c4a52ca69bdffd5e861a3ed71749f7f0409c5ebd6e",
+    "seven_diet_meals/run_seven_diets.sh": "a92620ca0672a37f38f2a79970eac0ae14f3fe68bf21263613af27d33074ea89",
+    "seven_diet_meals/sources.json": "a53eb1728da6675d24b3f108bca1a9a55a7e5829c0341a6e088aee1f4ea7a82a",
+    "seven_diet_meals/tests/test_analysis.py": "47c29ca12e31880445d2e086dcbf1e4151e4cafcb843e93ee92daa9b2fdd327d"
+  }
+}

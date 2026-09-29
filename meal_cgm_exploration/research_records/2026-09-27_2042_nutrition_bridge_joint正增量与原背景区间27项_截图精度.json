@@ -1,0 +1,1687 @@
+{
+  "run_id": "nutrition_bridge_20260926T071736_080048Z",
+  "data_kind": "REAL",
+  "evidence_cutoff": "2026-09-27 20:42:49 Asia/Shanghai",
+  "pages": [
+    26,
+    27,
+    30,
+    31
+  ],
+  "source_images": [
+    {
+      "original_filename": "截屏2026-09-27 20.42.26.png",
+      "original_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_Bvtid2/截屏2026-09-27 20.42.26.png",
+      "archive_path": "evidence/nutrition_bridge_2026-09-27_204226_page26.png",
+      "pages": [
+        26
+      ],
+      "visible_content": "Full listed page headers/tables or status text; REAL/run_id confirmed",
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "copy_status": "COPIED_UNMODIFIED",
+      "sha256": "d147140d5563121e899afd59e08956d0f8bb18bd9177cd427b6b0402830ba54b"
+    },
+    {
+      "original_filename": "截屏2026-09-27 20.42.49.png",
+      "original_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_CCDQMg/截屏2026-09-27 20.42.49.png",
+      "archive_path": "evidence/nutrition_bridge_2026-09-27_204249_pages27-30-31.png",
+      "pages": [
+        27,
+        30,
+        31
+      ],
+      "visible_content": "Full listed page headers/tables or status text; REAL/run_id confirmed",
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "copy_status": "COPIED_UNMODIFIED",
+      "sha256": "3f2af39385d7021d078020bdb9a930890f6aac144c34fa32b29131aafe56293c"
+    }
+  ],
+  "rows": [
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "bridge",
+      "setting": "joint",
+      "branch": "bridge",
+      "model": "BASE_adjusted",
+      "diet": null,
+      "meal_measure": "positive_mean",
+      "meal_label": "positive",
+      "cgm": "Mean",
+      "cgm_field": "cgm_mean",
+      "cgm_field_source": "frozen inputs.py CGM20",
+      "outcome": "cgm_mean_z",
+      "people": 4368,
+      "meals": null,
+      "meal_sd": null,
+      "person_sha256": null,
+      "estimate": 0.2217,
+      "ci_low": 0.1972,
+      "ci_high": 0.2463,
+      "se": null,
+      "p": null,
+      "q": 1.434e-67,
+      "spearman": 0.2378,
+      "display": {
+        "people": "4368",
+        "estimate": "0.2217",
+        "ci_low": "0.1972",
+        "ci_high": "0.2463",
+        "q": "1.434e-67",
+        "rho": "0.2378"
+      },
+      "q_displayed_zero": false,
+      "q_zero_note": null,
+      "status": "ESTIMATED",
+      "status_source": "explicit status column",
+      "unit": "original whole-CGM Z per1 paired-sample SD of personal meal measure",
+      "family": "joint_bridge_60",
+      "planned_family_size": 60,
+      "inference": "BASE-adjusted HC3; pointwise95%CI; Spearman unadjusted",
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_204226_page26.png"
+      ],
+      "source_pages": [
+        26
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "meal_sd",
+        "person_sha256",
+        "se",
+        "p"
+      ],
+      "already_seen_focus_row": true
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "bridge",
+      "setting": "joint",
+      "branch": "bridge",
+      "model": "BASE_adjusted",
+      "diet": null,
+      "meal_measure": "positive_mean",
+      "meal_label": "positive",
+      "cgm": "Median",
+      "cgm_field": "cgm_median",
+      "cgm_field_source": "frozen inputs.py CGM20",
+      "outcome": "cgm_median_z",
+      "people": 4368,
+      "meals": null,
+      "meal_sd": null,
+      "person_sha256": null,
+      "estimate": 0.1321,
+      "ci_low": 0.1061,
+      "ci_high": 0.1581,
+      "se": null,
+      "p": null,
+      "q": 4.921e-23,
+      "spearman": 0.1491,
+      "display": {
+        "people": "4368",
+        "estimate": "0.1321",
+        "ci_low": "0.1061",
+        "ci_high": "0.1581",
+        "q": "4.921e-23",
+        "rho": "0.1491"
+      },
+      "q_displayed_zero": false,
+      "q_zero_note": null,
+      "status": "ESTIMATED",
+      "status_source": "explicit status column",
+      "unit": "original whole-CGM Z per1 paired-sample SD of personal meal measure",
+      "family": "joint_bridge_60",
+      "planned_family_size": 60,
+      "inference": "BASE-adjusted HC3; pointwise95%CI; Spearman unadjusted",
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_204226_page26.png"
+      ],
+      "source_pages": [
+        26
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "meal_sd",
+        "person_sha256",
+        "se",
+        "p"
+      ],
+      "already_seen_focus_row": false
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "bridge",
+      "setting": "joint",
+      "branch": "bridge",
+      "model": "BASE_adjusted",
+      "diet": null,
+      "meal_measure": "positive_mean",
+      "meal_label": "positive",
+      "cgm": "IQR",
+      "cgm_field": "cgm_iqr",
+      "cgm_field_source": "frozen inputs.py CGM20",
+      "outcome": "cgm_iqr_z",
+      "people": 4365,
+      "meals": null,
+      "meal_sd": null,
+      "person_sha256": null,
+      "estimate": 0.5732,
+      "ci_low": 0.5444,
+      "ci_high": 0.6021,
+      "se": null,
+      "p": null,
+      "q": 8.165e-284,
+      "spearman": 0.5706,
+      "display": {
+        "people": "4365",
+        "estimate": "0.5732",
+        "ci_low": "0.5444",
+        "ci_high": "0.6021",
+        "q": "8.165e-284",
+        "rho": "0.5706"
+      },
+      "q_displayed_zero": false,
+      "q_zero_note": null,
+      "status": "ESTIMATED",
+      "status_source": "explicit status column",
+      "unit": "original whole-CGM Z per1 paired-sample SD of personal meal measure",
+      "family": "joint_bridge_60",
+      "planned_family_size": 60,
+      "inference": "BASE-adjusted HC3; pointwise95%CI; Spearman unadjusted",
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_204226_page26.png"
+      ],
+      "source_pages": [
+        26
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "meal_sd",
+        "person_sha256",
+        "se",
+        "p"
+      ],
+      "already_seen_focus_row": false
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "bridge",
+      "setting": "joint",
+      "branch": "bridge",
+      "model": "BASE_adjusted",
+      "diet": null,
+      "meal_measure": "positive_mean",
+      "meal_label": "positive",
+      "cgm": "GMI",
+      "cgm_field": "cgm_gmi",
+      "cgm_field_source": "frozen inputs.py CGM20",
+      "outcome": "cgm_gmi_z",
+      "people": 4368,
+      "meals": null,
+      "meal_sd": null,
+      "person_sha256": null,
+      "estimate": 0.2217,
+      "ci_low": 0.1972,
+      "ci_high": 0.2463,
+      "se": null,
+      "p": null,
+      "q": 1.434e-67,
+      "spearman": 0.2378,
+      "display": {
+        "people": "4368",
+        "estimate": "0.2217",
+        "ci_low": "0.1972",
+        "ci_high": "0.2463",
+        "q": "1.434e-67",
+        "rho": "0.2378"
+      },
+      "q_displayed_zero": false,
+      "q_zero_note": null,
+      "status": "ESTIMATED",
+      "status_source": "explicit status column",
+      "unit": "original whole-CGM Z per1 paired-sample SD of personal meal measure",
+      "family": "joint_bridge_60",
+      "planned_family_size": 60,
+      "inference": "BASE-adjusted HC3; pointwise95%CI; Spearman unadjusted",
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_204226_page26.png"
+      ],
+      "source_pages": [
+        26
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "meal_sd",
+        "person_sha256",
+        "se",
+        "p"
+      ],
+      "already_seen_focus_row": false
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "bridge",
+      "setting": "joint",
+      "branch": "bridge",
+      "model": "BASE_adjusted",
+      "diet": null,
+      "meal_measure": "positive_mean",
+      "meal_label": "positive",
+      "cgm": "CV",
+      "cgm_field": "cgm_cv",
+      "cgm_field_source": "frozen inputs.py CGM20",
+      "outcome": "cgm_cv_z",
+      "people": 4367,
+      "meals": null,
+      "meal_sd": null,
+      "person_sha256": null,
+      "estimate": 0.64,
+      "ci_low": 0.6159,
+      "ci_high": 0.6641,
+      "se": null,
+      "p": null,
+      "q": 0.0,
+      "spearman": 0.6106,
+      "display": {
+        "people": "4367",
+        "estimate": "0.64",
+        "ci_low": "0.6159",
+        "ci_high": "0.6641",
+        "q": "0",
+        "rho": "0.6106"
+      },
+      "q_displayed_zero": true,
+      "q_zero_note": "Terminal displays0; preserve computational/display zero without inventing unavailable exponent",
+      "status": "ESTIMATED",
+      "status_source": "explicit status column",
+      "unit": "original whole-CGM Z per1 paired-sample SD of personal meal measure",
+      "family": "joint_bridge_60",
+      "planned_family_size": 60,
+      "inference": "BASE-adjusted HC3; pointwise95%CI; Spearman unadjusted",
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_204226_page26.png"
+      ],
+      "source_pages": [
+        26
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "meal_sd",
+        "person_sha256",
+        "se",
+        "p"
+      ],
+      "already_seen_focus_row": true
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "bridge",
+      "setting": "joint",
+      "branch": "bridge",
+      "model": "BASE_adjusted",
+      "diet": null,
+      "meal_measure": "positive_mean",
+      "meal_label": "positive",
+      "cgm": "MAD",
+      "cgm_field": "cgm_mad",
+      "cgm_field_source": "frozen inputs.py CGM20",
+      "outcome": "cgm_mad_z",
+      "people": 4366,
+      "meals": null,
+      "meal_sd": null,
+      "person_sha256": null,
+      "estimate": 0.499,
+      "ci_low": 0.4687,
+      "ci_high": 0.5294,
+      "se": null,
+      "p": null,
+      "q": 5.546e-204,
+      "spearman": 0.5011,
+      "display": {
+        "people": "4366",
+        "estimate": "0.499",
+        "ci_low": "0.4687",
+        "ci_high": "0.5294",
+        "q": "5.546e-204",
+        "rho": "0.5011"
+      },
+      "q_displayed_zero": false,
+      "q_zero_note": null,
+      "status": "ESTIMATED",
+      "status_source": "explicit status column",
+      "unit": "original whole-CGM Z per1 paired-sample SD of personal meal measure",
+      "family": "joint_bridge_60",
+      "planned_family_size": 60,
+      "inference": "BASE-adjusted HC3; pointwise95%CI; Spearman unadjusted",
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_204226_page26.png"
+      ],
+      "source_pages": [
+        26
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "meal_sd",
+        "person_sha256",
+        "se",
+        "p"
+      ],
+      "already_seen_focus_row": false
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "bridge",
+      "setting": "joint",
+      "branch": "bridge",
+      "model": "BASE_adjusted",
+      "diet": null,
+      "meal_measure": "positive_mean",
+      "meal_label": "positive",
+      "cgm": "MAG",
+      "cgm_field": "cgm_mag",
+      "cgm_field_source": "frozen inputs.py CGM20",
+      "outcome": "cgm_mag_z",
+      "people": 4370,
+      "meals": null,
+      "meal_sd": null,
+      "person_sha256": null,
+      "estimate": 0.6411,
+      "ci_low": 0.6147,
+      "ci_high": 0.6674,
+      "se": null,
+      "p": null,
+      "q": 0.0,
+      "spearman": 0.6607,
+      "display": {
+        "people": "4370",
+        "estimate": "0.6411",
+        "ci_low": "0.6147",
+        "ci_high": "0.6674",
+        "q": "0",
+        "rho": "0.6607"
+      },
+      "q_displayed_zero": true,
+      "q_zero_note": "Terminal displays0; preserve computational/display zero without inventing unavailable exponent",
+      "status": "ESTIMATED",
+      "status_source": "explicit status column",
+      "unit": "original whole-CGM Z per1 paired-sample SD of personal meal measure",
+      "family": "joint_bridge_60",
+      "planned_family_size": 60,
+      "inference": "BASE-adjusted HC3; pointwise95%CI; Spearman unadjusted",
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_204226_page26.png"
+      ],
+      "source_pages": [
+        26
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "meal_sd",
+        "person_sha256",
+        "se",
+        "p"
+      ],
+      "already_seen_focus_row": false
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "bridge",
+      "setting": "joint",
+      "branch": "bridge",
+      "model": "BASE_adjusted",
+      "diet": null,
+      "meal_measure": "positive_mean",
+      "meal_label": "positive",
+      "cgm": "MODD",
+      "cgm_field": "cgm_modd",
+      "cgm_field_source": "frozen inputs.py CGM20",
+      "outcome": "cgm_modd_z",
+      "people": 4366,
+      "meals": null,
+      "meal_sd": null,
+      "person_sha256": null,
+      "estimate": 0.6375,
+      "ci_low": 0.6104,
+      "ci_high": 0.6646,
+      "se": null,
+      "p": null,
+      "q": 0.0,
+      "spearman": 0.6534,
+      "display": {
+        "people": "4366",
+        "estimate": "0.6375",
+        "ci_low": "0.6104",
+        "ci_high": "0.6646",
+        "q": "0",
+        "rho": "0.6534"
+      },
+      "q_displayed_zero": true,
+      "q_zero_note": "Terminal displays0; preserve computational/display zero without inventing unavailable exponent",
+      "status": "ESTIMATED",
+      "status_source": "explicit status column",
+      "unit": "original whole-CGM Z per1 paired-sample SD of personal meal measure",
+      "family": "joint_bridge_60",
+      "planned_family_size": 60,
+      "inference": "BASE-adjusted HC3; pointwise95%CI; Spearman unadjusted",
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_204226_page26.png"
+      ],
+      "source_pages": [
+        26
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "meal_sd",
+        "person_sha256",
+        "se",
+        "p"
+      ],
+      "already_seen_focus_row": true
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "bridge",
+      "setting": "joint",
+      "branch": "bridge",
+      "model": "BASE_adjusted",
+      "diet": null,
+      "meal_measure": "positive_mean",
+      "meal_label": "positive",
+      "cgm": "SD_ROC",
+      "cgm_field": "cgm_sd_roc",
+      "cgm_field_source": "frozen inputs.py CGM20",
+      "outcome": "cgm_sd_roc_z",
+      "people": 4370,
+      "meals": null,
+      "meal_sd": null,
+      "person_sha256": null,
+      "estimate": 0.5294,
+      "ci_low": 0.5017,
+      "ci_high": 0.5571,
+      "se": null,
+      "p": null,
+      "q": 5.533e-266,
+      "spearman": 0.5288,
+      "display": {
+        "people": "4370",
+        "estimate": "0.5294",
+        "ci_low": "0.5017",
+        "ci_high": "0.5571",
+        "q": "5.533e-266",
+        "rho": "0.5288"
+      },
+      "q_displayed_zero": false,
+      "q_zero_note": null,
+      "status": "ESTIMATED",
+      "status_source": "explicit status column",
+      "unit": "original whole-CGM Z per1 paired-sample SD of personal meal measure",
+      "family": "joint_bridge_60",
+      "planned_family_size": 60,
+      "inference": "BASE-adjusted HC3; pointwise95%CI; Spearman unadjusted",
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_204226_page26.png"
+      ],
+      "source_pages": [
+        26
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "meal_sd",
+        "person_sha256",
+        "se",
+        "p"
+      ],
+      "already_seen_focus_row": false
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "bridge",
+      "setting": "joint",
+      "branch": "bridge",
+      "model": "BASE_adjusted",
+      "diet": null,
+      "meal_measure": "positive_mean",
+      "meal_label": "positive",
+      "cgm": "SDhhmm",
+      "cgm_field": "cgm_sdhhmm",
+      "cgm_field_source": "frozen inputs.py CGM20",
+      "outcome": "cgm_sdhhmm_z",
+      "people": 4370,
+      "meals": null,
+      "meal_sd": null,
+      "person_sha256": null,
+      "estimate": 0.5919,
+      "ci_low": 0.5668,
+      "ci_high": 0.6169,
+      "se": null,
+      "p": null,
+      "q": 0.0,
+      "spearman": 0.5812,
+      "display": {
+        "people": "4370",
+        "estimate": "0.5919",
+        "ci_low": "0.5668",
+        "ci_high": "0.6169",
+        "q": "0",
+        "rho": "0.5812"
+      },
+      "q_displayed_zero": true,
+      "q_zero_note": "Terminal displays0; preserve computational/display zero without inventing unavailable exponent",
+      "status": "ESTIMATED",
+      "status_source": "explicit status column",
+      "unit": "original whole-CGM Z per1 paired-sample SD of personal meal measure",
+      "family": "joint_bridge_60",
+      "planned_family_size": 60,
+      "inference": "BASE-adjusted HC3; pointwise95%CI; Spearman unadjusted",
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_204226_page26.png"
+      ],
+      "source_pages": [
+        26
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "meal_sd",
+        "person_sha256",
+        "se",
+        "p"
+      ],
+      "already_seen_focus_row": false
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "bridge",
+      "setting": "joint",
+      "branch": "bridge",
+      "model": "BASE_adjusted",
+      "diet": null,
+      "meal_measure": "positive_mean",
+      "meal_label": "positive",
+      "cgm": "SDw",
+      "cgm_field": "cgm_sdw",
+      "cgm_field_source": "frozen inputs.py CGM20",
+      "outcome": "cgm_sdw_z",
+      "people": 4367,
+      "meals": null,
+      "meal_sd": null,
+      "person_sha256": null,
+      "estimate": 0.7227,
+      "ci_low": 0.7003,
+      "ci_high": 0.745,
+      "se": null,
+      "p": null,
+      "q": 0.0,
+      "spearman": 0.7395,
+      "display": {
+        "people": "4367",
+        "estimate": "0.7227",
+        "ci_low": "0.7003",
+        "ci_high": "0.745",
+        "q": "0",
+        "rho": "0.7395"
+      },
+      "q_displayed_zero": true,
+      "q_zero_note": "Terminal displays0; preserve computational/display zero without inventing unavailable exponent",
+      "status": "ESTIMATED",
+      "status_source": "explicit status column",
+      "unit": "original whole-CGM Z per1 paired-sample SD of personal meal measure",
+      "family": "joint_bridge_60",
+      "planned_family_size": 60,
+      "inference": "BASE-adjusted HC3; pointwise95%CI; Spearman unadjusted",
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_204249_pages27-30-31.png"
+      ],
+      "source_pages": [
+        27
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "meal_sd",
+        "person_sha256",
+        "se",
+        "p"
+      ],
+      "already_seen_focus_row": true
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "bridge",
+      "setting": "joint",
+      "branch": "bridge",
+      "model": "BASE_adjusted",
+      "diet": null,
+      "meal_measure": "positive_mean",
+      "meal_label": "positive",
+      "cgm": "SDwsh",
+      "cgm_field": "cgm_sdwsh",
+      "cgm_field_source": "frozen inputs.py CGM20",
+      "outcome": "cgm_sdwsh_z",
+      "people": 4370,
+      "meals": null,
+      "meal_sd": null,
+      "person_sha256": null,
+      "estimate": 0.525,
+      "ci_low": 0.4968,
+      "ci_high": 0.5531,
+      "se": null,
+      "p": null,
+      "q": 6.804e-255,
+      "spearman": 0.5285,
+      "display": {
+        "people": "4370",
+        "estimate": "0.525",
+        "ci_low": "0.4968",
+        "ci_high": "0.5531",
+        "q": "6.804e-255",
+        "rho": "0.5285"
+      },
+      "q_displayed_zero": false,
+      "q_zero_note": null,
+      "status": "ESTIMATED",
+      "status_source": "explicit status column",
+      "unit": "original whole-CGM Z per1 paired-sample SD of personal meal measure",
+      "family": "joint_bridge_60",
+      "planned_family_size": 60,
+      "inference": "BASE-adjusted HC3; pointwise95%CI; Spearman unadjusted",
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_204249_pages27-30-31.png"
+      ],
+      "source_pages": [
+        27
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "meal_sd",
+        "person_sha256",
+        "se",
+        "p"
+      ],
+      "already_seen_focus_row": false
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "bridge",
+      "setting": "joint",
+      "branch": "bridge",
+      "model": "BASE_adjusted",
+      "diet": null,
+      "meal_measure": "positive_mean",
+      "meal_label": "positive",
+      "cgm": "TAR140",
+      "cgm_field": "cgm_above_140",
+      "cgm_field_source": "frozen inputs.py CGM20",
+      "outcome": "cgm_above_140_z",
+      "people": 4319,
+      "meals": null,
+      "meal_sd": null,
+      "person_sha256": null,
+      "estimate": 0.481,
+      "ci_low": 0.4536,
+      "ci_high": 0.5084,
+      "se": null,
+      "p": null,
+      "q": 1.517e-228,
+      "spearman": 0.5857,
+      "display": {
+        "people": "4319",
+        "estimate": "0.481",
+        "ci_low": "0.4536",
+        "ci_high": "0.5084",
+        "q": "1.517e-228",
+        "rho": "0.5857"
+      },
+      "q_displayed_zero": false,
+      "q_zero_note": null,
+      "status": "ESTIMATED",
+      "status_source": "explicit status column",
+      "unit": "original whole-CGM Z per1 paired-sample SD of personal meal measure",
+      "family": "joint_bridge_60",
+      "planned_family_size": 60,
+      "inference": "BASE-adjusted HC3; pointwise95%CI; Spearman unadjusted",
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_204249_pages27-30-31.png"
+      ],
+      "source_pages": [
+        27
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "meal_sd",
+        "person_sha256",
+        "se",
+        "p"
+      ],
+      "already_seen_focus_row": false
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "bridge",
+      "setting": "joint",
+      "branch": "bridge",
+      "model": "BASE_adjusted",
+      "diet": null,
+      "meal_measure": "positive_mean",
+      "meal_label": "positive",
+      "cgm": "TAR180",
+      "cgm_field": "cgm_above_180",
+      "cgm_field_source": "frozen inputs.py CGM20",
+      "outcome": "cgm_above_180_z",
+      "people": 4370,
+      "meals": null,
+      "meal_sd": null,
+      "person_sha256": null,
+      "estimate": 0.1288,
+      "ci_low": 0.08588,
+      "ci_high": 0.1718,
+      "se": null,
+      "p": null,
+      "q": 4.802e-09,
+      "spearman": 0.4377,
+      "display": {
+        "people": "4370",
+        "estimate": "0.1288",
+        "ci_low": "0.08588",
+        "ci_high": "0.1718",
+        "q": "4.802e-09",
+        "rho": "0.4377"
+      },
+      "q_displayed_zero": false,
+      "q_zero_note": null,
+      "status": "ESTIMATED",
+      "status_source": "explicit status column",
+      "unit": "original whole-CGM Z per1 paired-sample SD of personal meal measure",
+      "family": "joint_bridge_60",
+      "planned_family_size": 60,
+      "inference": "BASE-adjusted HC3; pointwise95%CI; Spearman unadjusted",
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_204249_pages27-30-31.png"
+      ],
+      "source_pages": [
+        27
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "meal_sd",
+        "person_sha256",
+        "se",
+        "p"
+      ],
+      "already_seen_focus_row": false
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "bridge",
+      "setting": "joint",
+      "branch": "bridge",
+      "model": "BASE_adjusted",
+      "diet": null,
+      "meal_measure": "positive_mean",
+      "meal_label": "positive",
+      "cgm": "HBGI",
+      "cgm_field": "cgm_hbgi",
+      "cgm_field_source": "frozen inputs.py CGM20",
+      "outcome": "cgm_hbgi_z",
+      "people": 4312,
+      "meals": null,
+      "meal_sd": null,
+      "person_sha256": null,
+      "estimate": 0.4548,
+      "ci_low": 0.4266,
+      "ci_high": 0.483,
+      "se": null,
+      "p": null,
+      "q": 3.551e-197,
+      "spearman": 0.5628,
+      "display": {
+        "people": "4312",
+        "estimate": "0.4548",
+        "ci_low": "0.4266",
+        "ci_high": "0.483",
+        "q": "3.551e-197",
+        "rho": "0.5628"
+      },
+      "q_displayed_zero": false,
+      "q_zero_note": null,
+      "status": "ESTIMATED",
+      "status_source": "explicit status column",
+      "unit": "original whole-CGM Z per1 paired-sample SD of personal meal measure",
+      "family": "joint_bridge_60",
+      "planned_family_size": 60,
+      "inference": "BASE-adjusted HC3; pointwise95%CI; Spearman unadjusted",
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_204249_pages27-30-31.png"
+      ],
+      "source_pages": [
+        27
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "meal_sd",
+        "person_sha256",
+        "se",
+        "p"
+      ],
+      "already_seen_focus_row": false
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "bridge",
+      "setting": "joint",
+      "branch": "bridge",
+      "model": "BASE_adjusted",
+      "diet": null,
+      "meal_measure": "positive_mean",
+      "meal_label": "positive",
+      "cgm": "LBGI",
+      "cgm_field": "cgm_lbgi",
+      "cgm_field_source": "frozen inputs.py CGM20",
+      "outcome": "cgm_lbgi_z",
+      "people": 4367,
+      "meals": null,
+      "meal_sd": null,
+      "person_sha256": null,
+      "estimate": -0.08227,
+      "ci_low": -0.1066,
+      "ci_high": -0.05789,
+      "se": null,
+      "p": null,
+      "q": 4.664e-11,
+      "spearman": -0.1118,
+      "display": {
+        "people": "4367",
+        "estimate": "-0.08227",
+        "ci_low": "-0.1066",
+        "ci_high": "-0.05789",
+        "q": "4.664e-11",
+        "rho": "-0.1118"
+      },
+      "q_displayed_zero": false,
+      "q_zero_note": null,
+      "status": "ESTIMATED",
+      "status_source": "explicit status column",
+      "unit": "original whole-CGM Z per1 paired-sample SD of personal meal measure",
+      "family": "joint_bridge_60",
+      "planned_family_size": 60,
+      "inference": "BASE-adjusted HC3; pointwise95%CI; Spearman unadjusted",
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_204249_pages27-30-31.png"
+      ],
+      "source_pages": [
+        27
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "meal_sd",
+        "person_sha256",
+        "se",
+        "p"
+      ],
+      "already_seen_focus_row": false
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "bridge",
+      "setting": "joint",
+      "branch": "bridge",
+      "model": "BASE_adjusted",
+      "diet": null,
+      "meal_measure": "positive_mean",
+      "meal_label": "positive",
+      "cgm": "ADRR",
+      "cgm_field": "cgm_adrr",
+      "cgm_field_source": "frozen inputs.py CGM20",
+      "outcome": "cgm_adrr_z",
+      "people": 4370,
+      "meals": null,
+      "meal_sd": null,
+      "person_sha256": null,
+      "estimate": 0.2597,
+      "ci_low": 0.2332,
+      "ci_high": 0.2863,
+      "se": null,
+      "p": null,
+      "q": 1.961e-78,
+      "spearman": 0.2167,
+      "display": {
+        "people": "4370",
+        "estimate": "0.2597",
+        "ci_low": "0.2332",
+        "ci_high": "0.2863",
+        "q": "1.961e-78",
+        "rho": "0.2167"
+      },
+      "q_displayed_zero": false,
+      "q_zero_note": null,
+      "status": "ESTIMATED",
+      "status_source": "explicit status column",
+      "unit": "original whole-CGM Z per1 paired-sample SD of personal meal measure",
+      "family": "joint_bridge_60",
+      "planned_family_size": 60,
+      "inference": "BASE-adjusted HC3; pointwise95%CI; Spearman unadjusted",
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_204249_pages27-30-31.png"
+      ],
+      "source_pages": [
+        27
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "meal_sd",
+        "person_sha256",
+        "se",
+        "p"
+      ],
+      "already_seen_focus_row": false
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "bridge",
+      "setting": "joint",
+      "branch": "bridge",
+      "model": "BASE_adjusted",
+      "diet": null,
+      "meal_measure": "positive_mean",
+      "meal_label": "positive",
+      "cgm": "COGI",
+      "cgm_field": "cgm_cogi",
+      "cgm_field_source": "frozen inputs.py CGM20",
+      "outcome": "cgm_cogi_z",
+      "people": 4370,
+      "meals": null,
+      "meal_sd": null,
+      "person_sha256": null,
+      "estimate": -0.003463,
+      "ci_low": -0.03011,
+      "ci_high": 0.02318,
+      "se": null,
+      "p": null,
+      "q": 0.7989,
+      "spearman": -0.01959,
+      "display": {
+        "people": "4370",
+        "estimate": "-0.003463",
+        "ci_low": "-0.03011",
+        "ci_high": "0.02318",
+        "q": "0.7989",
+        "rho": "-0.01959"
+      },
+      "q_displayed_zero": false,
+      "q_zero_note": null,
+      "status": "ESTIMATED",
+      "status_source": "explicit status column",
+      "unit": "original whole-CGM Z per1 paired-sample SD of personal meal measure",
+      "family": "joint_bridge_60",
+      "planned_family_size": 60,
+      "inference": "BASE-adjusted HC3; pointwise95%CI; Spearman unadjusted",
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_204249_pages27-30-31.png"
+      ],
+      "source_pages": [
+        27
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "meal_sd",
+        "person_sha256",
+        "se",
+        "p"
+      ],
+      "already_seen_focus_row": false
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "bridge",
+      "setting": "joint",
+      "branch": "bridge",
+      "model": "BASE_adjusted",
+      "diet": null,
+      "meal_measure": "positive_mean",
+      "meal_label": "positive",
+      "cgm": "GRADE",
+      "cgm_field": "cgm_grade",
+      "cgm_field_source": "frozen inputs.py CGM20",
+      "outcome": "cgm_grade_z",
+      "people": 4350,
+      "meals": null,
+      "meal_sd": null,
+      "person_sha256": null,
+      "estimate": 0.2915,
+      "ci_low": 0.2603,
+      "ci_high": 0.3228,
+      "se": null,
+      "p": null,
+      "q": 7.019e-72,
+      "spearman": 0.3568,
+      "display": {
+        "people": "4350",
+        "estimate": "0.2915",
+        "ci_low": "0.2603",
+        "ci_high": "0.3228",
+        "q": "7.019e-72",
+        "rho": "0.3568"
+      },
+      "q_displayed_zero": false,
+      "q_zero_note": null,
+      "status": "ESTIMATED",
+      "status_source": "explicit status column",
+      "unit": "original whole-CGM Z per1 paired-sample SD of personal meal measure",
+      "family": "joint_bridge_60",
+      "planned_family_size": 60,
+      "inference": "BASE-adjusted HC3; pointwise95%CI; Spearman unadjusted",
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_204249_pages27-30-31.png"
+      ],
+      "source_pages": [
+        27
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "meal_sd",
+        "person_sha256",
+        "se",
+        "p"
+      ],
+      "already_seen_focus_row": false
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "bridge",
+      "setting": "joint",
+      "branch": "bridge",
+      "model": "BASE_adjusted",
+      "diet": null,
+      "meal_measure": "positive_mean",
+      "meal_label": "positive",
+      "cgm": "GRADE_eugly",
+      "cgm_field": "cgm_grade_eugly",
+      "cgm_field_source": "frozen inputs.py CGM20",
+      "outcome": "cgm_grade_eugly_z",
+      "people": 4370,
+      "meals": null,
+      "meal_sd": null,
+      "person_sha256": null,
+      "estimate": -0.2546,
+      "ci_low": -0.2808,
+      "ci_high": -0.2284,
+      "se": null,
+      "p": null,
+      "q": 1.555e-77,
+      "spearman": -0.2636,
+      "display": {
+        "people": "4370",
+        "estimate": "-0.2546",
+        "ci_low": "-0.2808",
+        "ci_high": "-0.2284",
+        "q": "1.555e-77",
+        "rho": "-0.2636"
+      },
+      "q_displayed_zero": false,
+      "q_zero_note": null,
+      "status": "ESTIMATED",
+      "status_source": "explicit status column",
+      "unit": "original whole-CGM Z per1 paired-sample SD of personal meal measure",
+      "family": "joint_bridge_60",
+      "planned_family_size": 60,
+      "inference": "BASE-adjusted HC3; pointwise95%CI; Spearman unadjusted",
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_204249_pages27-30-31.png"
+      ],
+      "source_pages": [
+        27
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "meal_sd",
+        "person_sha256",
+        "se",
+        "p"
+      ],
+      "already_seen_focus_row": false
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "mean_increment",
+      "model": "background",
+      "model_label": "BG",
+      "diet": "AHEI",
+      "people": 4595,
+      "meals": null,
+      "estimate": 0.06197,
+      "ci_low": -0.1169,
+      "ci_high": 0.2408,
+      "p": null,
+      "q": 0.6793,
+      "display": {
+        "people": "4595",
+        "estimate": "0.06197",
+        "ci_low": "-0.1169",
+        "ci_high": "0.2408",
+        "q": "0.6793"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_204249_pages27-30-31.png"
+      ],
+      "source_pages": [
+        31
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "status_source": "Explicit ESTIMATED in detailed adjustment page",
+      "inference": "HC3; pointwise95%CI; q over70 adjustment specs within source_primary; fixed participants/meals across5 adjustment specifications"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "mean_increment",
+      "model": "background",
+      "model_label": "BG",
+      "diet": "AMED",
+      "people": 4595,
+      "meals": null,
+      "estimate": 0.1244,
+      "ci_low": -0.05129,
+      "ci_high": 0.3001,
+      "p": null,
+      "q": 0.4129,
+      "display": {
+        "people": "4595",
+        "estimate": "0.1244",
+        "ci_low": "-0.05129",
+        "ci_high": "0.3001",
+        "q": "0.4129"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_204249_pages27-30-31.png"
+      ],
+      "source_pages": [
+        31
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "status_source": "Explicit ESTIMATED in detailed adjustment page",
+      "inference": "HC3; pointwise95%CI; q over70 adjustment specs within source_primary; fixed participants/meals across5 adjustment specifications"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "mean_increment",
+      "model": "background",
+      "model_label": "BG",
+      "diet": "hPDI",
+      "people": 5393,
+      "meals": null,
+      "estimate": -0.07313,
+      "ci_low": -0.2373,
+      "ci_high": 0.09108,
+      "p": null,
+      "q": 0.661,
+      "display": {
+        "people": "5393",
+        "estimate": "-0.07313",
+        "ci_low": "-0.2373",
+        "ci_high": "0.09108",
+        "q": "0.661"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_204249_pages27-30-31.png"
+      ],
+      "source_pages": [
+        31
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "status_source": "Explicit ESTIMATED in detailed adjustment page",
+      "inference": "HC3; pointwise95%CI; q over70 adjustment specs within source_primary; fixed participants/meals across5 adjustment specifications"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "mean_increment",
+      "model": "background",
+      "model_label": "BG",
+      "diet": "rEDIH",
+      "people": 4595,
+      "meals": null,
+      "estimate": -0.0896,
+      "ci_low": -0.295,
+      "ci_high": 0.1158,
+      "p": null,
+      "q": 0.661,
+      "display": {
+        "people": "4595",
+        "estimate": "-0.0896",
+        "ci_low": "-0.295",
+        "ci_high": "0.1158",
+        "q": "0.661"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_204249_pages27-30-31.png"
+      ],
+      "source_pages": [
+        31
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "status_source": "Explicit ESTIMATED in detailed adjustment page",
+      "inference": "HC3; pointwise95%CI; q over70 adjustment specs within source_primary; fixed participants/meals across5 adjustment specifications"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "mean_increment",
+      "model": "background",
+      "model_label": "BG",
+      "diet": "EAT13",
+      "people": 4504,
+      "meals": null,
+      "estimate": 0.06711,
+      "ci_low": -0.1141,
+      "ci_high": 0.2483,
+      "p": null,
+      "q": 0.661,
+      "display": {
+        "people": "4504",
+        "estimate": "0.06711",
+        "ci_low": "-0.1141",
+        "ci_high": "0.2483",
+        "q": "0.661"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_204249_pages27-30-31.png"
+      ],
+      "source_pages": [
+        31
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "status_source": "Explicit ESTIMATED in detailed adjustment page",
+      "inference": "HC3; pointwise95%CI; q over70 adjustment specs within source_primary; fixed participants/meals across5 adjustment specifications"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "mean_increment",
+      "model": "background",
+      "model_label": "BG",
+      "diet": "NOVA4",
+      "people": 4102,
+      "meals": null,
+      "estimate": 0.451,
+      "ci_low": 0.267,
+      "ci_high": 0.6351,
+      "p": null,
+      "q": 1.119e-05,
+      "display": {
+        "people": "4102",
+        "estimate": "0.451",
+        "ci_low": "0.267",
+        "ci_high": "0.6351",
+        "q": "1.119e-05"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_204249_pages27-30-31.png"
+      ],
+      "source_pages": [
+        31
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "status_source": "Explicit ESTIMATED in detailed adjustment page",
+      "inference": "HC3; pointwise95%CI; q over70 adjustment specs within source_primary; fixed participants/meals across5 adjustment specifications"
+    },
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "branch": "A",
+      "outcome": "mean_increment",
+      "model": "background",
+      "model_label": "BG",
+      "diet": "Carbohydrate_pct",
+      "people": 4573,
+      "meals": null,
+      "estimate": 0.9505,
+      "ci_low": 0.788,
+      "ci_high": 1.113,
+      "p": null,
+      "q": 8.526e-29,
+      "display": {
+        "people": "4573",
+        "estimate": "0.9505",
+        "ci_low": "0.788",
+        "ci_high": "1.113",
+        "q": "8.526e-29"
+      },
+      "status": "ESTIMATED",
+      "unit": "mg/dL per original personal diet Z",
+      "family": "source_primary_adjustment_70",
+      "planned_family_size": 70,
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_204249_pages27-30-31.png"
+      ],
+      "source_pages": [
+        31
+      ],
+      "precision_significant_digits": 4,
+      "unknown_fields": [
+        "meals",
+        "p"
+      ],
+      "status_source": "Explicit ESTIMATED in detailed adjustment page",
+      "inference": "HC3; pointwise95%CI; q over70 adjustment specs within source_primary; fixed participants/meals across5 adjustment specifications"
+    }
+  ],
+  "new_unique_model_specs": 16,
+  "repeated_focus_specs": 4,
+  "existing_adjustment_specs_enriched": 7,
+  "new_ci_pairs": 23,
+  "new_q_values": 23,
+  "duplicate_checks": [
+    {
+      "analysis": "bridge",
+      "setting": "joint",
+      "meal_measure": "positive_mean",
+      "cgm": "Mean",
+      "page": 26,
+      "all_displayed_numeric_fields_match": true
+    },
+    {
+      "analysis": "bridge",
+      "setting": "joint",
+      "meal_measure": "positive_mean",
+      "cgm": "CV",
+      "page": 26,
+      "all_displayed_numeric_fields_match": true
+    },
+    {
+      "analysis": "bridge",
+      "setting": "joint",
+      "meal_measure": "positive_mean",
+      "cgm": "MODD",
+      "page": 26,
+      "all_displayed_numeric_fields_match": true
+    },
+    {
+      "analysis": "bridge",
+      "setting": "joint",
+      "meal_measure": "positive_mean",
+      "cgm": "SDw",
+      "page": 27,
+      "all_displayed_numeric_fields_match": true
+    },
+    {
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "outcome": "mean_increment",
+      "model": "background",
+      "diet": "AHEI",
+      "page": 31,
+      "estimate_and_people_match": true,
+      "newly_observed_fields": [
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "outcome": "mean_increment",
+      "model": "background",
+      "diet": "AMED",
+      "page": 31,
+      "estimate_and_people_match": true,
+      "newly_observed_fields": [
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "outcome": "mean_increment",
+      "model": "background",
+      "diet": "hPDI",
+      "page": 31,
+      "estimate_and_people_match": true,
+      "newly_observed_fields": [
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "outcome": "mean_increment",
+      "model": "background",
+      "diet": "rEDIH",
+      "page": 31,
+      "estimate_and_people_match": true,
+      "newly_observed_fields": [
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "outcome": "mean_increment",
+      "model": "background",
+      "diet": "EAT13",
+      "page": 31,
+      "estimate_and_people_match": true,
+      "newly_observed_fields": [
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "outcome": "mean_increment",
+      "model": "background",
+      "diet": "NOVA4",
+      "page": 31,
+      "estimate_and_people_match": true,
+      "newly_observed_fields": [
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    },
+    {
+      "analysis": "adjustment",
+      "setting": "source_primary",
+      "outcome": "mean_increment",
+      "model": "background",
+      "diet": "Carbohydrate_pct",
+      "page": 31,
+      "estimate_and_people_match": true,
+      "newly_observed_fields": [
+        "ci_low",
+        "ci_high",
+        "q"
+      ]
+    }
+  ],
+  "run_status_confirmations": [
+    {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "source_pages": [
+        30
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_204249_pages27-30-31.png"
+      ],
+      "displayed_text": "所有计划规格均成功估计。",
+      "all_planned_specs_estimated": true,
+      "unestimated_reason_rows_displayed": 0,
+      "note": "Run status only; not a new estimate or confirmation that every model is significant/valid"
+    }
+  ],
+  "notes": [
+    "20joint positive bridge rows plus7original-net background adjustment rows;16new unique specs,4bridge duplicates,7existing specs enriched.",
+    "Page30 explicitly confirms all planned specifications successfully estimated; not all significant and not all inferential fields reviewed.",
+    "All7 diet scores retained on page31. q70 for adjustments differs from q60 bridge and q21 positive models.",
+    "Only screenshots and rounded values archived; no server download or model rerun."
+  ],
+  "prior_quality_endpoint_checks": [
+    {
+      "diet": "AHEI",
+      "people_estimate_ci_match_at_current_precision": true,
+      "q_compared": false,
+      "q_note": "Old/new FDR family differs; current q comes only from page31"
+    },
+    {
+      "diet": "AMED",
+      "people_estimate_ci_match_at_current_precision": true,
+      "q_compared": false,
+      "q_note": "Old/new FDR family differs; current q comes only from page31"
+    },
+    {
+      "diet": "hPDI",
+      "people_estimate_ci_match_at_current_precision": true,
+      "q_compared": false,
+      "q_note": "Old/new FDR family differs; current q comes only from page31"
+    },
+    {
+      "diet": "rEDIH",
+      "people_estimate_ci_match_at_current_precision": true,
+      "q_compared": false,
+      "q_note": "Old/new FDR family differs; current q comes only from page31"
+    },
+    {
+      "diet": "EAT13",
+      "people_estimate_ci_match_at_current_precision": true,
+      "q_compared": false,
+      "q_note": "Old/new FDR family differs; current q comes only from page31"
+    },
+    {
+      "diet": "NOVA4",
+      "people_estimate_ci_match_at_current_precision": true,
+      "q_compared": false,
+      "q_note": "Old/new FDR family differs; current q comes only from page31"
+    },
+    {
+      "diet": "Carbohydrate_pct",
+      "people_estimate_ci_match_at_current_precision": true,
+      "q_compared": false,
+      "q_note": "Old/new FDR family differs; current q comes only from page31"
+    }
+  ],
+  "derived_positive_comparison": {
+    "description": "Descriptive arithmetic from rounded coefficients, not an equivalence/difference test",
+    "largest_absolute_original_joint_beta_difference": 0.0075,
+    "largest_difference_cgm": "GRADE_eugly",
+    "q_supported_per_group": 19,
+    "unsupported_cgm": "COGI"
+  }
+}

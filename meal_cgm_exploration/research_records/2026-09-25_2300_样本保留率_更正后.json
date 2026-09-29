@@ -1,0 +1,170 @@
+{
+  "run_id": "quality_timecourse_20260925T130549_263963Z",
+  "source": "Displayed integer counts; joint B hPDI corrected by re-reading original screenshots; percentages derived locally, not server estimates",
+  "rows": [
+    {
+      "branch": "A",
+      "diet": "AHEI",
+      "source_people": 4595,
+      "joint_people": 4370,
+      "people_retention_pct": 95.10337323177367,
+      "source_meals": 114792,
+      "joint_meals": 103007,
+      "meals_retention_pct": 89.73360512927731
+    },
+    {
+      "branch": "A",
+      "diet": "AMED",
+      "source_people": 4595,
+      "joint_people": 4370,
+      "people_retention_pct": 95.10337323177367,
+      "source_meals": 114792,
+      "joint_meals": 103007,
+      "meals_retention_pct": 89.73360512927731
+    },
+    {
+      "branch": "A",
+      "diet": "hPDI",
+      "source_people": 5393,
+      "joint_people": 4627,
+      "people_retention_pct": 85.79640274429816,
+      "source_meals": 125986,
+      "joint_meals": 107103,
+      "meals_retention_pct": 85.01182671090439
+    },
+    {
+      "branch": "A",
+      "diet": "rEDIH",
+      "source_people": 4595,
+      "joint_people": 4370,
+      "people_retention_pct": 95.10337323177367,
+      "source_meals": 114792,
+      "joint_meals": 103007,
+      "meals_retention_pct": 89.73360512927731
+    },
+    {
+      "branch": "A",
+      "diet": "EAT13",
+      "source_people": 4504,
+      "joint_people": 4282,
+      "people_retention_pct": 95.07104795737122,
+      "source_meals": 112465,
+      "joint_meals": 100903,
+      "meals_retention_pct": 89.71946827902013
+    },
+    {
+      "branch": "A",
+      "diet": "NOVA4",
+      "source_people": 4102,
+      "joint_people": 3913,
+      "people_retention_pct": 95.39249146757679,
+      "source_meals": 103106,
+      "joint_meals": 92655,
+      "meals_retention_pct": 89.8638294570636
+    },
+    {
+      "branch": "A",
+      "diet": "Carbohydrate_pct",
+      "source_people": 4573,
+      "joint_people": 4349,
+      "people_retention_pct": 95.10168379619506,
+      "source_meals": 114425,
+      "joint_meals": 102677,
+      "meals_retention_pct": 89.73301289053965
+    },
+    {
+      "branch": "B",
+      "diet": "AHEI",
+      "source_people": 4409,
+      "joint_people": 4196,
+      "people_retention_pct": 95.16897255613517,
+      "source_meals": 112999,
+      "joint_meals": 101329,
+      "meals_retention_pct": 89.67247497765467
+    },
+    {
+      "branch": "B",
+      "diet": "AMED",
+      "source_people": 4409,
+      "joint_people": 4196,
+      "people_retention_pct": 95.16897255613517,
+      "source_meals": 112999,
+      "joint_meals": 101329,
+      "meals_retention_pct": 89.67247497765467
+    },
+    {
+      "branch": "B",
+      "diet": "hPDI",
+      "source_people": 4970,
+      "joint_people": 4424,
+      "people_retention_pct": 89.01408450704226,
+      "source_meals": 122387,
+      "joint_meals": 105200,
+      "meals_retention_pct": 85.95684182143528
+    },
+    {
+      "branch": "B",
+      "diet": "rEDIH",
+      "source_people": 4409,
+      "joint_people": 4196,
+      "people_retention_pct": 95.16897255613517,
+      "source_meals": 112999,
+      "joint_meals": 101329,
+      "meals_retention_pct": 89.67247497765467
+    },
+    {
+      "branch": "B",
+      "diet": "EAT13",
+      "source_people": 4322,
+      "joint_people": 4111,
+      "people_retention_pct": 95.11800092549746,
+      "source_meals": 110726,
+      "joint_meals": 99269,
+      "meals_retention_pct": 89.6528367321135
+    },
+    {
+      "branch": "B",
+      "diet": "NOVA4",
+      "source_people": 3943,
+      "joint_people": 3763,
+      "people_retention_pct": 95.43494800913011,
+      "source_meals": 101555,
+      "joint_meals": 91186,
+      "meals_retention_pct": 89.78976909064053
+    },
+    {
+      "branch": "B",
+      "diet": "Carbohydrate_pct",
+      "source_people": 4391,
+      "joint_people": 4180,
+      "people_retention_pct": 95.1947164654976,
+      "source_meals": 112665,
+      "joint_meals": 101040,
+      "meals_retention_pct": 89.68180002662761
+    }
+  ],
+  "corrections": [
+    {
+      "record_key": {
+        "analysis": "quality",
+        "setting": "joint",
+        "branch": "B",
+        "outcome": "mean_increment",
+        "model": "carb_interaction",
+        "diet": "hPDI"
+      },
+      "field": "meals",
+      "previous_value": 105260,
+      "corrected_value": 105200,
+      "evidence": [
+        "截屏2026-09-25 21.34.55.png",
+        "截屏2026-09-25 23.00.34.png"
+      ],
+      "reason": "Local screenshot transcription error; re-read original mean screenshot and new peak screenshot, both show105200.",
+      "affected_derived_value": "joint B hPDI meal retention percentage",
+      "model_estimates_changed": false,
+      "historical_snapshots_preserved": true
+    }
+  ],
+  "current_model_snapshot": "quality_timecourse_累计133项已展示结果_截图精度.json"
+}

@@ -1,0 +1,313 @@
+{
+  "status": "PASS",
+  "scope": "Local archived displayed-value checks and figure; not server model validation",
+  "new_model_fits": 0,
+  "new_p_q_computations": 0,
+  "existing_source_JSON_modified": false,
+  "displayed_precision_only": true,
+  "checks": [
+    {
+      "check": "nutrition_displayed_rows",
+      "actual": 302,
+      "expected": 302,
+      "status": "PASS"
+    },
+    {
+      "check": "response_displayed_rows",
+      "actual": 42,
+      "expected": 42,
+      "status": "PASS"
+    },
+    {
+      "check": "date_split_displayed_rows",
+      "actual": 24,
+      "expected": 24,
+      "status": "PASS"
+    },
+    {
+      "check": "unique_nutrition_specs",
+      "actual": 302,
+      "expected": 302,
+      "status": "PASS"
+    },
+    {
+      "check": "nutrition_CI_contains_estimate",
+      "actual": true,
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "check": "unique_date_specs",
+      "actual": 24,
+      "expected": 24,
+      "status": "PASS"
+    },
+    {
+      "check": "positive_date_associations",
+      "actual": 24,
+      "expected": 24,
+      "status": "PASS"
+    },
+    {
+      "check": "date_primary_q24_pass",
+      "actual": 24,
+      "expected": 24,
+      "status": "PASS"
+    },
+    {
+      "check": "date_delta_negative",
+      "actual": 24,
+      "expected": 24,
+      "status": "PASS"
+    },
+    {
+      "check": "date_delta_q24_pass",
+      "actual": 20,
+      "expected": 20,
+      "status": "PASS"
+    },
+    {
+      "check": "volatility_specs",
+      "actual": 18,
+      "expected": 18,
+      "status": "PASS"
+    },
+    {
+      "check": "volatility_delta_q_pass",
+      "actual": 18,
+      "expected": 18,
+      "status": "PASS"
+    },
+    {
+      "check": "gut_displayed_models",
+      "actual": 36,
+      "expected": 36,
+      "status": "PASS"
+    },
+    {
+      "check": "gut_meal_models",
+      "actual": 24,
+      "expected": 24,
+      "status": "PASS"
+    },
+    {
+      "check": "unique_gut_meal_specs",
+      "actual": 24,
+      "expected": 24,
+      "status": "PASS"
+    },
+    {
+      "check": "gut_CI_contains_estimate",
+      "actual": true,
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "check": "primary_common_q_support_pre_net_peak",
+      "actual": [
+        3,
+        0,
+        0
+      ],
+      "expected": [
+        3,
+        0,
+        0
+      ],
+      "status": "PASS"
+    },
+    {
+      "check": "strict_common_q_support_pre_net_peak",
+      "actual": [
+        3,
+        2,
+        0
+      ],
+      "expected": [
+        3,
+        2,
+        0
+      ],
+      "status": "PASS"
+    },
+    {
+      "check": "timing_bins_total_Main_Meals",
+      "actual": 3631,
+      "expected": 3631,
+      "status": "PASS"
+    },
+    {
+      "check": "timing_position_total_Main_Meals",
+      "actual": 3631,
+      "expected": 3631,
+      "status": "PASS"
+    },
+    {
+      "check": "timing_bins_total_Main_CGM",
+      "actual": 3631,
+      "expected": 3631,
+      "status": "PASS"
+    },
+    {
+      "check": "timing_position_total_Main_CGM",
+      "actual": 3631,
+      "expected": 3631,
+      "status": "PASS"
+    },
+    {
+      "check": "timing_bins_total_Strict_Meals",
+      "actual": 3398,
+      "expected": 3398,
+      "status": "PASS"
+    },
+    {
+      "check": "timing_position_total_Strict_Meals",
+      "actual": 3398,
+      "expected": 3398,
+      "status": "PASS"
+    },
+    {
+      "check": "timing_bins_total_Strict_CGM",
+      "actual": 3398,
+      "expected": 3398,
+      "status": "PASS"
+    },
+    {
+      "check": "timing_position_total_Strict_CGM",
+      "actual": 3398,
+      "expected": 3398,
+      "status": "PASS"
+    },
+    {
+      "check": "known_gut_dates",
+      "actual": 3575,
+      "expected": 3575,
+      "status": "PASS"
+    },
+    {
+      "check": "after_CGM",
+      "actual": 3532,
+      "expected": 3532,
+      "status": "PASS"
+    },
+    {
+      "check": "after_CGM_median_IQR",
+      "actual": [
+        7,
+        9,
+        12
+      ],
+      "expected": [
+        7,
+        9,
+        12
+      ],
+      "status": "PASS"
+    },
+    {
+      "check": "main_single_visit_match",
+      "actual": 3575,
+      "expected": 3575,
+      "status": "PASS"
+    },
+    {
+      "check": "source_JSON_unchanged",
+      "actual": {
+        "nutrition": "b618424f657a7f799b9169e717345e12d118d5825a8f77599bfd791f2de7089d",
+        "response": "d6fac7ae6083bec02f64f160132b969b51b828c3026614d16c7d28dc5875d028",
+        "date_split": "933a70eff66ac4fff064b4c0385aa1b89f03e8c1f09b9218ddbbbe0d664784af",
+        "gut": "0a05f3cd45e95982ca95fad5577134ff846aaaa56ec4757436c3e2aeccc33ff5",
+        "timing": "c019ee21d2416fc289c38723ee40080913923016ad3f7a49c1ae94d324861fed",
+        "early": "8be7b22c8bc303b60e4a68cf45c0159e278edabe417a7272ebe60372b631a326"
+      },
+      "expected": {
+        "nutrition": "b618424f657a7f799b9169e717345e12d118d5825a8f77599bfd791f2de7089d",
+        "response": "d6fac7ae6083bec02f64f160132b969b51b828c3026614d16c7d28dc5875d028",
+        "date_split": "933a70eff66ac4fff064b4c0385aa1b89f03e8c1f09b9218ddbbbe0d664784af",
+        "gut": "0a05f3cd45e95982ca95fad5577134ff846aaaa56ec4757436c3e2aeccc33ff5",
+        "timing": "c019ee21d2416fc289c38723ee40080913923016ad3f7a49c1ae94d324861fed",
+        "early": "8be7b22c8bc303b60e4a68cf45c0159e278edabe417a7272ebe60372b631a326"
+      },
+      "status": "PASS"
+    }
+  ],
+  "derived_descriptions": {
+    "volatility_decrease_percent_min": 6.473509933774835,
+    "volatility_decrease_percent_max": 8.7858347386172,
+    "after_CGM_percent_known": 98.7972027972028
+  },
+  "sources": [
+    {
+      "label": "nutrition",
+      "path": "nutrition_bridge_累计已展示结果_截图精度.json",
+      "sha256": "b618424f657a7f799b9169e717345e12d118d5825a8f77599bfd791f2de7089d"
+    },
+    {
+      "label": "response",
+      "path": "2026-09-28_response_followup_三份摘要_截图精度.json",
+      "sha256": "d6fac7ae6083bec02f64f160132b969b51b828c3026614d16c7d28dc5875d028"
+    },
+    {
+      "label": "date_split",
+      "path": "2026-09-28_date_split_bridge_三份摘要_截图精度.json",
+      "sha256": "933a70eff66ac4fff064b4c0385aa1b89f03e8c1f09b9218ddbbbe0d664784af"
+    },
+    {
+      "label": "gut",
+      "path": "2026-09-29_菌群餐前餐后衔接结果/截图数值转录.json",
+      "sha256": "0a05f3cd45e95982ca95fad5577134ff846aaaa56ec4757436c3e2aeccc33ff5"
+    },
+    {
+      "label": "timing",
+      "path": "2026-09-29_菌群餐前餐后衔接结果/时间核对_截图转录.json",
+      "sha256": "c019ee21d2416fc289c38723ee40080913923016ad3f7a49c1ae94d324861fed"
+    },
+    {
+      "label": "early",
+      "path": "2026-09-29_完整研究盘点与分析报告/早期真实结果_核对转录.json",
+      "sha256": "8be7b22c8bc303b60e4a68cf45c0159e278edabe417a7272ebe60372b631a326"
+    }
+  ],
+  "figure_files": [
+    {
+      "path": "figures/Figure5_gut_meal.png",
+      "sha256": "253182db315de3bac72b618b47d23c928283353c510a6f7768e043999e905986"
+    },
+    {
+      "path": "figures/Figure5_gut_meal.svg",
+      "sha256": "87f53ada481b0b66526f0fa7e9b520ce3e235705f9413239cabf07b06f7572c1"
+    }
+  ],
+  "limitations": [
+    "No raw individual data or full precision model files locally",
+    "No exact stool sample/date linkage verified",
+    "Strict/joint are overlapping sensitivity samples",
+    "CI and q are retained from original declared families"
+  ],
+  "markdown_links_checked": 162,
+  "markdown_link_errors": [],
+  "reference_hashes_checked": 10,
+  "reference_hash_errors": [],
+  "figure_visual_review": "Passed: titles, all 24 intervals, marker fills, taxon names and footnotes reviewed; no clipping.",
+  "local_data_scope": {
+    "full_outputs_present": false,
+    "gut_processing_directory_present": false,
+    "local_metadata_rows": 31,
+    "local_metadata_identity_columns_present": false
+  },
+  "allowed_existing_document_updates": [
+    "来源与待补文件.md",
+    "研究结论总览.md",
+    "2026-09-29_完整研究盘点与分析报告/研究模块盘点.json",
+    "2026-09-29_完整研究盘点与分析报告/证据来源索引.md",
+    "2026-09-29_完整研究盘点与分析报告/README.md",
+    "2026-09-29_完整研究盘点与分析报告/研究结果总表.md",
+    "2026-09-29_完整研究盘点与分析报告/结果引用清单.json",
+    "2026-09-29_完整研究盘点与分析报告/一页核心结论.md",
+    "2026-09-29_完整研究盘点与分析报告/完整中文分析报告.md"
+  ],
+  "unexpected_archived_changes": [],
+  "historical_snapshot": "history/2026-09-29_纳入菌群时间核对前",
+  "upload_required_this_round": false,
+  "figure_data_rows": 24
+}

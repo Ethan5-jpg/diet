@@ -1,0 +1,200 @@
+{
+  "run_id": "nutrition_bridge_20260926T071736_080048Z",
+  "data_kind": "REAL",
+  "evidence_cutoff": "2026-09-27 21:44:55 Asia/Shanghai",
+  "completion_scope": "All302 displayed point estimates, pointwise95%CI, andq. Does not include unshown rawp/SE, mealcounts or bridge scaling/membership fields.",
+  "pages_received": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54
+  ],
+  "pending_pages": [],
+  "pages_identified_from_context": [
+    8
+  ],
+  "unique_models": 302,
+  "module_counts": {
+    "adjustment": 140,
+    "positive": 42,
+    "bridge": 120
+  },
+  "estimate_ci_q_each": 302,
+  "adjustment_group_coverage": [
+    {
+      "setting": "source_primary",
+      "outcome": "mean_increment",
+      "specs_with_estimate": 35,
+      "specs_with_ci": 35,
+      "specs_with_q": 35,
+      "planned_specs": 35
+    },
+    {
+      "setting": "source_primary",
+      "outcome": "peak_rise_0_120",
+      "specs_with_estimate": 35,
+      "specs_with_ci": 35,
+      "specs_with_q": 35,
+      "planned_specs": 35
+    },
+    {
+      "setting": "joint",
+      "outcome": "mean_increment",
+      "specs_with_estimate": 35,
+      "specs_with_ci": 35,
+      "specs_with_q": 35,
+      "planned_specs": 35
+    },
+    {
+      "setting": "joint",
+      "outcome": "peak_rise_0_120",
+      "specs_with_estimate": 35,
+      "specs_with_ci": 35,
+      "specs_with_q": 35,
+      "planned_specs": 35
+    }
+  ],
+  "bridge_groups": [
+    {
+      "setting": "source_primary",
+      "meal_measure": "mean_increment",
+      "unique_phenotypes": 20,
+      "q_below_0_05": 19,
+      "unsupported": [
+        "COGI"
+      ]
+    },
+    {
+      "setting": "source_primary",
+      "meal_measure": "peak_rise_0_120",
+      "unique_phenotypes": 20,
+      "q_below_0_05": 19,
+      "unsupported": [
+        "COGI"
+      ]
+    },
+    {
+      "setting": "source_primary",
+      "meal_measure": "positive_mean",
+      "unique_phenotypes": 20,
+      "q_below_0_05": 19,
+      "unsupported": [
+        "COGI"
+      ]
+    },
+    {
+      "setting": "joint",
+      "meal_measure": "mean_increment",
+      "unique_phenotypes": 20,
+      "q_below_0_05": 19,
+      "unsupported": [
+        "COGI"
+      ]
+    },
+    {
+      "setting": "joint",
+      "meal_measure": "peak_rise_0_120",
+      "unique_phenotypes": 20,
+      "q_below_0_05": 19,
+      "unsupported": [
+        "COGI"
+      ]
+    },
+    {
+      "setting": "joint",
+      "meal_measure": "positive_mean",
+      "unique_phenotypes": 20,
+      "q_below_0_05": 19,
+      "unsupported": [
+        "COGI"
+      ]
+    }
+  ],
+  "descriptive_row_counts": {
+    "diagnostic_rows": 14,
+    "bridge_flow_rows": 8,
+    "response_distribution_rows": 28,
+    "score_nutrient_correlation_rows": 42
+  },
+  "all_numeric_display_pairs_consistent": true,
+  "all_numeric_ci_ordering_valid": true,
+  "all_model_keys_unique": true,
+  "all_status_estimated": true,
+  "all_rows_have_source_pages_and_images": true,
+  "all_seven_diets_present_per_adjustment_and_positive_group": true,
+  "same_people_count_across_each_diet_adjustment_sequence": true,
+  "bridge_q_displayed_zero_count": 26,
+  "nutrition_bridge_source_image_count": 36,
+  "archive_image_count_after_update": 71,
+  "preexisting_archive_files_verified": 193,
+  "final_archive_files_expected": 203,
+  "preexisting_hash_mismatches": 0,
+  "new_coefficient_rows": 0,
+  "new_ci_pairs": 21,
+  "new_q_values": 14,
+  "known_q_matches": 7,
+  "new_transcription_corrections": 0,
+  "historical_correction_records": [
+    "2026-09-27_1404_HBGI衔接人数转录更正.md",
+    "2026-09-27_1436_原净增量第17页三处转录更正.md",
+    "2026-09-27_2129_joint净增量AMED完整模型q转录更正.md",
+    "2026-09-26_1557_旧NOVA4背景峰值转录更正.md",
+    "2026-09-27_2112_旧joint背景rEDIH区间转录更正.md"
+  ],
+  "full_precision_server_files_downloaded": false,
+  "model_rerun": false,
+  "unshown_fields_remain_unknown": true,
+  "index": "2026-09-27_nutrition_bridge_54页完整归档与分析入口.md",
+  "cumulative_data": "nutrition_bridge_累计已展示结果_截图精度.json",
+  "backup_manifest": "BACKUP_MANIFEST.json"
+}

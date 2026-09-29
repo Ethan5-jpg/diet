@@ -1,0 +1,16 @@
+{
+  "version": "2026.09.25.3",
+  "files": {
+    "followup/README.md": "65c97b45dc11cb28060254168dce87635fa67cf93ba47a48cb4272fcfbd10493",
+    "followup/REVIEW_2026-09-25.md": "2da57a3e1ada6d2a6b36f939cb1464b89672f1d0333dd01f054175222cbdc66b",
+    "followup/VALIDATION.md": "9ec16d3218012ae606b8ff97e62508b2fd9cd605bcf49389faf79e51a92cd655",
+    "followup/__init__.py": "9925787119627fa147852a2596b16ec727d3c96085973d490df9ca531970b8a3",
+    "followup/io_utils.py": "95f19cb1c9a85063529318fa6af0443b461170fcc9dc5c4f5db3fc806aab4841",
+    "followup/prediction.py": "bbdd962a8be8ab09b84ab7cbc99e85858d69c659b77cc3cb43f6350f945e36e1",
+    "followup/repeats.py": "96c538bcf5f5117f5fc0f456b79bbb7aa36c4f750ebd96d43e702d6fbe995714",
+    "followup/reporting.py": "abfb09202eeb87eb913471accc52b93f4716f020e7ec2711402fc31f12445e46",
+    "followup/run_repeated.py": "21a4d61b94065f875463197931cfcc7d3174187cd595b068830052207ae988a7",
+    "followup/run_repeated.sh": "d0a6b20c1e04ec625063cd89861e1f18e756440a633234b0b8288ced6d1e49f1",
+    "followup/tests/test_followup.py": "c533a4b9d1cae4ab18b2071e03c324475e2be9ec6728e0018698bf61ae7c86b0"
+  }
+}

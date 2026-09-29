@@ -1,0 +1,17 @@
+{
+  "run_id": "date_split_bridge_20260928T154342_539217Z",
+  "data_kind": "REAL",
+  "input_name": "2026-09-28_date_split_bridge_三份摘要_截图精度.json",
+  "input_sha256": "933a70eff66ac4fff064b4c0385aa1b89f03e8c1f09b9218ddbbbe0d664784af",
+  "script_sha256": "e8f488432dff88533faed80354adc2d2fae6d6e5c944fcec1dcbfcbe875e68e6",
+  "all_primary_rows": 24,
+  "all_paired_contrasts": 24,
+  "q_recomputed": false,
+  "new_models_fitted": false,
+  "precision": "Model estimates, interval endpoints and q use 3 significant digits; stored display strings preserve formatting; q=0(display) stored as null+flag, not exact zero probability",
+  "outputs": {
+    "Figure4_date_split.png": "ee4f193ddfb112de48eca42e118cbd8dfb2d2ee5070f8884213a6e3763a783f6",
+    "Figure4_date_split.pdf": "736a9518f3ac3a03e3e0ddfa58d510edf65ab78ccfedf2cbeeb8c03de92740a1",
+    "Figure4_date_split.svg": "d3618847621f3e3c891cd0bc0b19e77c971d216396f64f7b33245cda2972f0c5"
+  }
+}

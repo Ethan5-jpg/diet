@@ -1,0 +1,2056 @@
+{
+  "date": "2026-09-25",
+  "scope": "Research conclusions, screenshot display transcriptions, and source images; not full server result files",
+  "server_result_csv_downloaded": false,
+  "screenshot_image_files_copied": true,
+  "latest_update_evidence": "2026-09-28 23:56:02 Asia/Shanghai; all3 date_split_bridge key summaries,REAL",
+  "image_count": 77,
+  "transcribed_quality_rows": 91,
+  "previous_seven_rows": 42,
+  "archive_verification": {
+    "status": "PASS",
+    "prior_entries_verified": 302,
+    "prior_mismatches": [],
+    "note": "All prior bytes/SHA256 verified before writes. Living records and manifest backed up; scientific JSON, historical images, figures and analysis packages unchanged."
+  },
+  "analysis_package_manifest_checks": [
+    {
+      "package": "original",
+      "checked_hashes": 27,
+      "status": "MATCH"
+    },
+    {
+      "package": "followup",
+      "checked_hashes": 11,
+      "status": "MATCH"
+    },
+    {
+      "package": "seven_diet_meals",
+      "checked_hashes": 11,
+      "status": "MATCH"
+    },
+    {
+      "package": "quality_timecourse",
+      "checked_hashes": 27,
+      "status": "MATCH"
+    },
+    {
+      "package": "nutrition_bridge",
+      "checked_hashes": 34,
+      "status": "MATCH"
+    }
+  ],
+  "files": {
+    "2026-09-25_211656_quality_timecourse_完成记录.md": {
+      "bytes": 1518,
+      "sha256": "5e67bf6f5e1ff355d5d4dbedcc7061e6f66c4142d0bcf1c2bac5fcfddc83bc8b"
+    },
+    "2026-09-25_2214_主样本A调整与峰值28项_截图精度.json": {
+      "bytes": 22565,
+      "sha256": "37cacb263718c82d4f46cb0ff96eb185f8dab2ee6b1b116290cea3e615dbde81"
+    },
+    "2026-09-25_2214_主样本调整与峰值结果解读.md": {
+      "bytes": 8680,
+      "sha256": "65bcfb06905c8e33cc06bc4f6e1c0859438b190567f252ee07ab28291afb63dd"
+    },
+    "2026-09-25_2225_joint调整与峰值28项_截图精度.json": {
+      "bytes": 23448,
+      "sha256": "ac326354afed10c455fb2d09953c07e2aca0df56b1959aa08b0727a96a8f53f8"
+    },
+    "2026-09-25_2225_joint调整与峰值结果解读.md": {
+      "bytes": 7688,
+      "sha256": "e3c7deade129f18185f7e0d22f39c795d6f375e64407f60b3dbc483da8b1e079"
+    },
+    "2026-09-25_2235_数值诊断与筛选人群解读.md": {
+      "bytes": 5955,
+      "sha256": "e6c45f92a65fbd188957bc98857d6c2d2dbd8f2ea87a7f51c4d01f5b64fc2b8f"
+    },
+    "2026-09-25_2235_条件数与选择人群_截图精度.json": {
+      "bytes": 15627,
+      "sha256": "c6d5c0605f38c09d00f8c56f13decb0e8b6be423a9d7fb434f936fd71dd6ca61"
+    },
+    "2026-09-25_2300_B峰值14项_截图精度.json": {
+      "bytes": 11776,
+      "sha256": "fa98288da5fcc20a544f1f8499a1bbcef8bdfaa02a63817a43868861e2bfd819"
+    },
+    "2026-09-25_2300_B峰值交互结果解读.md": {
+      "bytes": 5465,
+      "sha256": "2f444d4e8f29e2d4036ae59002b30e90e84fa5a0bfbfb0104264c94f6a3dc4fb"
+    },
+    "2026-09-25_2300_样本保留率_更正后.json": {
+      "bytes": 4835,
+      "sha256": "3b059341b626f0cc53a9a3de5c39c914e65743a080dcbd37babbf7ab5afcf2e8"
+    },
+    "2026-09-25_quality_timecourse_真实结果解读.md": {
+      "bytes": 16883,
+      "sha256": "f6e6e741211da72eabd0091eede85f5bc9243c1848dbb920a539cf4c2107b187"
+    },
+    "2026-09-25_阶段成果总结_七项饮食与餐次血糖.md": {
+      "bytes": 8911,
+      "sha256": "d11dc07e6a793b0ad8907d7cace9b437fe27fefff6b97e788bdf93099f979268"
+    },
+    "2026-09-26_152533_nutrition_bridge_完成记录.md": {
+      "bytes": 1941,
+      "sha256": "55f0e6c3408dde516f3572226ddacf123c33e1befcadefff25c3ab001a3d0019"
+    },
+    "2026-09-26_154124_nutrition_bridge_目录复核与分页命令.md": {
+      "bytes": 1657,
+      "sha256": "f311095ed1bd0f0fc79bf55e6c8d9727274501e7afb339ad10866e62a36e018b"
+    },
+    "2026-09-26_154401_nutrition_bridge_净增量分步70项_截图精度.json": {
+      "bytes": 85153,
+      "sha256": "1d13b8d4e339e25ab00fc4eff30e14cc57456278eee045268c4b4c29ae91cfaa"
+    },
+    "2026-09-26_154401_nutrition_bridge_净增量分步调整解读.md": {
+      "bytes": 5562,
+      "sha256": "42602c99c89359f0b797acce98c5a1ba819adf24f55bd56fcf17baa3b5130601"
+    },
+    "2026-09-26_1550_nutrition_bridge_正增量A28项_截图精度.json": {
+      "bytes": 46734,
+      "sha256": "f0ea679e1d2977f3d19fe9db7164db897c7d1c2460b3448ba77b6827c18af118"
+    },
+    "2026-09-26_1550_nutrition_bridge_正增量A结果解读.md": {
+      "bytes": 7850,
+      "sha256": "a160193c402dd7dcee673098b776454be986f9d2689b0ecf09e044ceab070bcd"
+    },
+    "2026-09-26_1557_nutrition_bridge_峰值与正增量B84项_截图精度.json": {
+      "bytes": 104217,
+      "sha256": "fb76bacea50fbf2010b05f44791a41c79f8ef57de02aa8f8be4b3e386b9e5ce2"
+    },
+    "2026-09-26_1557_nutrition_bridge_峰值分步与正增量交互解读.md": {
+      "bytes": 8629,
+      "sha256": "cfe604b9906c3ec03dbcc5602165e940cabb08a6278c385965634481a6e94f1f"
+    },
+    "2026-09-26_1557_旧NOVA4背景峰值转录更正.md": {
+      "bytes": 1426,
+      "sha256": "bf8e25d25815254bebac7da048161ceb338932b2f46e6c11e96fd42b41dc394e"
+    },
+    "2026-09-26_1607_nutrition_bridge_诊断14项与重点衔接24项_截图精度.json": {
+      "bytes": 70500,
+      "sha256": "23a671a396fb1e5749389190e20e5dba0749961450fa3003ffba66d3537f4510"
+    },
+    "2026-09-26_1607_nutrition_bridge_诊断与整体CGM重点衔接解读.md": {
+      "bytes": 8962,
+      "sha256": "7134db8eb1d3d6320761bb25e6a67320d1394603ef7e53807416c522ebd7f5d8"
+    },
+    "2026-09-26_1628_nutrition_bridge_样本流失面积差与营养相关解读.md": {
+      "bytes": 10480,
+      "sha256": "0c047d4b0e52dbb19a724c09d0e3b49678eb52d21093978fda2c1e41c99a0ca3"
+    },
+    "2026-09-26_1628_nutrition_bridge_样本面积差与营养相关64项_截图精度.json": {
+      "bytes": 72895,
+      "sha256": "43855d260343310c58f3c585182ac76eb125b40620cf23c8b43abf6821b025af"
+    },
+    "2026-09-26_2234_nutrition_bridge_正增量分布与原净增量20项衔接_截图精度.json": {
+      "bytes": 60782,
+      "sha256": "e13d6e0ba6f9b93f445be0c1abdec4b0958464b1f2f7f2d85960d8a1d0447b75"
+    },
+    "2026-09-26_2234_nutrition_bridge_正增量分布与原净增量全CGM解读.md": {
+      "bytes": 8360,
+      "sha256": "0036b58134091d33e4cdcb3c1cb27a4dab5b8d7324e507c95d037d2ed492da7e"
+    },
+    "2026-09-26_nutrition_bridge_构建与待运行记录.md": {
+      "bytes": 1546,
+      "sha256": "67bc0d96d0fd4a259bb95f75d978131bb35e25405654a27e08953793c0ac3153"
+    },
+    "2026-09-26_下一轮结局选择与优先顺序.md": {
+      "bytes": 5146,
+      "sha256": "f8d22b7ce9880e464e6f04469fbe9582ae083a66af99fc90e667fafce1aa00fc"
+    },
+    "2026-09-26_新窗口交接_nutrition_bridge.md": {
+      "bytes": 24693,
+      "sha256": "c779fd5b20715af4b23a9b35b404bd71d4124f213e245930a898bde8d854e5aa"
+    },
+    "2026-09-26_研究结论与后续分析建议.md": {
+      "bytes": 9015,
+      "sha256": "fc00c1e227e2ba9699e85611904ea602b132d410faa2c25633dd2b78dada3df7"
+    },
+    "2026-09-26_血糖指标口径_整体CGM与餐次反应.md": {
+      "bytes": 4148,
+      "sha256": "3b2beea34b30bcc48ba79a72c3c2224633112abf69c6cbddad47eaaddfd8e501"
+    },
+    "2026-09-27_1404_HBGI衔接人数转录更正.md": {
+      "bytes": 1320,
+      "sha256": "f0a250b7793ff0e05fa1d7670ecd88665da916acbf9eece612e3c9d6a3415994"
+    },
+    "2026-09-27_1404_nutrition_bridge_原峰值正增量40项衔接_截图精度.json": {
+      "bytes": 71969,
+      "sha256": "efe72d36a6648773d283f36c04ba50925ef583eb49bb920b93eb6c6df2b41e18"
+    },
+    "2026-09-27_1404_nutrition_bridge_原样本三类餐反应全CGM解读.md": {
+      "bytes": 11823,
+      "sha256": "d77e00d20f1cdcd9fbeeb8af857d68ca6b5b09ec9596fc55e053a75d36ffccd5"
+    },
+    "2026-09-27_1436_nutrition_bridge_joint全20项衔接对照解读.md": {
+      "bytes": 10788,
+      "sha256": "dffe0cd011a761fb14b254bca33f0da3ad620532984b26dee8d3ad0d025f13cb"
+    },
+    "2026-09-27_1436_nutrition_bridge_joint净增量峰值40项衔接_截图精度.json": {
+      "bytes": 73786,
+      "sha256": "e0248a7dd4cf93763aa01f29e3dd9e5ace75e1a7894c12a37954eabed59e6b2d"
+    },
+    "2026-09-27_1436_原净增量第17页三处转录更正.md": {
+      "bytes": 2201,
+      "sha256": "8311d28f1095dcd9b8e5c95046d0ca10b40e87b22505bacb5c1f0edd6880832d"
+    },
+    "2026-09-27_2042_nutrition_bridge_120项衔接齐全与背景模型解读.md": {
+      "bytes": 9392,
+      "sha256": "e3e13c28b795cec75255978cd8b2447a91c82156d116353c78c6415963699145"
+    },
+    "2026-09-27_2042_nutrition_bridge_joint正增量与原背景区间27项_截图精度.json": {
+      "bytes": 48960,
+      "sha256": "ef255f9f419235c014bf336598828ff4438b64c019df802dafddde972ad6042d"
+    },
+    "2026-09-27_2056_nutrition_bridge_原净增量五规格完整解读.md": {
+      "bytes": 9980,
+      "sha256": "eee9b67b1828335951aa7fc1f4ad056dfb870c8e30fbada4b9dad1e9b5d331e3"
+    },
+    "2026-09-27_2056_nutrition_bridge_原净增量四步区间28项_截图精度.json": {
+      "bytes": 50769,
+      "sha256": "02f5bbe88ea6b000d199382049c322102e2aa64d8d1fbe66a99db29ac5ea380f"
+    },
+    "2026-09-27_2104_nutrition_bridge_原峰值四规格与净增量对照解读.md": {
+      "bytes": 9334,
+      "sha256": "6cbef29e84443fb1903c378b1e1148934d5692a14382a83f75dd578f7bb59e7d"
+    },
+    "2026-09-27_2104_nutrition_bridge_原峰值四规格区间28项_截图精度.json": {
+      "bytes": 45270,
+      "sha256": "be4c940ac7060112018d15fa0d5f0f2f16bf20a432da80730a53d1c2862d26d7"
+    },
+    "2026-09-27_2112_nutrition_bridge_原峰值完整与joint净增量28项_截图精度.json": {
+      "bytes": 48923,
+      "sha256": "c73355d03300bc9080adb074890e983a9272e65aed6d027d0215ab5f137654a7"
+    },
+    "2026-09-27_2112_nutrition_bridge_原峰值完整与joint分步解读.md": {
+      "bytes": 9639,
+      "sha256": "4bb92b1101490c393981b5205d3ca6276920f65413a12ab28330a2cf6ea5c6e7"
+    },
+    "2026-09-27_2112_旧joint背景rEDIH区间转录更正.md": {
+      "bytes": 1533,
+      "sha256": "da5588c0d6779796c4f16859389f77d739d0b2bda394e836c466ea6745f950c2"
+    },
+    "2026-09-27_2129_joint净增量AMED完整模型q转录更正.md": {
+      "bytes": 1407,
+      "sha256": "60dc6c8cba9ea67db6ea12be46b65908a247a9fb0ef063935f6e3bede99bf08c"
+    },
+    "2026-09-27_2129_nutrition_bridge_joint净增量完整与峰值背景解读.md": {
+      "bytes": 10106,
+      "sha256": "2313d438f50ecfaa8653221be36f1e64e38ddce9eae3718c33f218c59cf5b38a"
+    },
+    "2026-09-27_2129_nutrition_bridge_joint净增量补齐与峰值背景28项_截图精度.json": {
+      "bytes": 49795,
+      "sha256": "4d3aed158fa1d029475c59b87dd65b869d3bc3880e84e5fa914937eaaab0cfde"
+    },
+    "2026-09-27_2144_nutrition_bridge_54页归档核对.json": {
+      "bytes": 4470,
+      "sha256": "1538e009b120f62af32de8416b299ffc554342c2aefc9bd6eb0b0266641024ee"
+    },
+    "2026-09-27_2144_nutrition_bridge_joint峰值完整解读.md": {
+      "bytes": 8242,
+      "sha256": "dd4cdf2107108705eb5257dc0f7a282144fc8313caa330493fd89576ee0948b9"
+    },
+    "2026-09-27_2144_nutrition_bridge_joint峰值末三规格21项_截图精度.json": {
+      "bytes": 35375,
+      "sha256": "0bbf1fc10df0aec04018ca77dc633660485f3202c24a7a200d682cc5abc70018"
+    },
+    "2026-09-27_nutrition_bridge_54页完整归档与分析入口.md": {
+      "bytes": 10590,
+      "sha256": "b2e4546a92f57d17d4f2c0fffe4b1e5798f95c7e8d1ecec116844bc0429acdc0"
+    },
+    "2026-09-27_response_followup_v2_上传包清单.json": {
+      "bytes": 1116,
+      "sha256": "c1438e932037c57608309cbd5b5309fdd5e18e292460b7a3dbfb41217b1e4fad"
+    },
+    "2026-09-27_response_followup_上传包清单.json": {
+      "bytes": 1669,
+      "sha256": "88f592f778399f1900f34cc1075b8f5fc44c7c9911214ab823144f200e70808a"
+    },
+    "2026-09-27_response_followup_复查修正与三份摘要.md": {
+      "bytes": 4034,
+      "sha256": "3d3e54aaa4d755950517db9d53ee193a2b7b1acaf5cd2d8c7b944521b6bf5c3b"
+    },
+    "2026-09-27_后续研究优先顺序与执行方案.md": {
+      "bytes": 10014,
+      "sha256": "0c7a63261e42ce5453691b6a684b88c6c7434b6453fd36bd6bf8729ef432cfb6"
+    },
+    "2026-09-27_本地成果与服务器后续包交付.md": {
+      "bytes": 3754,
+      "sha256": "1ccab982d59a6cc22b9eb2d37a3405dea0beca013190a45d9aafff04e7e53c1d"
+    },
+    "2026-09-27_结果图表/Figure1_full_models.pdf": {
+      "bytes": 30984,
+      "sha256": "b7abc1b34e2bf71682f86320ae6f461d828374a3c0f4352002091d341981efd8"
+    },
+    "2026-09-27_结果图表/Figure1_full_models.png": {
+      "bytes": 107740,
+      "sha256": "64c2007e07b98758fb4a2bb0088eaf0dd528a078169d80b283cddd86f773e17e"
+    },
+    "2026-09-27_结果图表/Figure1_full_models.svg": {
+      "bytes": 55834,
+      "sha256": "8ed3712603350b96412749b1a3dea4f5345c33f98c8ce95e2d626a6c0778b27c"
+    },
+    "2026-09-27_结果图表/Figure2A_original.pdf": {
+      "bytes": 43896,
+      "sha256": "0565698876ec978578fb9391221b27e3f59d4dbc71a2f6183b10671583b76a4c"
+    },
+    "2026-09-27_结果图表/Figure2A_original.png": {
+      "bytes": 279524,
+      "sha256": "1d14576e2e42c26ba7277b344cc8c43acf425012e8aaf17180a8ac4903139c20"
+    },
+    "2026-09-27_结果图表/Figure2A_original.svg": {
+      "bytes": 166191,
+      "sha256": "43edafa618649c0660b74d8c013965fdb921bf68bfbac2dd1e6eb12c0225ef98"
+    },
+    "2026-09-27_结果图表/Figure2B_joint.pdf": {
+      "bytes": 44016,
+      "sha256": "a6219982bf335142f2605d9fca4f07dd4510ca324efc39eb699085ad90498f8d"
+    },
+    "2026-09-27_结果图表/Figure2B_joint.png": {
+      "bytes": 280375,
+      "sha256": "5b0821e5034ec00d780056335a628b99912f2884751256e788220d8833614440"
+    },
+    "2026-09-27_结果图表/Figure2B_joint.svg": {
+      "bytes": 166165,
+      "sha256": "af38edbcee58221aad85b729de8f295636507720213ff88bf4b311227b13c501"
+    },
+    "2026-09-27_结果图表/Figure3A_key_CGM.pdf": {
+      "bytes": 29304,
+      "sha256": "a917356d08e70c8c240be97d00a16326e13f4aefbb442d82301b74c29998abf1"
+    },
+    "2026-09-27_结果图表/Figure3A_key_CGM.png": {
+      "bytes": 110321,
+      "sha256": "8c24dff54455b5ef14e40ef162ec44bd09850cca1adcca4c18fa288f48e9552a"
+    },
+    "2026-09-27_结果图表/Figure3A_key_CGM.svg": {
+      "bytes": 54361,
+      "sha256": "85bbf03a298a6dfca1b85e81ba61bcd544ddb68047528c59a35a420243c50a0c"
+    },
+    "2026-09-27_结果图表/Figure3B_all20_CGM.pdf": {
+      "bytes": 42649,
+      "sha256": "03a8bac4b48eb2419224c114da83ef21d51cf44460aaccf8cabb9fb06fcd0d1d"
+    },
+    "2026-09-27_结果图表/Figure3B_all20_CGM.png": {
+      "bytes": 314574,
+      "sha256": "3527b50274839ab71991c4f332f7dfabfee10f850ffdb25780a806fbd02dad96"
+    },
+    "2026-09-27_结果图表/Figure3B_all20_CGM.svg": {
+      "bytes": 74227,
+      "sha256": "18f0bbf9876fecc539f16fa399833f012b0aca97941650e2e3ce4bde65213dba"
+    },
+    "2026-09-27_结果图表/README.md": {
+      "bytes": 1951,
+      "sha256": "17ce5912e13f9000dabf469f93e4ae909d44600a8ef5be3cc4a43ad56979b3a8"
+    },
+    "2026-09-27_结果图表/Supplement1_AMED_timecourse.pdf": {
+      "bytes": 25518,
+      "sha256": "c31ee2da47d3a4753c19b33e9f333d67f5c5831f644412ffb53d5942c2f6fa2e"
+    },
+    "2026-09-27_结果图表/Supplement1_AMED_timecourse.png": {
+      "bytes": 95867,
+      "sha256": "07b41e54a4b6adf5d75ef3cb417d2dea6d352e8c13b5fee6e002aa2099052bd1"
+    },
+    "2026-09-27_结果图表/Supplement1_AMED_timecourse.svg": {
+      "bytes": 23276,
+      "sha256": "8f40124d612eccaa84b7d0a1f8ec6b9b49a5bd834f63105301e0d29b8467de1a"
+    },
+    "2026-09-27_结果图表/artifact_provenance.json": {
+      "bytes": 1064389,
+      "sha256": "3c4056eab83ce77bf8bf1e661a77be3b7ea7dd3dfc961dfa989adde566b3d6c8"
+    },
+    "2026-09-27_结果图表/七项饮食证据总表.md": {
+      "bytes": 10441,
+      "sha256": "fe983f79a0cfee80a6cd66c041afd2e15bc3f3be0a385f2fce483a882a115106"
+    },
+    "2026-09-27_阶段发现总结与证据分层.md": {
+      "bytes": 12164,
+      "sha256": "37a540b4ef51a3a849bbaefd4bb378fde460b7ad9e6bd118c6d384cb3a2d7965"
+    },
+    "2026-09-28_date_split_bridge_v2_复查核对.json": {
+      "bytes": 2044,
+      "sha256": "f42e378fda29c3fcd463ef4f7fc096d55f94357f8b18808b7420b26ec2cac1cb"
+    },
+    "2026-09-28_date_split_bridge_三份摘要_截图精度.json": {
+      "bytes": 30797,
+      "sha256": "933a70eff66ac4fff064b4c0385aa1b89f03e8c1f09b9218ddbbbe0d664784af"
+    },
+    "2026-09-28_date_split_bridge_上传与固定方案.md": {
+      "bytes": 2950,
+      "sha256": "8d28be067a85c5735cd970658488db1677b4f82a96ac44f6f494f07bd6cc2b6f"
+    },
+    "2026-09-28_date_split_bridge_交付核查.json": {
+      "bytes": 8430,
+      "sha256": "f329aad9fdfa7e0796ec8e106a5b6e1aada758fe9ad813606dd88c9e68adecfc"
+    },
+    "2026-09-28_date_split_bridge_再次复查与启动修正.md": {
+      "bytes": 2678,
+      "sha256": "4fc84de694fc5d74c22771e6d78ddc56fac4bfaadc215eec03490addafa91147"
+    },
+    "2026-09-28_date_split_bridge_摘要核对.json": {
+      "bytes": 6175,
+      "sha256": "420f1138cc9b4302fa8066440ada03e38a7c04472014b91c43eec48e6ed7ec66"
+    },
+    "2026-09-28_date_split_bridge_真实结果解读.md": {
+      "bytes": 7802,
+      "sha256": "04c57bed08eac536aa5e034ea10ee9f59cae1a8a5839d6ad30528adf03f221e4"
+    },
+    "2026-09-28_response_followup_三份摘要_截图精度.json": {
+      "bytes": 58654,
+      "sha256": "d6fac7ae6083bec02f64f160132b969b51b828c3026614d16c7d28dc5875d028"
+    },
+    "2026-09-28_response_followup_摘要核对.json": {
+      "bytes": 11185,
+      "sha256": "e02dde8c2dea3845c52fe04463a42fec4e00c3165e74cccc8af88e45635ba963"
+    },
+    "2026-09-28_response_followup_真实结果解读.md": {
+      "bytes": 6752,
+      "sha256": "6babf4726d283c422f940bbfe2631f05fa952f9878dd7c1cf4dbf749bffd3d3a"
+    },
+    "2026-09-28_日期分离分析下一步方案.md": {
+      "bytes": 3273,
+      "sha256": "11535716317e8f8eacb836a5613aaf1aab532b9b9fb403f7103704f4a004805f"
+    },
+    "2026-09-28_日期分离结果图/Figure4_date_split.pdf": {
+      "bytes": 34991,
+      "sha256": "736a9518f3ac3a03e3e0ddfa58d510edf65ab78ccfedf2cbeeb8c03de92740a1"
+    },
+    "2026-09-28_日期分离结果图/Figure4_date_split.png": {
+      "bytes": 185049,
+      "sha256": "ee4f193ddfb112de48eca42e118cbd8dfb2d2ee5070f8884213a6e3763a783f6"
+    },
+    "2026-09-28_日期分离结果图/Figure4_date_split.svg": {
+      "bytes": 61752,
+      "sha256": "d3618847621f3e3c891cd0bc0b19e77c971d216396f64f7b33245cda2972f0c5"
+    },
+    "2026-09-28_日期分离结果图/README.md": {
+      "bytes": 1447,
+      "sha256": "2f9e0f1adeed765444a75aabbf24324fa4bc69935c63469275a9966c7e703fb7"
+    },
+    "2026-09-28_日期分离结果图/artifact_provenance.json": {
+      "bytes": 950,
+      "sha256": "c1e5af22d00955f18a0fa6fa9105917903baa656a009b6a9e8b73cb101992a6e"
+    },
+    "2026-09-28_日期分离结果图/plot_date_split.py": {
+      "bytes": 4294,
+      "sha256": "e8f488432dff88533faed80354adc2d2fae6d6e5c944fcec1dcbfcbe875e68e6"
+    },
+    "2026-09-29_研究结果整合/QA.json": {
+      "bytes": 2794,
+      "sha256": "3ee78395774ce65a0ed7193e06ae83ac8d6c13e95a59262c257e2eff0492386e"
+    },
+    "2026-09-29_研究结果整合/README.md": {
+      "bytes": 5101,
+      "sha256": "90c9b4423dc3ee95b1d614a163bcef0fc414701ce4df4c053c32bc3bbaa22067"
+    },
+    "2026-09-29_研究结果整合/artifact_provenance.json": {
+      "bytes": 21996,
+      "sha256": "00a67fbb65f7fb256def0ce88c58cc74ff8ff5637ddd08da27d871228f53b4e8"
+    },
+    "2026-09-29_研究结果整合/build_integration.py": {
+      "bytes": 12896,
+      "sha256": "c03b84ec818eb6971f22653f5e0bbf57fe87b7ee6563390f17925b36821bcef6"
+    },
+    "2026-09-29_研究结果整合/evidence_rows.json": {
+      "bytes": 334816,
+      "sha256": "aa9470f7c7c15ddb349127ad8c91921592847811a8e6a0ac9728877079603163"
+    },
+    "2026-09-29_研究结果整合/figures/MainFigure1_diet_response.pdf": {
+      "bytes": 40004,
+      "sha256": "1a81755335d054c9ba01c2a1308aeae10af91ff4f0e87996184fc66396e4861c"
+    },
+    "2026-09-29_研究结果整合/figures/MainFigure1_diet_response.png": {
+      "bytes": 274033,
+      "sha256": "aedd755cbefe374811a46435dcbaf4fc220ff15250e118d23da420851060bcbf"
+    },
+    "2026-09-29_研究结果整合/figures/MainFigure1_diet_response.svg": {
+      "bytes": 112256,
+      "sha256": "7d7528d589a94237c62401b756112ef2c233a227e587b52781084bfbae51253e"
+    },
+    "2026-09-29_研究结果整合/figures/MainFigure2_date_split.pdf": {
+      "bytes": 34991,
+      "sha256": "736a9518f3ac3a03e3e0ddfa58d510edf65ab78ccfedf2cbeeb8c03de92740a1"
+    },
+    "2026-09-29_研究结果整合/figures/MainFigure2_date_split.png": {
+      "bytes": 185049,
+      "sha256": "ee4f193ddfb112de48eca42e118cbd8dfb2d2ee5070f8884213a6e3763a783f6"
+    },
+    "2026-09-29_研究结果整合/figures/MainFigure2_date_split.svg": {
+      "bytes": 61752,
+      "sha256": "d3618847621f3e3c891cd0bc0b19e77c971d216396f64f7b33245cda2972f0c5"
+    },
+    "2026-09-29_研究结果整合/figures/Supplement_AMED_timecourse.pdf": {
+      "bytes": 25518,
+      "sha256": "c31ee2da47d3a4753c19b33e9f333d67f5c5831f644412ffb53d5942c2f6fa2e"
+    },
+    "2026-09-29_研究结果整合/figures/Supplement_AMED_timecourse.png": {
+      "bytes": 95867,
+      "sha256": "07b41e54a4b6adf5d75ef3cb417d2dea6d352e8c13b5fee6e002aa2099052bd1"
+    },
+    "2026-09-29_研究结果整合/figures/Supplement_AMED_timecourse.svg": {
+      "bytes": 23276,
+      "sha256": "8f40124d612eccaa84b7d0a1f8ec6b9b49a5bd834f63105301e0d29b8467de1a"
+    },
+    "2026-09-29_研究结果整合/图注与统计口径.md": {
+      "bytes": 6396,
+      "sha256": "3d109818736db280d9ca22805bd73c34be75cb68b17e0996d3400178f1ee9879"
+    },
+    "2026-09-29_研究结果整合/完整数值表.md": {
+      "bytes": 22878,
+      "sha256": "e08fc50b657b74dc76f41eb32728932a9a96c7723e8815c3c8e3148720b3b48e"
+    },
+    "2026-09-29_研究结果整合/结果稿.md": {
+      "bytes": 10246,
+      "sha256": "69f233f821a836951607e3e2dc4cd8a246eb83e7b29f815063ec21b0f6c09686"
+    },
+    "evidence/date_split_bridge_2026-09-28_235533_key1.png": {
+      "bytes": 225212,
+      "sha256": "624db12cb9b6d263f65a9e29f3a7c87d58df9060119828d48e8d842bb7c2afbd"
+    },
+    "evidence/date_split_bridge_2026-09-28_235550_key2.png": {
+      "bytes": 209105,
+      "sha256": "e848bb1706a36e25e3d7d82fd2acc4432696be6dcbfb0f1b6b098bf77f72450a"
+    },
+    "evidence/date_split_bridge_2026-09-28_235602_key3.png": {
+      "bytes": 215002,
+      "sha256": "ec83e492caf010fb45e416b75933691ce5bc39d2dcc7a4ad09f146bd8197035b"
+    },
+    "evidence/nutrition_bridge_2026-09-26_151842.png": {
+      "bytes": 54947,
+      "sha256": "712203c45c1a5a47f925fa019a8580def8cbe7b9517b5751b62aa19728b7c4ae"
+    },
+    "evidence/nutrition_bridge_2026-09-26_152533.png": {
+      "bytes": 219458,
+      "sha256": "302446adbfafa8bc331bc7440247e042a33861763f659f34580e50a6b71ad791"
+    },
+    "evidence/nutrition_bridge_2026-09-26_154124.png": {
+      "bytes": 225049,
+      "sha256": "946a9f3be8469994a9c750aa909bd2c2291dd99fc63aa03eb68a0359bf7cb16a"
+    },
+    "evidence/nutrition_bridge_2026-09-26_154401_pages02-03.png": {
+      "bytes": 300491,
+      "sha256": "b0d4b83b806b80d6872d94d783acc03c3bf696c2098a4acd8036e6ae85914156"
+    },
+    "evidence/nutrition_bridge_2026-09-26_155021_pages06-07_page09header.png": {
+      "bytes": 266010,
+      "sha256": "349d059d4dace935fb296f42f9e467748a3e04f01f578213ee95085b277805b5"
+    },
+    "evidence/nutrition_bridge_2026-09-26_155032_pages09-10.png": {
+      "bytes": 187699,
+      "sha256": "f56d0dd74d9ac26d05a6a5cd598f16badc4da7819c1b3193f766c19a404525ae"
+    },
+    "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png": {
+      "bytes": 270132,
+      "sha256": "087222451c57a3072e3ed6d100f17182e74df8b5a93f4b0bd165ef2d6ec86c7e"
+    },
+    "evidence/nutrition_bridge_2026-09-26_155728_pages08-11.png": {
+      "bytes": 187637,
+      "sha256": "166f1eb17f207eefedcebd43ad2a55880c87ee5eda491e32a26a10fd02698a7a"
+    },
+    "evidence/nutrition_bridge_2026-09-26_160708_pages12-13.png": {
+      "bytes": 167974,
+      "sha256": "5b067536d511460f91cd969c9ce35b13d0373104aee185cc1f683661548910eb"
+    },
+    "evidence/nutrition_bridge_2026-09-26_160727_pages13-14.png": {
+      "bytes": 104584,
+      "sha256": "12aa79bc42bebbc4cd075855447b7543a7b08eaa07ababa94ce31a4af1c36906"
+    },
+    "evidence/nutrition_bridge_2026-09-26_160737_pages14-15.png": {
+      "bytes": 119900,
+      "sha256": "131647c5112bff3b30ac22e9309ceab67abe5ad7ca34d9df0fe31876d97817a0"
+    },
+    "evidence/nutrition_bridge_2026-09-26_160746_pages15.png": {
+      "bytes": 114779,
+      "sha256": "742aade309d6f4e1082a878b06e99b17adc89c62646ee901ea2cfbd5d4cf19fd"
+    },
+    "evidence/nutrition_bridge_2026-09-26_162641_page28.png": {
+      "bytes": 147096,
+      "sha256": "bbe01ec8da2352bffafbfb2431d2cd7c9643f3c82ea176cb7d38fa5e5622b4a9"
+    },
+    "evidence/nutrition_bridge_2026-09-26_162657_page29.png": {
+      "bytes": 105788,
+      "sha256": "4594b1717ff1c465f3421e9b3f5bcd0ed5b741ff8fc2c5d408dd74afd00a6c4c"
+    },
+    "evidence/nutrition_bridge_2026-09-26_162818_page51.png": {
+      "bytes": 161268,
+      "sha256": "89a8d5be4407f7ca871cfc50ea08154906b014ac0481cc2ca3f16025df26c77d"
+    },
+    "evidence/nutrition_bridge_2026-09-26_162832_page52.png": {
+      "bytes": 160211,
+      "sha256": "bb6104643fae48623b142cbcbc9a3e9dca0315f0dba6f2a557ba870dc935062d"
+    },
+    "evidence/nutrition_bridge_2026-09-26_223303.png": {
+      "bytes": 143744,
+      "sha256": "905828663f7259269acbe1ed1ad4bdfdadf519181a506578532198326ce8594a"
+    },
+    "evidence/nutrition_bridge_2026-09-26_223410.png": {
+      "bytes": 172161,
+      "sha256": "46107f582010fd8258f66ee0dbe29b4568ab773d2edb14cfcd884de581db69c0"
+    },
+    "evidence/nutrition_bridge_2026-09-26_223435.png": {
+      "bytes": 128344,
+      "sha256": "8d94158e76b9804c2ab3587237aeff1cf5223d0c1e3fcc7c0b573441e053a5e0"
+    },
+    "evidence/nutrition_bridge_2026-09-26_223446.png": {
+      "bytes": 334299,
+      "sha256": "b83f0884226eb2633ae40b010a03fd1cb411f742e4cfe42bd7b3d04136edfd15"
+    },
+    "evidence/nutrition_bridge_2026-09-27_140336_page18.png": {
+      "bytes": 159163,
+      "sha256": "aa8c7a69eaef4c94f78a730958f1b7191e6255696a04e04bae00cf1a2fae3ba6"
+    },
+    "evidence/nutrition_bridge_2026-09-27_140400_page19.png": {
+      "bytes": 132426,
+      "sha256": "38ed29460d61a1773371b8e944e18eab1c0dbf98f2dd5baf0f5fe9ee4ce46d5e"
+    },
+    "evidence/nutrition_bridge_2026-09-27_140410_pages20-21.png": {
+      "bytes": 257013,
+      "sha256": "1e3fc64b9f0c0a5f7f257f0a8cbe39855b9aa7d8b93ab4483f74f6c59eea351c"
+    },
+    "evidence/nutrition_bridge_2026-09-27_143528_page22.png": {
+      "bytes": 162091,
+      "sha256": "b4a9120f5a4076de90f7e2977d91030df2040e4a7ff3866487f495918e03a6f2"
+    },
+    "evidence/nutrition_bridge_2026-09-27_143540_page23.png": {
+      "bytes": 128531,
+      "sha256": "647f626e11ad7aeaa52b37091224f9a681620e70f8b40ad389dde24561f8b7a1"
+    },
+    "evidence/nutrition_bridge_2026-09-27_143552_page24.png": {
+      "bytes": 118674,
+      "sha256": "812baabb08dd01c191470f7aa0d6b2b048cd8abbf90b85f65199a933a498f751"
+    },
+    "evidence/nutrition_bridge_2026-09-27_143601_page25.png": {
+      "bytes": 139996,
+      "sha256": "b7a6952420bdf647d94009279140887ad1242844f66bd7c45a0862f1499798e6"
+    },
+    "evidence/nutrition_bridge_2026-09-27_204226_page26.png": {
+      "bytes": 158749,
+      "sha256": "d147140d5563121e899afd59e08956d0f8bb18bd9177cd427b6b0402830ba54b"
+    },
+    "evidence/nutrition_bridge_2026-09-27_204249_pages27-30-31.png": {
+      "bytes": 266713,
+      "sha256": "3f2af39385d7021d078020bdb9a930890f6aac144c34fa32b29131aafe56293c"
+    },
+    "evidence/nutrition_bridge_2026-09-27_205635_pages32-33.png": {
+      "bytes": 242997,
+      "sha256": "809168da2a37c07f987ccde967559cbd20d9b34915ff6fb4fc5eb2d8d2872954"
+    },
+    "evidence/nutrition_bridge_2026-09-27_205645_pages34-35.png": {
+      "bytes": 207696,
+      "sha256": "66749c07add516871519821fddc996a4740772af5e286bc62c2d70925fb14e21"
+    },
+    "evidence/nutrition_bridge_2026-09-27_210428_pages36-37.png": {
+      "bytes": 247462,
+      "sha256": "cb9d03564df6ccdeb445a254109cfaa2d5d052ee3aa46f3d3890e36247374224"
+    },
+    "evidence/nutrition_bridge_2026-09-27_210438_pages38-39.png": {
+      "bytes": 208689,
+      "sha256": "b598fbb01c24ceb23afcea31986562b5e7ed9b1dc3799e493b8ae0b59da4328e"
+    },
+    "evidence/nutrition_bridge_2026-09-27_211227_pages40-41.png": {
+      "bytes": 243890,
+      "sha256": "47588dc5ba500d8ed8288944acd73e2b2a77274642781daa9046f0952f42bf97"
+    },
+    "evidence/nutrition_bridge_2026-09-27_211237_pages42-43.png": {
+      "bytes": 202392,
+      "sha256": "d1ade86e706c90bc8e07a2e75c67014d80383b7f91acd510d188e107f0c59533"
+    },
+    "evidence/nutrition_bridge_2026-09-27_212922_pages44-45.png": {
+      "bytes": 244036,
+      "sha256": "151d39e85f7db1bdf8ec41f31f058e6a925ca01a1908b055d4504bfd944cb7d6"
+    },
+    "evidence/nutrition_bridge_2026-09-27_212931_pages46-47.png": {
+      "bytes": 209758,
+      "sha256": "fe35129ef8efc81c5c4fb4d99ded6ae3540007a679288f1ad43fee2cf8ab5af2"
+    },
+    "evidence/nutrition_bridge_2026-09-27_214445_page48.png": {
+      "bytes": 136242,
+      "sha256": "91e96aa93705cfd370639865f7032dfef88d2dde30ec41e4a56fdc6861d3f141"
+    },
+    "evidence/nutrition_bridge_2026-09-27_214455_pages49-50.png": {
+      "bytes": 205518,
+      "sha256": "fd72b5ecf698a1567a2ea48b6e2e9ec182b46419d8f3d320f63dab0194fffc11"
+    },
+    "evidence/response_followup_2026-09-28_000411_key1.png": {
+      "bytes": 212955,
+      "sha256": "9961c5351e1b5f17ab27201df20b9d0d77b32197fcb6fec3e08fab9d0cac8a76"
+    },
+    "evidence/response_followup_2026-09-28_000425_key2.png": {
+      "bytes": 239282,
+      "sha256": "534ec02f68fda9df74cb9b8c1885d6430c952d7800aa21e0069a552f807fea0b"
+    },
+    "evidence/response_followup_2026-09-28_000433_key3.png": {
+      "bytes": 247745,
+      "sha256": "03bec61ad0fd0193340edc844aaedadceee57b4d97f708c697ff93fd0a2b36d4"
+    },
+    "evidence/截屏2026-09-25 00.25.19.png": {
+      "bytes": 193982,
+      "sha256": "eb80801ff6227b6560cb95efccf088446b83cd016c0743a465d6b0eeb4726301"
+    },
+    "evidence/截屏2026-09-25 00.28.08.png": {
+      "bytes": 122238,
+      "sha256": "1ab598713038023ed8e0188250075712537ead13096be7ea06f97fa0da38cdd7"
+    },
+    "evidence/截屏2026-09-25 00.28.22.png": {
+      "bytes": 172660,
+      "sha256": "5fa69f3453c072060aae91d5cc8e3659d5ef74d50eed6f8b6f45cb56e6c2a06e"
+    },
+    "evidence/截屏2026-09-25 00.28.36.png": {
+      "bytes": 200219,
+      "sha256": "a2b50a2a900d4e1092c5797cb9dd2f1587daf6332d6e819c4d42181592856177"
+    },
+    "evidence/截屏2026-09-25 00.35.55.png": {
+      "bytes": 76952,
+      "sha256": "4d80588baa25aadd970088538e2119104dd0c34f875c1ddb0da5d1246862a02c"
+    },
+    "evidence/截屏2026-09-25 00.45.23.png": {
+      "bytes": 106061,
+      "sha256": "86aed6fc8a6a86bf99af741d644dbb530dcfd9901e718e4a1a855cbe63676486"
+    },
+    "evidence/截屏2026-09-25 00.49.53.png": {
+      "bytes": 85342,
+      "sha256": "b01643061163aef9327f9f3bf2e0fe313ce42101299823a1c6b5095438e59039"
+    },
+    "evidence/截屏2026-09-25 15.45.53.png": {
+      "bytes": 176523,
+      "sha256": "d93edbea65f653c0bd6186757e3b3e1e1a5ec82f5a6bee35b6ed8facd3447532"
+    },
+    "evidence/截屏2026-09-25 15.46.58.png": {
+      "bytes": 190836,
+      "sha256": "4991306c9dddc4eafe115481d53ee2256f813c7b38002e6e135fb3a03b23c778"
+    },
+    "evidence/截屏2026-09-25 15.47.11.png": {
+      "bytes": 240891,
+      "sha256": "48b3978b81dcf3ed8d94794a68ae165e60c809afa128ac84f1aff9299dd7360d"
+    },
+    "evidence/截屏2026-09-25 15.47.21.png": {
+      "bytes": 201357,
+      "sha256": "1fe452b214bfc72c6070d56b4d733afe9b90f4c5122a3c46d89432d5c412d719"
+    },
+    "evidence/截屏2026-09-25 17.39.59.png": {
+      "bytes": 228849,
+      "sha256": "1983cb257492cb187e9c936cc0479250fc7824c9addf5fc3d4249a8dad75b001"
+    },
+    "evidence/截屏2026-09-25 17.41.21.png": {
+      "bytes": 169508,
+      "sha256": "74da5519d20beff9ed0512f31898a12a743c071918cc0ec6a1ec4ff08a49ea65"
+    },
+    "evidence/截屏2026-09-25 17.41.36.png": {
+      "bytes": 337434,
+      "sha256": "fdd0670ab0f6094fb97a34a853e7e9944b6781127d41bd5499bc8e4f638b36b4"
+    },
+    "evidence/截屏2026-09-25 17.41.46.png": {
+      "bytes": 158464,
+      "sha256": "aaa8c1060bc1cc775b8bb6e90b7dc263b6261ef3e4425908d3e9c551166a1860"
+    },
+    "evidence/截屏2026-09-25 17.46.47.png": {
+      "bytes": 233790,
+      "sha256": "66ca5c5a814dc0434fc0c851b344e841e1bb3ae7a946b5fe229c85a6dccf3ec5"
+    },
+    "evidence/截屏2026-09-25 17.52.54.png": {
+      "bytes": 153242,
+      "sha256": "b538c7449e3eab310ef0f65d928be41e4b42403f35907313f38a5d3e87d771eb"
+    },
+    "evidence/截屏2026-09-25 18.02.44.png": {
+      "bytes": 143066,
+      "sha256": "c59ce9b73a7ee04c589670a4d9744438ce93bcba072f9f334fec77aae6b6dec0"
+    },
+    "evidence/截屏2026-09-25 21.16.56.png": {
+      "bytes": 156634,
+      "sha256": "509a2f4eabbbcd9cf7d5b9bb3ba5a18891aeb3e6aba918f15d5a6dbc5d811b2a"
+    },
+    "evidence/截屏2026-09-25 21.21.11.png": {
+      "bytes": 200754,
+      "sha256": "9ca07db672b48bde5443af1ccc652cd8021e6d37d600a0c8bc33716e380d3bb9"
+    },
+    "evidence/截屏2026-09-25 21.34.09.png": {
+      "bytes": 166358,
+      "sha256": "1d6d449dd49627caa757729fb02a72d7d427ce3bc1d1edf8dbc19ac925a1d59a"
+    },
+    "evidence/截屏2026-09-25 21.34.36.png": {
+      "bytes": 189129,
+      "sha256": "22738b8b9972ee367588be010c49b3a231f4003695429b29076a9fe28b6d9f9a"
+    },
+    "evidence/截屏2026-09-25 21.34.55.png": {
+      "bytes": 189340,
+      "sha256": "43c027604cbf7a736b6ed0df892ce98e683e6f59b01b34562e879720a915ce20"
+    },
+    "evidence/截屏2026-09-25 21.35.07.png": {
+      "bytes": 167385,
+      "sha256": "02c7949c7a21061da035b86a0c5013f3dd11351a5534c89fdc8158c7be1bb419"
+    },
+    "evidence/截屏2026-09-25 21.35.17.png": {
+      "bytes": 164620,
+      "sha256": "c1fc587baec4d1a8ed918e437b10c368a5d06e6d954f4769de2c0406a0d6629e"
+    },
+    "evidence/截屏2026-09-25 21.35.32.png": {
+      "bytes": 326621,
+      "sha256": "0aa95d498a5ab416ae4116548f3ddc898eeb5adfdde96c3a5ebeb45eaad7a8da"
+    },
+    "evidence/截屏2026-09-25 22.13.44.png": {
+      "bytes": 223153,
+      "sha256": "234627b8a8a32dc00e1c0a937a25b06ccc1e435b1e699794a62cad6403cf4b29"
+    },
+    "evidence/截屏2026-09-25 22.14.05.png": {
+      "bytes": 159630,
+      "sha256": "f6ceda0108624630ceed81024788b2a67b3999a3e71ce972c86e77afcd87b199"
+    },
+    "evidence/截屏2026-09-25 22.25.34.png": {
+      "bytes": 222927,
+      "sha256": "af3206330be9f74c1df81adf706d71fb59d3fbdb07ae32bc1360a1691bba15d8"
+    },
+    "evidence/截屏2026-09-25 22.25.43.png": {
+      "bytes": 160940,
+      "sha256": "9ad7df38926e51f15227ddb23dd41288703fc2928b6c67c747bf6683b420149a"
+    },
+    "evidence/截屏2026-09-25 22.35.12.png": {
+      "bytes": 285084,
+      "sha256": "0b75a05ce59111b173b887edca9b32ffcb08a0113eb7e6ac6055eedb2dd48d6c"
+    },
+    "evidence/截屏2026-09-25 23.00.34.png": {
+      "bytes": 240357,
+      "sha256": "43d12e484de9a54bad10495e2d04f186727a4f863ea4cf8b8924d99f2309c31c"
+    },
+    "history/2026-09-25_2214前_研究结论总览.md": {
+      "bytes": 18191,
+      "sha256": "3433d8575d20d1b554a4c70c6d172de11dedaad76031ed12f3f736c592bdb208"
+    },
+    "history/2026-09-25_2225前_研究结论总览.md": {
+      "bytes": 19577,
+      "sha256": "ec076e8404db8f2ecb4aacbf9174fac7ceaddb93055ffe61f3351962f0d2995f"
+    },
+    "history/2026-09-25_2235前_研究结论总览.md": {
+      "bytes": 20264,
+      "sha256": "6c65086d00070d411a717cc1cb633201ac04e02c1323bc292c0a9784d8573875"
+    },
+    "history/2026-09-25_2300前_来源与待补文件.md": {
+      "bytes": 7344,
+      "sha256": "29c93a064724ba7ce6e7c3b910d77f7d7b1911af58d75a97ac0eb3b26c1f7c55"
+    },
+    "history/2026-09-25_2300前_研究结论总览.md": {
+      "bytes": 21433,
+      "sha256": "6da7d4d597a035de3dce92b76050dab33f6835c0d1764dfdfbd70cc8cadb7304"
+    },
+    "history/2026-09-25_七项饮食42项_更正前转录.json": {
+      "bytes": 15007,
+      "sha256": "7c59302de2fffb4127a0ee7b91a909232ca0693536a9e42c23e8f2048c2e5d25"
+    },
+    "history/2026-09-25_阶段记录快照.md": {
+      "bytes": 42134,
+      "sha256": "ec6ebe31a3409e52ff279fa1fc41f11f77dc6554aeb240add116e5192777051b"
+    },
+    "history/2026-09-26_154124归档前_BACKUP_MANIFEST.json": {
+      "bytes": 16045,
+      "sha256": "91da31b3e49857e980f17684db6f47fca989c123e034d7b897b742936da7b42f"
+    },
+    "history/2026-09-26_154124归档前_来源与待补文件.md": {
+      "bytes": 9237,
+      "sha256": "e41516d63fd462cf6a7f7691c57c5b909be16f51ca4b423d7694756e1c4c8680"
+    },
+    "history/2026-09-26_154401归档前_BACKUP_MANIFEST.json": {
+      "bytes": 17595,
+      "sha256": "7332128ca5662ce2af3127f05f5a6a6e09d036bc3fb2ff3df48c53bb09f9ea0b"
+    },
+    "history/2026-09-26_154401归档前_来源与待补文件.md": {
+      "bytes": 9663,
+      "sha256": "bd15e87c300b04df7c5c9c984243393812e74f265a956c3edbda4b9db5fb3741"
+    },
+    "history/2026-09-26_154401归档前_研究结论总览.md": {
+      "bytes": 24908,
+      "sha256": "d13a282807b85d5661ed20c093d03ff33274f8dce5078675ac5dfa95eaf19780"
+    },
+    "history/2026-09-26_1550归档前_BACKUP_MANIFEST.json": {
+      "bytes": 20035,
+      "sha256": "124cefe3d1a670e251b201d885a4e9f59be061ca3afaf5f69f5e4c44cb14fa04"
+    },
+    "history/2026-09-26_1550归档前_nutrition_bridge_累计已展示结果_截图精度.json": {
+      "bytes": 73245,
+      "sha256": "f19fd15a9bcef5d658760da0f2359500ba77f96f5ab550b1467106daac48db59"
+    },
+    "history/2026-09-26_1550归档前_来源与待补文件.md": {
+      "bytes": 10523,
+      "sha256": "77ade3a2e48b594eb86190a86ad4dcccf988e7afb537cc892fc7a61dc69be93c"
+    },
+    "history/2026-09-26_1550归档前_研究结论总览.md": {
+      "bytes": 26477,
+      "sha256": "bb38b1ceb93f92a2100f45bf7bba533a86d8ebc5e97670cdb44f9cb7c4195a4f"
+    },
+    "history/2026-09-26_1557归档前_BACKUP_MANIFEST.json": {
+      "bytes": 21810,
+      "sha256": "6e2f3b545157f82732c885a3fecde87231517d5043cb6ede0807fc171ce185b0"
+    },
+    "history/2026-09-26_1557归档前_nutrition_bridge_累计已展示结果_截图精度.json": {
+      "bytes": 113926,
+      "sha256": "3c1e37af57820f62d0e85c1027f051a896bc9a98e086544353795b6ab23c2e7c"
+    },
+    "history/2026-09-26_1557归档前_quality_timecourse_累计133项已展示结果_截图精度.json": {
+      "bytes": 101106,
+      "sha256": "f1f6038a1c6b19ffff742a765bc31eec00b46af37d75a1fa05a8df997583e639"
+    },
+    "history/2026-09-26_1557归档前_来源与待补文件.md": {
+      "bytes": 11260,
+      "sha256": "d6f273c5f49b754ad871c87c1b820899a9502b46ab2e399f708c858fa7fd42e5"
+    },
+    "history/2026-09-26_1557归档前_研究结论总览.md": {
+      "bytes": 28329,
+      "sha256": "328b38fa13d7d241d169659a2c9fd91a1dce68b47e048710e493bf19049517cd"
+    },
+    "history/2026-09-26_1607归档前_BACKUP_MANIFEST.json": {
+      "bytes": 26026,
+      "sha256": "956999a768e3c4271b0d4fbd1305b1490cb5f5268a7ba036fa4a33420bdd1740"
+    },
+    "history/2026-09-26_1607归档前_nutrition_bridge_累计已展示结果_截图精度.json": {
+      "bytes": 207573,
+      "sha256": "a3cb6bd3e8e1f5f3bc93ed10a7cab9dd9d5abe5253d846038272f9e9d0b85755"
+    },
+    "history/2026-09-26_1607归档前_来源与待补文件.md": {
+      "bytes": 12173,
+      "sha256": "f7e951b382a0a17005274ae341dede6a7b090ff2a1956fb5283a6b6f9df4fc9d"
+    },
+    "history/2026-09-26_1607归档前_研究结论总览.md": {
+      "bytes": 30239,
+      "sha256": "6f671930693bd530ce409d0b9767f2303cecbcdd78aaeb9cf16c032e7ef15921"
+    },
+    "history/2026-09-26_1628归档前_BACKUP_MANIFEST.json": {
+      "bytes": 28195,
+      "sha256": "2997dff287ef3f988397841c066704dfdacb3268b23848dada0c020d2636ddc0"
+    },
+    "history/2026-09-26_1628归档前_nutrition_bridge_累计已展示结果_截图精度.json": {
+      "bytes": 287539,
+      "sha256": "3f8f9dcf54df2375dfc1f8538b1021cdf64a51db042d52fec12cc906dfda8795"
+    },
+    "history/2026-09-26_1628归档前_来源与待补文件.md": {
+      "bytes": 12907,
+      "sha256": "dc861429a4b80dc71bebdb62c0a50bbf0ad9117c010881ee824b8ce1e936ffd0"
+    },
+    "history/2026-09-26_1628归档前_研究结论总览.md": {
+      "bytes": 32305,
+      "sha256": "ab33db40ad2c76dec5ce53cc60e5bb11f6f58f7e201859a57375ffe39a1c798a"
+    },
+    "history/2026-09-26_2234归档前_BACKUP_MANIFEST.json": {
+      "bytes": 30706,
+      "sha256": "814c700ad5ac404fa5fc6ab8fcf89e28d5a06847afff5488fd4653074baf8ac3"
+    },
+    "history/2026-09-26_2234归档前_nutrition_bridge_累计已展示结果_截图精度.json": {
+      "bytes": 360619,
+      "sha256": "fbbc5a422cd5086e03094b34491d9cc63ade458100b3bd40c3bcbee0e5f97fd4"
+    },
+    "history/2026-09-26_2234归档前_来源与待补文件.md": {
+      "bytes": 13623,
+      "sha256": "a1db8af62d96ea5add8fc78dcf5ee56df31356ed49be5d3319bd0d4f5f28e7a2"
+    },
+    "history/2026-09-26_2234归档前_研究结论总览.md": {
+      "bytes": 34280,
+      "sha256": "91d3493ec1246f623c6c6f605b153173f9516b8ceca67cae831a0e2604beedaa"
+    },
+    "history/2026-09-26_建议整理前_研究结论总览.md": {
+      "bytes": 22895,
+      "sha256": "e6374e786b7bd246a5d070099c36bc74d4755bc8af5589a4074397bebddf1181"
+    },
+    "history/2026-09-26_指标口径补充前_研究结论总览.md": {
+      "bytes": 23162,
+      "sha256": "adc83c5623fea99dc0e05125943977eb9b6e8ea9b7aef57afe017fec2729e5ab"
+    },
+    "history/2026-09-26_结局选择建议前_研究结论总览.md": {
+      "bytes": 23510,
+      "sha256": "c6ef9c846a070c9ea437c145841c2aae75dbabad8f1938630b4b9d8e0dbd196d"
+    },
+    "history/2026-09-27_1404归档前_BACKUP_MANIFEST.json": {
+      "bytes": 33080,
+      "sha256": "29d1e0b84217d7cee1ce0c078625de0cf94113a816099d11cda90cbb2c99bd1c"
+    },
+    "history/2026-09-27_1404归档前_nutrition_bridge_累计已展示结果_截图精度.json": {
+      "bytes": 415688,
+      "sha256": "401aa8aab2e71a6944d0a4e6988760a30c56c35698f6e87b4e5137e0522a2e55"
+    },
+    "history/2026-09-27_1404归档前_来源与待补文件.md": {
+      "bytes": 14423,
+      "sha256": "2422a89bedb7b8ad2553b8f3c97bfc2b883db85bb832341d577c5941cd082516"
+    },
+    "history/2026-09-27_1404归档前_研究结论总览.md": {
+      "bytes": 35858,
+      "sha256": "9f495e0405d16b7e28fc4d55a89a18e22d9152ad022d0f3db1286131d829abda"
+    },
+    "history/2026-09-27_1436归档前_BACKUP_MANIFEST.json": {
+      "bytes": 37293,
+      "sha256": "4a0df7295fc4b5ef21df26f95e4fdb2985d3c8a8d85aa50b6a44b9b23d1e9d69"
+    },
+    "history/2026-09-27_1436归档前_nutrition_bridge_累计已展示结果_截图精度.json": {
+      "bytes": 477373,
+      "sha256": "7e3cd53bb9d9f374670a0e9d4018010b72b3cefd04ae58e5ad8d06bae25572f5"
+    },
+    "history/2026-09-27_1436归档前_来源与待补文件.md": {
+      "bytes": 16202,
+      "sha256": "223f224f88da03d4feff50c70f724a74c072a659dc2ed569cc4a26acda87fd02"
+    },
+    "history/2026-09-27_1436归档前_研究结论总览.md": {
+      "bytes": 37562,
+      "sha256": "2ba8cbb3ee5c46385699f69201d272bfded98a427e97cd5fdcd412b5bf050138"
+    },
+    "history/2026-09-27_2042归档前_BACKUP_MANIFEST.json": {
+      "bytes": 44395,
+      "sha256": "80d67cc75b2e7c5f059847a709e160192627392de4c1364ad74803a2548864a3"
+    },
+    "history/2026-09-27_2042归档前_nutrition_bridge_累计已展示结果_截图精度.json": {
+      "bytes": 544664,
+      "sha256": "d7e269b133d9db081034e323ed8bde66f108f6f75feb5e2a45efa8c1de637a1d"
+    },
+    "history/2026-09-27_2042归档前_来源与待补文件.md": {
+      "bytes": 17837,
+      "sha256": "74a5fb4d84ac90af6f8a2f71cfa66e1a99ccdaeeacfb0c9099ea90b44458a405"
+    },
+    "history/2026-09-27_2042归档前_研究结论总览.md": {
+      "bytes": 39299,
+      "sha256": "6bb7e09216ad2677d10e315a37bcbe8ea369bacc4b00fc6314ae19a94b4741cf"
+    },
+    "history/2026-09-27_2056归档前_BACKUP_MANIFEST.json": {
+      "bytes": 46944,
+      "sha256": "2d0d537a2b5c9dc5ddb0761de0741be459d584f552c4a1dc28ececd209ec5e39"
+    },
+    "history/2026-09-27_2056归档前_nutrition_bridge_累计已展示结果_截图精度.json": {
+      "bytes": 583150,
+      "sha256": "6adf6df3f456b78c8ba1742cfdfa8120a2d8a3b7aa96d71c5b4d2d8f674bfe8f"
+    },
+    "history/2026-09-27_2056归档前_来源与待补文件.md": {
+      "bytes": 19356,
+      "sha256": "f2f538c6002600af5b4cb06c5c6a73c7b159d750ffc00eca95fe6f7b745661e4"
+    },
+    "history/2026-09-27_2056归档前_研究结论总览.md": {
+      "bytes": 40996,
+      "sha256": "1d0d496eec6dcd470dc758cfbb028eac15f592de8c5feb67f25ca3bc7a9e6cab"
+    },
+    "history/2026-09-27_2104归档前_BACKUP_MANIFEST.json": {
+      "bytes": 49094,
+      "sha256": "63bd29d4200526dc2610d7067027ac98c651c87ac160256450ea1a64112ab29a"
+    },
+    "history/2026-09-27_2104归档前_nutrition_bridge_累计已展示结果_截图精度.json": {
+      "bytes": 616972,
+      "sha256": "26483d6ae11e63927e7b9b547d0d01fee9d4a90739bbf885ed39163a9105a04a"
+    },
+    "history/2026-09-27_2104归档前_来源与待补文件.md": {
+      "bytes": 20654,
+      "sha256": "ca1bd4b810eea83cc491392e91f1c1134cd0f2ba1d85c76a6854bbe0bac6a315"
+    },
+    "history/2026-09-27_2104归档前_研究结论总览.md": {
+      "bytes": 42436,
+      "sha256": "f3c1d5b177b7dfc92909b2b8a4d33aaa645b34af67ff5b24437794477c349ff8"
+    },
+    "history/2026-09-27_2112归档前_BACKUP_MANIFEST.json": {
+      "bytes": 51642,
+      "sha256": "aaefe82b5aa63fa4a55c7b7d25050a38e951ddca9933666a0d3044f2ecc94042"
+    },
+    "history/2026-09-27_2112归档前_nutrition_bridge_累计已展示结果_截图精度.json": {
+      "bytes": 651103,
+      "sha256": "a31320912ad353b7f3792bebebf7eed825273b2fa3d0f442c58e0639e16b7913"
+    },
+    "history/2026-09-27_2112归档前_quality_timecourse_累计133项已展示结果_截图精度.json": {
+      "bytes": 102817,
+      "sha256": "31e80af7958bf1e715614d768892d4750cb29e1519dc4f4ca4ad08f2ac75db21"
+    },
+    "history/2026-09-27_2112归档前_来源与待补文件.md": {
+      "bytes": 21874,
+      "sha256": "405511ccbd81dbe75211b5f6cb6c6b5b47c7d0598302c567fef60c5eb26a447e"
+    },
+    "history/2026-09-27_2112归档前_研究结论总览.md": {
+      "bytes": 43725,
+      "sha256": "ba145c463dd4bb9c97c47b6965fed9476387f98e8f7eb60074eed2eab806ce34"
+    },
+    "history/2026-09-27_2129归档前_BACKUP_MANIFEST.json": {
+      "bytes": 55650,
+      "sha256": "514ac9b0dd8329c13a0476557cbb23ff9168c60c88612733aa6c0d147da94597"
+    },
+    "history/2026-09-27_2129归档前_nutrition_bridge_累计已展示结果_截图精度.json": {
+      "bytes": 686897,
+      "sha256": "458b11331ce31862ea9f9fda692a46c4f6e8ea41fdeacf8d67b52e0d913a38ed"
+    },
+    "history/2026-09-27_2129归档前_来源与待补文件.md": {
+      "bytes": 23158,
+      "sha256": "44984221f10c7706c5305b7c26670c098c54cd1b7677eca273662042e8a96c97"
+    },
+    "history/2026-09-27_2129归档前_研究结论总览.md": {
+      "bytes": 44933,
+      "sha256": "b65662f8fa28d8254bfe85f3a7c947b6d72362f63af9286d304d2e99842d5df0"
+    },
+    "history/2026-09-27_2144归档前_BACKUP_MANIFEST.json": {
+      "bytes": 59203,
+      "sha256": "fb2b9083423715eddb05cc72e53af9aba26d4acf06b9046b416157547fb00085"
+    },
+    "history/2026-09-27_2144归档前_nutrition_bridge_累计已展示结果_截图精度.json": {
+      "bytes": 724371,
+      "sha256": "52a90f5d5fbada3bf70a1841c7041522eeccd836ef2b923c7d81ce361bffe285"
+    },
+    "history/2026-09-27_2144归档前_来源与待补文件.md": {
+      "bytes": 24542,
+      "sha256": "9e9aa171fe9bf7f69c269401a30036c2b10ea5719b1e98e23dc81e5b048131ba"
+    },
+    "history/2026-09-27_2144归档前_研究结论总览.md": {
+      "bytes": 46393,
+      "sha256": "d85b11fb3190e825dce8808fb8baad28009cad377f611effc776631a3660a820"
+    },
+    "history/2026-09-27_response_followup_v1_复查前/MANIFEST.json": {
+      "bytes": 1116,
+      "sha256": "299cc51b3ed6f611d2bbb820279c8af84b2ab3e5cb6fc851d18e8ecc884fda1d"
+    },
+    "history/2026-09-27_response_followup_v1_复查前/PLAN.md": {
+      "bytes": 2913,
+      "sha256": "bf8e610ce8a403cdad494b3ce9edcc3659f9b8ca7eaec2aca6e965df7b2ff8b4"
+    },
+    "history/2026-09-27_response_followup_v1_复查前/README.md": {
+      "bytes": 4635,
+      "sha256": "332ce7557de8005a8dd0a836b13cf5a0a90041121446a707cda7ad0c1304518b"
+    },
+    "history/2026-09-27_response_followup_v1_复查前/REVIEW.md": {
+      "bytes": 2211,
+      "sha256": "0bf2d11dd04865bf6a695b0ebf7319140cde22bbe347afe3fd021c61e1ef78a9"
+    },
+    "history/2026-09-27_response_followup_v1_复查前/__init__.py": {
+      "bytes": 110,
+      "sha256": "67cf115fc85be23676ceda28b3cb93a521ea2f7819e985876ac7b27cef106b9e"
+    },
+    "history/2026-09-27_response_followup_v1_复查前/feasibility.py": {
+      "bytes": 10463,
+      "sha256": "3d4631553f55e43a76b7b80604ea497603a2da78f534bfb44c985f97219a473c"
+    },
+    "history/2026-09-27_response_followup_v1_复查前/inputs.py": {
+      "bytes": 4862,
+      "sha256": "edf30a68d92038a3496c915b9bb848709da3f7bdba002ceeafec12c8860e199c"
+    },
+    "history/2026-09-27_response_followup_v1_复查前/plot_local.py": {
+      "bytes": 15161,
+      "sha256": "8422c2141ec48dfa62970e0a33e20b74cdea5e1da66570aa275342455b831843"
+    },
+    "history/2026-09-27_response_followup_v1_复查前/reporting.py": {
+      "bytes": 8914,
+      "sha256": "da5ea006e1cc6b9254e3ed8d0c39880d52b37d0926692d71b1d24da275646ae2"
+    },
+    "history/2026-09-27_response_followup_v1_复查前/run_analysis.py": {
+      "bytes": 6252,
+      "sha256": "7b9204b42d7670a765180c4ee0c5982c8f0b0143d6578054c9e1bd19d0ba685e"
+    },
+    "history/2026-09-27_response_followup_v1_复查前/run_response_followup.sh": {
+      "bytes": 335,
+      "sha256": "7d4c5009f048e69bbd4063201cb324b45e66c4f36e94a5db641c6067430a478f"
+    },
+    "history/2026-09-27_response_followup_v1_复查前/support.py": {
+      "bytes": 10220,
+      "sha256": "40f15125451068d1e180b781346f2a8b2a9a2d4d56a44613a93d94cef73c8aa3"
+    },
+    "history/2026-09-27_response_followup_v1_复查前/tests/test_followup.py": {
+      "bytes": 9579,
+      "sha256": "f9eb0ba28e8c631fe5d947a7355263a5288f327c62d4d4ca4a195b3ca248b37f"
+    },
+    "history/2026-09-27_发现总结整理前_2026-09-27_nutrition_bridge_54页完整归档与分析入口.md": {
+      "bytes": 10330,
+      "sha256": "135d000bfa624667d381a034c34b96a739652a8298446d1f4a9b282e2796d0bf"
+    },
+    "history/2026-09-27_发现总结整理前_BACKUP_MANIFEST.json": {
+      "bytes": 61884,
+      "sha256": "1140198471229280e667d87084d59ee6811efc64f8e16ed563e99475fdff526a"
+    },
+    "history/2026-09-27_发现总结整理前_来源与待补文件.md": {
+      "bytes": 25931,
+      "sha256": "0bf4ecb586a27a76c62c684b4ddbc776cd6e1e3388809cf7098da7e6003c161c"
+    },
+    "history/2026-09-27_发现总结整理前_研究结论总览.md": {
+      "bytes": 47863,
+      "sha256": "1478088d2bdc6fc9ca422ea42b8cea539dc481b45db7d73cda69338df3445c13"
+    },
+    "history/2026-09-27_后续包交付前_BACKUP_MANIFEST.json": {
+      "bytes": 63007,
+      "sha256": "0141243accf2a6d65398c64334951a44d8771305dc66abfcb2ea532208c1ae64"
+    },
+    "history/2026-09-27_后续包交付前_来源与待补文件.md": {
+      "bytes": 26862,
+      "sha256": "1aa9b3159877da0e9fa5a0d0c512f9c12458b0660bba61e78ccfca19405f5df4"
+    },
+    "history/2026-09-27_后续包交付前_研究结论总览.md": {
+      "bytes": 48772,
+      "sha256": "5178e4b6a141556f575cca329f78f3d8732458240c4a1aa150000ff426623ca0"
+    },
+    "history/2026-09-27_后续包复查缩简前/BACKUP_MANIFEST.json": {
+      "bytes": 67950,
+      "sha256": "21efd1e8fbdba54bb9867d630f6dd91b14d9979bfa2e6bd8aa9ef3bb33b17540"
+    },
+    "history/2026-09-27_后续包复查缩简前/来源与待补文件.md": {
+      "bytes": 27469,
+      "sha256": "bd1a92201ec13d81e796e3fe3465f84be2bb3944163ff64ee7dd7714e89d8fac"
+    },
+    "history/2026-09-27_后续包复查缩简前/研究结论总览.md": {
+      "bytes": 49379,
+      "sha256": "322534c7ebba9ead0f0215d0bfb79631d537d73a369826197964364a95c6852f"
+    },
+    "history/2026-09-28_0004_response_followup结果归档前/BACKUP_MANIFEST.json": {
+      "bytes": 70570,
+      "sha256": "9ed1c94e6f21cc471ec149a098b2bb766e4d16c2f8e1ae94f48b000d0d44d465"
+    },
+    "history/2026-09-28_0004_response_followup结果归档前/来源与待补文件.md": {
+      "bytes": 28326,
+      "sha256": "21813a8a4bde9976941d5b5ea56bda6da8eaad039620d3da64461b19f612ba93"
+    },
+    "history/2026-09-28_0004_response_followup结果归档前/研究结论总览.md": {
+      "bytes": 50277,
+      "sha256": "1179328f5bc60bf68791e79bcf0381e48dfbbd10415cf139bae6359e9faaa7ad"
+    },
+    "history/2026-09-28_date_split_bridge_v1_复查前/BACKUP_MANIFEST.json": {
+      "bytes": 74993,
+      "sha256": "ababb9d49b2b3873e52bd4a90e5d315338feed97ce31f4c757f7516879a427db"
+    },
+    "history/2026-09-28_date_split_bridge_v1_复查前/date_split_bridge/CONTRACT.json": {
+      "bytes": 2867,
+      "sha256": "a4aeb8d794595eaf8a5f42b2a9c28657c4b460b8a3834368747b348ffc9023fb"
+    },
+    "history/2026-09-28_date_split_bridge_v1_复查前/date_split_bridge/MANIFEST.json": {
+      "bytes": 1197,
+      "sha256": "70df218ae34e575c87e91ef7750079486a0f12e585fb844f119d417345f07560"
+    },
+    "history/2026-09-28_date_split_bridge_v1_复查前/date_split_bridge/PLAN.md": {
+      "bytes": 4425,
+      "sha256": "3be268bbdbc507073bef819ce06d5be241bde4c529cde139858e5e6c9dd65b8e"
+    },
+    "history/2026-09-28_date_split_bridge_v1_复查前/date_split_bridge/README.md": {
+      "bytes": 5975,
+      "sha256": "ad035283aba735fb02b2b5860f9bda6dd251086533a90396f6db41d8e6e2a56b"
+    },
+    "history/2026-09-28_date_split_bridge_v1_复查前/date_split_bridge/REVIEW.md": {
+      "bytes": 2917,
+      "sha256": "0cf400f93d8861c0ffe03ac01c5b9e222e34e43ddd2ab687fc9ca473a705875a"
+    },
+    "history/2026-09-28_date_split_bridge_v1_复查前/date_split_bridge/__init__.py": {
+      "bytes": 106,
+      "sha256": "e29c3e8e9276170bb9acd17ad39f94c37b861439c1559b848dc2e60ef8165515"
+    },
+    "history/2026-09-28_date_split_bridge_v1_复查前/date_split_bridge/build.py": {
+      "bytes": 10934,
+      "sha256": "1a8a786eb3986b5d1735f73a25a931669bc69f44bf0b5e5ae063a703626fb74a"
+    },
+    "history/2026-09-28_date_split_bridge_v1_复查前/date_split_bridge/inputs.py": {
+      "bytes": 4175,
+      "sha256": "b94f05d0473711069df25a9bbd514f073c00c3714a043be0303531ed93e06a13"
+    },
+    "history/2026-09-28_date_split_bridge_v1_复查前/date_split_bridge/metrics.py": {
+      "bytes": 4110,
+      "sha256": "cb5ced41001593d06af199d36f588037076049ddebc1550384357a952de764c9"
+    },
+    "history/2026-09-28_date_split_bridge_v1_复查前/date_split_bridge/models.py": {
+      "bytes": 5562,
+      "sha256": "496f45d2df0b1fc9ebfbda23b8e7f52881a326336491b563c4a6f1cd7ac5cf52"
+    },
+    "history/2026-09-28_date_split_bridge_v1_复查前/date_split_bridge/reporting.py": {
+      "bytes": 6791,
+      "sha256": "04156aa6163a09755869e3ec75bde9c056e16d39cc3166c5babb1f422e3f5851"
+    },
+    "history/2026-09-28_date_split_bridge_v1_复查前/date_split_bridge/run_analysis.py": {
+      "bytes": 5990,
+      "sha256": "c93288b97922dbcdd95a2e62df09c35b87551a383c6a4a8ce74b521fdb330461"
+    },
+    "history/2026-09-28_date_split_bridge_v1_复查前/date_split_bridge/run_date_split_bridge.sh": {
+      "bytes": 335,
+      "sha256": "7d4c5009f048e69bbd4063201cb324b45e66c4f36e94a5db641c6067430a478f"
+    },
+    "history/2026-09-28_date_split_bridge_v1_复查前/date_split_bridge/tests/test_date_split.py": {
+      "bytes": 10786,
+      "sha256": "e142f2b75b7c60d772d2fa2f12d9c66fb0f8537903cbdebb8299d0015de7d214"
+    },
+    "history/2026-09-28_date_split_bridge_v1_复查前/来源与待补文件.md": {
+      "bytes": 30482,
+      "sha256": "9caa431f91d9a08e1e0389bc8983a4c4b277484996e587b57f0dba894e8535aa"
+    },
+    "history/2026-09-28_date_split_bridge_v1_复查前/研究结论总览.md": {
+      "bytes": 52809,
+      "sha256": "d8d4e75e379d7d4576fbb2e2cf22edca08c0153237a0e3765c2365a78091a8ef"
+    },
+    "history/2026-09-28_date_split_bridge_交付前/BACKUP_MANIFEST.json": {
+      "bytes": 73949,
+      "sha256": "c6405ef0ae76428515c718894abe5ea371919c4d9bacb0e8db5ef96361b972ba"
+    },
+    "history/2026-09-28_date_split_bridge_交付前/来源与待补文件.md": {
+      "bytes": 29536,
+      "sha256": "cebe3a4bab050e7f7ec627d6389e32e108b75022f3d7322cc8905434c27b9eac"
+    },
+    "history/2026-09-28_date_split_bridge_交付前/研究结论总览.md": {
+      "bytes": 51679,
+      "sha256": "2d4bbb076286f8d441729e50df5b34eb184d72cba927debcaccdd8c6f2af26ea"
+    },
+    "history/2026-09-29_date_split_bridge_真实结果归档前/BACKUP_MANIFEST.json": {
+      "bytes": 78967,
+      "sha256": "004164129d7e872f66a2a767a09b570280ece8c1685da027bde674a5e0aa8ab1"
+    },
+    "history/2026-09-29_date_split_bridge_真实结果归档前/来源与待补文件.md": {
+      "bytes": 31146,
+      "sha256": "4202ef51f96388e62df5a5c3119a278af2e6a8eaacbf085404e57ca04dbad6ca"
+    },
+    "history/2026-09-29_date_split_bridge_真实结果归档前/研究结论总览.md": {
+      "bytes": 53473,
+      "sha256": "f741ecc82c240ba0bbfbbd2927618a980ff63ae6b5f6263e86d0eaff596d3a1c"
+    },
+    "history/2026-09-29_研究结果整合前/BACKUP_MANIFEST.json": {
+      "bytes": 83057,
+      "sha256": "515dee48fe877edb6294c36a10998b8707caf2e73d9475a88621b0cb723752d8"
+    },
+    "history/2026-09-29_研究结果整合前/来源与待补文件.md": {
+      "bytes": 32559,
+      "sha256": "be188a474a5cc096796733e62e9d099cf7d470599eaa4c2c5180b2889b3e090f"
+    },
+    "history/2026-09-29_研究结果整合前/研究结论总览.md": {
+      "bytes": 55005,
+      "sha256": "5192d057762f53922902b7ed1932d7b6521239a31779cbce5e485ad5db83285e"
+    },
+    "nutrition_bridge_累计已展示结果_截图精度.json": {
+      "bytes": 752093,
+      "sha256": "b618424f657a7f799b9169e717345e12d118d5825a8f77599bfd791f2de7089d"
+    },
+    "quality_timecourse_77项已展示结果_截图精度.json": {
+      "bytes": 49509,
+      "sha256": "df6d14d74d35c0ba8c61ac4781e89efa7c7fce24790962e96a2438ede32a16b0"
+    },
+    "quality_timecourse_样本保留率_由截图计数计算.json": {
+      "bytes": 3969,
+      "sha256": "b96fb74227e703ec011e6a53044429b72e4775b51de1fca7bb63ebf88e98e73a"
+    },
+    "quality_timecourse_累计119项已展示结果_截图精度.json": {
+      "bytes": 88970,
+      "sha256": "98963fa8b4be91da26c3edf2ad6010a5e677ca705017b83fa6fb50eecfb823de"
+    },
+    "quality_timecourse_累计133项已展示结果_截图精度.json": {
+      "bytes": 104122,
+      "sha256": "4376e2d51b6bc619b9a4e4c66369250f2a0a8ffb415edff61da2cf2d65821b94"
+    },
+    "quality_timecourse_累计98项已展示结果_截图精度.json": {
+      "bytes": 70906,
+      "sha256": "e7aad10246c06ce6940d1a9b577aba11f186e0f9048f75ea4f7283b1dbbc0849"
+    },
+    "七项饮食_42项已展示结果_截图精度.json": {
+      "bytes": 15944,
+      "sha256": "599e527e3c33de8908f19df0f017ad6e8282e3709dc6d39ee9f6d935adcd773d"
+    },
+    "来源与待补文件.md": {
+      "bytes": 33357,
+      "sha256": "52f46a6653c13e4b81355d503dc3238ebe4f9279e955d94714d072c63c7d1d49"
+    },
+    "研究结论总览.md": {
+      "bytes": 55803,
+      "sha256": "ee0d841e14d32e569328aa3a3d0d2c4a22a215febc6ba560d9e277223f3f14a1"
+    }
+  },
+  "transfer_workflow": "User cannot download server results; use read-only terminal tables and screenshots, retain server originals, archive screenshot precision locally.",
+  "quality_specs": 91,
+  "timecourse_specs": 42,
+  "latest_batch_rows": 14,
+  "transcribed_total_model_rows": 133,
+  "next_terminal_commands_validated": "No more screenshots requested for date_split_bridge; all3 key summaries sufficient; detail tables remain on server.",
+  "condition_values_archived": 28,
+  "selection_profile_rows_archived": 14,
+  "latest_batch_new_model_estimates": 14,
+  "unseen_quality_specs": 161,
+  "original_seven_corresponding_specs_seen": 70,
+  "original_seven_corresponding_specs_unseen": 56,
+  "latest_model_snapshot": "quality_timecourse_累计133项已展示结果_截图精度.json",
+  "latest_phase_summary": "2026-09-27_阶段发现总结与证据分层.md",
+  "corrections": [
+    {
+      "record_key": {
+        "analysis": "quality",
+        "setting": "joint",
+        "branch": "B",
+        "outcome": "mean_increment",
+        "model": "carb_interaction",
+        "diet": "hPDI"
+      },
+      "field": "meals",
+      "previous_value": 105260,
+      "corrected_value": 105200,
+      "evidence": [
+        "截屏2026-09-25 21.34.55.png",
+        "截屏2026-09-25 23.00.34.png"
+      ],
+      "reason": "Local screenshot transcription error; re-read original mean screenshot and new peak screenshot, both show105200.",
+      "affected_derived_value": "joint B hPDI meal retention percentage",
+      "model_estimates_changed": false,
+      "historical_snapshots_preserved": true
+    },
+    {
+      "record_key": {
+        "analysis": "quality",
+        "setting": "source_primary",
+        "branch": "A",
+        "outcome": "peak_rise_0_120",
+        "model": "background",
+        "diet": "NOVA4"
+      },
+      "changes": {
+        "estimate": {
+          "previous": 0.955681,
+          "corrected": 0.956581
+        },
+        "ci_low": {
+          "previous": 0.672249,
+          "corrected": 0.679249
+        },
+        "ci_high": {
+          "previous": 1.2391,
+          "corrected": 1.23391
+        }
+      },
+      "corrected_display": {
+        "estimate": "0.956581",
+        "ci_low": "0.679249",
+        "ci_high": "1.23391"
+      },
+      "evidence": [
+        "evidence/截屏2026-09-25 22.13.44.png",
+        "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png"
+      ],
+      "reason": "Local transcription errors found by old/new endpoint comparison; re-read archived original screenshot with native OCR corroboration. Current page4 estimate0.9566 agrees with corrected old6-significant-digit value.",
+      "q_people_meals_unchanged": true,
+      "q_unchanged": 7.2333e-11,
+      "server_analysis_changed": false,
+      "historical_snapshots_preserved": true,
+      "affected_historical_files_retained": [
+        "2026-09-25_2214_主样本A调整与峰值28项_截图精度.json",
+        "2026-09-25_2214_主样本调整与峰值结果解读.md",
+        "quality_timecourse_累计98项已展示结果_截图精度.json",
+        "quality_timecourse_累计119项已展示结果_截图精度.json"
+      ],
+      "record": "2026-09-26_1557_旧NOVA4背景峰值转录更正.md"
+    },
+    {
+      "record_key": {
+        "run_id": "nutrition_bridge_20260926T071736_080048Z",
+        "analysis": "bridge",
+        "setting": "source_primary",
+        "meal_measure": "mean_increment",
+        "cgm_field": "cgm_hbgi"
+      },
+      "field": "people",
+      "previous_value": 4544,
+      "corrected_value": 4534,
+      "display_previous": "4544",
+      "display_corrected": "4534",
+      "primary_evidence": "evidence/nutrition_bridge_2026-09-26_223446.png",
+      "primary_evidence_page": 17,
+      "corroborating_other_measures": [
+        "evidence/nutrition_bridge_2026-09-27_140400_page19.png",
+        "evidence/nutrition_bridge_2026-09-27_140410_pages20-21.png"
+      ],
+      "reason": "Local transcription error identified while reconciling N across meal measures; re-read original page17, which itself clearly shows4534. New pages19/21 corroborate only their own measure counts.",
+      "estimate_ci_q_rho_unchanged": true,
+      "server_analysis_changed": false,
+      "affected_derived_value": "Original-net bridge N range changes from4541–4593 to4534–4593",
+      "historical_snapshots_preserved": true,
+      "affected_historical_files_retained": [
+        "2026-09-26_2234_nutrition_bridge_正增量分布与原净增量20项衔接_截图精度.json",
+        "2026-09-26_2234_nutrition_bridge_正增量分布与原净增量全CGM解读.md"
+      ],
+      "record": "2026-09-27_1404_HBGI衔接人数转录更正.md"
+    },
+    {
+      "record_key": {
+        "run_id": "nutrition_bridge_20260926T071736_080048Z",
+        "analysis": "bridge",
+        "setting": "source_primary",
+        "meal_measure": "mean_increment",
+        "cgm_field": "cgm_lbgi"
+      },
+      "field": "spearman",
+      "previous_value": 0.0741,
+      "corrected_value": -0.0741,
+      "display_field": "rho",
+      "previous_display": "0.0741",
+      "corrected_display": "-0.0741",
+      "primary_evidence": "evidence/nutrition_bridge_2026-09-26_223446.png",
+      "page": 17,
+      "verification": "Re-read original pixels; full-image macOS Vision OCR plus region-specific OCR as auxiliary verification. No value inferred from joint models.",
+      "reason": "Previous local screenshot transcription error; original server screenshot is unchanged.",
+      "estimate_ci_people_unchanged": true,
+      "server_analysis_changed": false,
+      "historical_snapshots_preserved": true,
+      "record": "2026-09-27_1436_原净增量第17页三处转录更正.md",
+      "interpretation_changed": "Withdraw prior statement that original-net LBGI raw rho and adjusted beta have opposite signs.",
+      "affected_historical_files_retained": [
+        "2026-09-26_2234_nutrition_bridge_正增量分布与原净增量20项衔接_截图精度.json",
+        "2026-09-26_2234_nutrition_bridge_正增量分布与原净增量全CGM解读.md",
+        "2026-09-27_1404_nutrition_bridge_原样本三类餐反应全CGM解读.md"
+      ]
+    },
+    {
+      "record_key": {
+        "run_id": "nutrition_bridge_20260926T071736_080048Z",
+        "analysis": "bridge",
+        "setting": "source_primary",
+        "meal_measure": "mean_increment",
+        "cgm_field": "cgm_grade_eugly"
+      },
+      "field": "spearman",
+      "previous_value": -0.272,
+      "corrected_value": -0.222,
+      "display_field": "rho",
+      "previous_display": "-0.272",
+      "corrected_display": "-0.222",
+      "primary_evidence": "evidence/nutrition_bridge_2026-09-26_223446.png",
+      "page": 17,
+      "verification": "Re-read original pixels; full-image macOS Vision OCR plus region-specific OCR as auxiliary verification. No value inferred from joint models.",
+      "reason": "Previous local screenshot transcription error; original server screenshot is unchanged.",
+      "estimate_ci_people_unchanged": true,
+      "server_analysis_changed": false,
+      "historical_snapshots_preserved": true,
+      "record": "2026-09-27_1436_原净增量第17页三处转录更正.md",
+      "interpretation_changed": "Direction/FDR classification unchanged; correct displayed magnitude/exponent.",
+      "affected_historical_files_retained": [
+        "2026-09-26_2234_nutrition_bridge_正增量分布与原净增量20项衔接_截图精度.json",
+        "2026-09-26_2234_nutrition_bridge_正增量分布与原净增量全CGM解读.md",
+        "2026-09-27_1404_nutrition_bridge_原样本三类餐反应全CGM解读.md"
+      ]
+    },
+    {
+      "record_key": {
+        "run_id": "nutrition_bridge_20260926T071736_080048Z",
+        "analysis": "bridge",
+        "setting": "source_primary",
+        "meal_measure": "mean_increment",
+        "cgm_field": "cgm_above_140"
+      },
+      "field": "q",
+      "previous_value": 3.27e-136,
+      "corrected_value": 3.27e-130,
+      "display_field": "q",
+      "previous_display": "3.27e-136",
+      "corrected_display": "3.27e-130",
+      "primary_evidence": "evidence/nutrition_bridge_2026-09-26_223446.png",
+      "page": 17,
+      "verification": "Re-read original pixels; full-image macOS Vision OCR plus region-specific OCR as auxiliary verification. No value inferred from joint models.",
+      "reason": "Previous local screenshot transcription error; original server screenshot is unchanged.",
+      "estimate_ci_people_unchanged": true,
+      "server_analysis_changed": false,
+      "historical_snapshots_preserved": true,
+      "record": "2026-09-27_1436_原净增量第17页三处转录更正.md",
+      "interpretation_changed": "Direction/FDR classification unchanged; correct displayed magnitude/exponent.",
+      "affected_historical_files_retained": [
+        "2026-09-26_2234_nutrition_bridge_正增量分布与原净增量20项衔接_截图精度.json",
+        "2026-09-26_2234_nutrition_bridge_正增量分布与原净增量全CGM解读.md",
+        "2026-09-27_1404_nutrition_bridge_原样本三类餐反应全CGM解读.md"
+      ]
+    },
+    {
+      "record_key": {
+        "analysis": "quality",
+        "setting": "joint",
+        "branch": "A",
+        "outcome": "mean_increment",
+        "model": "background",
+        "diet": "rEDIH"
+      },
+      "field": "ci_high",
+      "previous_value": 0.094235,
+      "corrected_value": 0.0942235,
+      "previous_display": "0.094235",
+      "corrected_display": "0.0942235",
+      "primary_evidence": "evidence/截屏2026-09-25 22.25.34.png",
+      "corroborating_current_evidence": "evidence/nutrition_bridge_2026-09-27_211227_pages40-41.png",
+      "current_page": 41,
+      "current_display": "0.09422",
+      "reason": "Local transcription omitted the second2 in old screenshot upperCI;re-read original with native Vision OCR corroboration. Current page41 matches four-significant-digit rounding.",
+      "estimate_lower_ci_q_people_meals_unchanged": true,
+      "server_analysis_changed": false,
+      "historical_snapshots_preserved": true,
+      "affected_historical_files_retained": [
+        "2026-09-25_2225_joint调整与峰值28项_截图精度.json",
+        "2026-09-25_2225_joint调整与峰值结果解读.md",
+        "quality_timecourse_累计119项已展示结果_截图精度.json"
+      ],
+      "record": "2026-09-27_2112_旧joint背景rEDIH区间转录更正.md"
+    },
+    {
+      "record_key": {
+        "run_id": "nutrition_bridge_20260926T071736_080048Z",
+        "analysis": "adjustment",
+        "setting": "joint",
+        "branch": "A",
+        "outcome": "mean_increment",
+        "model": "meal_adjusted",
+        "diet": "AMED"
+      },
+      "field": "q",
+      "previous_value": 0.9633,
+      "corrected_value": 0.963,
+      "previous_display": "0.9633",
+      "corrected_display": "0.963",
+      "primary_evidence": "evidence/nutrition_bridge_2026-09-26_154401_pages02-03.png",
+      "primary_page": 3,
+      "corroborating_evidence": "evidence/nutrition_bridge_2026-09-27_212922_pages44-45.png",
+      "corroborating_page": 45,
+      "reason": "Original page3 and current page45 both show0.963; prior local transcription added a trailing3. Re-read original and corroborate with native Vision OCR.",
+      "estimate_people_unchanged": true,
+      "inference_unchanged": true,
+      "server_analysis_changed": false,
+      "historical_snapshots_preserved": true,
+      "affected_historical_files_retained": [
+        "2026-09-26_154401_nutrition_bridge_净增量分步70项_截图精度.json",
+        "2026-09-26_154401_nutrition_bridge_净增量分步调整解读.md"
+      ],
+      "record": "2026-09-27_2129_joint净增量AMED完整模型q转录更正.md"
+    }
+  ],
+  "latest_document_update": "2026-09-29: integrated Results narrative, two main figures and AMED supplement; no new inference.",
+  "latest_recommendation_document": "2026-09-27_后续研究优先顺序与执行方案.md",
+  "outcome_scope_clarification": "2026-09-26_血糖指标口径_整体CGM与餐次反应.md",
+  "last_maintenance_date": "2026-09-29",
+  "latest_package_build": {
+    "package": "nutrition_bridge",
+    "version": "2026.09.26.1",
+    "tests_passed": 15,
+    "synthetic_only": true,
+    "server_run_pending": false,
+    "record": "2026-09-26_nutrition_bridge_构建与待运行记录.md"
+  },
+  "latest_nutrition_bridge_run": {
+    "run_id": "nutrition_bridge_20260926T071736_080048Z",
+    "data_kind": "REAL",
+    "status": "COMPLETE",
+    "reproduced_models": 84,
+    "estimated_models": 302,
+    "input_ready_meals": 183709,
+    "input_cgm_people": 7493,
+    "effect_rows_transcribed": 302,
+    "full_server_results_downloaded": false,
+    "evidence": [
+      "evidence/nutrition_bridge_2026-09-26_151842.png",
+      "evidence/nutrition_bridge_2026-09-26_152533.png",
+      "evidence/nutrition_bridge_2026-09-26_154124.png",
+      "evidence/nutrition_bridge_2026-09-26_154401_pages02-03.png",
+      "evidence/nutrition_bridge_2026-09-26_155021_pages06-07_page09header.png",
+      "evidence/nutrition_bridge_2026-09-26_155032_pages09-10.png",
+      "evidence/nutrition_bridge_2026-09-26_155716_pages04-05.png",
+      "evidence/nutrition_bridge_2026-09-26_155728_pages08-11.png",
+      "evidence/nutrition_bridge_2026-09-26_160708_pages12-13.png",
+      "evidence/nutrition_bridge_2026-09-26_160727_pages13-14.png",
+      "evidence/nutrition_bridge_2026-09-26_160737_pages14-15.png",
+      "evidence/nutrition_bridge_2026-09-26_160746_pages15.png",
+      "evidence/nutrition_bridge_2026-09-26_162641_page28.png",
+      "evidence/nutrition_bridge_2026-09-26_162657_page29.png",
+      "evidence/nutrition_bridge_2026-09-26_162818_page51.png",
+      "evidence/nutrition_bridge_2026-09-26_162832_page52.png",
+      "evidence/nutrition_bridge_2026-09-26_223303.png",
+      "evidence/nutrition_bridge_2026-09-26_223410.png",
+      "evidence/nutrition_bridge_2026-09-26_223435.png",
+      "evidence/nutrition_bridge_2026-09-26_223446.png",
+      "evidence/nutrition_bridge_2026-09-27_140336_page18.png",
+      "evidence/nutrition_bridge_2026-09-27_140400_page19.png",
+      "evidence/nutrition_bridge_2026-09-27_140410_pages20-21.png",
+      "evidence/nutrition_bridge_2026-09-27_143528_page22.png",
+      "evidence/nutrition_bridge_2026-09-27_143540_page23.png",
+      "evidence/nutrition_bridge_2026-09-27_143552_page24.png",
+      "evidence/nutrition_bridge_2026-09-27_143601_page25.png",
+      "evidence/nutrition_bridge_2026-09-27_204226_page26.png",
+      "evidence/nutrition_bridge_2026-09-27_204249_pages27-30-31.png",
+      "evidence/nutrition_bridge_2026-09-27_205635_pages32-33.png",
+      "evidence/nutrition_bridge_2026-09-27_205645_pages34-35.png",
+      "evidence/nutrition_bridge_2026-09-27_210428_pages36-37.png",
+      "evidence/nutrition_bridge_2026-09-27_210438_pages38-39.png",
+      "evidence/nutrition_bridge_2026-09-27_211227_pages40-41.png",
+      "evidence/nutrition_bridge_2026-09-27_211237_pages42-43.png",
+      "evidence/nutrition_bridge_2026-09-27_212922_pages44-45.png",
+      "evidence/nutrition_bridge_2026-09-27_212931_pages46-47.png",
+      "evidence/nutrition_bridge_2026-09-27_214445_page48.png",
+      "evidence/nutrition_bridge_2026-09-27_214455_pages49-50.png"
+    ],
+    "record": "2026-09-26_152533_nutrition_bridge_完成记录.md",
+    "latest_confirmation_record": "2026-09-26_154124_nutrition_bridge_目录复核与分页命令.md",
+    "adjustment_specs_transcribed": 140,
+    "positive_specs_transcribed": 42,
+    "bridge_specs_transcribed": 120,
+    "specs_with_q_transcribed": 302,
+    "specs_with_ci_transcribed": 302,
+    "unseen_planned_specs": 0,
+    "pages_received": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54
+    ],
+    "latest_effect_record": "2026-09-27_2144_nutrition_bridge_joint峰值完整解读.md",
+    "cumulative_screenshot_transcription": "nutrition_bridge_累计已展示结果_截图精度.json",
+    "old_endpoint_estimate_people_checks_passed": 56,
+    "positive_net_est_and_people_checks_passed": 42,
+    "pages_identified_from_context": [
+      8
+    ],
+    "diagnostic_rows_transcribed": 14,
+    "bridge_q_displayed_zero_count": 26,
+    "bridge_flow_rows_transcribed": 8,
+    "response_distribution_rows_transcribed": 28,
+    "score_nutrient_correlation_rows_transcribed": 42,
+    "latest_descriptive_record": "2026-09-26_2234_nutrition_bridge_正增量分布与原净增量全CGM解读.md",
+    "latest_interpretation": "2026-09-27_nutrition_bridge_54页完整归档与分析入口.md",
+    "complete_bridge_groups": [
+      {
+        "setting": "source_primary",
+        "meal_measure": "mean_increment",
+        "phenotypes_seen": 20,
+        "planned_phenotypes": 20
+      },
+      {
+        "setting": "source_primary",
+        "meal_measure": "peak_rise_0_120",
+        "phenotypes_seen": 20,
+        "planned_phenotypes": 20
+      },
+      {
+        "setting": "source_primary",
+        "meal_measure": "positive_mean",
+        "phenotypes_seen": 20,
+        "planned_phenotypes": 20
+      },
+      {
+        "setting": "joint",
+        "meal_measure": "mean_increment",
+        "phenotypes_seen": 20,
+        "planned_phenotypes": 20
+      },
+      {
+        "setting": "joint",
+        "meal_measure": "peak_rise_0_120",
+        "phenotypes_seen": 20,
+        "planned_phenotypes": 20
+      },
+      {
+        "setting": "joint",
+        "meal_measure": "positive_mean",
+        "phenotypes_seen": 20,
+        "planned_phenotypes": 20
+      }
+    ],
+    "latest_transcription_correction_record": "2026-09-27_2129_joint净增量AMED完整模型q转录更正.md",
+    "adjustment_specs_with_ci_transcribed": 140,
+    "adjustment_specs_with_q_transcribed": 140,
+    "all_planned_coefficients_transcribed": true,
+    "all_inferential_fields_transcribed": true,
+    "specs_without_ci": 0,
+    "specs_without_q": 0,
+    "latest_run_status_confirmation": {
+      "run_id": "nutrition_bridge_20260926T071736_080048Z",
+      "data_kind": "REAL",
+      "source_pages": [
+        30
+      ],
+      "source_screenshots": [
+        "evidence/nutrition_bridge_2026-09-27_204249_pages27-30-31.png"
+      ],
+      "displayed_text": "所有计划规格均成功估计。",
+      "all_planned_specs_estimated": true,
+      "unestimated_reason_rows_displayed": 0,
+      "note": "Run status only; not a new estimate or confirmation that every model is significant/valid"
+    },
+    "complete_adjustment_groups": [
+      {
+        "setting": "source_primary",
+        "outcome": "mean_increment",
+        "models": [
+          "background",
+          "plus_energy",
+          "plus_carb",
+          "plus_both",
+          "meal_adjusted"
+        ],
+        "diet_count": 7,
+        "spec_count": 35,
+        "all_estimates_ci_q_received": true
+      },
+      {
+        "setting": "source_primary",
+        "outcome": "peak_rise_0_120",
+        "models": [
+          "background",
+          "plus_energy",
+          "plus_carb",
+          "plus_both",
+          "meal_adjusted"
+        ],
+        "diet_count": 7,
+        "spec_count": 35,
+        "all_estimates_ci_q_received": true
+      },
+      {
+        "setting": "joint",
+        "outcome": "mean_increment",
+        "models": [
+          "background",
+          "plus_energy",
+          "plus_carb",
+          "plus_both",
+          "meal_adjusted"
+        ],
+        "diet_count": 7,
+        "spec_count": 35,
+        "all_estimates_ci_q_received": true
+      },
+      {
+        "setting": "joint",
+        "outcome": "peak_rise_0_120",
+        "models": [
+          "background",
+          "plus_energy",
+          "plus_carb",
+          "plus_both",
+          "meal_adjusted"
+        ],
+        "diet_count": 7,
+        "spec_count": 35,
+        "all_estimates_ci_q_received": true
+      }
+    ],
+    "adjustment_detail_pages_received": [
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
+    ],
+    "adjustment_group_coverage": [
+      {
+        "setting": "source_primary",
+        "outcome": "mean_increment",
+        "specs_with_estimate": 35,
+        "specs_with_ci": 35,
+        "specs_with_q": 35,
+        "planned_specs": 35
+      },
+      {
+        "setting": "source_primary",
+        "outcome": "peak_rise_0_120",
+        "specs_with_estimate": 35,
+        "specs_with_ci": 35,
+        "specs_with_q": 35,
+        "planned_specs": 35
+      },
+      {
+        "setting": "joint",
+        "outcome": "mean_increment",
+        "specs_with_estimate": 35,
+        "specs_with_ci": 35,
+        "specs_with_q": 35,
+        "planned_specs": 35
+      },
+      {
+        "setting": "joint",
+        "outcome": "peak_rise_0_120",
+        "specs_with_estimate": 35,
+        "specs_with_ci": 35,
+        "specs_with_q": 35,
+        "planned_specs": 35
+      }
+    ],
+    "all_displayed_estimates_ci_q_transcribed": true,
+    "inferential_completeness_scope": "All302 displayed point estimates, pointwise95%CI, andq. Does not include unshown rawp/SE, mealcounts or bridge scaling/membership fields.",
+    "all_pages_received": true,
+    "pending_pages": [],
+    "complete_archive_index": "2026-09-27_nutrition_bridge_54页完整归档与分析入口.md",
+    "completion_audit": "2026-09-27_2144_nutrition_bridge_54页归档核对.json",
+    "latest_synthesis": "2026-09-27_阶段发现总结与证据分层.md",
+    "next_research_plan": "2026-09-27_后续研究优先顺序与执行方案.md"
+  },
+  "latest_handoff": {
+    "file": "2026-09-26_新窗口交接_nutrition_bridge.md",
+    "evidence_cutoff": "2026-09-26 15:25:33 Asia/Shanghai",
+    "purpose": "Continue interpreting nutrition_bridge screenshots in a new window",
+    "effect_rows_received": 0
+  },
+  "latest_archive_update": {
+    "date": "2026-09-29",
+    "kind": "date_split_bridge_real_results_three_summaries",
+    "files_verified_before_update": 287,
+    "preexisting_hash_mismatches": 0,
+    "new_reported_model_fits": 72,
+    "new_estimates_shown": 72,
+    "new_CI_pairs_shown": 48,
+    "new_q_values_shown": 48,
+    "new_screenshots": 3,
+    "new_distinct_figures": 1,
+    "new_figure_files": 3,
+    "new_record_files": [
+      "2026-09-28_date_split_bridge_三份摘要_截图精度.json",
+      "2026-09-28_date_split_bridge_摘要核对.json",
+      "2026-09-28_date_split_bridge_真实结果解读.md"
+    ],
+    "current_status_table_refreshed": true,
+    "preexisting_scientific_JSON_and_figures_unchanged": true
+  },
+  "screenshot_batch_preference": "Only the key results, normally at most three concise summaries/screenshots; no batches covering all detailed pages. Full tables stay on server; request a specific extra diagnostic only for an observed issue.",
+  "latest_transcription_correction_record": "2026-09-27_2129_joint净增量AMED完整模型q转录更正.md",
+  "latest_execution_delivery": "2026-09-28_date_split_bridge_再次复查与启动修正.md",
+  "latest_local_results_folder": "2026-09-29_研究结果整合",
+  "latest_followup_package": {
+    "path": "../response_followup",
+    "version": "2026.09.27.2",
+    "manifest_sha256": "c1438e932037c57608309cbd5b5309fdd5e18e292460b7a3dbfb41217b1e4fad",
+    "tests_passed": 19,
+    "real_server_execution": true,
+    "key_summary_count": 3,
+    "real_server_execution_evidence": {
+      "run_id": "response_followup_20260927T155611_920880Z",
+      "source": "three user-provided screenshots of concise summaries",
+      "result_manifest_downloaded": false,
+      "version_not_explicitly_displayed_in_screenshots": true
+    }
+  },
+  "generated_figure_files": 30,
+  "generated_distinct_figures": 8,
+  "latest_review": {
+    "record": "2026-09-28_date_split_bridge_再次复查与启动修正.md",
+    "date": "2026-09-28",
+    "tests_passed": 27,
+    "package_hashes_verified": 73,
+    "new_real_model_estimates": 0,
+    "fixes": [
+      "early_preflight_failure_can_expose_older_success_via_latest",
+      "output_mkdir_failure_secondary_error_write"
+    ]
+  },
+  "latest_followup_result": {
+    "run_id": "response_followup_20260927T155611_920880Z",
+    "data_kind": "REAL",
+    "status": "COMPLETE_WITH_LIMITATIONS",
+    "summary_keys_received": [
+      1,
+      2,
+      3
+    ],
+    "membership_checks_reported_passed": 14,
+    "supported_contrasts": 42,
+    "new_effect_models": 0,
+    "full_precision_server_files_downloaded": false,
+    "transcription": "2026-09-28_response_followup_三份摘要_截图精度.json",
+    "verification": "2026-09-28_response_followup_摘要核对.json",
+    "interpretation": "2026-09-28_response_followup_真实结果解读.md",
+    "next_plan": "2026-09-28_日期分离分析下一步方案.md",
+    "candidate_basic_people": {
+      "source_primary": 4435,
+      "joint": 4136
+    },
+    "candidate_MODD_proxy_people": {
+      "source_primary": 4433,
+      "joint": 4134
+    }
+  },
+  "latest_result_interpretation": "2026-09-28_date_split_bridge_真实结果解读.md",
+  "latest_date_split_package": {
+    "version": "2026.09.28.2",
+    "package_path": "../date_split_bridge",
+    "manifest_sha256": "2cdfb32017b2c36f11ecca2342b5566f8dac36083347c740126b5eb2fff1a734",
+    "package_files_including_manifest": 14,
+    "tests_passed": 27,
+    "real_server_execution": true,
+    "primary_planned": 24,
+    "secondary_planned": 48,
+    "key_summary_count": 3,
+    "verification_record": "2026-09-28_date_split_bridge_v2_复查核对.json",
+    "review_record": "2026-09-28_date_split_bridge_再次复查与启动修正.md",
+    "real_server_execution_evidence": {
+      "run_id": "date_split_bridge_20260928T154342_539217Z",
+      "source": "Three user-provided key-result screenshots",
+      "result_manifest_downloaded": false,
+      "version_not_explicitly_displayed_in_screenshots": true
+    }
+  },
+  "latest_date_split_result": {
+    "run_id": "date_split_bridge_20260928T154342_539217Z",
+    "data_kind": "REAL",
+    "status": "COMPLETE_WITH_LIMITATIONS",
+    "summary_keys_received": [
+      1,
+      2,
+      3
+    ],
+    "reported_estimated": {
+      "late_primary": 24,
+      "full_comparator": 24,
+      "late_minus_full": 24
+    },
+    "primary_q_below_005": 24,
+    "paired_q_below_005": 20,
+    "variability_paired_q_below_005": 18,
+    "estimates_shown": 72,
+    "CI_pairs_shown": 48,
+    "q_values_shown": 48,
+    "full_comparator_CI_q_not_shown": true,
+    "transcription": "2026-09-28_date_split_bridge_三份摘要_截图精度.json",
+    "verification": "2026-09-28_date_split_bridge_摘要核对.json",
+    "interpretation": "2026-09-28_date_split_bridge_真实结果解读.md",
+    "figure_folder": "2026-09-28_日期分离结果图",
+    "full_precision_server_files_downloaded": false
+  },
+  "latest_integrated_results": {
+    "folder": "2026-09-29_研究结果整合",
+    "new_models": 0,
+    "new_unique_figures": 1,
+    "reused_unique_figures": 2,
+    "new_figure_artifact_files": 9,
+    "manuscript": "结果稿.md",
+    "qa": "QA.json",
+    "server_upload_required": false,
+    "extra_screenshots_required": false
+  },
+  "generated_figure_count_note": "8 distinct plots; 30 PNG/PDF/SVG files including 6 byte-identical reuse copies in the integration folder."
+}

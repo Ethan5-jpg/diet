@@ -1,0 +1,840 @@
+{
+  "run_id": "quality_timecourse_20260925T130549_263963Z",
+  "data_kind": "REAL",
+  "evidence_time": "2026-09-25 22:25:34 and22:25:43",
+  "precision": "6 significant digits from terminal screenshots, not full-precision server CSV",
+  "transcribed_rows": 28,
+  "new_unique_quality_specs": 21,
+  "repeated_mean_adjusted_A_specs": 7,
+  "source_evidence": [
+    {
+      "file": "evidence/截屏2026-09-25 22.25.34.png",
+      "sha256": "af3206330be9f74c1df81adf706d71fb59d3fbdb07ae32bc1360a1691bba15d8"
+    },
+    {
+      "file": "evidence/截屏2026-09-25 22.25.43.png",
+      "sha256": "9ad7df38926e51f15227ddb23dd41288703fc2928b6c67c747bf6683b420149a"
+    }
+  ],
+  "rows": [
+    {
+      "analysis": "quality",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "mean_increment",
+      "model": "background",
+      "diet": "AHEI",
+      "people": 4370,
+      "meals": 103007,
+      "display": {
+        "estimate": "0.0225649",
+        "ci_low": "-0.160215",
+        "ci_high": "0.205345",
+        "q": "0.979783"
+      },
+      "estimate": 0.0225649,
+      "ci_low": -0.160215,
+      "ci_high": 0.205345,
+      "q": 0.979783,
+      "status": "ESTIMATED",
+      "precision_significant_digits": 6,
+      "unit": "mg/dL per original personal diet Z",
+      "planned_family_size": 14,
+      "family": "background_14",
+      "source_screenshot": "截屏2026-09-25 22.25.34.png",
+      "source_screenshots": [
+        "截屏2026-09-25 22.25.34.png"
+      ]
+    },
+    {
+      "analysis": "quality",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "mean_increment",
+      "model": "background",
+      "diet": "AMED",
+      "people": 4370,
+      "meals": 103007,
+      "display": {
+        "estimate": "0.0786729",
+        "ci_low": "-0.0993193",
+        "ci_high": "0.256665",
+        "q": "0.675914"
+      },
+      "estimate": 0.0786729,
+      "ci_low": -0.0993193,
+      "ci_high": 0.256665,
+      "q": 0.675914,
+      "status": "ESTIMATED",
+      "precision_significant_digits": 6,
+      "unit": "mg/dL per original personal diet Z",
+      "planned_family_size": 14,
+      "family": "background_14",
+      "source_screenshot": "截屏2026-09-25 22.25.34.png",
+      "source_screenshots": [
+        "截屏2026-09-25 22.25.34.png"
+      ]
+    },
+    {
+      "analysis": "quality",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "mean_increment",
+      "model": "background",
+      "diet": "hPDI",
+      "people": 4627,
+      "meals": 107103,
+      "display": {
+        "estimate": "-0.111363",
+        "ci_low": "-0.284666",
+        "ci_high": "0.0619412",
+        "q": "0.484899"
+      },
+      "estimate": -0.111363,
+      "ci_low": -0.284666,
+      "ci_high": 0.0619412,
+      "q": 0.484899,
+      "status": "ESTIMATED",
+      "precision_significant_digits": 6,
+      "unit": "mg/dL per original personal diet Z",
+      "planned_family_size": 14,
+      "family": "background_14",
+      "source_screenshot": "截屏2026-09-25 22.25.34.png",
+      "source_screenshots": [
+        "截屏2026-09-25 22.25.34.png"
+      ]
+    },
+    {
+      "analysis": "quality",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "mean_increment",
+      "model": "background",
+      "diet": "rEDIH",
+      "people": 4370,
+      "meals": 103007,
+      "display": {
+        "estimate": "-0.118708",
+        "ci_low": "-0.331639",
+        "ci_high": "0.094235",
+        "q": "0.548935"
+      },
+      "estimate": -0.118708,
+      "ci_low": -0.331639,
+      "ci_high": 0.094235,
+      "q": 0.548935,
+      "status": "ESTIMATED",
+      "precision_significant_digits": 6,
+      "unit": "mg/dL per original personal diet Z",
+      "planned_family_size": 14,
+      "family": "background_14",
+      "source_screenshot": "截屏2026-09-25 22.25.34.png",
+      "source_screenshots": [
+        "截屏2026-09-25 22.25.34.png"
+      ]
+    },
+    {
+      "analysis": "quality",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "mean_increment",
+      "model": "background",
+      "diet": "EAT13",
+      "people": 4282,
+      "meals": 100903,
+      "display": {
+        "estimate": "0.0515468",
+        "ci_low": "-0.133939",
+        "ci_high": "0.237032",
+        "q": "0.911395"
+      },
+      "estimate": 0.0515468,
+      "ci_low": -0.133939,
+      "ci_high": 0.237032,
+      "q": 0.911395,
+      "status": "ESTIMATED",
+      "precision_significant_digits": 6,
+      "unit": "mg/dL per original personal diet Z",
+      "planned_family_size": 14,
+      "family": "background_14",
+      "source_screenshot": "截屏2026-09-25 22.25.34.png",
+      "source_screenshots": [
+        "截屏2026-09-25 22.25.34.png"
+      ]
+    },
+    {
+      "analysis": "quality",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "mean_increment",
+      "model": "background",
+      "diet": "NOVA4",
+      "people": 3913,
+      "meals": 92655,
+      "display": {
+        "estimate": "0.423542",
+        "ci_low": "0.234021",
+        "ci_high": "0.613064",
+        "q": "4.23431e-05"
+      },
+      "estimate": 0.423542,
+      "ci_low": 0.234021,
+      "ci_high": 0.613064,
+      "q": 4.23431e-05,
+      "status": "ESTIMATED",
+      "precision_significant_digits": 6,
+      "unit": "mg/dL per original personal diet Z",
+      "planned_family_size": 14,
+      "family": "background_14",
+      "source_screenshot": "截屏2026-09-25 22.25.34.png",
+      "source_screenshots": [
+        "截屏2026-09-25 22.25.34.png"
+      ]
+    },
+    {
+      "analysis": "quality",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "mean_increment",
+      "model": "background",
+      "diet": "Carbohydrate_pct",
+      "people": 4349,
+      "meals": 102677,
+      "display": {
+        "estimate": "0.914564",
+        "ci_low": "0.744661",
+        "ci_high": "1.08447",
+        "q": "7.04141e-25"
+      },
+      "estimate": 0.914564,
+      "ci_low": 0.744661,
+      "ci_high": 1.08447,
+      "q": 7.04141e-25,
+      "status": "ESTIMATED",
+      "precision_significant_digits": 6,
+      "unit": "mg/dL per original personal diet Z",
+      "planned_family_size": 14,
+      "family": "background_14",
+      "source_screenshot": "截屏2026-09-25 22.25.34.png",
+      "source_screenshots": [
+        "截屏2026-09-25 22.25.34.png"
+      ]
+    },
+    {
+      "analysis": "quality",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "mean_increment",
+      "model": "meal_adjusted",
+      "diet": "AHEI",
+      "people": 4370,
+      "meals": 103007,
+      "display": {
+        "estimate": "-0.108541",
+        "ci_low": "-0.283746",
+        "ci_high": "0.0666631",
+        "q": "0.524066"
+      },
+      "estimate": -0.108541,
+      "ci_low": -0.283746,
+      "ci_high": 0.0666631,
+      "q": 0.524066,
+      "status": "ESTIMATED",
+      "precision_significant_digits": 6,
+      "unit": "mg/dL per original personal diet Z",
+      "planned_family_size": 14,
+      "family": "primary_14",
+      "source_screenshot": "截屏2026-09-25 22.25.34.png",
+      "source_screenshots": [
+        "截屏2026-09-25 22.25.34.png"
+      ]
+    },
+    {
+      "analysis": "quality",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "mean_increment",
+      "model": "meal_adjusted",
+      "diet": "AMED",
+      "people": 4370,
+      "meals": 103007,
+      "display": {
+        "estimate": "0.0120107",
+        "ci_low": "-0.160457",
+        "ci_high": "0.184479",
+        "q": "0.959978"
+      },
+      "estimate": 0.0120107,
+      "ci_low": -0.160457,
+      "ci_high": 0.184479,
+      "q": 0.959978,
+      "status": "ESTIMATED",
+      "precision_significant_digits": 6,
+      "unit": "mg/dL per original personal diet Z",
+      "planned_family_size": 14,
+      "family": "primary_14",
+      "source_screenshot": "截屏2026-09-25 22.25.34.png",
+      "source_screenshots": [
+        "截屏2026-09-25 22.25.34.png"
+      ]
+    },
+    {
+      "analysis": "quality",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "mean_increment",
+      "model": "meal_adjusted",
+      "diet": "hPDI",
+      "people": 4627,
+      "meals": 107103,
+      "display": {
+        "estimate": "-0.0450223",
+        "ci_low": "-0.214031",
+        "ci_high": "0.123986",
+        "q": "0.935696"
+      },
+      "estimate": -0.0450223,
+      "ci_low": -0.214031,
+      "ci_high": 0.123986,
+      "q": 0.935696,
+      "status": "ESTIMATED",
+      "precision_significant_digits": 6,
+      "unit": "mg/dL per original personal diet Z",
+      "planned_family_size": 14,
+      "family": "primary_14",
+      "source_screenshot": "截屏2026-09-25 22.25.34.png",
+      "source_screenshots": [
+        "截屏2026-09-25 22.25.34.png"
+      ]
+    },
+    {
+      "analysis": "quality",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "mean_increment",
+      "model": "meal_adjusted",
+      "diet": "rEDIH",
+      "people": 4370,
+      "meals": 103007,
+      "display": {
+        "estimate": "-0.5057",
+        "ci_low": "-0.712951",
+        "ci_high": "-0.29845",
+        "q": "1.40435e-05"
+      },
+      "estimate": -0.5057,
+      "ci_low": -0.712951,
+      "ci_high": -0.29845,
+      "q": 1.40435e-05,
+      "status": "ESTIMATED",
+      "precision_significant_digits": 6,
+      "unit": "mg/dL per original personal diet Z",
+      "planned_family_size": 14,
+      "family": "primary_14",
+      "source_screenshot": "截屏2026-09-25 22.25.34.png",
+      "source_screenshots": [
+        "截屏2026-09-25 22.25.34.png"
+      ]
+    },
+    {
+      "analysis": "quality",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "mean_increment",
+      "model": "meal_adjusted",
+      "diet": "EAT13",
+      "people": 4282,
+      "meals": 100903,
+      "display": {
+        "estimate": "-0.0742097",
+        "ci_low": "-0.253442",
+        "ci_high": "0.105023",
+        "q": "0.729729"
+      },
+      "estimate": -0.0742097,
+      "ci_low": -0.253442,
+      "ci_high": 0.105023,
+      "q": 0.729729,
+      "status": "ESTIMATED",
+      "precision_significant_digits": 6,
+      "unit": "mg/dL per original personal diet Z",
+      "planned_family_size": 14,
+      "family": "primary_14",
+      "source_screenshot": "截屏2026-09-25 22.25.34.png",
+      "source_screenshots": [
+        "截屏2026-09-25 22.25.34.png"
+      ]
+    },
+    {
+      "analysis": "quality",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "mean_increment",
+      "model": "meal_adjusted",
+      "diet": "NOVA4",
+      "people": 3913,
+      "meals": 92655,
+      "display": {
+        "estimate": "-0.0229172",
+        "ci_low": "-0.219829",
+        "ci_high": "0.173995",
+        "q": "0.959978"
+      },
+      "estimate": -0.0229172,
+      "ci_low": -0.219829,
+      "ci_high": 0.173995,
+      "q": 0.959978,
+      "status": "ESTIMATED",
+      "precision_significant_digits": 6,
+      "unit": "mg/dL per original personal diet Z",
+      "planned_family_size": 14,
+      "family": "primary_14",
+      "source_screenshot": "截屏2026-09-25 22.25.34.png",
+      "source_screenshots": [
+        "截屏2026-09-25 22.25.34.png"
+      ]
+    },
+    {
+      "analysis": "quality",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "mean_increment",
+      "model": "meal_adjusted",
+      "diet": "Carbohydrate_pct",
+      "people": 4349,
+      "meals": 102677,
+      "display": {
+        "estimate": "-0.854935",
+        "ci_low": "-1.20711",
+        "ci_high": "-0.502758",
+        "q": "1.40435e-05"
+      },
+      "estimate": -0.854935,
+      "ci_low": -1.20711,
+      "ci_high": -0.502758,
+      "q": 1.40435e-05,
+      "status": "ESTIMATED",
+      "precision_significant_digits": 6,
+      "unit": "mg/dL per original personal diet Z",
+      "planned_family_size": 14,
+      "family": "primary_14",
+      "source_screenshot": "截屏2026-09-25 22.25.34.png",
+      "source_screenshots": [
+        "截屏2026-09-25 22.25.34.png"
+      ]
+    },
+    {
+      "analysis": "quality",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "background",
+      "diet": "AHEI",
+      "people": 4370,
+      "meals": 103007,
+      "display": {
+        "estimate": "-0.0113791",
+        "ci_low": "-0.287097",
+        "ci_high": "0.264339",
+        "q": "0.979783"
+      },
+      "estimate": -0.0113791,
+      "ci_low": -0.287097,
+      "ci_high": 0.264339,
+      "q": 0.979783,
+      "status": "ESTIMATED",
+      "precision_significant_digits": 6,
+      "unit": "mg/dL per original personal diet Z",
+      "planned_family_size": 14,
+      "family": "background_14",
+      "source_screenshot": "截屏2026-09-25 22.25.43.png",
+      "source_screenshots": [
+        "截屏2026-09-25 22.25.43.png",
+        "截屏2026-09-25 22.25.34.png"
+      ]
+    },
+    {
+      "analysis": "quality",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "background",
+      "diet": "AMED",
+      "people": 4370,
+      "meals": 103007,
+      "display": {
+        "estimate": "0.0567827",
+        "ci_low": "-0.20946",
+        "ci_high": "0.323026",
+        "q": "0.946226"
+      },
+      "estimate": 0.0567827,
+      "ci_low": -0.20946,
+      "ci_high": 0.323026,
+      "q": 0.946226,
+      "status": "ESTIMATED",
+      "precision_significant_digits": 6,
+      "unit": "mg/dL per original personal diet Z",
+      "planned_family_size": 14,
+      "family": "background_14",
+      "source_screenshot": "截屏2026-09-25 22.25.43.png",
+      "source_screenshots": [
+        "截屏2026-09-25 22.25.43.png",
+        "截屏2026-09-25 22.25.34.png"
+      ]
+    },
+    {
+      "analysis": "quality",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "background",
+      "diet": "hPDI",
+      "people": 4627,
+      "meals": 107103,
+      "display": {
+        "estimate": "-0.299668",
+        "ci_low": "-0.558566",
+        "ci_high": "-0.0407701",
+        "q": "0.0652451"
+      },
+      "estimate": -0.299668,
+      "ci_low": -0.558566,
+      "ci_high": -0.0407701,
+      "q": 0.0652451,
+      "status": "ESTIMATED",
+      "precision_significant_digits": 6,
+      "unit": "mg/dL per original personal diet Z",
+      "planned_family_size": 14,
+      "family": "background_14",
+      "source_screenshot": "截屏2026-09-25 22.25.43.png",
+      "source_screenshots": [
+        "截屏2026-09-25 22.25.43.png",
+        "截屏2026-09-25 22.25.34.png"
+      ]
+    },
+    {
+      "analysis": "quality",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "background",
+      "diet": "rEDIH",
+      "people": 4370,
+      "meals": 103007,
+      "display": {
+        "estimate": "-0.00411415",
+        "ci_low": "-0.322391",
+        "ci_high": "0.314163",
+        "q": "0.979783"
+      },
+      "estimate": -0.00411415,
+      "ci_low": -0.322391,
+      "ci_high": 0.314163,
+      "q": 0.979783,
+      "status": "ESTIMATED",
+      "precision_significant_digits": 6,
+      "unit": "mg/dL per original personal diet Z",
+      "planned_family_size": 14,
+      "family": "background_14",
+      "source_screenshot": "截屏2026-09-25 22.25.43.png",
+      "source_screenshots": [
+        "截屏2026-09-25 22.25.43.png",
+        "截屏2026-09-25 22.25.34.png"
+      ]
+    },
+    {
+      "analysis": "quality",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "background",
+      "diet": "EAT13",
+      "people": 4282,
+      "meals": 100903,
+      "display": {
+        "estimate": "-0.015703",
+        "ci_low": "-0.292208",
+        "ci_high": "0.260802",
+        "q": "0.979783"
+      },
+      "estimate": -0.015703,
+      "ci_low": -0.292208,
+      "ci_high": 0.260802,
+      "q": 0.979783,
+      "status": "ESTIMATED",
+      "precision_significant_digits": 6,
+      "unit": "mg/dL per original personal diet Z",
+      "planned_family_size": 14,
+      "family": "background_14",
+      "source_screenshot": "截屏2026-09-25 22.25.43.png",
+      "source_screenshots": [
+        "截屏2026-09-25 22.25.43.png",
+        "截屏2026-09-25 22.25.34.png"
+      ]
+    },
+    {
+      "analysis": "quality",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "background",
+      "diet": "NOVA4",
+      "people": 3913,
+      "meals": 92655,
+      "display": {
+        "estimate": "0.926796",
+        "ci_low": "0.640392",
+        "ci_high": "1.2132",
+        "q": "1.16155e-09"
+      },
+      "estimate": 0.926796,
+      "ci_low": 0.640392,
+      "ci_high": 1.2132,
+      "q": 1.16155e-09,
+      "status": "ESTIMATED",
+      "precision_significant_digits": 6,
+      "unit": "mg/dL per original personal diet Z",
+      "planned_family_size": 14,
+      "family": "background_14",
+      "source_screenshot": "截屏2026-09-25 22.25.43.png",
+      "source_screenshots": [
+        "截屏2026-09-25 22.25.43.png",
+        "截屏2026-09-25 22.25.34.png"
+      ]
+    },
+    {
+      "analysis": "quality",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "background",
+      "diet": "Carbohydrate_pct",
+      "people": 4349,
+      "meals": 102677,
+      "display": {
+        "estimate": "2.12983",
+        "ci_low": "1.87001",
+        "ci_high": "2.38965",
+        "q": "2.38231e-55"
+      },
+      "estimate": 2.12983,
+      "ci_low": 1.87001,
+      "ci_high": 2.38965,
+      "q": 2.38231e-55,
+      "status": "ESTIMATED",
+      "precision_significant_digits": 6,
+      "unit": "mg/dL per original personal diet Z",
+      "planned_family_size": 14,
+      "family": "background_14",
+      "source_screenshot": "截屏2026-09-25 22.25.43.png",
+      "source_screenshots": [
+        "截屏2026-09-25 22.25.43.png",
+        "截屏2026-09-25 22.25.34.png"
+      ]
+    },
+    {
+      "analysis": "quality",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "meal_adjusted",
+      "diet": "AHEI",
+      "people": 4370,
+      "meals": 103007,
+      "display": {
+        "estimate": "-0.273647",
+        "ci_low": "-0.53094",
+        "ci_high": "-0.0163544",
+        "q": "0.0866041"
+      },
+      "estimate": -0.273647,
+      "ci_low": -0.53094,
+      "ci_high": -0.0163544,
+      "q": 0.0866041,
+      "status": "ESTIMATED",
+      "precision_significant_digits": 6,
+      "unit": "mg/dL per original personal diet Z",
+      "planned_family_size": 14,
+      "family": "peak_secondary_14",
+      "source_screenshot": "截屏2026-09-25 22.25.43.png",
+      "source_screenshots": [
+        "截屏2026-09-25 22.25.43.png"
+      ]
+    },
+    {
+      "analysis": "quality",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "meal_adjusted",
+      "diet": "AMED",
+      "people": 4370,
+      "meals": 103007,
+      "display": {
+        "estimate": "-0.0629257",
+        "ci_low": "-0.316908",
+        "ci_high": "0.191057",
+        "q": "0.791273"
+      },
+      "estimate": -0.0629257,
+      "ci_low": -0.316908,
+      "ci_high": 0.191057,
+      "q": 0.791273,
+      "status": "ESTIMATED",
+      "precision_significant_digits": 6,
+      "unit": "mg/dL per original personal diet Z",
+      "planned_family_size": 14,
+      "family": "peak_secondary_14",
+      "source_screenshot": "截屏2026-09-25 22.25.43.png",
+      "source_screenshots": [
+        "截屏2026-09-25 22.25.43.png"
+      ]
+    },
+    {
+      "analysis": "quality",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "meal_adjusted",
+      "diet": "hPDI",
+      "people": 4627,
+      "meals": 107103,
+      "display": {
+        "estimate": "-0.166652",
+        "ci_low": "-0.415871",
+        "ci_high": "0.082566",
+        "q": "0.332381"
+      },
+      "estimate": -0.166652,
+      "ci_low": -0.415871,
+      "ci_high": 0.082566,
+      "q": 0.332381,
+      "status": "ESTIMATED",
+      "precision_significant_digits": 6,
+      "unit": "mg/dL per original personal diet Z",
+      "planned_family_size": 14,
+      "family": "peak_secondary_14",
+      "source_screenshot": "截屏2026-09-25 22.25.43.png",
+      "source_screenshots": [
+        "截屏2026-09-25 22.25.43.png"
+      ]
+    },
+    {
+      "analysis": "quality",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "meal_adjusted",
+      "diet": "rEDIH",
+      "people": 4370,
+      "meals": 103007,
+      "display": {
+        "estimate": "-0.796522",
+        "ci_low": "-1.09115",
+        "ci_high": "-0.501892",
+        "q": "1.69997e-06"
+      },
+      "estimate": -0.796522,
+      "ci_low": -1.09115,
+      "ci_high": -0.501892,
+      "q": 1.69997e-06,
+      "status": "ESTIMATED",
+      "precision_significant_digits": 6,
+      "unit": "mg/dL per original personal diet Z",
+      "planned_family_size": 14,
+      "family": "peak_secondary_14",
+      "source_screenshot": "截屏2026-09-25 22.25.43.png",
+      "source_screenshots": [
+        "截屏2026-09-25 22.25.43.png"
+      ]
+    },
+    {
+      "analysis": "quality",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "meal_adjusted",
+      "diet": "EAT13",
+      "people": 4282,
+      "meals": 100903,
+      "display": {
+        "estimate": "-0.257045",
+        "ci_low": "-0.521956",
+        "ci_high": "0.00786647",
+        "q": "0.114398"
+      },
+      "estimate": -0.257045,
+      "ci_low": -0.521956,
+      "ci_high": 0.00786647,
+      "q": 0.114398,
+      "status": "ESTIMATED",
+      "precision_significant_digits": 6,
+      "unit": "mg/dL per original personal diet Z",
+      "planned_family_size": 14,
+      "family": "peak_secondary_14",
+      "source_screenshot": "截屏2026-09-25 22.25.43.png",
+      "source_screenshots": [
+        "截屏2026-09-25 22.25.43.png"
+      ]
+    },
+    {
+      "analysis": "quality",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "meal_adjusted",
+      "diet": "NOVA4",
+      "people": 3913,
+      "meals": 92655,
+      "display": {
+        "estimate": "0.0475204",
+        "ci_low": "-0.243148",
+        "ci_high": "0.338189",
+        "q": "0.806169"
+      },
+      "estimate": 0.0475204,
+      "ci_low": -0.243148,
+      "ci_high": 0.338189,
+      "q": 0.806169,
+      "status": "ESTIMATED",
+      "precision_significant_digits": 6,
+      "unit": "mg/dL per original personal diet Z",
+      "planned_family_size": 14,
+      "family": "peak_secondary_14",
+      "source_screenshot": "截屏2026-09-25 22.25.43.png",
+      "source_screenshots": [
+        "截屏2026-09-25 22.25.43.png"
+      ]
+    },
+    {
+      "analysis": "quality",
+      "setting": "joint",
+      "branch": "A",
+      "outcome": "peak_rise_0_120",
+      "model": "meal_adjusted",
+      "diet": "Carbohydrate_pct",
+      "people": 4349,
+      "meals": 102677,
+      "display": {
+        "estimate": "-0.848226",
+        "ci_low": "-1.38965",
+        "ci_high": "-0.306801",
+        "q": "0.00600177"
+      },
+      "estimate": -0.848226,
+      "ci_low": -1.38965,
+      "ci_high": -0.306801,
+      "q": 0.00600177,
+      "status": "ESTIMATED",
+      "precision_significant_digits": 6,
+      "unit": "mg/dL per original personal diet Z",
+      "planned_family_size": 14,
+      "family": "peak_secondary_14",
+      "source_screenshot": "截屏2026-09-25 22.25.43.png",
+      "source_screenshots": [
+        "截屏2026-09-25 22.25.43.png"
+      ]
+    }
+  ]
+}
