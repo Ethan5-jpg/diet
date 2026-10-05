@@ -1,0 +1,13 @@
+setting,outcome,available_rows,estimated,q_family_below_005
+primary_common,mean_increment,4,4,0
+primary_common,baseline_glucose,4,4,3
+primary_common,peak_rise_0_120,4,4,0
+primary_common,cgm_mean_z,4,4,4
+primary_common,cgm_cv_z,4,4,1
+primary_common,cgm_sdw_z,4,4,2
+strict_common,mean_increment,4,4,2
+strict_common,baseline_glucose,4,4,3
+strict_common,peak_rise_0_120,4,4,0
+strict_common,cgm_mean_z,0,0,0
+strict_common,cgm_cv_z,0,0,0
+strict_common,cgm_sdw_z,0,0,0

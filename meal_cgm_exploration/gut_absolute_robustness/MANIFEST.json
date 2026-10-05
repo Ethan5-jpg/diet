@@ -1,0 +1,33 @@
+{
+  "version": "2026.10.04.2",
+  "purpose": "Exploratory absolute post-meal glucose and meal-support sensitivity",
+  "automatic_checks_passed": 25,
+  "real_data_refitted": false,
+  "files": {
+    "CONTRACT.json": "cd8bb09752c448d59ef418cf679282ca3188d45da2b555f0c6f88175d938f868",
+    "METHODS.md": "da84c4e8d9f047a88f57918ff4e31313ae20da375f40c2493512be65c92326ad",
+    "PLAN.md": "7cf6f0563429bb9d03b5026fa10209cd88365d5350d4e074def4720e683b091d",
+    "README.md": "db99f9e7242ce9ab9cb4a204d51f89eba860655f76fffa6b170e3ca33bd1bded",
+    "REVIEW.md": "e6e39b150ac2038d15b78f614e8225615a81f4dac64916147dee3aa1080b3039",
+    "__init__.py": "fcf11e5f0628b1879cc12553590dd117a7665e56e06855263de04e0499864437",
+    "analysis.py": "b0b29ed7e92e23183c225c3fdbbaa6a6d730d2346f06326fa65854cfb9b807eb",
+    "inputs.py": "16d63eeda8ba9a262fe7061c1facf23c0db6ea1249d1be9a37cd7d0c26463194",
+    "reporting.py": "2950f785d5c616a9ce5fc71fe73927e2d0fa879d8d16db63797160330ddaee88",
+    "run_analysis.py": "575b03de0d406fdbc81e5ff20f8c96159222e262579b05ba93c9fa94be25df6e",
+    "tests/test_analysis.py": "872767584e7bbba53df03a19758fa521a9210d229eee7a0d518f2d9831fa76e5",
+    "上传说明.txt": "cbb66191844a6479e893f3f32e2f8eec389333a2ec632d1aca2b0096640eabd1"
+  },
+  "dependencies": {
+    "hppmeal/__init__.py": "4758c2933302e367229b79ca85f532884c0c6236b5d74e6c179c091c2a5af27b",
+    "hppmeal/common.py": "1ba7c4715bb3e734e9c36b0cbb30c8879a13862726c9730f95cde2f26476096a",
+    "hppmeal/models.py": "799d1e43edde2cb469e7716edb0c704a7fd4196e4a80bef0e9114f557193701f",
+    "seven_diet_meals/__init__.py": "3642de64b8850eb19a64f8c367fcc7c5ee4a42082ca54d6899ca47c22f959d1a",
+    "seven_diet_meals/inputs.py": "0cf5bbdd88289419fd4b9a4d6ebce75c6487b2755c72dbc9c03dc4d6c646e0bd",
+    "seven_diet_meals/models.py": "ba021569c7d5e7f6efda1c6eaebee649d048faa014eb00c157ae9a2277a23ba7",
+    "seven_diet_meals/sources.json": "a53eb1728da6675d24b3f108bca1a9a55a7e5829c0341a6e088aee1f4ea7a82a",
+    "gut_meal_bridge_v2/__init__.py": "7302f84fc35e95c6579c157d85e243b36511a2e559912d9be6b8ace3394cabf7",
+    "gut_meal_bridge_v2/inputs.py": "1996b1f653268ad5bebcf809dad63b803436275dc2beb41059eb27da08b96ea5",
+    "gut_meal_bridge_v2/analysis.py": "aeea815a3b395f94f35710087d5d06331cd66c68c473b06c5a3ace1592c9b69b",
+    "gut_meal_bridge_v2/CONTRACT.json": "ead7fd6a3a1c89dc17d516024a5a5bcea2356e8a16f92729ee72f089d45bd129"
+  }
+}

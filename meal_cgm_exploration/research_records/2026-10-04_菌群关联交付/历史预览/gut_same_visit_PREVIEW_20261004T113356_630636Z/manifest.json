@@ -1,0 +1,33 @@
+{
+  "version": "2026.10.04.1",
+  "status": "PREVIEW_ONLY",
+  "data_kind": "REAL_SCREENSHOT_ROUNDED",
+  "source": "/Users/blizzardxu/Desktop/HPP/Data/meal_cgm_exploration/research_records/2026-09-29_菌群餐前餐后衔接结果/截图数值转录.json",
+  "preview": true,
+  "refit": false,
+  "date_order_filter": false,
+  "additional_14day_filter": false,
+  "source_sha256": {
+    "/Users/blizzardxu/Desktop/HPP/Data/meal_cgm_exploration/research_records/2026-09-29_菌群餐前餐后衔接结果/截图数值转录.json": "0a05f3cd45e95982ca95fad5577134ff846aaaa56ec4757436c3e2aeccc33ff5"
+  },
+  "code_sha256": "cda06c29ff61b73826073bfdf0b95e1ba348e33a7525579ca231e325ec08cec6",
+  "available_models": 36,
+  "missing_local_specs": 12,
+  "estimated_models": 36,
+  "result_sha256": {
+    "Figure_legends.md": "12d5140a6f4c80bd0274193a00ba0c7e3254324b7a28a22a773e5ee028b12122",
+    "Methods_en.md": "318ea1c0e33a61069021a8f47acd6d0281e8a6e03d52c63a0f8262645160077b",
+    "RESULTS_en.md": "ea6f8518755a7bf064dadae4a358170809eb824fb02ff7bd814f2750dddfe5fd",
+    "RESULTS_zh.md": "946e2b622aebc28abbb75de2caf899f540d9c6cb3e06859eb7249cfb0f3bf1d8",
+    "TERMS.md": "79cb790c5787329c1ab46ef2b1affbb5c9ea48f4c6ded59a6e933130a46ecd15",
+    "figures/Figure1_meal_associations.pdf": "c9655b6c4df0e1a72af34bb7915e1d430a8bc7188aec33bb3129431688995a8d",
+    "figures/Figure1_meal_associations.png": "0272d56bea82a08f351dd12730e110ebd14238f0d7a8e89cf40cca042341c9d0",
+    "figures/Figure1_meal_associations.svg": "f806943f5a781f64a1fdea7a7b1bf9154b3742880c0af558c1510ae1205d7e44",
+    "tables/all_available_models.csv": "32a0d6706a31ef5f9dde6ecc43afa0af58a20d6cd348650d208db01b5be57ea5",
+    "tables/meal_models_24.csv": "55a053367530b4586976f6ab7765b4e032fd869c8beef879966f3afd93dcc75f",
+    "tables/missing_local_specs.csv": "32522d63d7d1b08bc678ee0a39e0c5db5f79358ce20e33db4975865b83219215",
+    "tables/sample.csv": "4ee372aa427d336b4cd02e456c37fde144173eff8aea6893b1a4e5f07719a3ae",
+    "tables/significance_counts.csv": "cd17be25ba800e5309343cc453f1daf361a8696b60043759cc90b5b591e53720",
+    "tables/whole_CGM_reference.csv": "bb65c1c7e00e0abcfb46d5014458dbcc46b4faac903905b29e3dbada1062087d"
+  }
+}

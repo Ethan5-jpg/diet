@@ -1,0 +1,16 @@
+{
+  "version": "2026.10.04.1",
+  "original_run": "gut_meal_bridge_v2_20260929T044951_469958Z",
+  "previous_run": "gut_absolute_robustness_20261004T145431_649081Z",
+  "previous_version": "2026.10.04.2",
+  "settings": ["primary_common", "strict_common"],
+  "taxa": ["T023", "T046", "T068", "T096"],
+  "thresholds": [{"name":"m5d3","meals":5,"dates":3},{"name":"m10d5","meals":10,"dates":5},{"name":"m20d7","meals":20,"dates":7}],
+  "outcomes": ["baseline_glucose", "mean_increment", "absolute_post_mean"],
+  "common_models": 72,
+  "reused_common_models": 40,
+  "new_models": 32,
+  "original_reference_rows": 72,
+  "q_panel_family_size": 12,
+  "interpretation": "Exploratory after prior results; overlapping same-visit samples. Equal person weights; original CLR-Z and meal summaries. Original primary models retained. No causal mediation or independent validation."
+}

@@ -1,0 +1,21 @@
+上传这个完整新文件夹：gut_absolute_completion
+位置：/home/ec2-user/Desktop/HPP/Data/meal_cgm_exploration/
+与gut_absolute_robustness、gut_meal_bridge_v2、outputs同级。
+旧文件夹和两次来源运行的private/全部保留。
+
+在原pheno环境运行：
+cd /home/ec2-user/Desktop/HPP/Data/meal_cgm_exploration
+python3 gut_absolute_completion/run_analysis.py
+
+本轮新增拟合32个模型，复用40个共同调整参照。
+补齐三个餐数门槛的Pre/Net/Abs，输出完整表及两张森林图（PNG/PDF/SVG）。
+来源默认使用gut_absolute_robustness_20261004T145431_649081Z和原gut_meal_bridge_v2运行。
+
+跑完发KEY 1/3、KEY 2/3、KEY 3/3三段截图。
+可分别重新查看：
+python3 gut_absolute_completion/run_analysis.py --show latest --page 1
+python3 gut_absolute_completion/run_analysis.py --show latest --page 2
+python3 gut_absolute_completion/run_analysis.py --show latest --page 3
+
+若报错，发报错与RUN_DIR。不需要下载数据或结果。
+图件和全精度表保存在服务器本次outputs目录；private/仅留服务器。

@@ -1,0 +1,14 @@
+{
+  "run": "gut_absolute_robustness_20261004T145431_649081Z",
+  "source": "Two user-provided terminal screenshots, 2026-10-04 23:00",
+  "precision": "Screen-rounded only; original full-precision CSV remains on server",
+  "real_models_refitted_locally": false,
+  "files": {
+    "01_样本流失与绝对餐后血糖.png": "b72849fad675db8ae51e3a4c41b5ce793abafaaa85f5a10159b337060e7ef451",
+    "02_三个餐数门槛敏感性.png": "8d83885760a084d53443309a8426133aa5d5f17153c0ca35c064735659021aff",
+    "截图数值转录_96项.json": "1d0a254e240a1643b85dcba75721696c8b39df4733e2f6666256d8aa67b0a895",
+    "终端显示数值.txt": "91622ebc71073631015490640e78b6c58008e154db27ada998157c05ed4d3886",
+    "结果解读.txt": "5cbbb187273806311fa239cc1ec164ebd7bc181fa7fc47e5c40c68f486c2e1d5"
+  },
+  "transcription_correction_20261005": "2026-10-05放大原截图更正两处旧本地转录：strict T023 A Abs上限0.781改0.78；primary T096 A Net下限0.092改0.0902。模型、系数、q和结论不变。"
+}

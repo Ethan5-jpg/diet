@@ -1,0 +1,14 @@
+{
+  "version": "2026.10.04.1",
+  "purpose": "Read-only export of existing four-candidate same-visit models",
+  "automatic_checks_passed": 13,
+  "real_data_refitted": false,
+  "files": {
+    "PLAN.md": "82159d4516e717196038b77fe50189234faa1547965d01bff999a79708b5d3e6",
+    "README.md": "6bd249fdf8e4f3a9b430c83004eff102a33e0dc167c489cf01e1b3f437e7d136",
+    "REVIEW.md": "9c84fdc9c78d028a96a38ea56135f55f59885871df7abde2311ae3b20d990759",
+    "complete.py": "c2863f0debb80a2ea793392a3813d22f7693d5d12ebdf6b6b2f0b80ff0c2d24e",
+    "test_complete.py": "6ede37638cb8ff731cba9972c398f0d6d3274918b594d010fe5e28b563eabc09",
+    "上传说明.txt": "024f3f1c0042f96beee31be15df6d4f4b1f7267b23a0a4a44b34d19fb4282245"
+  }
+}

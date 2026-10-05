@@ -1,0 +1,72 @@
+Source: user screenshots 2026-10-04 23:00:01 and 23:00:13
+RUN=gut_absolute_robustness_20261004T145431_649081Z
+DATA=REAL; STATUS=COMPLETE_WITH_LIMITATIONS (server reported)
+SOURCE_REPRODUCTION=PASS_48; SOURCES_UNCHANGED=PASS (server reported)
+A estimated=24/24 (8 original Pre references); B new estimated=48/48 (24 original references retained)
+Algebra checks=8/8. No full-precision tables, p or SE received locally.
+All B/CI units: mg/dL per original CLR-Z. Terminal precision generally 3 significant digits.
+
+[FLOW]
+setting threshold people meals retained_fraction meals_p50 dates_p50
+primary_common m5d3 3631 91144 1 25 11
+primary_common m10d5 3517 90292 .9686 25 11
+primary_common m20d7 2668 77126 .7348 28 12
+strict_common m5d3 3398 85160 1 25 11
+strict_common m10d5 3297 84405 .9703 25 11
+strict_common m20d7 2495 71966 .7343 28 12
+
+[MAX_ABSOLUTE_SMD]
+setting threshold field absolute_smd
+primary_common m10d5 NOVA4 .2614
+primary_common m20d7 age_years .1888
+strict_common m10d5 NOVA4 .2771
+strict_common m20d7 age_years .2003
+Only absolute differences shown: direction cannot be inferred from this screen.
+
+[A]
+Common adjustment excludes pre-meal glucose and slope. q=q_panel12, new 12-test family per setting.
+outcome taxon primary_B primary_L95 primary_U95 primary_q strict_B strict_L95 strict_U95 strict_q
+Pre T023 .455 .164 .746 .0131 .403 .102 .704 .0252
+Pre T046 -.389 -.688 -.0903 .0257 -.444 -.753 -.135 .0195
+Pre T068 .213 -.0897 .517 .223 .215 -.1 .531 .241
+Pre T096 -.696 -.996 -.396 .0000662 -.705 -1.02 -.394 .000108
+Net T023 .0217 -.155 .199 .81 .0232 -.162 .208 .806
+Net T046 .225 .0245 .425 .0477 .271 .0635 .479 .0252
+Net T068 .0664 -.124 .257 .539 .0748 -.122 .272 .499
+Net T096 .289 .0902 .487 .0174 .309 .103 .514 .0193
+Abs T023 .477 .138 .816 .0174 .426 .0718 .781 .0369
+Abs T046 -.164 -.504 .176 .413 -.173 -.524 .178 .401
+Abs T068 .28 -.055 .615 .152 .29 -.0576 .638 .153
+Abs T096 -.407 -.749 -.0658 .0388 -.397 -.75 -.0431 .0478
+
+[B_PRIMARY]
+Original adjustments retained: Net/Peak include baseline and pre-meal slope. q=q_family, Net4; Pre+Peak8.
+Each threshold cell has B L95 U95 q; q_meal12 is not displayed in these screenshots.
+outcome taxon m5d3_B m5d3_L95 m5d3_U95 m5d3_q m10d5_B m10d5_L95 m10d5_U95 m10d5_q m20d7_B m20d7_L95 m20d7_U95 m20d7_q
+Net T023 .0535 -.125 .232 .556 .0569 -.124 .238 .537 .0795 -.126 .285 .448
+Net T046 .202 .00389 .4 .0913 .217 .0198 .413 .062 .237 .0114 .462 .079
+Net T068 .0846 -.103 .272 .501 .104 -.085 .293 .374 .0899 -.124 .304 .448
+Net T096 .23 .033 .427 .0885 .227 .0284 .425 .062 .28 .0537 .507 .0614
+Pre T023 .455 .164 .746 .0087 .498 .199 .797 .00436 .441 .0863 .795 .0593
+Pre T046 -.389 -.688 -.0903 .0285 -.371 -.672 -.0703 .0417 -.23 -.569 .109 .264
+Pre T068 .213 -.0897 .517 .223 .24 -.0665 .548 .166 .207 -.149 .563 .29
+Pre T096 -.696 -.996 -.396 .0000442 -.706 -1.01 -.4 .0000489 -.616 -.969 -.264 .000495
+Peak T023 .127 -.138 .392 .396 .149 -.12 .417 .317 .203 -.106 .513 .264
+Peak T046 .253 -.0372 .543 .14 .287 -.0036 .578 .106 .323 -.0111 .657 .116
+Peak T068 .104 -.18 .389 .472 .129 -.16 .418 .382 .0547 -.273 .383 .744
+Peak T096 .264 -.0208 .548 .139 .263 -.0239 .551 .116 .347 .0211 .673 .0984
+
+[B_STRICT]
+outcome taxon m5d3_B m5d3_L95 m5d3_U95 m5d3_q m10d5_B m10d5_L95 m10d5_U95 m10d5_q m20d7_B m20d7_L95 m20d7_U95 m20d7_q
+Net T023 .0464 -.14 .233 .625 .0472 -.142 .236 .625 .0663 -.142 .275 .542
+Net T046 .243 .038 .448 .0404 .248 .0439 .452 .0345 .254 .0206 .488 .0659
+Net T068 .0931 -.101 .287 .463 .103 -.0939 .301 .406 .075 -.148 .299 .542
+Net T096 .251 .0471 .454 .0404 .25 .0452 .455 .0345 .284 .0489 .519 .0659
+Pre T023 .403 .102 .704 .0233 .444 .135 .754 .0173 .429 .0551 .802 .0981
+Pre T046 -.444 -.753 -.135 .0195 -.432 -.744 -.121 .0173 -.324 -.676 .0274 .113
+Pre T068 .215 -.1 .531 .241 .241 -.078 .559 .185 .204 -.168 .575 .323
+Pre T096 -.705 -1.02 -.394 .0000721 -.717 -1.03 -.401 .0000731 -.63 -.998 -.261 .000656
+Peak T023 .112 -.164 .389 .426 .133 -.147 .413 .352 .189 -.132 .51 .323
+Peak T046 .318 .0189 .616 .0744 .337 .0365 .637 .0559 .342 -.00276 .686 .104
+Peak T068 .152 -.142 .445 .356 .168 -.131 .468 .31 .0612 -.279 .401 .724
+Peak T096 .288 -.00423 .58 .0855 .293 -.00234 .588 .0829 .357 .0207 .693 .0999

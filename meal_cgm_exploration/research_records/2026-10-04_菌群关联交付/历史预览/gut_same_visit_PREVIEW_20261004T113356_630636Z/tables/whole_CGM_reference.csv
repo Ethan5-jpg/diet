@@ -1,0 +1,13 @@
+setting,taxon,species,outcome,status,people,meals,estimate,se,ci_low,ci_high,p,q_family,q_meal12,family,planned_family_size,unit,adjustment,reason
+primary_common,T023,GGB6012_SGB8640,cgm_cv_z,ESTIMATED,3631,,0.0052700000000000004,,,,,0.73399999999999999,,whole_cgm_reference,12,original CGM Z per original CLR-Z,,
+primary_common,T046,Clostridium phoceensis,cgm_cv_z,ESTIMATED,3631,,0.010699999999999999,,,,,0.60699999999999998,,whole_cgm_reference,12,original CGM Z per original CLR-Z,,
+primary_common,T068,Eubacterium rectale,cgm_cv_z,ESTIMATED,3631,,0.066699999999999995,,,,,0.00026800000000000001,,whole_cgm_reference,12,original CGM Z per original CLR-Z,,
+primary_common,T096,Ruthenibacterium lactatiformans,cgm_cv_z,ESTIMATED,3631,,0.0094599999999999997,,,,,0.627,,whole_cgm_reference,12,original CGM Z per original CLR-Z,,
+primary_common,T023,GGB6012_SGB8640,cgm_mean_z,ESTIMATED,3631,,0.0482,,,,,0.00050000000000000001,,whole_cgm_reference,12,original CGM Z per original CLR-Z,,
+primary_common,T046,Clostridium phoceensis,cgm_mean_z,ESTIMATED,3631,,-0.041200000000000001,,,,,0.00265,,whole_cgm_reference,12,original CGM Z per original CLR-Z,,
+primary_common,T068,Eubacterium rectale,cgm_mean_z,ESTIMATED,3631,,0.046300000000000001,,,,,0.0080700000000000008,,whole_cgm_reference,12,original CGM Z per original CLR-Z,,
+primary_common,T096,Ruthenibacterium lactatiformans,cgm_mean_z,ESTIMATED,3631,,-0.064600000000000005,,,,,4.8500000000000002e-06,,whole_cgm_reference,12,original CGM Z per original CLR-Z,,
+primary_common,T023,GGB6012_SGB8640,cgm_sdw_z,ESTIMATED,3631,,0.040099999999999997,,,,,0.017299999999999999,,whole_cgm_reference,12,original CGM Z per original CLR-Z,,
+primary_common,T046,Clostridium phoceensis,cgm_sdw_z,ESTIMATED,3631,,-0.0178,,,,,0.34599999999999997,,whole_cgm_reference,12,original CGM Z per original CLR-Z,,
+primary_common,T068,Eubacterium rectale,cgm_sdw_z,ESTIMATED,3631,,0.093100000000000002,,,,,1.23e-07,,whole_cgm_reference,12,original CGM Z per original CLR-Z,,
+primary_common,T096,Ruthenibacterium lactatiformans,cgm_sdw_z,ESTIMATED,3631,,-0.026800000000000001,,,,,0.14799999999999999,,whole_cgm_reference,12,original CGM Z per original CLR-Z,,

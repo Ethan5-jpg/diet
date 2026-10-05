@@ -1,0 +1,20 @@
+{
+  "run": "gut_absolute_completion_20261005T025850_838792Z",
+  "source": "User screenshots at 11:00 plus complete three-page return at 13:00 on 2026-10-05. Earlier old-run first page retained separately.",
+  "precision": "Screen-rounded; full-precision outputs remain on server",
+  "current_key1_pending": false,
+  "files": {
+    "00_旧运行第一页_非本轮.png": "6ceb2f093cf7572087d8c558cb38e52722c1b94b191c6ce91137dd7b917caee7",
+    "01_本轮来源样本完成_13时.png": "70498affb9fbd7d2def58b04a4ee464d151aee6927bd451fef0ff299949ac2d0",
+    "02_本轮主样本.png": "8d19a1d68c6d3f319a6689600378923f238340620eaed91d79a03dec351e9773",
+    "02_本轮主样本_13时.png": "c0a75393705e78bb6de10b2fef5d80007f216e1300c1280ba3e1f4f09f05f6c5",
+    "03_本轮严格样本.png": "5ccbb6781dabf8ef864870aeaa35c38d7c78631b0682badcece023ea6632ea2e",
+    "03_本轮严格样本_13时.png": "4d5bed675f9a926ad79ee586886c15c036687bd96e08673d94feab07240ad21b",
+    "完成与样本核对.txt": "dcbba27a9a34ec42666e27cac596727e9ddd3f4fc830a67e8123aecba6e2cae4",
+    "截图数值转录_72项.json": "33d27117c0cd77ff394ce2969178e8850db6cc3c765f42d375b726cc464b02b1",
+    "终端显示数值.txt": "698a60f07908cfda76248f1a90a64152a898e0e975c0b5f07c397827cd455215",
+    "结果解读.txt": "c31c61a2a87cab433ba5775a5a5bd0f8f6a81f16d2c4c10966fc233934674837"
+  },
+  "current_pages_complete": true,
+  "server_data_verification": "Reported in screenshots; no local direct server access"
+}

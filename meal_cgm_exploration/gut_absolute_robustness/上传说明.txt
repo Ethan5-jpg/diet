@@ -1,0 +1,23 @@
+只上传整个 gut_absolute_robustness 文件夹，当前版本2026.10.04.2。
+放到服务器 meal_cgm_exploration 下，与 gut_meal_bridge_v2、hppmeal、seven_diet_meals、outputs 同级。
+保留旧程序、旧结果与原运行的 private 文件夹。
+
+在原 pheno 环境、meal_cgm_exploration 目录执行：
+
+python3 gut_absolute_robustness/run_analysis.py
+
+默认使用原菌群运行 gut_meal_bridge_v2_20260929T044951_469958Z。
+先复现原48项，再补充绝对餐后血糖及10餐/5天、20餐/7天分析。
+本轮会拟合补充模型，和上次只导出结果的 complete.py 不同。
+
+跑完只需发三段汇总截图。可以依次重新查看：
+
+python3 gut_absolute_robustness/run_analysis.py --show latest --page 1
+python3 gut_absolute_robustness/run_analysis.py --show latest --page 2
+python3 gut_absolute_robustness/run_analysis.py --show latest --page 3
+
+COMPLETE_WITH_LIMITATIONS：A24项、B新增48项均估计完成。
+PARTIAL：存在NE，先看原因；不要调整门槛追求显著。
+FAILED：把错误和RUN_DIR发来；不要覆盖原结果或修改原表。
+
+不需要下载数据，后续继续终端汇总回传。

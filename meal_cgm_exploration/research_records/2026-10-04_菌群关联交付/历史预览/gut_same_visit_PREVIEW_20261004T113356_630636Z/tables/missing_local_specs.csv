@@ -1,0 +1,13 @@
+setting,taxon,outcome,status
+strict_common,T023,cgm_mean_z,NOT_IN_LOCAL_SCREENSHOTS
+strict_common,T023,cgm_cv_z,NOT_IN_LOCAL_SCREENSHOTS
+strict_common,T023,cgm_sdw_z,NOT_IN_LOCAL_SCREENSHOTS
+strict_common,T046,cgm_mean_z,NOT_IN_LOCAL_SCREENSHOTS
+strict_common,T046,cgm_cv_z,NOT_IN_LOCAL_SCREENSHOTS
+strict_common,T046,cgm_sdw_z,NOT_IN_LOCAL_SCREENSHOTS
+strict_common,T068,cgm_mean_z,NOT_IN_LOCAL_SCREENSHOTS
+strict_common,T068,cgm_cv_z,NOT_IN_LOCAL_SCREENSHOTS
+strict_common,T068,cgm_sdw_z,NOT_IN_LOCAL_SCREENSHOTS
+strict_common,T096,cgm_mean_z,NOT_IN_LOCAL_SCREENSHOTS
+strict_common,T096,cgm_cv_z,NOT_IN_LOCAL_SCREENSHOTS
+strict_common,T096,cgm_sdw_z,NOT_IN_LOCAL_SCREENSHOTS

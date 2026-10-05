@@ -1,0 +1,22 @@
+{
+  "status": "SCREENSHOT_RETURN_COMPLETE",
+  "data_kind": "REAL_SCREENSHOT_ROUNDED",
+  "server_run": "gut_same_visit_complete_20261004T133519_129603Z",
+  "models": 48,
+  "local_model_refit": false,
+  "original_precision_available_locally": false,
+  "results": {
+    "00_导出成功与样本汇总.png": "09eda661b486dc6ebe047a8b6f258a24d2f30138ad4e9a48ba803ad0482bc273",
+    "01_全部48项终端输出.png": "5e055897dda419eb141b6f0d64cfc24052a9d62490fa11efff3df59909d6a8b1",
+    "Results_en_updated.md": "9a228c8be246ed2320bff612271b9e372a6a8a3be0189208fda9b1889d897c3a",
+    "完整结果解读.md": "9f43112b38e2c331783b8e70f1a8cc3bce14473d5552a917d99b452167d77677",
+    "截图数值转录_48项.json": "e18c129f95cfac1d76d8367f6c0866fec6fcc119d0e53bf73c3cf0f60d3adf21",
+    "截图精度图/Figure1_meal_associations.pdf": "e7acfcb7ee79660269bcbd959c26432eed20729983ea0cc4c72d914dd70a9d52",
+    "截图精度图/Figure1_meal_associations.png": "b12ea53769cfbbb09e1f26628cb3dbeedb4b365f2c319f74a53d1aeddb6921db",
+    "截图精度图/Figure1_meal_associations.svg": "9f2795d3e67f1fbd04755eaf9a881e06eb864f7aa61c25bb39fb7f568ebea8ab",
+    "截图精度图/Figure2_whole_CGM_reference.pdf": "ebd22bedc028b55a239e5f97a0cb3b5a72d421d0a50191ea688ef9e22c903b60",
+    "截图精度图/Figure2_whole_CGM_reference.png": "987ae16cc960a5dd458c1ffa4f793f454d9b77ff0a05b209c42ff81bfc05c66f",
+    "截图精度图/Figure2_whole_CGM_reference.svg": "3070c8974d742eb9b6ae8c390f6dcc7eaa32fc44d7a260896eaab2252e352b2c",
+    "终端48项_显示精度.txt": "505f2be14d8ef962a8d9091a7a5036f2e0f3416b743d3adc5083b9485a531f40"
+  }
+}

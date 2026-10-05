@@ -1,0 +1,22 @@
+请将整个 gut_same_visit_completion 文件夹上传到服务器 meal_cgm_exploration 目录下。
+它应与 gut_meal_bridge_v2、window_qc_followup、outputs 等目录同级。
+不需要覆盖或删除旧文件夹。
+
+在服务器进入 meal_cgm_exploration 后，沿用原 pheno 环境，运行：
+
+python3 gut_same_visit_completion/complete.py
+
+本次直接读取已完成的原菌群运行：
+outputs/gut_meal_bridge_v2_20260929T044951_469958Z
+先核对来源和48项模型，再生成新的结果目录，不重新拟合。
+
+成功时终端显示 STATUS=COMPLETE_EXPORT，并给出 RUN_DIR。
+新目录包含全精度汇总表、两张森林图（PNG/PDF/SVG）、中英文结果、方法草稿和图注。
+请把终端摘要和 RUN_DIR 指向的新汇总文件夹发回。
+只需新汇总文件夹，不需要原运行的 private 文件夹或原始数据。
+
+如果提示 GUT_COMPLETION_FAILED，请直接发完整错误信息；不要改动旧结果表来绕过核对。
+
+研究口径：每餐质控 + 每人至少5餐、3日；菌群按同访视关联。
+不按菌群采样先后排除，也不增加两周缺失小于5%的纳入要求。
+本次范围为已有四个候选菌；主结局仍是餐后平均净增量。

@@ -1,0 +1,16 @@
+可直接上传的完整文件夹：window_qc_followup
+版本：2026.10.04.2
+
+把整个文件夹放入服务器原来的：
+/home/ec2-user/Desktop/HPP/Data/meal_cgm_exploration/
+
+它应与原来的hppmeal、seven_diet_meals、gut_meal_bridge_v2、quality_timecourse和outputs并列。
+不要再套一层同名文件夹。沿用pheno环境。
+
+在服务器meal_cgm_exploration目录运行：
+bash window_qc_followup/run_window_qc.sh --data-root ..
+
+结束后显示四页聚合汇总：
+python3 window_qc_followup/run_analysis.py --show latest --brief
+
+把四页终端文字发回即可。详细规则、替换路径和仅审计的命令见README.md。

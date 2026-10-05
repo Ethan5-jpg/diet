@@ -1,0 +1,39 @@
+{
+  "version": "2026.10.04.1",
+  "purpose": "Complete fixed meal-support Pre/Net/Abs comparisons with verified reuse",
+  "automatic_checks_passed": 16,
+  "real_data_refitted_locally": false,
+  "files": {
+    "CONTRACT.json": "37b9645e23d9e312830352c6e34baa86f49cba1ae953d741a169493b1adf9c15",
+    "METHODS.md": "bff6dcbb208b9d5994d6b39569b71b62179a1616ebda316e9c78c60521bb0d29",
+    "PLAN.md": "03e8c9f79df868b57bff83a28dbf3110bbe2cf9d195a00818d4c3a0eb945b53e",
+    "README.md": "6700ec0d2d88c453fac47b20c64dc89269788827dca2c53f78c0b5b141316749",
+    "REVIEW.md": "666a5a17aac7dee891a6285ee66e83cd70079c5aca5d1efebe36ed3bf5fa4d94",
+    "__init__.py": "5b6d0bc86723ed7b4fb35581d301b0afd0dc58cf273279f0170191db99d26a67",
+    "analysis.py": "4c1070f813f6bfa797bcf07d60b9e1b02b291078c62623f38b105885a9595d29",
+    "figures.py": "8600526536043781734705c155f4a64410578d3849e3a79a43d0371e8fd2e51b",
+    "inputs.py": "516d109f0c97e72cd1c9eb3b21d6b70091aa3bf14a5da1a4e5ef2c1a19807447",
+    "reporting.py": "0e47e58504d2b11c3df6bd73b4999d4e99f5fe0060bb84f6cf541a83bb459af0",
+    "run_analysis.py": "aa34f161e76c72f3b1194d5faee18235662fda1db811e6b2769773487ddf6554",
+    "tests/test_completion.py": "7d5b5408d2c03bfdc14a067915d5a6b07fd75abf4249e66a14c935b11324eeca",
+    "上传说明.txt": "4ec416e0b0c17a871fff6b26dbeb8d2aa38cff5627334b6854b15598e611680e"
+  },
+  "dependencies": {
+    "hppmeal/__init__.py": "4758c2933302e367229b79ca85f532884c0c6236b5d74e6c179c091c2a5af27b",
+    "hppmeal/common.py": "1ba7c4715bb3e734e9c36b0cbb30c8879a13862726c9730f95cde2f26476096a",
+    "hppmeal/models.py": "799d1e43edde2cb469e7716edb0c704a7fd4196e4a80bef0e9114f557193701f",
+    "seven_diet_meals/__init__.py": "3642de64b8850eb19a64f8c367fcc7c5ee4a42082ca54d6899ca47c22f959d1a",
+    "seven_diet_meals/inputs.py": "0cf5bbdd88289419fd4b9a4d6ebce75c6487b2755c72dbc9c03dc4d6c646e0bd",
+    "seven_diet_meals/models.py": "ba021569c7d5e7f6efda1c6eaebee649d048faa014eb00c157ae9a2277a23ba7",
+    "seven_diet_meals/sources.json": "a53eb1728da6675d24b3f108bca1a9a55a7e5829c0341a6e088aee1f4ea7a82a",
+    "gut_meal_bridge_v2/__init__.py": "7302f84fc35e95c6579c157d85e243b36511a2e559912d9be6b8ace3394cabf7",
+    "gut_meal_bridge_v2/inputs.py": "1996b1f653268ad5bebcf809dad63b803436275dc2beb41059eb27da08b96ea5",
+    "gut_meal_bridge_v2/analysis.py": "aeea815a3b395f94f35710087d5d06331cd66c68c473b06c5a3ace1592c9b69b",
+    "gut_meal_bridge_v2/CONTRACT.json": "ead7fd6a3a1c89dc17d516024a5a5bcea2356e8a16f92729ee72f089d45bd129",
+    "gut_absolute_robustness/__init__.py": "fcf11e5f0628b1879cc12553590dd117a7665e56e06855263de04e0499864437",
+    "gut_absolute_robustness/inputs.py": "16d63eeda8ba9a262fe7061c1facf23c0db6ea1249d1be9a37cd7d0c26463194",
+    "gut_absolute_robustness/analysis.py": "b0b29ed7e92e23183c225c3fdbbaa6a6d730d2346f06326fa65854cfb9b807eb",
+    "gut_absolute_robustness/reporting.py": "2950f785d5c616a9ce5fc71fe73927e2d0fa879d8d16db63797160330ddaee88",
+    "gut_absolute_robustness/CONTRACT.json": "cd8bb09752c448d59ef418cf679282ca3188d45da2b555f0c6f88175d938f868"
+  }
+}
