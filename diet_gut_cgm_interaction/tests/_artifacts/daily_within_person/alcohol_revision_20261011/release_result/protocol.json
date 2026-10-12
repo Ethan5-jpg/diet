@@ -1,0 +1,150 @@
+{
+  "version": "2026-10-11.alcohol.1",
+  "reference_run_id": "daily_20261011T055621_479640Z_666d40",
+  "amed_relative_path": "diet_deal/outputs/04_score_intakes/amed/amed_daily_component_intakes.csv",
+  "amed_sha256": "96a0e1c693e9fc880b276939b9c9fbde8f7632f69befc37cbd023fb6b8606494",
+  "parent_code_sha256": {
+    "run_analysis.py": "286565ff6380cacb13c89d82cc0bf804f3787d5a5e6b6bd4e4dc1d090e1641f4",
+    "show_results.py": "a2a117d13ec46bccdea60a5456f43934ecf1f61987eb4b49be0712f253284ffb",
+    "run_analysis.sh": "c3a4285d7619a5376f4e2455aa88bdbdc14109b6bf0a2d59bc6681ecf1a53894",
+    "daily/__init__.py": "0ccb734978194db0bf7fbd2553c793b8004561119c85f7c133cec18dcbd5c12d",
+    "daily/build.py": "eb512612231a48b0189ff53afddc0fa28ab740ecbcc0b2fe9663c6459742e29d",
+    "daily/common.py": "03d0993e61ba44a4c877f4529eaa4832d45e239749af892d5ed7ec8c03bfd1e0",
+    "daily/inputs.py": "b1c53f9eae9908f0d237b98c07c0d940598aef8a8d08fca633ab7ea3f122011c",
+    "daily/models.py": "6222008b12701df71aac808469a3d523fbf0d1644cfa81c42e290b3107fd1814",
+    "daily/reporting.py": "eebd1471e5f73ab281aded1f1cba10c829e30b016098d116fe0cbffb317e1588",
+    "daily/synthetic.py": "e1d053509de0f83843f79a6638b56b86d139746fa41f743a1b6da4d691c60a7c",
+    "config/analysis.json": "bbce2d2a295133b0d9b250d120c26c872fbf54b94802ab965aed38184a248327",
+    "requirements.txt": "96cd62f4c13fabab1b4cb19428c49a99bd96efbd996478b4d0243d76f501dbe9"
+  },
+  "expected_counts": [
+    {
+      "exposure": "NOVA4",
+      "taxon": "T068",
+      "source": "no_alcohol_requirement",
+      "complete_people": 4047,
+      "complete_days": 34281,
+      "final_people": 3522,
+      "final_days": 32274
+    },
+    {
+      "exposure": "NOVA4",
+      "taxon": "T068",
+      "source": "audit_observed_only",
+      "complete_people": 4024,
+      "complete_days": 31673,
+      "final_people": 3319,
+      "final_days": 29119
+    },
+    {
+      "exposure": "NOVA4",
+      "taxon": "T068",
+      "source": "audit_recovered",
+      "complete_people": 4030,
+      "complete_days": 33246,
+      "final_people": 3437,
+      "final_days": 31066
+    },
+    {
+      "exposure": "NOVA4",
+      "taxon": "T096",
+      "source": "no_alcohol_requirement",
+      "complete_people": 4047,
+      "complete_days": 34281,
+      "final_people": 3522,
+      "final_days": 32274
+    },
+    {
+      "exposure": "NOVA4",
+      "taxon": "T096",
+      "source": "audit_observed_only",
+      "complete_people": 4024,
+      "complete_days": 31673,
+      "final_people": 3319,
+      "final_days": 29119
+    },
+    {
+      "exposure": "NOVA4",
+      "taxon": "T096",
+      "source": "audit_recovered",
+      "complete_people": 4030,
+      "complete_days": 33246,
+      "final_people": 3437,
+      "final_days": 31066
+    },
+    {
+      "exposure": "Fiber",
+      "taxon": "T068",
+      "source": "no_alcohol_requirement",
+      "complete_people": 3825,
+      "complete_days": 23629,
+      "final_people": 2546,
+      "final_days": 20234
+    },
+    {
+      "exposure": "Fiber",
+      "taxon": "T068",
+      "source": "audit_observed_only",
+      "complete_people": 3808,
+      "complete_days": 23053,
+      "final_people": 2470,
+      "final_days": 19545
+    },
+    {
+      "exposure": "Fiber",
+      "taxon": "T068",
+      "source": "audit_recovered",
+      "complete_people": 3810,
+      "complete_days": 23139,
+      "final_people": 2476,
+      "final_days": 19646
+    },
+    {
+      "exposure": "Fiber",
+      "taxon": "T096",
+      "source": "no_alcohol_requirement",
+      "complete_people": 3825,
+      "complete_days": 23629,
+      "final_people": 2546,
+      "final_days": 20234
+    },
+    {
+      "exposure": "Fiber",
+      "taxon": "T096",
+      "source": "audit_observed_only",
+      "complete_people": 3808,
+      "complete_days": 23053,
+      "final_people": 2470,
+      "final_days": 19545
+    },
+    {
+      "exposure": "Fiber",
+      "taxon": "T096",
+      "source": "audit_recovered",
+      "complete_people": 3810,
+      "complete_days": 23139,
+      "final_people": 2476,
+      "final_days": 19646
+    }
+  ],
+  "expected_qc_days": 48791,
+  "expected_candidates": {
+    "observed": 44687,
+    "recovered": 46925
+  },
+  "primary_alcohol_policy": "Valid observed alcohol or classified no-alcoholic-drink days; excludes estimated alcohol, fallback zeros, invalid values, excluded labels, ambiguous dates and failed source audit",
+  "specifications": [
+    "primary",
+    "strict_known",
+    "coverage95",
+    "days7",
+    "nutrient_context",
+    "baseline_slopes",
+    "equal_person_weight",
+    "alcohol_recovered",
+    "primary_no_alcohol_control",
+    "recovered_no_alcohol_control",
+    "all_days_no_alcohol_control"
+  ],
+  "revision_reason": "Feasibility and source audit, before viewing any revised model effect estimates or p/q; same-cohort exploratory follow-up"
+}

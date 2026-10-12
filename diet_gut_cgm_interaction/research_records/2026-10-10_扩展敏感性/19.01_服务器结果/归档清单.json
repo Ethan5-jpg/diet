@@ -1,0 +1,41 @@
+{
+  "batch": "2026-10-10 19:01 real extension sensitivity screenshots",
+  "data_kind": "SERVER_INPUTS",
+  "source_image_paths": [
+    "/Users/blizzardxu/Desktop/截屏2026-10-10 19.01.04.png",
+    "/Users/blizzardxu/Desktop/截屏2026-10-10 19.01.09.png",
+    "/Users/blizzardxu/Desktop/截屏2026-10-10 19.01.18.png"
+  ],
+  "images_copied_and_sha256_verified": 3,
+  "manual_transcription": "Displayed strings preserved; server full-precision files unavailable locally",
+  "file_sha256": {
+    "19.01.04_截图文字转录.txt": "472d89c39197f4c1a0c7f78f2a3f60f1e04aba3893f80b2f94ccbdd20c3c1b97",
+    "19.01.09_截图文字转录.txt": "0d5abba5f13a523e7e9b0999ab8395c3944123f0980385dc9e98a53aa0586d5e",
+    "19.01.18_截图文字转录.txt": "c53b3f837af0cce8d55d0c250f5092791cbfebdd04bc0265059f178c584d27b6",
+    "README.md": "8081f9ff107bfcd801d20fa5a105bb1cdb42e4969c42068a8309f253438d9637",
+    "单行历史数值核对指令.sh": "a47219910614595f567478adac8f4cfb8f31a444ba2618eec807f5f13eb189e9",
+    "截图显示数值与核对.json": "17f565511ffdbaea9847031bcfae43e5ec8baf065939587e09aa6ba7b779506e",
+    "截屏2026-10-10 19.01.04.png": "bb0aeb6a345254a53024553ff203a49570201c45a60cd59902a578781f49eb79",
+    "截屏2026-10-10 19.01.09.png": "0817f30680518b25d42a38f61173e93e5495ca9335eec399a9d6e590d35f388e",
+    "截屏2026-10-10 19.01.18.png": "d104dbbb1e16cf012d05a63beb754baef8b3e0fe52d7da0a28ccab86c116ae9c"
+  },
+  "subsequent_amendments": [
+    {
+      "date_local": "2026-10-10 19:10:45",
+      "reason": "Historical q discrepancy resolved; actual screenshot transcription unchanged",
+      "source": "../19.10_q值核对/README.md",
+      "changed_files": [
+        {
+          "file": "research_records/2026-10-10_扩展敏感性/19.01_服务器结果/截图显示数值与核对.json",
+          "sha256_before": "67b4d493c20805ef2cf21c1f25535e49f331bf632d66ced9003b01a233763e33",
+          "sha256_after": "17f565511ffdbaea9847031bcfae43e5ec8baf065939587e09aa6ba7b779506e"
+        },
+        {
+          "file": "research_records/2026-10-10_扩展敏感性/19.01_服务器结果/README.md",
+          "sha256_before": "ca24ddf2592fa9264d35ac4991ecbfd7a61c9ffed3917c62a3be60812d15fdfd",
+          "sha256_after": "8081f9ff107bfcd801d20fa5a105bb1cdb42e4969c42068a8309f253438d9637"
+        }
+      ]
+    }
+  ]
+}

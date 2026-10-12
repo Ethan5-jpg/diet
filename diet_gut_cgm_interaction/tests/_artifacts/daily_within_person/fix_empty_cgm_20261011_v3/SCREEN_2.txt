@@ -1,0 +1,18 @@
+DAILY 2/3 | ALL 12 PRIMARY-SPEC INTERACTIONS | SYNTHETIC
+Beta per NOVA4 +10pp or Fiber +5g/1000kcal, times original microbe CLR-Z +1.
+SD/Mean: mg/dL; CV: percentage points. Pointwise 95% CI.
+Diet Taxon Y People Days Beta [L95,U95] qSD4 qAll12
+NOVA4 T068 SD 80 960 -0.3045 [-0.3219,-0.2871] 3.85e-49 1.155e-48
+NOVA4 T068 Mean 80 960 -0.003608 [-0.02774,0.02052] NA 0.8365
+NOVA4 T068 CV 80 960 -0.2842 [-0.3019,-0.2665] NA 3.66e-46
+NOVA4 T096 SD 80 960 -0.01703 [-0.1176,0.08356] 0.7371 0.8365 *
+NOVA4 T096 Mean 80 960 -0.009132 [-0.04088,0.02262] NA 0.8365 *
+NOVA4 T096 CV 80 960 -0.01529 [-0.1091,0.07848] NA 0.8365 *
+Fiber T068 SD 80 960 -0.06518 [-0.1831,0.0527] 0.4891 0.5488
+Fiber T068 Mean 80 960 0.002468 [-0.07394,0.07888] NA 0.9489
+Fiber T068 CV 80 960 -0.06298 [-0.1674,0.04147] NA 0.5488
+Fiber T096 SD 80 960 0.07677 [-0.09159,0.2451] 0.4891 0.6289 *
+Fiber T096 Mean 80 960 -0.06609 [-0.1816,0.0494] NA 0.5488 *
+Fiber T096 CV 80 960 0.08374 [-0.05866,0.2261] NA 0.5488 *
+qSD4 = frozen four SD tests; qAll12 = all 12. Failed tests stay in denominators.
+* = sparse microbial tails, zero microbial IQR, or >10% focal information from one person.

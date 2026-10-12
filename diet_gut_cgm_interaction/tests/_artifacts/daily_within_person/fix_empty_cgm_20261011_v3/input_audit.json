@@ -1,0 +1,40 @@
+{
+  "diet": {
+    "input_rows": 5760,
+    "other_cohort_visit": 0,
+    "outside_selected_connections_people": 0,
+    "invalid_or_unresolved_time": 0,
+    "source_date_conflicts": 0,
+    "non_cohort_timezone_rows": 0,
+    "timezone_missing_defaulted": 0,
+    "calories_kcal_missing_or_invalid": 0,
+    "carbohydrate_g_missing_or_invalid": 0,
+    "lipid_g_missing_or_invalid": 0,
+    "protein_g_missing_or_invalid": 0,
+    "dietary_fiber_g_missing_or_invalid": 0,
+    "alcohol_g_missing_or_invalid": 0,
+    "formula_energy_rows": 0,
+    "cached_rows": 5760
+  },
+  "cgm": {
+    "input_rows": 92160,
+    "other_cohort_visit": 0,
+    "outside_selected_connections_people": 0,
+    "other_connection_rows": 0,
+    "unresolved_time_or_timezone": 0,
+    "invalid_glucose_rows": 0,
+    "cached_rows": 92160
+  },
+  "cgm_duplicates": {
+    "duplicate_excess": 4,
+    "conflicting_times": 4,
+    "invalid_times": 4
+  },
+  "diet_days": 960,
+  "cgm_days": 960,
+  "matched_days": 960,
+  "diet_only_days": 0,
+  "cgm_only_days": 0,
+  "diet_time_issue_people": 0,
+  "cgm_time_issue_people": 0
+}

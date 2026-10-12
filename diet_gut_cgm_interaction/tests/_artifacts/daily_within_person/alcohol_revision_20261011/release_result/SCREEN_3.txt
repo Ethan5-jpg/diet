@@ -1,0 +1,25 @@
+DAILY REVISED 3/3 | SENSITIVITY | SYNTHETIC
+P=primary S=strict Q=coverage95 D=days7 N=nutrients B=baseline W=equal-weight
+R=recovered alcohol; P0/R0=same sample without alcohol controls; A0=all eligible days, no alcohol controls
+Spec Fit/12 qSD4<.05 qAll12<.05 SameSign/12 Flags
+P 12/12 1 2 12/12 6
+S 12/12 1 2 11/12 12
+Q 12/12 1 2 12/12 6
+D 12/12 1 2 12/12 6
+N 12/12 1 2 10/12 6
+B 12/12 1 2 11/12 6
+W 12/12 1 2 12/12 3
+R 12/12 1 2 11/12 6
+P0 12/12 1 2 11/12 6
+R0 12/12 1 2 11/12 6
+A0 12/12 1 2 11/12 6
+Each specification uses its full 4/12 family. SameSign is not significance.
+Primary SD diet slopes at microbial Q25 / Q75 (point estimates):
+NOVA4 T068: 0.772 / 0.2659
+NOVA4 T096: 0.5653 / 0.538
+Fiber T068: 0.182 / 0.045
+Fiber T096: 0.09035 / 0.1471
+Stool record AFTER day, known-date fraction: 1..1
+Same-cohort observation; overlapping samples are not replication or mediation proof.
+Negative interaction means a slope difference; not evidence of clinical protection.
+Full estimates/CI/slopes/flows in tables/; participant-day rows stay in private/.

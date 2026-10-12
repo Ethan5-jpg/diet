@@ -1,0 +1,437 @@
+{
+  "provenance": "Screenshot transcription at displayed precision; numeric strings preserve display. No server exports received.",
+  "sources": [
+    {
+      "screen": 1,
+      "original_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_40xTCr/截屏2026-10-11 18.39.50.png",
+      "saved_image": "截屏2026-10-11 18.39.50.png",
+      "copied": true,
+      "sha256": "28898d352db4e7e5dd2bac6a23203e2b39387ed362717626f91e0ec9ac2e5b21"
+    },
+    {
+      "screen": 2,
+      "original_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_m8RQo0/截屏2026-10-11 18.39.56.png",
+      "saved_image": "截屏2026-10-11 18.39.56.png",
+      "copied": true,
+      "sha256": "10e2bfa8137e5471cd2a1fef9adfc81f03571e57f9d52c17088cf894b58911df"
+    },
+    {
+      "screen": 3,
+      "original_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_winDqn/截屏2026-10-11 18.40.03.png",
+      "saved_image": "截屏2026-10-11 18.40.03.png",
+      "copied": true,
+      "sha256": "4193321ca663ac8832b88a0053be64c4b59b9d853ddc9a60df3074629aecc6e2"
+    }
+  ],
+  "run_dir": "/home/ec2-user/Desktop/HPP/Data/diet_gut_cgm_interaction/daily_within_person/alcohol_revision/outputs/revised_20261011T103556_258035Z_9583d5",
+  "version": "2026-10-11.alcohol.1",
+  "data_kind": "SERVER_INPUTS",
+  "status": "COMPLETE",
+  "estimated_models": 132,
+  "planned_models": 132,
+  "source_audit": {
+    "qc_days": 48791,
+    "unique_amed_match": 48791,
+    "ambiguous": 0,
+    "unmatched": 0,
+    "candidate_observed_days": 44687,
+    "candidate_recovered_days": 46925,
+    "overlapping_excluded_flags": {
+      "fallback_zero": 4,
+      "invalid": 2,
+      "missing_label": 1862
+    },
+    "original_counts_and_screenshot_checkpoints_reproduced": true,
+    "paired_person_day_identity_passed": 24,
+    "paired_person_day_identity_planned": 24
+  },
+  "feasibility": [
+    {
+      "exposure": "NOVA4",
+      "taxon": "T068",
+      "people": 3319,
+      "days": 29119,
+      "median_days": 9
+    },
+    {
+      "exposure": "NOVA4",
+      "taxon": "T096",
+      "people": 3319,
+      "days": 29119,
+      "median_days": 9
+    },
+    {
+      "exposure": "Fiber",
+      "taxon": "T068",
+      "people": 2470,
+      "days": 19545,
+      "median_days": 8
+    },
+    {
+      "exposure": "Fiber",
+      "taxon": "T096",
+      "people": 2470,
+      "days": 19545,
+      "median_days": 8
+    }
+  ],
+  "primary_interactions": [
+    {
+      "spec": "primary",
+      "exposure": "NOVA4",
+      "taxon": "T068",
+      "outcome": "SD",
+      "n_people": 3319,
+      "n_days": 29119,
+      "beta": "-0.03098",
+      "low": "-0.06602",
+      "high": "0.004071",
+      "p": null,
+      "q_primary4": "0.1664",
+      "q_all12": "0.2448",
+      "limited_support": false,
+      "unit": "mg/dL"
+    },
+    {
+      "spec": "primary",
+      "exposure": "NOVA4",
+      "taxon": "T068",
+      "outcome": "Mean",
+      "n_people": 3319,
+      "n_days": 29119,
+      "beta": "-0.03151",
+      "low": "-0.08064",
+      "high": "0.01763",
+      "p": null,
+      "q_primary4": null,
+      "q_all12": "0.3578",
+      "limited_support": false,
+      "unit": "mg/dL"
+    },
+    {
+      "spec": "primary",
+      "exposure": "NOVA4",
+      "taxon": "T068",
+      "outcome": "CV",
+      "n_people": 3319,
+      "n_days": 29119,
+      "beta": "-0.02975",
+      "low": "-0.06541",
+      "high": "0.005912",
+      "p": null,
+      "q_primary4": null,
+      "q_all12": "0.2448",
+      "limited_support": false,
+      "unit": "percentage_points"
+    },
+    {
+      "spec": "primary",
+      "exposure": "NOVA4",
+      "taxon": "T096",
+      "outcome": "SD",
+      "n_people": 3319,
+      "n_days": 29119,
+      "beta": "0.048",
+      "low": "0.01358",
+      "high": "0.08242",
+      "p": null,
+      "q_primary4": "0.02514",
+      "q_all12": "0.03772",
+      "limited_support": false,
+      "unit": "mg/dL"
+    },
+    {
+      "spec": "primary",
+      "exposure": "NOVA4",
+      "taxon": "T096",
+      "outcome": "Mean",
+      "n_people": 3319,
+      "n_days": 29119,
+      "beta": "0.07555",
+      "low": "0.02643",
+      "high": "0.1247",
+      "p": null,
+      "q_primary4": null,
+      "q_all12": "0.03099",
+      "limited_support": false,
+      "unit": "mg/dL"
+    },
+    {
+      "spec": "primary",
+      "exposure": "NOVA4",
+      "taxon": "T096",
+      "outcome": "CV",
+      "n_people": 3319,
+      "n_days": 29119,
+      "beta": "0.03818",
+      "low": "0.003276",
+      "high": "0.07309",
+      "p": null,
+      "q_primary4": null,
+      "q_all12": "0.1282",
+      "limited_support": false,
+      "unit": "percentage_points"
+    },
+    {
+      "spec": "primary",
+      "exposure": "Fiber",
+      "taxon": "T068",
+      "outcome": "SD",
+      "n_people": 2470,
+      "n_days": 19545,
+      "beta": "-0.01352",
+      "low": "-0.06241",
+      "high": "0.03537",
+      "p": null,
+      "q_primary4": "0.7701",
+      "q_all12": "0.7837",
+      "limited_support": false,
+      "unit": "mg/dL"
+    },
+    {
+      "spec": "primary",
+      "exposure": "Fiber",
+      "taxon": "T068",
+      "outcome": "Mean",
+      "n_people": 2470,
+      "n_days": 19545,
+      "beta": "0.0123",
+      "low": "-0.06258",
+      "high": "0.08718",
+      "p": null,
+      "q_primary4": null,
+      "q_all12": "0.8401",
+      "limited_support": false,
+      "unit": "mg/dL"
+    },
+    {
+      "spec": "primary",
+      "exposure": "Fiber",
+      "taxon": "T068",
+      "outcome": "CV",
+      "n_people": 2470,
+      "n_days": 19545,
+      "beta": "-0.01852",
+      "low": "-0.07055",
+      "high": "0.03352",
+      "p": null,
+      "q_primary4": null,
+      "q_all12": "0.728",
+      "limited_support": false,
+      "unit": "percentage_points"
+    },
+    {
+      "spec": "primary",
+      "exposure": "Fiber",
+      "taxon": "T096",
+      "outcome": "SD",
+      "n_people": 2470,
+      "n_days": 19545,
+      "beta": "0.008219",
+      "low": "-0.04693",
+      "high": "0.06337",
+      "p": null,
+      "q_primary4": "0.7701",
+      "q_all12": "0.8401",
+      "limited_support": false,
+      "unit": "mg/dL"
+    },
+    {
+      "spec": "primary",
+      "exposure": "Fiber",
+      "taxon": "T096",
+      "outcome": "Mean",
+      "n_people": 2470,
+      "n_days": 19545,
+      "beta": "0.05955",
+      "low": "-0.01719",
+      "high": "0.1363",
+      "p": null,
+      "q_primary4": null,
+      "q_all12": "0.2564",
+      "limited_support": false,
+      "unit": "mg/dL"
+    },
+    {
+      "spec": "primary",
+      "exposure": "Fiber",
+      "taxon": "T096",
+      "outcome": "CV",
+      "n_people": 2470,
+      "n_days": 19545,
+      "beta": "-0.002208",
+      "low": "-0.06011",
+      "high": "0.0557",
+      "p": null,
+      "q_primary4": null,
+      "q_all12": "0.9404",
+      "limited_support": false,
+      "unit": "percentage_points"
+    }
+  ],
+  "sensitivity_summary": [
+    {
+      "alias": "P",
+      "spec": "primary",
+      "estimated": 12,
+      "planned": 12,
+      "sd_q4_below_05": 1,
+      "all_q12_below_05": 2,
+      "same_sign_as_primary": 12,
+      "limited_support_count": 0
+    },
+    {
+      "alias": "S",
+      "spec": "strict_known",
+      "estimated": 12,
+      "planned": 12,
+      "sd_q4_below_05": 0,
+      "all_q12_below_05": 0,
+      "same_sign_as_primary": 12,
+      "limited_support_count": 0
+    },
+    {
+      "alias": "Q",
+      "spec": "coverage95",
+      "estimated": 12,
+      "planned": 12,
+      "sd_q4_below_05": 0,
+      "all_q12_below_05": 0,
+      "same_sign_as_primary": 12,
+      "limited_support_count": 0
+    },
+    {
+      "alias": "D",
+      "spec": "days7",
+      "estimated": 12,
+      "planned": 12,
+      "sd_q4_below_05": 2,
+      "all_q12_below_05": 1,
+      "same_sign_as_primary": 11,
+      "limited_support_count": 0
+    },
+    {
+      "alias": "N",
+      "spec": "nutrient_context",
+      "estimated": 12,
+      "planned": 12,
+      "sd_q4_below_05": 0,
+      "all_q12_below_05": 1,
+      "same_sign_as_primary": 11,
+      "limited_support_count": 0
+    },
+    {
+      "alias": "B",
+      "spec": "baseline_slopes",
+      "estimated": 12,
+      "planned": 12,
+      "sd_q4_below_05": 1,
+      "all_q12_below_05": 0,
+      "same_sign_as_primary": 11,
+      "limited_support_count": 0
+    },
+    {
+      "alias": "W",
+      "spec": "equal_person_weight",
+      "estimated": 12,
+      "planned": 12,
+      "sd_q4_below_05": 1,
+      "all_q12_below_05": 3,
+      "same_sign_as_primary": 12,
+      "limited_support_count": 0
+    },
+    {
+      "alias": "R",
+      "spec": "alcohol_recovered",
+      "estimated": 12,
+      "planned": 12,
+      "sd_q4_below_05": 1,
+      "all_q12_below_05": 2,
+      "same_sign_as_primary": 12,
+      "limited_support_count": 0
+    },
+    {
+      "alias": "P0",
+      "spec": "primary_no_alcohol_control",
+      "estimated": 12,
+      "planned": 12,
+      "sd_q4_below_05": 1,
+      "all_q12_below_05": 2,
+      "same_sign_as_primary": 12,
+      "limited_support_count": 0
+    },
+    {
+      "alias": "R0",
+      "spec": "recovered_no_alcohol_control",
+      "estimated": 12,
+      "planned": 12,
+      "sd_q4_below_05": 1,
+      "all_q12_below_05": 2,
+      "same_sign_as_primary": 12,
+      "limited_support_count": 0
+    },
+    {
+      "alias": "A0",
+      "spec": "all_days_no_alcohol_control",
+      "estimated": 12,
+      "planned": 12,
+      "sd_q4_below_05": 1,
+      "all_q12_below_05": 2,
+      "same_sign_as_primary": 12,
+      "limited_support_count": 0
+    }
+  ],
+  "primary_sd_slopes": [
+    {
+      "exposure": "NOVA4",
+      "taxon": "T068",
+      "outcome": "SD",
+      "q25_beta": "0.2007",
+      "q75_beta": "0.1717",
+      "low": null,
+      "high": null,
+      "unit": "mg/dL per exposure increment"
+    },
+    {
+      "exposure": "NOVA4",
+      "taxon": "T096",
+      "outcome": "SD",
+      "q25_beta": "0.1387",
+      "q75_beta": "0.2245",
+      "low": null,
+      "high": null,
+      "unit": "mg/dL per exposure increment"
+    },
+    {
+      "exposure": "Fiber",
+      "taxon": "T068",
+      "outcome": "SD",
+      "q25_beta": "-0.02756",
+      "q75_beta": "-0.04026",
+      "low": null,
+      "high": null,
+      "unit": "mg/dL per exposure increment"
+    },
+    {
+      "exposure": "Fiber",
+      "taxon": "T096",
+      "outcome": "SD",
+      "q25_beta": "-0.03971",
+      "q75_beta": "-0.0247",
+      "low": null,
+      "high": null,
+      "unit": "mg/dL per exposure increment"
+    }
+  ],
+  "stool_record_after_day_known_date_fraction_range": [
+    "0.9899",
+    "0.9915"
+  ],
+  "evidence_limits": [
+    "Individual sensitivity coefficients, p/q and confidence intervals not visible; aggregate counts cannot identify retained targets.",
+    "Slope confidence intervals and microbial Q25/Q75 values not shown.",
+    "Stool timing fraction denominator is known-date participant-days of primary SD models, not participants.",
+    "Primary CV NOVA4-T096 pointwise CI excludes zero but qAll12=0.1282; no multiplicity-adjusted finding.",
+    "Same-cohort observational associations, not independent replication or causal mediation."
+  ]
+}

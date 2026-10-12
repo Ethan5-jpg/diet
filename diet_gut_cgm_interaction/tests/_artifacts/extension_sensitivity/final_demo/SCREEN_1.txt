@@ -1,0 +1,9 @@
+EXTENSION 1/3 | SIX SENSITIVITIES | SYNTHETIC
+STATUS=COMPLETE
+Design: same-cohort observational follow-up after primary results; no independent validation
+All fits=588/588 | extension=420/420 (60 primary + 360 sensitivity)
+Reference reproduction=204/204 | original primary and five old focus sensitivities
+Every specification: qAll84 BH across 84 tests; failed/skipped tests stay in denominator.
+U = common_all7_sample: seven diets + four taxa + three outcomes + required covariates.
+Original significant extension targets=2 | same direction all six=2 | retained all six=2
+Retained = estimable + same interaction sign + qAll84<0.05; overlapping samples are not replication.

@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-10",
+  "new_tests_passed": 7,
+  "new_tests_skipped": 0,
+  "test_seconds": 3.89,
+  "preview_mode": "SCREENSHOT_PREVIEW",
+  "preview_figures": 4,
+  "preview_tables": 7,
+  "preview_primary_rows": 43,
+  "preview_source_data_rows": {
+    "Figure_I1_focus_interactions": 24,
+    "Figure_I2_NOVA4_conditional_slopes": 6,
+    "Figure_I3_extension_stability": 19,
+    "Figure_I4_selected_extension_slopes": 14
+  },
+  "preview_output_hashes_verified": 30,
+  "pdf_embedded_truetype": "4/4",
+  "svg_editable_text": "4/4",
+  "preview_zip_integrity": "passed",
+  "standalone_relocated_synthetic_export": "passed with no parent fitting engine; default paths; sources unchanged; existing output refused",
+  "full_scope_synthetic_test": {
+    "primary": 84,
+    "old_models": 228,
+    "followup_models": 588,
+    "conditional_slopes": 1764,
+    "figures": 10,
+    "tables": 11
+  },
+  "visual_qa": [
+    "I1 all 24 focus forest",
+    "I2 NOVA4 slopes",
+    "I3 all 19 stability; 0.0495 not rounded to 0.05",
+    "I4 seven selected slope panels",
+    "Synthetic all-extension CV supplementary forest"
+  ],
+  "original_runtime_files_unchanged": 12,
+  "real_server_export": "pending user execution; local preview is not full-precision source data",
+  "upload_runtime_sha256": {
+    "README.md": "3f2d6bbc80a1d8c7609974b694bce217a374ab4b0191196379d6f204b428102e",
+    "build_paper.py": "f1c3e5496774fbb631ccb5b64c0ca1eba4c9d751c468880e1d95deafa72cd717",
+    "paperlib/__init__.py": "ec470b08e19301113966bb433825fdc65766e4d4fcc0064ebbbe425a5d3f54c0",
+    "paperlib/data.py": "dcb2bd8c6068a270be50dbb91b19e66c51d7b68256183fc48959964bbd85e18c",
+    "paperlib/figures.py": "0f1924709b28a8d57733e3625e76c9b8edb32d54385156d68f4ea9fdf416060d",
+    "paperlib/report.py": "66172e88d13ee2ed2e1d4ab7610b0f5eb8b0add0bea4091063b24fbe78eb6b71",
+    "requirements.txt": "a8dbd3f6f57d2000dceadcad2da6ab858eaeaf6655d04e24b709f1f42716635f",
+    "run_paper.sh": "b37450c8feceb7edcbe3568829d0cddf34f690f6fc39da1cd5ed49bd858dc2b3",
+    "screenshot_sources/snapshot.json": "5dbee16917197f5095cacb9c4bf5a290ed352517016b7b87d2a7c74c4275f3aa"
+  }
+}

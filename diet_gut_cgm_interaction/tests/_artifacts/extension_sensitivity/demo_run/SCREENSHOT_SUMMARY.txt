@@ -1,0 +1,29 @@
+EXTENSION 1/3 | SIX SENSITIVITIES | SYNTHETIC
+STATUS=COMPLETE
+Design: same-cohort observational follow-up after primary results; no independent validation
+All fits=588/588 | extension=420/420 (60 primary + 360 sensitivity)
+Reference reproduction=204/204 | original primary and five old focus sensitivities
+Every specification: qAll84 BH across 84 tests; failed/skipped tests stay in denominator.
+U = common_all7_sample: seven diets + four taxa + three outcomes + required covariates.
+Original significant extension targets=2 | same direction all six=2 | retained all six=2
+Retained = estimable + same interaction sign + qAll84<0.05; overlapping samples are not replication.
+
+EXTENSION 2/3 | ORIGINAL EXTENSION TARGETS | SYNTHETIC
+S=strict P=protocol_same A=protocol_adjusted Q=quadratic C=covariate_interactions U=all7
+Every q column is qAll84; Same6=all six estimable and same sign; Keep=retained / 6
+Diet      Taxon Y    Nmin  qBase      S      P      A      Q      C      U Same6 Keep
+AMED      T068  CV     855 1.16e-40 2.62e-40 5.24e-40 2.67e-40 5.19e-40 4.33e-40 1.16e-40   yes    6
+AMED      T068  SDw    855 1.82e-35 1.31e-35 7.33e-35 9.52e-35 1.51e-36 2.54e-35 1.82e-35   yes    6
+
+EXTENSION 3/3 | ALL 60 EXTENSION TESTS PER SPECIFICATION | SYNTHETIC
+Spec Fit/60 qAll84<alpha OldRetained NewOutsideOld Nrange SupportFlags
+   S 60/60             2           2             0   855..855       0
+   P 60/60             2           2             0   867..867       0
+   A 60/60             2           2             0   867..867       0
+   Q 60/60             2           2             0   882..882       0
+   C 60/60             2           2             0   882..882       0
+   U 60/60             2           2             0   882..882       0
+NewOutsideOld is descriptive; new hits do not enter the frozen original-target set.
+Coefficients/pointwise CIs/units/failed fits/flows: tables/; all-extension plots=COMPLETE
+Original units preserved: Mean/SDw mg/dL; CV percentage points. Negative interaction is a slope difference.
+No participant rows or IDs exported. Full precision and reference/input/code hashes: manifest.json.

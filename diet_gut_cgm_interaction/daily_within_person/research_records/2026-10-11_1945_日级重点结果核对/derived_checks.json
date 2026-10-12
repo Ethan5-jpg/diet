@@ -1,0 +1,21 @@
+{
+  "derived_from_displayed_values_only": true,
+  "ci_midpoints_checked": 31,
+  "timing_sums_checked": 4,
+  "primary_matches_previous_display_precision": true,
+  "counts": {
+    "SD": {
+      "positive_beta_count": 11,
+      "q_all12_passed_including_primary": 6,
+      "q_all12_passed_sensitivities": 5,
+      "q_primary4_passed_including_primary": 8
+    },
+    "Mean": {
+      "positive_beta_count": 11,
+      "q_all12_passed_including_primary": 8,
+      "q_all12_passed_sensitivities": 7
+    },
+    "NOVA4_after_known_pct": 98.98586461987288,
+    "Fiber_after_known_pct": 99.15437764256987
+  }
+}

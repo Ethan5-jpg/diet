@@ -1,0 +1,21 @@
+diet_gut_cgm_interaction/
+  config/
+  daily_within_person/
+    __pycache__/
+    alcohol_revision/
+      tests/
+      METHODS.md
+      protocol.json
+      README.md
+      revision_models.py
+      revision_reporting.py
+      run_revision.py
+      run_revision.sh
+      show_results.py
+      source_audit.py
+      VALIDATION.md
+    config/
+    daily/
+    docs/
+    outputs/
+    research_records/

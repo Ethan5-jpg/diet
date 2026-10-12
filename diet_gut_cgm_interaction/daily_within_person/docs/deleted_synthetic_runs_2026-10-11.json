@@ -1,0 +1,901 @@
+{
+  "cleanup_date": "2026-10-11",
+  "basis": "User requested deletion of superseded local material; only old synthetic runs in this module were selected.",
+  "preserved_latest": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/fix_empty_cgm_20261011_v3",
+  "deleted_runs": [
+    {
+      "path": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/demo_first",
+      "kind": "directory",
+      "file_count": 34,
+      "bytes": 18406891,
+      "manifest": {
+        "version": "2026-10-11.1",
+        "run_id": "demo_20261011T043654_154735Z_7ff4d7",
+        "data_kind": "SYNTHETIC",
+        "status": "COMPLETE_WITH_LIMITATIONS",
+        "config_path": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/daily_within_person/config/analysis.json",
+        "config_sha256": "da9f9680c53de1496e02fe6a5a5bef19ce03e6ddc0d7697112b6225b3fbfa388",
+        "code_sha256": {
+          "run_analysis.py": "79ab84973a95da88e1ee6fb39002f77dc662fc8a2e4c03be2da4ac9f7aff2d6c",
+          "show_results.py": "a2a117d13ec46bccdea60a5456f43934ecf1f61987eb4b49be0712f253284ffb",
+          "run_analysis.sh": "c3a4285d7619a5376f4e2455aa88bdbdc14109b6bf0a2d59bc6681ecf1a53894",
+          "daily/__init__.py": "06d15c63980f8888b8d73bc20024ddb337fbe720f066aef2b5c1f4f51ee462db",
+          "daily/build.py": "4eac91ff99a29419ddb60e9105b002fad3f69b72b338a46262570d02288604ad",
+          "daily/common.py": "4b242797722131b22785a1ae3fccb5cf4ee6a3d473b7cda5a565a85f50faa783",
+          "daily/inputs.py": "16bde9fdd4abd6243738268edf356cfe520d24fa14ed35f21eca574c66336a92",
+          "daily/models.py": "a84afa5dafae2139f6bcc42e94fdee0e7488023b16c1d207f2c8bfcc8d44cb99",
+          "daily/reporting.py": "0dd86cb059192cd1789b2057a8f87c7d06cfb64d912038384b7502c660d5e37f",
+          "daily/synthetic.py": "e1d053509de0f83843f79a6638b56b86d139746fa41f743a1b6da4d691c60a7c",
+          "config/analysis.json": "da9f9680c53de1496e02fe6a5a5bef19ce03e6ddc0d7697112b6225b3fbfa388",
+          "requirements.txt": "96cd62f4c13fabab1b4cb19428c49a99bd96efbd996478b4d0243d76f501dbe9"
+        },
+        "software": {
+          "python": "3.13.5",
+          "numpy": "2.1.3",
+          "pandas": "2.3.2",
+          "scipy": "1.15.3"
+        },
+        "requested_stage": "all",
+        "inputs": [
+          {
+            "label": "diet",
+            "path": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/demo_first/private/synthetic_inputs/Transfer/diet_logging/diet_logging_events.csv",
+            "bytes": 1111817,
+            "sha256": "f9c23e418551b5fc943a1c77a0de3dc04013744ba2653a884e23e7c3cfbe045c"
+          },
+          {
+            "label": "nova_mapping",
+            "path": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/demo_first/private/synthetic_inputs/diet_deal/outputs/03_score_mapping/new_diet_indicators/new_diet_indicator_food_id_mapping.csv",
+            "bytes": 79,
+            "sha256": "7d6ce096417c29e9757c6758ff7f6ee51f9701de702b65a0e1097065d581788f"
+          },
+          {
+            "label": "covariates",
+            "path": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/demo_first/private/synthetic_inputs/co-variant/outputs/data/02_covariate_master.csv",
+            "bytes": 9781,
+            "sha256": "51c67b4a848c36b240bc3dec777381a5374caddfea8e0ac9a9f76b76f2190609"
+          },
+          {
+            "label": "microbiome",
+            "path": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/demo_first/private/synthetic_inputs/gut_microbiome_deal/data/08_species_clr_zscore.csv",
+            "bytes": 6666,
+            "sha256": "2d1ecc6092b1b540d95821b68ebdeb9688a2f990fc7dc6c3d57ceb139b6ddee4"
+          },
+          {
+            "label": "connections",
+            "path": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/demo_first/private/synthetic_inputs/cgm_deal/cgm论文新增17指标/outputs/run_20260919T030229_482714Z_c1a0f480/data/07_cgm_paper_extended_phenotypes.csv",
+            "bytes": 4547,
+            "sha256": "e6b2423aacbf68439ef147074e089e245f4b4950aca735c7fe535f0937b07e79"
+          },
+          {
+            "label": "microbiome_dates",
+            "path": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/demo_first/private/synthetic_inputs/Transfer/gut_microbiome/gut_microbiome.csv",
+            "bytes": 4375,
+            "sha256": "62f10cc77c47019180cf8e1322a8175dac2d4eda39abb6adb8e3ea952a403d8e"
+          },
+          {
+            "label": "cgm",
+            "path": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/demo_first/private/synthetic_inputs/Transfer/cgm/timeseries/SYNTHETIC.csv",
+            "bytes": 8050688,
+            "sha256": "f839001bc7c0c0db092222a7aa6e39014cbd60247760f80c83e5c72f012dc511"
+          }
+        ],
+        "synthetic_fixture": {
+          "seed": 741,
+          "people": 80,
+          "days_per_person": 12
+        },
+        "config": {
+          "version": "2026-10-11.1",
+          "cohort": "10k",
+          "research_stage": "00_00_visit",
+          "inputs": {
+            "diet": "Transfer/diet_logging/diet_logging_events.csv",
+            "cgm_glob": "Transfer/cgm/timeseries/*.csv",
+            "nova_mapping": "diet_deal/outputs/03_score_mapping/new_diet_indicators/new_diet_indicator_food_id_mapping.csv",
+            "covariates": "co-variant/outputs/data/02_covariate_master.csv",
+            "microbiome": "gut_microbiome_deal/data/08_species_clr_zscore.csv",
+            "connections": "cgm_deal/cgm论文新增17指标/outputs/run_20260919T030229_482714Z_c1a0f480/data/07_cgm_paper_extended_phenotypes.csv",
+            "microbiome_dates": "Transfer/gut_microbiome/gut_microbiome.csv"
+          },
+          "time": {
+            "local_timezone": "Asia/Jerusalem",
+            "naive_timezone": null,
+            "interpretation": "self-reported eating time; operational same-day association"
+          },
+          "chunksize": 100000,
+          "cgm": {
+            "bin_minutes": 15,
+            "minimum_coverage": 0.9,
+            "strict_coverage": 0.95,
+            "minimum_quarter_coverage": 0.75,
+            "maximum_gap_minutes": 60,
+            "strict_gap_minutes": 30,
+            "minimum_glucose": 40,
+            "maximum_glucose": 500
+          },
+          "diet": {
+            "minimum_energy_kcal": 500,
+            "maximum_energy_kcal": 5000,
+            "minimum_occasions": 3,
+            "occasion_span_minutes": 30,
+            "minimum_span_hours": 8,
+            "minimum_nova_coverage": 0.8,
+            "strict_nova_coverage": 0.95
+          },
+          "analysis": {
+            "minimum_people": 30,
+            "minimum_days": 5,
+            "strict_days": 7,
+            "minimum_residual_df": 100,
+            "minimum_nova_range_pp": 10,
+            "minimum_fiber_range_g_per_1000kcal": 2,
+            "minimum_tail_people": 8,
+            "maximum_condition_number": 100000000,
+            "alpha": 0.05
+          },
+          "taxa": [
+            {
+              "id": "T068",
+              "species": "Eubacterium_rectale"
+            },
+            {
+              "id": "T096",
+              "species": "Ruthenibacterium_lactatiformans"
+            }
+          ]
+        },
+        "data_root": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/demo_first/private/synthetic_inputs",
+        "person_summary": {
+          "selected": 80,
+          "missing_cov": 0,
+          "unknown": 7,
+          "both_taxa": 80
+        },
+        "build_audit": {
+          "diet": {
+            "input_rows": 5760,
+            "other_cohort_visit": 0,
+            "outside_selected_connections_people": 0,
+            "invalid_or_unresolved_time": 0,
+            "source_date_conflicts": 0,
+            "non_cohort_timezone_rows": 0,
+            "timezone_missing_defaulted": 0,
+            "calories_kcal_missing_or_invalid": 0,
+            "carbohydrate_g_missing_or_invalid": 0,
+            "lipid_g_missing_or_invalid": 0,
+            "protein_g_missing_or_invalid": 0,
+            "dietary_fiber_g_missing_or_invalid": 0,
+            "alcohol_g_missing_or_invalid": 0,
+            "formula_energy_rows": 0,
+            "cached_rows": 5760
+          },
+          "cgm": {
+            "input_rows": 92160,
+            "other_cohort_visit": 0,
+            "outside_selected_connections_people": 0,
+            "other_connection_rows": 0,
+            "unresolved_time_or_timezone": 0,
+            "invalid_glucose_rows": 0,
+            "cached_rows": 92160
+          },
+          "cgm_duplicates": {
+            "duplicate_excess": 4,
+            "conflicting_times": 4,
+            "invalid_times": 4
+          },
+          "diet_days": 960,
+          "cgm_days": 960,
+          "matched_days": 960,
+          "diet_only_days": 0,
+          "cgm_only_days": 0,
+          "diet_time_issue_people": 0,
+          "cgm_time_issue_people": 0
+        },
+        "model_summary": {
+          "estimated": 84,
+          "planned": 84,
+          "primary_sd_estimated": 4
+        },
+        "verified_at_utc": "2026-10-11T04:36:58.313144+00:00",
+        "interpretation": "Same-visit observational, selected candidate taxa, no causal/clinical-benefit or independent-replication claim",
+        "output_sha256": {
+          "tables/13_primary_slopes.csv": "4432cf211218ddc21930cf6ab6d98fd9a3ce1798fbc215abf2d3321875d27aca",
+          "tables/03_diet_exclusions.csv": "c27b11b44d8ad4e2e0b1a8fb1bb9c3f7d8855c23e251df69edde711758f1dc32",
+          "tables/04_day_quality_distribution.csv": "7f9b8c5aa550479bc836e4ebfb2568dbbff1806d6be7cf9ba7bce3a846e52c7e",
+          "tables/05_valid_day_count_distribution.csv": "58a2fdb4f91d0f4cd428cfe2731f343e38c9b9aaf9f434ca798891a06c5f9b57",
+          "tables/00_taxa_mapping.csv": "a18c468496a966a976090e2c997098de20be7fcefd6ae6f4d2bd337bc04860e5",
+          "tables/00_preflight.csv": "c3e3bcded4b96e7ff0fa898289a6f78c7d35898929d0cb4cf5b396c6eb719165",
+          "tables/02_feasibility.csv": "085d9e4785c3dc1ac07708888649274d9abdd04a68f7b009c84fb312373553b2",
+          "tables/00_scope.csv": "62b3c55f4fa91c70765f85a3d32e023238b628f4e50b3ea30e1f27ceeb2af629",
+          "tables/11_all_coefficients.csv": "5cc79d510b729d08001179fd7751d4b38d1e1e318ba1a0f7e7b66bc9cc46c967",
+          "tables/14_primary_anchors.csv": "6cc56e27864aa4f8c597fa8bc1b5ca554a5934097c160fad5840f117144bfc84",
+          "tables/01_day_flow.csv": "99b101bdb1ffe619d3794be40f463c2a43707417e43438017afe5ae454ff5208",
+          "tables/06_sample_timing_identity.csv": "9c070ee634594bc42454a16034f5e53e7cac801a8729fb70eb3e7174a90b6ef1",
+          "tables/12_model_flow.csv": "4633777a6d011438e7692458db500ec90b8b6a44451cabc3668bc87fda2831d6",
+          "tables/10_interactions.csv": "fd88ebeb66a3afcab74255b47433dfe2907ef57b745adcb013d14930606bb298",
+          "SCREEN_3.txt": "7ad93814aafa4eea5b536999eed1e638601543ce13b2b3b492e26037db265c65",
+          "SCREEN_2.txt": "0464a8838391ac63ac15075f24af01f770d9c6046dbb92ea8dc5e9276f382352",
+          "SCREEN_1.txt": "767a30ee89b02bbeb561d0c272c094c8897c2b1384d78f1a74de7dac1dd57cf3",
+          "SUMMARY.md": "ae8b64004c8477f39abb183a1ef7fae375d31df371ca1774743120ca3a649ff5",
+          "private/daily_panel.csv": "73da999e819e54089967ab5225720f425e7ff63ebbaf091e430076f8c41d78b2",
+          "input_audit.json": "ed6ae0c40f2e8b82e0e0d657cd58aa91ce8c2b8299290eb3ab4597a59d63d1e0",
+          "analysis_config.json": "7bc8cfd1d14ebfd40f68baacfd91acd7d9a12e2d63533da47db11aa17079619b"
+        }
+      }
+    },
+    {
+      "path": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/pheno_demo",
+      "kind": "directory",
+      "file_count": 34,
+      "bytes": 18406983,
+      "manifest": {
+        "version": "2026-10-11.1",
+        "run_id": "demo_20261011T043937_697647Z_29cd2b",
+        "data_kind": "SYNTHETIC",
+        "status": "COMPLETE_WITH_LIMITATIONS",
+        "config_path": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/daily_within_person/config/analysis.json",
+        "config_sha256": "da9f9680c53de1496e02fe6a5a5bef19ce03e6ddc0d7697112b6225b3fbfa388",
+        "code_sha256": {
+          "run_analysis.py": "79ab84973a95da88e1ee6fb39002f77dc662fc8a2e4c03be2da4ac9f7aff2d6c",
+          "show_results.py": "a2a117d13ec46bccdea60a5456f43934ecf1f61987eb4b49be0712f253284ffb",
+          "run_analysis.sh": "c3a4285d7619a5376f4e2455aa88bdbdc14109b6bf0a2d59bc6681ecf1a53894",
+          "daily/__init__.py": "06d15c63980f8888b8d73bc20024ddb337fbe720f066aef2b5c1f4f51ee462db",
+          "daily/build.py": "4eac91ff99a29419ddb60e9105b002fad3f69b72b338a46262570d02288604ad",
+          "daily/common.py": "4b242797722131b22785a1ae3fccb5cf4ee6a3d473b7cda5a565a85f50faa783",
+          "daily/inputs.py": "16bde9fdd4abd6243738268edf356cfe520d24fa14ed35f21eca574c66336a92",
+          "daily/models.py": "c03148c25a4ef29b94902863346a46b9ee0fb60ce4cea67849e246d19c06ba61",
+          "daily/reporting.py": "6577d0d6f9878fbe37800b8e94aed2e2fad8ee33e824bf711ec4fffbd5f7e839",
+          "daily/synthetic.py": "e1d053509de0f83843f79a6638b56b86d139746fa41f743a1b6da4d691c60a7c",
+          "config/analysis.json": "da9f9680c53de1496e02fe6a5a5bef19ce03e6ddc0d7697112b6225b3fbfa388",
+          "requirements.txt": "96cd62f4c13fabab1b4cb19428c49a99bd96efbd996478b4d0243d76f501dbe9"
+        },
+        "software": {
+          "python": "3.11.15",
+          "numpy": "1.26.4",
+          "pandas": "2.1.0",
+          "scipy": "1.16.3"
+        },
+        "requested_stage": "all",
+        "inputs": [
+          {
+            "label": "diet",
+            "path": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/pheno_demo/private/synthetic_inputs/Transfer/diet_logging/diet_logging_events.csv",
+            "bytes": 1111808,
+            "sha256": "28506539090f26b171635f9d1a1be8b7f3dc57dc8ed99142dc5020cb3714f079"
+          },
+          {
+            "label": "nova_mapping",
+            "path": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/pheno_demo/private/synthetic_inputs/diet_deal/outputs/03_score_mapping/new_diet_indicators/new_diet_indicator_food_id_mapping.csv",
+            "bytes": 79,
+            "sha256": "7d6ce096417c29e9757c6758ff7f6ee51f9701de702b65a0e1097065d581788f"
+          },
+          {
+            "label": "covariates",
+            "path": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/pheno_demo/private/synthetic_inputs/co-variant/outputs/data/02_covariate_master.csv",
+            "bytes": 9781,
+            "sha256": "ef1bb50eb4a107b2c4fff8a88ad2a36cfd9d9a526deafed720e1f8f66eca3f4b"
+          },
+          {
+            "label": "microbiome",
+            "path": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/pheno_demo/private/synthetic_inputs/gut_microbiome_deal/data/08_species_clr_zscore.csv",
+            "bytes": 6668,
+            "sha256": "b444f2aac1536a4bd844a0e26350382a752499fad2c87fe6406c43b542319273"
+          },
+          {
+            "label": "connections",
+            "path": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/pheno_demo/private/synthetic_inputs/cgm_deal/cgm论文新增17指标/outputs/run_20260919T030229_482714Z_c1a0f480/data/07_cgm_paper_extended_phenotypes.csv",
+            "bytes": 4547,
+            "sha256": "e6b2423aacbf68439ef147074e089e245f4b4950aca735c7fe535f0937b07e79"
+          },
+          {
+            "label": "microbiome_dates",
+            "path": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/pheno_demo/private/synthetic_inputs/Transfer/gut_microbiome/gut_microbiome.csv",
+            "bytes": 4375,
+            "sha256": "62f10cc77c47019180cf8e1322a8175dac2d4eda39abb6adb8e3ea952a403d8e"
+          },
+          {
+            "label": "cgm",
+            "path": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/pheno_demo/private/synthetic_inputs/Transfer/cgm/timeseries/SYNTHETIC.csv",
+            "bytes": 8050708,
+            "sha256": "b338b8a91c3869c4431306224430dbfd04ddb5d8d0a30f10e0c2509b12ca88e3"
+          }
+        ],
+        "synthetic_fixture": {
+          "seed": 741,
+          "people": 80,
+          "days_per_person": 12
+        },
+        "config": {
+          "version": "2026-10-11.1",
+          "cohort": "10k",
+          "research_stage": "00_00_visit",
+          "inputs": {
+            "diet": "Transfer/diet_logging/diet_logging_events.csv",
+            "cgm_glob": "Transfer/cgm/timeseries/*.csv",
+            "nova_mapping": "diet_deal/outputs/03_score_mapping/new_diet_indicators/new_diet_indicator_food_id_mapping.csv",
+            "covariates": "co-variant/outputs/data/02_covariate_master.csv",
+            "microbiome": "gut_microbiome_deal/data/08_species_clr_zscore.csv",
+            "connections": "cgm_deal/cgm论文新增17指标/outputs/run_20260919T030229_482714Z_c1a0f480/data/07_cgm_paper_extended_phenotypes.csv",
+            "microbiome_dates": "Transfer/gut_microbiome/gut_microbiome.csv"
+          },
+          "time": {
+            "local_timezone": "Asia/Jerusalem",
+            "naive_timezone": null,
+            "interpretation": "self-reported eating time; operational same-day association"
+          },
+          "chunksize": 100000,
+          "cgm": {
+            "bin_minutes": 15,
+            "minimum_coverage": 0.9,
+            "strict_coverage": 0.95,
+            "minimum_quarter_coverage": 0.75,
+            "maximum_gap_minutes": 60,
+            "strict_gap_minutes": 30,
+            "minimum_glucose": 40,
+            "maximum_glucose": 500
+          },
+          "diet": {
+            "minimum_energy_kcal": 500,
+            "maximum_energy_kcal": 5000,
+            "minimum_occasions": 3,
+            "occasion_span_minutes": 30,
+            "minimum_span_hours": 8,
+            "minimum_nova_coverage": 0.8,
+            "strict_nova_coverage": 0.95
+          },
+          "analysis": {
+            "minimum_people": 30,
+            "minimum_days": 5,
+            "strict_days": 7,
+            "minimum_residual_df": 100,
+            "minimum_nova_range_pp": 10,
+            "minimum_fiber_range_g_per_1000kcal": 2,
+            "minimum_tail_people": 8,
+            "maximum_condition_number": 100000000,
+            "alpha": 0.05
+          },
+          "taxa": [
+            {
+              "id": "T068",
+              "species": "Eubacterium_rectale"
+            },
+            {
+              "id": "T096",
+              "species": "Ruthenibacterium_lactatiformans"
+            }
+          ]
+        },
+        "data_root": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/pheno_demo/private/synthetic_inputs",
+        "person_summary": {
+          "selected": 80,
+          "missing_cov": 0,
+          "unknown": 7,
+          "both_taxa": 80
+        },
+        "build_audit": {
+          "diet": {
+            "input_rows": 5760,
+            "other_cohort_visit": 0,
+            "outside_selected_connections_people": 0,
+            "invalid_or_unresolved_time": 0,
+            "source_date_conflicts": 0,
+            "non_cohort_timezone_rows": 0,
+            "timezone_missing_defaulted": 0,
+            "calories_kcal_missing_or_invalid": 0,
+            "carbohydrate_g_missing_or_invalid": 0,
+            "lipid_g_missing_or_invalid": 0,
+            "protein_g_missing_or_invalid": 0,
+            "dietary_fiber_g_missing_or_invalid": 0,
+            "alcohol_g_missing_or_invalid": 0,
+            "formula_energy_rows": 0,
+            "cached_rows": 5760
+          },
+          "cgm": {
+            "input_rows": 92160,
+            "other_cohort_visit": 0,
+            "outside_selected_connections_people": 0,
+            "other_connection_rows": 0,
+            "unresolved_time_or_timezone": 0,
+            "invalid_glucose_rows": 0,
+            "cached_rows": 92160
+          },
+          "cgm_duplicates": {
+            "duplicate_excess": 4,
+            "conflicting_times": 4,
+            "invalid_times": 4
+          },
+          "diet_days": 960,
+          "cgm_days": 960,
+          "matched_days": 960,
+          "diet_only_days": 0,
+          "cgm_only_days": 0,
+          "diet_time_issue_people": 0,
+          "cgm_time_issue_people": 0
+        },
+        "model_summary": {
+          "estimated": 84,
+          "planned": 84,
+          "primary_sd_estimated": 4
+        },
+        "verified_at_utc": "2026-10-11T04:39:41.753832+00:00",
+        "interpretation": "Same-visit observational, selected candidate taxa, no causal/clinical-benefit or independent-replication claim",
+        "output_sha256": {
+          "tables/13_primary_slopes.csv": "8d2763f7ab10810d2e94f6c2c377470ccf5d72d6ddba70ed8f16f4956f37ba7d",
+          "tables/03_diet_exclusions.csv": "c27b11b44d8ad4e2e0b1a8fb1bb9c3f7d8855c23e251df69edde711758f1dc32",
+          "tables/04_day_quality_distribution.csv": "7f9b8c5aa550479bc836e4ebfb2568dbbff1806d6be7cf9ba7bce3a846e52c7e",
+          "tables/05_valid_day_count_distribution.csv": "58a2fdb4f91d0f4cd428cfe2731f343e38c9b9aaf9f434ca798891a06c5f9b57",
+          "tables/00_taxa_mapping.csv": "a18c468496a966a976090e2c997098de20be7fcefd6ae6f4d2bd337bc04860e5",
+          "tables/00_preflight.csv": "4e751403e154701b6ffae7fef785f5db7e2dbc00468adc282560f233c6e4b750",
+          "tables/02_feasibility.csv": "085d9e4785c3dc1ac07708888649274d9abdd04a68f7b009c84fb312373553b2",
+          "tables/00_scope.csv": "62b3c55f4fa91c70765f85a3d32e023238b628f4e50b3ea30e1f27ceeb2af629",
+          "tables/11_all_coefficients.csv": "1493152cf1a68883c0f0b4158c2bc11b1af8904d8198cc192f27570243e8a8a7",
+          "tables/14_primary_anchors.csv": "9474f3eb92b676819549b81631a552c5ca82bfa09f87c40068ed2e2857bba8cc",
+          "tables/01_day_flow.csv": "99b101bdb1ffe619d3794be40f463c2a43707417e43438017afe5ae454ff5208",
+          "tables/06_sample_timing_identity.csv": "9c070ee634594bc42454a16034f5e53e7cac801a8729fb70eb3e7174a90b6ef1",
+          "tables/12_model_flow.csv": "4633777a6d011438e7692458db500ec90b8b6a44451cabc3668bc87fda2831d6",
+          "tables/10_interactions.csv": "9382d51949b9118943169a594262f0b0ad7d14fe251d46c279a901e240b595b1",
+          "SCREEN_3.txt": "7ad93814aafa4eea5b536999eed1e638601543ce13b2b3b492e26037db265c65",
+          "SCREEN_2.txt": "07bc82470ede3a08fe5412b954599683ccbc509b97c5674017b110d8c81cc844",
+          "SCREEN_1.txt": "767a30ee89b02bbeb561d0c272c094c8897c2b1384d78f1a74de7dac1dd57cf3",
+          "SUMMARY.md": "cfd32253b2cf82098e0a11365f8fa55d6d1ce56021c854796b1176b3d3fa3ad4",
+          "private/daily_panel.csv": "afdc595683133911ab0a00814aeb419221ab53e2b62dbf51d6e4bc2209eb77e2",
+          "input_audit.json": "ed6ae0c40f2e8b82e0e0d657cd58aa91ce8c2b8299290eb3ab4597a59d63d1e0",
+          "analysis_config.json": "7bc8cfd1d14ebfd40f68baacfd91acd7d9a12e2d63533da47db11aa17079619b"
+        }
+      }
+    },
+    {
+      "path": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/pheno_final",
+      "kind": "directory",
+      "file_count": 34,
+      "bytes": 18406998,
+      "manifest": {
+        "version": "2026-10-11.1",
+        "run_id": "demo_20261011T044511_382514Z_365594",
+        "data_kind": "SYNTHETIC",
+        "status": "COMPLETE_WITH_LIMITATIONS",
+        "config_path": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/daily_within_person/config/analysis.json",
+        "config_sha256": "da9f9680c53de1496e02fe6a5a5bef19ce03e6ddc0d7697112b6225b3fbfa388",
+        "code_sha256": {
+          "run_analysis.py": "79ab84973a95da88e1ee6fb39002f77dc662fc8a2e4c03be2da4ac9f7aff2d6c",
+          "show_results.py": "a2a117d13ec46bccdea60a5456f43934ecf1f61987eb4b49be0712f253284ffb",
+          "run_analysis.sh": "c3a4285d7619a5376f4e2455aa88bdbdc14109b6bf0a2d59bc6681ecf1a53894",
+          "daily/__init__.py": "06d15c63980f8888b8d73bc20024ddb337fbe720f066aef2b5c1f4f51ee462db",
+          "daily/build.py": "4eac91ff99a29419ddb60e9105b002fad3f69b72b338a46262570d02288604ad",
+          "daily/common.py": "4b242797722131b22785a1ae3fccb5cf4ee6a3d473b7cda5a565a85f50faa783",
+          "daily/inputs.py": "473ec683de708c83e459cb410520e8b022a042d417f616377f43f183da5dddc8",
+          "daily/models.py": "c03148c25a4ef29b94902863346a46b9ee0fb60ce4cea67849e246d19c06ba61",
+          "daily/reporting.py": "6577d0d6f9878fbe37800b8e94aed2e2fad8ee33e824bf711ec4fffbd5f7e839",
+          "daily/synthetic.py": "e1d053509de0f83843f79a6638b56b86d139746fa41f743a1b6da4d691c60a7c",
+          "config/analysis.json": "da9f9680c53de1496e02fe6a5a5bef19ce03e6ddc0d7697112b6225b3fbfa388",
+          "requirements.txt": "96cd62f4c13fabab1b4cb19428c49a99bd96efbd996478b4d0243d76f501dbe9"
+        },
+        "software": {
+          "python": "3.11.15",
+          "numpy": "1.26.4",
+          "pandas": "2.1.0",
+          "scipy": "1.16.3"
+        },
+        "requested_stage": "all",
+        "inputs": [
+          {
+            "label": "diet",
+            "path": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/pheno_final/private/synthetic_inputs/Transfer/diet_logging/diet_logging_events.csv",
+            "bytes": 1111808,
+            "sha256": "28506539090f26b171635f9d1a1be8b7f3dc57dc8ed99142dc5020cb3714f079"
+          },
+          {
+            "label": "nova_mapping",
+            "path": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/pheno_final/private/synthetic_inputs/diet_deal/outputs/03_score_mapping/new_diet_indicators/new_diet_indicator_food_id_mapping.csv",
+            "bytes": 79,
+            "sha256": "7d6ce096417c29e9757c6758ff7f6ee51f9701de702b65a0e1097065d581788f"
+          },
+          {
+            "label": "covariates",
+            "path": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/pheno_final/private/synthetic_inputs/co-variant/outputs/data/02_covariate_master.csv",
+            "bytes": 9781,
+            "sha256": "ef1bb50eb4a107b2c4fff8a88ad2a36cfd9d9a526deafed720e1f8f66eca3f4b"
+          },
+          {
+            "label": "microbiome",
+            "path": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/pheno_final/private/synthetic_inputs/gut_microbiome_deal/data/08_species_clr_zscore.csv",
+            "bytes": 6668,
+            "sha256": "b444f2aac1536a4bd844a0e26350382a752499fad2c87fe6406c43b542319273"
+          },
+          {
+            "label": "connections",
+            "path": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/pheno_final/private/synthetic_inputs/cgm_deal/cgm论文新增17指标/outputs/run_20260919T030229_482714Z_c1a0f480/data/07_cgm_paper_extended_phenotypes.csv",
+            "bytes": 4547,
+            "sha256": "e6b2423aacbf68439ef147074e089e245f4b4950aca735c7fe535f0937b07e79"
+          },
+          {
+            "label": "microbiome_dates",
+            "path": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/pheno_final/private/synthetic_inputs/Transfer/gut_microbiome/gut_microbiome.csv",
+            "bytes": 4375,
+            "sha256": "62f10cc77c47019180cf8e1322a8175dac2d4eda39abb6adb8e3ea952a403d8e"
+          },
+          {
+            "label": "cgm",
+            "path": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/pheno_final/private/synthetic_inputs/Transfer/cgm/timeseries/SYNTHETIC.csv",
+            "bytes": 8050708,
+            "sha256": "b338b8a91c3869c4431306224430dbfd04ddb5d8d0a30f10e0c2509b12ca88e3"
+          }
+        ],
+        "synthetic_fixture": {
+          "seed": 741,
+          "people": 80,
+          "days_per_person": 12
+        },
+        "config": {
+          "version": "2026-10-11.1",
+          "cohort": "10k",
+          "research_stage": "00_00_visit",
+          "inputs": {
+            "diet": "Transfer/diet_logging/diet_logging_events.csv",
+            "cgm_glob": "Transfer/cgm/timeseries/*.csv",
+            "nova_mapping": "diet_deal/outputs/03_score_mapping/new_diet_indicators/new_diet_indicator_food_id_mapping.csv",
+            "covariates": "co-variant/outputs/data/02_covariate_master.csv",
+            "microbiome": "gut_microbiome_deal/data/08_species_clr_zscore.csv",
+            "connections": "cgm_deal/cgm论文新增17指标/outputs/run_20260919T030229_482714Z_c1a0f480/data/07_cgm_paper_extended_phenotypes.csv",
+            "microbiome_dates": "Transfer/gut_microbiome/gut_microbiome.csv"
+          },
+          "time": {
+            "local_timezone": "Asia/Jerusalem",
+            "naive_timezone": null,
+            "interpretation": "self-reported eating time; operational same-day association"
+          },
+          "chunksize": 100000,
+          "cgm": {
+            "bin_minutes": 15,
+            "minimum_coverage": 0.9,
+            "strict_coverage": 0.95,
+            "minimum_quarter_coverage": 0.75,
+            "maximum_gap_minutes": 60,
+            "strict_gap_minutes": 30,
+            "minimum_glucose": 40,
+            "maximum_glucose": 500
+          },
+          "diet": {
+            "minimum_energy_kcal": 500,
+            "maximum_energy_kcal": 5000,
+            "minimum_occasions": 3,
+            "occasion_span_minutes": 30,
+            "minimum_span_hours": 8,
+            "minimum_nova_coverage": 0.8,
+            "strict_nova_coverage": 0.95
+          },
+          "analysis": {
+            "minimum_people": 30,
+            "minimum_days": 5,
+            "strict_days": 7,
+            "minimum_residual_df": 100,
+            "minimum_nova_range_pp": 10,
+            "minimum_fiber_range_g_per_1000kcal": 2,
+            "minimum_tail_people": 8,
+            "maximum_condition_number": 100000000,
+            "alpha": 0.05
+          },
+          "taxa": [
+            {
+              "id": "T068",
+              "species": "Eubacterium_rectale"
+            },
+            {
+              "id": "T096",
+              "species": "Ruthenibacterium_lactatiformans"
+            }
+          ]
+        },
+        "data_root": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/pheno_final/private/synthetic_inputs",
+        "person_summary": {
+          "selected": 80,
+          "missing_cov": 0,
+          "unknown": 7,
+          "both_taxa": 80
+        },
+        "build_audit": {
+          "diet": {
+            "input_rows": 5760,
+            "other_cohort_visit": 0,
+            "outside_selected_connections_people": 0,
+            "invalid_or_unresolved_time": 0,
+            "source_date_conflicts": 0,
+            "non_cohort_timezone_rows": 0,
+            "timezone_missing_defaulted": 0,
+            "calories_kcal_missing_or_invalid": 0,
+            "carbohydrate_g_missing_or_invalid": 0,
+            "lipid_g_missing_or_invalid": 0,
+            "protein_g_missing_or_invalid": 0,
+            "dietary_fiber_g_missing_or_invalid": 0,
+            "alcohol_g_missing_or_invalid": 0,
+            "formula_energy_rows": 0,
+            "cached_rows": 5760
+          },
+          "cgm": {
+            "input_rows": 92160,
+            "other_cohort_visit": 0,
+            "outside_selected_connections_people": 0,
+            "other_connection_rows": 0,
+            "unresolved_time_or_timezone": 0,
+            "invalid_glucose_rows": 0,
+            "cached_rows": 92160
+          },
+          "cgm_duplicates": {
+            "duplicate_excess": 4,
+            "conflicting_times": 4,
+            "invalid_times": 4
+          },
+          "diet_days": 960,
+          "cgm_days": 960,
+          "matched_days": 960,
+          "diet_only_days": 0,
+          "cgm_only_days": 0,
+          "diet_time_issue_people": 0,
+          "cgm_time_issue_people": 0
+        },
+        "model_summary": {
+          "estimated": 84,
+          "planned": 84,
+          "primary_sd_estimated": 4
+        },
+        "verified_at_utc": "2026-10-11T04:45:15.108081+00:00",
+        "interpretation": "Same-visit observational, selected candidate taxa, no causal/clinical-benefit or independent-replication claim",
+        "output_sha256": {
+          "tables/13_primary_slopes.csv": "8d2763f7ab10810d2e94f6c2c377470ccf5d72d6ddba70ed8f16f4956f37ba7d",
+          "tables/03_diet_exclusions.csv": "c27b11b44d8ad4e2e0b1a8fb1bb9c3f7d8855c23e251df69edde711758f1dc32",
+          "tables/04_day_quality_distribution.csv": "7f9b8c5aa550479bc836e4ebfb2568dbbff1806d6be7cf9ba7bce3a846e52c7e",
+          "tables/05_valid_day_count_distribution.csv": "58a2fdb4f91d0f4cd428cfe2731f343e38c9b9aaf9f434ca798891a06c5f9b57",
+          "tables/00_taxa_mapping.csv": "a18c468496a966a976090e2c997098de20be7fcefd6ae6f4d2bd337bc04860e5",
+          "tables/00_preflight.csv": "d8a9afc8fc12fe656a442b0a296e4d930caa17769831251ccd975aa91da10ad7",
+          "tables/02_feasibility.csv": "085d9e4785c3dc1ac07708888649274d9abdd04a68f7b009c84fb312373553b2",
+          "tables/00_scope.csv": "62b3c55f4fa91c70765f85a3d32e023238b628f4e50b3ea30e1f27ceeb2af629",
+          "tables/11_all_coefficients.csv": "1493152cf1a68883c0f0b4158c2bc11b1af8904d8198cc192f27570243e8a8a7",
+          "tables/14_primary_anchors.csv": "9474f3eb92b676819549b81631a552c5ca82bfa09f87c40068ed2e2857bba8cc",
+          "tables/01_day_flow.csv": "99b101bdb1ffe619d3794be40f463c2a43707417e43438017afe5ae454ff5208",
+          "tables/06_sample_timing_identity.csv": "9c070ee634594bc42454a16034f5e53e7cac801a8729fb70eb3e7174a90b6ef1",
+          "tables/12_model_flow.csv": "4633777a6d011438e7692458db500ec90b8b6a44451cabc3668bc87fda2831d6",
+          "tables/10_interactions.csv": "9382d51949b9118943169a594262f0b0ad7d14fe251d46c279a901e240b595b1",
+          "SCREEN_3.txt": "7ad93814aafa4eea5b536999eed1e638601543ce13b2b3b492e26037db265c65",
+          "SCREEN_2.txt": "07bc82470ede3a08fe5412b954599683ccbc509b97c5674017b110d8c81cc844",
+          "SCREEN_1.txt": "767a30ee89b02bbeb561d0c272c094c8897c2b1384d78f1a74de7dac1dd57cf3",
+          "SUMMARY.md": "cfd32253b2cf82098e0a11365f8fa55d6d1ce56021c854796b1176b3d3fa3ad4",
+          "private/daily_panel.csv": "afdc595683133911ab0a00814aeb419221ab53e2b62dbf51d6e4bc2209eb77e2",
+          "input_audit.json": "ed6ae0c40f2e8b82e0e0d657cd58aa91ce8c2b8299290eb3ab4597a59d63d1e0",
+          "analysis_config.json": "7bc8cfd1d14ebfd40f68baacfd91acd7d9a12e2d63533da47db11aa17079619b"
+        }
+      }
+    },
+    {
+      "path": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/review_20261011_v2",
+      "kind": "directory",
+      "file_count": 34,
+      "bytes": 18410030,
+      "manifest": {
+        "version": "2026-10-11.2",
+        "run_id": "demo_20261011T045653_511728Z_cef601",
+        "data_kind": "SYNTHETIC",
+        "status": "COMPLETE_WITH_LIMITATIONS",
+        "config_path": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/daily_within_person/config/analysis.json",
+        "config_sha256": "f33a3751ce4ab1060c7fc669ff486e27865c68e8cd77d4ebee77cb7caa86580d",
+        "code_sha256": {
+          "run_analysis.py": "286565ff6380cacb13c89d82cc0bf804f3787d5a5e6b6bd4e4dc1d090e1641f4",
+          "show_results.py": "a2a117d13ec46bccdea60a5456f43934ecf1f61987eb4b49be0712f253284ffb",
+          "run_analysis.sh": "c3a4285d7619a5376f4e2455aa88bdbdc14109b6bf0a2d59bc6681ecf1a53894",
+          "daily/__init__.py": "a147ba7d8ecfe5ac2d8c67594206bf7704441d0086f39d7299e970e32402402a",
+          "daily/build.py": "fe8f7228ba4bd679209b431e3d7c99757a995e70fc80678140840dc49568f985",
+          "daily/common.py": "9b194053c0f329c2f34143f7c1b9f2134651d024945bd4a0d52eb9f293ec158d",
+          "daily/inputs.py": "b1c53f9eae9908f0d237b98c07c0d940598aef8a8d08fca633ab7ea3f122011c",
+          "daily/models.py": "6222008b12701df71aac808469a3d523fbf0d1644cfa81c42e290b3107fd1814",
+          "daily/reporting.py": "eebd1471e5f73ab281aded1f1cba10c829e30b016098d116fe0cbffb317e1588",
+          "daily/synthetic.py": "e1d053509de0f83843f79a6638b56b86d139746fa41f743a1b6da4d691c60a7c",
+          "config/analysis.json": "f33a3751ce4ab1060c7fc669ff486e27865c68e8cd77d4ebee77cb7caa86580d",
+          "requirements.txt": "96cd62f4c13fabab1b4cb19428c49a99bd96efbd996478b4d0243d76f501dbe9"
+        },
+        "software": {
+          "python": "3.11.15",
+          "numpy": "1.26.4",
+          "pandas": "2.1.0",
+          "scipy": "1.16.3"
+        },
+        "requested_stage": "all",
+        "inputs": [
+          {
+            "label": "diet",
+            "path": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/review_20261011_v2/private/synthetic_inputs/Transfer/diet_logging/diet_logging_events.csv",
+            "bytes": 1111808,
+            "sha256": "28506539090f26b171635f9d1a1be8b7f3dc57dc8ed99142dc5020cb3714f079"
+          },
+          {
+            "label": "nova_mapping",
+            "path": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/review_20261011_v2/private/synthetic_inputs/diet_deal/outputs/03_score_mapping/new_diet_indicators/new_diet_indicator_food_id_mapping.csv",
+            "bytes": 79,
+            "sha256": "7d6ce096417c29e9757c6758ff7f6ee51f9701de702b65a0e1097065d581788f"
+          },
+          {
+            "label": "covariates",
+            "path": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/review_20261011_v2/private/synthetic_inputs/co-variant/outputs/data/02_covariate_master.csv",
+            "bytes": 9781,
+            "sha256": "ef1bb50eb4a107b2c4fff8a88ad2a36cfd9d9a526deafed720e1f8f66eca3f4b"
+          },
+          {
+            "label": "microbiome",
+            "path": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/review_20261011_v2/private/synthetic_inputs/gut_microbiome_deal/data/08_species_clr_zscore.csv",
+            "bytes": 6668,
+            "sha256": "b444f2aac1536a4bd844a0e26350382a752499fad2c87fe6406c43b542319273"
+          },
+          {
+            "label": "connections",
+            "path": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/review_20261011_v2/private/synthetic_inputs/cgm_deal/cgm论文新增17指标/outputs/run_20260919T030229_482714Z_c1a0f480/data/07_cgm_paper_extended_phenotypes.csv",
+            "bytes": 4547,
+            "sha256": "e6b2423aacbf68439ef147074e089e245f4b4950aca735c7fe535f0937b07e79"
+          },
+          {
+            "label": "microbiome_dates",
+            "path": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/review_20261011_v2/private/synthetic_inputs/Transfer/gut_microbiome/gut_microbiome.csv",
+            "bytes": 4375,
+            "sha256": "62f10cc77c47019180cf8e1322a8175dac2d4eda39abb6adb8e3ea952a403d8e"
+          },
+          {
+            "label": "cgm",
+            "path": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/review_20261011_v2/private/synthetic_inputs/Transfer/cgm/timeseries/SYNTHETIC.csv",
+            "bytes": 8050708,
+            "sha256": "b338b8a91c3869c4431306224430dbfd04ddb5d8d0a30f10e0c2509b12ca88e3"
+          }
+        ],
+        "synthetic_fixture": {
+          "seed": 741,
+          "people": 80,
+          "days_per_person": 12
+        },
+        "config": {
+          "version": "2026-10-11.2",
+          "cohort": "10k",
+          "research_stage": "00_00_visit",
+          "inputs": {
+            "diet": "Transfer/diet_logging/diet_logging_events.csv",
+            "cgm_glob": "Transfer/cgm/timeseries/*.csv",
+            "nova_mapping": "diet_deal/outputs/03_score_mapping/new_diet_indicators/new_diet_indicator_food_id_mapping.csv",
+            "covariates": "co-variant/outputs/data/02_covariate_master.csv",
+            "microbiome": "gut_microbiome_deal/data/08_species_clr_zscore.csv",
+            "connections": "cgm_deal/cgm论文新增17指标/outputs/run_20260919T030229_482714Z_c1a0f480/data/07_cgm_paper_extended_phenotypes.csv",
+            "microbiome_dates": "Transfer/gut_microbiome/gut_microbiome.csv"
+          },
+          "time": {
+            "local_timezone": "Asia/Jerusalem",
+            "naive_timezone": null,
+            "interpretation": "self-reported eating time; operational same-day association"
+          },
+          "chunksize": 100000,
+          "cgm": {
+            "bin_minutes": 15,
+            "minimum_coverage": 0.9,
+            "strict_coverage": 0.95,
+            "minimum_quarter_coverage": 0.75,
+            "maximum_gap_minutes": 60,
+            "strict_gap_minutes": 30,
+            "minimum_glucose": 40,
+            "maximum_glucose": 500
+          },
+          "diet": {
+            "minimum_energy_kcal": 500,
+            "maximum_energy_kcal": 5000,
+            "minimum_occasions": 3,
+            "occasion_span_minutes": 30,
+            "minimum_span_hours": 8,
+            "minimum_nova_coverage": 0.8,
+            "strict_nova_coverage": 0.95
+          },
+          "analysis": {
+            "minimum_people": 30,
+            "minimum_days": 5,
+            "strict_days": 7,
+            "minimum_residual_df": 100,
+            "minimum_nova_range_pp": 10,
+            "minimum_fiber_range_g_per_1000kcal": 2,
+            "minimum_tail_people": 8,
+            "maximum_condition_number": 100000000,
+            "alpha": 0.05
+          },
+          "taxa": [
+            {
+              "id": "T068",
+              "species": "Eubacterium_rectale"
+            },
+            {
+              "id": "T096",
+              "species": "Ruthenibacterium_lactatiformans"
+            }
+          ]
+        },
+        "data_root": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/review_20261011_v2/private/synthetic_inputs",
+        "person_summary": {
+          "selected": 80,
+          "missing_cov": 0,
+          "unknown": 7,
+          "both_taxa": 80
+        },
+        "build_audit": {
+          "diet": {
+            "input_rows": 5760,
+            "other_cohort_visit": 0,
+            "outside_selected_connections_people": 0,
+            "invalid_or_unresolved_time": 0,
+            "source_date_conflicts": 0,
+            "non_cohort_timezone_rows": 0,
+            "timezone_missing_defaulted": 0,
+            "calories_kcal_missing_or_invalid": 0,
+            "carbohydrate_g_missing_or_invalid": 0,
+            "lipid_g_missing_or_invalid": 0,
+            "protein_g_missing_or_invalid": 0,
+            "dietary_fiber_g_missing_or_invalid": 0,
+            "alcohol_g_missing_or_invalid": 0,
+            "formula_energy_rows": 0,
+            "cached_rows": 5760
+          },
+          "cgm": {
+            "input_rows": 92160,
+            "other_cohort_visit": 0,
+            "outside_selected_connections_people": 0,
+            "other_connection_rows": 0,
+            "unresolved_time_or_timezone": 0,
+            "invalid_glucose_rows": 0,
+            "cached_rows": 92160
+          },
+          "cgm_duplicates": {
+            "duplicate_excess": 4,
+            "conflicting_times": 4,
+            "invalid_times": 4
+          },
+          "diet_days": 960,
+          "cgm_days": 960,
+          "matched_days": 960,
+          "diet_only_days": 0,
+          "cgm_only_days": 0,
+          "diet_time_issue_people": 0,
+          "cgm_time_issue_people": 0
+        },
+        "model_summary": {
+          "estimated": 84,
+          "planned": 84,
+          "primary_sd_estimated": 4
+        },
+        "verified_at_utc": "2026-10-11T04:56:57.404512+00:00",
+        "interpretation": "Same-visit observational, selected candidate taxa, no causal/clinical-benefit or independent-replication claim",
+        "output_sha256": {
+          "tables/13_primary_slopes.csv": "8d2763f7ab10810d2e94f6c2c377470ccf5d72d6ddba70ed8f16f4956f37ba7d",
+          "tables/03_diet_exclusions.csv": "c27b11b44d8ad4e2e0b1a8fb1bb9c3f7d8855c23e251df69edde711758f1dc32",
+          "tables/04_day_quality_distribution.csv": "7f9b8c5aa550479bc836e4ebfb2568dbbff1806d6be7cf9ba7bce3a846e52c7e",
+          "tables/05_valid_day_count_distribution.csv": "58a2fdb4f91d0f4cd428cfe2731f343e38c9b9aaf9f434ca798891a06c5f9b57",
+          "tables/00_taxa_mapping.csv": "a18c468496a966a976090e2c997098de20be7fcefd6ae6f4d2bd337bc04860e5",
+          "tables/00_preflight.csv": "f9e78dc12dba2d3d013d91117d83ca0f3eea5cb3012c27511587e2d3bb2a2f8d",
+          "tables/02_feasibility.csv": "62924b0a518aa176aeeb39653104838aa0a336c74cd0521ad8a05f4d2eb5fb9f",
+          "tables/00_scope.csv": "62b3c55f4fa91c70765f85a3d32e023238b628f4e50b3ea30e1f27ceeb2af629",
+          "tables/11_all_coefficients.csv": "1493152cf1a68883c0f0b4158c2bc11b1af8904d8198cc192f27570243e8a8a7",
+          "tables/14_primary_anchors.csv": "9474f3eb92b676819549b81631a552c5ca82bfa09f87c40068ed2e2857bba8cc",
+          "tables/01_day_flow.csv": "99b101bdb1ffe619d3794be40f463c2a43707417e43438017afe5ae454ff5208",
+          "tables/06_sample_timing_identity.csv": "9c070ee634594bc42454a16034f5e53e7cac801a8729fb70eb3e7174a90b6ef1",
+          "tables/12_model_flow.csv": "229ef828206b5b307001760b08166a82c768f9cd2a4c4fb07447f0be3116296c",
+          "tables/10_interactions.csv": "9382d51949b9118943169a594262f0b0ad7d14fe251d46c279a901e240b595b1",
+          "SCREEN_3.txt": "7ad93814aafa4eea5b536999eed1e638601543ce13b2b3b492e26037db265c65",
+          "SCREEN_2.txt": "07bc82470ede3a08fe5412b954599683ccbc509b97c5674017b110d8c81cc844",
+          "SCREEN_1.txt": "ee1c5109d89544e8f302e05f64b6db79ece470824bf274e2773ea32cb2e12fc5",
+          "SUMMARY.md": "0a6688c80a79fad55bd8839c6a079ffbff1941c7d24882baa82366213f365b46",
+          "private/daily_panel.csv": "afdc595683133911ab0a00814aeb419221ab53e2b62dbf51d6e4bc2209eb77e2",
+          "input_audit.json": "ed6ae0c40f2e8b82e0e0d657cd58aa91ce8c2b8299290eb3ab4597a59d63d1e0",
+          "analysis_config.json": "c1c4572c91986aeaeda3b774b28f4f7538f549278bdbc91cf0d9628d16ab8e42"
+        }
+      }
+    },
+    {
+      "path": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/pheno_final_console.txt",
+      "kind": "console_log",
+      "bytes": 3733
+    },
+    {
+      "path": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/review_20261011_v2_console.txt",
+      "kind": "console_log",
+      "bytes": 3904
+    }
+  ]
+}

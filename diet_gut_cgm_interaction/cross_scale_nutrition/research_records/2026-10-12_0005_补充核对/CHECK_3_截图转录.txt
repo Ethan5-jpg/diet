@@ -1,0 +1,22 @@
+CHECK 3/3 | CONDITIONAL SD / PRIMARY DIET SLOPES | SERVER_INPUTS
+C=SD given Mean + Mean^2 and microbe products; qF=4, q44=all interactions.
+Code Sc Y Taxon People Days Beta [L95,U95] qF q44
+C B SD T068 3305 29008 -0.17229 [-0.29218,-0.052395] 0.019472 0.017849
+C B SD T096 3305 29008 0.047065 [-0.077017,0.17115] 0.47732 0.64881
+C W SD T068 3305 29008 -0.013108 [-0.04927,0.023054] 0.47732 0.65631
+C W SD T096 3305 29008 0.03966 [0.0044504,0.074869] 0.054555 0.092323
+F_joint diet slopes: mg/dL per NOVA4 +10pp; other microbe at F mean.
+Q25/Q75 fixed F anchors; pointwise CI; dIQR=Q75-minus-Q25 slope difference.
+Sc Y Taxon Point MicrobeCLRZ Slope_or_difference [L95,U95]
+B SD T068 q25 -0.29403 0.46305 [0.32291,0.6032]
+B SD T068 q75 0.64342 0.26994 [0.11417,0.42572]
+B SD T068 dIQR NA -0.19311 [-0.32089,-0.065332]
+W SD T096 q25 -1.0297 0.13554 [0.084541,0.18653]
+W SD T096 q75 0.75855 0.23749 [0.18837,0.28661]
+W SD T096 dIQR NA 0.10195 [0.036049,0.16785]
+W Mean T096 q25 -1.0297 0.14061 [0.063544,0.21768]
+W Mean T096 q75 0.75855 0.28525 [0.21942,0.35108]
+W Mean T096 dIQR NA 0.14464 [0.048768,0.24052]
+Saved estimates/q only; no refits, new FDR, private rows, or file writes.
+Read after prior results; this is not independent validation.
+RESULT_DIR=/home/ec2-user/Desktop/HPP/Data/diet_gut_cgm_interaction/cross_scale_nutrition/outputs/common_20261011T154438_631520Z_b66851

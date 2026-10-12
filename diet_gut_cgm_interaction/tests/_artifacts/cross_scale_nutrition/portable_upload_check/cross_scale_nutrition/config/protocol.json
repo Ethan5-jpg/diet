@@ -1,0 +1,132 @@
+{
+  "version": "2026-10-11.cross.1",
+  "reference_version": "2026-10-11.alcohol.1",
+  "reference_run_id": "revised_20261011T103556_258035Z_9583d5",
+  "reference_code_sha256": {
+    "revision_models.py": "e899588f18b5802d3de64a1d422073097fe3ac87a7c9ae270d761b9e28a5a887",
+    "revision_reporting.py": "5b4654ad56b3f6c19fc0b21249a6a35b44d2f9427e0a78b8fbfe37f4e2b8de30",
+    "run_revision.py": "56b74e8b427d1694238220fe883a675f3c819fcd479f689ba535a82afc63a42e",
+    "show_results.py": "c78dc17318fe98d4311d1acc1ceff3ed9282559ec0ba95904bf07a8d370dba09",
+    "source_audit.py": "9fea18df44089527079300ccb5fc9e125766e2b55378ab647660091e40d5771f",
+    "run_revision.sh": "c2db59d10bb27c318f59a3f5e943e7d5251e3e7363a2d8fe694edf796295fc42",
+    "protocol.json": "40362687d56106fdc2c4bbfaf1bec4edc33f224ec653ccfbe2659acd079b2ee0"
+  },
+  "parent_code_sha256": {
+    "run_analysis.py": "286565ff6380cacb13c89d82cc0bf804f3787d5a5e6b6bd4e4dc1d090e1641f4",
+    "show_results.py": "a2a117d13ec46bccdea60a5456f43934ecf1f61987eb4b49be0712f253284ffb",
+    "run_analysis.sh": "c3a4285d7619a5376f4e2455aa88bdbdc14109b6bf0a2d59bc6681ecf1a53894",
+    "daily/__init__.py": "0ccb734978194db0bf7fbd2553c793b8004561119c85f7c133cec18dcbd5c12d",
+    "daily/build.py": "eb512612231a48b0189ff53afddc0fa28ab740ecbcc0b2fe9663c6459742e29d",
+    "daily/common.py": "03d0993e61ba44a4c877f4529eaa4832d45e239749af892d5ed7ec8c03bfd1e0",
+    "daily/inputs.py": "b1c53f9eae9908f0d237b98c07c0d940598aef8a8d08fca633ab7ea3f122011c",
+    "daily/models.py": "6222008b12701df71aac808469a3d523fbf0d1644cfa81c42e290b3107fd1814",
+    "daily/reporting.py": "eebd1471e5f73ab281aded1f1cba10c829e30b016098d116fe0cbffb317e1588",
+    "daily/synthetic.py": "e1d053509de0f83843f79a6638b56b86d139746fa41f743a1b6da4d691c60a7c",
+    "config/analysis.json": "bbce2d2a295133b0d9b250d120c26c872fbf54b94802ab965aed38184a248327",
+    "requirements.txt": "96cd62f4c13fabab1b4cb19428c49a99bd96efbd996478b4d0243d76f501dbe9"
+  },
+  "amed_sha256": "96a0e1c693e9fc880b276939b9c9fbde8f7632f69befc37cbd023fb6b8606494",
+  "reference_config": {
+    "version": "2026-10-11.3",
+    "cohort": "10k",
+    "research_stage": "00_00_visit",
+    "inputs": {
+      "diet": "Transfer/diet_logging/diet_logging_events.csv",
+      "cgm_glob": "Transfer/cgm/timeseries/*.csv",
+      "nova_mapping": "diet_deal/outputs/03_score_mapping/new_diet_indicators/new_diet_indicator_food_id_mapping.csv",
+      "covariates": "co-variant/outputs/data/02_covariate_master.csv",
+      "microbiome": "gut_microbiome_deal/data/08_species_clr_zscore.csv",
+      "connections": "cgm_deal/cgm论文新增17指标/outputs/run_20260919T030229_482714Z_c1a0f480/data/07_cgm_paper_extended_phenotypes.csv",
+      "microbiome_dates": "Transfer/gut_microbiome/gut_microbiome.csv"
+    },
+    "time": {
+      "local_timezone": "Asia/Jerusalem",
+      "naive_timezone": null,
+      "interpretation": "self-reported eating time; operational same-day association"
+    },
+    "chunksize": 100000,
+    "cgm": {
+      "bin_minutes": 15,
+      "minimum_coverage": 0.9,
+      "strict_coverage": 0.95,
+      "minimum_quarter_coverage": 0.75,
+      "maximum_gap_minutes": 60,
+      "strict_gap_minutes": 30,
+      "minimum_glucose": 40,
+      "maximum_glucose": 500
+    },
+    "diet": {
+      "minimum_energy_kcal": 500,
+      "maximum_energy_kcal": 5000,
+      "minimum_occasions": 3,
+      "occasion_span_minutes": 30,
+      "minimum_span_hours": 8,
+      "minimum_nova_coverage": 0.8,
+      "strict_nova_coverage": 0.95
+    },
+    "analysis": {
+      "minimum_people": 200,
+      "minimum_days": 5,
+      "strict_days": 7,
+      "minimum_residual_df": 100,
+      "minimum_nova_range_pp": 10,
+      "minimum_fiber_range_g_per_1000kcal": 2,
+      "minimum_tail_people": 30,
+      "maximum_condition_number": 100000000,
+      "alpha": 0.05
+    },
+    "taxa": [
+      {
+        "id": "T068",
+        "species": "Eubacterium_rectale"
+      },
+      {
+        "id": "T096",
+        "species": "Ruthenibacterium_lactatiformans"
+      }
+    ]
+  },
+  "expected_historical_counts": {
+    "primary_T068": [
+      3319,
+      29119
+    ],
+    "primary_T096": [
+      3319,
+      29119
+    ],
+    "nutrient_context_T096": [
+      1887,
+      13737
+    ]
+  },
+  "minimum_people": 200,
+  "synthetic_minimum_people": 30,
+  "minimum_days": 5,
+  "minimum_total_nova_range_pp": 10,
+  "minimum_between_residual_df": 30,
+  "synthetic_minimum_between_residual_df": 8,
+  "minimum_within_residual_df": 100,
+  "minimum_tail_people": 30,
+  "synthetic_minimum_tail_people": 8,
+  "maximum_condition_number": 100000000.0,
+  "planned_fits": 26,
+  "planned_interactions": 44,
+  "planned_contrasts": 40,
+  "variants": [
+    "F_joint",
+    "F_T068",
+    "F_T096",
+    "F_classified_joint",
+    "N0_joint",
+    "N1_joint",
+    "F_mean_adjusted_joint"
+  ],
+  "primary_exposure": "nova4_total_pct / 10",
+  "primary_outcome": "SD",
+  "explanatory_outcome": "Mean",
+  "weighting": "Within: weight 1/eligible_days per person; between: one equal-weight participant mean",
+  "study_scope": "Exploratory continuation after prior same-cohort findings; same-window associations; not independent validation",
+  "interval": "Pointwise 95% t intervals; dependent contrasts use aligned, finite-sample-corrected participant estimating-equation contributions",
+  "multiplicity": "F_joint qSD4/qAll8; supporting families qFamily; all interaction rows qAll44. Contrasts: qFamily, scale SD q2, qAll40. Failed rows remain in denominators."
+}

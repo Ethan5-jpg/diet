@@ -1,0 +1,6 @@
+EXTENSION 2/3 | ORIGINAL EXTENSION TARGETS | SYNTHETIC
+S=strict P=protocol_same A=protocol_adjusted Q=quadratic C=covariate_interactions U=all7
+Every q column is qAll84; Same6=all six estimable and same sign; Keep=retained / 6
+Diet      Taxon Y    Nmin  qBase      S      P      A      Q      C      U Same6 Keep
+AMED      T068  CV     855 1.16e-40 2.62e-40 5.24e-40 2.67e-40 5.19e-40 4.33e-40 1.16e-40   yes    6
+AMED      T068  SDw    855 1.82e-35 1.31e-35 7.33e-35 9.52e-35 1.51e-36 2.54e-35 1.82e-35   yes    6

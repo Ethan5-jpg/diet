@@ -1,0 +1,14 @@
+Source: user screenshot 2026-10-11 13:30:52 Asia/Shanghai; top clipped line omitted.
+CGM files 2040/9497; cached 1,969,852 rows
+CGM files 2060/9497; cached 1,991,036 rows
+CGM files 2080/9497; cached 2,014,066 rows
+CGM files 2100/9497; cached 2,032,135 rows
+CGM files 2120/9497; cached 2,056,063 rows
+CGM files 2140/9497; cached 2,076,654 rows
+CGM files 2160/9497; cached 2,094,565 rows
+CGM files 2180/9497; cached 2,115,182 rows
+CGM files 2200/9497; cached 2,134,773 rows
+CGM files 2220/9497; cached 2,154,633 rows
+DAILY STOPPED: Cannot cast DatetimeArray to dtype float64
+RESULT_DIR=/home/ec2-user/Desktop/HPP/Data/diet_gut_cgm_interaction/daily_within_person/outputs/daily_20261011T052609_243544Z_944c1f
+(pheno) [ec2-user@ip-10-0-84-116 daily_within_person]$

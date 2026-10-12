@@ -1,0 +1,5 @@
+exposure,taxon,outcome,before_days,same_days,after_days,unknown_days,total_days
+NOVA4,T068,SD,292,0,28501,326,29119
+NOVA4,T096,SD,292,0,28501,326,29119
+Fiber,T068,SD,164,0,19230,151,19545
+Fiber,T096,SD,164,0,19230,151,19545

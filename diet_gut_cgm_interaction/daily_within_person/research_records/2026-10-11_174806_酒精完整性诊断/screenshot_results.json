@@ -1,0 +1,122 @@
+{
+  "provenance": "Screenshot transcription only; counts, not fitted associations",
+  "data_kind": "SERVER_INPUTS",
+  "screenshot_time": "2026-10-11 17:48:06",
+  "original_image": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_MypmBW/截屏2026-10-11 17.48.06.png",
+  "saved_image": "截屏2026-10-11 17.48.06.png",
+  "image_sha256": "ac021cdfad20656521f9434e7b57656600d02e16e0f1face1d6828258e6046da",
+  "image_copied": true,
+  "run_dir": "/home/ec2-user/Desktop/HPP/Data/diet_gut_cgm_interaction/daily_within_person/outputs/daily_20261011T055621_479640Z_666d40",
+  "run_dir_evidence": "Anchored by preceding diagnostic command; path not visible in this screenshot",
+  "saved_hashes_verified_visible": true,
+  "new_models_fitted": false,
+  "sample_counts": [
+    {
+      "exposure": "NOVA4",
+      "taxon": "T068",
+      "alcohol_required": true,
+      "complete_people": 226,
+      "complete_days": 293,
+      "final_people": 1,
+      "final_days": 5,
+      "ready": false
+    },
+    {
+      "exposure": "NOVA4",
+      "taxon": "T068",
+      "alcohol_required": false,
+      "complete_people": 4047,
+      "complete_days": 34281,
+      "final_people": 3522,
+      "final_days": 32274,
+      "ready": true
+    },
+    {
+      "exposure": "NOVA4",
+      "taxon": "T096",
+      "alcohol_required": true,
+      "complete_people": 226,
+      "complete_days": 293,
+      "final_people": 1,
+      "final_days": 5,
+      "ready": false
+    },
+    {
+      "exposure": "NOVA4",
+      "taxon": "T096",
+      "alcohol_required": false,
+      "complete_people": 4047,
+      "complete_days": 34281,
+      "final_people": 3522,
+      "final_days": 32274,
+      "ready": true
+    },
+    {
+      "exposure": "Fiber",
+      "taxon": "T068",
+      "alcohol_required": true,
+      "complete_people": 281,
+      "complete_days": 368,
+      "final_people": 3,
+      "final_days": 17,
+      "ready": false
+    },
+    {
+      "exposure": "Fiber",
+      "taxon": "T068",
+      "alcohol_required": false,
+      "complete_people": 3825,
+      "complete_days": 23629,
+      "final_people": 2546,
+      "final_days": 20234,
+      "ready": true
+    },
+    {
+      "exposure": "Fiber",
+      "taxon": "T096",
+      "alcohol_required": true,
+      "complete_people": 281,
+      "complete_days": 368,
+      "final_people": 3,
+      "final_days": 17,
+      "ready": false
+    },
+    {
+      "exposure": "Fiber",
+      "taxon": "T096",
+      "alcohol_required": false,
+      "complete_people": 3825,
+      "complete_days": 23629,
+      "final_people": 2546,
+      "final_days": 20234,
+      "ready": true
+    }
+  ],
+  "field_audit": [
+    {
+      "field": "alcohol_g",
+      "missing_days": 48380,
+      "all_days": 48791,
+      "known_energy_coverage_p10": "0.3701",
+      "known_energy_coverage_p50": "0.6466",
+      "known_energy_coverage_p90": "0.8804"
+    },
+    {
+      "field": "fiber_density",
+      "missing_days": 22210,
+      "all_days": 48791,
+      "known_energy_coverage_p10": "0.8486",
+      "known_energy_coverage_p50": "1.0000",
+      "known_energy_coverage_p90": "1.0000"
+    }
+  ],
+  "amed_daily_file_exists": true,
+  "amed_missing_identity_value_fields": [],
+  "amed_available_source_flags": [
+    "alcohol_observed_event_count",
+    "alcohol_energy_formula_event_count",
+    "alcohol_standard_abv_event_count",
+    "alcohol_zero_fallback_event_count"
+  ],
+  "interpretation": "Removing only the daily-alcohol complete-case requirement restores sample-count feasibility. No revised fit, coefficient, interval, p or q is available. AMED date/identity matching and source reliability remain unverified."
+}

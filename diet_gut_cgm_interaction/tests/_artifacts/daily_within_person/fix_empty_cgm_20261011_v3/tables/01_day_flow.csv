@@ -1,0 +1,6 @@
+stage,people,days
+matched,80,960
+diet_quality,80,960
+cgm_quality,80,960
+both_quality,80,960
+eligible_both_quality,80,960

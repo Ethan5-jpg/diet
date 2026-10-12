@@ -1,0 +1,12 @@
+EXTENSION 3/3 | ALL 60 EXTENSION TESTS PER SPECIFICATION | SYNTHETIC
+Spec Fit/60 qAll84<alpha OldRetained NewOutsideOld Nrange SupportFlags
+   S 60/60             2           2             0   855..855       0
+   P 60/60             2           2             0   867..867       0
+   A 60/60             2           2             0   867..867       0
+   Q 60/60             2           2             0   882..882       0
+   C 60/60             2           2             0   882..882       0
+   U 60/60             2           2             0   882..882       0
+NewOutsideOld is descriptive; new hits do not enter the frozen original-target set.
+Coefficients/pointwise CIs/units/failed fits/flows: tables/; all-extension plots=COMPLETE
+Original units preserved: Mean/SDw mg/dL; CV percentage points. Negative interaction is a slope difference.
+No participant rows or IDs exported. Full precision and reference/input/code hashes: manifest.json.

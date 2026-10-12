@@ -1,0 +1,201 @@
+{
+  "version": "2026-10-11.cross.1",
+  "run_id": "synthetic_20261011T140343_204547Z_bbb489",
+  "data_kind": "SYNTHETIC",
+  "status": "COMPLETE_WITH_LIMITATIONS",
+  "protocol": {
+    "version": "2026-10-11.cross.1",
+    "reference_version": "2026-10-11.alcohol.1",
+    "reference_run_id": "revised_20261011T103556_258035Z_9583d5",
+    "reference_code_sha256": {
+      "revision_models.py": "e899588f18b5802d3de64a1d422073097fe3ac87a7c9ae270d761b9e28a5a887",
+      "revision_reporting.py": "5b4654ad56b3f6c19fc0b21249a6a35b44d2f9427e0a78b8fbfe37f4e2b8de30",
+      "run_revision.py": "56b74e8b427d1694238220fe883a675f3c819fcd479f689ba535a82afc63a42e",
+      "show_results.py": "c78dc17318fe98d4311d1acc1ceff3ed9282559ec0ba95904bf07a8d370dba09",
+      "source_audit.py": "9fea18df44089527079300ccb5fc9e125766e2b55378ab647660091e40d5771f",
+      "run_revision.sh": "c2db59d10bb27c318f59a3f5e943e7d5251e3e7363a2d8fe694edf796295fc42",
+      "protocol.json": "40362687d56106fdc2c4bbfaf1bec4edc33f224ec653ccfbe2659acd079b2ee0"
+    },
+    "parent_code_sha256": {
+      "run_analysis.py": "286565ff6380cacb13c89d82cc0bf804f3787d5a5e6b6bd4e4dc1d090e1641f4",
+      "show_results.py": "a2a117d13ec46bccdea60a5456f43934ecf1f61987eb4b49be0712f253284ffb",
+      "run_analysis.sh": "c3a4285d7619a5376f4e2455aa88bdbdc14109b6bf0a2d59bc6681ecf1a53894",
+      "daily/__init__.py": "0ccb734978194db0bf7fbd2553c793b8004561119c85f7c133cec18dcbd5c12d",
+      "daily/build.py": "eb512612231a48b0189ff53afddc0fa28ab740ecbcc0b2fe9663c6459742e29d",
+      "daily/common.py": "03d0993e61ba44a4c877f4529eaa4832d45e239749af892d5ed7ec8c03bfd1e0",
+      "daily/inputs.py": "b1c53f9eae9908f0d237b98c07c0d940598aef8a8d08fca633ab7ea3f122011c",
+      "daily/models.py": "6222008b12701df71aac808469a3d523fbf0d1644cfa81c42e290b3107fd1814",
+      "daily/reporting.py": "eebd1471e5f73ab281aded1f1cba10c829e30b016098d116fe0cbffb317e1588",
+      "daily/synthetic.py": "e1d053509de0f83843f79a6638b56b86d139746fa41f743a1b6da4d691c60a7c",
+      "config/analysis.json": "bbce2d2a295133b0d9b250d120c26c872fbf54b94802ab965aed38184a248327",
+      "requirements.txt": "96cd62f4c13fabab1b4cb19428c49a99bd96efbd996478b4d0243d76f501dbe9"
+    },
+    "amed_sha256": "96a0e1c693e9fc880b276939b9c9fbde8f7632f69befc37cbd023fb6b8606494",
+    "reference_config": {
+      "version": "2026-10-11.3",
+      "cohort": "10k",
+      "research_stage": "00_00_visit",
+      "inputs": {
+        "diet": "Transfer/diet_logging/diet_logging_events.csv",
+        "cgm_glob": "Transfer/cgm/timeseries/*.csv",
+        "nova_mapping": "diet_deal/outputs/03_score_mapping/new_diet_indicators/new_diet_indicator_food_id_mapping.csv",
+        "covariates": "co-variant/outputs/data/02_covariate_master.csv",
+        "microbiome": "gut_microbiome_deal/data/08_species_clr_zscore.csv",
+        "connections": "cgm_deal/cgm论文新增17指标/outputs/run_20260919T030229_482714Z_c1a0f480/data/07_cgm_paper_extended_phenotypes.csv",
+        "microbiome_dates": "Transfer/gut_microbiome/gut_microbiome.csv"
+      },
+      "time": {
+        "local_timezone": "Asia/Jerusalem",
+        "naive_timezone": null,
+        "interpretation": "self-reported eating time; operational same-day association"
+      },
+      "chunksize": 100000,
+      "cgm": {
+        "bin_minutes": 15,
+        "minimum_coverage": 0.9,
+        "strict_coverage": 0.95,
+        "minimum_quarter_coverage": 0.75,
+        "maximum_gap_minutes": 60,
+        "strict_gap_minutes": 30,
+        "minimum_glucose": 40,
+        "maximum_glucose": 500
+      },
+      "diet": {
+        "minimum_energy_kcal": 500,
+        "maximum_energy_kcal": 5000,
+        "minimum_occasions": 3,
+        "occasion_span_minutes": 30,
+        "minimum_span_hours": 8,
+        "minimum_nova_coverage": 0.8,
+        "strict_nova_coverage": 0.95
+      },
+      "analysis": {
+        "minimum_people": 200,
+        "minimum_days": 5,
+        "strict_days": 7,
+        "minimum_residual_df": 100,
+        "minimum_nova_range_pp": 10,
+        "minimum_fiber_range_g_per_1000kcal": 2,
+        "minimum_tail_people": 30,
+        "maximum_condition_number": 100000000,
+        "alpha": 0.05
+      },
+      "taxa": [
+        {
+          "id": "T068",
+          "species": "Eubacterium_rectale"
+        },
+        {
+          "id": "T096",
+          "species": "Ruthenibacterium_lactatiformans"
+        }
+      ]
+    },
+    "expected_historical_counts": {
+      "primary_T068": [
+        3319,
+        29119
+      ],
+      "primary_T096": [
+        3319,
+        29119
+      ],
+      "nutrient_context_T096": [
+        1887,
+        13737
+      ]
+    },
+    "minimum_people": 200,
+    "synthetic_minimum_people": 30,
+    "minimum_days": 5,
+    "minimum_total_nova_range_pp": 10,
+    "minimum_between_residual_df": 30,
+    "synthetic_minimum_between_residual_df": 8,
+    "minimum_within_residual_df": 100,
+    "minimum_tail_people": 30,
+    "synthetic_minimum_tail_people": 8,
+    "maximum_condition_number": 100000000.0,
+    "planned_fits": 26,
+    "planned_interactions": 44,
+    "planned_contrasts": 40,
+    "variants": [
+      "F_joint",
+      "F_T068",
+      "F_T096",
+      "F_classified_joint",
+      "N0_joint",
+      "N1_joint",
+      "F_mean_adjusted_joint"
+    ],
+    "primary_exposure": "nova4_total_pct / 10",
+    "primary_outcome": "SD",
+    "explanatory_outcome": "Mean",
+    "weighting": "Within: weight 1/eligible_days per person; between: one equal-weight participant mean",
+    "study_scope": "Exploratory continuation after prior same-cohort findings; same-window associations; not independent validation",
+    "interval": "Pointwise 95% t intervals; dependent contrasts use aligned, finite-sample-corrected participant estimating-equation contributions",
+    "multiplicity": "F_joint qSD4/qAll8; supporting families qFamily; all interaction rows qAll44. Contrasts: qFamily, scale SD q2, qAll40. Failed rows remain in denominators."
+  },
+  "code_sha256": {
+    "config/protocol.json": "7eaa3be3442c956e15baa3ef667523e662b524903b21b8e1327d2e84e99e0825",
+    "crossscale/__init__.py": "5ed50c1e2e7be7dd4be609e8c6f91298ab8f760db6bad55f06b71dfa97aa61e3",
+    "crossscale/analysis.py": "d37c0f61c339ab5f57024f8f6e9d80b9ab74d148abfbcebbdcd61edb1bb5d052",
+    "crossscale/common.py": "83674f1759365d671cc65d49876cf969b9b64340983aa7b5560f86d9987be29d",
+    "crossscale/estimators.py": "b2217e79b450db84df21132e8fcaa8171b0569ec1209e33c2943030f5a41e234",
+    "crossscale/inputs.py": "1a619e7fb87c47bbf69a91fb804201eab13a830d59e4bf12a6cdbb6e87d2e92a",
+    "crossscale/reporting.py": "3687e9c59a9d2babdfe63825e7c5bc573d8cef83ce04c76d9409f33dcf647e39",
+    "requirements.txt": "62d38ba81bbaa8b650ee2b99630956983edf497d69accf7cdb922a46b5e5a0ff",
+    "run_analysis.py": "e385b2843c26836c81dafedfd827004084cf9973b1824573a43991e658c9f0d5",
+    "run_analysis.sh": "e6b7ac0f784b50d9b0787dcd167deda932d93415bbc4af5261f2a3cc9f4073d8",
+    "show_results.py": "26d18499c56a944ed0447e3ce7abca01301a2cd7e3009d5b06767b043087a2b6"
+  },
+  "reference_run": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/alcohol_revision_20261011/release_result",
+  "reference_manifest_sha256": "724e6293d324156ea2837846caa3e63c4fd995acbeb964d509e745ba63daad34",
+  "reference_output_sha256": {
+    "analysis_config.json": "36e03a604567fe1de5acf43ef25eeb321f3ff980a3c89bb2c9bfe25690a62291",
+    "protocol.json": "40362687d56106fdc2c4bbfaf1bec4edc33f224ec653ccfbe2659acd079b2ee0",
+    "private/daily_panel.csv": "f0d000073f204d1441dcd844d12930ddde0dae142ca2036d0ded4c8f784b540c",
+    "tables/10_interactions.csv": "57568a2e315dd1c22b030a924d83b9537bd1c4088305697a1b1804b797843523",
+    "tables/02_paired_sample_identity.csv": "e76182bf02110ffbe9c90c85e28c39f22af762d749b7db56eb6ab3a59cbeca97"
+  },
+  "reference_software": {
+    "python": "3.11.15",
+    "numpy": "1.26.4",
+    "pandas": "2.1.0",
+    "scipy": "1.16.3"
+  },
+  "software": {
+    "python": "3.11.15",
+    "numpy": "1.26.4",
+    "pandas": "2.1.0",
+    "scipy": "1.16.3"
+  },
+  "hypothesis_scope": "Exploratory continuation after prior same-cohort findings; same-window associations; not independent validation",
+  "summary": {
+    "fits": 26,
+    "planned_fits": 26,
+    "interactions": 44,
+    "planned_interactions": 44,
+    "contrasts": 40,
+    "planned_contrasts": 40,
+    "historical_checkpoints": 8,
+    "limited_support_rows": 38
+  },
+  "verified_at_utc": "2026-10-11T14:03:43.468508+00:00",
+  "output_sha256": {
+    "SCREEN_1.txt": "9de4d614a486d1bc766e0165a257befc43aed5a353bf3a746ed8855c4f6c684e",
+    "SCREEN_2.txt": "f824f944da562195d2cf8293bd98780fdcdcf8b2777fade85cdb3553a2475264",
+    "SCREEN_3.txt": "00abb5360cfdc83513b9f73140f3133943992632f07665cf035f918d21e4c141",
+    "config.json": "7eaa3be3442c956e15baa3ef667523e662b524903b21b8e1327d2e84e99e0825",
+    "private/sample_membership.csv": "9b75d6a2d27d115eaa917467d657541312a529fd0afc70dba1d3bd6fa6545f0c",
+    "tables/00_reference_reproduction.csv": "11c1a0b7c33e94b5d2830c70e6132edafc0c5ae4b014c8bde6f86fc6acb9d1d4",
+    "tables/01_sample_flow.csv": "1ec8b0d1c380ef221996c062cde0a83d0da7c65c576573c05fabb7f8ec3e9c12",
+    "tables/02_sample_summary.csv": "8b0789ef22cde1d14b6b801439599832adf61b426fc6a9873d38f33a80e1a103",
+    "tables/03_model_sample_audit.csv": "c542e993e89259bb1dc350e7e59259bb08936b8aa861dcac1fe724bbd0b780d2",
+    "tables/10_interactions.csv": "b6e52830555b6b20f7256f8b0c1d35ddc5fd35e6daef493cfb066769ae91d1e6",
+    "tables/11_comparisons.csv": "6df85b139a72cf598369a253b4a916a50fc3a5d8e6b3dcdb115bf0f530f87acd",
+    "tables/12_model_diagnostics.csv": "0c41963c1bcb3e009e0b99a69a4349744188a541ed2b8c309ba30a81728652ef",
+    "tables/13_all_coefficients.csv": "d8602e1f3ae908b9827e9a81ef3aac83e3ae5b933d2571fc67866c6e2a437514",
+    "tables/14_conditional_slopes.csv": "b27a6ba8b8eca113b55db6e5f171b062d39b5380d078867bfd49e608887dc673",
+    "tables/15_microbe_anchors.csv": "cde0963b55f14ea4a1c15d12e1216100af92b0c97c3d246b5e6eb7cc54869bc3"
+  }
+}

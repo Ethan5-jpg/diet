@@ -1,0 +1,15 @@
+DAILY 1/3 | DATA / FEASIBILITY | SYNTHETIC
+STATUS=COMPLETE_WITH_LIMITATIONS
+Person FE; participant-cluster CR1; same-visit observational associations.
+CGM: observed 15-min bins; local calendar days; no gap interpolation.
+Selected connections=80; covariate missing=0; exclusion unknown=7; both taxa=80
+Diet days=960; CGM days=960; matched=960
+Timing-invalid people: diet=0; CGM=0
+Exposure Taxon People Days MedianDays Ready | QCdays MissDiet MissAlc MissGut
+NOVA4    T068      80     960         12 True | 960 0 0 0
+NOVA4    T096      80     960         12 True | 960 0 0 0
+Fiber    T068      80     960         12 True | 960 0 0 0
+Fiber    T096      80     960         12 True | 960 0 0 0
+Missing counts overlap within QCdays, before complete-case / minimum-day filters.
+Diet-day QC is a recording proxy; unlogged meals cannot be detected fully.
+NOVA4: classified-energy share; Fiber: g/1000 kcal. CLR-Z is relative composition.

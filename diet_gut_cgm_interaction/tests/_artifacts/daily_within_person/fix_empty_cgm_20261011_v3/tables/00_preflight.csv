@@ -1,0 +1,8 @@
+source,status,detail,path
+diet,OK,,/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/fix_empty_cgm_20261011_v3/private/synthetic_inputs/Transfer/diet_logging/diet_logging_events.csv
+nova_mapping,OK,,/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/fix_empty_cgm_20261011_v3/private/synthetic_inputs/diet_deal/outputs/03_score_mapping/new_diet_indicators/new_diet_indicator_food_id_mapping.csv
+microbiome,OK,,/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/fix_empty_cgm_20261011_v3/private/synthetic_inputs/gut_microbiome_deal/data/08_species_clr_zscore.csv
+connections,OK,,/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/fix_empty_cgm_20261011_v3/private/synthetic_inputs/cgm_deal/cgm论文新增17指标/outputs/run_20260919T030229_482714Z_c1a0f480/data/07_cgm_paper_extended_phenotypes.csv
+covariates,OK,,/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/fix_empty_cgm_20261011_v3/private/synthetic_inputs/co-variant/outputs/data/02_covariate_master.csv
+cgm_files,OK,files=1; invalid_headers=0,/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/fix_empty_cgm_20261011_v3/private/synthetic_inputs/Transfer/cgm/timeseries/*.csv
+microbiome_dates,OPTIONAL_PRESENT,"No date means unknown timing, never inferred baseline",/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/fix_empty_cgm_20261011_v3/private/synthetic_inputs/Transfer/gut_microbiome/gut_microbiome.csv

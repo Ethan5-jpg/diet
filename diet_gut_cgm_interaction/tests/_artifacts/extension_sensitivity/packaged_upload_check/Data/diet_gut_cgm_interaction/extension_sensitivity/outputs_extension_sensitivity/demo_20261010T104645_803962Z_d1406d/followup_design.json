@@ -1,0 +1,28 @@
+{
+  "version": "2026-10-10.ext1",
+  "specifications": [
+    "primary",
+    "strict",
+    "protocol_same_sample",
+    "protocol_adjusted",
+    "quadratic",
+    "covariate_interactions",
+    "common_all7_sample"
+  ],
+  "planned_tests_per_specification": 84,
+  "extension_tests_per_specification": 60,
+  "planned_fits": 588,
+  "q_all84_denominator": 84,
+  "q_focus24_denominator": 24,
+  "common_all7_exposures": [
+    "hPDI",
+    "NOVA4",
+    "AHEI",
+    "AMED",
+    "rEDIH",
+    "EAT13",
+    "Carbohydrate_pct"
+  ],
+  "reference_selection": "Original primary extension q_all < alpha; frozen before sensitivity fitting",
+  "timing": "Follow-up requested after inspecting primary results; not preregistered or independent validation"
+}

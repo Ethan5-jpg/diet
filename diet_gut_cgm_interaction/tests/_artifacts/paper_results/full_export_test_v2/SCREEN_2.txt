@@ -1,0 +1,6 @@
+PAPER 2/2 | TARGETS RETAINED IN ALL SIX | SYNTHETIC_TEST
+Diet Taxon Y N Primary_beta [pointwise 95% CI] qAll84 maxSensitivityQ
+AMED T068 CV 882 -1.324 [-1.505, -1.143] 1.165e-40 5.239e-40
+AMED T068 SDw 882 -1.215 [-1.395, -1.036] 1.823e-35 9.524e-35
+Historical q correction: rEDIH/T096/CV primary qAll84=0.7729194434
+rEDIH provenance/timing and same-cohort selection limits remain; see Results_and_methods.md.

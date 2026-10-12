@@ -1,0 +1,13 @@
+exposure,taxon,source,complete_people,complete_days,final_people,final_days
+NOVA4,T068,no_alcohol_requirement,80,960,80,960
+NOVA4,T068,audit_observed_only,80,814,80,814
+NOVA4,T068,audit_recovered,80,960,80,960
+NOVA4,T096,no_alcohol_requirement,80,960,80,960
+NOVA4,T096,audit_observed_only,80,814,80,814
+NOVA4,T096,audit_recovered,80,960,80,960
+Fiber,T068,no_alcohol_requirement,80,960,80,960
+Fiber,T068,audit_observed_only,80,814,80,814
+Fiber,T068,audit_recovered,80,960,80,960
+Fiber,T096,no_alcohol_requirement,80,960,80,960
+Fiber,T096,audit_observed_only,80,814,80,814
+Fiber,T096,audit_recovered,80,960,80,960

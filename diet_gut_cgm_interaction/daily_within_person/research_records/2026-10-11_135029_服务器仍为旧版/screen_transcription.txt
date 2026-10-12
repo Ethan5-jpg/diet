@@ -1,0 +1,11 @@
+(pheno) [ec2-user@ip-10-0-84-116 diet_gut_cgm_interaction]$ conda activate pheno &&
+> cd /home/ec2-user/Desktop/HPP/Data/diet_gut_cgm_interaction/daily_within_person &&
+> python -c 'from daily import VERSION; print("CODE_VERSION=" + VERSION); assert VERSION == "2026-10-11.3", "Please upload version 2026-10-11.3"' &&
+> PYTHON=python bash run_analysis.sh \
+>   --data-root /home/ec2-user/Desktop/HPP/Data \
+>   --stage all
+CODE_VERSION=2026-10-11.2
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+AssertionError: Please upload version 2026-10-11.3
+(pheno) [ec2-user@ip-10-0-84-116 daily_within_person]$

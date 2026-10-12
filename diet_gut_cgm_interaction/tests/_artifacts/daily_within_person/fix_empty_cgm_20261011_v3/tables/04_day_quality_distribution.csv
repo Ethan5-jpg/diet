@@ -1,0 +1,9 @@
+variable,nonmissing,p10,p50,p90
+cgm_coverage,960,1.0,1.0,1.0
+max_gap_minutes,960,15.0,15.0,15.0
+min_quarter_coverage,960,1.0,1.0,1.0
+nova_coverage,960,1.0,1.0,1.0
+fiber_g_energy_coverage,960,1.0,1.0,1.0
+alcohol_g_energy_coverage,960,1.0,1.0,1.0
+logging_span_hours,960,10.5,10.5,10.5
+formula_energy_events,960,0.0,0.0,0.0

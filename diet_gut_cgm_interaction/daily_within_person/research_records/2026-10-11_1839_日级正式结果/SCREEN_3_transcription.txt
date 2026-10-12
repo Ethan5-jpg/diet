@@ -1,0 +1,28 @@
+DAILY REVISED 3/3 | SENSITIVITY | SERVER_INPUTS
+P=primary S=strict Q=coverage95 D=days7 N=nutrients B=baseline W=equal-weight
+R=recovered alcohol; P0/R0=same sample without alcohol controls; A0=all eligible days, no alcohol controls
+Spec Fit/12 qSD4<.05 qAll12<.05 SameSign/12 Flags
+P 12/12 1 2 12/12 0
+S 12/12 0 0 12/12 0
+Q 12/12 0 0 12/12 0
+D 12/12 2 1 11/12 0
+N 12/12 0 1 11/12 0
+B 12/12 1 0 11/12 0
+W 12/12 1 3 12/12 0
+R 12/12 1 2 12/12 0
+P0 12/12 1 2 12/12 0
+R0 12/12 1 2 12/12 0
+A0 12/12 1 2 12/12 0
+Each specification uses its full 4/12 family. SameSign is not significance.
+Primary SD diet slopes at microbial Q25 / Q75 (point estimates):
+NOVA4 T068: 0.2007 / 0.1717
+NOVA4 T096: 0.1387 / 0.2245
+Fiber T068: -0.02756 / -0.04026
+Fiber T096: -0.03971 / -0.0247
+Stool record AFTER day, known-date fraction: 0.9899..0.9915
+Same-cohort observation; overlapping samples are not replication or mediation proof.
+Negative interaction means a slope difference; not evidence of clinical protection.
+Full estimates/CI/slopes/flows in tables/; participant-day rows stay in private/.
+
+RESULT_DIR=/home/ec2-user/Desktop/HPP/Data/diet_gut_cgm_interaction/daily_within_person/alcohol_revision/outputs/revised_20261011T103556_258035Z_9583d5
+(pheno) [ec2-user@ip-10-0-84-116 alcohol_revision]$

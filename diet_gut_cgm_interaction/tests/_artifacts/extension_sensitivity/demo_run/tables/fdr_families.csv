@@ -1,0 +1,15 @@
+﻿model,family,planned_tests,estimable_tests,nonestimable_in_denominator,correction
+primary,all84,84,84,0,BH; failed/skipped p=1; own q missing
+primary,focus24,24,24,0,BH; failed/skipped p=1; own q missing
+strict,all84,84,84,0,BH; failed/skipped p=1; own q missing
+strict,focus24,24,24,0,BH; failed/skipped p=1; own q missing
+protocol_same_sample,all84,84,84,0,BH; failed/skipped p=1; own q missing
+protocol_same_sample,focus24,24,24,0,BH; failed/skipped p=1; own q missing
+protocol_adjusted,all84,84,84,0,BH; failed/skipped p=1; own q missing
+protocol_adjusted,focus24,24,24,0,BH; failed/skipped p=1; own q missing
+quadratic,all84,84,84,0,BH; failed/skipped p=1; own q missing
+quadratic,focus24,24,24,0,BH; failed/skipped p=1; own q missing
+covariate_interactions,all84,84,84,0,BH; failed/skipped p=1; own q missing
+covariate_interactions,focus24,24,24,0,BH; failed/skipped p=1; own q missing
+common_all7_sample,all84,84,84,0,BH; failed/skipped p=1; own q missing
+common_all7_sample,focus24,24,24,0,BH; failed/skipped p=1; own q missing

@@ -1,0 +1,62 @@
+{
+  "batch": "2026-10-10 19:10:45 q verification",
+  "source_path": "/Users/blizzardxu/Desktop/截屏2026-10-10 19.10.45.png",
+  "original_image_copied": false,
+  "data_kind": "SERVER_INPUTS",
+  "confirmed_q_displayed": "0.04872153914",
+  "status": "resolved",
+  "old_and_new_displayed_fields_identical": true,
+  "frozen_q_agrees": true,
+  "source_archive_amendments": [
+    {
+      "file": "research_records/2026-10-10_扩展敏感性/19.01_服务器结果/截图显示数值与核对.json",
+      "sha256_before": "67b4d493c20805ef2cf21c1f25535e49f331bf632d66ced9003b01a233763e33",
+      "sha256_after": "17f565511ffdbaea9847031bcfae43e5ec8baf065939587e09aa6ba7b779506e"
+    },
+    {
+      "file": "research_records/2026-10-10_扩展敏感性/19.01_服务器结果/README.md",
+      "sha256_before": "ca24ddf2592fa9264d35ac4991ecbfd7a61c9ffed3917c62a3be60812d15fdfd",
+      "sha256_after": "8081f9ff107bfcd801d20fa5a105bb1cdb42e4969c42068a8309f253438d9637"
+    },
+    {
+      "file": "research_records/2026-10-10_服务器结果/README.md",
+      "sha256_before": "0cac57d3c3d45a329d59401d088c48c8c00a9d97a43128cd4737e284ffbcfc5d",
+      "sha256_after": "e4d4f5306dc92f272d7b6883882d67e7bdde8727475bfdedb0055130c5502d59"
+    },
+    {
+      "file": "research_records/2026-10-10_服务器结果/后续核对截图显示数值.json",
+      "sha256_before": "a084bed68209613f81513c8cee60810aad07b7d9f50415e52c00e8a3400f4d82",
+      "sha256_after": "e30b7ca279c2b0fb03f8389b290ed25b5ac79e11d69c0f9741b9d73485bf66f9"
+    },
+    {
+      "file": "research_records/2026-10-10_服务器结果/归档清单.json",
+      "sha256_before": "a6e754b4bb84618c73ec808ce78bbb593448ff0e0e346e16222069b0d2a5e7da",
+      "sha256_after": "a123f4eacf84be18f2713c1cadfc291436cce5cbc3bd03dad9797aa3a28463d3"
+    },
+    {
+      "file": "research_records/2026-10-10_扩展敏感性/19.01_服务器结果/归档清单.json",
+      "sha256_before": "bb085caba7db5ef4f84018ac50d00e9f1a97b1f3dbc6689c7daf64079d864392",
+      "sha256_after": "ee259363651b2d89dd804fb6f16ce9a871490983171ae36bcd5f51e78e61b6b0"
+    },
+    {
+      "file": "research_records/README.md",
+      "sha256_before": "b00360c1d692909d35f74d7fc2b0f8ca380b1e3709349e91dce95de13fa7f6aa",
+      "sha256_after": "cae05fb36a3e84e2c98a0c3092f4d5811e55d463f69017ab3a43339d51564140"
+    },
+    {
+      "file": "README.md",
+      "sha256_before": "b9d461a22f07119058577790e9f7116eec078a2f8fb66849a61722687b4571cd",
+      "sha256_after": "273fcda0f337231cbfdcaaaf8ca4d99433ad76ffd332ad5f68db6793db77c4ae"
+    },
+    {
+      "file": "extension_sensitivity/README.md",
+      "sha256_before": "4576bac174c3e621fbfdc04b7b4769219601d0ca25b271cb68d75ebcfb7e38de",
+      "sha256_after": "dec93094943112db10d6e8ed5f18556b505440d68a7b5c176872f6bf0cd084a2"
+    }
+  ],
+  "file_sha256": {
+    "README.md": "973bd08202e964b457e0433731f2de01c9f0433d26af1fdd65524fc12b169ab2",
+    "19.10.45_截图文字转录.txt": "de5a19f0bb3a15a79e04b197cea3133ff8e5a8bc48f85ff5957d5422e58eeaa3",
+    "核对数值与更正.json": "1edea2ac67711e4a67d6efae64ed941084a689339d0e3694482acab0cd983134"
+  }
+}

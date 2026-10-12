@@ -1,0 +1,20 @@
+COMMON 2/3 | TWO TAXA / BETWEEN VS WITHIN | SERVER_INPUTS
+Beta: mg/dL per NOVA4 +10pp x original microbe CLR-Z +1; 95% pointwise CI.
+Joint fits include both taxa; Single and Joint use the same F people/days.
+Scale Y Taxon SingleBeta JointBeta [L95,U95] qSD4 qMain8 qAll44
+B SD T068 -0.1976 -0.206 [-0.3423,-0.06969] 0.006134 0.008315 0.01524
+B SD T096 0.02595 0.007623 [-0.1323,0.1475] 0.9149 0.9149 0.9205
+B Mean T068 -0.2024 -0.2225 [-0.5795,0.1346] NA 0.4067 0.5112
+B Mean T096 -0.1894 -0.2077 [-0.5647,0.1493] NA 0.4067 0.5112
+W SD T068 -0.02061 -0.01475 [-0.05287,0.02337] 0.5976 0.5123 0.6488
+W SD T096 0.05875 0.05701 [0.02016,0.09387] 0.006134 0.008315 0.01524
+W Mean T068 -0.03398 -0.02716 [-0.08036,0.02604] NA 0.4226 0.5112
+W Mean T096 0.08267 0.08089 [0.02727,0.1345] NA 0.008315 0.01524
+DIRECT W-minus-B (shared-participant covariance retained):
+Y Taxon Difference [L95,U95] qSD2 qFamily4
+SD T068 0.1913 [0.05143,0.3311] 0.01471 0.02942
+SD T096 0.04939 [-0.09441,0.1932] 0.5007 0.5007
+Mean T068 0.1953 [-0.1618,0.5524] NA 0.3781
+Mean T096 0.2886 [-0.06962,0.6468] NA 0.2286
+B describes the observed window, not long-term habitual diet.
+Significant vs nonsignificant alone is not evidence of a scale/taxon difference.

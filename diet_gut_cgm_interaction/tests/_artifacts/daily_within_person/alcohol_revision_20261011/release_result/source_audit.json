@@ -1,0 +1,21 @@
+{
+  "scoped_amed_rows": 960,
+  "invalid_date_rows": 0,
+  "qc_days": 960,
+  "unique_matched_days": 960,
+  "ambiguous_days": 0,
+  "unmatched_days": 0,
+  "event_count_mismatch_days": 0,
+  "invalid_source_counts_days": 0,
+  "source_closure_failure_days": 0,
+  "candidate_observed_days": 814,
+  "candidate_recovered_days": 960,
+  "flag_days_drinks": 464,
+  "flag_days_obs": 318,
+  "flag_days_formula": 75,
+  "flag_days_abv": 71,
+  "flag_days_zero": 0,
+  "flag_days_unresolved": 0,
+  "flag_days_invalid": 0,
+  "flag_days_excluded": 0
+}

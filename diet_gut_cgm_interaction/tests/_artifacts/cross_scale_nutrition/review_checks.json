@@ -1,0 +1,26 @@
+{
+  "data_kind": "SYNTHETIC",
+  "review_date": "2026-10-11",
+  "version": "2026-10-11.cross.1",
+  "reference_files_unchanged": 17,
+  "output_files_verified": 15,
+  "code_fingerprint_matches": true,
+  "previous_release_numerical_outputs_identical": true,
+  "check_only_from_tmp_no_files": true,
+  "shell_syntax_passed": true,
+  "screen_lines": [
+    15,
+    20,
+    22
+  ],
+  "summary": {
+    "fits": 26,
+    "planned_fits": 26,
+    "interactions": 44,
+    "planned_interactions": 44,
+    "contrasts": 40,
+    "planned_contrasts": 40,
+    "historical_checkpoints": 8,
+    "limited_support_rows": 38
+  }
+}

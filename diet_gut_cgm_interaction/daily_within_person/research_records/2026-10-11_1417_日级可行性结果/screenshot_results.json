@@ -1,0 +1,332 @@
+{
+  "provenance": "Screenshot transcription only; no full-precision server exports received",
+  "data_kind": "SERVER_INPUTS",
+  "status": "NO_ESTIMABLE_PRIMARY_MODELS",
+  "run_dir": "/home/ec2-user/Desktop/HPP/Data/diet_gut_cgm_interaction/daily_within_person/outputs/daily_20261011T055621_479640Z_666d40",
+  "version_visible": false,
+  "expected_version_from_preceding_repair": "2026-10-11.3",
+  "sources": [
+    {
+      "screen": "SCREEN_1",
+      "original_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_8kiRbM/截屏2026-10-11 14.17.30.png",
+      "saved_image": "截屏2026-10-11 14.17.30.png",
+      "copied": true
+    },
+    {
+      "screen": "SCREEN_2",
+      "original_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_4jDshv/截屏2026-10-11 14.17.36.png",
+      "saved_image": "截屏2026-10-11 14.17.36.png",
+      "copied": true
+    },
+    {
+      "screen": "SCREEN_3",
+      "original_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_d72dNo/截屏2026-10-11 14.17.43.png",
+      "saved_image": "截屏2026-10-11 14.17.43.png",
+      "copied": true
+    }
+  ],
+  "counts": {
+    "selected_connections": 7493,
+    "missing_covariate_records": 0,
+    "exclusion_unknown": 989,
+    "both_taxa": 6530,
+    "diet_days": 88956,
+    "cgm_days": 94058,
+    "matched_days": 79946,
+    "diet_timing_invalid_people": 0,
+    "cgm_timing_invalid_people": 0
+  },
+  "feasibility": [
+    {
+      "exposure": "NOVA4",
+      "taxon": "T068",
+      "people": 1,
+      "days": 5,
+      "median_days": 5,
+      "ready": false,
+      "qc_days": 38536,
+      "missing_diet_days": 0,
+      "missing_alcohol_days": 38210,
+      "missing_microbe_days": 4255
+    },
+    {
+      "exposure": "NOVA4",
+      "taxon": "T096",
+      "people": 1,
+      "days": 5,
+      "median_days": 5,
+      "ready": false,
+      "qc_days": 38536,
+      "missing_diet_days": 0,
+      "missing_alcohol_days": 38210,
+      "missing_microbe_days": 4255
+    },
+    {
+      "exposure": "Fiber",
+      "taxon": "T068",
+      "people": 3,
+      "days": 17,
+      "median_days": 5,
+      "ready": false,
+      "qc_days": 48791,
+      "missing_diet_days": 22210,
+      "missing_alcohol_days": 48380,
+      "missing_microbe_days": 5403
+    },
+    {
+      "exposure": "Fiber",
+      "taxon": "T096",
+      "people": 3,
+      "days": 17,
+      "median_days": 5,
+      "ready": false,
+      "qc_days": 48791,
+      "missing_diet_days": 22210,
+      "missing_alcohol_days": 48380,
+      "missing_microbe_days": 5403
+    }
+  ],
+  "primary_interactions": [
+    {
+      "spec": "primary",
+      "exposure": "NOVA4",
+      "taxon": "T068",
+      "outcome": "SD",
+      "n_people": 1,
+      "n_days": 5,
+      "status": "NOT_ESTIMATED",
+      "beta": null,
+      "low": null,
+      "high": null,
+      "p": null,
+      "q_primary4": null,
+      "q_all12": null
+    },
+    {
+      "spec": "primary",
+      "exposure": "NOVA4",
+      "taxon": "T068",
+      "outcome": "Mean",
+      "n_people": 1,
+      "n_days": 5,
+      "status": "NOT_ESTIMATED",
+      "beta": null,
+      "low": null,
+      "high": null,
+      "p": null,
+      "q_primary4": null,
+      "q_all12": null
+    },
+    {
+      "spec": "primary",
+      "exposure": "NOVA4",
+      "taxon": "T068",
+      "outcome": "CV",
+      "n_people": 1,
+      "n_days": 5,
+      "status": "NOT_ESTIMATED",
+      "beta": null,
+      "low": null,
+      "high": null,
+      "p": null,
+      "q_primary4": null,
+      "q_all12": null
+    },
+    {
+      "spec": "primary",
+      "exposure": "NOVA4",
+      "taxon": "T096",
+      "outcome": "SD",
+      "n_people": 1,
+      "n_days": 5,
+      "status": "NOT_ESTIMATED",
+      "beta": null,
+      "low": null,
+      "high": null,
+      "p": null,
+      "q_primary4": null,
+      "q_all12": null
+    },
+    {
+      "spec": "primary",
+      "exposure": "NOVA4",
+      "taxon": "T096",
+      "outcome": "Mean",
+      "n_people": 1,
+      "n_days": 5,
+      "status": "NOT_ESTIMATED",
+      "beta": null,
+      "low": null,
+      "high": null,
+      "p": null,
+      "q_primary4": null,
+      "q_all12": null
+    },
+    {
+      "spec": "primary",
+      "exposure": "NOVA4",
+      "taxon": "T096",
+      "outcome": "CV",
+      "n_people": 1,
+      "n_days": 5,
+      "status": "NOT_ESTIMATED",
+      "beta": null,
+      "low": null,
+      "high": null,
+      "p": null,
+      "q_primary4": null,
+      "q_all12": null
+    },
+    {
+      "spec": "primary",
+      "exposure": "Fiber",
+      "taxon": "T068",
+      "outcome": "SD",
+      "n_people": 3,
+      "n_days": 17,
+      "status": "NOT_ESTIMATED",
+      "beta": null,
+      "low": null,
+      "high": null,
+      "p": null,
+      "q_primary4": null,
+      "q_all12": null
+    },
+    {
+      "spec": "primary",
+      "exposure": "Fiber",
+      "taxon": "T068",
+      "outcome": "Mean",
+      "n_people": 3,
+      "n_days": 17,
+      "status": "NOT_ESTIMATED",
+      "beta": null,
+      "low": null,
+      "high": null,
+      "p": null,
+      "q_primary4": null,
+      "q_all12": null
+    },
+    {
+      "spec": "primary",
+      "exposure": "Fiber",
+      "taxon": "T068",
+      "outcome": "CV",
+      "n_people": 3,
+      "n_days": 17,
+      "status": "NOT_ESTIMATED",
+      "beta": null,
+      "low": null,
+      "high": null,
+      "p": null,
+      "q_primary4": null,
+      "q_all12": null
+    },
+    {
+      "spec": "primary",
+      "exposure": "Fiber",
+      "taxon": "T096",
+      "outcome": "SD",
+      "n_people": 3,
+      "n_days": 17,
+      "status": "NOT_ESTIMATED",
+      "beta": null,
+      "low": null,
+      "high": null,
+      "p": null,
+      "q_primary4": null,
+      "q_all12": null
+    },
+    {
+      "spec": "primary",
+      "exposure": "Fiber",
+      "taxon": "T096",
+      "outcome": "Mean",
+      "n_people": 3,
+      "n_days": 17,
+      "status": "NOT_ESTIMATED",
+      "beta": null,
+      "low": null,
+      "high": null,
+      "p": null,
+      "q_primary4": null,
+      "q_all12": null
+    },
+    {
+      "spec": "primary",
+      "exposure": "Fiber",
+      "taxon": "T096",
+      "outcome": "CV",
+      "n_people": 3,
+      "n_days": 17,
+      "status": "NOT_ESTIMATED",
+      "beta": null,
+      "low": null,
+      "high": null,
+      "p": null,
+      "q_primary4": null,
+      "q_all12": null
+    }
+  ],
+  "sensitivity_summary": [
+    {
+      "spec": "primary",
+      "estimated": 0,
+      "planned": 12,
+      "sd_q4_below_05": 0,
+      "all_q12_below_05": 0,
+      "support_flags": 0
+    },
+    {
+      "spec": "strict_known",
+      "estimated": 0,
+      "planned": 12,
+      "sd_q4_below_05": 0,
+      "all_q12_below_05": 0,
+      "support_flags": 0
+    },
+    {
+      "spec": "coverage95",
+      "estimated": 0,
+      "planned": 12,
+      "sd_q4_below_05": 0,
+      "all_q12_below_05": 0,
+      "support_flags": 0
+    },
+    {
+      "spec": "days7",
+      "estimated": 0,
+      "planned": 12,
+      "sd_q4_below_05": 0,
+      "all_q12_below_05": 0,
+      "support_flags": 0
+    },
+    {
+      "spec": "nutrient_context",
+      "estimated": 0,
+      "planned": 12,
+      "sd_q4_below_05": 0,
+      "all_q12_below_05": 0,
+      "support_flags": 0
+    },
+    {
+      "spec": "baseline_slopes",
+      "estimated": 0,
+      "planned": 12,
+      "sd_q4_below_05": 0,
+      "all_q12_below_05": 0,
+      "support_flags": 0
+    },
+    {
+      "spec": "equal_person_weight",
+      "estimated": 0,
+      "planned": 12,
+      "sd_q4_below_05": 0,
+      "all_q12_below_05": 0,
+      "support_flags": 0
+    }
+  ],
+  "not_estimated_count": 84,
+  "not_estimated_reason": "Too few people after daily quality/completeness/variation filters",
+  "interpretation": "Feasibility limitation, not a null association. No model coefficients or p/q estimated."
+}

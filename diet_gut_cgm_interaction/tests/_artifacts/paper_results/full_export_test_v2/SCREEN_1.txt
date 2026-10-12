@@ -1,0 +1,7 @@
+PAPER 1/2 | SYNTHETIC_TEST | EXPORT_COMPLETE
+Source runs: reference_demo / final_demo
+Primary rows available=84/84; focus=24/24; original extension targets=2
+Focus qFocus24<0.05=2; primary qAll84<0.05=4; all-six retained=2
+Figures=10 (PDF/SVG/PNG); tables=11; each figure has its own Source Data CSV
+Source hashes checked; source runs unchanged; no model fits or participant-data export.
+Saved reference reproduction=204 / 204; full output table coverage verified.

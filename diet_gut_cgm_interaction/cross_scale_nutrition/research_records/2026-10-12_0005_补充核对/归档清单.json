@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-12",
+  "module": "cross_scale_nutrition",
+  "record_type": "real_server_saved_result_followup",
+  "images": [
+    {
+      "screen": 1,
+      "source_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_uOFd63/截屏2026-10-12 00.05.37.png",
+      "archived_image": "截屏2026-10-12 00.05.37.png",
+      "sha256": "35d4f0814bf0938d407ac2dac1c705c1bd367be13c8034c07fa0893d8ff60238",
+      "original_copied_verified": true
+    },
+    {
+      "screen": 2,
+      "source_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_xNPUOv/截屏2026-10-12 00.05.45.png",
+      "archived_image": "截屏2026-10-12 00.05.45.png",
+      "sha256": "f55b4d64784a6dc75895fbe4c4ac12b41bdd05390f24e2cf099c6a5b7271ecf9",
+      "original_copied_verified": true
+    },
+    {
+      "screen": 3,
+      "source_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_AMyCGM/截屏2026-10-12 00.05.56.png",
+      "archived_image": "截屏2026-10-12 00.05.56.png",
+      "sha256": "09207ba31ea62464646e9dc8a3701520f6053b690ef7e0c76d78c617488025ed",
+      "original_copied_verified": true
+    }
+  ],
+  "transcriptions": [
+    {
+      "file": "CHECK_1_截图转录.txt",
+      "sha256": "ea8f4e2080021a1f8890089e3681f92fd9aea8b067c76e099197084a450acff9"
+    },
+    {
+      "file": "CHECK_2_截图转录.txt",
+      "sha256": "cc2363589357a5fbe33c89724a66c45701d543c0b9170200771f7ba191fb0909"
+    },
+    {
+      "file": "CHECK_3_截图转录.txt",
+      "sha256": "4be25e3b6c4bd71985b2f037673c4fe8dc371fa693a9964de1ce96cb8e71f765"
+    },
+    {
+      "file": "补充截图显示数值.json",
+      "sha256": "40f93194d28740e9491385854b8f5318fc1bfa4b4d5bf5f99a0dd0a745800d5d"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "source_path": "/Users/blizzardxu/Desktop/截屏2026-10-10 18.57.47.png",
+  "screenshot_local_time": "2026-10-10 18:57:47",
+  "timezone": "Asia/Shanghai",
+  "evidence_type": "deployment_directory_screenshot",
+  "original_image_copied": true,
+  "model_results_visible": false,
+  "status": "Deployment relative structure confirmed; real extension results pending",
+  "file_sha256": {
+    "截屏2026-10-10 18.57.47.png": "6c8c009ad596db0a0c651f9211bb579b5d4556cae3ba2892261f90299c7b69d7",
+    "README.md": "009ed6c4e178b89cc70f9f9f56eb1b6aef60ca2701b0e9e7557f0a65de897919"
+  }
+}

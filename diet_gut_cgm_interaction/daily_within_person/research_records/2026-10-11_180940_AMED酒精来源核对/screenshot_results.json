@@ -1,0 +1,145 @@
+{
+  "provenance": "Screenshot-only counts; no model estimates received",
+  "image": "截屏2026-10-11 18.09.40.png",
+  "original_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_jOIYXC/截屏2026-10-11 18.09.40.png",
+  "image_sha256": "8ea5c13d551964db6b3f085c3d4d341ee7bdfebcc5f68d170bc2a35d6de579e0",
+  "data_kind": "SERVER_INPUTS",
+  "run_id": "daily_20261011T055621_479640Z_666d40",
+  "saved_hashes_verified": true,
+  "missing_required_fields": [],
+  "scoped_amed_rows": 125374,
+  "invalid_date_rows": 0,
+  "qc_days": 48791,
+  "unique_matched_days": 48791,
+  "ambiguous_days": 0,
+  "unmatched_days": 0,
+  "event_count_mismatch_days": 0,
+  "invalid_source_counts_days": 0,
+  "source_closure_failure_days": 0,
+  "overlapping_flag_days": {
+    "drinks": 10031,
+    "obs": 8244,
+    "formula": 387,
+    "abv": 2009,
+    "zero": 4,
+    "unresolved": 0,
+    "invalid": 2,
+    "excluded": 1862
+  },
+  "candidate_qc_days": {
+    "observed_or_no_drink": 44687,
+    "including_formula_abv": 46925
+  },
+  "sample_counts": [
+    {
+      "exposure": "NOVA4",
+      "taxon": "T068",
+      "source": "no_alcohol_requirement",
+      "complete_people": 4047,
+      "complete_days": 34281,
+      "final_people": 3522,
+      "final_days": 32274
+    },
+    {
+      "exposure": "NOVA4",
+      "taxon": "T068",
+      "source": "audit_observed_only",
+      "complete_people": 4024,
+      "complete_days": 31673,
+      "final_people": 3319,
+      "final_days": 29119
+    },
+    {
+      "exposure": "NOVA4",
+      "taxon": "T068",
+      "source": "audit_recovered",
+      "complete_people": 4030,
+      "complete_days": 33246,
+      "final_people": 3437,
+      "final_days": 31066
+    },
+    {
+      "exposure": "NOVA4",
+      "taxon": "T096",
+      "source": "no_alcohol_requirement",
+      "complete_people": 4047,
+      "complete_days": 34281,
+      "final_people": 3522,
+      "final_days": 32274
+    },
+    {
+      "exposure": "NOVA4",
+      "taxon": "T096",
+      "source": "audit_observed_only",
+      "complete_people": 4024,
+      "complete_days": 31673,
+      "final_people": 3319,
+      "final_days": 29119
+    },
+    {
+      "exposure": "NOVA4",
+      "taxon": "T096",
+      "source": "audit_recovered",
+      "complete_people": 4030,
+      "complete_days": 33246,
+      "final_people": 3437,
+      "final_days": 31066
+    },
+    {
+      "exposure": "Fiber",
+      "taxon": "T068",
+      "source": "no_alcohol_requirement",
+      "complete_people": 3825,
+      "complete_days": 23629,
+      "final_people": 2546,
+      "final_days": 20234
+    },
+    {
+      "exposure": "Fiber",
+      "taxon": "T068",
+      "source": "audit_observed_only",
+      "complete_people": 3808,
+      "complete_days": 23053,
+      "final_people": 2470,
+      "final_days": 19545
+    },
+    {
+      "exposure": "Fiber",
+      "taxon": "T068",
+      "source": "audit_recovered",
+      "complete_people": 3810,
+      "complete_days": 23139,
+      "final_people": 2476,
+      "final_days": 19646
+    },
+    {
+      "exposure": "Fiber",
+      "taxon": "T096",
+      "source": "no_alcohol_requirement",
+      "complete_people": 3825,
+      "complete_days": 23629,
+      "final_people": 2546,
+      "final_days": 20234
+    },
+    {
+      "exposure": "Fiber",
+      "taxon": "T096",
+      "source": "audit_observed_only",
+      "complete_people": 3808,
+      "complete_days": 23053,
+      "final_people": 2470,
+      "final_days": 19545
+    },
+    {
+      "exposure": "Fiber",
+      "taxon": "T096",
+      "source": "audit_recovered",
+      "complete_people": 3810,
+      "complete_days": 23139,
+      "final_people": 2476,
+      "final_days": 19646
+    }
+  ],
+  "amed_sha256": "96a0e1c693e9fc880b276939b9c9fbde8f7632f69befc37cbd023fb6b8606494",
+  "new_models_fitted": false
+}

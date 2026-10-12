@@ -1,0 +1,40 @@
+{
+  "screenshot_time": "2026-10-11 23:37:45",
+  "type": "deployment_directory_screenshot",
+  "module": "cross_scale_nutrition",
+  "source_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_0mQ4Ed/截屏2026-10-11 23.37.45.png",
+  "archived_image": "截屏2026-10-11 23.37.45.png",
+  "sha256": "906c5a0903d24582c8b79c9d86cad5388b2c2c607bb3872c45a41193eea03216",
+  "original_copied_and_verified": true,
+  "visible_parent": "diet_gut_cgm_interaction",
+  "visible_module_directories": [
+    "config",
+    "crossscale",
+    "docs",
+    "research_records",
+    "tests"
+  ],
+  "visible_module_files": [
+    ".gitignore",
+    "METHODS.md",
+    "README.md",
+    "requirements.txt",
+    "run_analysis.py",
+    "run_analysis.sh",
+    "show_results.py",
+    "VALIDATION.md"
+  ],
+  "visible_siblings": [
+    "config",
+    "daily_within_person",
+    "docs",
+    "extension_sensitivity",
+    "interaction",
+    "outputs",
+    "tests",
+    "METHODS.md"
+  ],
+  "expected_runtime_version": "2026-10-11.cross.1",
+  "runtime_version_verified_from_screenshot": false,
+  "real_analysis_results_visible": false
+}

@@ -1,0 +1,146 @@
+{
+  "version": "2026-10-10.2",
+  "data_kind": "SYNTHETIC",
+  "status": "COMPLETE",
+  "config": {
+    "version": "2026-10-10.2",
+    "inputs": {
+      "current4": "diet_microbiome_glucose_analysis/outputs/data/00_current4_diet_cgm_cohort.csv",
+      "new3": "diet_microbiome_glucose_analysis/outputs/new_diet_extension/data/15d0_new_diet_cgm_cohort.csv",
+      "candidate_master": "diet_microbiome_glucose_analysis/outputs/reports/new_diet_extension/15b_new_diet_extension_candidate_master.csv",
+      "corrected_hpdi": "diet_microbiome_glucose_analysis/outputs/reports/new_diet_extension/hpdi_correction_audit/corrected_scores/hpdi_participant_scores.csv",
+      "microbiome": "gut_microbiome_deal/data/08_species_clr_zscore.csv",
+      "covariates": "co-variant/outputs/data/02_covariate_master.csv",
+      "cgm": "cgm_deal/cgm论文新增17指标/outputs/run_20260919T030229_482714Z_c1a0f480/data/07_cgm_paper_extended_phenotypes.csv",
+      "protocol": "diet_microbiome_glucose_analysis/outputs/new_diet_extension/mediation/protocol_abxppi/15f2_protocol_abxppi_cohort.csv"
+    },
+    "cohort": "10k",
+    "research_stage": "00_00_visit",
+    "focus_exposures": [
+      "hPDI",
+      "NOVA4"
+    ],
+    "extension_exposures": [
+      "AHEI",
+      "AMED",
+      "rEDIH",
+      "EAT13",
+      "Carbohydrate_pct"
+    ],
+    "taxa": [
+      {
+        "id": "T023",
+        "species": "GGB6012_SGB8640"
+      },
+      {
+        "id": "T046",
+        "species": "Clostridium_phoceensis"
+      },
+      {
+        "id": "T068",
+        "species": "Eubacterium_rectale"
+      },
+      {
+        "id": "T096",
+        "species": "Ruthenibacterium_lactatiformans"
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "Mean",
+        "field": "cgm_mean",
+        "unit": "mg/dL"
+      },
+      {
+        "id": "CV",
+        "field": "cgm_cv",
+        "unit": "percentage_points"
+      },
+      {
+        "id": "SDw",
+        "field": "cgm_sdw",
+        "unit": "mg/dL"
+      }
+    ],
+    "minimum_model_n": 200,
+    "minimum_residual_df": 50,
+    "minimum_tail_cell_n": 20,
+    "protocol_mode": "if_available",
+    "alpha": 0.05,
+    "interpretation": "Exploratory same-cohort selected-candidate effect modification; not causal mediation or independent validation."
+  },
+  "inputs": [
+    {
+      "label": "current4",
+      "path": "/private/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/hpp_extension_synthetic_o72y743i/diet_microbiome_glucose_analysis/outputs/data/00_current4_diet_cgm_cohort.csv",
+      "bytes": 96871,
+      "sha256": "40515c4f002112e4d43baedc690e3a61adb5b11c1bb2af197483cec53c925b40"
+    },
+    {
+      "label": "new3",
+      "path": "/private/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/hpp_extension_synthetic_o72y743i/diet_microbiome_glucose_analysis/outputs/new_diet_extension/data/15d0_new_diet_cgm_cohort.csv",
+      "bytes": 95864,
+      "sha256": "a356939325be802b5dd4423f002d20b372ddb7bd019f1b484b74bba944c7f465"
+    },
+    {
+      "label": "candidate_master",
+      "path": "/private/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/hpp_extension_synthetic_o72y743i/diet_microbiome_glucose_analysis/outputs/reports/new_diet_extension/15b_new_diet_extension_candidate_master.csv",
+      "bytes": 95910,
+      "sha256": "65f51697cff85d9a2b0438d921afdf6cf4fdc246cee9116e1e7a3df28053eb1d"
+    },
+    {
+      "label": "corrected_hpdi",
+      "path": "/private/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/hpp_extension_synthetic_o72y743i/diet_microbiome_glucose_analysis/outputs/reports/new_diet_extension/hpdi_correction_audit/corrected_scores/hpdi_participant_scores.csv",
+      "bytes": 43841,
+      "sha256": "0ad44c8003dcc6a9d534af9c97a5f1c8e1a6d6a10c660c08d5992cee12370a96"
+    },
+    {
+      "label": "microbiome",
+      "path": "/private/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/hpp_extension_synthetic_o72y743i/gut_microbiome_deal/data/08_species_clr_zscore.csv",
+      "bytes": 97048,
+      "sha256": "2fe645be0be413f3264bf40d4a333cff0ee0d92eac480d122bef8896380e0490"
+    },
+    {
+      "label": "covariates",
+      "path": "/private/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/hpp_extension_synthetic_o72y743i/co-variant/outputs/data/02_covariate_master.csv",
+      "bytes": 134532,
+      "sha256": "7bd0a74fe2cab70dd9494bbe5e820989655162afffbebc44d3bc09d477fce0e5"
+    },
+    {
+      "label": "cgm",
+      "path": "/private/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/hpp_extension_synthetic_o72y743i/cgm_deal/cgm论文新增17指标/outputs/run_20260919T030229_482714Z_c1a0f480/data/07_cgm_paper_extended_phenotypes.csv",
+      "bytes": 138066,
+      "sha256": "d50d87b53fd7ca9d0831009d4b337cb846f68cb6fca9ea44a349b72b5e158ded"
+    },
+    {
+      "label": "protocol",
+      "path": "/private/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/hpp_extension_synthetic_o72y743i/diet_microbiome_glucose_analysis/outputs/new_diet_extension/mediation/protocol_abxppi/15f2_protocol_abxppi_cohort.csv",
+      "bytes": 33347,
+      "sha256": "4f0ad52638367c50a13ca7ffbe017f0dc3610fb93caef304e7bf8e4c4cac72a1"
+    }
+  ],
+  "synthetic_fixture": {
+    "seed": 20261010,
+    "n": 900,
+    "injected_native_interactions": {
+      "NOVA4:T068:Mean": 5.0,
+      "hPDI:T096:CV": -2.0
+    },
+    "note": "SYNTHETIC; all effects and observations generated for software validation",
+    "additional_extension_interactions": {
+      "AMED:T068:CV": -1.3,
+      "AMED:T068:SDw": -1.3
+    }
+  },
+  "code_sha256": {
+    "interaction/__init__.py": "6e0e5b1626bdac3b78054e12022939ed3f801c6a3cd740c7f274f0eefc8fd359",
+    "interaction/common.py": "f76ecaed8ad95988409e1bca49494ca487ad5d85d8ee7c660ade072caf7fa8ad",
+    "interaction/inputs.py": "dd4355697c887b7f681a90b918856fc48168d00df2cc38e71ae9f9dedd084f79",
+    "interaction/models.py": "e5624c9bbcdb2d90ca9783ef38d729db1db217ad6304e8c5914d2de52f28db90",
+    "interaction/pipeline.py": "3a88ab326d71d46a3e13dc3d478dd53c4c6edd38889223b69b733761099d8dc9"
+  },
+  "output_sha256": {
+    "analysis_config.json": "ddc3ffe6b5741b6b9c89f17be8f30d2291796668693e2b0b559dd049caa26854",
+    "tables/all_interactions.csv": "183e5c0a8ab9176adc02c3b62e3b7496c746eed47e00b230332abc29069e253a"
+  }
+}

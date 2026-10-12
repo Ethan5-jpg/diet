@@ -1,0 +1,314 @@
+{
+  "version": "2026-10-10.ext1",
+  "data_kind": "SYNTHETIC",
+  "status": "COMPLETE",
+  "run_id": "demo_20261010T104645_803962Z_d1406d",
+  "data_root": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/hpp_extension_synthetic__29tphnc",
+  "reference_run": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/extension_sensitivity/packaged_upload_check/Data/diet_gut_cgm_interaction/extension_sensitivity/outputs_extension_sensitivity/demo_20261010T104645_803962Z_d1406d/reference_demo",
+  "code_sha256": {
+    "interaction/synthetic.py": "85e251a48961beb5aab1c3da0292e62e7535b412a7919d4bca67c5223b1a3f63",
+    "interaction/models.py": "e5624c9bbcdb2d90ca9783ef38d729db1db217ad6304e8c5914d2de52f28db90",
+    "interaction/extension_sensitivity.py": "f80cbc81651c858314539438f613f428df1a783e0b9d915eb0331e3d68a730d3",
+    "interaction/__init__.py": "6e0e5b1626bdac3b78054e12022939ed3f801c6a3cd740c7f274f0eefc8fd359",
+    "interaction/inputs.py": "dd4355697c887b7f681a90b918856fc48168d00df2cc38e71ae9f9dedd084f79",
+    "interaction/common.py": "f76ecaed8ad95988409e1bca49494ca487ad5d85d8ee7c660ade072caf7fa8ad",
+    "interaction/extension_reporting.py": "e257f6154ce34cd2d4e6c4193740a81d9455fa2b35ee594e3ebde29ed8c6f8d4",
+    "interaction/pipeline.py": "3a88ab326d71d46a3e13dc3d478dd53c4c6edd38889223b69b733761099d8dc9",
+    "interaction/reporting.py": "b431458a56bbc6c72793e187b8d86e9d516994c3e34a06d80d8ea113b1c669b1",
+    "run_extension_sensitivity.py": "28e519ff36463ae48c7304f3152fc4849cab87e433f3a1073bfe13eff0684068",
+    "show_results.py": "418d7ac33e47c695f9ce560c12366e7c7bbced427e28dccaf01985d0d1fa90f4",
+    "run_extension_sensitivity.sh": "b154540bc0feafe5cfda5e5a3ed534a0cf4a6957fff2ae456cbe1abaddf7df45",
+    "config/analysis.json": "fae9b3b6b652980df22e9ea905f7c38aa47161336fc113cba0a0d56892e09efd",
+    "requirements.txt": "6304eeeaac7af5b8c243e980c66594f0110f2d1f7b48549090e20d385af8c84c"
+  },
+  "command": [
+    "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/extension_sensitivity/packaged_upload_check/Data/diet_gut_cgm_interaction/extension_sensitivity/run_extension_sensitivity.py",
+    "--demo"
+  ],
+  "software": {
+    "python": "3.12.14",
+    "numpy": "1.26.4",
+    "pandas": "2.1.4",
+    "scipy": "1.11.4",
+    "matplotlib": "3.8.3"
+  },
+  "reference_file_sha256": {
+    "manifest.json": "1f9f976386d6d20f30f43c1352a4a6ef0e8eccd08bff8f87d18669779656f8a8",
+    "analysis_config.json": "ddc3ffe6b5741b6b9c89f17be8f30d2291796668693e2b0b559dd049caa26854",
+    "tables/all_interactions.csv": "183e5c0a8ab9176adc02c3b62e3b7496c746eed47e00b230332abc29069e253a"
+  },
+  "reference_version": "2026-10-10.2",
+  "config": {
+    "version": "2026-10-10.2",
+    "inputs": {
+      "current4": "diet_microbiome_glucose_analysis/outputs/data/00_current4_diet_cgm_cohort.csv",
+      "new3": "diet_microbiome_glucose_analysis/outputs/new_diet_extension/data/15d0_new_diet_cgm_cohort.csv",
+      "candidate_master": "diet_microbiome_glucose_analysis/outputs/reports/new_diet_extension/15b_new_diet_extension_candidate_master.csv",
+      "corrected_hpdi": "diet_microbiome_glucose_analysis/outputs/reports/new_diet_extension/hpdi_correction_audit/corrected_scores/hpdi_participant_scores.csv",
+      "microbiome": "gut_microbiome_deal/data/08_species_clr_zscore.csv",
+      "covariates": "co-variant/outputs/data/02_covariate_master.csv",
+      "cgm": "cgm_deal/cgm论文新增17指标/outputs/run_20260919T030229_482714Z_c1a0f480/data/07_cgm_paper_extended_phenotypes.csv",
+      "protocol": "diet_microbiome_glucose_analysis/outputs/new_diet_extension/mediation/protocol_abxppi/15f2_protocol_abxppi_cohort.csv"
+    },
+    "cohort": "10k",
+    "research_stage": "00_00_visit",
+    "focus_exposures": [
+      "hPDI",
+      "NOVA4"
+    ],
+    "extension_exposures": [
+      "AHEI",
+      "AMED",
+      "rEDIH",
+      "EAT13",
+      "Carbohydrate_pct"
+    ],
+    "taxa": [
+      {
+        "id": "T023",
+        "species": "GGB6012_SGB8640"
+      },
+      {
+        "id": "T046",
+        "species": "Clostridium_phoceensis"
+      },
+      {
+        "id": "T068",
+        "species": "Eubacterium_rectale"
+      },
+      {
+        "id": "T096",
+        "species": "Ruthenibacterium_lactatiformans"
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "Mean",
+        "field": "cgm_mean",
+        "unit": "mg/dL"
+      },
+      {
+        "id": "CV",
+        "field": "cgm_cv",
+        "unit": "percentage_points"
+      },
+      {
+        "id": "SDw",
+        "field": "cgm_sdw",
+        "unit": "mg/dL"
+      }
+    ],
+    "minimum_model_n": 200,
+    "minimum_residual_df": 50,
+    "minimum_tail_cell_n": 20,
+    "protocol_mode": "if_available",
+    "alpha": 0.05,
+    "interpretation": "Exploratory same-cohort selected-candidate effect modification; not causal mediation or independent validation."
+  },
+  "reference_extension_targets": [
+    {
+      "exposure": "AMED",
+      "taxon": "T068",
+      "outcome": "CV",
+      "q_all": 1.1647055928631422e-40
+    },
+    {
+      "exposure": "AMED",
+      "taxon": "T068",
+      "outcome": "SDw",
+      "q_all": 1.8233123227763724e-35
+    }
+  ],
+  "inputs": [
+    {
+      "label": "current4",
+      "path": "/private/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/hpp_extension_synthetic__29tphnc/diet_microbiome_glucose_analysis/outputs/data/00_current4_diet_cgm_cohort.csv",
+      "bytes": 96871,
+      "sha256": "40515c4f002112e4d43baedc690e3a61adb5b11c1bb2af197483cec53c925b40"
+    },
+    {
+      "label": "new3",
+      "path": "/private/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/hpp_extension_synthetic__29tphnc/diet_microbiome_glucose_analysis/outputs/new_diet_extension/data/15d0_new_diet_cgm_cohort.csv",
+      "bytes": 95864,
+      "sha256": "a356939325be802b5dd4423f002d20b372ddb7bd019f1b484b74bba944c7f465"
+    },
+    {
+      "label": "candidate_master",
+      "path": "/private/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/hpp_extension_synthetic__29tphnc/diet_microbiome_glucose_analysis/outputs/reports/new_diet_extension/15b_new_diet_extension_candidate_master.csv",
+      "bytes": 95910,
+      "sha256": "65f51697cff85d9a2b0438d921afdf6cf4fdc246cee9116e1e7a3df28053eb1d"
+    },
+    {
+      "label": "corrected_hpdi",
+      "path": "/private/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/hpp_extension_synthetic__29tphnc/diet_microbiome_glucose_analysis/outputs/reports/new_diet_extension/hpdi_correction_audit/corrected_scores/hpdi_participant_scores.csv",
+      "bytes": 43841,
+      "sha256": "0ad44c8003dcc6a9d534af9c97a5f1c8e1a6d6a10c660c08d5992cee12370a96"
+    },
+    {
+      "label": "microbiome",
+      "path": "/private/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/hpp_extension_synthetic__29tphnc/gut_microbiome_deal/data/08_species_clr_zscore.csv",
+      "bytes": 97048,
+      "sha256": "2fe645be0be413f3264bf40d4a333cff0ee0d92eac480d122bef8896380e0490"
+    },
+    {
+      "label": "covariates",
+      "path": "/private/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/hpp_extension_synthetic__29tphnc/co-variant/outputs/data/02_covariate_master.csv",
+      "bytes": 134532,
+      "sha256": "7bd0a74fe2cab70dd9494bbe5e820989655162afffbebc44d3bc09d477fce0e5"
+    },
+    {
+      "label": "cgm",
+      "path": "/private/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/hpp_extension_synthetic__29tphnc/cgm_deal/cgm论文新增17指标/outputs/run_20260919T030229_482714Z_c1a0f480/data/07_cgm_paper_extended_phenotypes.csv",
+      "bytes": 138066,
+      "sha256": "d50d87b53fd7ca9d0831009d4b337cb846f68cb6fca9ea44a349b72b5e158ded"
+    },
+    {
+      "label": "protocol",
+      "path": "/private/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/hpp_extension_synthetic__29tphnc/diet_microbiome_glucose_analysis/outputs/new_diet_extension/mediation/protocol_abxppi/15f2_protocol_abxppi_cohort.csv",
+      "bytes": 33347,
+      "sha256": "4f0ad52638367c50a13ca7ffbe017f0dc3610fb93caef304e7bf8e4c4cac72a1"
+    }
+  ],
+  "input_summary": {
+    "cgm_n": 900,
+    "primary_eligible_n": 882,
+    "strict_eligible_n": 855,
+    "missing_covariate_record_n": 3,
+    "unknown_exclusion_n": 27,
+    "microbiome_overlap_n": 900,
+    "protocol_available": true
+  },
+  "outcome_scales": {
+    "Mean": {
+      "sd": 7.50677366513047,
+      "mean": 104.87103820216922,
+      "unit": "mg/dL",
+      "field": "cgm_mean",
+      "n": 900
+    },
+    "CV": {
+      "sd": 3.2598543956810553,
+      "mean": 23.989244862087364,
+      "unit": "percentage_points",
+      "field": "cgm_cv",
+      "n": 900
+    },
+    "SDw": {
+      "sd": 2.8082398934823853,
+      "mean": 17.926826119231535,
+      "unit": "mg/dL",
+      "field": "cgm_sdw",
+      "n": 900
+    }
+  },
+  "score_mapping": [
+    {
+      "exposure": "AHEI",
+      "source": "current4",
+      "column": "AHEI_z"
+    },
+    {
+      "exposure": "AMED",
+      "source": "current4",
+      "column": "AMED_z"
+    },
+    {
+      "exposure": "rEDIH",
+      "source": "current4",
+      "column": "rEDIH_z"
+    },
+    {
+      "exposure": "hPDI",
+      "source": "corrected_hpdi",
+      "column": "hpdi_score_energy_adjusted_z"
+    },
+    {
+      "exposure": "EAT13",
+      "source": "new3",
+      "column": "EAT13_z",
+      "verified_candidate_column": "modified_eat_lancet13_z"
+    },
+    {
+      "exposure": "NOVA4",
+      "source": "new3",
+      "column": "NOVA4_z",
+      "verified_candidate_column": "nova4_total_energy_pct_cov80_z"
+    },
+    {
+      "exposure": "Carbohydrate_pct",
+      "source": "new3",
+      "column": "Carbohydrate_pct_z",
+      "verified_candidate_column": "carbohydrate_energy_pct_z"
+    }
+  ],
+  "taxa_mapping": [
+    {
+      "taxon": "T023",
+      "species": "GGB6012_SGB8640",
+      "column": "k__Bacteria|g__Test|s__GGB6012_SGB8640",
+      "scale": "original CLR-Z"
+    },
+    {
+      "taxon": "T046",
+      "species": "Clostridium_phoceensis",
+      "column": "k__Bacteria|g__Test|s__Clostridium_phoceensis",
+      "scale": "original CLR-Z"
+    },
+    {
+      "taxon": "T068",
+      "species": "Eubacterium_rectale",
+      "column": "k__Bacteria|g__Test|s__Eubacterium_rectale",
+      "scale": "original CLR-Z"
+    },
+    {
+      "taxon": "T096",
+      "species": "Ruthenibacterium_lactatiformans",
+      "column": "k__Bacteria|g__Test|s__Ruthenibacterium_lactatiformans",
+      "scale": "original CLR-Z"
+    }
+  ],
+  "plots": "COMPLETE",
+  "reference_reproduced_tests": 204,
+  "model_counts": {
+    "OK": 588
+  },
+  "reference_extension_hits": 2,
+  "original_hits_retained_all_six": 2,
+  "limitations": [
+    "Follow-up after viewing primary results in the same cohort; not independent validation.",
+    "All7 common sample differs from the original two-diet common-focus sample.",
+    "Same direction/q retention is descriptive; CIs are pointwise and samples overlap.",
+    "High-leverage influence has not been separately refitted; HC3 does not remove influential observations.",
+    "Historical rEDIH unit provenance and timing limitations remain."
+  ],
+  "completed_utc": "2026-10-10T10:46:49.590889+00:00",
+  "output_sha256": {
+    "SCREEN_3.txt": "3fe0541cbd0a15a9336d4a0cbb711d5100154674302e61acfc83aac7035f02d2",
+    "SCREEN_2.txt": "9966828c599cde78ed1fcbfe04610e6b6ac5b47c8ec30ad8ac34592c1a6e3883",
+    "analysis_config.json": "ddc3ffe6b5741b6b9c89f17be8f30d2291796668693e2b0b559dd049caa26854",
+    "SCREEN_1.txt": "a6471ce68645818add3126143bed0d963111f1f19b5518a4232612b515ada5a4",
+    "EXTENSION_METHODS.md": "c968c000af30899d200fae4f651812dd12e1a0c69ea581729d1894fda9a4d26f",
+    "README.md": "b311af70a63f07ba4ff44875c2c973a37d4a9acc95eca186b936cccbcd2d8054",
+    "reference_manifest.json": "1f9f976386d6d20f30f43c1352a4a6ef0e8eccd08bff8f87d18669779656f8a8",
+    "METHODS.md": "aa7c442b669daac27a6e7f6c09e97c7d727bfdb47e4cb9596df033118c09e0ed",
+    "followup_design.json": "839a881e89ff82e06e05d43bca730e9947e400cf42794c6f00ff5231589bc966",
+    "SCREENSHOT_SUMMARY.txt": "f2bcce7d6ccc2342853e691c9de43062fa9fe9c352c77fe0330a33e7e0d94fea",
+    "tables/cohort_flow.csv": "8c5175775350b8a1889ccbb740254efacedb45682c49e47bb6e6b54b0db36d22",
+    "tables/extension_all_specs.csv": "6a4460a0dd820e08fe3f763840211409ba7266791645fb8161c05386263070e1",
+    "tables/retention_by_specification.csv": "a7e2df0324d0d9f0bfd7c57ca638e496db2b390bf644cc56752d60a747ae0d1b",
+    "tables/conditional_diet_slopes.csv": "be2ef1aa49e251c15ed6ea3894a4a94c2dfaebaba715bb0ef94436131394a5cd",
+    "tables/reference_reproduction.csv": "506045ad2eaf0422e9d7b68d45a4b570215e0e7dba515336c40fb8550631c944",
+    "tables/fdr_families.csv": "537af53e96e98897b2900eecb749bcfb28d8b44d7d157ad8d7604d97881fd706",
+    "tables/all_interactions.csv": "efa94b8583d6c73d7a6de566f63aa5ff449a52d5f560c4d7a4369d53b72d51cc",
+    "tables/reference_hits_stability.csv": "12a4440716701a4015abfc0961169b43a4af7359ecff0b6a39092744d0024bbc",
+    "reference_demo/analysis_config.json": "ddc3ffe6b5741b6b9c89f17be8f30d2291796668693e2b0b559dd049caa26854",
+    "reference_demo/manifest.json": "1f9f976386d6d20f30f43c1352a4a6ef0e8eccd08bff8f87d18669779656f8a8",
+    "figures/extension_sensitivity_SDw.pdf": "5bc07c4259cc683db1c1baadf9d94f9717cd81123ce72727df413759c2f89f3d",
+    "figures/extension_sensitivity_SDw.png": "eff68a3f671dda6f25aaff5f8a7f671ffdc4c4a0fd58f42f34826b9ebbe4f5e7",
+    "figures/extension_sensitivity_CV.png": "758f4c0ba5c4b2b2b25ec2ab0043f8b3dd72cbaf23cc6a6ae12d409a672b0b55",
+    "figures/extension_sensitivity_CV.pdf": "d7810ed410008894ccd994bba4168dc25c594b4255a2d34dee3beb239ab08660",
+    "figures/extension_sensitivity_Mean.png": "caab8c4fe782779f6138f4f778f018f812a8b4e23a94edf0c482b53f87562a1d",
+    "figures/extension_sensitivity_Mean.pdf": "a57407e37196e753785b11c7afc2ca53fa14c7a0bd3dcf38ddac66ec223d5a96",
+    "reference_demo/tables/all_interactions.csv": "183e5c0a8ab9176adc02c3b62e3b7496c746eed47e00b230332abc29069e253a"
+  }
+}

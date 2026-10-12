@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/paper_results/build_paper.py", line 48, in main
+    figures=make_figures(bundle,out)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/paper_results/paperlib/figures.py", line 77, in make_figures
+    finish(fig,'Figure_I1_focus_interactions',focus.reindex(columns=fields),out,bundle,figures,
+  File "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/paper_results/paperlib/figures.py", line 43, in finish
+    raise ValueError('Text outside figure '+name+': '+repr(outside[:5]))
+ValueError: Text outside figure Figure_I1_focus_interactions: ['0.3']

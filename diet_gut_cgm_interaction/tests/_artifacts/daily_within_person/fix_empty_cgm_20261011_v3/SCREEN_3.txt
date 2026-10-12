@@ -1,0 +1,18 @@
+DAILY 3/3 | SENSITIVITY / INTERPRETATION | SYNTHETIC
+Specification Fit/12 SD q4<.05 All q12<.05 SupportFlags
+primary              12/12        1          2          6
+strict_known         12/12        1          2          6
+coverage95           12/12        1          2          6
+days7                12/12        1          2          6
+nutrient_context     12/12        2          4          6
+baseline_slopes      12/12        1          2          6
+equal_person_weight  12/12        1          2          6
+Primary SD diet slopes at microbial Q25 / Q75 (point estimates):
+NOVA4 T068: 0.7632 / 0.2605
+NOVA4 T096: 0.566 / 0.5444
+Fiber T068: 0.1298 / 0.02215
+Fiber T096: 0.04452 / 0.1418
+Stool record AFTER day, known-date fraction across SD models: 1..1
+Overlapping samples are not replication; negative interaction is a slope difference.
+Single stool measurement is not a baseline predictor or proof of causal mediation.
+Full estimates/slopes/flows: tables/. Participant/day records stay in private/.

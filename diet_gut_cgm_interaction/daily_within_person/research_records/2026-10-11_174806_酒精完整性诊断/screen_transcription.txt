@@ -1,0 +1,21 @@
+> PY
+DAILY CHECK | SERVER_INPUTS | saved hashes verified
+Counts only: same QC, exposure completeness, minimum days and within-person range; no fitting.
+Diet Taxon AlcoholRequired CompletePeople CompleteDays FinalPeople FinalDays Ready
+NOVA4 T068 YES(original) 226 293 1 5 False
+NOVA4 T068 NO(diagnostic) 4047 34281 3522 32274 True
+NOVA4 T096 YES(original) 226 293 1 5 False
+NOVA4 T096 NO(diagnostic) 4047 34281 3522 32274 True
+Fiber T068 YES(original) 281 368 3 17 False
+Fiber T068 NO(diagnostic) 3825 23629 2546 20234 True
+Fiber T096 YES(original) 281 368 3 17 False
+Fiber T096 NO(diagnostic) 3825 23629 2546 20234 True
+QUALITY-DAY FIELD AUDIT: Field MissingDays/AllDays KnownEnergyCoverage_P10/P50/P90
+alcohol_g 48380/48791 0.3701/0.6466/0.8804
+fiber_density 22210/48791 0.8486/1.0000/1.0000
+EXISTING_AMED_DAILY_FILE: True
+AMED missing identity/value fields: none
+AMED available source flags: alcohol_observed_event_count,alcohol_energy_formula_event_count,alcohol_standard_abv_event_count,alcohol_zero_fallback_event_count
+READY means count threshold only; no revised model has been fitted.
+No missing values filled; no files written. Keep this completed daily panel on the server.
+(pheno) [ec2-user@ip-10-0-84-116 daily_within_person]$

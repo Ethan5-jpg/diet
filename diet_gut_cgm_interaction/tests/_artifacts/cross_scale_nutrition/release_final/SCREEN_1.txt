@@ -1,0 +1,15 @@
+COMMON 1/3 | INPUT / SAMPLE / DIAGNOSTICS | SYNTHETIC
+VERSION=2026-10-11.cross.1 | STATUS=COMPLETE_WITH_LIMITATIONS
+Saved revised panel reused; reference reproduction 8/8; no raw CGM rebuild.
+NOVA4 primary = total-energy %; paired sensitivity = classified-energy %.
+B=between person means; W=within person FE, equal-person weights; original CLR-Z.
+Sample People Days MedianDays MinDays MedianRange MicrobeCorr
+F 80 814 10 8 65.75 0.0832
+N 80 814 10 8 65.75 0.0832
+Fits 26/26; interaction rows 44/44; dependent contrasts 40/40.
+F shared across single/joint/definitions/conditional SD; N0 and N1 identities identical.
+Support flags=38 | max fitted condition=309.2
+qMainSD4/qMain8=F_joint; qFamily=supporting family; qAll44=all interaction rows.
+Contrast qFamily uses separate frozen families; all 40 also have qAll40.
+* = limited tail/joint-neighborhood support or >10% information from one person.
+Failed tests remain in denominators; CI pointwise; no participant rows printed.

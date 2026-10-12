@@ -1,0 +1,5 @@
+exposure,taxon,outcome,q25_beta,q75_beta,low,high,unit
+NOVA4,T068,SD,0.2007,0.1717,,,mg/dL per exposure increment
+NOVA4,T096,SD,0.1387,0.2245,,,mg/dL per exposure increment
+Fiber,T068,SD,-0.02756,-0.04026,,,mg/dL per exposure increment
+Fiber,T096,SD,-0.03971,-0.0247,,,mg/dL per exposure increment

@@ -1,0 +1,32 @@
+AMED CHECK | SERVER_INPUTS | saved hashes verified | daily_20261011T055621_479640Z_666d40
+Missing required fields: none
+Scoped AMED rows / invalid date rows: 125374 0
+QC days / unique matched / ambiguous date / unmatched: 48791 48791 0 0
+Matched-day event-count mismatch / invalid source counts / closure failure: 0 0 0
+Matched QC days with source flag >0 (overlapping counts):
+drinks 10031
+obs 8244
+formula 387
+abv 2009
+zero 4
+unresolved 0
+invalid 2
+excluded 1862
+Candidate QC days: observed-or-no-drink / incl.formula-ABV: 44687 46925
+COUNTS ONLY | Diet Taxon Source CompletePeople CompleteDays FinalPeople FinalDays
+NOVA4 T068 no_alcohol_requirement 4047 34281 3522 32274
+NOVA4 T068 audit_observed_only 4024 31673 3319 29119
+NOVA4 T068 audit_recovered 4030 33246 3437 31066
+NOVA4 T096 no_alcohol_requirement 4047 34281 3522 32274
+NOVA4 T096 audit_observed_only 4024 31673 3319 29119
+NOVA4 T096 audit_recovered 4030 33246 3437 31066
+Fiber T068 no_alcohol_requirement 3825 23629 2546 20234
+Fiber T068 audit_observed_only 3808 23053 2470 19545
+Fiber T068 audit_recovered 3810 23139 2476 19646
+Fiber T096 no_alcohol_requirement 3825 23629 2546 20234
+Fiber T096 audit_observed_only 3808 23053 2470 19545
+Fiber T096 audit_recovered 3810 23139 2476 19646
+AMED_SHA256=96a0e1c693e9fc880b276939b9c9fbde8f7632f69befc37cbd023fb6b8606494
+Recovered is a source-audit candidate, not measured truth or a fitted model.
+No participant rows, imputation, file writes or CGM rebuild; keep original outputs.
+(pheno) [ec2-user@ip-10-0-84-116 daily_within_person]$

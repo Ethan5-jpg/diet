@@ -1,0 +1,9 @@
+exposure,taxon,alcohol_required,complete_people,complete_days,final_people,final_days,ready
+NOVA4,T068,True,226,293,1,5,False
+NOVA4,T068,False,4047,34281,3522,32274,True
+NOVA4,T096,True,226,293,1,5,False
+NOVA4,T096,False,4047,34281,3522,32274,True
+Fiber,T068,True,281,368,3,17,False
+Fiber,T068,False,3825,23629,2546,20234,True
+Fiber,T096,True,281,368,3,17,False
+Fiber,T096,False,3825,23629,2546,20234,True

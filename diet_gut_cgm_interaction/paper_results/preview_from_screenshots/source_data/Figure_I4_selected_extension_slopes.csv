@@ -1,0 +1,15 @@
+﻿exposure,taxon,outcome,species,model,n,unit,microbial_quantile,beta_native,ci_low_native,ci_high_native,evidence_precision
+AMED,T096,CV,Ruthenibacterium lactatiformans,primary,4136,percentage points per original Diet Z,25,-0.303,-0.457,-0.149,SCREENSHOT_PREVIEW
+AMED,T096,CV,Ruthenibacterium lactatiformans,primary,4136,percentage points per original Diet Z,75,-0.00744,-0.141,0.127,SCREENSHOT_PREVIEW
+AMED,T096,SDw,Ruthenibacterium lactatiformans,primary,4137,mg/dL per original Diet Z,25,-0.201,-0.351,-0.0508,SCREENSHOT_PREVIEW
+AMED,T096,SDw,Ruthenibacterium lactatiformans,primary,4137,mg/dL per original Diet Z,75,0.0957,-0.0397,0.231,SCREENSHOT_PREVIEW
+rEDIH,T068,CV,Eubacterium rectale,primary,4136,percentage points per original Diet Z,25,0.162,0.0525,0.272,SCREENSHOT_PREVIEW
+rEDIH,T068,CV,Eubacterium rectale,primary,4136,percentage points per original Diet Z,75,-0.057,-0.183,0.0686,SCREENSHOT_PREVIEW
+rEDIH,T068,Mean,Eubacterium rectale,primary,4137,mg/dL per original Diet Z,25,0.508,0.197,0.819,SCREENSHOT_PREVIEW
+rEDIH,T068,Mean,Eubacterium rectale,primary,4137,mg/dL per original Diet Z,75,-0.0532,-0.408,0.302,SCREENSHOT_PREVIEW
+rEDIH,T068,SDw,Eubacterium rectale,primary,4137,mg/dL per original Diet Z,25,0.222,0.11,0.335,SCREENSHOT_PREVIEW
+rEDIH,T068,SDw,Eubacterium rectale,primary,4137,mg/dL per original Diet Z,75,-0.0461,-0.178,0.0855,SCREENSHOT_PREVIEW
+rEDIH,T096,Mean,Ruthenibacterium lactatiformans,primary,4137,mg/dL per original Diet Z,25,-0.395,-0.854,0.0641,SCREENSHOT_PREVIEW
+rEDIH,T096,Mean,Ruthenibacterium lactatiformans,primary,4137,mg/dL per original Diet Z,75,0.711,0.341,1.08,SCREENSHOT_PREVIEW
+rEDIH,T096,SDw,Ruthenibacterium lactatiformans,primary,4137,mg/dL per original Diet Z,25,-0.0837,-0.261,0.0932,SCREENSHOT_PREVIEW
+rEDIH,T096,SDw,Ruthenibacterium lactatiformans,primary,4137,mg/dL per original Diet Z,75,0.318,0.179,0.457,SCREENSHOT_PREVIEW

@@ -1,0 +1,925 @@
+{
+  "date": "2026-10-10",
+  "source": {
+    "attachment_path": "/Users/blizzardxu/Desktop/截屏2026-10-10 17.40.57.png",
+    "original_image_copied": false,
+    "reason": "Desktop source path unavailable at archival time; visible conversation image transcribed.",
+    "transcription_file": "17.40.57_截图文字转录.txt",
+    "transcription_sha256": "1ed75a806afe0d19575a6fac7e305516ead78efab384e5f9b92515ba36a343a2"
+  },
+  "evidence_type": "Manually transcribed real server screenshot with rounded displayed values, not full-precision file export",
+  "server_result_dir": "/home/ec2-user/Desktop/HPP/Data/diet_gut_cgm_interaction/outputs/run_20261010T085601_096554Z_4d43e0",
+  "server_result_dir_source": "Existing fixed-run command and prior screenshot; not printed in current screenshot",
+  "data_kind_displayed": "SERVER_INPUTS",
+  "version_displayed": "2026-10-10.2",
+  "status_displayed": "COMPLETE",
+  "server_reported_output_hash_checks": {
+    "status": "passed",
+    "files": [
+      "tables/all_interactions.csv",
+      "tables/conditional_diet_slopes.csv"
+    ],
+    "scope": "Command compared server files with stored manifest hashes; this is screenshot evidence, not a local independent file-hash audit."
+  },
+  "precision": {
+    "corrected_row": "10 significant digits",
+    "primary_contrasts_and_diagnostics": "6 significant digits",
+    "extension_slopes": "3 significant digits",
+    "reported_ci_midpoint_gap": "12 significant digits"
+  },
+  "corrected_protocol_cv_row": {
+    "model": "protocol_adjusted",
+    "exposure": "NOVA4",
+    "taxon": "T068",
+    "outcome": "CV",
+    "n": 3691,
+    "interaction_beta_native": -0.1966148682,
+    "ci_low_native": -0.3059562771,
+    "ci_high_native": -0.08727345925,
+    "q_focus": 0.005133815842,
+    "display": {
+      "beta": "-0.1966148682",
+      "L95": "-0.3059562771",
+      "U95": "-0.08727345925",
+      "qFocus": "0.005133815842"
+    },
+    "display_significant_digits": 10,
+    "reported_full_precision_beta_minus_ci_midpoint_display": "-2.77555756156e-17",
+    "correction_reason": "The earlier manual transcription misread L95 as -0.305; it is -0.3059562771 in the higher-precision server display. Four significant digits would be -0.306.",
+    "supersedes": {
+      "file": "后续核对截图显示数值.json",
+      "key": "nova4_t068_interactions_displayed / protocol_adjusted / CV",
+      "old_display": {
+        "beta": "-0.1966",
+        "L95": "-0.305",
+        "U95": "-0.08727",
+        "qFocus": "0.005134"
+      }
+    },
+    "status": "RESOLVED_TRANSCRIPTION_ERROR"
+  },
+  "primary_double_iqr_contrasts": [
+    {
+      "model": "primary",
+      "exposure": "NOVA4",
+      "taxon": "T068",
+      "outcome": "CV",
+      "n": 3691,
+      "double_iqr_beta_native": -0.248919,
+      "ci_low_native": -0.386173,
+      "ci_high_native": -0.111665,
+      "double_iqr_status": "OK",
+      "unit": "percentage points",
+      "display": {
+        "contrast": "-0.248919",
+        "L95": "-0.386173",
+        "U95": "-0.111665"
+      }
+    },
+    {
+      "model": "primary",
+      "exposure": "NOVA4",
+      "taxon": "T068",
+      "outcome": "SDw",
+      "n": 3693,
+      "double_iqr_beta_native": -0.262517,
+      "ci_low_native": -0.402849,
+      "ci_high_native": -0.122184,
+      "double_iqr_status": "OK",
+      "unit": "mg/dL",
+      "display": {
+        "contrast": "-0.262517",
+        "L95": "-0.402849",
+        "U95": "-0.122184"
+      }
+    }
+  ],
+  "primary_diagnostics": [
+    {
+      "model": "primary",
+      "exposure": "NOVA4",
+      "taxon": "T068",
+      "outcome": "CV",
+      "support_min_tail_n": 171,
+      "condition_number": 7.00973,
+      "max_leverage": 0.116692,
+      "interaction_delta_r2": 0.00324392,
+      "display": {
+        "MinTailN": "171",
+        "CondNum": "7.00973",
+        "MaxLev": "0.116692",
+        "DeltaR2": "0.00324392"
+      }
+    },
+    {
+      "model": "primary",
+      "exposure": "NOVA4",
+      "taxon": "T068",
+      "outcome": "SDw",
+      "support_min_tail_n": 171,
+      "condition_number": 7.01049,
+      "max_leverage": 0.116746,
+      "interaction_delta_r2": 0.00392001,
+      "display": {
+        "MinTailN": "171",
+        "CondNum": "7.01049",
+        "MaxLev": "0.116746",
+        "DeltaR2": "0.00392001"
+      }
+    }
+  ],
+  "extension_conditional_slopes": [
+    {
+      "model": "primary",
+      "exposure": "AHEI",
+      "exposure_display": "AHEI",
+      "taxon": "T068",
+      "outcome": "CV",
+      "n": 4136,
+      "unit": "percentage points per original Diet Z",
+      "slopes": [
+        {
+          "microbial_quantile": 25,
+          "beta_native": -0.013,
+          "ci_low_native": -0.124,
+          "ci_high_native": 0.0976,
+          "display": {
+            "beta": "-0.013",
+            "L95": "-0.124",
+            "U95": "0.0976"
+          }
+        },
+        {
+          "microbial_quantile": 75,
+          "beta_native": -0.159,
+          "ci_low_native": -0.285,
+          "ci_high_native": -0.0322,
+          "display": {
+            "beta": "-0.159",
+            "L95": "-0.285",
+            "U95": "-0.0322"
+          }
+        }
+      ]
+    },
+    {
+      "model": "primary",
+      "exposure": "AHEI",
+      "exposure_display": "AHEI",
+      "taxon": "T068",
+      "outcome": "SDw",
+      "n": 4137,
+      "unit": "mg/dL per original Diet Z",
+      "slopes": [
+        {
+          "microbial_quantile": 25,
+          "beta_native": 0.0588,
+          "ci_low_native": -0.0528,
+          "ci_high_native": 0.17,
+          "display": {
+            "beta": "0.0588",
+            "L95": "-0.0528",
+            "U95": "0.17"
+          }
+        },
+        {
+          "microbial_quantile": 75,
+          "beta_native": -0.103,
+          "ci_low_native": -0.229,
+          "ci_high_native": 0.0236,
+          "display": {
+            "beta": "-0.103",
+            "L95": "-0.229",
+            "U95": "0.0236"
+          }
+        }
+      ]
+    },
+    {
+      "model": "primary",
+      "exposure": "AMED",
+      "exposure_display": "AMED",
+      "taxon": "T068",
+      "outcome": "CV",
+      "n": 4136,
+      "unit": "percentage points per original Diet Z",
+      "slopes": [
+        {
+          "microbial_quantile": 25,
+          "beta_native": -0.0831,
+          "ci_low_native": -0.194,
+          "ci_high_native": 0.0277,
+          "display": {
+            "beta": "-0.0831",
+            "L95": "-0.194",
+            "U95": "0.0277"
+          }
+        },
+        {
+          "microbial_quantile": 75,
+          "beta_native": -0.221,
+          "ci_low_native": -0.345,
+          "ci_high_native": -0.0963,
+          "display": {
+            "beta": "-0.221",
+            "L95": "-0.345",
+            "U95": "-0.0963"
+          }
+        }
+      ]
+    },
+    {
+      "model": "primary",
+      "exposure": "AMED",
+      "exposure_display": "AMED",
+      "taxon": "T068",
+      "outcome": "SDw",
+      "n": 4137,
+      "unit": "mg/dL per original Diet Z",
+      "slopes": [
+        {
+          "microbial_quantile": 25,
+          "beta_native": 0.0423,
+          "ci_low_native": -0.067,
+          "ci_high_native": 0.152,
+          "display": {
+            "beta": "0.0423",
+            "L95": "-0.067",
+            "U95": "0.152"
+          }
+        },
+        {
+          "microbial_quantile": 75,
+          "beta_native": -0.111,
+          "ci_low_native": -0.234,
+          "ci_high_native": 0.0118,
+          "display": {
+            "beta": "-0.111",
+            "L95": "-0.234",
+            "U95": "0.0118"
+          }
+        }
+      ]
+    },
+    {
+      "model": "primary",
+      "exposure": "AMED",
+      "exposure_display": "AMED",
+      "taxon": "T096",
+      "outcome": "CV",
+      "n": 4136,
+      "unit": "percentage points per original Diet Z",
+      "slopes": [
+        {
+          "microbial_quantile": 25,
+          "beta_native": -0.303,
+          "ci_low_native": -0.457,
+          "ci_high_native": -0.149,
+          "display": {
+            "beta": "-0.303",
+            "L95": "-0.457",
+            "U95": "-0.149"
+          }
+        },
+        {
+          "microbial_quantile": 75,
+          "beta_native": -0.00744,
+          "ci_low_native": -0.141,
+          "ci_high_native": 0.127,
+          "display": {
+            "beta": "-0.00744",
+            "L95": "-0.141",
+            "U95": "0.127"
+          }
+        }
+      ]
+    },
+    {
+      "model": "primary",
+      "exposure": "AMED",
+      "exposure_display": "AMED",
+      "taxon": "T096",
+      "outcome": "SDw",
+      "n": 4137,
+      "unit": "mg/dL per original Diet Z",
+      "slopes": [
+        {
+          "microbial_quantile": 25,
+          "beta_native": -0.201,
+          "ci_low_native": -0.351,
+          "ci_high_native": -0.0508,
+          "display": {
+            "beta": "-0.201",
+            "L95": "-0.351",
+            "U95": "-0.0508"
+          }
+        },
+        {
+          "microbial_quantile": 75,
+          "beta_native": 0.0957,
+          "ci_low_native": -0.0397,
+          "ci_high_native": 0.231,
+          "display": {
+            "beta": "0.0957",
+            "L95": "-0.0397",
+            "U95": "0.231"
+          }
+        }
+      ]
+    },
+    {
+      "model": "primary",
+      "exposure": "Carbohydrate_pct",
+      "exposure_display": "Carb_pct",
+      "taxon": "T068",
+      "outcome": "CV",
+      "n": 4114,
+      "unit": "percentage points per original Diet Z",
+      "slopes": [
+        {
+          "microbial_quantile": 25,
+          "beta_native": 0.685,
+          "ci_low_native": 0.585,
+          "ci_high_native": 0.785,
+          "display": {
+            "beta": "0.685",
+            "L95": "0.585",
+            "U95": "0.785"
+          }
+        },
+        {
+          "microbial_quantile": 75,
+          "beta_native": 0.58,
+          "ci_low_native": 0.448,
+          "ci_high_native": 0.712,
+          "display": {
+            "beta": "0.58",
+            "L95": "0.448",
+            "U95": "0.712"
+          }
+        }
+      ]
+    },
+    {
+      "model": "primary",
+      "exposure": "Carbohydrate_pct",
+      "exposure_display": "Carb_pct",
+      "taxon": "T068",
+      "outcome": "SDw",
+      "n": 4115,
+      "unit": "mg/dL per original Diet Z",
+      "slopes": [
+        {
+          "microbial_quantile": 25,
+          "beta_native": 0.867,
+          "ci_low_native": 0.771,
+          "ci_high_native": 0.963,
+          "display": {
+            "beta": "0.867",
+            "L95": "0.771",
+            "U95": "0.963"
+          }
+        },
+        {
+          "microbial_quantile": 75,
+          "beta_native": 0.743,
+          "ci_low_native": 0.616,
+          "ci_high_native": 0.871,
+          "display": {
+            "beta": "0.743",
+            "L95": "0.616",
+            "U95": "0.871"
+          }
+        }
+      ]
+    },
+    {
+      "model": "primary",
+      "exposure": "Carbohydrate_pct",
+      "exposure_display": "Carb_pct",
+      "taxon": "T096",
+      "outcome": "Mean",
+      "n": 4115,
+      "unit": "mg/dL per original Diet Z",
+      "slopes": [
+        {
+          "microbial_quantile": 25,
+          "beta_native": 0.694,
+          "ci_low_native": 0.24,
+          "ci_high_native": 1.15,
+          "display": {
+            "beta": "0.694",
+            "L95": "0.24",
+            "U95": "1.15"
+          }
+        },
+        {
+          "microbial_quantile": 75,
+          "beta_native": 1.38,
+          "ci_low_native": 1.05,
+          "ci_high_native": 1.72,
+          "display": {
+            "beta": "1.38",
+            "L95": "1.05",
+            "U95": "1.72"
+          }
+        }
+      ]
+    },
+    {
+      "model": "primary",
+      "exposure": "Carbohydrate_pct",
+      "exposure_display": "Carb_pct",
+      "taxon": "T096",
+      "outcome": "SDw",
+      "n": 4115,
+      "unit": "mg/dL per original Diet Z",
+      "slopes": [
+        {
+          "microbial_quantile": 25,
+          "beta_native": 0.779,
+          "ci_low_native": 0.633,
+          "ci_high_native": 0.925,
+          "display": {
+            "beta": "0.779",
+            "L95": "0.633",
+            "U95": "0.925"
+          }
+        },
+        {
+          "microbial_quantile": 75,
+          "beta_native": 1.01,
+          "ci_low_native": 0.907,
+          "ci_high_native": 1.1,
+          "display": {
+            "beta": "1.01",
+            "L95": "0.907",
+            "U95": "1.1"
+          }
+        }
+      ]
+    },
+    {
+      "model": "primary",
+      "exposure": "EAT13",
+      "exposure_display": "EAT13",
+      "taxon": "T068",
+      "outcome": "SDw",
+      "n": 4055,
+      "unit": "mg/dL per original Diet Z",
+      "slopes": [
+        {
+          "microbial_quantile": 25,
+          "beta_native": 0.0484,
+          "ci_low_native": -0.0626,
+          "ci_high_native": 0.159,
+          "display": {
+            "beta": "0.0484",
+            "L95": "-0.0626",
+            "U95": "0.159"
+          }
+        },
+        {
+          "microbial_quantile": 75,
+          "beta_native": -0.0846,
+          "ci_low_native": -0.213,
+          "ci_high_native": 0.0443,
+          "display": {
+            "beta": "-0.0846",
+            "L95": "-0.213",
+            "U95": "0.0443"
+          }
+        }
+      ]
+    },
+    {
+      "model": "primary",
+      "exposure": "EAT13",
+      "exposure_display": "EAT13",
+      "taxon": "T096",
+      "outcome": "Mean",
+      "n": 4055,
+      "unit": "mg/dL per original Diet Z",
+      "slopes": [
+        {
+          "microbial_quantile": 25,
+          "beta_native": 0.0227,
+          "ci_low_native": -0.363,
+          "ci_high_native": 0.409,
+          "display": {
+            "beta": "0.0227",
+            "L95": "-0.363",
+            "U95": "0.409"
+          }
+        },
+        {
+          "microbial_quantile": 75,
+          "beta_native": 0.717,
+          "ci_low_native": 0.342,
+          "ci_high_native": 1.09,
+          "display": {
+            "beta": "0.717",
+            "L95": "0.342",
+            "U95": "1.09"
+          }
+        }
+      ]
+    },
+    {
+      "model": "primary",
+      "exposure": "EAT13",
+      "exposure_display": "EAT13",
+      "taxon": "T096",
+      "outcome": "SDw",
+      "n": 4055,
+      "unit": "mg/dL per original Diet Z",
+      "slopes": [
+        {
+          "microbial_quantile": 25,
+          "beta_native": -0.151,
+          "ci_low_native": -0.297,
+          "ci_high_native": -0.00548,
+          "display": {
+            "beta": "-0.151",
+            "L95": "-0.297",
+            "U95": "-0.00548"
+          }
+        },
+        {
+          "microbial_quantile": 75,
+          "beta_native": 0.0981,
+          "ci_low_native": -0.0435,
+          "ci_high_native": 0.24,
+          "display": {
+            "beta": "0.0981",
+            "L95": "-0.0435",
+            "U95": "0.24"
+          }
+        }
+      ]
+    },
+    {
+      "model": "primary",
+      "exposure": "rEDIH",
+      "exposure_display": "rEDIH",
+      "taxon": "T068",
+      "outcome": "CV",
+      "n": 4136,
+      "unit": "percentage points per original Diet Z",
+      "slopes": [
+        {
+          "microbial_quantile": 25,
+          "beta_native": 0.162,
+          "ci_low_native": 0.0525,
+          "ci_high_native": 0.272,
+          "display": {
+            "beta": "0.162",
+            "L95": "0.0525",
+            "U95": "0.272"
+          }
+        },
+        {
+          "microbial_quantile": 75,
+          "beta_native": -0.057,
+          "ci_low_native": -0.183,
+          "ci_high_native": 0.0686,
+          "display": {
+            "beta": "-0.057",
+            "L95": "-0.183",
+            "U95": "0.0686"
+          }
+        }
+      ]
+    },
+    {
+      "model": "primary",
+      "exposure": "rEDIH",
+      "exposure_display": "rEDIH",
+      "taxon": "T068",
+      "outcome": "Mean",
+      "n": 4137,
+      "unit": "mg/dL per original Diet Z",
+      "slopes": [
+        {
+          "microbial_quantile": 25,
+          "beta_native": 0.508,
+          "ci_low_native": 0.197,
+          "ci_high_native": 0.819,
+          "display": {
+            "beta": "0.508",
+            "L95": "0.197",
+            "U95": "0.819"
+          }
+        },
+        {
+          "microbial_quantile": 75,
+          "beta_native": -0.0532,
+          "ci_low_native": -0.408,
+          "ci_high_native": 0.302,
+          "display": {
+            "beta": "-0.0532",
+            "L95": "-0.408",
+            "U95": "0.302"
+          }
+        }
+      ]
+    },
+    {
+      "model": "primary",
+      "exposure": "rEDIH",
+      "exposure_display": "rEDIH",
+      "taxon": "T068",
+      "outcome": "SDw",
+      "n": 4137,
+      "unit": "mg/dL per original Diet Z",
+      "slopes": [
+        {
+          "microbial_quantile": 25,
+          "beta_native": 0.222,
+          "ci_low_native": 0.11,
+          "ci_high_native": 0.335,
+          "display": {
+            "beta": "0.222",
+            "L95": "0.11",
+            "U95": "0.335"
+          }
+        },
+        {
+          "microbial_quantile": 75,
+          "beta_native": -0.0461,
+          "ci_low_native": -0.178,
+          "ci_high_native": 0.0855,
+          "display": {
+            "beta": "-0.0461",
+            "L95": "-0.178",
+            "U95": "0.0855"
+          }
+        }
+      ]
+    },
+    {
+      "model": "primary",
+      "exposure": "rEDIH",
+      "exposure_display": "rEDIH",
+      "taxon": "T096",
+      "outcome": "CV",
+      "n": 4136,
+      "unit": "percentage points per original Diet Z",
+      "slopes": [
+        {
+          "microbial_quantile": 25,
+          "beta_native": -0.0248,
+          "ci_low_native": -0.189,
+          "ci_high_native": 0.139,
+          "display": {
+            "beta": "-0.0248",
+            "L95": "-0.189",
+            "U95": "0.139"
+          }
+        },
+        {
+          "microbial_quantile": 75,
+          "beta_native": 0.224,
+          "ci_low_native": 0.0892,
+          "ci_high_native": 0.359,
+          "display": {
+            "beta": "0.224",
+            "L95": "0.0892",
+            "U95": "0.359"
+          }
+        }
+      ]
+    },
+    {
+      "model": "primary",
+      "exposure": "rEDIH",
+      "exposure_display": "rEDIH",
+      "taxon": "T096",
+      "outcome": "Mean",
+      "n": 4137,
+      "unit": "mg/dL per original Diet Z",
+      "slopes": [
+        {
+          "microbial_quantile": 25,
+          "beta_native": -0.395,
+          "ci_low_native": -0.854,
+          "ci_high_native": 0.0641,
+          "display": {
+            "beta": "-0.395",
+            "L95": "-0.854",
+            "U95": "0.0641"
+          }
+        },
+        {
+          "microbial_quantile": 75,
+          "beta_native": 0.711,
+          "ci_low_native": 0.341,
+          "ci_high_native": 1.08,
+          "display": {
+            "beta": "0.711",
+            "L95": "0.341",
+            "U95": "1.08"
+          }
+        }
+      ]
+    },
+    {
+      "model": "primary",
+      "exposure": "rEDIH",
+      "exposure_display": "rEDIH",
+      "taxon": "T096",
+      "outcome": "SDw",
+      "n": 4137,
+      "unit": "mg/dL per original Diet Z",
+      "slopes": [
+        {
+          "microbial_quantile": 25,
+          "beta_native": -0.0837,
+          "ci_low_native": -0.261,
+          "ci_high_native": 0.0932,
+          "display": {
+            "beta": "-0.0837",
+            "L95": "-0.261",
+            "U95": "0.0932"
+          }
+        },
+        {
+          "microbial_quantile": 75,
+          "beta_native": 0.318,
+          "ci_low_native": 0.179,
+          "ci_high_native": 0.457,
+          "display": {
+            "beta": "0.318",
+            "L95": "0.179",
+            "U95": "0.457"
+          }
+        }
+      ]
+    }
+  ],
+  "extension_rows_displayed": 19,
+  "local_transcription_checks": {
+    "corrected_interval_consistent": true,
+    "contrast_intervals_consistent": true,
+    "all_38_slope_intervals_consistent_with_rounding": true,
+    "all_19_keys_and_n_match_prior_interactions": true,
+    "all_19_slope_change_signs_match_interactions": true,
+    "per_pair": [
+      {
+        "exposure": "AHEI",
+        "taxon": "T068",
+        "outcome": "CV",
+        "n_matches_prior": true,
+        "slope_change_sign_matches_interaction": true
+      },
+      {
+        "exposure": "AHEI",
+        "taxon": "T068",
+        "outcome": "SDw",
+        "n_matches_prior": true,
+        "slope_change_sign_matches_interaction": true
+      },
+      {
+        "exposure": "AMED",
+        "taxon": "T068",
+        "outcome": "CV",
+        "n_matches_prior": true,
+        "slope_change_sign_matches_interaction": true
+      },
+      {
+        "exposure": "AMED",
+        "taxon": "T068",
+        "outcome": "SDw",
+        "n_matches_prior": true,
+        "slope_change_sign_matches_interaction": true
+      },
+      {
+        "exposure": "AMED",
+        "taxon": "T096",
+        "outcome": "CV",
+        "n_matches_prior": true,
+        "slope_change_sign_matches_interaction": true
+      },
+      {
+        "exposure": "AMED",
+        "taxon": "T096",
+        "outcome": "SDw",
+        "n_matches_prior": true,
+        "slope_change_sign_matches_interaction": true
+      },
+      {
+        "exposure": "Carbohydrate_pct",
+        "taxon": "T068",
+        "outcome": "CV",
+        "n_matches_prior": true,
+        "slope_change_sign_matches_interaction": true
+      },
+      {
+        "exposure": "Carbohydrate_pct",
+        "taxon": "T068",
+        "outcome": "SDw",
+        "n_matches_prior": true,
+        "slope_change_sign_matches_interaction": true
+      },
+      {
+        "exposure": "Carbohydrate_pct",
+        "taxon": "T096",
+        "outcome": "Mean",
+        "n_matches_prior": true,
+        "slope_change_sign_matches_interaction": true
+      },
+      {
+        "exposure": "Carbohydrate_pct",
+        "taxon": "T096",
+        "outcome": "SDw",
+        "n_matches_prior": true,
+        "slope_change_sign_matches_interaction": true
+      },
+      {
+        "exposure": "EAT13",
+        "taxon": "T068",
+        "outcome": "SDw",
+        "n_matches_prior": true,
+        "slope_change_sign_matches_interaction": true
+      },
+      {
+        "exposure": "EAT13",
+        "taxon": "T096",
+        "outcome": "Mean",
+        "n_matches_prior": true,
+        "slope_change_sign_matches_interaction": true
+      },
+      {
+        "exposure": "EAT13",
+        "taxon": "T096",
+        "outcome": "SDw",
+        "n_matches_prior": true,
+        "slope_change_sign_matches_interaction": true
+      },
+      {
+        "exposure": "rEDIH",
+        "taxon": "T068",
+        "outcome": "CV",
+        "n_matches_prior": true,
+        "slope_change_sign_matches_interaction": true
+      },
+      {
+        "exposure": "rEDIH",
+        "taxon": "T068",
+        "outcome": "Mean",
+        "n_matches_prior": true,
+        "slope_change_sign_matches_interaction": true
+      },
+      {
+        "exposure": "rEDIH",
+        "taxon": "T068",
+        "outcome": "SDw",
+        "n_matches_prior": true,
+        "slope_change_sign_matches_interaction": true
+      },
+      {
+        "exposure": "rEDIH",
+        "taxon": "T096",
+        "outcome": "CV",
+        "n_matches_prior": true,
+        "slope_change_sign_matches_interaction": true
+      },
+      {
+        "exposure": "rEDIH",
+        "taxon": "T096",
+        "outcome": "Mean",
+        "n_matches_prior": true,
+        "slope_change_sign_matches_interaction": true
+      },
+      {
+        "exposure": "rEDIH",
+        "taxon": "T096",
+        "outcome": "SDw",
+        "n_matches_prior": true,
+        "slope_change_sign_matches_interaction": true
+      }
+    ]
+  },
+  "derived_descriptive_values": {
+    "incremental_in_sample_variance_percentage_points": {
+      "CV": 0.324392,
+      "SDw": 0.392001
+    },
+    "scope": "DeltaR2 times 100; descriptive in-sample variance, not predictive performance or mediation proportion."
+  },
+  "resolved_gaps": [
+    "Drug-adjusted CV transcription discrepancy",
+    "Primary NOVA4/T068 double-IQR contrasts and selected diagnostics",
+    "Q25/Q75 conditional slopes for all 19 significant extensions",
+    "Screenshot evidence of matching stored output hashes for the two result CSVs"
+  ],
+  "remaining_limits": [
+    "Original images and full-precision tables/manifest not copied locally",
+    "The 41 non-significant extension coefficients not yet locally received",
+    "Extension tests lack the six sensitivity specifications applied to focus tests",
+    "Maximum leverage around 0.117 does not itself establish absence of influential observations; HC3 changes uncertainty estimates, not OLS point-estimate sensitivity",
+    "Real server figures not yet visually inspected locally",
+    "Pointwise slope intervals do not carry a new simultaneous or FDR guarantee after selection",
+    "Same-cohort candidate selection, observational data and rEDIH unit provenance limits remain"
+  ]
+}

@@ -1,0 +1,16 @@
+来源：用户提供的服务器终端截图；人工转录可见文字，空格规范化，数值保留显示精度。原图已复制并校验指纹。不是服务器全精度结果导出。
+
+EXTENSION 3/3 | ALL 60 EXTENSION TESTS PER SPECIFICATION | SERVER_INPUTS
+Spec Fit/60 qAll84<alpha OldRetained NewOutsideOld Nrange SupportFlags
+S 60/60 12 12 0 3805..3881 0
+P 60/60 19 19 0 4054..4137 0
+A 60/60 18 18 0 4054..4137 0
+Q 60/60 13 12 1 4054..4137 0
+C 60/60 12 11 1 4054..4137 0
+U 60/60 9 9 0 3612..3612 0
+NewOutsideOld is descriptive; new hits do not enter the frozen original-target set.
+Coefficients/pointwise CIs/units/failed fits/flows: tables/; all-extension plots=COMPLETE
+Original units preserved: Mean/SDw mg/dL; CV percentage points. Negative interaction is a slope difference.
+No participant rows or IDs exported. Full precision and reference/input/code hashes: manifest.json.
+
+RESULT_DIR=/home/ec2-user/Desktop/HPP/Data/diet_gut_cgm_interaction/extension_sensitivity/outputs_extension_sensitivity/extension_20261010T105930_496220Z_ff8085

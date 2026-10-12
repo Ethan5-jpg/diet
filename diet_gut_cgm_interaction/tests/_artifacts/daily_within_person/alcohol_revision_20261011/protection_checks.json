@@ -1,0 +1,23 @@
+{
+  "synthetic_only": true,
+  "passed": [
+    "Tampered results refused by display",
+    "Existing output refused and all file hashes unchanged",
+    "Modified reference refused before output creation",
+    "Changed AMED hash refused before fitting (artificial metadata negative test only)"
+  ],
+  "final_model_summary": {
+    "estimated": 132,
+    "planned": 132,
+    "primary_sd_estimated": 4
+  },
+  "final_code_sha256": {
+    "revision_models.py": "d7abccbeca9179bcabe19596b3b05c41ed7c65fba0090bfe13c797a2200783a6",
+    "revision_reporting.py": "5b4654ad56b3f6c19fc0b21249a6a35b44d2f9427e0a78b8fbfe37f4e2b8de30",
+    "run_revision.py": "56b74e8b427d1694238220fe883a675f3c819fcd479f689ba535a82afc63a42e",
+    "show_results.py": "c78dc17318fe98d4311d1acc1ceff3ed9282559ec0ba95904bf07a8d370dba09",
+    "source_audit.py": "9fea18df44089527079300ccb5fc9e125766e2b55378ab647660091e40d5771f",
+    "run_revision.sh": "c2db59d10bb27c318f59a3f5e943e7d5251e3e7363a2d8fe694edf796295fc42",
+    "protocol.json": "40362687d56106fdc2c4bbfaf1bec4edc33f224ec653ccfbe2659acd079b2ee0"
+  }
+}

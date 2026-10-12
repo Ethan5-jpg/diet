@@ -1,0 +1,54 @@
+{
+  "version": "2026-10-11.3",
+  "cohort": "10k",
+  "research_stage": "00_00_visit",
+  "inputs": {
+    "diet": "Transfer/diet_logging/diet_logging_events.csv",
+    "cgm_glob": "Transfer/cgm/timeseries/*.csv",
+    "nova_mapping": "diet_deal/outputs/03_score_mapping/new_diet_indicators/new_diet_indicator_food_id_mapping.csv",
+    "covariates": "co-variant/outputs/data/02_covariate_master.csv",
+    "microbiome": "gut_microbiome_deal/data/08_species_clr_zscore.csv",
+    "connections": "cgm_deal/cgm论文新增17指标/outputs/run_20260919T030229_482714Z_c1a0f480/data/07_cgm_paper_extended_phenotypes.csv",
+    "microbiome_dates": "Transfer/gut_microbiome/gut_microbiome.csv"
+  },
+  "time": {
+    "local_timezone": "Asia/Jerusalem",
+    "naive_timezone": null,
+    "interpretation": "self-reported eating time; operational same-day association"
+  },
+  "chunksize": 100000,
+  "cgm": {
+    "bin_minutes": 15,
+    "minimum_coverage": 0.90,
+    "strict_coverage": 0.95,
+    "minimum_quarter_coverage": 0.75,
+    "maximum_gap_minutes": 60,
+    "strict_gap_minutes": 30,
+    "minimum_glucose": 40,
+    "maximum_glucose": 500
+  },
+  "diet": {
+    "minimum_energy_kcal": 500,
+    "maximum_energy_kcal": 5000,
+    "minimum_occasions": 3,
+    "occasion_span_minutes": 30,
+    "minimum_span_hours": 8,
+    "minimum_nova_coverage": 0.80,
+    "strict_nova_coverage": 0.95
+  },
+  "analysis": {
+    "minimum_people": 200,
+    "minimum_days": 5,
+    "strict_days": 7,
+    "minimum_residual_df": 100,
+    "minimum_nova_range_pp": 10,
+    "minimum_fiber_range_g_per_1000kcal": 2,
+    "minimum_tail_people": 30,
+    "maximum_condition_number": 100000000,
+    "alpha": 0.05
+  },
+  "taxa": [
+    {"id": "T068", "species": "Eubacterium_rectale"},
+    {"id": "T096", "species": "Ruthenibacterium_lactatiformans"}
+  ]
+}

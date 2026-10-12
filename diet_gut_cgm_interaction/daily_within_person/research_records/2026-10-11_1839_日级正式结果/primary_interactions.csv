@@ -1,0 +1,13 @@
+spec,exposure,taxon,outcome,n_people,n_days,beta,low,high,p,q_primary4,q_all12,limited_support,unit
+primary,NOVA4,T068,SD,3319,29119,-0.03098,-0.06602,0.004071,,0.1664,0.2448,False,mg/dL
+primary,NOVA4,T068,Mean,3319,29119,-0.03151,-0.08064,0.01763,,,0.3578,False,mg/dL
+primary,NOVA4,T068,CV,3319,29119,-0.02975,-0.06541,0.005912,,,0.2448,False,percentage_points
+primary,NOVA4,T096,SD,3319,29119,0.048,0.01358,0.08242,,0.02514,0.03772,False,mg/dL
+primary,NOVA4,T096,Mean,3319,29119,0.07555,0.02643,0.1247,,,0.03099,False,mg/dL
+primary,NOVA4,T096,CV,3319,29119,0.03818,0.003276,0.07309,,,0.1282,False,percentage_points
+primary,Fiber,T068,SD,2470,19545,-0.01352,-0.06241,0.03537,,0.7701,0.7837,False,mg/dL
+primary,Fiber,T068,Mean,2470,19545,0.0123,-0.06258,0.08718,,,0.8401,False,mg/dL
+primary,Fiber,T068,CV,2470,19545,-0.01852,-0.07055,0.03352,,,0.728,False,percentage_points
+primary,Fiber,T096,SD,2470,19545,0.008219,-0.04693,0.06337,,0.7701,0.8401,False,mg/dL
+primary,Fiber,T096,Mean,2470,19545,0.05955,-0.01719,0.1363,,,0.2564,False,mg/dL
+primary,Fiber,T096,CV,2470,19545,-0.002208,-0.06011,0.0557,,,0.9404,False,percentage_points

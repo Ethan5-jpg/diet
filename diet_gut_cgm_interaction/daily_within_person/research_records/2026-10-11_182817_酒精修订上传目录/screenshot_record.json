@@ -1,0 +1,27 @@
+{
+  "source": "User-provided upload-directory screenshot",
+  "image": "截屏2026-10-11 18.28.17.png",
+  "original_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_NvVt2e/截屏2026-10-11 18.28.17.png",
+  "image_sha256": "27d09d3566ebfe774186b1a675819200fc1a87e1a9629d776d1f53d92f2c85d8",
+  "copied": true,
+  "screenshot_time": "2026-10-11 18:28:17",
+  "visible_relative_folder": "diet_gut_cgm_interaction/daily_within_person/alcohol_revision",
+  "visible_revision_entries": [
+    "tests/",
+    "METHODS.md",
+    "protocol.json",
+    "README.md",
+    "revision_models.py",
+    "revision_reporting.py",
+    "run_revision.py",
+    "run_revision.sh",
+    "show_results.py",
+    "source_audit.py",
+    "VALIDATION.md"
+  ],
+  "parent_outputs_folder_visible": true,
+  "absolute_server_path_visible": false,
+  "version_visible": false,
+  "analysis_results_visible": false,
+  "interpretation": "Relative folder placement and expected visible entry names match. Contents, runtime version and reference-run integrity still require command checks."
+}

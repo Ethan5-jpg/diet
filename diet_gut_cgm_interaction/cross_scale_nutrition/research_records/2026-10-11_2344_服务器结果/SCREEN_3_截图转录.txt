@@ -1,0 +1,24 @@
+COMMON 3/3 | SAME-SAMPLE NUTRITION / CONDITIONAL SD | SERVER_INPUTS
+F=full eligible sample; N0=nutrition-complete sample, base model; N1=same days, nutrients added.
+N1 adds carb/protein/fiber densities AND their microbe interactions.
+Scale Y Taxon F_beta N0_beta N1_beta qN1 Delta_N1-N0 [CI] qDelta8
+B SD T068 -0.206 -0.1693 -0.109 0.8336 0.0603 [-0.02646,0.1471] 0.3573
+B SD T096 0.007623 0.02612 -0.01873 0.9205 -0.04485 [-0.1328,0.04305] 0.3573
+B Mean T068 -0.2225 0.02755 -0.07194 0.9205 -0.09949 [-0.3114,0.1124] 0.3573
+B Mean T096 -0.2077 0.04509 -0.1095 0.9205 -0.1546 [-0.3633,0.05417] 0.3573
+W SD T068 -0.01475 -0.02213 -0.01144 0.9205 0.01069 [-0.00846,0.02983] 0.3573
+W SD T096 0.05701 0.03733 0.02771 0.8336 -0.00962 [-0.02629,0.007054] 0.3573
+W Mean T068 -0.02716 -0.01934 -0.004223 0.9205 0.01511 [-0.008372,0.0386] 0.3573
+W Mean T096 0.08089 0.1597 0.1474 0.001927 -0.01225 [-0.0331,0.008597] 0.3573
+SD CONDITIONAL ON MEAN + MEAN^2 (and microbe interactions):
+Scale Taxon BaseBeta ConditionalBeta [CI] qFamily4
+B T068 -0.206 -0.1723 [-0.2922,-0.0524] 0.01947
+B T096 0.007623 0.04706 [-0.07702,0.1711] 0.4773
+W T068 -0.01475 -0.01311 [-0.04927,0.02305] 0.4773
+W T096 0.05701 0.03966 [0.00445,0.07487] 0.05455
+F-to-N0 changes sample/day composition; N0-to-N1 changes adjustment only.
+Attenuation is not mediation; conditional SD is not a direct causal effect.
+Same-window observational follow-up; same cohort, no independent validation.
+All coefficients/slopes/40 contrasts/QC: tables/; identities stay in private/.
+
+RESULT_DIR=/home/ec2-user/Desktop/HPP/Data/diet_gut_cgm_interaction/cross_scale_nutrition/outputs/common_20261011T154438_631520Z_b66851

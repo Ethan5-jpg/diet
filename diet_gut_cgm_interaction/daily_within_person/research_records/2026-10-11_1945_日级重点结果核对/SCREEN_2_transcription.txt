@@ -1,0 +1,21 @@
+DAILY FOLLOWUP 2/2 | PRIMARY NOVA4 SLOPES / TIMING | SERVER_INPUTS
+Per NOVA4 +10pp; SD/Mean mg/dL. Pointwise 95% CI; controls held constant.
+Taxon Y Point MicrobeCLR_Z Slope_or_difference [L95,U95]
+T068 SD q25 -0.294437 0.20073 [0.163729,0.23773]
+T068 SD q75 0.642431 0.171708 [0.13124,0.212177]
+T068 SD q75_minus_q25 NA -0.0290212 [-0.061856,0.0038136]
+T096 SD q25 -1.02961 0.138689 [0.0912306,0.186148]
+T096 SD q75 0.757156 0.224458 [0.179163,0.269753]
+T096 SD q75_minus_q25 NA 0.0857689 [0.024265,0.147273]
+T096 Mean q25 -1.02961 0.132722 [0.0610903,0.204353]
+T096 Mean q75 0.757156 0.267704 [0.207955,0.327454]
+T096 Mean q75_minus_q25 NA 0.134983 [0.0472255,0.22274]
+Stored IQR contrasts match primary interactions and anchors.
+Primary SD stool timing in participant-DAYS: Diet Taxon Before Same After Unknown Total
+NOVA4 T068 292 0 28501 326 29119
+NOVA4 T096 292 0 28501 326 29119
+Fiber T068 164 0 19230 151 19545
+Fiber T096 164 0 19230 151 19545
+Same-sample pairs verified from saved identities; no refits, new FDR, or file writes.
+RESULT_DIR=/home/ec2-user/Desktop/HPP/Data/diet_gut_cgm_interaction/daily_within_person/alcohol_revision/outputs/revised_20261011T103556_258035Z_9583d5
+(pheno) [ec2-user@ip-10-0-84-116 alcohol_revision]$

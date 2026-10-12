@@ -1,0 +1,7 @@
+sample,stage,n_people,n_days
+F,saved_panel,80,960
+F,eligibility_quality_alcohol,80,814
+F,joint_complete_fields,80,814
+F,minimum_days_total_nova_range,80,814
+N,complete_nutrition_within_F,80,814
+N,minimum_days_total_nova_range,80,814

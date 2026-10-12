@@ -1,0 +1,308 @@
+{
+  "version": "2026-10-11.alcohol.1",
+  "run_id": "synthetic_20261011T102409_056910Z_da45e2",
+  "data_kind": "SYNTHETIC",
+  "status": "COMPLETE_WITH_LIMITATIONS",
+  "config": {
+    "version": "2026-10-11.3",
+    "cohort": "10k",
+    "research_stage": "00_00_visit",
+    "inputs": {
+      "diet": "Transfer/diet_logging/diet_logging_events.csv",
+      "cgm_glob": "Transfer/cgm/timeseries/*.csv",
+      "nova_mapping": "diet_deal/outputs/03_score_mapping/new_diet_indicators/new_diet_indicator_food_id_mapping.csv",
+      "covariates": "co-variant/outputs/data/02_covariate_master.csv",
+      "microbiome": "gut_microbiome_deal/data/08_species_clr_zscore.csv",
+      "connections": "cgm_deal/cgm论文新增17指标/outputs/run_20260919T030229_482714Z_c1a0f480/data/07_cgm_paper_extended_phenotypes.csv",
+      "microbiome_dates": "Transfer/gut_microbiome/gut_microbiome.csv"
+    },
+    "time": {
+      "local_timezone": "Asia/Jerusalem",
+      "naive_timezone": null,
+      "interpretation": "self-reported eating time; operational same-day association"
+    },
+    "chunksize": 100000,
+    "cgm": {
+      "bin_minutes": 15,
+      "minimum_coverage": 0.9,
+      "strict_coverage": 0.95,
+      "minimum_quarter_coverage": 0.75,
+      "maximum_gap_minutes": 60,
+      "strict_gap_minutes": 30,
+      "minimum_glucose": 40,
+      "maximum_glucose": 500
+    },
+    "diet": {
+      "minimum_energy_kcal": 500,
+      "maximum_energy_kcal": 5000,
+      "minimum_occasions": 3,
+      "occasion_span_minutes": 30,
+      "minimum_span_hours": 8,
+      "minimum_nova_coverage": 0.8,
+      "strict_nova_coverage": 0.95
+    },
+    "analysis": {
+      "minimum_people": 30,
+      "minimum_days": 5,
+      "strict_days": 7,
+      "minimum_residual_df": 100,
+      "minimum_nova_range_pp": 10,
+      "minimum_fiber_range_g_per_1000kcal": 2,
+      "minimum_tail_people": 8,
+      "maximum_condition_number": 100000000,
+      "alpha": 0.05
+    },
+    "taxa": [
+      {
+        "id": "T068",
+        "species": "Eubacterium_rectale"
+      },
+      {
+        "id": "T096",
+        "species": "Ruthenibacterium_lactatiformans"
+      }
+    ]
+  },
+  "protocol": {
+    "version": "2026-10-11.alcohol.1",
+    "reference_run_id": "daily_20261011T055621_479640Z_666d40",
+    "amed_relative_path": "diet_deal/outputs/04_score_intakes/amed/amed_daily_component_intakes.csv",
+    "amed_sha256": "96a0e1c693e9fc880b276939b9c9fbde8f7632f69befc37cbd023fb6b8606494",
+    "parent_code_sha256": {
+      "run_analysis.py": "286565ff6380cacb13c89d82cc0bf804f3787d5a5e6b6bd4e4dc1d090e1641f4",
+      "show_results.py": "a2a117d13ec46bccdea60a5456f43934ecf1f61987eb4b49be0712f253284ffb",
+      "run_analysis.sh": "c3a4285d7619a5376f4e2455aa88bdbdc14109b6bf0a2d59bc6681ecf1a53894",
+      "daily/__init__.py": "0ccb734978194db0bf7fbd2553c793b8004561119c85f7c133cec18dcbd5c12d",
+      "daily/build.py": "eb512612231a48b0189ff53afddc0fa28ab740ecbcc0b2fe9663c6459742e29d",
+      "daily/common.py": "03d0993e61ba44a4c877f4529eaa4832d45e239749af892d5ed7ec8c03bfd1e0",
+      "daily/inputs.py": "b1c53f9eae9908f0d237b98c07c0d940598aef8a8d08fca633ab7ea3f122011c",
+      "daily/models.py": "6222008b12701df71aac808469a3d523fbf0d1644cfa81c42e290b3107fd1814",
+      "daily/reporting.py": "eebd1471e5f73ab281aded1f1cba10c829e30b016098d116fe0cbffb317e1588",
+      "daily/synthetic.py": "e1d053509de0f83843f79a6638b56b86d139746fa41f743a1b6da4d691c60a7c",
+      "config/analysis.json": "bbce2d2a295133b0d9b250d120c26c872fbf54b94802ab965aed38184a248327",
+      "requirements.txt": "96cd62f4c13fabab1b4cb19428c49a99bd96efbd996478b4d0243d76f501dbe9"
+    },
+    "expected_counts": [
+      {
+        "exposure": "NOVA4",
+        "taxon": "T068",
+        "source": "no_alcohol_requirement",
+        "complete_people": 4047,
+        "complete_days": 34281,
+        "final_people": 3522,
+        "final_days": 32274
+      },
+      {
+        "exposure": "NOVA4",
+        "taxon": "T068",
+        "source": "audit_observed_only",
+        "complete_people": 4024,
+        "complete_days": 31673,
+        "final_people": 3319,
+        "final_days": 29119
+      },
+      {
+        "exposure": "NOVA4",
+        "taxon": "T068",
+        "source": "audit_recovered",
+        "complete_people": 4030,
+        "complete_days": 33246,
+        "final_people": 3437,
+        "final_days": 31066
+      },
+      {
+        "exposure": "NOVA4",
+        "taxon": "T096",
+        "source": "no_alcohol_requirement",
+        "complete_people": 4047,
+        "complete_days": 34281,
+        "final_people": 3522,
+        "final_days": 32274
+      },
+      {
+        "exposure": "NOVA4",
+        "taxon": "T096",
+        "source": "audit_observed_only",
+        "complete_people": 4024,
+        "complete_days": 31673,
+        "final_people": 3319,
+        "final_days": 29119
+      },
+      {
+        "exposure": "NOVA4",
+        "taxon": "T096",
+        "source": "audit_recovered",
+        "complete_people": 4030,
+        "complete_days": 33246,
+        "final_people": 3437,
+        "final_days": 31066
+      },
+      {
+        "exposure": "Fiber",
+        "taxon": "T068",
+        "source": "no_alcohol_requirement",
+        "complete_people": 3825,
+        "complete_days": 23629,
+        "final_people": 2546,
+        "final_days": 20234
+      },
+      {
+        "exposure": "Fiber",
+        "taxon": "T068",
+        "source": "audit_observed_only",
+        "complete_people": 3808,
+        "complete_days": 23053,
+        "final_people": 2470,
+        "final_days": 19545
+      },
+      {
+        "exposure": "Fiber",
+        "taxon": "T068",
+        "source": "audit_recovered",
+        "complete_people": 3810,
+        "complete_days": 23139,
+        "final_people": 2476,
+        "final_days": 19646
+      },
+      {
+        "exposure": "Fiber",
+        "taxon": "T096",
+        "source": "no_alcohol_requirement",
+        "complete_people": 3825,
+        "complete_days": 23629,
+        "final_people": 2546,
+        "final_days": 20234
+      },
+      {
+        "exposure": "Fiber",
+        "taxon": "T096",
+        "source": "audit_observed_only",
+        "complete_people": 3808,
+        "complete_days": 23053,
+        "final_people": 2470,
+        "final_days": 19545
+      },
+      {
+        "exposure": "Fiber",
+        "taxon": "T096",
+        "source": "audit_recovered",
+        "complete_people": 3810,
+        "complete_days": 23139,
+        "final_people": 2476,
+        "final_days": 19646
+      }
+    ],
+    "expected_qc_days": 48791,
+    "expected_candidates": {
+      "observed": 44687,
+      "recovered": 46925
+    },
+    "primary_alcohol_policy": "Valid observed alcohol or classified no-alcoholic-drink days; excludes estimated alcohol, fallback zeros, invalid values, excluded labels, ambiguous dates and failed source audit",
+    "specifications": [
+      "primary",
+      "strict_known",
+      "coverage95",
+      "days7",
+      "nutrient_context",
+      "baseline_slopes",
+      "equal_person_weight",
+      "alcohol_recovered",
+      "primary_no_alcohol_control",
+      "recovered_no_alcohol_control",
+      "all_days_no_alcohol_control"
+    ],
+    "revision_reason": "Feasibility and source audit, before viewing any revised model effect estimates or p/q; same-cohort exploratory follow-up"
+  },
+  "code_sha256": {
+    "revision_models.py": "e899588f18b5802d3de64a1d422073097fe3ac87a7c9ae270d761b9e28a5a887",
+    "revision_reporting.py": "5b4654ad56b3f6c19fc0b21249a6a35b44d2f9427e0a78b8fbfe37f4e2b8de30",
+    "run_revision.py": "56b74e8b427d1694238220fe883a675f3c819fcd479f689ba535a82afc63a42e",
+    "show_results.py": "c78dc17318fe98d4311d1acc1ceff3ed9282559ec0ba95904bf07a8d370dba09",
+    "source_audit.py": "9fea18df44089527079300ccb5fc9e125766e2b55378ab647660091e40d5771f",
+    "run_revision.sh": "c2db59d10bb27c318f59a3f5e943e7d5251e3e7363a2d8fe694edf796295fc42",
+    "protocol.json": "40362687d56106fdc2c4bbfaf1bec4edc33f224ec653ccfbe2659acd079b2ee0"
+  },
+  "alcohol_audit": {
+    "scoped_amed_rows": 960,
+    "invalid_date_rows": 0,
+    "qc_days": 960,
+    "unique_matched_days": 960,
+    "ambiguous_days": 0,
+    "unmatched_days": 0,
+    "event_count_mismatch_days": 0,
+    "invalid_source_counts_days": 0,
+    "source_closure_failure_days": 0,
+    "candidate_observed_days": 814,
+    "candidate_recovered_days": 960,
+    "flag_days_drinks": 464,
+    "flag_days_obs": 318,
+    "flag_days_formula": 75,
+    "flag_days_abv": 71,
+    "flag_days_zero": 0,
+    "flag_days_unresolved": 0,
+    "flag_days_invalid": 0,
+    "flag_days_excluded": 0
+  },
+  "reference_run": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/alcohol_revision_20261011/reference",
+  "reference_manifest_sha256": "3e681de103a47f76b6bff064bfcf31e93fce105d86cb9e2f401714eecd762c8b",
+  "reference_output_sha256": {
+    "analysis_config.json": "36e03a604567fe1de5acf43ef25eeb321f3ff980a3c89bb2c9bfe25690a62291",
+    "private/daily_panel.csv": "afdc595683133911ab0a00814aeb419221ab53e2b62dbf51d6e4bc2209eb77e2",
+    "tables/10_interactions.csv": "9382d51949b9118943169a594262f0b0ad7d14fe251d46c279a901e240b595b1"
+  },
+  "parent_code_sha256": {
+    "run_analysis.py": "286565ff6380cacb13c89d82cc0bf804f3787d5a5e6b6bd4e4dc1d090e1641f4",
+    "show_results.py": "a2a117d13ec46bccdea60a5456f43934ecf1f61987eb4b49be0712f253284ffb",
+    "run_analysis.sh": "c3a4285d7619a5376f4e2455aa88bdbdc14109b6bf0a2d59bc6681ecf1a53894",
+    "daily/__init__.py": "0ccb734978194db0bf7fbd2553c793b8004561119c85f7c133cec18dcbd5c12d",
+    "daily/build.py": "eb512612231a48b0189ff53afddc0fa28ab740ecbcc0b2fe9663c6459742e29d",
+    "daily/common.py": "03d0993e61ba44a4c877f4529eaa4832d45e239749af892d5ed7ec8c03bfd1e0",
+    "daily/inputs.py": "b1c53f9eae9908f0d237b98c07c0d940598aef8a8d08fca633ab7ea3f122011c",
+    "daily/models.py": "6222008b12701df71aac808469a3d523fbf0d1644cfa81c42e290b3107fd1814",
+    "daily/reporting.py": "eebd1471e5f73ab281aded1f1cba10c829e30b016098d116fe0cbffb317e1588",
+    "daily/synthetic.py": "e1d053509de0f83843f79a6638b56b86d139746fa41f743a1b6da4d691c60a7c",
+    "config/analysis.json": "bbce2d2a295133b0d9b250d120c26c872fbf54b94802ab965aed38184a248327",
+    "requirements.txt": "96cd62f4c13fabab1b4cb19428c49a99bd96efbd996478b4d0243d76f501dbe9"
+  },
+  "amed_source": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/alcohol_revision_20261011/synthetic_inputs/diet_deal/outputs/04_score_intakes/amed/amed_daily_component_intakes.csv",
+  "amed_sha256": "a66c39f1deb88ec6094ae5738bb9cff5816fae889fba8dd9a71089f8246c41da",
+  "data_root": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/alcohol_revision_20261011/synthetic_inputs",
+  "software": {
+    "python": "3.11.15",
+    "numpy": "1.26.4",
+    "pandas": "2.1.0",
+    "scipy": "1.16.3"
+  },
+  "reference_software": {
+    "python": "3.11.15",
+    "numpy": "1.26.4",
+    "pandas": "2.1.0",
+    "scipy": "1.16.3"
+  },
+  "checkpoint_scope": "synthetic self-consistency only",
+  "interpretation": "Same-visit observational follow-up; source audit is not measurement validation; no independent replication or causal mediation claim",
+  "model_summary": {
+    "estimated": 132,
+    "planned": 132,
+    "primary_sd_estimated": 4
+  },
+  "verified_at_utc": "2026-10-11T10:24:11.423772+00:00",
+  "output_sha256": {
+    "SCREEN_1.txt": "709c4a4f446d76c057415e478eb0560f97a366f1d0f31e1237e641d80c82dcda",
+    "SCREEN_2.txt": "4c0039719511a99b1552ed217c3fa5b445f34cf7c655417fa422600e83b26b20",
+    "SCREEN_3.txt": "6a91e8fa79e29719def20d80aac7e1fa1d72f2dce50840c4b00a836a9be08339",
+    "SUMMARY.md": "7b8d98b25ee4c32733fe4f42bb01f256e13720f1046b467f785b2e9c0f175b9b",
+    "analysis_config.json": "36e03a604567fe1de5acf43ef25eeb321f3ff980a3c89bb2c9bfe25690a62291",
+    "private/daily_panel.csv": "f0d000073f204d1441dcd844d12930ddde0dae142ca2036d0ded4c8f784b540c",
+    "protocol.json": "40362687d56106fdc2c4bbfaf1bec4edc33f224ec653ccfbe2659acd079b2ee0",
+    "source_audit.json": "8a2c57a1ab5766d70caadcad88e43175861cafb9bdbb14b42301b178d05937e3",
+    "tables/01_source_checkpoint.csv": "afbc9b1d517e180f55434afbb5ec6feab565669de0a3629b3c852cc4958720d7",
+    "tables/02_paired_sample_identity.csv": "e76182bf02110ffbe9c90c85e28c39f22af762d749b7db56eb6ab3a59cbeca97",
+    "tables/03_primary_feasibility.csv": "7b5c39c89e04ac95284f8d667140a56bda038bdbde7ced3b954b86f22d20ceae",
+    "tables/10_interactions.csv": "57568a2e315dd1c22b030a924d83b9537bd1c4088305697a1b1804b797843523",
+    "tables/11_all_coefficients.csv": "a548772492a6d6b8748e5e4217eb4f53ca45ee73fd5c19c0b06f80137ea2daf4",
+    "tables/12_model_flow.csv": "27d46f4bdf84739af59584f36fe3a68fddded163b821e6dfc83afbebc88401ae",
+    "tables/13_primary_slopes.csv": "a16bcce203e69bcc1466f405ed5f90f9d258b1e2c3f9b23d5dac95a484b31ec7",
+    "tables/14_primary_anchors.csv": "9474f3eb92b676819549b81631a552c5ca82bfa09f87c40068ed2e2857bba8cc"
+  }
+}

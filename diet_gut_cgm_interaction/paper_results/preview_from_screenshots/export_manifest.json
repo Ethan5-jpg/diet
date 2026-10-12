@@ -1,0 +1,110 @@
+{
+  "version": "2026-10-10.paper1",
+  "status": "EXPORT_COMPLETE",
+  "created_utc": "2026-10-10T12:36:30.215921+00:00",
+  "data_mode": "SCREENSHOT_PREVIEW",
+  "source_run_ids": [
+    "run_20261010T085601_096554Z_4d43e0",
+    "extension_20261010T105930_496220Z_ff8085"
+  ],
+  "source_aggregate_sha256": {
+    "1_screenshot_sources_snapshot.json": "5dbee16917197f5095cacb9c4bf5a290ed352517016b7b87d2a7c74c4275f3aa"
+  },
+  "code_sha256": {
+    "build_paper.py": "f1c3e5496774fbb631ccb5b64c0ca1eba4c9d751c468880e1d95deafa72cd717",
+    "run_paper.sh": "b37450c8feceb7edcbe3568829d0cddf34f690f6fc39da1cd5ed49bd858dc2b3",
+    "paperlib/__init__.py": "ec470b08e19301113966bb433825fdc65766e4d4fcc0064ebbbe425a5d3f54c0",
+    "paperlib/figures.py": "0f1924709b28a8d57733e3625e76c9b8edb32d54385156d68f4ea9fdf416060d",
+    "paperlib/report.py": "66172e88d13ee2ed2e1d4ab7610b0f5eb8b0add0bea4091063b24fbe78eb6b71",
+    "paperlib/data.py": "dcb2bd8c6068a270be50dbb91b19e66c51d7b68256183fc48959964bbd85e18c",
+    "requirements.txt": "a8dbd3f6f57d2000dceadcad2da6ab858eaeaf6655d04e24b709f1f42716635f",
+    "screenshot_sources/snapshot.json": "5dbee16917197f5095cacb9c4bf5a290ed352517016b7b87d2a7c74c4275f3aa"
+  },
+  "figures": [
+    {
+      "name": "Figure_I1_focus_interactions",
+      "rows": 24,
+      "width_mm": 183.0,
+      "height_mm": 105.0,
+      "text_bounds": "passed"
+    },
+    {
+      "name": "Figure_I2_NOVA4_conditional_slopes",
+      "rows": 6,
+      "width_mm": 183.0,
+      "height_mm": 85.0,
+      "text_bounds": "passed"
+    },
+    {
+      "name": "Figure_I3_extension_stability",
+      "rows": 19,
+      "width_mm": 183.0,
+      "height_mm": 160.7,
+      "text_bounds": "passed"
+    },
+    {
+      "name": "Figure_I4_selected_extension_slopes",
+      "rows": 14,
+      "width_mm": 183.0,
+      "height_mm": 158.0,
+      "text_bounds": "passed"
+    }
+  ],
+  "table_rows": {
+    "Table_1_focus_primary": 24,
+    "Table_2_original_extension_targets": 19,
+    "Table_3_extension_sensitivity_summary": 6,
+    "Table_S1_primary_all_available": 43,
+    "Table_S2_original_models": 55,
+    "Table_S4_conditional_slopes": 44,
+    "Table_4_targets_retained_all_six": 7
+  },
+  "primary_rows_available": 43,
+  "focus_significant": 2,
+  "extension_targets": 19,
+  "retained_all_six": 7,
+  "limitations": [
+    "Screenshot-rounded aggregate values; unseen 41 primary extension rows, individual sensitivity coefficients and missing p values are not reconstructed.",
+    "41 unseen primary extension results require server export; no placeholder zero rows."
+  ],
+  "source_records": {
+    "research_records/2026-10-10_服务器结果/截图显示数值与证据边界.json": "0b3840e769ee277ce5ba0d92a2a8076790df8f4ee65fcc4e6960e3cc5f67b2d5",
+    "research_records/2026-10-10_服务器结果/后续核对截图显示数值.json": "e30b7ca279c2b0fb03f8389b290ed25b5ac79e11d69c0f9741b9d73485bf66f9",
+    "research_records/2026-10-10_服务器结果/17.40.57_补充核对数值.json": "974f530dde40a8b88d464d99a3fa906fc6c07aeb9649ea28615accf3594fadcf",
+    "research_records/2026-10-10_扩展敏感性/19.01_服务器结果/截图显示数值与核对.json": "17f565511ffdbaea9847031bcfae43e5ec8baf065939587e09aa6ba7b779506e",
+    "research_records/2026-10-10_扩展敏感性/19.10_q值核对/核对数值与更正.json": "1edea2ac67711e4a67d6efae64ed941084a689339d0e3694482acab0cd983134"
+  },
+  "reference_reproduced": 204,
+  "output_sha256": {
+    "Figure_legends.md": "c9c44dccf0ce79aa6efbba566a9025a64207e460aeb08f77cbf86d7932055529",
+    "Source_Data_README.md": "09178eec8466d729a630a8f9ec4abc90d165828c3bfc5ab9cac9a1b68be30af5",
+    "index.html": "891570a51e1308546e04546cf3a7f367634cca19bb268c58ebb4c2cb721251f9",
+    "SCREEN_2.txt": "417191b2dcddd7dba6d875e9b5cc83457bd883ff48fba2a678cc499ee4ef433d",
+    "SCREEN_1.txt": "f20ce6bf9d4a39864e7e4c99bf2e93deb0d9f4b962a584d9c4f842290c82d8e2",
+    "Results_and_methods.md": "2a439c821582837a0f8d8b929206072bfbe0efba74e048f2bc1de46f519de6da",
+    "SCREENSHOT_SUMMARY.txt": "2e5bf0c635a039b5cd63e0fb3a2f7a98eff79f9ab6ec2737c3e5a1193b09a891",
+    "source_data/Figure_I4_selected_extension_slopes.csv": "c28aa4065450b78008f878eb06949762bd4ff7ee4094c8e5bd38f27863aae3eb",
+    "source_data/Figure_I2_NOVA4_conditional_slopes.csv": "38fd43ee66da167342077dbec7c515af0fa9401899aa86fbf8f7d5fbc279afd6",
+    "source_data/Figure_I1_focus_interactions.csv": "1b6b73eef11206c467aabf4aa294e42cbcbca7a2079a8f1b87a299f78fb8ab0a",
+    "source_data/Figure_I3_extension_stability.csv": "b6ea0686fb634a0768ddddf58337916156c4336aa35c5518f60b07ce368823c9",
+    "tables/Table_S1_primary_all_available.csv": "51e51ffd9b170e861dfb4e919f729f8477845fb7c75f2f053c675629f4e43628",
+    "tables/Table_1_focus_primary.csv": "88defbd5ddb5d4bae89c9897727c680349d13abadc0f3e1257ab79545eaf657e",
+    "tables/Table_4_targets_retained_all_six.csv": "bdfb515e1f9461ad7a8406b4e12b3575fa935d3f0f47e454f99286c9ba07ac71",
+    "tables/Table_3_extension_sensitivity_summary.csv": "523c6aa3f6ab0d760c61b2b08166b45969ce7fa39034c684c140630a638e5874",
+    "tables/Table_2_original_extension_targets.csv": "9bb0a049a013daf56eda6a74e281e61e887f299b1a55d6699e3512e748f26428",
+    "tables/Table_S2_original_models.csv": "a8f94c9c72448624731af3f4708bf5445ab172d2d41a9adab83a47d39d8ca871",
+    "tables/Table_S4_conditional_slopes.csv": "5b7ca67c6675cae58ac8ef3bc0d6414e8b0d5a9bc76156065c8bb6024dce3add",
+    "figures/Figure_I3_extension_stability.svg": "72c2b28319f3f8b7cd79e661cb2e5715216af182829f6f554e34799564dabfd8",
+    "figures/Figure_I3_extension_stability.png": "0b1f426e86697f390d57c920be97b1c5bc566097f3a70f6c17924ef88658842c",
+    "figures/Figure_I3_extension_stability.pdf": "891057200b658adcc7df45acf3e9113669df2f28868e911cc13c82244d52ad2d",
+    "figures/Figure_I4_selected_extension_slopes.pdf": "09d5773e13b44e3a6053355a3ff9973ca84f58bc51c3731418da4fecbb224376",
+    "figures/Figure_I4_selected_extension_slopes.png": "2eadfcad1c83caeb7d8695d54f57c72541e1edd46f3f419b54f21216fdc7f786",
+    "figures/Figure_I2_NOVA4_conditional_slopes.pdf": "e7b4178a60611c16b0dba2ca87e7183b3a93d091ff9b96a22f6cfc4071f37c34",
+    "figures/Figure_I1_focus_interactions.png": "ad92baf6eda6c845d81f84e4d73f1eaa7ac9c2c86347f96633a3bc2b4b82a7e4",
+    "figures/Figure_I2_NOVA4_conditional_slopes.png": "ea0cb3187a7321060ed9adb894fce0b2507d87c7f417bc49042423d175e71131",
+    "figures/Figure_I1_focus_interactions.pdf": "b5cc2b0ee5c2b3f602accb81cffb3431c52ab16e4f5e7d831ebcf36895283cae",
+    "figures/Figure_I2_NOVA4_conditional_slopes.svg": "891571f2c93d9e8d200887202cb56a94d670ebdc84019e3850353c3571e5c3e4",
+    "figures/Figure_I1_focus_interactions.svg": "458fef3ff58957ced3adcfe78b4159efd82eb428887bed874ac2d01ef77247bb",
+    "figures/Figure_I4_selected_extension_slopes.svg": "2cf252f2d43905cb770e3f4f002b8bf7aeeea0f0b7c7b0e4d725081761a1bb6f"
+  }
+}

@@ -1,0 +1,15 @@
+﻿model,exposure,taxon,outcome,microbial_quantile,beta_native,ci_low_native,ci_high_native,n,unit,evidence_precision
+primary,AMED,T096,CV,25,-0.303,-0.457,-0.149,4136,percentage points per original Diet Z,SCREENSHOT_PREVIEW
+primary,AMED,T096,CV,75,-0.00744,-0.141,0.127,4136,percentage points per original Diet Z,SCREENSHOT_PREVIEW
+primary,AMED,T096,SDw,25,-0.201,-0.351,-0.0508,4137,mg/dL per original Diet Z,SCREENSHOT_PREVIEW
+primary,AMED,T096,SDw,75,0.0957,-0.0397,0.231,4137,mg/dL per original Diet Z,SCREENSHOT_PREVIEW
+primary,rEDIH,T068,CV,25,0.162,0.0525,0.272,4136,percentage points per original Diet Z,SCREENSHOT_PREVIEW
+primary,rEDIH,T068,CV,75,-0.057,-0.183,0.0686,4136,percentage points per original Diet Z,SCREENSHOT_PREVIEW
+primary,rEDIH,T068,Mean,25,0.508,0.197,0.819,4137,mg/dL per original Diet Z,SCREENSHOT_PREVIEW
+primary,rEDIH,T068,Mean,75,-0.0532,-0.408,0.302,4137,mg/dL per original Diet Z,SCREENSHOT_PREVIEW
+primary,rEDIH,T068,SDw,25,0.222,0.11,0.335,4137,mg/dL per original Diet Z,SCREENSHOT_PREVIEW
+primary,rEDIH,T068,SDw,75,-0.0461,-0.178,0.0855,4137,mg/dL per original Diet Z,SCREENSHOT_PREVIEW
+primary,rEDIH,T096,Mean,25,-0.395,-0.854,0.0641,4137,mg/dL per original Diet Z,SCREENSHOT_PREVIEW
+primary,rEDIH,T096,Mean,75,0.711,0.341,1.08,4137,mg/dL per original Diet Z,SCREENSHOT_PREVIEW
+primary,rEDIH,T096,SDw,25,-0.0837,-0.261,0.0932,4137,mg/dL per original Diet Z,SCREENSHOT_PREVIEW
+primary,rEDIH,T096,SDw,75,0.318,0.179,0.457,4137,mg/dL per original Diet Z,SCREENSHOT_PREVIEW

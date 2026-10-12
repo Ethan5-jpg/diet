@@ -1,0 +1,7 @@
+﻿model,extension_planned,extension_fitted,extension_q_all84_below_alpha,reference_hits,reference_hits_retained,new_significant_outside_reference,n_min,n_max,limited_support_tests
+strict,60,60,2,2,2,0,855,855,0
+protocol_same_sample,60,60,2,2,2,0,867,867,0
+protocol_adjusted,60,60,2,2,2,0,867,867,0
+quadratic,60,60,2,2,2,0,882,882,0
+covariate_interactions,60,60,2,2,2,0,882,882,0
+common_all7_sample,60,60,2,2,2,0,882,882,0

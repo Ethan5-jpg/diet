@@ -1,0 +1,7 @@
+PAPER 1/2 | SCREENSHOT_PREVIEW | EXPORT_COMPLETE
+Source runs: run_20261010T085601_096554Z_4d43e0 / extension_20261010T105930_496220Z_ff8085
+Primary rows available=43/84; focus=24/24; original extension targets=19
+Focus qFocus24<0.05=2; primary qAll84<0.05=21; all-six retained=7
+Figures=4 (PDF/SVG/PNG); tables=7; each figure has its own Source Data CSV
+Source hashes checked; source runs unchanged; no model fits or participant-data export.
+PREVIEW ONLY: 41 unseen primary rows and sensitivity coefficients not reconstructed.

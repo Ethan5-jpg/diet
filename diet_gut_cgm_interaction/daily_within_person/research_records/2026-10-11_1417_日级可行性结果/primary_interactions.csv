@@ -1,0 +1,13 @@
+﻿spec,exposure,taxon,outcome,n_people,n_days,status,beta,low,high,p,q_primary4,q_all12
+primary,NOVA4,T068,SD,1,5,NOT_ESTIMATED,,,,,,
+primary,NOVA4,T068,Mean,1,5,NOT_ESTIMATED,,,,,,
+primary,NOVA4,T068,CV,1,5,NOT_ESTIMATED,,,,,,
+primary,NOVA4,T096,SD,1,5,NOT_ESTIMATED,,,,,,
+primary,NOVA4,T096,Mean,1,5,NOT_ESTIMATED,,,,,,
+primary,NOVA4,T096,CV,1,5,NOT_ESTIMATED,,,,,,
+primary,Fiber,T068,SD,3,17,NOT_ESTIMATED,,,,,,
+primary,Fiber,T068,Mean,3,17,NOT_ESTIMATED,,,,,,
+primary,Fiber,T068,CV,3,17,NOT_ESTIMATED,,,,,,
+primary,Fiber,T096,SD,3,17,NOT_ESTIMATED,,,,,,
+primary,Fiber,T096,Mean,3,17,NOT_ESTIMATED,,,,,,
+primary,Fiber,T096,CV,3,17,NOT_ESTIMATED,,,,,,

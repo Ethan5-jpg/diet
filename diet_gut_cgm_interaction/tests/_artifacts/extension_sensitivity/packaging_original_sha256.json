@@ -1,0 +1,14 @@
+{
+  "config/analysis.json": "fae9b3b6b652980df22e9ea905f7c38aa47161336fc113cba0a0d56892e09efd",
+  "requirements.txt": "6304eeeaac7af5b8c243e980c66594f0110f2d1f7b48549090e20d385af8c84c",
+  "run_analysis.py": "4f1ed8d5bc4eaed980380df6510e5e37b3f3717c1fd117fb703b1972294df46d",
+  "run_analysis.sh": "9c421d9562738659de56374a37e9424aa774daeade8053de0a3e5a1750e7b508",
+  "show_results.py": "a9ed6d85209e59a24bf227cdc767a28e6b31570febbb3e82190c732210baaa20",
+  "interaction/synthetic.py": "85e251a48961beb5aab1c3da0292e62e7535b412a7919d4bca67c5223b1a3f63",
+  "interaction/models.py": "e5624c9bbcdb2d90ca9783ef38d729db1db217ad6304e8c5914d2de52f28db90",
+  "interaction/__init__.py": "6e0e5b1626bdac3b78054e12022939ed3f801c6a3cd740c7f274f0eefc8fd359",
+  "interaction/inputs.py": "dd4355697c887b7f681a90b918856fc48168d00df2cc38e71ae9f9dedd084f79",
+  "interaction/common.py": "f76ecaed8ad95988409e1bca49494ca487ad5d85d8ee7c660ade072caf7fa8ad",
+  "interaction/pipeline.py": "3a88ab326d71d46a3e13dc3d478dd53c4c6edd38889223b69b733761099d8dc9",
+  "interaction/reporting.py": "b431458a56bbc6c72793e187b8d86e9d516994c3e34a06d80d8ea113b1c669b1"
+}

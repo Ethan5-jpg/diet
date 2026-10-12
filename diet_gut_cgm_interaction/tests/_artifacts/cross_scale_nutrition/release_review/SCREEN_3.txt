@@ -1,0 +1,22 @@
+COMMON 3/3 | SAME-SAMPLE NUTRITION / CONDITIONAL SD | SYNTHETIC
+F=full eligible sample; N0=nutrition-complete sample, base model; N1=same days, nutrients added.
+N1 adds carb/protein/fiber densities AND their microbe interactions.
+Scale Y Taxon F_beta N0_beta N1_beta qN1 Delta_N1-N0 [CI] qDelta8
+B SD T068* -0.3684 -0.3684 -0.3369 1.592e-05 0.03149 [-0.0736,0.1366] 0.6315
+B SD T096* -0.0004308 -0.0004308 -0.03517 0.9461 -0.03473 [-0.1434,0.07395] 0.6315
+B Mean T068* -0.7039 -0.7039 2.256 0.4089 2.96 [-0.07195,5.992] 0.3196
+B Mean T096* 1.727 1.727 -0.4775 0.9461 -2.205 [-4.995,0.586] 0.3196
+W SD T068* -0.3067 -0.3067 -0.307 5.343e-40 -0.0002247 [-0.003718,0.003269] 0.8985
+W SD T096* 0.02241 0.02241 0.01629 0.4089 -0.006117 [-0.01323,0.0009945] 0.3196
+W Mean T068* 0.0002457 0.0002457 0.002087 0.9461 0.001841 [-0.003601,0.007283] 0.6315
+W Mean T096* -0.003151 -0.003151 0.001254 0.9461 0.004404 [-0.004339,0.01315] 0.6315
+SD CONDITIONAL ON MEAN + MEAN^2 (and microbe interactions):
+Scale Taxon BaseBeta ConditionalBeta [CI] qFamily4
+B T068* -0.3684 -0.3674 [-0.4599,-0.275] 2.564e-11
+B T096* -0.0004308 0.004925 [-0.1062,0.116] 0.9299
+W T068* -0.3067 -0.2888 [-0.3164,-0.2611] 3.545e-33
+W T096* 0.02241 -0.007215 [-0.04266,0.02823] 0.9153
+F-to-N0 changes sample/day composition; N0-to-N1 changes adjustment only.
+Attenuation is not mediation; conditional SD is not a direct causal effect.
+Same-window observational follow-up; same cohort, no independent validation.
+All coefficients/slopes/40 contrasts/QC: tables/; identities stay in private/.

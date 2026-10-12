@@ -1,0 +1,52 @@
+{
+  "date_local": "2026-10-10 19:10:45",
+  "timezone": "Asia/Shanghai",
+  "source_path": "/Users/blizzardxu/Desktop/截屏2026-10-10 19.10.45.png",
+  "original_image_copied": false,
+  "reason": "Source file unavailable at archival time; transcribed visible image supplied in conversation.",
+  "evidence_type": "Screenshot of read-only verification of saved server results; aggregate values only",
+  "data_kind": "SERVER_INPUTS",
+  "key": {
+    "exposure": "rEDIH",
+    "taxon": "T096",
+    "outcome": "CV",
+    "model": "primary"
+  },
+  "old_primary_displayed": {
+    "n": "4136",
+    "Beta": "0.1400801826",
+    "L95": "0.03057674247",
+    "U95": "0.2495836226",
+    "p": "0.01218038478",
+    "qAll84": "0.04872153914"
+  },
+  "new_primary_displayed": {
+    "n": "4136",
+    "Beta": "0.1400801826",
+    "L95": "0.03057674247",
+    "U95": "0.2495836226",
+    "p": "0.01218038478",
+    "qAll84": "0.04872153914"
+  },
+  "frozen_reference_q_all84_displayed": "0.04872153914",
+  "reference_reproduced_tests_displayed": 204,
+  "saved_hashes_verified_server_reported": true,
+  "precision": "Command prints ten significant digits; original full-precision server CSVs and manifest not received locally.",
+  "units": {
+    "Beta_and_CI": "CV percentage points per original Diet Z times microbial CLR-Z",
+    "qAll84": "BH across the fixed 84 primary tests"
+  },
+  "run_paths_from_executed_command": {
+    "old": "/home/ec2-user/Desktop/HPP/Data/diet_gut_cgm_interaction/outputs/run_20261010T085601_096554Z_4d43e0",
+    "new": "/home/ec2-user/Desktop/HPP/Data/diet_gut_cgm_interaction/extension_sensitivity/outputs_extension_sensitivity/extension_20261010T105930_496220Z_ff8085"
+  },
+  "resolution": {
+    "status": "resolved",
+    "historical_q_recorded_17_10": "0.01872",
+    "q_to_use_after_verification": "0.04872153914",
+    "all_three_reported_q_agree": true,
+    "old_and_new_all_six_displayed_fields_agree": true,
+    "cause_boundary": "The historical recorded q is superseded; the screenshot does not establish whether the earlier discrepancy originated in display, reading or transcription. No conflicting q remains between checked old/new/frozen results.",
+    "impact": "Original primary q remains below 0.05; retains original 19-target membership. Prior six-sensitivity Keep=1 and seven all-six retained results unchanged; no rerun needed for this discrepancy."
+  }
+}

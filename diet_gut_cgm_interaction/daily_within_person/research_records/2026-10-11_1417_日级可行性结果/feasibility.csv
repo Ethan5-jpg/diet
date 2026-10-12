@@ -1,0 +1,5 @@
+﻿exposure,taxon,people,days,median_days,ready,qc_days,missing_diet_days,missing_alcohol_days,missing_microbe_days
+NOVA4,T068,1,5,5,False,38536,0,38210,4255
+NOVA4,T096,1,5,5,False,38536,0,38210,4255
+Fiber,T068,3,17,5,False,48791,22210,48380,5403
+Fiber,T096,3,17,5,False,48791,22210,48380,5403

@@ -1,0 +1,13 @@
+来源：对话附件 截屏2026-10-10 19.10.45.png
+性质：人工转录截图可见文字，空格规范化；数值保留终端10位有效数字显示精度，不是原始CSV全精度导出。
+原图状态：归档时附件所指桌面路径不可读，未复制原图；根据当前对话可见图像转录。
+
+CHECK | rEDIH x T096 -> CV | SERVER_INPUTS | saved hashes verified
+OLD_PRIMARY
+n Beta L95 U95 p qAll84
+4136 0.1400801826 0.03057674247 0.2495836226 0.01218038478 0.04872153914
+NEW_PRIMARY
+n Beta L95 U95 p qAll84
+4136 0.1400801826 0.03057674247 0.2495836226 0.01218038478 0.04872153914
+Frozen reference qAll84=0.04872153914; reproduced tests=204
+Historical 17:10 transcription=0.01872; 19:01 screenshot qBase=0.0487

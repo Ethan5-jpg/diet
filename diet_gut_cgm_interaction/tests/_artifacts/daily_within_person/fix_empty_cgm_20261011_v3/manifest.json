@@ -1,0 +1,215 @@
+{
+  "version": "2026-10-11.3",
+  "run_id": "demo_20261011T053304_364493Z_9853b1",
+  "data_kind": "SYNTHETIC",
+  "status": "COMPLETE_WITH_LIMITATIONS",
+  "config_path": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/daily_within_person/config/analysis.json",
+  "config_sha256": "bbce2d2a295133b0d9b250d120c26c872fbf54b94802ab965aed38184a248327",
+  "code_sha256": {
+    "run_analysis.py": "286565ff6380cacb13c89d82cc0bf804f3787d5a5e6b6bd4e4dc1d090e1641f4",
+    "show_results.py": "a2a117d13ec46bccdea60a5456f43934ecf1f61987eb4b49be0712f253284ffb",
+    "run_analysis.sh": "c3a4285d7619a5376f4e2455aa88bdbdc14109b6bf0a2d59bc6681ecf1a53894",
+    "daily/__init__.py": "0ccb734978194db0bf7fbd2553c793b8004561119c85f7c133cec18dcbd5c12d",
+    "daily/build.py": "eb512612231a48b0189ff53afddc0fa28ab740ecbcc0b2fe9663c6459742e29d",
+    "daily/common.py": "03d0993e61ba44a4c877f4529eaa4832d45e239749af892d5ed7ec8c03bfd1e0",
+    "daily/inputs.py": "b1c53f9eae9908f0d237b98c07c0d940598aef8a8d08fca633ab7ea3f122011c",
+    "daily/models.py": "6222008b12701df71aac808469a3d523fbf0d1644cfa81c42e290b3107fd1814",
+    "daily/reporting.py": "eebd1471e5f73ab281aded1f1cba10c829e30b016098d116fe0cbffb317e1588",
+    "daily/synthetic.py": "e1d053509de0f83843f79a6638b56b86d139746fa41f743a1b6da4d691c60a7c",
+    "config/analysis.json": "bbce2d2a295133b0d9b250d120c26c872fbf54b94802ab965aed38184a248327",
+    "requirements.txt": "96cd62f4c13fabab1b4cb19428c49a99bd96efbd996478b4d0243d76f501dbe9"
+  },
+  "software": {
+    "python": "3.11.15",
+    "numpy": "1.26.4",
+    "pandas": "2.1.0",
+    "scipy": "1.16.3"
+  },
+  "requested_stage": "all",
+  "inputs": [
+    {
+      "label": "diet",
+      "path": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/fix_empty_cgm_20261011_v3/private/synthetic_inputs/Transfer/diet_logging/diet_logging_events.csv",
+      "bytes": 1111808,
+      "sha256": "28506539090f26b171635f9d1a1be8b7f3dc57dc8ed99142dc5020cb3714f079"
+    },
+    {
+      "label": "nova_mapping",
+      "path": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/fix_empty_cgm_20261011_v3/private/synthetic_inputs/diet_deal/outputs/03_score_mapping/new_diet_indicators/new_diet_indicator_food_id_mapping.csv",
+      "bytes": 79,
+      "sha256": "7d6ce096417c29e9757c6758ff7f6ee51f9701de702b65a0e1097065d581788f"
+    },
+    {
+      "label": "covariates",
+      "path": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/fix_empty_cgm_20261011_v3/private/synthetic_inputs/co-variant/outputs/data/02_covariate_master.csv",
+      "bytes": 9781,
+      "sha256": "ef1bb50eb4a107b2c4fff8a88ad2a36cfd9d9a526deafed720e1f8f66eca3f4b"
+    },
+    {
+      "label": "microbiome",
+      "path": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/fix_empty_cgm_20261011_v3/private/synthetic_inputs/gut_microbiome_deal/data/08_species_clr_zscore.csv",
+      "bytes": 6668,
+      "sha256": "b444f2aac1536a4bd844a0e26350382a752499fad2c87fe6406c43b542319273"
+    },
+    {
+      "label": "connections",
+      "path": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/fix_empty_cgm_20261011_v3/private/synthetic_inputs/cgm_deal/cgm论文新增17指标/outputs/run_20260919T030229_482714Z_c1a0f480/data/07_cgm_paper_extended_phenotypes.csv",
+      "bytes": 4547,
+      "sha256": "e6b2423aacbf68439ef147074e089e245f4b4950aca735c7fe535f0937b07e79"
+    },
+    {
+      "label": "microbiome_dates",
+      "path": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/fix_empty_cgm_20261011_v3/private/synthetic_inputs/Transfer/gut_microbiome/gut_microbiome.csv",
+      "bytes": 4375,
+      "sha256": "62f10cc77c47019180cf8e1322a8175dac2d4eda39abb6adb8e3ea952a403d8e"
+    },
+    {
+      "label": "cgm",
+      "path": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/fix_empty_cgm_20261011_v3/private/synthetic_inputs/Transfer/cgm/timeseries/SYNTHETIC.csv",
+      "bytes": 8050708,
+      "sha256": "b338b8a91c3869c4431306224430dbfd04ddb5d8d0a30f10e0c2509b12ca88e3"
+    }
+  ],
+  "synthetic_fixture": {
+    "seed": 741,
+    "people": 80,
+    "days_per_person": 12
+  },
+  "config": {
+    "version": "2026-10-11.3",
+    "cohort": "10k",
+    "research_stage": "00_00_visit",
+    "inputs": {
+      "diet": "Transfer/diet_logging/diet_logging_events.csv",
+      "cgm_glob": "Transfer/cgm/timeseries/*.csv",
+      "nova_mapping": "diet_deal/outputs/03_score_mapping/new_diet_indicators/new_diet_indicator_food_id_mapping.csv",
+      "covariates": "co-variant/outputs/data/02_covariate_master.csv",
+      "microbiome": "gut_microbiome_deal/data/08_species_clr_zscore.csv",
+      "connections": "cgm_deal/cgm论文新增17指标/outputs/run_20260919T030229_482714Z_c1a0f480/data/07_cgm_paper_extended_phenotypes.csv",
+      "microbiome_dates": "Transfer/gut_microbiome/gut_microbiome.csv"
+    },
+    "time": {
+      "local_timezone": "Asia/Jerusalem",
+      "naive_timezone": null,
+      "interpretation": "self-reported eating time; operational same-day association"
+    },
+    "chunksize": 100000,
+    "cgm": {
+      "bin_minutes": 15,
+      "minimum_coverage": 0.9,
+      "strict_coverage": 0.95,
+      "minimum_quarter_coverage": 0.75,
+      "maximum_gap_minutes": 60,
+      "strict_gap_minutes": 30,
+      "minimum_glucose": 40,
+      "maximum_glucose": 500
+    },
+    "diet": {
+      "minimum_energy_kcal": 500,
+      "maximum_energy_kcal": 5000,
+      "minimum_occasions": 3,
+      "occasion_span_minutes": 30,
+      "minimum_span_hours": 8,
+      "minimum_nova_coverage": 0.8,
+      "strict_nova_coverage": 0.95
+    },
+    "analysis": {
+      "minimum_people": 30,
+      "minimum_days": 5,
+      "strict_days": 7,
+      "minimum_residual_df": 100,
+      "minimum_nova_range_pp": 10,
+      "minimum_fiber_range_g_per_1000kcal": 2,
+      "minimum_tail_people": 8,
+      "maximum_condition_number": 100000000,
+      "alpha": 0.05
+    },
+    "taxa": [
+      {
+        "id": "T068",
+        "species": "Eubacterium_rectale"
+      },
+      {
+        "id": "T096",
+        "species": "Ruthenibacterium_lactatiformans"
+      }
+    ]
+  },
+  "data_root": "/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/daily_within_person/fix_empty_cgm_20261011_v3/private/synthetic_inputs",
+  "person_summary": {
+    "selected": 80,
+    "missing_cov": 0,
+    "unknown": 7,
+    "both_taxa": 80
+  },
+  "build_audit": {
+    "diet": {
+      "input_rows": 5760,
+      "other_cohort_visit": 0,
+      "outside_selected_connections_people": 0,
+      "invalid_or_unresolved_time": 0,
+      "source_date_conflicts": 0,
+      "non_cohort_timezone_rows": 0,
+      "timezone_missing_defaulted": 0,
+      "calories_kcal_missing_or_invalid": 0,
+      "carbohydrate_g_missing_or_invalid": 0,
+      "lipid_g_missing_or_invalid": 0,
+      "protein_g_missing_or_invalid": 0,
+      "dietary_fiber_g_missing_or_invalid": 0,
+      "alcohol_g_missing_or_invalid": 0,
+      "formula_energy_rows": 0,
+      "cached_rows": 5760
+    },
+    "cgm": {
+      "input_rows": 92160,
+      "other_cohort_visit": 0,
+      "outside_selected_connections_people": 0,
+      "other_connection_rows": 0,
+      "unresolved_time_or_timezone": 0,
+      "invalid_glucose_rows": 0,
+      "cached_rows": 92160
+    },
+    "cgm_duplicates": {
+      "duplicate_excess": 4,
+      "conflicting_times": 4,
+      "invalid_times": 4
+    },
+    "diet_days": 960,
+    "cgm_days": 960,
+    "matched_days": 960,
+    "diet_only_days": 0,
+    "cgm_only_days": 0,
+    "diet_time_issue_people": 0,
+    "cgm_time_issue_people": 0
+  },
+  "model_summary": {
+    "estimated": 84,
+    "planned": 84,
+    "primary_sd_estimated": 4
+  },
+  "verified_at_utc": "2026-10-11T05:33:08.457750+00:00",
+  "interpretation": "Same-visit observational, selected candidate taxa, no causal/clinical-benefit or independent-replication claim",
+  "output_sha256": {
+    "tables/13_primary_slopes.csv": "8d2763f7ab10810d2e94f6c2c377470ccf5d72d6ddba70ed8f16f4956f37ba7d",
+    "tables/03_diet_exclusions.csv": "c27b11b44d8ad4e2e0b1a8fb1bb9c3f7d8855c23e251df69edde711758f1dc32",
+    "tables/04_day_quality_distribution.csv": "7f9b8c5aa550479bc836e4ebfb2568dbbff1806d6be7cf9ba7bce3a846e52c7e",
+    "tables/05_valid_day_count_distribution.csv": "58a2fdb4f91d0f4cd428cfe2731f343e38c9b9aaf9f434ca798891a06c5f9b57",
+    "tables/00_taxa_mapping.csv": "a18c468496a966a976090e2c997098de20be7fcefd6ae6f4d2bd337bc04860e5",
+    "tables/00_preflight.csv": "3863a8777883935c5064807e01b29455d18e8e25d22e8db0bf6b0fd7973cfc64",
+    "tables/02_feasibility.csv": "62924b0a518aa176aeeb39653104838aa0a336c74cd0521ad8a05f4d2eb5fb9f",
+    "tables/00_scope.csv": "62b3c55f4fa91c70765f85a3d32e023238b628f4e50b3ea30e1f27ceeb2af629",
+    "tables/11_all_coefficients.csv": "1493152cf1a68883c0f0b4158c2bc11b1af8904d8198cc192f27570243e8a8a7",
+    "tables/14_primary_anchors.csv": "9474f3eb92b676819549b81631a552c5ca82bfa09f87c40068ed2e2857bba8cc",
+    "tables/01_day_flow.csv": "99b101bdb1ffe619d3794be40f463c2a43707417e43438017afe5ae454ff5208",
+    "tables/06_sample_timing_identity.csv": "9c070ee634594bc42454a16034f5e53e7cac801a8729fb70eb3e7174a90b6ef1",
+    "tables/12_model_flow.csv": "229ef828206b5b307001760b08166a82c768f9cd2a4c4fb07447f0be3116296c",
+    "tables/10_interactions.csv": "9382d51949b9118943169a594262f0b0ad7d14fe251d46c279a901e240b595b1",
+    "SCREEN_3.txt": "7ad93814aafa4eea5b536999eed1e638601543ce13b2b3b492e26037db265c65",
+    "SCREEN_2.txt": "07bc82470ede3a08fe5412b954599683ccbc509b97c5674017b110d8c81cc844",
+    "SCREEN_1.txt": "ee1c5109d89544e8f302e05f64b6db79ece470824bf274e2773ea32cb2e12fc5",
+    "SUMMARY.md": "0a6688c80a79fad55bd8839c6a079ffbff1941c7d24882baa82366213f365b46",
+    "private/daily_panel.csv": "afdc595683133911ab0a00814aeb419221ab53e2b62dbf51d6e4bc2209eb77e2",
+    "input_audit.json": "ed6ae0c40f2e8b82e0e0d657cd58aa91ce8c2b8299290eb3ab4597a59d63d1e0",
+    "analysis_config.json": "36e03a604567fe1de5acf43ef25eeb321f3ff980a3c89bb2c9bfe25690a62291"
+  }
+}

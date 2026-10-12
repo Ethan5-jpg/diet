@@ -1,0 +1,24 @@
+来源：用户提供的服务器终端截图；人工转录可见文字，空格规范化，数值保留显示精度。原图已复制并校验指纹。不是服务器全精度结果导出。
+
+conda activate pheno && \
+cd /home/ec2-user/Desktop/HPP/Data/diet_gut_cgm_interaction/extension_sensitivity && \
+PYTHON=python bash run_extension_sensitivity.sh \
+  --reference-run ../outputs/run_20261010T085601_096554Z_4d43e0
+EXTENSION INPUT_CHECK | SERVER_INPUTS
+ANALYSIS 12/84 hypotheses
+ANALYSIS 24/84 hypotheses
+ANALYSIS 36/84 hypotheses
+ANALYSIS 48/84 hypotheses
+ANALYSIS 60/84 hypotheses
+ANALYSIS 72/84 hypotheses
+ANALYSIS 84/84 hypotheses
+
+EXTENSION 1/3 | SIX SENSITIVITIES | SERVER_INPUTS
+STATUS=COMPLETE
+Design: same-cohort observational follow-up after primary results; no independent validation
+All fits=588/588 | extension=420/420 (60 primary + 360 sensitivity)
+Reference reproduction=204/204 | original primary and five old focus sensitivities
+Every specification: qAll84 BH across 84 tests; failed/skipped tests stay in denominator.
+U = common_all7_sample: seven diets + four taxa + three outcomes + required covariates.
+Original significant extension targets=19 | same direction all six=19 | retained all six=7
+Retained = estimable + same interaction sign + qAll84<0.05; overlapping samples are not replication.

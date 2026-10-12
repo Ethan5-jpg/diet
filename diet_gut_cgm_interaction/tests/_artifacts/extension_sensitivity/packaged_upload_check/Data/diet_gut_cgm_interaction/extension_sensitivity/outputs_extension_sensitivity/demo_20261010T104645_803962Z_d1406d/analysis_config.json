@@ -1,0 +1,67 @@
+{
+  "version": "2026-10-10.2",
+  "inputs": {
+    "current4": "diet_microbiome_glucose_analysis/outputs/data/00_current4_diet_cgm_cohort.csv",
+    "new3": "diet_microbiome_glucose_analysis/outputs/new_diet_extension/data/15d0_new_diet_cgm_cohort.csv",
+    "candidate_master": "diet_microbiome_glucose_analysis/outputs/reports/new_diet_extension/15b_new_diet_extension_candidate_master.csv",
+    "corrected_hpdi": "diet_microbiome_glucose_analysis/outputs/reports/new_diet_extension/hpdi_correction_audit/corrected_scores/hpdi_participant_scores.csv",
+    "microbiome": "gut_microbiome_deal/data/08_species_clr_zscore.csv",
+    "covariates": "co-variant/outputs/data/02_covariate_master.csv",
+    "cgm": "cgm_deal/cgm论文新增17指标/outputs/run_20260919T030229_482714Z_c1a0f480/data/07_cgm_paper_extended_phenotypes.csv",
+    "protocol": "diet_microbiome_glucose_analysis/outputs/new_diet_extension/mediation/protocol_abxppi/15f2_protocol_abxppi_cohort.csv"
+  },
+  "cohort": "10k",
+  "research_stage": "00_00_visit",
+  "focus_exposures": [
+    "hPDI",
+    "NOVA4"
+  ],
+  "extension_exposures": [
+    "AHEI",
+    "AMED",
+    "rEDIH",
+    "EAT13",
+    "Carbohydrate_pct"
+  ],
+  "taxa": [
+    {
+      "id": "T023",
+      "species": "GGB6012_SGB8640"
+    },
+    {
+      "id": "T046",
+      "species": "Clostridium_phoceensis"
+    },
+    {
+      "id": "T068",
+      "species": "Eubacterium_rectale"
+    },
+    {
+      "id": "T096",
+      "species": "Ruthenibacterium_lactatiformans"
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "Mean",
+      "field": "cgm_mean",
+      "unit": "mg/dL"
+    },
+    {
+      "id": "CV",
+      "field": "cgm_cv",
+      "unit": "percentage_points"
+    },
+    {
+      "id": "SDw",
+      "field": "cgm_sdw",
+      "unit": "mg/dL"
+    }
+  ],
+  "minimum_model_n": 200,
+  "minimum_residual_df": 50,
+  "minimum_tail_cell_n": 20,
+  "protocol_mode": "if_available",
+  "alpha": 0.05,
+  "interpretation": "Exploratory same-cohort selected-candidate effect modification; not causal mediation or independent validation."
+}

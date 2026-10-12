@@ -1,0 +1,25 @@
+{
+  "status": "COMPLETE",
+  "data_kind": "SYNTHETIC",
+  "all_fits": 588,
+  "extension_fits": 420,
+  "conditional_slopes": 1764,
+  "reference_comparisons": 204,
+  "all84_fdr_families": 7,
+  "original_code_files_unchanged": 12,
+  "output_hashes_checked": 26,
+  "figure_files": 6,
+  "summary_lines": [
+    9,
+    6,
+    12
+  ],
+  "summary_max_width": [
+    100,
+    100,
+    107
+  ],
+  "no_participant_rows_or_ids_in_tables": true,
+  "zip_integrity": "passed",
+  "python38_syntax": "passed"
+}

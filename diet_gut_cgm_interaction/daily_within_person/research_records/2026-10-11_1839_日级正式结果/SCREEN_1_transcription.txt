@@ -1,0 +1,15 @@
+DAILY REVISED 1/3 | DATA / SOURCE AUDIT | SERVER_INPUTS
+VERSION=2026-10-11.alcohol.1 | STATUS=COMPLETE
+Reuses verified saved daily panel; no CGM rebuild. Person FE; cluster CR1.
+PRIMARY: observed alcohol or classified no-drink days; estimates excluded.
+QC days=48791; unique AMED match=48791; ambiguous=0; unmatched=0
+QC source candidates: observed=44687 recovered=46925
+Excluded source flags (overlap): fallback-zero=4 invalid=2 missing-label=1862
+Original sample counts and AMED screenshot checkpoints reproduced.
+PRIMARY Diet Taxon People Days MedianDays
+NOVA4 T068 3319 29119 9
+NOVA4 T096 3319 29119 9
+Fiber T068 2470 19545 8
+Fiber T096 2470 19545 8
+P/P0 and R/R0: 24/24 person-day sample identity checks passed.
+Classified no-drink is based on food logs, not proof of no alcohol intake.

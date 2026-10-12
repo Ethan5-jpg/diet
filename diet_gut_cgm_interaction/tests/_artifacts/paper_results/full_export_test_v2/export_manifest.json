@@ -1,0 +1,190 @@
+{
+  "version": "2026-10-10.paper1",
+  "status": "EXPORT_COMPLETE",
+  "created_utc": "2026-10-10T12:31:40.949325+00:00",
+  "data_mode": "SYNTHETIC_TEST",
+  "source_run_ids": [
+    "reference_demo",
+    "final_demo"
+  ],
+  "source_aggregate_sha256": {
+    "1_reference_demo_manifest.json": "a9db99c3c9e69383ad42ce95a16c08e8cf518c63cfc2cb0ba332539cf45f2042",
+    "2_final_demo_manifest.json": "4bdfaf7b6bbd37fd85f4eec7a603a05fc060907976eeec7ecf8b89c9af1b7e76",
+    "3_reference_demo_analysis_config.json": "ddc3ffe6b5741b6b9c89f17be8f30d2291796668693e2b0b559dd049caa26854",
+    "4_tables_all_interactions.csv": "183e5c0a8ab9176adc02c3b62e3b7496c746eed47e00b230332abc29069e253a",
+    "5_tables_all_interactions.csv": "efa94b8583d6c73d7a6de566f63aa5ff449a52d5f560c4d7a4369d53b72d51cc",
+    "6_tables_conditional_diet_slopes.csv": "be2ef1aa49e251c15ed6ea3894a4a94c2dfaebaba715bb0ef94436131394a5cd",
+    "7_tables_reference_hits_stability.csv": "12a4440716701a4015abfc0961169b43a4af7359ecff0b6a39092744d0024bbc",
+    "8_tables_retention_by_specification.csv": "a7e2df0324d0d9f0bfd7c57ca638e496db2b390bf644cc56752d60a747ae0d1b",
+    "9_tables_fdr_families.csv": "537af53e96e98897b2900eecb749bcfb28d8b44d7d157ad8d7604d97881fd706",
+    "10_tables_reference_reproduction.csv": "506045ad2eaf0422e9d7b68d45a4b570215e0e7dba515336c40fb8550631c944"
+  },
+  "code_sha256": {
+    "build_paper.py": "7d1e9eadbf4d79fb820c036cd6b87a86f383c9f13ccfdba4e077747690c659c2",
+    "run_paper.sh": "b37450c8feceb7edcbe3568829d0cddf34f690f6fc39da1cd5ed49bd858dc2b3",
+    "paperlib/__init__.py": "ec470b08e19301113966bb433825fdc65766e4d4fcc0064ebbbe425a5d3f54c0",
+    "paperlib/figures.py": "af36d82fe198ffcf3df431a79b9d45b363736874f1133219d3556d36d725b58a",
+    "paperlib/report.py": "a6d373cdd41dda695d5424deaa2b51d8f7d72cfa3f2097bd5c2d77c489a8f10e",
+    "paperlib/data.py": "7de095a00c51e7798a67a6ede8cbae4be03c3005afc34711f8beb8493ecdade9",
+    "requirements.txt": "a8dbd3f6f57d2000dceadcad2da6ab858eaeaf6655d04e24b709f1f42716635f",
+    "screenshot_sources/snapshot.json": "5dbee16917197f5095cacb9c4bf5a290ed352517016b7b87d2a7c74c4275f3aa"
+  },
+  "figures": [
+    {
+      "name": "Figure_I1_focus_interactions",
+      "rows": 24,
+      "width_mm": 183.0,
+      "height_mm": 105.0,
+      "text_bounds": "passed"
+    },
+    {
+      "name": "Figure_I2_NOVA4_conditional_slopes",
+      "rows": 6,
+      "width_mm": 183.0,
+      "height_mm": 85.0,
+      "text_bounds": "passed"
+    },
+    {
+      "name": "Figure_I3_extension_stability",
+      "rows": 2,
+      "width_mm": 183.0,
+      "height_mm": 105.0,
+      "text_bounds": "passed"
+    },
+    {
+      "name": "Figure_I4_selected_extension_slopes",
+      "rows": 4,
+      "width_mm": 183.0,
+      "height_mm": 74.0,
+      "text_bounds": "passed"
+    },
+    {
+      "name": "Figure_S_Mean_all_extensions_1",
+      "rows": 84,
+      "width_mm": 183.0,
+      "height_mm": 160.0,
+      "text_bounds": "passed"
+    },
+    {
+      "name": "Figure_S_Mean_all_extensions_2",
+      "rows": 56,
+      "width_mm": 183.0,
+      "height_mm": 160.0,
+      "text_bounds": "passed"
+    },
+    {
+      "name": "Figure_S_CV_all_extensions_1",
+      "rows": 84,
+      "width_mm": 183.0,
+      "height_mm": 160.0,
+      "text_bounds": "passed"
+    },
+    {
+      "name": "Figure_S_CV_all_extensions_2",
+      "rows": 56,
+      "width_mm": 183.0,
+      "height_mm": 160.0,
+      "text_bounds": "passed"
+    },
+    {
+      "name": "Figure_S_SDw_all_extensions_1",
+      "rows": 84,
+      "width_mm": 183.0,
+      "height_mm": 160.0,
+      "text_bounds": "passed"
+    },
+    {
+      "name": "Figure_S_SDw_all_extensions_2",
+      "rows": 56,
+      "width_mm": 183.0,
+      "height_mm": 160.0,
+      "text_bounds": "passed"
+    }
+  ],
+  "table_rows": {
+    "Table_1_focus_primary": 24,
+    "Table_2_original_extension_targets": 2,
+    "Table_3_extension_sensitivity_summary": 6,
+    "Table_S1_primary_all_available": 84,
+    "Table_S2_original_models": 228,
+    "Table_S4_conditional_slopes": 1764,
+    "Table_S3_followup_all_models": 588,
+    "Table_S5_fdr_families": 14,
+    "Table_S6_reference_reproduction": 204,
+    "Table_S7_new_signals_outside_original": 0,
+    "Table_4_targets_retained_all_six": 2
+  },
+  "primary_rows_available": 84,
+  "focus_significant": 2,
+  "extension_targets": 2,
+  "retained_all_six": 2,
+  "limitations": [
+    "Follow-up after viewing primary results in the same cohort; not independent validation.",
+    "All7 common sample differs from the original two-diet common-focus sample.",
+    "Same direction/q retention is descriptive; CIs are pointwise and samples overlap.",
+    "High-leverage influence has not been separately refitted; HC3 does not remove influential observations.",
+    "Historical rEDIH unit provenance and timing limitations remain."
+  ],
+  "source_records": {},
+  "reference_reproduced": 204,
+  "output_sha256": {
+    "Figure_legends.md": "af6d9075263f2ac0764431a52f2e71fa031e5aa553b5c2c506bccf360643b093",
+    "Source_Data_README.md": "2a38afe8b488bd64e322a1c8e593788328c448f483ad6686e505f989f499b339",
+    "index.html": "97ced593fbb530c78da10743df1df60f35a3aba63168b09a65151e9391c34497",
+    "SCREEN_2.txt": "2ef556ca279828545553e44441d6dbc99a08fe7b829958636c7560293f082c1e",
+    "SCREEN_1.txt": "da766e5b51e4437fbc848a281cafad45078489c869485dd9f8ff0897fc3a3cf2",
+    "Results_and_methods.md": "185129eff3566dd24d48a474f2c835bdb62afc5364912cbbc7ae06e9672c793f",
+    "SCREENSHOT_SUMMARY.txt": "25b5b194e08eee791f09a2203848aa65e46c63f3ccffe099da0ee2d3cb91055f",
+    "source_data/Figure_S_CV_all_extensions_1.csv": "cb5268c1f67e1513d9dc514e2e7f73bfb841598443a57463fb74924572bd25ec",
+    "source_data/Figure_S_CV_all_extensions_2.csv": "b28e6a01661d6582758e49326d3434a6d9114c63c6fb0c60b23c9416abd9a46d",
+    "source_data/Figure_S_Mean_all_extensions_2.csv": "e9a18cad4cfa84d66cbca6bdd3cded72da0d9b16d7221f53efb2b8feaddc6c5a",
+    "source_data/Figure_I4_selected_extension_slopes.csv": "c53a05f631d32fbae27762a4e08cea31d892163bd3c0de9099b64127ec825cd9",
+    "source_data/Figure_S_Mean_all_extensions_1.csv": "2907c3adaa3e2bb18e908b6953218ce11256529749ba654b929f96e394fc652d",
+    "source_data/Figure_I2_NOVA4_conditional_slopes.csv": "7c909bf8d6676d6c6b7bdf4c6efffb2b502e5296947ad2f37ddd69f41d24b71c",
+    "source_data/Figure_I1_focus_interactions.csv": "fe6e931fd1632169617488773aacd9327839d89db943dcf337226a4d3ac20790",
+    "source_data/Figure_I3_extension_stability.csv": "2ceee23f68c2946988426f546d421e8e1d335c52f0fbffbec87bb4053e60f30e",
+    "source_data/Figure_S_SDw_all_extensions_1.csv": "0b4807e1627d57e68e2e1a3f5592f87ed6f1c2005ccf58d5b6d844c83aab0521",
+    "source_data/Figure_S_SDw_all_extensions_2.csv": "7dd359fee527dc2b686ec567c542d5f3921414b960ffc655aa4f950550c51899",
+    "tables/Table_S1_primary_all_available.csv": "7d49b0d0e745077661d755d5ce3d0a2f764e12fe3ef0ddf6b2d76f69dfbb3d55",
+    "tables/Table_1_focus_primary.csv": "141c8dcd31d2fcfcd6597e4e41c6a1896c8bd72793e0aab76050c066410efe64",
+    "tables/Table_S7_new_signals_outside_original.csv": "026cfefd8c1fb4b2ccc5bb1b4178b7ccd4b6985503a851cc030f3f3b45301f2d",
+    "tables/Table_S6_reference_reproduction.csv": "506045ad2eaf0422e9d7b68d45a4b570215e0e7dba515336c40fb8550631c944",
+    "tables/Table_4_targets_retained_all_six.csv": "ec6990f682c0171d7799c202f43e2dfbf7bc4b58295029c0a3fb9b3b4a1c6ce9",
+    "tables/Table_3_extension_sensitivity_summary.csv": "a7e2df0324d0d9f0bfd7c57ca638e496db2b390bf644cc56752d60a747ae0d1b",
+    "tables/Table_2_original_extension_targets.csv": "01ee4bfdae3a44d815eb9ae361d600b2ffe02f09792752bcd0a4be7dbfbda0fe",
+    "tables/Table_S5_fdr_families.csv": "537af53e96e98897b2900eecb749bcfb28d8b44d7d157ad8d7604d97881fd706",
+    "tables/Table_S2_original_models.csv": "ac7b31f0061aac5b26c55335e404ea68756da94313a60b4d2980d3c7684ba5a4",
+    "tables/Table_S3_followup_all_models.csv": "1b95fda6fe46bdae5f9c46f8a6232c3b2fec58162fa4180810ef14f4e17314b4",
+    "tables/Table_S4_conditional_slopes.csv": "f305c78619a5634ec6ccf0596fae04ef05bcb28e278d5d9985f308455271313b",
+    "figures/Figure_I3_extension_stability.svg": "e02c9f4719726a05e4093caa691c952165f1da5740e2d4fe7eae2a09875516a9",
+    "figures/Figure_S_SDw_all_extensions_1.pdf": "23eee1a5ca0efd161d2cb289e549f2ee73834ca105cbb49e56314d44cc10b6bd",
+    "figures/Figure_S_SDw_all_extensions_2.png": "67e4f7787ca2b776672d5123d27dfb85e575b0bd5e4f31b2f8bd55a4411f63d4",
+    "figures/Figure_S_SDw_all_extensions_2.pdf": "890e7c598b9849c065588b19c17788ca4d9f5578ee80028c335a4ec5fcb5a0a5",
+    "figures/Figure_S_SDw_all_extensions_1.png": "ffe04419318c430234c8fdbfde5b6c218c0e8252d0741003f111baa254cab817",
+    "figures/Figure_S_SDw_all_extensions_1.svg": "d54483152a50a4122dcf517e13aee9a51f34448b9a450a398aaf1ca24a4c8f1f",
+    "figures/Figure_S_SDw_all_extensions_2.svg": "b4cf8728218e5858d6ff1cb83bd09c915460a393a2b9876027e88192f1cfad83",
+    "figures/Figure_I3_extension_stability.png": "ddfce9b2863b34cd5b39fef0605c81f99a5351267404e4331df8abe4aa7f7210",
+    "figures/Figure_I3_extension_stability.pdf": "57bd764220dd90df2fd9d66128518f99d444b556658a2512b7bb33fd519d6006",
+    "figures/Figure_S_Mean_all_extensions_2.pdf": "268491dba21266c9a50aeb172d3e4450324c58ea72645e3b2afeca5efb8a6452",
+    "figures/Figure_I4_selected_extension_slopes.pdf": "ff5335473918ad848036c5e9bf20c49640d520b5888374bf47d54dac56c69d48",
+    "figures/Figure_S_Mean_all_extensions_1.png": "cea1c4d731ff9cc5000f5d98ad5337404091b68ca1daf86d599ca4fd556daeea",
+    "figures/Figure_S_CV_all_extensions_1.svg": "4b44d7a6c62547b3a59dff4091b2b19a6c836102d4b725bec9a61feb421e1ecf",
+    "figures/Figure_S_Mean_all_extensions_1.pdf": "d2e79825b127696c821dd75bf4050381bb36fe0386cedb0b99a418a6fbfcf14d",
+    "figures/Figure_S_Mean_all_extensions_2.png": "c9607b505807bff2799373090c87b0eb9d6e63866a0de8ce0307a846aed6b579",
+    "figures/Figure_S_CV_all_extensions_2.svg": "11ff22e35189497527e3e9bff9760e79e074ba6ac5072993b8f33caa7d4c7a11",
+    "figures/Figure_I4_selected_extension_slopes.png": "54d2b57d703a39fc5a681724a2844c13a85d1b09577736c3a86e7b99aed6da82",
+    "figures/Figure_I2_NOVA4_conditional_slopes.pdf": "0374a755e661d2a4a6e3d39db8b172c949d2f581ccbcfbc788412ab835ee8fea",
+    "figures/Figure_I1_focus_interactions.png": "3c45791df98806cad49ec9f366c38e4358e4593673f19fc4aec637a696555280",
+    "figures/Figure_I2_NOVA4_conditional_slopes.png": "49e2f223e01560e13f0a82d5851ac227d6e9ac7de006abc730aa97421b44e2fe",
+    "figures/Figure_I1_focus_interactions.pdf": "f7a3649e3537a9c4c5ee70abc04bf9a5d67d7d94cf58aa5b0aeaa1494762937f",
+    "figures/Figure_I2_NOVA4_conditional_slopes.svg": "3fb0ee2edda1544f4e9eacc2f0c2732c58caf671c712362ec0fa9d2c45be5775",
+    "figures/Figure_I1_focus_interactions.svg": "f55ca0cec1c95126a4edd4a311df632f02cb4e83520ae40d80c999d6318234b9",
+    "figures/Figure_S_CV_all_extensions_2.png": "8d5d7b84ae352750bfd70c9bdc76b6939adbde3281aa58454bd7ea302ddd6ef3",
+    "figures/Figure_S_Mean_all_extensions_2.svg": "335cf308f9b965050a78d38b357f4cb97ec0af46e31527071441c57a6c31afbc",
+    "figures/Figure_I4_selected_extension_slopes.svg": "198c741868df02616917b1dbe1d809a1709717e0de685ce844c606792525631a",
+    "figures/Figure_S_CV_all_extensions_1.pdf": "ca8f093cd4a3250d29b6f9625a5be1d7c9f04f285a238e1bdcca9fb5d6d801b2",
+    "figures/Figure_S_CV_all_extensions_1.png": "488c65d405668074590b69796aca2896f53df127a0af31483ea8ea3570afeeb4",
+    "figures/Figure_S_Mean_all_extensions_1.svg": "af6006ad268cc8ca1179fa65260baaea0b224f91f05fc9fcdf9764e36a170706",
+    "figures/Figure_S_CV_all_extensions_2.pdf": "1033ebe764d254b3d280889f05021ceeff3e45de84251377cc430f5737ae2f29"
+  }
+}

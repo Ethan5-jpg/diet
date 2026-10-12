@@ -1,0 +1,58 @@
+{
+  "corrected_at": "2026-10-11 following 17:48 diagnostic",
+  "reason": "Visual reread of original 14:17:30 screenshot: NOVA4 QCdays is 38536. New diagnostic is consistent: 34281 complete days without alcohol + 4255 missing microbiome days = 38536.",
+  "original_image": "截屏2026-10-11 14.17.30.png",
+  "image_sha256": "f319a502764d8324af10d1beb8a7f0134f005a89251e3b555617444f8582b6da",
+  "corrections": {
+    "nova4_qc_days": {
+      "before": 38356,
+      "after": 38536
+    },
+    "nova4_alcohol_complete_qc_days": {
+      "before": 146,
+      "after": 326
+    },
+    "nova4_missing_alcohol_percent": {
+      "before_display": "99.62",
+      "after_display": "99.15"
+    }
+  },
+  "files": [
+    {
+      "file": "README.md",
+      "before_sha256": "bc993dd1a0d7707fd0a0277fe6ae0715a15e1df36cd12e914901d4d0bd091b5b",
+      "original_affected_lines": [
+        "| NOVA4 | 38,356 | 0 | 38,210 | 4,255 | 1 / 5 |",
+        "从上述截图数值计算：NOVA4日酒精缺失99.62%，仅146个质量合格日有完整日酒精值；Fiber为99.16%，仅411日。Fiber自身暴露缺失45.52%。这些比例是本次日级完整性规则下的缺失比例，不能解释为99%的参与者没有饮酒信息，也不是饮酒率。"
+      ],
+      "after_sha256": "7207b0548286723cb4258ca50bd8f8013ead724f69994243f2b9b8a79daa35c2"
+    },
+    {
+      "file": "screens_transcription.md",
+      "before_sha256": "f92c8adc20a77d7a18b1d512c9c97eaa6abb5500cc0b5d58b7faf395347de254",
+      "original_affected_lines": [
+        "NOVA4 T068 1 5 5 False | 38356 0 38210 4255",
+        "NOVA4 T096 1 5 5 False | 38356 0 38210 4255"
+      ],
+      "after_sha256": "2f24c5198c5790037b78bdaf53c14e770f112c8949ce29e236aed79535fa4d9f"
+    },
+    {
+      "file": "screenshot_results.json",
+      "before_sha256": "d1bb06d24ebce95032b5759d58e4876a6f397d0b71e3370e5427baa4b583cb25",
+      "original_affected_lines": [
+        "      \"qc_days\": 38356,",
+        "      \"qc_days\": 38356,"
+      ],
+      "after_sha256": "f1015b27aea1d4c98c8a8c65b61de9c2320f32164e9c997fd78f869f18b70f6e"
+    },
+    {
+      "file": "feasibility.csv",
+      "before_sha256": "14c3603a7456338e051052e5cdd14b277c0bf751c875f9a71bc4068cfa6a42a0",
+      "original_affected_lines": [
+        "NOVA4,T068,1,5,5,False,38356,0,38210,4255",
+        "NOVA4,T096,1,5,5,False,38356,0,38210,4255"
+      ],
+      "after_sha256": "332e95a5e5ffb26a971b6e315f9a53f546f0ab50560599d4071c4eff2bc09d33"
+    }
+  ]
+}

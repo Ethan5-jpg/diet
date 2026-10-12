@@ -1,0 +1,71 @@
+COMMON INPUT CHECK | SYNTHETIC
+Historical numerical/sample checkpoints 8/8 verified.
+COMMON MODELS 4/26
+COMMON MODELS 8/26
+COMMON MODELS 12/26
+COMMON MODELS 16/26
+COMMON MODELS 20/26
+COMMON MODELS 24/26
+COMMON MODELS 26/26
+
+COMMON 1/3 | INPUT / SAMPLE / DIAGNOSTICS | SYNTHETIC
+VERSION=2026-10-11.cross.1 | STATUS=COMPLETE_WITH_LIMITATIONS
+Saved revised panel reused; reference reproduction 8/8; no raw CGM rebuild.
+NOVA4 primary = total-energy %; paired sensitivity = classified-energy %.
+B=between person means; W=within person FE, equal-person weights; original CLR-Z.
+Sample People Days MedianDays MinDays MedianRange MicrobeCorr
+F 80 814 10 8 65.75 0.0832
+N 80 814 10 8 65.75 0.0832
+Fits 26/26; interaction rows 44/44; dependent contrasts 40/40.
+F shared across single/joint/definitions/conditional SD; N0 and N1 identities identical.
+Support flags=38 | max fitted condition=309.2
+qMainSD4/qMain8=F_joint; qFamily=supporting family; qAll44=all interaction rows.
+Contrast qFamily uses separate frozen families; all 40 also have qAll40.
+* = limited tail/joint-neighborhood support or >10% information from one person.
+Failed tests remain in denominators; CI pointwise; no participant rows printed.
+
+COMMON 2/3 | TWO TAXA / BETWEEN VS WITHIN | SYNTHETIC
+Beta: mg/dL per NOVA4 +10pp x original microbe CLR-Z +1; 95% pointwise CI.
+Joint fits include both taxa; Single and Joint use the same F people/days.
+Scale Y Taxon SingleBeta JointBeta [L95,U95] qSD4 qMain8 qAll44
+B SD T068* -0.2611 -0.3684 [-0.451,-0.2858] 3.349e-13 6.698e-13 8.187e-13
+B SD T096* -0.2545 -0.0004308 [-0.1106,0.1097] 0.9938 0.9938 0.9938
+B Mean T068* -0.4902 -0.7039 [-3.147,1.74] NA 0.9088 0.9938
+B Mean T096* 1.543 1.727 [-1.552,5.006] NA 0.5952 0.6236
+W SD T068* -0.3056 -0.3067 [-0.3306,-0.2828] 2.545e-39 5.091e-39 5.6e-39
+W SD T096* -0.02247 0.02241 [-0.002787,0.0476] 0.1074 0.2148 0.2362
+W Mean T068* -0.000517 0.0002457 [-0.02775,0.02824] NA 0.9938 0.9938
+W Mean T096* -0.0007201 -0.003151 [-0.04086,0.03456] NA 0.9938 0.9938
+DIRECT W-minus-B (shared-participant covariance retained):
+Y Taxon Difference [L95,U95] qSD2 qFamily4
+SD T068* 0.06164 [-0.02137,0.1446] 0.2867 0.5734
+SD T096* 0.02284 [-0.08523,0.1309] 0.6752 0.6752
+Mean T068* 0.7042 [-1.743,3.151] NA 0.6752
+Mean T096* -1.73 [-5.006,1.546] NA 0.5926
+B describes the observed window, not long-term habitual diet.
+Significant vs nonsignificant alone is not evidence of a scale/taxon difference.
+
+COMMON 3/3 | SAME-SAMPLE NUTRITION / CONDITIONAL SD | SYNTHETIC
+F=full eligible sample; N0=nutrition-complete sample, base model; N1=same days, nutrients added.
+N1 adds carb/protein/fiber densities AND their microbe interactions.
+Scale Y Taxon F_beta N0_beta N1_beta qN1 Delta_N1-N0 [CI] qDelta8
+B SD T068* -0.3684 -0.3684 -0.3369 1.592e-05 0.03149 [-0.0736,0.1366] 0.6315
+B SD T096* -0.0004308 -0.0004308 -0.03517 0.9461 -0.03473 [-0.1434,0.07395] 0.6315
+B Mean T068* -0.7039 -0.7039 2.256 0.4089 2.96 [-0.07195,5.992] 0.3196
+B Mean T096* 1.727 1.727 -0.4775 0.9461 -2.205 [-4.995,0.586] 0.3196
+W SD T068* -0.3067 -0.3067 -0.307 5.343e-40 -0.0002247 [-0.003718,0.003269] 0.8985
+W SD T096* 0.02241 0.02241 0.01629 0.4089 -0.006117 [-0.01323,0.0009945] 0.3196
+W Mean T068* 0.0002457 0.0002457 0.002087 0.9461 0.001841 [-0.003601,0.007283] 0.6315
+W Mean T096* -0.003151 -0.003151 0.001254 0.9461 0.004404 [-0.004339,0.01315] 0.6315
+SD CONDITIONAL ON MEAN + MEAN^2 (and microbe interactions):
+Scale Taxon BaseBeta ConditionalBeta [CI] qFamily4
+B T068* -0.3684 -0.3674 [-0.4599,-0.275] 2.564e-11
+B T096* -0.0004308 0.004925 [-0.1062,0.116] 0.9299
+W T068* -0.3067 -0.2888 [-0.3164,-0.2611] 3.545e-33
+W T096* 0.02241 -0.007215 [-0.04266,0.02823] 0.9153
+F-to-N0 changes sample/day composition; N0-to-N1 changes adjustment only.
+Attenuation is not mediation; conditional SD is not a direct causal effect.
+Same-window observational follow-up; same cohort, no independent validation.
+All coefficients/slopes/40 contrasts/QC: tables/; identities stay in private/.
+
+RESULT_DIR=/Users/blizzardxu/Desktop/HPP/Data/diet_gut_cgm_interaction/tests/_artifacts/cross_scale_nutrition/release_final

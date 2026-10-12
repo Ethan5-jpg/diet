@@ -1,0 +1,376 @@
+{
+  "evidence_type": "User-provided real server screenshots; manually transcribed rounded values, not full-precision CSV",
+  "date": "2026-10-10",
+  "source_note": "Screenshots were inspected in conversation and using view_image. Their desktop paths were unavailable when archiving, so only the displayed values and attachment references are saved here.",
+  "server_result_dir": "/home/ec2-user/Desktop/HPP/Data/diet_gut_cgm_interaction/outputs/run_20261010T085601_096554Z_4d43e0",
+  "sources": [
+    {
+      "screen": 1,
+      "attachment_path": "/Users/blizzardxu/Desktop/截屏2026-10-10 17.01.32.png",
+      "copy_archived": false
+    },
+    {
+      "screen": 2,
+      "attachment_path": "/Users/blizzardxu/Desktop/截屏2026-10-10 17.01.37.png",
+      "copy_archived": false
+    },
+    {
+      "screen": 3,
+      "attachment_path": "/Users/blizzardxu/Desktop/截屏2026-10-10 17.01.42.png",
+      "copy_archived": false
+    }
+  ],
+  "data_kind": "SERVER_INPUTS",
+  "displayed_status": "COMPLETE",
+  "server_manifest_received": false,
+  "summary": {
+    "cgm_n": 7493,
+    "primary_eligible_n": 7332,
+    "strict_eligible_n": 6343,
+    "microbiome_overlap_n": 6530,
+    "missing_covariate_record_n": 0,
+    "unknown_exclusion_n": 989,
+    "protocol_available": true,
+    "primary_fitted": 84,
+    "primary_planned": 84,
+    "focus_planned": 24,
+    "extension_planned": 60,
+    "focus_q_below_005_count": 2,
+    "all_primary_q_below_005_count": 21,
+    "primary_limited_support_tests": 0
+  },
+  "focus24_primary_displayed": [
+    {
+      "exposure": "hPDI",
+      "taxon": "T023",
+      "outcome": "Mean",
+      "n": 4137,
+      "interaction_beta_native": 0.0707,
+      "ci_low_native": -0.168,
+      "ci_high_native": 0.31,
+      "q_focus": 0.884,
+      "q_all": 0.761
+    },
+    {
+      "exposure": "hPDI",
+      "taxon": "T023",
+      "outcome": "CV",
+      "n": 4136,
+      "interaction_beta_native": -0.0151,
+      "ci_low_native": -0.111,
+      "ci_high_native": 0.0804,
+      "q_focus": 0.908,
+      "q_all": 0.871
+    },
+    {
+      "exposure": "hPDI",
+      "taxon": "T023",
+      "outcome": "SDw",
+      "n": 4137,
+      "interaction_beta_native": 0.0241,
+      "ci_low_native": -0.0729,
+      "ci_high_native": 0.121,
+      "q_focus": 0.884,
+      "q_all": 0.805
+    },
+    {
+      "exposure": "hPDI",
+      "taxon": "T046",
+      "outcome": "Mean",
+      "n": 4137,
+      "interaction_beta_native": 0.129,
+      "ci_low_native": -0.11,
+      "ci_high_native": 0.367,
+      "q_focus": 0.535,
+      "q_all": 0.451
+    },
+    {
+      "exposure": "hPDI",
+      "taxon": "T046",
+      "outcome": "CV",
+      "n": 4136,
+      "interaction_beta_native": -0.00512,
+      "ci_low_native": -0.0995,
+      "ci_high_native": 0.0893,
+      "q_focus": 0.962,
+      "q_all": 0.968
+    },
+    {
+      "exposure": "hPDI",
+      "taxon": "T046",
+      "outcome": "SDw",
+      "n": 4137,
+      "interaction_beta_native": -0.0208,
+      "ci_low_native": -0.115,
+      "ci_high_native": 0.073,
+      "q_focus": 0.884,
+      "q_all": 0.808
+    },
+    {
+      "exposure": "hPDI",
+      "taxon": "T068",
+      "outcome": "Mean",
+      "n": 4137,
+      "interaction_beta_native": -0.165,
+      "ci_low_native": -0.431,
+      "ci_high_native": 0.1,
+      "q_focus": 0.444,
+      "q_all": 0.381
+    },
+    {
+      "exposure": "hPDI",
+      "taxon": "T068",
+      "outcome": "CV",
+      "n": 4136,
+      "interaction_beta_native": 0.0129,
+      "ci_low_native": -0.0957,
+      "ci_high_native": 0.121,
+      "q_focus": 0.932,
+      "q_all": 0.914
+    },
+    {
+      "exposure": "hPDI",
+      "taxon": "T068",
+      "outcome": "SDw",
+      "n": 4137,
+      "interaction_beta_native": -0.00189,
+      "ci_low_native": -0.104,
+      "ci_high_native": 0.1,
+      "q_focus": 0.971,
+      "q_all": 0.983
+    },
+    {
+      "exposure": "hPDI",
+      "taxon": "T096",
+      "outcome": "Mean",
+      "n": 4137,
+      "interaction_beta_native": 0.272,
+      "ci_low_native": 0.0145,
+      "ci_high_native": 0.53,
+      "q_focus": 0.308,
+      "q_all": 0.113
+    },
+    {
+      "exposure": "hPDI",
+      "taxon": "T096",
+      "outcome": "CV",
+      "n": 4136,
+      "interaction_beta_native": -0.0203,
+      "ci_low_native": -0.124,
+      "ci_high_native": 0.0838,
+      "q_focus": 0.887,
+      "q_all": 0.819
+    },
+    {
+      "exposure": "hPDI",
+      "taxon": "T096",
+      "outcome": "SDw",
+      "n": 4137,
+      "interaction_beta_native": 0.00503,
+      "ci_low_native": -0.0959,
+      "ci_high_native": 0.106,
+      "q_focus": 0.962,
+      "q_all": 0.968
+    },
+    {
+      "exposure": "NOVA4",
+      "taxon": "T023",
+      "outcome": "Mean",
+      "n": 3693,
+      "interaction_beta_native": 0.0763,
+      "ci_low_native": -0.216,
+      "ci_high_native": 0.369,
+      "q_focus": 0.884,
+      "q_all": 0.8
+    },
+    {
+      "exposure": "NOVA4",
+      "taxon": "T023",
+      "outcome": "CV",
+      "n": 3691,
+      "interaction_beta_native": 0.0742,
+      "ci_low_native": -0.0366,
+      "ci_high_native": 0.185,
+      "q_focus": 0.444,
+      "q_all": 0.353
+    },
+    {
+      "exposure": "NOVA4",
+      "taxon": "T023",
+      "outcome": "SDw",
+      "n": 3693,
+      "interaction_beta_native": 0.0905,
+      "ci_low_native": -0.0258,
+      "ci_high_native": 0.207,
+      "q_focus": 0.444,
+      "q_all": 0.297
+    },
+    {
+      "exposure": "NOVA4",
+      "taxon": "T046",
+      "outcome": "Mean",
+      "n": 3693,
+      "interaction_beta_native": 0.198,
+      "ci_low_native": -0.0711,
+      "ci_high_native": 0.466,
+      "q_focus": 0.444,
+      "q_all": 0.322
+    },
+    {
+      "exposure": "NOVA4",
+      "taxon": "T046",
+      "outcome": "CV",
+      "n": 3691,
+      "interaction_beta_native": 0.067,
+      "ci_low_native": -0.0349,
+      "ci_high_native": 0.169,
+      "q_focus": 0.444,
+      "q_all": 0.36
+    },
+    {
+      "exposure": "NOVA4",
+      "taxon": "T046",
+      "outcome": "SDw",
+      "n": 3693,
+      "interaction_beta_native": 0.0878,
+      "ci_low_native": -0.0144,
+      "ci_high_native": 0.19,
+      "q_focus": 0.444,
+      "q_all": 0.234
+    },
+    {
+      "exposure": "NOVA4",
+      "taxon": "T068",
+      "outcome": "Mean",
+      "n": 3693,
+      "interaction_beta_native": -0.214,
+      "ci_low_native": -0.497,
+      "ci_high_native": 0.0695,
+      "q_focus": 0.444,
+      "q_all": 0.316
+    },
+    {
+      "exposure": "NOVA4",
+      "taxon": "T068",
+      "outcome": "CV",
+      "n": 3691,
+      "interaction_beta_native": -0.198,
+      "ci_low_native": -0.307,
+      "ci_high_native": -0.0887,
+      "q_focus": 0.00458,
+      "q_all": 0.00401
+    },
+    {
+      "exposure": "NOVA4",
+      "taxon": "T068",
+      "outcome": "SDw",
+      "n": 3693,
+      "interaction_beta_native": -0.209,
+      "ci_low_native": -0.32,
+      "ci_high_native": -0.0971,
+      "q_focus": 0.00458,
+      "q_all": 0.00298
+    },
+    {
+      "exposure": "NOVA4",
+      "taxon": "T096",
+      "outcome": "Mean",
+      "n": 3693,
+      "interaction_beta_native": -0.0659,
+      "ci_low_native": -0.352,
+      "ci_high_native": 0.22,
+      "q_focus": 0.884,
+      "q_all": 0.805
+    },
+    {
+      "exposure": "NOVA4",
+      "taxon": "T096",
+      "outcome": "CV",
+      "n": 3691,
+      "interaction_beta_native": 0.0807,
+      "ci_low_native": -0.0327,
+      "ci_high_native": 0.194,
+      "q_focus": 0.444,
+      "q_all": 0.334
+    },
+    {
+      "exposure": "NOVA4",
+      "taxon": "T096",
+      "outcome": "SDw",
+      "n": 3693,
+      "interaction_beta_native": 0.0706,
+      "ci_low_native": -0.0423,
+      "ci_high_native": 0.183,
+      "q_focus": 0.444,
+      "q_all": 0.381
+    }
+  ],
+  "sensitivity_counts_displayed": [
+    {
+      "model": "strict",
+      "estimable": 24,
+      "planned": 24,
+      "q_focus_below_005_count": 2,
+      "n_min": 3454,
+      "n_max": 3881,
+      "significant_test_identities": "not shown in screenshots"
+    },
+    {
+      "model": "protocol_same_sample",
+      "estimable": 24,
+      "planned": 24,
+      "q_focus_below_005_count": 2,
+      "n_min": 3691,
+      "n_max": 4137,
+      "significant_test_identities": "not shown in screenshots"
+    },
+    {
+      "model": "protocol_adjusted",
+      "estimable": 24,
+      "planned": 24,
+      "q_focus_below_005_count": 2,
+      "n_min": 3691,
+      "n_max": 4137,
+      "significant_test_identities": "not shown in screenshots"
+    },
+    {
+      "model": "quadratic",
+      "estimable": 24,
+      "planned": 24,
+      "q_focus_below_005_count": 2,
+      "n_min": 3691,
+      "n_max": 4137,
+      "significant_test_identities": "not shown in screenshots"
+    },
+    {
+      "model": "covariate_interactions",
+      "estimable": 24,
+      "planned": 24,
+      "q_focus_below_005_count": 2,
+      "n_min": 3691,
+      "n_max": 4137,
+      "significant_test_identities": "not shown in screenshots"
+    },
+    {
+      "model": "common_focus_sample",
+      "estimable": 24,
+      "planned": 24,
+      "q_focus_below_005_count": 2,
+      "n_min": 3690,
+      "n_max": 3690,
+      "significant_test_identities": "not shown in screenshots"
+    }
+  ],
+  "derived_from_displayed_counts": {
+    "total_successful_fits": 228,
+    "extension_q_all_below_005_count": 19
+  },
+  "interpretation_limits": [
+    "Negative interaction is a diet slope difference, not a lower absolute CGM level or proof of protection.",
+    "Six sensitivities each have two significant tests, but their identities, directions and effect sizes are not displayed.",
+    "Conditional diet slopes and double-IQR contrasts are not yet received.",
+    "The other 19 all-primary significant results are extension tests; their identities and effects have not yet been received.",
+    "CV and SDw are related outcomes; these are not independent replications.",
+    "Same-cohort selected taxa and observational timing do not establish a causal mechanism."
+  ]
+}
