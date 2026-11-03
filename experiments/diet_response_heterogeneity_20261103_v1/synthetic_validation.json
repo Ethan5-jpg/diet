@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "seed": 20261103,
+  "synthetic_only": true,
+  "ridge_vs_joint_normal_equations_max_abs_error": 7.105427357601002e-15,
+  "elastic_net_vs_independent_constrained_optimizer_max_abs_error": 0.0,
+  "checks": [
+    "matched_ridge_null",
+    "joint_block_ridge_equivalence",
+    "elastic_net_independent_optimizer",
+    "lambda_max_is_null",
+    "heldout_Y_invariance",
+    "predictor_round_trip",
+    "rank_deficient_background",
+    "nonlinear_contrast_identity",
+    "safe_sequential_npz_and_no_overwrite"
+  ]
+}
