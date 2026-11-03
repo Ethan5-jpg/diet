@@ -1,0 +1,42 @@
+{
+  "version": "hpp_preprocessing_v1_20261030",
+  "status": "user_authorized_method; local_synthetic_validation; not_TRE_applied",
+  "scope": "baseline same-visit locked samples; existing W13-W15 artifacts preserved",
+  "microbiome": {
+    "sites_fit_separately": ["oral", "gut"],
+    "input": "W13 full species relative-abundance fractions; existing sparse-null encoding only",
+    "fit_rows": "unique participants in the relevant training fold; never repeated Daily rows",
+    "prevalence_min": 0.05,
+    "detected": "abundance > 0",
+    "zero_replacement": "0.5 * numpy.quantile(positive_training_abundances, 0.01, method=linear), per retained species",
+    "positive_values": "unchanged; do not censor low positive abundances",
+    "transform": ["replace exact zeros", "close retained species to row sum 1", "natural-log CLR", "training mean and population-SD scaling"],
+    "constant_output": "drop CLR columns with training SD <= 1e-12; keep CLR reference feature set unchanged",
+    "unusable_support": "explicit failure; no invented score; caller must use prespecified no-score handling",
+    "sample_selection": "inherit W13 lock; no resampling, nearest-date selection, or source-column overwrite",
+    "validation": "apply saved training taxa, pseudocounts, CLR reference, means and SDs; never refit",
+    "primary_alternative": "no automatic log10(PPM) or prevalence-threshold search"
+  },
+  "phenotype": {
+    "input": "each endpoint after existing unit/basic QC and prescribed measurement aggregation",
+    "fit_rows": "unique training participants for each person-level endpoint",
+    "robust_interval": "shortest sorted contiguous interval containing ceil(0.95*n_finite) training values; leftmost interval on ties",
+    "location": "arithmetic mean inside robust interval",
+    "scale": "sample SD (ddof=1) inside robust interval",
+    "remove": "abs(x-mu) > 8*SD; set only this endpoint value to missing",
+    "winsorize": "remaining finite values clipped to [mu-5*SD, mu+5*SD]",
+    "degenerate_scale": "halt automated transformation for endpoint if n<3 or robust SD<=0/nonfinite",
+    "units": "retain original endpoint units; no automatic log or z-score",
+    "validation": "apply frozen training thresholds, do not recompute on validation/confirmation",
+    "retention": "keep original values and per-value flags; no global complete-case deletion",
+    "sensitivity": "same locked model specification using basic-QC original endpoints; report separately, do not choose primary by significance",
+    "instrument_QC": "only claim checks supported by accessible source fields",
+    "Daily_CGM": "retain existing point/day QC; do not transfer person-level bounds to daily means or fit person-level rules to repeated days"
+  },
+  "execution": {
+    "real_Y_reads": "none in this amendment; future reads through existing guarded workflow with receipts",
+    "real_fit": "after W18 role freeze, within each training fold; no final thresholds, taxon counts, cohort N or fitted scores yet",
+    "food": "prior proposed event/day QC retained as separate pending amendment; not applied by this package",
+    "time_windows": "unchanged; same-visit primary rules retained"
+  }
+}

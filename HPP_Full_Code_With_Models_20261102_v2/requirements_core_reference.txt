@@ -1,0 +1,5 @@
+# Core scientific dependencies; not a complete environment lock.
+numpy==1.26.4
+pandas==2.1.0
+scipy==1.11.4
+pyarrow

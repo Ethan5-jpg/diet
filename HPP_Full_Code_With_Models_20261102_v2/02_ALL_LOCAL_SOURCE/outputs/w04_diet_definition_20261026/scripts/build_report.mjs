@@ -1,0 +1,12 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import crypto from 'node:crypto';
+import { fileURLToPath } from 'node:url';
+import { marked } from '/Users/haochenxue/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/marked/lib/marked.esm.js';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../../..');
+const md=await fs.readFile(path.join(root,'reports/HPP_W04_Diet_Feature_Definitions_2026-10-26.md'),'utf8');
+const style=(await fs.readFile(path.join(root,'reports/HPP_Team_Execution_Checklist_2026-10-26.html'),'utf8')).match(/<style>([\s\S]*?)<\/style>/)[1];
+const html=`<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>HPP W04 饮食候选定义</title><style>${style}\nmain{max-width:1100px;margin:24px auto}header{padding:18px 28px}@media(max-width:700px){main{margin:10px}}</style></head><body><header><strong>HPP · W04饮食定义与历史重叠</strong><p>定义草案已完成 · 个体特征与正式协议待后续验收</p></header><main><p><a href="HPP_Team_Execution_Checklist_2026-10-26.html">返回团队任务总表</a> · <a href="HPP_W04_Diet_Feature_Definitions_2026-10-26.md">Markdown原文</a></p>${marked.parse(md)}</main></body></html>`;
+await fs.writeFile(path.join(root,'reports/HPP_W04_Diet_Feature_Definitions_2026-10-26.html'),html);
+await fs.writeFile(path.join(root,'outputs/w04_diet_definition_20261026/html_build.json'),JSON.stringify({source_sha256:crypto.createHash('sha256').update(md).digest('hex'),offline:true,external_runtime_dependencies:false,browser_visual_qa_performed:false},null,2));
+console.log('W04 offline report HTML built.');

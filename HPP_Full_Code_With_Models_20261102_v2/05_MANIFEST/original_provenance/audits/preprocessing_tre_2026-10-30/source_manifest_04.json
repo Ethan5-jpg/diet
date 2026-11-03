@@ -1,0 +1,17 @@
+{
+  "files": [
+    {
+      "name": "04_w16_server_interfaces.py",
+      "sha256": "f46c6d4581858a7ee7e7bca9dc1fb82b3382847edcadd064db641a8237d2a05d"
+    },
+    {
+      "name": "w16_estimators.py",
+      "sha256": "5cf6e0f5ab9da126cc498a8fe992ba4704a22098b872be68f4b611a1d7a264ad"
+    },
+    {
+      "name": "test_w16_interfaces.py",
+      "sha256": "bfa16322c950602ed4eb1dc5cfaa70552ead46e59057ed9772b1449729c00080"
+    }
+  ],
+  "command_characters": 13762
+}

@@ -1,0 +1,205 @@
+{
+  "version": "user_clarification_20261029",
+  "status": "user_rules_amended_locally_20261029_TRE_adaptation_pending",
+  "supersedes_conflicting_earlier_date_admission_assumptions": true,
+  "person_visit_key": [
+    "participant_id",
+    "cohort",
+    "research_stage"
+  ],
+  "visit_summary_phenotypes": {
+    "domains": [
+      "body_composition",
+      "liver_ultrasound",
+      "CGM_visit_summary"
+    ],
+    "require_matching_valid_person_cohort_stage": true,
+    "require_phenotype_identity_units_and_value_QC": true,
+    "require_exact_collection_timestamp": false,
+    "require_timestamp_parsing": false,
+    "require_fixed_date_gap_or_unique_collection_date": false,
+    "diet_view": "qualified_food_window_in_same_visit",
+    "require_food_CGM_shared_calendar_days_for_visit_summary": false,
+    "retain_dates_as_descriptive_metadata_if_available": true,
+    "observation_window_14_days": "user_recalls_approximately_14_days_not_yet_verified_for_all_records",
+    "no_automatic_replacement_of_existing_common_day_CGM_estimates": true
+  },
+  "daily_CGM_or_meal_models": {
+    "daily_requires_real_food_CGM_calendar_date_alignment": true,
+    "daily_requires_point_coverage_QC": true,
+    "meal_analysis_requires_validated_ingestion_time": true,
+    "same_visit_does_not_substitute_for_daily_alignment": true
+  },
+  "microbiome_multiple_samples": {
+    "primary_rule": "randomly_select_one_eligible_biological_sample_per_person_cohort_stage_and_site",
+    "seed": 20261027,
+    "stable_candidate_order": "source_version_and_sample_ID_or_other_verified_unique_sample_identity",
+    "match_index_and_abundance_before_selection": true,
+    "QC_before_random_selection": true,
+    "freeze_once_reuse_same_selection_across_domains": true,
+    "do_not_select_using_phenotype_or_association_results": true,
+    "599_unmatched_gut_keys": "not_resolved_by_random_choice; provenance_still_to_be_classified",
+    "sample_registry_executed": false
+  },
+  "food_dates": {
+    "primary_calendar_date": "collection_date_agrees_with_Asia_Jerusalem_aware_collection_timestamp",
+    "local_timestamp_not_an_admission_requirement": true,
+    "regional_context": "Israel/Asia_Jerusalem_per_user_and_source_aware_timestamp",
+    "1066_local_calendar_conflicts": "retained_as_diagnostic; not_claimed_resolved_or_automatically_excluded",
+    "event_day_without_index": {
+      "all_source_unmatched_day_keys": 14713,
+      "all_source_matched_day_keys": 149912,
+      "all_source_event_day_keys": 164625,
+      "unmatched_pct_of_event_day_keys": 8.937281700835232,
+      "has_dated_food_events": true,
+      "not_equivalent_to_no_food_or_no_date": true,
+      "user_proposal": "user_has_now_explicitly_selected_index_matched_days_for_primary_analysis",
+      "admission_policy_frozen": true,
+      "next_check": "apply_rule_after_event_date_and_QC_resolution; count_baseline_days_people_and_valid_days_per_person; full-source14713_not_final_exclusion_N",
+      "decision_source": "user_explicit_reply_20261027",
+      "primary_rule": "retain_only_dated_food_event_days_with_matching_valid_daily_index",
+      "day_join_key": [
+        "participant_id",
+        "cohort",
+        "research_stage",
+        "collection_date"
+      ],
+      "exclude_unit": "person_visit_day_not_automatic_entire_person",
+      "index_presence_not_sufficient_for_complete_intake_QC": true,
+      "index_day_without_food_events": "not_a_valid_zero_intake_day",
+      "primary_eligible_counts_recomputed": false,
+      "14713_is_actual_new_analysis_exclusions": false,
+      "optional_event_only_sensitivity": "not_mandatory; retain_excluded_day_audit_if_later_prespecified"
+    }
+  },
+  "liver": {
+    "user_identified_summary_file": "/home/ec2-user/studies/hpp_datasets/liver_ultrasound/liver_ultrasound_aggregated.parquet",
+    "six_intended_phenotype_fields": [
+      "elasticity",
+      "velocity",
+      "viscosity",
+      "dispersion",
+      "attenuation",
+      "speed_of_sound"
+    ],
+    "attenuation_priority_per_user": true,
+    "do_not_require_all_six_nonmissing_for_each_single_outcome": true,
+    "six_field_source_and_aggregation_confirmation_pending": false,
+    "no_new_confirmatory_hypothesis_budget_frozen": true,
+    "phenotype_scope_status": "user_fixed_six_families_exactly_one_phenotype_per_family_20261027",
+    "phenotype_count": 6,
+    "phenotype_families": [
+      {
+        "id": "elasticity",
+        "label": "弹性",
+        "unit": "kPa"
+      },
+      {
+        "id": "velocity",
+        "label": "剪切波速度",
+        "unit": "m/s"
+      },
+      {
+        "id": "viscosity",
+        "label": "黏度",
+        "unit": "Pa·s"
+      },
+      {
+        "id": "dispersion",
+        "label": "频散",
+        "unit": "(m/s)/kHz"
+      },
+      {
+        "id": "attenuation",
+        "label": "衰减系数",
+        "unit": "dB/cm/MHz"
+      },
+      {
+        "id": "speed_of_sound",
+        "label": "超声声速",
+        "unit": "m/s"
+      }
+    ],
+    "one_phenotype_per_family": true,
+    "additional_min_max_sd_or_alternative_aggregation_outcomes": false,
+    "unused_measurement_statistic_columns_as_outcomes": false,
+    "pending_scope": "Six categories and arithmetic mean are fixed. Actual field validity, duplicate/quality handling, and equivalence of existing aggregate to selected raw-row means remain W10 execution checks.",
+    "identity_source_and_QC_fields": "Retain necessary ID/source/QC metadata for construction, not additional phenotypes.",
+    "six_outcomes_must_not_be_collapsed_into_one_composite": true,
+    "no_all_six_complete_case_requirement_for_each_single_outcome": true,
+    "aggregation_rule_status": "user_explicitly_chose_arithmetic_mean_20261027",
+    "aggregation": "arithmetic_mean_over_QC_valid_measurements_within_person_cohort_stage",
+    "measurement_row_weighting": "equal_weight_valid_measurement_rows; no weighting specified by user",
+    "raw_fields_to_aggregate": [
+      {
+        "phenotype_id": "elasticity",
+        "label": "弹性",
+        "raw_field": "elasticity_qbox_mean",
+        "matching_existing_aggregate_candidate": "elasticity_mean_mean_of_qboxes",
+        "unit": "kPa"
+      },
+      {
+        "phenotype_id": "velocity",
+        "label": "剪切波速度",
+        "raw_field": "velocity_qbox_mean",
+        "matching_existing_aggregate_candidate": "velocity_mean_mean_of_qboxes",
+        "unit": "m/s"
+      },
+      {
+        "phenotype_id": "viscosity",
+        "label": "黏度",
+        "raw_field": "viscosity_qbox_mean",
+        "matching_existing_aggregate_candidate": "viscosity_mean_mean_of_qboxes",
+        "unit": "Pa·s"
+      },
+      {
+        "phenotype_id": "dispersion",
+        "label": "频散",
+        "raw_field": "dispersion_qbox_mean",
+        "matching_existing_aggregate_candidate": "dispersion_mean_mean_of_qboxes",
+        "unit": "(m/s)/kHz"
+      },
+      {
+        "phenotype_id": "attenuation",
+        "label": "衰减系数",
+        "raw_field": "attenuation_coefficient_qbox",
+        "matching_existing_aggregate_candidate": null,
+        "unit": "dB/cm/MHz"
+      },
+      {
+        "phenotype_id": "speed_of_sound",
+        "label": "超声声速",
+        "raw_field": "speed_of_sound_qbox",
+        "matching_existing_aggregate_candidate": null,
+        "unit": "m/s"
+      }
+    ],
+    "raw_field_resolution": "mean fields for elasticity/velocity/viscosity/dispersion; direct attenuation/sound fields",
+    "operational_QC_and_aggregate_equivalence_validation_pending": true,
+    "missing_measurements": "do_not_fill_zero; mean over validated observed measurements with count recorded; if no valid value, phenotype missing",
+    "source_preference": "construct consistently from raw detail; existing four mean_mean aggregate fields only reusable after matching source/QC/aggregation semantics",
+    "individual_phenotype_table_built": false,
+    "formal_research_phenotypes_confirmed": true,
+    "cross_domain_comparison": "deferred",
+    "formal_test_family_and_multiplicity_pending_W18_W22": true
+  },
+  "execution_scope": "policy_and_metadata_only_no_new_sample_selection_no_individual_feature_or_model_computation",
+  "open_user_decisions_for_these_six_W03_items": [],
+  "remaining_issues_are_execution_checks_not_new_user_approval": true,
+  "supersedes_original_quality_ranked_sample_choice": true,
+  "latest_amendment_local_only_TRE_config_sync_pending": true,
+  "CGM_two_layer_contract": "same_visit_qualified_CGM_period_not_required_food_shared_days",
+  "medication_window_contract": {
+    "statuses": [
+      "exposed_in_window",
+      "confirmed_no_use_in_window",
+      "unknown"
+    ],
+    "no_use_requires_explicit_evidence_covering_target_window": true,
+    "missing_record_not_no_use": true,
+    "start_without_stop_not_proof_of_continuation_or_nonuse": true,
+    "actual_status_assignment_run_this_amendment": false
+  },
+  "UPF_handling": "retain_bounds_and_coverage_no_complete_mapping_prerequisite",
+  "historical_execution_flags_belong_to_original_W03_snapshot": true
+}

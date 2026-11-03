@@ -1,0 +1,13 @@
+{
+  "files": [
+    {
+      "name": "12_catalogue_candidate_checks.py",
+      "sha256": "3f18b17bd3647ed79ec8a1ed1f29fe09b9114f24db1a07a6f878ecda59249fd0"
+    },
+    {
+      "name": "upf_catalogue_calibration.py",
+      "sha256": "2f31becd7b4de1ae3454805e23e1872cb326a36e95f72d7852b98b8c87e83bcb"
+    }
+  ],
+  "command_characters": 7831
+}

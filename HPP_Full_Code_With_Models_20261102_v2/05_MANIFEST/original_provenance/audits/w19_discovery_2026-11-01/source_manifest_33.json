@@ -1,0 +1,13 @@
+{
+  "files": [
+    {
+      "name": "33_test_W19_baselines.py",
+      "sha256": "17051b29c1fb4b295fe1fab7e25ed0c3661ea78c3e3911b064cf09a200f509b1"
+    },
+    {
+      "name": "w19_baseline_core.py",
+      "sha256": "e9cdbd14616fc8d5fde6cf26f4a4f07f7147b576c268a2d0eeff371748e61da0"
+    }
+  ],
+  "command_characters": 10127
+}

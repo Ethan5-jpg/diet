@@ -1,0 +1,17 @@
+{
+  "files": [
+    {
+      "name": "08_rcs_candidate_checks.py",
+      "sha256": "48aca8d0fb530158299b8283c84795da8262c6edba737ff7ffa983aed4a7e917"
+    },
+    {
+      "name": "w17_interval_upf_rcs.py",
+      "sha256": "89834726a65741909fa6b920c84e90b495f64eb026f8cc8bc30b3b13177f2f55"
+    },
+    {
+      "name": "09_w17_rcs_calibration.py",
+      "sha256": "4c2903c19bf873cee949a84f1b9bacf558f3b9c2dd9cd86629f693091601ae69"
+    }
+  ],
+  "command_characters": 14369
+}

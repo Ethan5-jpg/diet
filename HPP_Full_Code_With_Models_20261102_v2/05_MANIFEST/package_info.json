@@ -1,0 +1,10 @@
+{
+  "created_date": "2026-11-02",
+  "source_files": 389,
+  "python_files": 369,
+  "python_syntax_issues": 0,
+  "config_files": 14,
+  "documentation_files": 14,
+  "preservation": "original source bytes unchanged; duplicate convenience copies share hashes",
+  "scope": "local source archive including models; no data files, fitted weights, browser command text or credentials"
+}

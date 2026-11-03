@@ -1,0 +1,13 @@
+"""Recover reporting-only NaN serialization failure; verify all six liver means."""
+import runpy
+from pathlib import Path
+B=runpy.run_path(str(Path(__file__).with_name('03_source_QC.py')),run_name='auditlib');globals().update({k:v for k,v in B.items() if not k.startswith('__')})
+L=Path('/home/ec2-user/multisystem_runtime_20261021/claude_readonly_followup_20261030_v1');assert (L/'03_actual_exit_code').read_text().strip()=='1';ex=json.loads((Q/'03_execution_summary.json').read_text());assert len(ex['errors'])==1 and ex['errors'][0]['section']=='microbiome' and ex['errors'][0]['error_type']=='ValueError'
+micro=json.loads((Q/'X03_X07_microbiome.json').read_text());lags=json.loads((Q/'X12_recovered_lags.json').read_text());print('X03_X07_MICROBIOME',json.dumps(micro),flush=True);print('X12_RECOVERED_LAGS',json.dumps(lags),flush=True)
+specs=[s for s in json.loads((P/'config/outcome_dictionary.yaml').read_text())['static_outcomes'] if s['domain']=='liver'];assert len(specs)==6;d=read('raw_liver',K+[s['field'] for s in specs],purpose='X02 verify all six arithmetic means',y=True);o=read('outcomes',K+['outcome_id','value','n_valid_measurements'],purpose='X02 all six published means numerical identity',y=True);out=[]
+for s in specs:
+ v=pd.to_numeric(d[s['field']],errors='coerce');t=d[K].copy();t['v']=v.where(np.isfinite(v)&v.gt(0));g=t.groupby(K).v.agg(['mean','count']).reset_index();z=g.merge(o.loc[o.outcome_id.eq(s['id'])],on=K,how='outer',indicator=True,validate='one_to_one');err=(z['mean']-z.value).abs();out.append({'outcome':s['id'],'keys':len(g),'keyset_difference':int(z._merge.ne('both').sum()),'mean_mismatch_gt_1e_minus_9':int(((z['mean'].isna()!=z.value.isna())|err.gt(1e-9)).sum()),'valid_count_mismatch':int(z['count'].ne(z.n_valid_measurements).sum())})
+save('X02_all_six_means.json',out);print('X02_ALL_SIX_MEANS',json.dumps(out),flush=True)
+# The aggregate objects were already serialized successfully before the optional detailed lag report failed.
+# Preserve them and the original failure; make the missing-value nature explicit without rewriting prior files.
+completion={'original_actual_exit':1,'failure':'optional TRE lag detail JSON serialization of NaN; aggregate X03/X07/X12 had already been saved','aggregate_files_verified':[{'path':str(Q/n),'sha256':sha(Q/n)} for n in ['X02_liver.json','X02_all_six_means.json','X03_X07_microbiome.json','X12_recovered_lags.json','X04_family.json']],'six_mean_checks':len(out),'original_tables_changed':False,'individual_lag_detail_report_not_claimed_written':True};save('03b_source_QC_completion.json',completion);print('SOURCE_QC_RECOVERY_COMPLETE',flush=True)

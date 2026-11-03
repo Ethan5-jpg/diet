@@ -1,0 +1,12 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import crypto from 'node:crypto';
+import {fileURLToPath} from 'node:url';
+import {marked} from '/Users/haochenxue/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/marked/lib/marked.esm.js';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../..');
+const md=await fs.readFile(path.join(root,'reports/HPP_W03_Liver_Table_Inventory_2026-10-27.md'),'utf8');
+const style=(await fs.readFile(path.join(root,'reports/HPP_Team_Execution_Checklist_2026-10-26.html'),'utf8')).match(/<style>([\s\S]*?)<\/style>/)[1];
+const html=`<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>HPP W03 肝脏全部Parquet核查</title><style>${style}\nmain{max-width:1120px;margin:24px auto;padding:28px;background:white}header{padding:18px 28px}h2{margin-top:2em}p,li{line-height:1.85}img{max-width:100%;height:auto}table{display:block;overflow-x:auto;font-size:14px}code{overflow-wrap:anywhere} @media(max-width:700px){main{margin:10px;padding:14px}}</style></head><body><header><strong>HPP · 肝脏全部Parquet对照</strong><p>两张来源表已核实 · 六类均值及索引日规则已定 · 实际构建待执行</p></header><main><p><a href="HPP_Team_Execution_Checklist_2026-10-26.html">返回团队任务总表</a> · <a href="HPP_W03_Liver_Table_Inventory_2026-10-27.md">Markdown原文</a></p>${marked.parse(md)}</main></body></html>`;
+await fs.writeFile(path.join(root,'reports/HPP_W03_Liver_Table_Inventory_2026-10-27.html'),html);
+await fs.writeFile(path.join(root,'audits/w03_followup_2026-10-27/html_build.json'),JSON.stringify({source_sha256:crypto.createHash('sha256').update(md).digest('hex'),offline:true,external_runtime_dependencies:false,browser_visual_qa_performed:false},null,2));
+console.log('W03 liver inventory HTML built.');

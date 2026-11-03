@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-28",
+  "basis": "user requests retaining UPF and reviewing next workpackage",
+  "UPF_retained": true,
+  "UPF_scientific_primary_secondary_role_frozen": false,
+  "UPF_measurement_followup_pending": true,
+  "UPF_blocks_other_source_QC": false,
+  "recommended_next": "W10",
+  "parallel": [
+    "W12_then_W13",
+    "W11"
+  ],
+  "convergence": "W14_domain_specific_cohorts",
+  "new_TRE_execution_performed": false,
+  "formal_V3_protocol_modified": false,
+  "memo": "reports/HPP_Next_Steps_After_W09_2026-10-28.md"
+}

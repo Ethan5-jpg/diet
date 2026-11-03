@@ -1,0 +1,13 @@
+{
+  "files": [
+    {
+      "name": "37_register_test_W20.py",
+      "sha256": "7ee5084799494e3b7cdcede82a91e6456d98bde2e65d84ff6c911387a4dc619e"
+    },
+    {
+      "name": "w20_score_core.py",
+      "sha256": "a270f063ac6f573918da3bfc40a83687d9847e57bc3cba9056e79ac07b6b5200"
+    }
+  ],
+  "command_characters": 7914
+}

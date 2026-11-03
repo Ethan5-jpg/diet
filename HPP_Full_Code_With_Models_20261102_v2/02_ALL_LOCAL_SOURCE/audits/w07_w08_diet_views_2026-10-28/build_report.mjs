@@ -1,0 +1,12 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import crypto from 'node:crypto';
+import {fileURLToPath} from 'node:url';
+import {marked} from '/Users/haochenxue/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/marked/lib/marked.esm.js';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../..');
+const md=await fs.readFile(path.join(root,'reports/HPP_W07_W08_Diet_Feature_Views_2026-10-28.md'),'utf8');
+const style=(await fs.readFile(path.join(root,'reports/HPP_Team_Execution_Checklist_2026-10-26.html'),'utf8')).match(/<style>([\s\S]*?)<\/style>/)[1];
+const html=`<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>HPP W07/W08：FoodID映射与饮食特征</title><style>${style}\nmain{max-width:1140px;margin:24px auto;padding:28px;background:white}header{padding:20px 28px}p,li{line-height:1.85}table{display:block;overflow-x:auto}img{max-width:100%;height:auto}code{overflow-wrap:anywhere}h2{margin-top:2em}@media(max-width:700px){main{padding:14px;margin:10px}}</style></head><body><header><strong>HPP · W07/W08饮食特征视图</strong><p>构建／复核exit 0 · W07及饮食视图已验收 · CGM共同日分支待W09</p></header><main><p><a href="HPP_Team_Execution_Checklist_2026-10-26.html">返回团队任务总表</a> · <a href="HPP_W07_W08_Diet_Feature_Views_2026-10-28.md">Markdown</a></p>${marked.parse(md)}</main></body></html>`;
+await fs.writeFile(path.join(root,'reports/HPP_W07_W08_Diet_Feature_Views_2026-10-28.html'),html);
+await fs.writeFile(path.join(root,'audits/w07_w08_diet_views_2026-10-28/html_build.json'),JSON.stringify({source_sha256:crypto.createHash('sha256').update(md).digest('hex'),offline:true,browser_visual_qa_performed:false},null,2));
+console.log('W07/W08 diet feature HTML built.');

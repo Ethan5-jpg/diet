@@ -1,0 +1,29 @@
+{
+  "status": "study_level_known_contact_only_exact_ID_overlap_pending_W15",
+  "rows": [
+    {
+      "source": "reports/HPP_饮食-菌群-血糖_完整结果报告_2026-10-13.html",
+      "section": "16",
+      "exposure": "NOVA4 classified-energy denominator; fiber density",
+      "outcome": "daily CGM",
+      "known_result_contact": true,
+      "exact_ID_overlap": "unknown"
+    },
+    {
+      "source": "same historical report",
+      "section": "17",
+      "exposure": "NOVA4 total-energy and classified-energy comparison",
+      "outcome": "between/within-person CGM; equal-person weights",
+      "known_result_contact": true,
+      "exact_ID_overlap": "unknown"
+    },
+    {
+      "source": "previous NC-Diet project",
+      "section": "code and user-provided tables",
+      "exposure": "NOVA; fiber; adapted diet scores",
+      "outcome": "oral microbiome per user background",
+      "known_result_contact": "needs per-analysis ledger",
+      "exact_ID_overlap": "unknown"
+    }
+  ]
+}

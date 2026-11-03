@@ -1,0 +1,17 @@
+{
+  "files": [
+    {
+      "name": "05_interval_prototype_checks.py",
+      "sha256": "61fe1438f11c124865159e7b942c1b6a66ff0aa9a93fa61b1477bfb546292f8d"
+    },
+    {
+      "name": "w17_interval_upf_prototype.py",
+      "sha256": "f0c527d253a3a3fe0ba5512a9db5e49fa22cd00273089b40368c5ae75c8b5506"
+    },
+    {
+      "name": "test_interval_upf_prototype.py",
+      "sha256": "b5d44171687a417d7ada4712bc6108109b7f2f97b11ada49ed8e75543ab7e007"
+    }
+  ],
+  "command_characters": 11306
+}

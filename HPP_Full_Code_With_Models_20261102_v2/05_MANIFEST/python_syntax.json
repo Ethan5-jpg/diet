@@ -1,0 +1,1847 @@
+[
+  {
+    "source_path": "audits/claude_followup_2026-10-30/01_preflight.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_followup_2026-10-30/02_schema_provenance.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_followup_2026-10-30/03_source_QC.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_followup_2026-10-30/03b_complete_source_QC.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_followup_2026-10-30/04_medication_and_diet.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_followup_2026-10-30/04b_medication_and_diet.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_followup_2026-10-30/04c_batch.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_followup_2026-10-30/04c_medication_and_diet.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_followup_2026-10-30/05_W14_independent_coverage.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_followup_2026-10-30/06_profile_lag_provenance.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_followup_2026-10-30/07_seal_audit.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_followup_2026-10-30/07a_batch_and_seal.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_followup_2026-10-30/07a_medication_source_reconciliation.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_followup_2026-10-30/08_final_closed_log_receipt.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_followup_2026-10-30/delivery/01_preflight.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_followup_2026-10-30/delivery/02_schema_provenance.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_followup_2026-10-30/delivery/03_source_QC.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_followup_2026-10-30/delivery/03b_complete_source_QC.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_followup_2026-10-30/delivery/04_medication_and_diet.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_followup_2026-10-30/delivery/04b_medication_and_diet.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_followup_2026-10-30/delivery/04c_batch.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_followup_2026-10-30/delivery/04c_medication_and_diet.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_followup_2026-10-30/delivery/05_W14_independent_coverage.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_followup_2026-10-30/delivery/06_profile_lag_provenance.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_followup_2026-10-30/delivery/07_seal_audit.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_followup_2026-10-30/delivery/07a_batch_and_seal.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_followup_2026-10-30/delivery/07a_medication_source_reconciliation.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_followup_2026-10-30/delivery/08_final_closed_log_receipt.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_followup_2026-10-30/delivery/09_environment_memo.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_followup_2026-10-30/delivery/prepare_bundle.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_followup_2026-10-30/delivery/prepare_transfer.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_followup_2026-10-30/prepare_bundle.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_followup_2026-10-30/prepare_transfer.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/finalize_review_delivery.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/hydrate_inputs.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w07_w08_diet_views_2026-10-28/01_build_w07_w08.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w07_w08_diet_views_2026-10-28/02_verify_w07_w08.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w07_w08_diet_views_2026-10-28/03_record_delivery.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w09_cgm_point_qc_2026-10-28/01_probe_cgm_contract.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w09_cgm_point_qc_2026-10-28/02_probe_index_contract.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w09_cgm_point_qc_2026-10-28/03_build_point_qc.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w09_cgm_point_qc_2026-10-28/03b_build_point_qc_legacy_fix.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w09_cgm_point_qc_2026-10-28/04_independent_verify_cgm.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w09_cgm_point_qc_2026-10-28/04b_verify_corrected_calendar.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w09_cgm_point_qc_2026-10-28/05_build_w08_common.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w09_cgm_point_qc_2026-10-28/06_independent_verify_common.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w09_cgm_point_qc_2026-10-28/07_finalize_and_memo.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w09_cgm_point_qc_2026-10-28/08_display_aggregate.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w09_cgm_point_qc_2026-10-28/09_fix_calendar_contract.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w09_cgm_point_qc_2026-10-28/10_status_and_read.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w09_cgm_point_qc_2026-10-28/11_legacy_difference_and_delivery.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w10_outcome_qc_2026-10-28/01_probe_contract.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w10_outcome_qc_2026-10-28/02_probe_values.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w10_outcome_qc_2026-10-28/02b_probe_values_index_fix.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w10_outcome_qc_2026-10-28/03_probe_final_fields.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w10_outcome_qc_2026-10-28/04_build_outcomes.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w10_outcome_qc_2026-10-28/05_independent_verify_and_memo.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w10_outcome_qc_2026-10-28/06_liver_aggregate_diagnostic.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w10_outcome_qc_2026-10-28/07_finalize_delivery.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w11_w12_covariates_samples_2026-10-28/01_preflight.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w11_w12_covariates_samples_2026-10-28/02_read_contracts.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w11_w12_covariates_samples_2026-10-28/03_compact_contract.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w11_w12_covariates_samples_2026-10-28/04_covariate_value_contract.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w11_w12_covariates_samples_2026-10-28/05_sample_identity_probe.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w11_w12_covariates_samples_2026-10-28/06_focused_values_and_codes.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w11_w12_covariates_samples_2026-10-28/07_build_covariates.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w11_w12_covariates_samples_2026-10-28/08_build_sample_candidates.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w11_w12_covariates_samples_2026-10-28/09_complete_oral_health.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w11_w12_covariates_samples_2026-10-28/10_independent_verify.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w11_w12_covariates_samples_2026-10-28/11_finalize_and_memos.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w11_w12_covariates_samples_2026-10-28/12_verify_index_only_lags.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w13_microbiome_qc_2026-10-29/01_sync_and_preflight.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w13_microbiome_qc_2026-10-29/02_scan_and_identity_probe.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w13_microbiome_qc_2026-10-29/03_resolve_storage_and_specimen_evidence.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w13_microbiome_qc_2026-10-29/03b_resolve_exact_source_evidence.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w13_microbiome_qc_2026-10-29/04_match_native_profiles.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w13_microbiome_qc_2026-10-29/05_build_provisional_qc_and_selection.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w13_microbiome_qc_2026-10-29/06_independent_source_and_selection_verify.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w13_microbiome_qc_2026-10-29/07_publish_locked_registry.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w13_microbiome_qc_2026-10-29/08_final_readback.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w14_eligibility_2026-10-29/01_preflight.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w14_eligibility_2026-10-29/02_build_CGM_visit.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w14_eligibility_2026-10-29/03_inspect_interfaces.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w14_eligibility_2026-10-29/03b_compact_interfaces.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w14_eligibility_2026-10-29/04_build_candidates.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w14_eligibility_2026-10-29/05_independent_verify.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w14_eligibility_2026-10-29/06_publish_candidates.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w14_eligibility_2026-10-29/07_final_readback.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w14_eligibility_2026-10-29/08_seal_delivery.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w14_eligibility_2026-10-29/08b_seal_without_append.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w15_split_access_2026-10-29/01_preflight_commit.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w15_split_access_2026-10-29/02_build_order_and_ledger.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w15_split_access_2026-10-29/03_independent_verify.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w15_split_access_2026-10-29/04_publish.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/packet/audits/w15_split_access_2026-10-29/05_final_readback.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/prepare_packet.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/run_claude_review.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/run_three_groups.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/stage_local_packet.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/supplemental_launchers/audits/w07_w08_diet_views_2026-10-28/launch.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/supplemental_launchers/audits/w10_outcome_qc_2026-10-28/prepare_transfer.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/supplemental_launchers/audits/w11_w12_covariates_samples_2026-10-28/prepare_transfer.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/supplemental_launchers/audits/w13_microbiome_qc_2026-10-29/prepare_transfer.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/supplemental_launchers/audits/w14_eligibility_2026-10-29/prepare_transfer.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/claude_w08_w15_review_2026-10-29/supplemental_launchers/audits/w15_split_access_2026-10-29/prepare_transfer.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/collaborator_handoff_2026-11-02/add_processed_views.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/collaborator_handoff_2026-11-02/build_handoff.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/collaborator_handoff_2026-11-02/check_complete_package.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/collaborator_handoff_2026-11-02/check_package.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/collaborator_handoff_2026-11-02/final_verify.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/collaborator_handoff_2026-11-02/load_fiber_fold.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/phenotype_food_dates_2026-10-18/10_discover.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/phenotype_food_dates_2026-10-18/11_audit.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/phenotype_food_dates_2026-10-18/12_verify_report.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/phenotype_food_dates_2026-10-18/13_finalize.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/phenotype_food_dates_2026-10-18/14_readable_tables.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/preprocessing_tre_2026-10-30/01_preflight.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/preprocessing_tre_2026-10-30/02_server_synthetic_checks.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/preprocessing_tre_2026-10-30/03_blind_design_inventory.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/preprocessing_tre_2026-10-30/04_w16_server_interfaces.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/preprocessing_tre_2026-10-30/05_interval_prototype_checks.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/preprocessing_tre_2026-10-30/06_w17_calibration.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/preprocessing_tre_2026-10-30/06b_w17_calibration.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/preprocessing_tre_2026-10-30/07_food_qc_amendment.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/preprocessing_tre_2026-10-30/08_rcs_candidate_checks.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/preprocessing_tre_2026-10-30/09_w17_rcs_calibration.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/preprocessing_tre_2026-10-30/10_verify_food_and_status.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/preprocessing_tre_2026-10-30/11_seal_progress.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/preprocessing_tre_2026-10-30/12_catalogue_candidate_checks.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/preprocessing_tre_2026-10-30/13_catalogue_model_calibration.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/preprocessing_tre_2026-10-30/14_build_foodid_interval_geometry.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/preprocessing_tre_2026-10-30/14b_build_foodid_interval_geometry.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/preprocessing_tre_2026-10-30/15_blind_probability_model.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/preprocessing_tre_2026-10-30/16_estimated_probability_checks.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/preprocessing_tre_2026-10-30/17_estimated_probability_calibration.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/preprocessing_tre_2026-10-30/18_learned_score_pipeline_calibration.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/preprocessing_tre_2026-10-30/19_read_method_calibration.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/preprocessing_tre_2026-10-30/20_assumption_stress.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/preprocessing_tre_2026-10-30/21_seal_method_assessment.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/preprocessing_tre_2026-10-30/22_w18_execution_inputs.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/preprocessing_tre_2026-10-30/23_w18_compact_api.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/preprocessing_tre_2026-10-30/24_preprocessing_source_catalog.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/preprocessing_tre_2026-10-30/25_register_execution_design.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/preprocessing_tre_2026-10-30/26_apply_microbiome_preprocessing.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/preprocessing_tre_2026-10-30/27_apply_phenotype_preprocessing.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/preprocessing_tre_2026-10-30/27b_apply_phenotype_preprocessing.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/preprocessing_tre_2026-10-30/28_finalize_UPF_probability_inputs.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/preprocessing_tre_2026-10-30/28b_finalize_UPF_probability_inputs.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/preprocessing_tre_2026-10-30/29_build_analysis_ready_tables.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/preprocessing_tre_2026-10-30/29b_build_analysis_ready_tables.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/preprocessing_tre_2026-10-30/30_resume_status_20261031.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/preprocessing_tre_2026-10-30/31_seal_preprocessing_delivery.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/preprocessing_tre_2026-10-30/generate17.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/preprocessing_tre_2026-10-30/prepare_transfer.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/preprocessing_tre_2026-10-30/test_interval_upf_prototype.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/preprocessing_tre_2026-10-30/test_w16_interfaces.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/preprocessing_tre_2026-10-30/upf_catalogue_calibration.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/preprocessing_tre_2026-10-30/upf_catalogue_calibration_v2.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/preprocessing_tre_2026-10-30/w16_estimators.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/preprocessing_tre_2026-10-30/w17_interval_upf_prototype.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/preprocessing_tre_2026-10-30/w17_interval_upf_rcs.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/preprocessing_tre_2026-10-30/w18_preprocessing_reader.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/server_result_check_2026-10-13/check_results.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/time_alignment_2026-10-18/01_discover.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/time_alignment_2026-10-18/02_time_alignment.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/time_alignment_2026-10-18/03_time_alignment.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/time_alignment_2026-10-18/04_verify_and_locate.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/time_alignment_2026-10-18/05_joint_windows.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/time_alignment_2026-10-18/06_finalize.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/v2_storage_2026-10-18/07_v2_storage_check.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/v2_storage_2026-10-18/08_record_v2_workspace.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/v2_storage_2026-10-18/09_finalize_v2_storage.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w02_source_inventory_2026-10-26/02_source_inventory.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w02_source_inventory_2026-10-26/02_source_inventory_corrected.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w02_source_inventory_2026-10-26/03_fix_gut_source_and_verify.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w02_source_inventory_2026-10-26/04_finalize_w02.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w02_source_inventory_2026-10-26/record_local_handoff.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w03_followup_2026-10-27/01_check_liver_schema.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w03_followup_2026-10-27/02_verify_liver_and_save_policy.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w03_followup_2026-10-27/03_inventory_liver_parquets.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w03_followup_2026-10-27/before_followup_update/outputs/researchwrite/hpp_multisystem_20261021/team_checklist_20261026/validate_checklist.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w03_followup_2026-10-27/build_local_handoff.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w03_followup_2026-10-27/record_local_progress.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w03_identity_join_2026-10-26/01_probe_contract_inputs.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w03_identity_join_2026-10-26/02_audit_identity_dates.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w03_identity_join_2026-10-26/03_verify_and_handoff.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w03_identity_join_2026-10-26/04_resolve_oral_visit_evidence.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w03_identity_join_2026-10-26/05_snapshot_final_status.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w03_identity_join_2026-10-26/record_local_handoff.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w03_identity_join_2026-10-26/validate_contract_helpers.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w04_mapping_review_2026-10-27/01_inventory_mapping_sources.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w04_mapping_review_2026-10-27/02_search_mapping_candidates.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w04_mapping_review_2026-10-27/03_audit_event_mapping_days.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w04_mapping_review_2026-10-27/04_diagnose_unknowns_and_aggregation.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w04_mapping_review_2026-10-27/05_recover_foodid_and_finalize.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w04_mapping_review_2026-10-27/06_recover_foodid_verified_io.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w04_mapping_review_2026-10-27/07_find_existing_food_dictionaries.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w04_mapping_review_2026-10-27/08_inspect_mapping_candidates_and_raw.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w04_mapping_review_2026-10-27/09_verify_and_handoff.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w04_mapping_review_2026-10-27/10_record_internal_source_scope.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w04_mapping_review_2026-10-27/11_validate_local_delivery.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w04_mapping_review_2026-10-27/deliver_local_records.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w05_nutrient_semantics_2026-10-26/01_probe_sources.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w05_nutrient_semantics_2026-10-26/05_validate_nutrients.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w05_nutrient_semantics_2026-10-26/05_validate_nutrients_v1_failed_dictionary_header.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w05_nutrient_semantics_2026-10-26/05_validate_nutrients_v2_failed_pandas_index.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w05_nutrient_semantics_2026-10-26/06_verify_w05_delivery.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w05_nutrient_semantics_2026-10-26/07_confirm_raw_stage_scope.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w05_nutrient_semantics_2026-10-26/build_local_report.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w05_nutrient_semantics_2026-10-26/record_w05_progress.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w05_nutrient_semantics_2026-10-26/validate_checklist_before_w05.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w05_nutrient_semantics_2026-10-26/validate_delivery.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w06_food_cleaning_2026-10-28/01_inspect_source_contract.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w06_food_cleaning_2026-10-28/02_build_food_views.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w06_food_cleaning_2026-10-28/03_independent_verify.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w06_food_cleaning_2026-10-28/04_record_local_delivery.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w06_food_cleaning_2026-10-28/w06a.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w06_food_cleaning_2026-10-28/w06b.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w06_food_cleaning_2026-10-28/w06c.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w07_w08_diet_views_2026-10-28/01_build_w07_w08.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w07_w08_diet_views_2026-10-28/02_verify_w07_w08.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w07_w08_diet_views_2026-10-28/03_record_delivery.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w07_w08_diet_views_2026-10-28/common_day_adapter_local.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w07_w08_diet_views_2026-10-28/launch.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w07_w08_diet_views_2026-10-28/prepare_transfer.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w09_cgm_point_qc_2026-10-28/01_probe_cgm_contract.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w09_cgm_point_qc_2026-10-28/02_probe_index_contract.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w09_cgm_point_qc_2026-10-28/03_build_point_qc.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w09_cgm_point_qc_2026-10-28/03b_build_point_qc_legacy_fix.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w09_cgm_point_qc_2026-10-28/04_independent_verify_cgm.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w09_cgm_point_qc_2026-10-28/04b_verify_corrected_calendar.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w09_cgm_point_qc_2026-10-28/05_build_w08_common.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w09_cgm_point_qc_2026-10-28/06_independent_verify_common.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w09_cgm_point_qc_2026-10-28/07_finalize_and_memo.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w09_cgm_point_qc_2026-10-28/08_display_aggregate.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w09_cgm_point_qc_2026-10-28/09_fix_calendar_contract.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w09_cgm_point_qc_2026-10-28/10_status_and_read.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w09_cgm_point_qc_2026-10-28/11_legacy_difference_and_delivery.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w09_cgm_point_qc_2026-10-28/cache_observed_results.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w09_cgm_point_qc_2026-10-28/record_local_delivery.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w09_cgm_point_qc_2026-10-28/refresh_common_transfer.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w09_cgm_point_qc_2026-10-28/validate_local_delivery.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w10_outcome_qc_2026-10-28/01_probe_contract.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w10_outcome_qc_2026-10-28/02_probe_values.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w10_outcome_qc_2026-10-28/02b_probe_values_index_fix.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w10_outcome_qc_2026-10-28/03_probe_final_fields.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w10_outcome_qc_2026-10-28/04_build_outcomes.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w10_outcome_qc_2026-10-28/05_independent_verify_and_memo.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w10_outcome_qc_2026-10-28/06_liver_aggregate_diagnostic.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w10_outcome_qc_2026-10-28/07_finalize_delivery.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w10_outcome_qc_2026-10-28/cache_observed_results.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w10_outcome_qc_2026-10-28/prepare_transfer.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w10_outcome_qc_2026-10-28/record_local_delivery.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w10_outcome_qc_2026-10-28/validate_local_delivery.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w11_w12_covariates_samples_2026-10-28/01_preflight.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w11_w12_covariates_samples_2026-10-28/02_read_contracts.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w11_w12_covariates_samples_2026-10-28/03_compact_contract.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w11_w12_covariates_samples_2026-10-28/04_covariate_value_contract.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w11_w12_covariates_samples_2026-10-28/05_sample_identity_probe.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w11_w12_covariates_samples_2026-10-28/06_focused_values_and_codes.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w11_w12_covariates_samples_2026-10-28/07_build_covariates.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w11_w12_covariates_samples_2026-10-28/08_build_sample_candidates.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w11_w12_covariates_samples_2026-10-28/09_complete_oral_health.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w11_w12_covariates_samples_2026-10-28/10_independent_verify.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w11_w12_covariates_samples_2026-10-28/11_finalize_and_memos.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w11_w12_covariates_samples_2026-10-28/12_verify_index_only_lags.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w11_w12_covariates_samples_2026-10-28/prepare_transfer.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w11_w12_covariates_samples_2026-10-28/record_local_delivery.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w11_w12_covariates_samples_2026-10-28/validate_local_delivery.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w13_microbiome_qc_2026-10-29/01_sync_and_preflight.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w13_microbiome_qc_2026-10-29/02_scan_and_identity_probe.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w13_microbiome_qc_2026-10-29/03_resolve_storage_and_specimen_evidence.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w13_microbiome_qc_2026-10-29/03b_resolve_exact_source_evidence.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w13_microbiome_qc_2026-10-29/04_match_native_profiles.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w13_microbiome_qc_2026-10-29/05_build_provisional_qc_and_selection.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w13_microbiome_qc_2026-10-29/06_independent_source_and_selection_verify.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w13_microbiome_qc_2026-10-29/07_publish_locked_registry.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w13_microbiome_qc_2026-10-29/08_final_readback.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w13_microbiome_qc_2026-10-29/prepare_transfer.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w13_microbiome_qc_2026-10-29/record_local_delivery.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w13_microbiome_qc_2026-10-29/validate_local_delivery.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w14_eligibility_2026-10-29/01_preflight.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w14_eligibility_2026-10-29/02_build_CGM_visit.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w14_eligibility_2026-10-29/03_inspect_interfaces.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w14_eligibility_2026-10-29/03b_compact_interfaces.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w14_eligibility_2026-10-29/04_build_candidates.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w14_eligibility_2026-10-29/05_independent_verify.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w14_eligibility_2026-10-29/06_publish_candidates.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w14_eligibility_2026-10-29/07_final_readback.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w14_eligibility_2026-10-29/08_seal_delivery.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w14_eligibility_2026-10-29/08b_seal_without_append.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w14_eligibility_2026-10-29/prepare_transfer.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w14_eligibility_2026-10-29/record_local_delivery.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w14_eligibility_2026-10-29/transcribe_aggregate.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w14_eligibility_2026-10-29/validate_local_delivery.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w15_split_access_2026-10-29/01_preflight_commit.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w15_split_access_2026-10-29/02_build_order_and_ledger.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w15_split_access_2026-10-29/03_independent_verify.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w15_split_access_2026-10-29/04_publish.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w15_split_access_2026-10-29/05_final_readback.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w15_split_access_2026-10-29/build_local_delivery.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w15_split_access_2026-10-29/prepare_transfer.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w15_split_access_2026-10-29/refine_checklist.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w15_split_access_2026-10-29/validate_local_delivery.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w19_discovery_2026-11-01/32_register_W19_inputs.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w19_discovery_2026-11-01/33_test_W19_baselines.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w19_discovery_2026-11-01/34_run_W19_baselines.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w19_discovery_2026-11-01/34_wait_record.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w19_discovery_2026-11-01/35_read_W19_status.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w19_discovery_2026-11-01/36_verify_seal_W19.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w19_discovery_2026-11-01/37_register_test_W20.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w19_discovery_2026-11-01/38_run_W20_scores.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w19_discovery_2026-11-01/38_wait_record.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w19_discovery_2026-11-01/39_read_W20_status.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w19_discovery_2026-11-01/40_verify_seal_W20.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w19_discovery_2026-11-01/prepare_background34.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w19_discovery_2026-11-01/prepare_background38.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w19_discovery_2026-11-01/prepare_transfer.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w19_discovery_2026-11-01/w19_baseline_core.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w19_discovery_2026-11-01/w20_score_core.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w20_simplified_2026-11-01/41_register_v2_inputs.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w20_simplified_2026-11-01/42_test_register_v2.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w20_simplified_2026-11-01/43_launch_v2.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w20_simplified_2026-11-01/43_run_v2.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w20_simplified_2026-11-01/43_wait_record.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w20_simplified_2026-11-01/44_read_v2_status.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w20_simplified_2026-11-01/45_verify_v2.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w20_simplified_2026-11-01/46_compact_delivery.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w20_simplified_2026-11-01/build_input.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w20_simplified_2026-11-01/matched_oracle_control.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w20_simplified_2026-11-01/prepare_transfer.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w20_simplified_2026-11-01/v2_ridge_core.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w20_targeted_2026-11-01/47_preflight.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w20_targeted_2026-11-01/current_run/48_register.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w20_targeted_2026-11-01/current_run/49_models.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w20_targeted_2026-11-01/current_run/49b_models.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w20_targeted_2026-11-01/current_run/50_daily.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w20_targeted_2026-11-01/current_run/50b_daily.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w20_targeted_2026-11-01/current_run/51_verify.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w20_targeted_2026-11-01/current_run/51b_verify.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w20_targeted_2026-11-01/current_run/52_seal.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w20_targeted_2026-11-01/current_run/52b_seal.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w20_targeted_2026-11-01/current_run/prepare_launch.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w20_targeted_2026-11-01/current_run/prepare_launch_b.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w20_targeted_2026-11-01/current_run/prepare_package.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w20_targeted_2026-11-01/current_run/prepare_verify.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w20_targeted_2026-11-01/current_run/targeted_core.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "audits/w20_targeted_2026-11-01/prepare_preflight_transfer.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "outputs/diet_feature_review_20261026/extract_feature_tables.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "outputs/diet_feature_review_20261026/validate_extraction.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "outputs/researchwrite/hpp_multisystem_20261021/team_checklist_20261026/prepare_checklist.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "outputs/researchwrite/hpp_multisystem_20261021/team_checklist_20261026/validate_checklist.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "outputs/w04_diet_definition_20261026/scripts/04_build_diet_spec.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "outputs/w04_diet_definition_20261026/scripts/record_w04_progress.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "outputs/w04_diet_definition_20261026/scripts/validate_w04.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "reports/build_advantage_report.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "reports/build_astra_advice.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "reports/build_claude_translation_zh.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "reports/build_existing_data_advice.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "reports/build_joint_novelty_report.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "reports/build_method_report.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "reports/build_oral_gut_vision.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "reports/build_project_register_v3_20261023.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "reports/build_report.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "reports/build_research_vision.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "reports/build_supplementary_experiments.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "reports/validate_project_plan_v3_20261023.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "scripts/preprocessing_v1_20261030.py",
+    "status": "PASS",
+    "message": null
+  },
+  {
+    "source_path": "scripts/test_preprocessing_v1_20261030.py",
+    "status": "PASS",
+    "message": null
+  }
+]

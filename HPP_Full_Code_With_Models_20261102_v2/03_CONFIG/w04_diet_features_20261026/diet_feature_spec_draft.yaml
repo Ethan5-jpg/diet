@@ -1,0 +1,305 @@
+{
+  "workpackage": "W04",
+  "version": "diet_feature_spec_draft_20261026_v1",
+  "format": "JSON syntax valid YAML 1.2",
+  "status": "definition_draft_complete_empirical_validation_pending",
+  "provenance": "Codex implementation of prior Astra max dietary assessment and user-approved W04; no new Astra review",
+  "common": {
+    "status": "draft_candidate_not_formal_protocol",
+    "adoption_gate": "W05/W06/W07/W08 blind exposure QC; W14 module eligibility; W17 precision; W18 package/aggregation freeze; W22 all confirmation modules frozen",
+    "current_analysis_protocol_changed": false,
+    "participant_values_computed": false,
+    "event_source": {
+      "path": "/home/ec2-user/studies/hpp_datasets/diet_logging/diet_logging_events.parquet",
+      "keys": [
+        "participant_id",
+        "cohort",
+        "research_stage"
+      ],
+      "physical_candidate_columns": [
+        "food_id",
+        "weight_g",
+        "calories_kcal",
+        "dietary_fiber_g",
+        "food_category",
+        "collection_date",
+        "collection_timestamp",
+        "local_timestamp"
+      ],
+      "semantic_status": "columns located; intake units/conversion not verified"
+    },
+    "day_rules": [
+      "Use W06 verified calendar-day and edited-event registry, not event count as meals.",
+      "Unrecorded day is missing, not zero intake.",
+      "E_d must be finite and positive; invalid/missing event energy not silently zero.",
+      "Food energy/grams are validated event-intake quantities; multiply weight/100 exactly once only if source definition proves per-100g."
+    ],
+    "window_rules": {
+      "D_Glu": "valid food-CGM common days",
+      "Daily_CGM": "those valid daily observations with frozen D_Glu score",
+      "D_TotalFat_D_VAT_D_Liver_D_BMI": "own qualified food_window; no CGM requirement",
+      "P_Glu_Liver": "rebuild shared window from E_Glu and E_Liver",
+      "P_VAT_TotalFat": "rebuild shared food_window from relevant E intersection",
+      "same_visit_microbiome": "unchanged; no fixed lag or unique-date restriction"
+    },
+    "aggregation": {
+      "recommended_draft": "equal weight over qualified recorded days",
+      "alternative": "ratio of cumulative numerator to cumulative total energy",
+      "formal_choice_frozen": false,
+      "never_mix": "Store separate IDs; W18 picks primary before supervised/confirmation protocol freeze. Legacy V3 carb-for-fat cumulative ratio is not replaced by this draft."
+    },
+    "historical_outcome_contact": "Known early same-project NOVA4/fiber x gut/CGM exploration. W04 is not outcome-naive feature invention; do not use old p-values for selection."
+  },
+  "priority_candidates": [
+    {
+      "feature_id": "UPF_recordday_mean_pp_candidate",
+      "name_zh": "NOVA4食物能量占比（合格记录日等权均值；候选）",
+      "tier": "priority_candidate_1",
+      "existing_or_derived": "Existing definition; current FoodID implementation still pending",
+      "source_cells": [
+        {
+          "sheet": "Other",
+          "cell": "D9",
+          "text": "100 × energy from NOVA group 4 foods / total daily energy (%)"
+        },
+        {
+          "sheet": "Other",
+          "cell": "A13",
+          "text": "NOVA: classification group 1–4. Blank entries are unclassified in the source table."
+        },
+        {
+          "sheet": "Other",
+          "cell": "A28",
+          "text": "Pattern-eligibility flags and NOVA processing groups are separate fields. Pattern scores use the relevant eligibility column; ultra-processed food share uses NOVA group 4."
+        }
+      ],
+      "food_mapping": "643 Food-name catalog, NOVA column; no FoodID. W07 exact/reviewed crosswalk with version and unresolved classes; no silent fuzzy mapping.",
+      "variables": {
+        "E_d": "sum verified energy of all retained food events that day, including unclassified NOVA energy",
+        "K_d": "verified energy with confirmed NOVA==4",
+        "U_d": "energy whose NOVA is missing/unmapped/ambiguous"
+      },
+      "daily_formula": "D_UPF_d = 100 * K_d / E_d only when U_d==0 or a separately approved uncertainty policy identifies a point",
+      "unknown_policy": {
+        "always_save": [
+          "NOVA energy coverage = 1-U_d/E_d",
+          "lower_bound_pp = 100*K_d/E_d",
+          "upper_bound_pp = 100*(K_d+U_d)/E_d"
+        ],
+        "point_with_unknown": "null by default; do not relabel lower bound as exact UPF. W07 may resolve mapping or predefine a justified uncertainty strategy and separate feature ID. No accepted coverage threshold selected in W04.",
+        "prohibited": [
+          "Unknown NOVA treated as non-UPF",
+          "Denominator changed to classified energy without renaming",
+          "NOVA 1-4 numeric average"
+        ]
+      },
+      "units": "percentage points, 0..100; not fraction 0..1",
+      "person_formula": "mean(D_UPF_d over module-qualified days), with point values available under frozen policy",
+      "alternative_feature_id": "UPF_window_energyweighted_pp_candidate",
+      "alternative_formula": "100 * sum(K_d) / sum(E_d); bounds likewise, with uncertainty gate",
+      "missingness": "No valid E or unresolved point => point missing; retain bounds and reason; no complete-case restriction from unrelated phenotype/score.",
+      "proposed_contrast_not_frozen": {
+        "delta": 10,
+        "unit": "percentage points",
+        "condition": "joint support and precision verified before freeze"
+      },
+      "conditional_question": "At specified total recorded energy, more NOVA4 relative to remaining food mixture; not a named food replacement or identified processing intervention.",
+      "next_gates": [
+        "W05 energy semantics",
+        "W06 valid dates/events",
+        "W07 FoodID/NOVA weighted coverage and ambiguity",
+        "W08 feature views",
+        "W08 support/reliability and W22 final score support"
+      ]
+    },
+    {
+      "feature_id": "FIBER_DENSITY_recordday_mean_g_per_1000kcal_candidate",
+      "name_zh": "膳食纤维密度（g/1000 kcal，合格记录日等权均值；候选）",
+      "tier": "priority_candidate_2",
+      "existing_or_derived": "Deterministic standardization of existing fiber and energy; not a new score",
+      "source_cells": [
+        {
+          "sheet": "Nutrients",
+          "cell": "A5",
+          "text": "Dietary fibre intake (g/day)"
+        },
+        {
+          "sheet": "Nutrients",
+          "cell": "A2",
+          "text": "Daily energy intake (kcal)"
+        },
+        {
+          "sheet": "Dash",
+          "cell": "C6",
+          "text": "≥14.8 g/1,000 kcal"
+        },
+        {
+          "sheet": "Dash",
+          "cell": "D6",
+          "text": "≥9.5 g/1,000 kcal"
+        }
+      ],
+      "variables": {
+        "F_d": "sum validated dietary_fiber_g as actual retained-event intake, after W05 conversion only",
+        "E_d": "all validated retained-event energy"
+      },
+      "daily_formula": "D_FIBER_d = 1000 * F_d / E_d",
+      "units": "g/1000 kcal",
+      "person_formula": "mean(D_FIBER_d over module-qualified days)",
+      "alternative_feature_id": "FIBER_DENSITY_window_energyweighted_g_per_1000kcal_candidate",
+      "alternative_formula": "1000 * sum(F_d) / sum(E_d)",
+      "missingness": "Unknown fiber is not 0. Incomplete numerator or denominator means point missing unless documented recovery is validated; negative/nonfinite values handled by W05/W06, never absolute-valued.",
+      "proposed_contrast_not_frozen": {
+        "delta": 5,
+        "unit": "g/1000 kcal",
+        "condition": "between-person and within-person support checked separately"
+      },
+      "conditional_question": "Fiber density association at specified recorded energy; not fiber fermentability, SCFA production or an identified fiber intervention.",
+      "next_gates": [
+        "W05 energy and fiber semantics/conversion",
+        "W06 retained events/days",
+        "W08 feature views",
+        "W08 between/within-person reliability and W22 final score support"
+      ]
+    }
+  ],
+  "source_explanations": [
+    {
+      "feature_id": "SRC_juice_softdrinks",
+      "tier": "exploratory_source_description_not_formal_confirmation",
+      "source_cells": [
+        {
+          "sheet": "Categories",
+          "cell": "A31",
+          "text": "fruit juices and soft drinks"
+        }
+      ],
+      "name_and_boundary": "果汁及软饮；不能改称纯SSB",
+      "formula": "100 * verified energy in union of mapped categories / total retained energy; count each cleaned event once within union",
+      "person_aggregation": "same frozen day/window convention as main exposure",
+      "gate": "Actual food_category or FoodID crosswalk must prove labels, mutual overlap and version; catalog NOVA flags do not supply these categories"
+    },
+    {
+      "feature_id": "SRC_sweets_baked_snacks",
+      "tier": "exploratory_source_description_not_formal_confirmation",
+      "source_cells": [
+        {
+          "sheet": "Categories",
+          "cell": "A14",
+          "text": "sweets"
+        },
+        {
+          "sheet": "Categories",
+          "cell": "A15",
+          "text": "baked goods"
+        },
+        {
+          "sheet": "Categories",
+          "cell": "A16",
+          "text": "Snacks"
+        }
+      ],
+      "name_and_boundary": "甜食／烘焙／零食并集；非添加糖克数",
+      "formula": "100 * verified energy in union of mapped categories / total retained energy; count each cleaned event once within union",
+      "person_aggregation": "same frozen day/window convention as main exposure",
+      "gate": "Actual food_category or FoodID crosswalk must prove labels, mutual overlap and version; catalog NOVA flags do not supply these categories"
+    },
+    {
+      "feature_id": "SRC_wholegrain_union",
+      "tier": "exploratory_source_description_not_formal_confirmation",
+      "source_cells": [
+        {
+          "sheet": "Categories",
+          "cell": "A13",
+          "text": "Cereals_wholewheat"
+        },
+        {
+          "sheet": "Categories",
+          "cell": "A18",
+          "text": "Pasta, Grains and Side dishes_wholewheat"
+        },
+        {
+          "sheet": "Categories",
+          "cell": "A21",
+          "text": "Bread_wholewheat"
+        }
+      ],
+      "name_and_boundary": "三类全谷并集；非标准干重全谷克数",
+      "formula": "100 * verified energy in union of mapped categories / total retained energy; count each cleaned event once within union",
+      "person_aggregation": "same frozen day/window convention as main exposure",
+      "gate": "Actual food_category or FoodID crosswalk must prove labels, mutual overlap and version; catalog NOVA flags do not supply these categories"
+    },
+    {
+      "feature_id": "SRC_legumes",
+      "tier": "exploratory_source_description_not_formal_confirmation",
+      "source_cells": [
+        {
+          "sheet": "Categories",
+          "cell": "A19",
+          "text": "Pulses and products"
+        }
+      ],
+      "name_and_boundary": "豆类及制品；非全部可发酵底物",
+      "formula": "100 * verified energy in union of mapped categories / total retained energy; count each cleaned event once within union",
+      "person_aggregation": "same frozen day/window convention as main exposure",
+      "gate": "Actual food_category or FoodID crosswalk must prove labels, mutual overlap and version; catalog NOVA flags do not supply these categories"
+    }
+  ],
+  "background_score": {
+    "feature_id": "I_MEDAS_NCDiet_adapted_20261026_background_candidate",
+    "display_name": "NC-Diet适配版I-MEDAS（0–17分；2026-10-26定义快照）",
+    "tier": "one_background_benchmark_not_main_exposure",
+    "source_cells": [
+      {
+        "sheet": "I-MEDAS",
+        "cell": "A35",
+        "text": "Scoring: the first 14 criteria contribute 1 point each when met and 0 otherwise. The combined sweets, snacks and baked-goods component contributes 0–3 points. Total range: 0–17."
+      },
+      {
+        "sheet": "I-MEDAS",
+        "cell": "C2",
+        "text": "(Med oil and fats) – (Oils and fats)"
+      },
+      {
+        "sheet": "I-MEDAS",
+        "cell": "C3",
+        "text": "(Poultry and its products) - (Beef veal lamb and other meat products)"
+      },
+      {
+        "sheet": "I-MEDAS",
+        "cell": "C26",
+        "text": "(MedOilandfats*energy_kcal/80)*7"
+      }
+    ],
+    "structure": "14 binary components plus one 0..3 sweets component; 15 components, range 0..17; rows 15..17 are not three independent binary questions",
+    "not_equivalent_to": [
+      "Unmodified standard MEDAS",
+      "CSV Mediterranean eligibility share",
+      "Verified olive-oil use or intake frequency"
+    ],
+    "open_definitions": [
+      "Category values fraction vs percent vs energy",
+      "Mean share times mean energy versus mean daily category energy",
+      "Med Oil and fats proxies for olive oil and hummus/tahini",
+      "Exact retained-day/person implementation and alcohol component"
+    ],
+    "implementation_status": "not implemented; exact prior adapted code unavailable here; do not backfill cutoffs or rescale components",
+    "fallback": "DASH is a named replacement candidate only if I-MEDAS cannot be reconstructed; record and freeze before analysis. Do not compute both and choose by metabolic p-values.",
+    "missingness": "Unresolved score components do not exclude otherwise eligible UPF/fiber subjects",
+    "model_use": "Descriptive/background comparison only; not automatically adjusted in primary model because components overlap exposures and change the conditional question"
+  },
+  "packages": {
+    "A": "UPF and fiber as two separate scalar questions; proposed 29 blocks with UPF-only formal Daily or 30 with both; precision/budget gate, not adopted",
+    "B": "One frozen primary exposure; UPF prioritized for validation, fiber can replace on pre-outcome data-validity/support evidence, never on p-values; 15-block structure must be rewritten",
+    "formal_selected_package": null
+  },
+  "excluded_from_initial_main": [
+    "All 643 individual food interactions",
+    "Five total scores as simultaneous main exposures",
+    "Ad hoc oral-contact or microbiome-derived dietary score",
+    "NOVA numeric average",
+    "Unverified hPDI/AHEI/EAT total scores"
+  ],
+  "actual_cohort_N": null,
+  "participant_discovery_confirmation_frozen": false
+}

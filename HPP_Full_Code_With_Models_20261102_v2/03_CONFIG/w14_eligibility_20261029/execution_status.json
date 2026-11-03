@@ -1,0 +1,10 @@
+{
+  "run_id": "w14_eligibility_20261029",
+  "status": "completed_technical_candidate_delivery",
+  "summary": "W14已在TRE完成构建、独立重建、正式发布及最终读回，01/02/03/03b/04/05/06/07/08b实际exit均0，08挂载盘追加失败exit1已由08b恢复。10个人级模块＋Daily、两饮食候选，36正式产物；registry224477行，W15候选并集6305人。基础E：血糖5876、总脂4338、VAT4284，肝前五项各4591、声速4597，BMI6290。CGM独立访视汇总与日级共同日分开；六肝各自准入；UPF保留界限；用药按用户确认保留三窗口三状态，确认未用药证据缺失不改0。窗口／条件／支持／q/rank／角色和最终N尚未冻结，无训练或关联。下一步W15。",
+  "aggregate_sha256": "7c101a000fee7bafc6559633943d4a2bb2edafb3e7ca9c99877c6576f907e370",
+  "medication_window_user_decision": "retain_food_outcome_envelope_choose_at_W18",
+  "next": "W15",
+  "human_review_complete": false,
+  "models_run": false
+}

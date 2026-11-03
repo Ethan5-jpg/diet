@@ -1,0 +1,77 @@
+{
+  "status": "event_unit_semantics_verified_quality_cleaning_pending",
+  "scope": "Local authored reference; canonical executed config is the TRE run file. No individual data exported.",
+  "tre_canonical_config": "/home/ec2-user/studies/diet_gut_cgm_v2/multisystem_project_20261021/config/w05_nutrients_20261026T153805Z/nutrient_semantics.yaml",
+  "run": "w05_nutrients_20261026T153805Z",
+  "official_reference": "https://knowledgebase.pheno.ai/datasets/005-diet_logging.html",
+  "primary_source": "diet_logging/diet_logging_events.parquet",
+  "raw_source": "diagnostic only; never pool with processed or infer baseline from undefined",
+  "fields": {
+    "weight_g": {
+      "unit": "g",
+      "basis": "logged_food_event_weight",
+      "multiplier": 1.0,
+      "weight_rescaling": false,
+      "missing": "preserve_NA",
+      "invalid": "flag; W06 must adjudicate before feature aggregation"
+    },
+    "calories_kcal": {
+      "unit": "kcal",
+      "basis": "logged_food_event_intake",
+      "multiplier": 1.0,
+      "weight_rescaling": false,
+      "missing": "preserve_NA",
+      "invalid": "flag; W06 must adjudicate before feature aggregation"
+    },
+    "carbohydrate_g": {
+      "unit": "g",
+      "basis": "logged_food_event_intake",
+      "multiplier": 1.0,
+      "weight_rescaling": false,
+      "missing": "preserve_NA",
+      "invalid": "flag; W06 must adjudicate before feature aggregation"
+    },
+    "lipid_g": {
+      "unit": "g",
+      "basis": "logged_food_event_intake",
+      "multiplier": 1.0,
+      "weight_rescaling": false,
+      "missing": "preserve_NA",
+      "invalid": "flag; W06 must adjudicate before feature aggregation"
+    },
+    "protein_g": {
+      "unit": "g",
+      "basis": "logged_food_event_intake",
+      "multiplier": 1.0,
+      "weight_rescaling": false,
+      "missing": "preserve_NA",
+      "invalid": "flag; W06 must adjudicate before feature aggregation"
+    },
+    "alcohol_g": {
+      "unit": "g",
+      "basis": "logged_food_event_intake",
+      "multiplier": 1.0,
+      "weight_rescaling": false,
+      "missing": "preserve_NA",
+      "invalid": "flag; W06 must adjudicate before feature aggregation"
+    },
+    "dietary_fiber_g": {
+      "unit": "g",
+      "basis": "logged_food_event_intake",
+      "multiplier": 1.0,
+      "weight_rescaling": false,
+      "missing": "preserve_NA",
+      "invalid": "flag; W06 must adjudicate before feature aggregation"
+    }
+  },
+  "energy": "preserve source calories_kcal; macro energy diagnostics are not replacements",
+  "alcohol": "observed alcohol_g only; no energy-residual recovery, assumed ABV or missing-to-zero",
+  "unresolved": [
+    "W06 edits/duplicates/missing/extreme events and raw visit lineage",
+    "W07 NOVA mapping/version",
+    "carbohydrate includes/excludes fiber, fiber/polyol energy factors",
+    "mixed recipes and raw/cooked ingredient composition"
+  ],
+  "individual_features_computed": false,
+  "formal_protocol_frozen": false
+}

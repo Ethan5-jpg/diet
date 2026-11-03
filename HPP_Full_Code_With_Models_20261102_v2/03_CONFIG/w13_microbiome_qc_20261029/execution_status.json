@@ -1,0 +1,14 @@
+{
+  "protocol_version": "multisystem_v3_user_amendment_20261029",
+  "TRE_user_amendment_sync_completed": true,
+  "dated_policy_files_are_synced_source_snapshots_not_live_execution_status": true,
+  "current_remote_pointer": "/home/ec2-user/studies/diet_gut_cgm_v2/multisystem_project_20261021/config/ACTIVE_PROTOCOL.json",
+  "remote_final_verification": "/home/ec2-user/studies/diet_gut_cgm_v2/multisystem_project_20261021/data_qc/w13_microbiome_qc_20261029/final_delivery_verification.json",
+  "W13_completed": true,
+  "final_artifacts_readback_verified": 29,
+  "actual_final_exit_code": 0,
+  "aggregate_canonical_sha256": "bf928a386b378f565fa1b2f76c597d4e7fc2c3e7986d059ec498a54c585bb538",
+  "evidence": "audits/w13_microbiome_qc_2026-10-29/08_final_delivery_exit0.png",
+  "next": "W14",
+  "W14_run": false
+}

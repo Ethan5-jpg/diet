@@ -1,0 +1,60 @@
+{
+  "status": "user_scope_and_mean_rule_fixed_actual_construction_pending_W10",
+  "key": [
+    "participant_id",
+    "cohort",
+    "research_stage"
+  ],
+  "phenotype_count": 6,
+  "source_raw": "/home/ec2-user/studies/hpp_datasets/liver_ultrasound/liver_ultrasound.parquet",
+  "fields": [
+    {
+      "phenotype_id": "elasticity",
+      "label": "弹性",
+      "raw_field": "elasticity_qbox_mean",
+      "matching_existing_aggregate_candidate": "elasticity_mean_mean_of_qboxes",
+      "unit": "kPa"
+    },
+    {
+      "phenotype_id": "velocity",
+      "label": "剪切波速度",
+      "raw_field": "velocity_qbox_mean",
+      "matching_existing_aggregate_candidate": "velocity_mean_mean_of_qboxes",
+      "unit": "m/s"
+    },
+    {
+      "phenotype_id": "viscosity",
+      "label": "黏度",
+      "raw_field": "viscosity_qbox_mean",
+      "matching_existing_aggregate_candidate": "viscosity_mean_mean_of_qboxes",
+      "unit": "Pa·s"
+    },
+    {
+      "phenotype_id": "dispersion",
+      "label": "频散",
+      "raw_field": "dispersion_qbox_mean",
+      "matching_existing_aggregate_candidate": "dispersion_mean_mean_of_qboxes",
+      "unit": "(m/s)/kHz"
+    },
+    {
+      "phenotype_id": "attenuation",
+      "label": "衰减系数",
+      "raw_field": "attenuation_coefficient_qbox",
+      "matching_existing_aggregate_candidate": null,
+      "unit": "dB/cm/MHz"
+    },
+    {
+      "phenotype_id": "speed_of_sound",
+      "label": "超声声速",
+      "raw_field": "speed_of_sound_qbox",
+      "matching_existing_aggregate_candidate": null,
+      "unit": "m/s"
+    }
+  ],
+  "aggregation": "arithmetic_mean_over_QC_valid_measurements_within_person_cohort_stage",
+  "weighting": "equal_weight_valid_measurement_rows; no weighting specified by user",
+  "no_min_max_SD_or_alternative_aggregation_outcomes": true,
+  "do_not_require_all_six_nonmissing_in_single_outcome_analysis": true,
+  "no_individual_values_computed": true,
+  "new_primary_secondary_hypothesis_budget_not_frozen_here": true
+}

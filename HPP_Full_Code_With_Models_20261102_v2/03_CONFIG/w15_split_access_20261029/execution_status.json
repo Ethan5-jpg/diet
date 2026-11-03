@@ -1,0 +1,38 @@
+{
+  "run_id": "w15_split_access_20261029",
+  "status": "W15_complete_global_order_history_ledger_workflow_guard",
+  "actual_exit_codes": {
+    "01": 0,
+    "02": 0,
+    "03": 0,
+    "04": 0,
+    "05": 0
+  },
+  "aggregate_sha256": "ac54b8aad00e6228c107e6e781306b9243b864ebba5d071faaa1b64c8e0d5284",
+  "remote_aggregate_SHA256_visually_matched": true,
+  "independent_BFS_checks": 61,
+  "published_readback_checks": 82,
+  "production_artifacts_verified": 10,
+  "new_scientific_Y_values_read": 0,
+  "individual_data_exported": false,
+  "module_membership_counts": {
+    "D_BMI": 6290,
+    "D_Glu": 5876,
+    "Daily_CGM": 5811,
+    "D_Liver_speed_of_sound": 4597,
+    "D_Liver_velocity": 4591,
+    "D_Liver_viscosity": 4591,
+    "D_Liver_elasticity": 4591,
+    "D_Liver_attenuation": 4591,
+    "D_Liver_dispersion": 4591,
+    "D_TotalFat": 4338,
+    "D_VAT": 4284
+  },
+  "historical_contact_evidence": "user declaration plus existing W04 records; colleague self confirmation and exact-ID history audit incomplete",
+  "human_review_complete": false,
+  "access_control_scope": "workflow/API guard; no filesystem ACL or cryptographic sealing",
+  "remote_completion": "/home/ec2-user/studies/diet_gut_cgm_v2/multisystem_project_20261021/data_qc/w15_split_access_20261029/completion_status.json",
+  "remote_final_verification": "/home/ec2-user/studies/diet_gut_cgm_v2/multisystem_project_20261021/data_qc/w15_split_access_20261029/final_delivery_verification.json",
+  "actual_exit_records": "/home/ec2-user/multisystem_runtime_20261021/w15_split_access_20261029/{01,02,03,04,05}_actual_exit_code",
+  "next_workpackage": "W16"
+}
