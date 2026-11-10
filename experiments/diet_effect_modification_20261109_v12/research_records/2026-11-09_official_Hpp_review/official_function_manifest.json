@@ -1,0 +1,46 @@
+{
+  "checked_on": "2026-11-09",
+  "scope": "Public official HPP/Pheno.AI documentation only; no participant data fetched.",
+  "user_scope": "以官网公开可用性和字典为后续数据查找边界，不扩展未知资源的泛扫描。",
+  "dataset": "oral_microbiome",
+  "provider_documented_processing": "HUMAnN 3.6",
+  "preferred_group_mapping_fields": [
+    {
+      "role": "gene_family",
+      "field": "humann_aggregated_gene_familites_gene_level_arrow",
+      "documented_extension": "arrow",
+      "documented_stratum": "Primary",
+      "source_url": "https://knowledgebase.pheno.ai/datasets/070-oral_microbiome.html"
+    },
+    {
+      "role": "pathway_abundance",
+      "field": "humann_aggregated_pathway_abundance_pathway_level_arrow",
+      "documented_extension": "arrow",
+      "documented_stratum": "Primary",
+      "source_url": "https://knowledgebase.pheno.ai/datasets/070-oral_microbiome.html"
+    },
+    {
+      "role": "pathway_coverage",
+      "field": "humann_aggregated_pathway_coverage_pathway_level_arrow",
+      "documented_extension": "arrow",
+      "documented_stratum": "Primary",
+      "source_url": "https://knowledgebase.pheno.ai/datasets/070-oral_microbiome.html"
+    }
+  ],
+  "stratified_group_fields": [
+    "humann_aggregated_gene_familites_microbiome_level_arrow",
+    "humann_aggregated_pathway_abundance_microbiome_level_arrow",
+    "humann_aggregated_pathway_coverage_microbiome_level_arrow"
+  ],
+  "source_index_relative_location": "oral_microbiome/oral_microbiome.parquet",
+  "individual_parquet_fields_are_supporting_not_preferred_route": true,
+  "units_from_dictionary": null,
+  "physical_arrow_encoding_verified": false,
+  "native_field_values_or_file_access_verified": false,
+  "locked_specimen_and_3343_person_overlap_verified": false,
+  "gut_ready_function_table_in_public_dictionary": "not listed; treat as unavailable for current ready-input plan, not a universal biological/data absence claim",
+  "official_gut_functional_research_exists": true,
+  "date_dictionary_status": "provider definition obtained; record-specific lineage and causal ordering not independently revalidated",
+  "readiness_boundary": "Documented availability is distinct from local access, specimen identity, units and quality.",
+  "no_model_or_outcome_analysis_run": true
+}

@@ -1,0 +1,107 @@
+{
+  "version": "v6_20261107",
+  "outcome": "D_Glu",
+  "exposure": "fiber_density",
+  "confirmation_outcomes_read": false,
+  "outer_repeats": 2,
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "outer_seed": 20261104,
+  "model_seed": 20261107,
+  "contrast": [
+    10.0,
+    15.0
+  ],
+  "top_k": [
+    64,
+    256,
+    0
+  ],
+  "tree_grids": {
+    "catboost": [
+      {
+        "depth": 4,
+        "iterations": 600,
+        "l2_leaf_reg": 30.0
+      },
+      {
+        "depth": 6,
+        "iterations": 600,
+        "l2_leaf_reg": 50.0
+      }
+    ],
+    "xgboost": [
+      {
+        "max_depth": 3,
+        "min_child_weight": 10,
+        "n_estimators": 600,
+        "reg_lambda": 10.0
+      },
+      {
+        "max_depth": 5,
+        "min_child_weight": 30,
+        "n_estimators": 600,
+        "reg_lambda": 30.0
+      }
+    ],
+    "hgb": [
+      {
+        "max_leaf_nodes": 7,
+        "l2_regularization": 10.0,
+        "max_iter": 160,
+        "learning_rate": 0.04,
+        "min_samples_leaf": 30
+      },
+      {
+        "max_leaf_nodes": 15,
+        "l2_regularization": 30.0,
+        "max_iter": 160,
+        "learning_rate": 0.04,
+        "min_samples_leaf": 30
+      },
+      {
+        "max_leaf_nodes": 31,
+        "l2_regularization": 30.0,
+        "max_iter": 240,
+        "learning_rate": 0.03,
+        "min_samples_leaf": 30
+      }
+    ]
+  },
+  "kernels": [
+    "linear",
+    "rbf"
+  ],
+  "gut_weights": [
+    0.01,
+    0.1,
+    1.0
+  ],
+  "main_penalties": [
+    1.0,
+    0.1,
+    0.01,
+    0.001,
+    0.0001
+  ],
+  "interaction_weights": [
+    0.0,
+    0.1,
+    1.0,
+    10.0
+  ],
+  "pls_components": [
+    1,
+    3
+  ],
+  "blend_members": [
+    "catboost_oral",
+    "xgboost_oral",
+    "catboost_oral_gut",
+    "kernel_main"
+  ],
+  "dependencies": {
+    "catboost": "1.2.8",
+    "xgboost": "2.0.3"
+  }
+}

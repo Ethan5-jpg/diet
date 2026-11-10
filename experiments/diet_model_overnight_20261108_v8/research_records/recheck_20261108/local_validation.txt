@@ -1,0 +1,22 @@
+Observed final verification output (preceding test names streamed separately):
+Command: python check.py
+Local synthetic data only; macOS ARM64.
+
+ok
+test_fm_gradient_matches_finite_differences (test_models.ModelChecks.test_fm_gradient_matches_finite_differences) ... ok
+test_group_solver_matches_closed_form_orthogonal_groups (test_models.ModelChecks.test_group_solver_matches_closed_form_orthogonal_groups) ... ok
+test_sparse_correction_recovers_known_heterogeneity (test_models.ModelChecks.test_sparse_correction_recovers_known_heterogeneity) ... ok
+test_zero_interactions_equal_their_null_and_contrast_is_exact (test_models.ModelChecks.test_zero_interactions_equal_their_null_and_contrast_is_exact) ... ok
+test_goal_uses_same_pipeline_and_exact_unrounded_scores (test_pipeline.PipelineChecks.test_goal_uses_same_pipeline_and_exact_unrounded_scores) ... ok
+test_negative_pooled_r2_is_preserved_and_partial_or_leaky_batches_rejected (test_pipeline.PipelineChecks.test_negative_pooled_r2_is_preserved_and_partial_or_leaky_batches_rejected) ... ok
+test_outer_features_do_not_change_inner_choices_or_meta_weights (test_pipeline.PipelineChecks.test_outer_features_do_not_change_inner_choices_or_meta_weights) ... ok
+test_outer_labels_do_not_change_any_candidate_prediction_or_fusion_weight (test_pipeline.PipelineChecks.test_outer_labels_do_not_change_any_candidate_prediction_or_fusion_weight) ... ok
+test_ridge_warning_propagation_is_invariant_to_member_prediction_scale (test_pipeline.PipelineChecks.test_ridge_warning_propagation_is_invariant_to_member_prediction_scale) ... ok
+test_runtime_full_two_repeat_batch_resume_and_readonly_report (test_pipeline.PipelineChecks.test_runtime_full_two_repeat_batch_resume_and_readonly_report) ... ok
+test_warning_from_contributing_member_reaches_fusion_flag (test_pipeline.PipelineChecks.test_warning_from_contributing_member_reaches_fusion_flag) ... ok
+
+----------------------------------------------------------------------
+Ran 29 tests in 84.744s
+
+OK
+EXPERIMENT_STORAGE_OK

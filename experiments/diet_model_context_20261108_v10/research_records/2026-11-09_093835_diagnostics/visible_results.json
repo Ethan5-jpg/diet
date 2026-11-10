@@ -1,0 +1,244 @@
+{
+  "evidence": "User-provided diagnostic terminal screenshot",
+  "capture_time": "2026-11-09 09:38:35 Asia/Shanghai",
+  "recorded_at_utc": "2026-11-09T01:42:37.106980+00:00",
+  "original_copied": true,
+  "image_sha256": "00470185cc64e97abe50a087438f9b96c9e2510c15922a3afe72612dbcd7bcc3",
+  "run_id": "context_v10_20261108",
+  "status_visible": "COMPLETE",
+  "command_visible": "bash server_report.sh --diagnostics",
+  "matched_input_additions": [
+    {
+      "model": "hgb_oral_macro",
+      "comparator": "hgb_oral_none",
+      "delta_R2_0": 0.00813,
+      "delta_R2_1": 0.007903
+    },
+    {
+      "model": "hgb_oral_sodium",
+      "comparator": "hgb_oral_macro",
+      "delta_R2_0": -0.001202,
+      "delta_R2_1": 0.001296
+    },
+    {
+      "model": "hgb_oral_life",
+      "comparator": "hgb_oral_none",
+      "delta_R2_0": 6e-06,
+      "delta_R2_1": -0.00038
+    },
+    {
+      "model": "hgb_oral_full",
+      "comparator": "hgb_oral_sodium",
+      "delta_R2_0": 4.4e-05,
+      "delta_R2_1": -0.000413
+    },
+    {
+      "model": "cat_balanced_macro",
+      "comparator": "cat_balanced_none",
+      "delta_R2_0": 0.003567,
+      "delta_R2_1": 0.004918
+    },
+    {
+      "model": "cat_balanced_sodium",
+      "comparator": "cat_balanced_macro",
+      "delta_R2_0": -0.000426,
+      "delta_R2_1": 0.004104
+    },
+    {
+      "model": "cat_balanced_life",
+      "comparator": "cat_balanced_none",
+      "delta_R2_0": 0.000652,
+      "delta_R2_1": 0.004277
+    },
+    {
+      "model": "cat_balanced_full",
+      "comparator": "cat_balanced_sodium",
+      "delta_R2_0": 0.002491,
+      "delta_R2_1": -0.000418
+    },
+    {
+      "model": "hgb_oral_macro_life",
+      "comparator": "hgb_oral_full",
+      "delta_R2_0": 0.00076,
+      "delta_R2_1": 0.001113
+    },
+    {
+      "model": "cat_balanced_macro_life",
+      "comparator": "cat_balanced_full",
+      "delta_R2_0": -0.002222,
+      "delta_R2_1": -0.001013
+    },
+    {
+      "model": "hgb_oral_joint",
+      "comparator": "hgb_oral_full",
+      "delta_R2_0": 0.000461,
+      "delta_R2_1": 0.000864
+    },
+    {
+      "model": "cat_balanced_joint",
+      "comparator": "cat_balanced_full",
+      "delta_R2_0": 0.00179,
+      "delta_R2_1": 0.000985
+    },
+    {
+      "model": "hgb_oral_fiber_days",
+      "comparator": "hgb_oral_full",
+      "delta_R2_0": 0.00589,
+      "delta_R2_1": -0.004669
+    },
+    {
+      "model": "cat_balanced_fiber_days",
+      "comparator": "cat_balanced_full",
+      "delta_R2_0": -0.003865,
+      "delta_R2_1": -0.004447
+    },
+    {
+      "model": "hgb_oral_distribution",
+      "comparator": "hgb_oral_full",
+      "delta_R2_0": 0.002114,
+      "delta_R2_1": -0.001639
+    },
+    {
+      "model": "cat_balanced_distribution",
+      "comparator": "cat_balanced_full",
+      "delta_R2_0": 0.000434,
+      "delta_R2_1": 0.000572
+    },
+    {
+      "model": "hgb_oral_ratios",
+      "comparator": "hgb_oral_full",
+      "delta_R2_0": 0.002807,
+      "delta_R2_1": -0.001446
+    },
+    {
+      "model": "cat_balanced_ratios",
+      "comparator": "cat_balanced_full",
+      "delta_R2_0": 0.002497,
+      "delta_R2_1": 4e-06
+    },
+    {
+      "model": "ridge_macro",
+      "comparator": "ridge_base",
+      "delta_R2_0": 0.006518,
+      "delta_R2_1": 0.005425
+    },
+    {
+      "model": "ridge_full",
+      "comparator": "ridge_macro",
+      "delta_R2_0": 0.000312,
+      "delta_R2_1": 0.002076
+    },
+    {
+      "model": "ridge_diverse",
+      "comparator": "ridge_full",
+      "delta_R2_0": 0.006323,
+      "delta_R2_1": 0.008845
+    }
+  ],
+  "matched_microbial_additions": [
+    {
+      "model": "hgb_oral_full",
+      "comparator": "hgb_host_full",
+      "delta_R2_0": 0.062685,
+      "delta_R2_1": 0.07381
+    },
+    {
+      "model": "cat_balanced_full",
+      "comparator": "cat_host_full",
+      "delta_R2_0": 0.060349,
+      "delta_R2_1": 0.063505
+    },
+    {
+      "model": "cat_balanced_full",
+      "comparator": "cat_oral_full",
+      "delta_R2_0": 0.000124,
+      "delta_R2_1": -0.000654
+    }
+  ],
+  "explicit_matched_scores": [
+    {
+      "model": "fiber_gut_linear",
+      "comparator": "block_pc_balanced_full",
+      "null_R2_0": 0.077617,
+      "null_R2_1": 0.081908,
+      "fitted_R2_0": 0.078841,
+      "fitted_R2_1": 0.080282
+    },
+    {
+      "model": "fiber_oral_linear",
+      "comparator": "block_pc_balanced_full",
+      "null_R2_0": 0.077617,
+      "null_R2_1": 0.081908,
+      "fitted_R2_0": 0.075303,
+      "fitted_R2_1": 0.081908
+    },
+    {
+      "model": "fiber_both_rcs",
+      "comparator": "block_pc_balanced_full",
+      "null_R2_0": 0.077617,
+      "null_R2_1": 0.081908,
+      "fitted_R2_0": 0.077617,
+      "fitted_R2_1": 0.081908
+    },
+    {
+      "model": "fiber_gut_tree",
+      "comparator": "cat_balanced_full",
+      "null_R2_0": 0.109957,
+      "null_R2_1": 0.116989,
+      "fitted_R2_0": 0.109373,
+      "fitted_R2_1": 0.115086
+    },
+    {
+      "model": "fiber_macro",
+      "comparator": "block_pc_balanced_full",
+      "null_R2_0": 0.077617,
+      "null_R2_1": 0.081908,
+      "fitted_R2_0": 0.077589,
+      "fitted_R2_1": 0.084164
+    },
+    {
+      "model": "fiber_gut_kernel",
+      "comparator": "kernel_balanced_full",
+      "null_R2_0": 0.070024,
+      "null_R2_1": 0.075509,
+      "fitted_R2_0": 0.071266,
+      "fitted_R2_1": 0.07559
+    }
+  ],
+  "selected_fit_flag_pipelines": 0,
+  "rounding_crosscheck_against_previous_screenshot": [
+    {
+      "model": "fiber_gut_linear",
+      "max_difference_due_to_display_rounding": 1.1492543028346347e-17
+    },
+    {
+      "model": "fiber_oral_linear",
+      "max_difference_due_to_display_rounding": 1.0408340855860843e-17
+    },
+    {
+      "model": "fiber_both_rcs",
+      "max_difference_due_to_display_rounding": 0.0
+    },
+    {
+      "model": "fiber_gut_tree",
+      "max_difference_due_to_display_rounding": 9.999999999988317e-07
+    },
+    {
+      "model": "fiber_macro",
+      "max_difference_due_to_display_rounding": 1.000000000000248e-06
+    },
+    {
+      "model": "fiber_gut_kernel",
+      "max_difference_due_to_display_rounding": 6.938893903907228e-18
+    }
+  ],
+  "limitations": [
+    "Six-decimal displayed values only; full-precision server data not transferred.",
+    "Microbial input gains include main effects and any implicit interactions permitted by tree learners.",
+    "Repeated participants and adaptive discovery searches are not independent confirmation.",
+    "Conditional household intervals are referenced but not displayed.",
+    "Site addition findings apply to these matched learner/grid comparisons; no best-fusion gut ablation is shown.",
+    "Input gains are already part of their models total R2 and cannot be added to the best fusion R2."
+  ],
+  "remote_actions_performed": false
+}

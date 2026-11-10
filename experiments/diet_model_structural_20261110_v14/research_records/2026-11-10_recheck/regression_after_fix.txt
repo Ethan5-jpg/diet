@@ -1,0 +1,13 @@
+test_all_metric_heads_ignore_query_changes_in_training_inactive_columns (test_estimators.EstimatorChecks.test_all_metric_heads_ignore_query_changes_in_training_inactive_columns) ... ok
+test_all_new_regressors_preserve_constant_response_and_pickle (test_estimators.EstimatorChecks.test_all_new_regressors_preserve_constant_response_and_pickle) ... ok
+test_forest_partitions_separate_households_and_leaf_kernel_is_normalized (test_estimators.EstimatorChecks.test_forest_partitions_separate_households_and_leaf_kernel_is_normalized) ... ok
+test_graph_smoother_matches_dense_equation_and_is_inductive (test_estimators.EstimatorChecks.test_graph_smoother_matches_dense_equation_and_is_inductive) ... ok
+test_local_ridge_agrees_with_independent_unpenalized_intercept_equations (test_estimators.EstimatorChecks.test_local_ridge_agrees_with_independent_unpenalized_intercept_equations) ... ok
+test_ntk_is_psd_normalized_and_full_center_fit_matches_exact_centered_krr (test_estimators.EstimatorChecks.test_ntk_is_psd_normalized_and_full_center_fit_matches_exact_centered_krr) ... ok
+test_sparse_basis_iteration_limit_emits_a_capturable_fit_warning (test_estimators.EstimatorChecks.test_sparse_basis_iteration_limit_emits_a_capturable_fit_warning) ... ok
+test_training_inactive_columns_are_zero_for_training_and_unseen_queries (test_estimators.EstimatorChecks.test_training_inactive_columns_are_zero_for_training_and_unseen_queries) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.538s
+
+OK

@@ -1,0 +1,97 @@
+test_gate_convergence_warning_is_kept_with_the_candidate (test_regressions.RegressionChecks.test_gate_convergence_warning_is_kept_with_the_candidate) ... /private/tmp/hpp_v7_check_20261107/lib/python3.11/site-packages/sklearn/mixture/_base.py:268: ConvergenceWarning: Initialization 1 did not converge. Try different init parameters, or increase max_iter, tol or check for degenerate data.
+  warnings.warn(
+FAIL
+test_hybrid_design_replays_identically_for_training_and_validation (test_regressions.RegressionChecks.test_hybrid_design_replays_identically_for_training_and_validation) ... FAIL
+test_mixture_training_prediction_uses_the_fitted_coordinates (test_regressions.RegressionChecks.test_mixture_training_prediction_uses_the_fitted_coordinates) ... FAIL
+test_randomized_pca_training_scores_equal_replayed_projection (test_regressions.RegressionChecks.test_randomized_pca_training_scores_equal_replayed_projection) ... FAIL
+
+======================================================================
+FAIL: test_gate_convergence_warning_is_kept_with_the_candidate (test_regressions.RegressionChecks.test_gate_convergence_warning_is_kept_with_the_candidate)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/blizzardxu/Desktop/HPP/HPP_Full_Code_With_Models_20261102_v2/experiments/diet_model_expansion_20261107_v7/tests/test_regressions.py", line 63, in test_gate_convergence_warning_is_kept_with_the_candidate
+    self.assertTrue(diagnostic["warnings"])
+AssertionError: [] is not true
+
+======================================================================
+FAIL: test_hybrid_design_replays_identically_for_training_and_validation (test_regressions.RegressionChecks.test_hybrid_design_replays_identically_for_training_and_validation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/blizzardxu/Desktop/HPP/HPP_Full_Code_With_Models_20261102_v2/experiments/diet_model_expansion_20261107_v7/tests/test_regressions.py", line 41, in test_hybrid_design_replays_identically_for_training_and_validation
+    assert_allclose(actual, expected, rtol=1e-12, atol=1e-12)
+  File "/private/tmp/hpp_v7_check_20261107/lib/python3.11/site-packages/numpy/testing/_private/utils.py", line 1504, in assert_allclose
+    assert_array_compare(compare, actual, desired, err_msg=str(err_msg),
+  File "/Users/blizzardxu/.local/share/uv/python/cpython-3.11.17-macos-aarch64-none/lib/python3.11/contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/private/tmp/hpp_v7_check_20261107/lib/python3.11/site-packages/numpy/testing/_private/utils.py", line 797, in assert_array_compare
+    raise AssertionError(msg)
+AssertionError: 
+Not equal to tolerance rtol=1e-12, atol=1e-12
+
+Mismatched elements: 2880 / 8640 (33.3%)
+Max absolute difference: 0.18559059
+Max relative difference: 56.04690192
+ x: array([[ 1.      , -0.660638,  1.102445, ...,  0.405077, -1.037778,
+        -1.570873],
+       [ 1.      ,  0.261132,  1.102445, ..., -0.662056, -0.942309,...
+ y: array([[ 1.      , -0.660638,  1.102445, ...,  0.430874, -0.993794,
+        -1.522972],
+       [ 1.      ,  0.261132,  1.102445, ..., -0.703598, -0.936317,...
+
+======================================================================
+FAIL: test_mixture_training_prediction_uses_the_fitted_coordinates (test_regressions.RegressionChecks.test_mixture_training_prediction_uses_the_fitted_coordinates)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/blizzardxu/Desktop/HPP/HPP_Full_Code_With_Models_20261102_v2/experiments/diet_model_expansion_20261107_v7/tests/test_regressions.py", line 49, in test_mixture_training_prediction_uses_the_fitted_coordinates
+    assert_allclose(fit.predict(role, True), expected, rtol=1e-12, atol=1e-12)
+  File "/private/tmp/hpp_v7_check_20261107/lib/python3.11/site-packages/numpy/testing/_private/utils.py", line 1504, in assert_allclose
+    assert_array_compare(compare, actual, desired, err_msg=str(err_msg),
+  File "/Users/blizzardxu/.local/share/uv/python/cpython-3.11.17-macos-aarch64-none/lib/python3.11/contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/private/tmp/hpp_v7_check_20261107/lib/python3.11/site-packages/numpy/testing/_private/utils.py", line 797, in assert_array_compare
+    raise AssertionError(msg)
+AssertionError: 
+Not equal to tolerance rtol=1e-12, atol=1e-12
+
+Mismatched elements: 288 / 288 (100%)
+Max absolute difference: 0.07624547
+Max relative difference: 0.00080532
+ x: array([ 96.124816, 100.164749,  98.953174,  97.057832,  95.775535,
+        91.750542,  95.587488,  99.489816,  93.390504,  95.32506 ,
+       103.143926,  99.982735,  96.925531,  93.562311,  94.948098,...
+ y: array([ 96.117837, 100.190618,  98.930249,  97.013486,  95.774285,
+        91.769321,  95.565518,  99.491746,  93.423012,  95.372042,
+       103.133617,  99.942518,  96.933136,  93.562547,  94.940204,...
+
+======================================================================
+FAIL: test_randomized_pca_training_scores_equal_replayed_projection (test_regressions.RegressionChecks.test_randomized_pca_training_scores_equal_replayed_projection)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/blizzardxu/Desktop/HPP/HPP_Full_Code_With_Models_20261102_v2/experiments/diet_model_expansion_20261107_v7/tests/test_regressions.py", line 34, in test_randomized_pca_training_scores_equal_replayed_projection
+    assert_allclose(scores, pc.transform(self.split.gt) / scale, rtol=1e-12, atol=1e-12)
+  File "/private/tmp/hpp_v7_check_20261107/lib/python3.11/site-packages/numpy/testing/_private/utils.py", line 1504, in assert_allclose
+    assert_array_compare(compare, actual, desired, err_msg=str(err_msg),
+  File "/Users/blizzardxu/.local/share/uv/python/cpython-3.11.17-macos-aarch64-none/lib/python3.11/contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/private/tmp/hpp_v7_check_20261107/lib/python3.11/site-packages/numpy/testing/_private/utils.py", line 797, in assert_array_compare
+    raise AssertionError(msg)
+AssertionError: 
+Not equal to tolerance rtol=1e-12, atol=1e-12
+
+Mismatched elements: 2880 / 2880 (100%)
+Max absolute difference: 0.18559059
+Max relative difference: 239.98524679
+ x: array([[-9.767261e-02,  3.276697e-01,  7.677742e-01, ...,  4.308744e-01,
+        -9.937940e-01, -1.522972e+00],
+       [ 4.849341e-01,  1.654034e-01,  1.998350e+00, ..., -7.035979e-01,...
+ y: array([[-0.092922,  0.312661,  0.78373 , ...,  0.405077, -1.037778,
+        -1.570873],
+       [ 0.477438,  0.169228,  1.99752 , ..., -0.662056, -0.942309,...
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.435s
+
+FAILED (failures=4)

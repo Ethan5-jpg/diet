@@ -1,0 +1,49 @@
+"""Projection, covariate-context and screening behavior on synthetic data."""
+
+import pickle
+import unittest
+
+import numpy as np
+
+from features import Role, screen
+from support import fixture
+
+
+class FeatureChecks(unittest.TestCase):
+    def test_replay_matches_training_and_validation_for_every_representation(self):
+        data, cfg = fixture()
+        train = data.reference["outer"][0] != 0
+        role = Role(data.split(train, ~train, cfg["contrast"]), data.raw, data.index, 13)
+        for method in ("clr", "hellinger", "nmf", "hybrid", "pls", "pc", "screen"):
+            case = dict(count=6, components=3)
+            design = role.design("balanced", method, case, 150, joint=True)
+            state = pickle.loads(pickle.dumps(design["state"]))
+            for training, key in ((True, "xt"), (False, "xv")):
+                actual, _ = role.replay(state, training)
+                np.testing.assert_allclose(actual, design[key], atol=1e-10)
+
+    def test_interaction_screen_recovers_a_pure_modifier(self):
+        rng = np.random.default_rng(772)
+        n = 3000
+        d, z = rng.normal(size=(n, 1)), rng.normal(size=(n, 60))
+        h = np.column_stack([np.ones(n), d])
+        y = 3 * d[:, 0] * z[:, 29] + rng.normal(size=n)
+        self.assertIn(29, screen(h, z, y, 3, d))
+
+    def test_validation_features_do_not_change_factors_selectors_or_upf_imputation(self):
+        import copy
+
+        data, cfg = fixture()
+        train = data.reference["outer"][0] != 0
+        split = data.split(train, ~train, cfg["contrast"])
+        role = Role(split, data.raw, data.index, 9)
+        other_raw, other_index = copy.deepcopy(data.raw), data.index.copy()
+        for a in other_raw.values():
+            a[~train] = a[~train, ::-1]
+        other_index.loc[~train, list(cfg["upf_columns"])] = 0.9
+        other = Role(split, other_raw, other_index, 9)
+        for method in ("nmf", "hybrid", "pls", "screen"):
+            case = dict(count=4, components=3)
+            a = role.design("balanced", method, case, 150, joint=True)
+            b = other.design("balanced", method, case, 150, joint=True)
+            np.testing.assert_allclose(a["xt"], b["xt"], atol=1e-12)

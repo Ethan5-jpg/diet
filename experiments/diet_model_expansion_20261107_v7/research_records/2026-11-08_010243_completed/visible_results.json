@@ -1,0 +1,179 @@
+{
+  "source_kind": "user_provided_screenshot",
+  "screenshot_time": "2026-11-08 01:02:43 Asia/Shanghai",
+  "image_sha256": "20dc6d7e78f95ada5cc77a1f220b2111d6b6b9ff85757be601d3cbfc6206950f",
+  "run_id_expected_from_prior_commands": "main_v7_20261107",
+  "run_id_explicitly_visible": false,
+  "status": "COMPLETE",
+  "completion_marker": "17:01:49 BATCH_COMPLETE",
+  "completion_log_timezone_explicit": false,
+  "outcome": "D_Glu",
+  "unit": "mg/dL",
+  "exposure": "fiber_density",
+  "outer_folds_completed": 10,
+  "outer_folds_total": 10,
+  "N0": 3343,
+  "N1": 3343,
+  "new_pipelines": 30,
+  "score_rows_visible": 11,
+  "new_pipeline_score_rows_visible": 8,
+  "score_columns": [
+    "model",
+    "R2_0",
+    "R2_1",
+    "dR2_vs_v6_0",
+    "dR2_vs_v6_1",
+    "flag"
+  ],
+  "scores": [
+    [
+      "v4_hgb_oral",
+      "0.110525",
+      "0.107630",
+      "-0.004135",
+      "-0.007557",
+      "-"
+    ],
+    [
+      "v4_hgb_oral_gut",
+      "0.104950",
+      "0.113959",
+      "-0.009710",
+      "-0.001228",
+      "-"
+    ],
+    [
+      "v6_fusion",
+      "0.114660",
+      "0.115187",
+      "+0.000000",
+      "+0.000000",
+      "-"
+    ],
+    [
+      "ridge_stack",
+      "0.112019",
+      "0.119128",
+      "-0.002640",
+      "+0.003941",
+      "-"
+    ],
+    [
+      "convex_blend",
+      "0.111562",
+      "0.117443",
+      "-0.003098",
+      "+0.002256",
+      "-"
+    ],
+    [
+      "hgb_presence_oral",
+      "0.109854",
+      "0.109388",
+      "-0.004806",
+      "-0.005799",
+      "-"
+    ],
+    [
+      "hgb_hellinger_balanced",
+      "0.109145",
+      "0.117441",
+      "-0.005514",
+      "+0.002253",
+      "-"
+    ],
+    [
+      "hgb_presence_balanced",
+      "0.108174",
+      "0.107352",
+      "-0.006486",
+      "-0.007836",
+      "-"
+    ],
+    [
+      "inner_selector",
+      "0.103860",
+      "0.108123",
+      "-0.010800",
+      "-0.007064",
+      "-"
+    ],
+    [
+      "ebm_balanced",
+      "0.064024",
+      "0.070517",
+      "-0.050635",
+      "-0.044670",
+      "-"
+    ],
+    [
+      "additive_boost",
+      "0.104149",
+      "0.111701",
+      "-0.010511",
+      "-0.003486",
+      "-"
+    ]
+  ],
+  "interaction_columns": [
+    "model",
+    "matched_null",
+    "dR2_0",
+    "dR2_1",
+    "wins0_of5",
+    "wins1_of5",
+    "SD0_mg_dL",
+    "SD1_mg_dL",
+    "active0_of5",
+    "active1_of5"
+  ],
+  "interactions": [
+    [
+      "ebm_diet_gut",
+      "ebm_balanced",
+      "+0.000000",
+      "+0.000000",
+      "0/5",
+      "0/5",
+      "0.0000",
+      "0.0000",
+      "0/5",
+      "0/5"
+    ],
+    [
+      "additive_pc_interaction",
+      "additive_boost",
+      "+0.001197",
+      "-0.002368",
+      "3/5",
+      "1/5",
+      "0.6437",
+      "0.7521",
+      "3/5",
+      "4/5"
+    ],
+    [
+      "additive_gate_interaction",
+      "additive_boost",
+      "-0.000080",
+      "+0.000128",
+      "1/5",
+      "3/5",
+      "0.3525",
+      "0.2531",
+      "3/5",
+      "4/5"
+    ]
+  ],
+  "same_pipeline_both_repeats_thresholds": {
+    "R2_ge_020": "0/30",
+    "R2_ge_030": "0/30"
+  },
+  "confirmation_data_read_reported": false,
+  "score_precision": "6 displayed decimal places; strings preserve signs and rounding",
+  "modifier_SD_precision": "4 displayed decimal places",
+  "full_precision_server_json_read_locally": false,
+  "all_30_new_model_rows_seen": false,
+  "ranking_rule_from_delivered_code": "descending minimum R2 across two repeats",
+  "flags_scope": "All visible rows have dash; unshown fits and ensemble-member warnings are not resolved by this screen"
+}

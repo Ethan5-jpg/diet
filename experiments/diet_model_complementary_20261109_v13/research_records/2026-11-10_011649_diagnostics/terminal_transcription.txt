@@ -1,0 +1,38 @@
+RUN=complementary_v13_20261109 STATUS=COMPLETE
+MATCHED NEW REPRESENTATIONS / OBJECTIVES: delta_R2 repeat0 repeat1
+hgb_sir_oral vs hgb_pc_oral: +0.010211 +0.027023
+hgb_save_oral vs hgb_pc_oral: -0.014087 -0.001007
+hgb_sir_balanced vs hgb_pc_balanced: +0.005138 +0.010107
+hgb_save_balanced vs hgb_pc_balanced: -0.007838 -0.009157
+cat_sir_oral vs cat_pc_oral: +0.013788 +0.023750
+cat_save_oral vs cat_pc_oral: -0.013630 -0.015132
+cat_sir_balanced vs cat_pc_balanced: +0.003525 +0.007599
+cat_save_balanced vs cat_pc_balanced: -0.010742 -0.028980
+mars_sir_oral vs mars_pc_oral: +0.013825 +0.018468
+mars_save_oral vs mars_pc_oral: -0.024873 -0.012965
+mars_sir_balanced vs mars_pc_balanced: +0.003469 +0.005686
+mars_save_balanced vs mars_pc_balanced: -0.013718 -0.015482
+gp_sir_oral vs gp_pc_oral: +0.015089 +0.022016
+gp_save_oral vs gp_pc_oral: -0.026138 -0.026246
+gp_sir_balanced vs gp_pc_balanced: +0.011112 +0.002489
+gp_save_balanced vs gp_pc_balanced: -0.014133 -0.030947
+bin_cat_pc_oral vs cat_pc_oral: -0.005892 -0.004069
+quantile_cat_pc_oral vs cat_pc_oral: -0.007177 -0.005007
+bin_hgb_pc_oral vs hgb_pc_oral: -0.010482 -0.000356
+bin_cat_pc_balanced vs cat_pc_balanced: -0.007640 -0.004416
+quantile_cat_pc_balanced vs cat_pc_balanced: -0.006567 -0.004320
+bin_hgb_pc_balanced vs hgb_pc_balanced: -0.004991 -0.009931
+bin_cat_save_oral vs cat_save_oral: -0.000322 +0.004546
+quantile_cat_save_oral vs cat_save_oral: -0.000935 -0.003244
+bin_hgb_save_oral vs hgb_save_oral: -0.006625 -0.007616
+bin_cat_save_balanced vs cat_save_balanced: -0.000586 +0.014419
+quantile_cat_save_balanced vs cat_save_balanced: -0.007560 +0.004356
+bin_hgb_save_balanced vs hgb_save_balanced: -0.002352 -0.011192
+convex_balanced vs convex_oral: +0.001730 +0.000448
+convex_combined vs convex_new: +0.025920 +0.028771
+ridge_balanced vs ridge_oral: +0.001851 -0.000071
+ridge_combined vs ridge_new: +0.028031 +0.029706
+positive_balanced vs positive_oral: +0.001720 +0.002310
+positive_combined vs positive_new: +0.027196 +0.030623
+Positive/negative increments are retained. Conditional intervals are in summary.json.
+Supervised directions are predictive; no pathway or causal interpretation.

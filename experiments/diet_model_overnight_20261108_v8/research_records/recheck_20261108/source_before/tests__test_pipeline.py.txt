@@ -1,0 +1,185 @@
+"""Run the actual worker on a synthetic handoff, including resume and report."""
+
+import contextlib
+import copy
+import io
+import json
+import shutil
+import tempfile
+import unittest
+from pathlib import Path
+from types import SimpleNamespace
+from unittest.mock import patch
+
+import numpy as np
+
+from bridge import V6, Memo, module
+from engine import Engine
+from registry import INTERACTIONS, REFERENCES, names
+from report import aggregate, compact, show
+from support import ROOT, FakeReference, fixture, reduced
+
+
+class Terminal(io.StringIO):
+    def isatty(self):
+        return True
+
+
+def artificial_completed(config):
+    completed = {}
+    for r in range(2):
+        for f in range(5):
+            y = np.array([float(f), float(f) + 1])
+            completed[r, f] = dict(
+                rows=np.array([2 * f, 2 * f + 1]),
+                y=y,
+                groups=np.array([str(f), str(f)]),
+                predictions={n: y + 3 for n in names(config) + list(REFERENCES)},
+                modifiers={n: np.zeros(2) for n in INTERACTIONS},
+                active={n: False for n in INTERACTIONS},
+                selected={},
+                meta={},
+                outer_diagnostics={},
+            )
+    return completed
+
+
+class PipelineChecks(unittest.TestCase):
+    def test_runtime_full_two_repeat_batch_resume_and_readonly_report(self):
+        import run as worker
+
+        data, cfg = fixture()
+        cfg, output = reduced(cfg), Terminal()
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder) / "collaborator_handoff_20261102_v1/experiments/v8"
+            root.mkdir(parents=True)
+            for p in list(ROOT.glob("*.py")) + [ROOT / "requirements.txt"]:
+                shutil.copy2(p, root / p.name)
+            (root / "config.json").write_text(json.dumps(cfg))
+            args = SimpleNamespace(run_id="synthetic", threads=1, resume=False, limit_outer=1)
+            with (
+                patch.object(worker, "ROOT", root),
+                patch.object(worker, "load", return_value=data),
+                patch.object(worker, "Reference", return_value=FakeReference()),
+                contextlib.redirect_stdout(output),
+                patch.object(worker.sys, "stderr", output),
+            ):
+                worker.execute(args)
+                run = root / "runs/synthetic"
+                self.assertFalse((run / "summary.json").exists())
+                self.assertFalse((run / "RUNNING.lock").exists())
+                first = Memo(run / "TRE_ONLY").get("r0_f0_result")
+                with patch.object(Engine, "fit", side_effect=AssertionError("Candidate unexpectedly refit")):
+                    again = Engine(cfg, Memo(run / "TRE_ONLY"), 1, FakeReference(), lambda _: None).outer(
+                        data, 0, 0
+                    )
+                for name in names(cfg):
+                    np.testing.assert_array_equal(first["predictions"][name], again["predictions"][name])
+                args.resume, args.limit_outer = True, 0
+                worker.execute(args)
+                result = json.loads((run / "summary.json").read_text())
+                self.assertEqual(result["status"], "COMPLETE")
+                self.assertEqual(len(result["scores"]), 2 * (55 + 4))
+                for name, null in INTERACTIONS.items():
+                    for r in range(2):
+                        scores = {s["model"]: s["R2"] for s in result["scores"] if s["repeat"] == r}
+                        change = next(
+                            v for v in result["comparisons"] if v["model"] == name and v["repeat"] == r
+                        )
+                        self.assertAlmostEqual(change["delta_R2"], scores[name] - scores[null], places=12)
+                show(run)
+                self.assertIn("BATCH_COMPLETE", output.getvalue())
+                self.assertLess(len(compact(result, cfg).splitlines()), 40)
+                # Report and completed-run resume must never refit an outer model.
+                with patch.object(Engine, "outer", side_effect=AssertionError("Outer unexpectedly refit")):
+                    worker.execute(args)
+                    show(run, all_models=True)
+                    show(run, fit_notes=True)
+                full_json, full_text = (run / "summary.json").read_bytes(), (run / "SUMMARY.txt").read_bytes()
+                (run / "summary.json").write_bytes(full_json[:30])
+                (run / "SUMMARY.txt").write_bytes(full_text[:30])
+                worker.execute(args)
+                self.assertEqual((run / "summary.json").read_bytes(), full_json)
+                self.assertEqual((run / "SUMMARY.txt").read_bytes(), full_text)
+                (root / "config.json").write_text(json.dumps(dict(cfg, model_seed=7)))
+                with self.assertRaises(ValueError):
+                    worker.execute(args)
+
+    def test_outer_labels_do_not_change_any_candidate_prediction_or_fusion_weight(self):
+        data, cfg = fixture()
+        cfg = reduced(cfg)
+        helper = module("v8_changed_synthetic", V6 / "tests/support.py")
+        changed = helper.changed_outer_labels(data)
+        with tempfile.TemporaryDirectory() as folder:
+            results = [
+                Engine(cfg, Memo(Path(folder) / str(j)), 1, FakeReference(), lambda _: None).outer(d, 0, 0)
+                for j, d in enumerate((data, changed))
+            ]
+        a, b = results
+        self.assertEqual(a["selected"], b["selected"])
+        self.assertEqual(a["inner_losses"], b["inner_losses"])
+        self.assertEqual(a["meta"], b["meta"])
+        for name in names(cfg):
+            np.testing.assert_array_equal(a["predictions"][name], b["predictions"][name])
+
+    def test_outer_features_do_not_change_inner_choices_or_meta_weights(self):
+        data, cfg = fixture()
+        cfg = reduced(cfg)
+        changed = copy.copy(data)
+        changed.index, changed.raw = data.index.copy(deep=True), copy.deepcopy(data.raw)
+        valid = data.reference["outer"][0] == 0
+        for a in changed.raw.values():
+            a[valid] = a[valid, ::-1]
+        changed.index.loc[valid, list(cfg["upf_columns"])] = 0.9
+        with tempfile.TemporaryDirectory() as folder:
+            a, b = [
+                Engine(cfg, Memo(Path(folder) / str(j)), 1, FakeReference(), lambda _: None).outer(d, 0, 0)
+                for j, d in enumerate((data, changed))
+            ]
+        self.assertEqual(a["selected"], b["selected"])
+        self.assertEqual(a["inner_losses"], b["inner_losses"])
+        self.assertEqual(a["meta"], b["meta"])
+
+    def test_negative_pooled_r2_is_preserved_and_partial_or_leaky_batches_rejected(self):
+        _, cfg = fixture()
+        blocks = artificial_completed(cfg)
+        result = aggregate(cfg, blocks)
+        score = result["scores"][0]["R2"]
+        y = np.concatenate([blocks[0, f]["y"] for f in range(5)])
+        self.assertLess(score, 0)
+        self.assertAlmostEqual(score, 1 - 9 / np.var(y))
+        self.assertNotAlmostEqual(score, 1 - 9 / 0.25)
+        with self.assertRaises(ValueError):
+            aggregate(cfg, {(0, 0): blocks[0, 0]})
+        blocks[0, 1]["groups"][:] = "0"
+        with self.assertRaises(ValueError):
+            aggregate(cfg, blocks)
+
+    def test_goal_uses_same_pipeline_and_exact_unrounded_scores(self):
+        _, cfg = fixture()
+        result = aggregate(cfg, artificial_completed(cfg))
+        for s in result["scores"]:
+            if s["model"] == "anchor_hgb_oral":
+                s["R2"] = 0.20001 if s["repeat"] == 0 else 0.1999999
+            elif s["model"] == "anchor_cat_oral":
+                s["R2"] = 0.1999999 if s["repeat"] == 0 else 0.20001
+        self.assertIn("Both repeats R2>=0.20: 0/55", compact(result, cfg))
+
+    def test_warning_from_contributing_member_reaches_fusion_flag(self):
+        data, cfg = fixture()
+        cfg = reduced(cfg)
+        original = Engine.evaluate
+
+        def altered(engine, role, spec, case, bases, keep=False):
+            value = original(engine, role, spec, case, bases, keep)
+            if spec["name"] == "fm_safe_balanced":
+                value["diagnostic"]["converged"] = False
+            return value
+
+        with tempfile.TemporaryDirectory() as folder, patch.object(Engine, "evaluate", altered):
+            # Force the with-FM fit to use its FM member; propagation must be explicit.
+            with patch("engine.blend_weights", side_effect=lambda a, y: np.r_[np.zeros(a.shape[1] - 1), 1.0]):
+                block = Engine(cfg, Memo(folder), 1, FakeReference(), lambda _: None).outer(data, 0, 0)
+        self.assertIn(
+            "fm_safe_balanced", block["outer_diagnostics"]["convex_with_fm"]["contributing_fit_warnings"]
+        )

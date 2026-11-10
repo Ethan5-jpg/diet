@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "test_data": "synthetic completed summary",
+  "output_lines": 22,
+  "model_fitting": false,
+  "private_rows_printed": false,
+  "real_server_diagnostics_read": false
+}

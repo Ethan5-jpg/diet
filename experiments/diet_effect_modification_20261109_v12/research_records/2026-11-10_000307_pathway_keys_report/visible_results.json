@@ -1,0 +1,227 @@
+{
+  "source": "User-supplied server pathway component-key diagnostic screenshot",
+  "screenshot_filename": "截屏2026-11-10 00.03.07.png",
+  "screenshot_filename_client_time": "2026-11-10 00:03:07 Asia/Shanghai",
+  "source_image_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_WGA0gn/截屏2026-11-10 00.03.07.png",
+  "original_image": "original.png",
+  "original_copied": true,
+  "original_sha256": "5317d548718bc3b029be48603a8f778b49f5360c6b0f6448b3df28bdd9fab6d7",
+  "transcription_whitespace": "Indentation and shell prompt spacing normalized; all displayed diagnostic lines preserved.",
+  "source_columns": {
+    "participant_id": {
+      "null": 0,
+      "nan": 0,
+      "placeholder": 0,
+      "valid": 8816,
+      "unique_valid": 8816,
+      "nonscalar": 0,
+      "type": "integer"
+    },
+    "cohort": {
+      "null": 0,
+      "nan": 0,
+      "placeholder": 0,
+      "valid": 8816,
+      "unique_valid": 1,
+      "nonscalar": 0,
+      "type": "string"
+    },
+    "research_stage": {
+      "null": 0,
+      "nan": 0,
+      "placeholder": 414,
+      "valid": 8402,
+      "unique_valid": 2,
+      "nonscalar": 0,
+      "type": "string"
+    },
+    "array_index": {
+      "null": 0,
+      "nan": 0,
+      "placeholder": 0,
+      "valid": 8816,
+      "unique_valid": 1,
+      "nonscalar": 0,
+      "type": "integer"
+    },
+    "collection_date": {
+      "null": 0,
+      "nan": 0,
+      "placeholder": 0,
+      "valid": 8816,
+      "unique_valid": 52,
+      "nonscalar": 0,
+      "type": "timestamp"
+    }
+  },
+  "tables": {
+    "abundance": {
+      "pandas_index_known_fields": [
+        "participant_id",
+        "cohort",
+        "research_stage",
+        "array_index",
+        "collection_date"
+      ],
+      "unknown_named_fields": 0,
+      "range_descriptors": 0,
+      "label_shapes": {
+        "numeric_names": 0,
+        "contains_PWY": 473,
+        "other": 14,
+        "public_code_tokens": [
+          "AEROBACTINSYN-PWY",
+          "ALLANTOINDEG-PWY",
+          "ANAEROFRUCAT-PWY"
+        ],
+        "unknown_nonnumeric_positions_types": []
+      },
+      "projected_rows": 8838,
+      "metadata_columns": 5,
+      "columns": {
+        "participant_id": {
+          "null": 0,
+          "nan": 0,
+          "placeholder": 0,
+          "valid": 8838,
+          "unique_valid": 8838,
+          "nonscalar": 0,
+          "type": "integer"
+        },
+        "cohort": {
+          "null": 0,
+          "nan": 0,
+          "placeholder": 0,
+          "valid": 8838,
+          "unique_valid": 1,
+          "nonscalar": 0,
+          "type": "string"
+        },
+        "research_stage": {
+          "null": 0,
+          "nan": 0,
+          "placeholder": 8838,
+          "valid": 0,
+          "unique_valid": 0,
+          "nonscalar": 0,
+          "type": "string"
+        },
+        "array_index": {
+          "null": 0,
+          "nan": 0,
+          "placeholder": 0,
+          "valid": 8838,
+          "unique_valid": 1,
+          "nonscalar": 0,
+          "type": "integer"
+        },
+        "collection_date": {
+          "null": 0,
+          "nan": 0,
+          "placeholder": 0,
+          "valid": 8838,
+          "unique_valid": 52,
+          "nonscalar": 0,
+          "type": "timestamp"
+        }
+      },
+      "pid_only_diagnostic": {
+        "shared_unique_ids": 8816,
+        "table_unique_ids": 8838,
+        "source_unique_ids": 8816,
+        "table_repeated_ids": 0,
+        "source_repeated_ids": 0
+      }
+    },
+    "coverage": {
+      "pandas_index_known_fields": [
+        "participant_id",
+        "cohort",
+        "research_stage",
+        "array_index",
+        "collection_date"
+      ],
+      "unknown_named_fields": 0,
+      "range_descriptors": 0,
+      "label_shapes": {
+        "numeric_names": 0,
+        "contains_PWY": 473,
+        "other": 14,
+        "public_code_tokens": [
+          "AEROBACTINSYN-PWY",
+          "ALLANTOINDEG-PWY",
+          "ANAEROFRUCAT-PWY"
+        ],
+        "unknown_nonnumeric_positions_types": []
+      },
+      "projected_rows": 8838,
+      "metadata_columns": 5,
+      "columns": {
+        "participant_id": {
+          "null": 0,
+          "nan": 0,
+          "placeholder": 0,
+          "valid": 8838,
+          "unique_valid": 8838,
+          "nonscalar": 0,
+          "type": "integer"
+        },
+        "cohort": {
+          "null": 0,
+          "nan": 0,
+          "placeholder": 0,
+          "valid": 8838,
+          "unique_valid": 1,
+          "nonscalar": 0,
+          "type": "string"
+        },
+        "research_stage": {
+          "null": 0,
+          "nan": 0,
+          "placeholder": 8838,
+          "valid": 0,
+          "unique_valid": 0,
+          "nonscalar": 0,
+          "type": "string"
+        },
+        "array_index": {
+          "null": 0,
+          "nan": 0,
+          "placeholder": 0,
+          "valid": 8838,
+          "unique_valid": 1,
+          "nonscalar": 0,
+          "type": "integer"
+        },
+        "collection_date": {
+          "null": 0,
+          "nan": 0,
+          "placeholder": 0,
+          "valid": 8838,
+          "unique_valid": 52,
+          "nonscalar": 0,
+          "type": "timestamp"
+        }
+      },
+      "pid_only_diagnostic": {
+        "shared_unique_ids": 8816,
+        "table_unique_ids": 8838,
+        "source_unique_ids": 8816,
+        "table_repeated_ids": 0,
+        "source_repeated_ids": 0
+      }
+    }
+  },
+  "pathway_keys_done_displayed": true,
+  "limits": [
+    "Placeholder means membership in the delivered empty/undefined/none/null/nan/na/n-a/unknown sentinel set; the actual placeholder literal was not printed.",
+    "All stage values in each functional table are placeholders, not Arrow nulls. This identifies the reason complete visit tuples were rejected in the previous screenshot.",
+    "Source index has 414 stage placeholders and 8402 nonplaceholder stage values across two distinct nonplaceholder labels; it is not an all-baseline source assumption.",
+    "Each function table contains all 8816 source participant IDs plus 22 additional distinct IDs by count arithmetic. The additional IDs were not inspected or added to the analysis.",
+    "Personnel overlap does not establish record-wise equality of cohort, array_index, collection_date or locked-specimen lineage. Equal unique counts do not imply equal values.",
+    "The two tables were not yet aligned against one another for metadata or function values.",
+    "Collection-date unique_valid=52 counts timestamp values, not independently verified biological dates or same-day agreement.",
+    "487 nonmetadata fields now have 473 names containing PWY and 14 other labels, with public code tokens; not all are established biological pathways and special totals may need exclusion.",
+    "No raw function values, units, outcome values or model scores were displayed. Original fixed 3343 membership coverage remains unverified."
+  ]
+}

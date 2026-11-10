@@ -1,0 +1,129 @@
+{
+  "evidence_source": "SYNTHETIC_CALIBRATION_ONLY",
+  "seed": 20261112,
+  "n_per_replication": 1200,
+  "household_size": 2,
+  "score_draws": 399,
+  "scenarios": {
+    "strong_main_effects_only": {
+      "repetitions": 1000,
+      "available": 1000,
+      "rejection_rate": 0.056,
+      "rejection_rate_mc95": [
+        0.043374813385441996,
+        0.07202334814973095
+      ],
+      "coverage": [
+        0.95,
+        0.945,
+        0.946,
+        0.963
+      ],
+      "mean_estimate": [
+        -0.002856851263346988,
+        0.0019314338260282369,
+        0.0004524081966145963,
+        0.0006300475482317755
+      ],
+      "true_theta": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "deliberately_misspecified": false
+    },
+    "nonlinear_correlated_main_effects_only": {
+      "repetitions": 1000,
+      "available": 1000,
+      "rejection_rate": 0.073,
+      "rejection_rate_mc95": [
+        0.05845902621241336,
+        0.09080902553425071
+      ],
+      "coverage": [
+        0.952,
+        0.949,
+        0.942,
+        0.937
+      ],
+      "mean_estimate": [
+        -0.003011500962058125,
+        0.0004157573101798683,
+        0.0008204293271370832,
+        -0.0027416764117463473
+      ],
+      "true_theta": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "deliberately_misspecified": false
+    },
+    "known_interaction": {
+      "repetitions": 1000,
+      "available": 1000,
+      "rejection_rate": 1.0,
+      "rejection_rate_mc95": [
+        0.9961732415144449,
+        1.0
+      ],
+      "coverage": [
+        0.941,
+        0.949,
+        0.951,
+        0.939
+      ],
+      "mean_estimate": [
+        0.8015330844336799,
+        -0.6994744468672138,
+        -0.0011444036668327127,
+        0.00042895683431842227
+      ],
+      "true_theta": [
+        0.8,
+        -0.7,
+        0.0,
+        0.0
+      ],
+      "deliberately_misspecified": false
+    },
+    "omitted_background_assumption_stress": {
+      "repetitions": 1000,
+      "available": 1000,
+      "rejection_rate": 0.151,
+      "rejection_rate_mc95": [
+        0.13014612063122316,
+        0.17452495679169433
+      ],
+      "coverage": [
+        0.798,
+        0.932,
+        0.933,
+        0.952
+      ],
+      "mean_estimate": [
+        0.14861017931753498,
+        0.0003043135084498112,
+        0.0025368732347896524,
+        -0.0028062048915654604
+      ],
+      "true_theta": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "deliberately_misspecified": true
+    }
+  },
+  "limitations": "Fixed finite-basis simulation, not a proof for all nuisance errors, learned PCs, heavy tails or historical discovery selection. Omitted-background case deliberately violates approximation assumptions.",
+  "native_participant_inputs_read": false,
+  "source_sha256": {
+    "features.py": "a11f59b63ed1c1b640f228aeb5d5dc06ad9003b6a784cd63c6f8bbc361bab3a1",
+    "inference.py": "1a7d4370bb2afdf0a8ee462d7c7216ffbae062b9dc807a06768f3d73e8e4329c",
+    "calibrate.py": "b22fe9335b942a348a79b187ebf3d87262571700e4287cf1b9eb7088b2b7f74e",
+    "synthetic.py": "9e5734109af5c5b7c7a5b9502aaa6f870bf4ffdefd601d0aaacdd66313f12f41"
+  }
+}

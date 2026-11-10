@@ -1,0 +1,56 @@
+SYNTHETIC_FULL_GRID_ONLY | V12 fiber_density -> D_Glu (mg/dL) | N=1400 HH=700
+PRIMARY: joint linear fiber x [oral/gut Shannon, dominance]; repeat 0
+Repeat 1 is split sensitivity on the SAME people.
+repeat=0 PRIMARY_global_p=0.2457 diagnostic_joint_p=0.2545 oral_Holm=1.0000 gut_Holm=0.2457
+repeat=1 PRIMARY_global_p=0.0320 diagnostic_joint_p=0.0375 oral_Holm=0.2700 gut_Holm=0.0320
+10->15 fiber contrast: modifier Q75 minus Q25, other terms held equal
+marker                  diff0                 95%CI0     diff1     Holm0
+oral_shannon           +0.147 [   -0.641,   +0.936]     0.588    1.0000
+oral_dominance         -0.075 [   -0.739,   +0.589]     0.271    1.0000
+gut_shannon            +0.607 [   -0.029,   +1.243]     0.982    0.2457
+gut_dominance          -0.003 [   -0.649,   +0.642]     0.755    1.0000
+Primary global: Bonferroni union; joint Wald/multiplier is diagnostic only.
+95% CIs above are pointwise; family intervals remain in summary.json.
+Follow-ups after primary test; no causal or historical search correction.
+
+SYNTHETIC_FULL_GRID_ONLY | V12 fiber_density -> D_Glu (mg/dL) | N=1400 HH=700
+MATCHED additive R2_0=0.206223 R2_1=0.198761
+All 12 planned models; dR2 vs SAME additive background, including negatives.
+model                           dR2_0      dR2_1   act0/1   intSD0   intSD1
+ecology_linear_oral         +0.037696  +0.045023   5/5       0.248    0.231
+ecology_linear_gut          +0.037615  +0.046253   5/5       0.229    0.210
+ecology_linear_both         +0.039437  +0.044864   5/5       0.270    0.307
+ecology_spline_oral         +0.036691  +0.044797   5/5       0.211    0.192
+ecology_spline_gut          +0.036701  +0.045689   5/5       0.209    0.179
+ecology_spline_both         +0.036920  +0.043465   5/5       0.236    0.255
+composition_linear_oral     +0.000000  -0.001889   0/2       0.000    0.137
+composition_linear_gut      -0.000547  -0.001930   2/1       0.055    0.129
+composition_linear_both     -0.000636  -0.000120   2/1       0.072    0.049
+composition_spline_oral     +0.000000  -0.001574   0/1       0.000    0.144
+composition_spline_gut      +0.000000  -0.000632   0/1       0.000    0.053
+composition_spline_both     +0.000000  +0.000000   0/0       0.000    0.000
+intSD: fitted INTERACTION component of 10->15 contrast, mg/dL.
+Model contrast dispersion alone is not evidence of real modification.
+
+SYNTHETIC_FULL_GRID_ONLY | V12 fiber_density -> D_Glu (mg/dL) | N=1400 HH=700
+DIAGNOSTICS: conditional uncertainty, support and split sensitivity
+Local contrast support fraction: r0=0.996 r1=0.996
+Raw-outcome sensitivity r0 primary_global_p=0.2457
+Raw-outcome sensitivity r1 primary_global_p=0.0320
+model                       corr0/1                   dR2 CI0                   dR2 CI1
+ecology_linear_oral           0.767 [+0.02013,+0.05574] [+0.02714,+0.06208]
+ecology_linear_gut            0.646 [+0.01987,+0.05615] [+0.02811,+0.06380]
+ecology_linear_both           0.398 [+0.02318,+0.05668] [+0.02749,+0.06112]
+ecology_spline_oral           0.782 [+0.01939,+0.05426] [+0.02673,+0.06164]
+ecology_spline_gut            0.658 [+0.01940,+0.05448] [+0.02747,+0.06365]
+ecology_spline_both           0.542 [+0.02075,+0.05378] [+0.02630,+0.06017]
+composition_linear_oral          NA [+0.00000,+0.00000] [-0.00427,+0.00067]
+composition_linear_gut        0.096 [-0.00141,+0.00037] [-0.00582,+0.00117]
+composition_linear_both       0.086 [-0.00181,+0.00052] [-0.00163,+0.00119]
+composition_spline_oral          NA [+0.00000,+0.00000] [-0.00375,+0.00083]
+composition_spline_gut           NA [+0.00000,+0.00000] [-0.00230,+0.00057]
+composition_spline_both          NA [+0.00000,+0.00000] [+0.00000,+0.00000]
+dR2 intervals resample households with fitted OOF predictions FIXED.
+corr compares predicted contrasts on repeated people; no independent replication.
+Support is a range diagnostic; low support limits contrast interpretation.
+Warnings=0; complete loadings/choices remain in TRE_ONLY checkpoints.

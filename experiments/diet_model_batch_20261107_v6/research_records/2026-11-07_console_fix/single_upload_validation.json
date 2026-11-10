@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "original_server_tests_passed": 21,
+  "only_new_runtime_file_required": "launch_console.py",
+  "participant_inputs_absent": true,
+  "frozen_sources_unchanged": true,
+  "real_FUSE_test": false,
+  "server_training_started": false
+}

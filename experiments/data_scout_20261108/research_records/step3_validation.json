@@ -1,0 +1,32 @@
+{
+  "status": "LOCAL_SYNTHETIC_PASS",
+  "time_utc": "2026-11-08T11:54:32.401157+00:00",
+  "tests": 6,
+  "unittest_seconds": 0.297,
+  "normal_output_lines": 18,
+  "max_tested_output_lines": 22,
+  "real_server_access": false,
+  "real_server_data_read_locally": false,
+  "model_fitting": false,
+  "event_level_food_scan": false,
+  "cohort_definition": "Frozen V4 repeat0 eligible discovery population; cached y used only for finite eligibility mask",
+  "upstream_materialization_filtered_by_three_identity_fields": true,
+  "old_daily_QC_joined_only_to_current_energy_eligible_days": true,
+  "energy_and_fiber_version_anchors_required": true,
+  "missing_values_not_imputed_as_zero": true,
+  "complete_sum_scope": "complete available values for logged events, not proof of complete daily intake",
+  "odd_even_scope": "chronological odd/even valid recorded days, >=3 days per half, >=10 paired people with nonconstant half-means; same-window consistency only",
+  "checks": [
+    "scoped column projections and cohort/visit/ID filters",
+    "per-person quantiles invariant to unequal record-day counts",
+    "known rank correlation and zero-alcohol validity",
+    "all-missing nutrients and missing columns remain visible",
+    "energy/fiber mismatches and missing day joins block interpretation",
+    "duplicate day keys and invalid admitted energy or fiber rejected",
+    "missing source or anchor schema does not trigger an event scan"
+  ],
+  "syntax": "PASS",
+  "ascii": "PASS",
+  "source_sha256": "c0af80189a24cd2e161c6f4359fdf77070abb87e1e48a05c32fd690724298e11",
+  "server_results": "PENDING"
+}

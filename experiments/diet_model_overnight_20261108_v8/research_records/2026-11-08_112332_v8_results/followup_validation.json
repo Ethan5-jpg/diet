@@ -1,0 +1,10 @@
+{
+  "status": "SYNTHETIC_AGGREGATE_FIXTURE_PASS",
+  "script": "inspect_aggregate.py",
+  "output_lines": 21,
+  "ascii": true,
+  "ruff": "PASS",
+  "server_execution": false,
+  "real_server_JSON_loaded": false,
+  "scope": "Read-only formatter/schema check using fabricated aggregate metadata; not a new research result"
+}

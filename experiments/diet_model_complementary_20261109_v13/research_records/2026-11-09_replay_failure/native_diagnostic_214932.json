@@ -1,0 +1,20 @@
+{
+  "source": "User-provided screenshot 2026-11-09 21:49:32 Asia/Shanghai",
+  "stage": "r0_f3",
+  "v13_threads": 2,
+  "v11_threads": 4,
+  "members_match": true,
+  "choices_match": true,
+  "penalty_rebuilt": 0.01,
+  "penalty_saved": 0.01,
+  "target_mean_max_diff": 0,
+  "target_scale_max_diff": 0,
+  "input_mean_max_diff": 0,
+  "input_scale_max_diff": 0,
+  "coefficient_max_diff": 1.56578591759e-09,
+  "rebuilt_prediction_max_error_mg_dL": 2.52560283798e-08,
+  "saved_model_prediction_error_mg_dL": 0,
+  "prior_meta_prediction_error_mg_dL": 0,
+  "inference": "Small numerical replay discrepancy; differing thread counts are a possible source, not experimentally established as the cause.",
+  "native_results_independently_recomputed": false
+}

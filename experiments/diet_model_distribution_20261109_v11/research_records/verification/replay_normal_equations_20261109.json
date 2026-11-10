@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "seed": 2026110911,
+  "check": "Independent NumPy normal equations for V10 raw-target standardized ridge, alpha=n*0.1",
+  "cases": [
+    {
+      "training_rows": 96,
+      "columns": 28,
+      "max_abs_error_mg_dL": 1.4210854715202004e-14
+    },
+    {
+      "training_rows": 257,
+      "columns": 28,
+      "max_abs_error_mg_dL": 2.842170943040401e-14
+    },
+    {
+      "training_rows": 2048,
+      "columns": 28,
+      "max_abs_error_mg_dL": 1.4210854715202004e-14
+    }
+  ],
+  "includes": [
+    "constant predictor",
+    "duplicate predictors",
+    "linearly dependent predictors"
+  ],
+  "native_data_read": false
+}

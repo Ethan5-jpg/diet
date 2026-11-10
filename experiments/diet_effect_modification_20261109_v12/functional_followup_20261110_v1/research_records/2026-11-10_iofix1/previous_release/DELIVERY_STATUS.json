@@ -1,0 +1,17 @@
+{
+  "status": "READY_FOR_USER_NATIVE_RUN",
+  "date": "2026-11-10",
+  "primary_route": "abundance_relative",
+  "functional_people": 3337,
+  "original_people": 3343,
+  "synthetic_model_checks": 35,
+  "installer_checks": 7,
+  "original_V12_manifest_files_verified": 51,
+  "source_manifest_files": 13,
+  "installer_sha256": "0d73b5705683b4ed557e59bf48956a19c58321d97b6a4799322c963a7651cbef",
+  "native_server_model_execution_verified": false,
+  "native_HPP_new_models_fit": false,
+  "old_V12_results_modified": false,
+  "confirmation_outcomes_read": false,
+  "participant_data_downloaded": false
+}

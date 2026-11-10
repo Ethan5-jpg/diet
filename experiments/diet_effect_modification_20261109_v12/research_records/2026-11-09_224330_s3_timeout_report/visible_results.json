@@ -1,0 +1,42 @@
+{
+  "source": "User-supplied server S3 footer-check terminal screenshot",
+  "screenshot_filename": "截屏2026-11-09 22.43.30.png",
+  "screenshot_filename_client_time": "2026-11-09 22:43:30 Asia/Shanghai",
+  "source_image_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_8qjN6u/截屏2026-11-09 22.43.30.png",
+  "original_image": "original.png",
+  "original_copied": true,
+  "original_sha256": "7d2e227e99834355ed24bbaf856be9de35dbaf3cbe1cc6b619154bd1430311b6",
+  "server_clock_timezone_displayed": null,
+  "transcription_whitespace": "Indentation and shell prompt spacing normalized; visible output preserved.",
+  "attempts_displayed": [
+    {
+      "field": "humann_gene_familites_gene_level_parquet",
+      "uri_scheme": "s3",
+      "reported_status": "HEADER_UNAVAILABLE",
+      "reported_reason": "NETWORK_OR_TIMEOUT",
+      "underlying_error_message_or_stage_shown": false
+    },
+    {
+      "field": "humann_pathway_abundance_pathway_level_parquet",
+      "uri_scheme": "s3",
+      "reported_status_before_global_timeout": null
+    }
+  ],
+  "global_time_limit_reached_displayed": true,
+  "configured_alarm_seconds_from_delivered_source": 60,
+  "elapsed_runtime_seconds_explicitly_shown": false,
+  "FUNCTION_URI_HEADERS_DONE_displayed": false,
+  "third_coverage_field_attempt_displayed": false,
+  "successful_function_file_header_displayed": false,
+  "individual_URIs_paths_keys_or_outcome_values_shown": false,
+  "limits": [
+    "The first error is the helper broad NETWORK_OR_TIMEOUT classification, not proof of a specific network, endpoint, region, credential-provider or permission cause.",
+    "The screenshot does not show whether the failed stage was filesystem creation, object metadata lookup or Parquet footer reading.",
+    "The second pointer was selected but no result returned before the process alarm; it must not be counted as a proven missing or inaccessible object.",
+    "The third field was not reached, no functional table header was obtained and file availability remains unresolved.",
+    "A configured 60-second alarm is known from source, but actual elapsed wall time was not printed and underlying storage calls can delay signal handling.",
+    "No AccessDenied, NoSuchKey, 403 or 404 response was shown; do not label the file absent or permissions denied.",
+    "Prior 8816 source pointer counts do not establish 3343-person overlap or valid locked-specimen linkage.",
+    "This is an access diagnostic, not an interaction null result or any new scientific result."
+  ]
+}

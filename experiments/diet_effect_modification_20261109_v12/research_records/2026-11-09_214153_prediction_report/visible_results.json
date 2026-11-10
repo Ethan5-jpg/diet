@@ -1,0 +1,290 @@
+{
+  "source": "User-supplied server report screenshot",
+  "module": "diet_effect_modification_20261109_v12",
+  "archived_at_local_time": "2026-11-09T21:47:26.340219+08:00",
+  "source_precision": "Displayed rounded values only; native summary.json not obtained",
+  "evidence_source_displayed": "DISCOVERY_SERVER",
+  "N": 3343,
+  "households": 3059,
+  "exposure": "fiber_density",
+  "outcome": "D_Glu",
+  "outcome_unit": "mg/dL",
+  "expected_run_id": "effect_modification_v12_20261109",
+  "run_id_explicitly_displayed": false,
+  "primary_repeat": 0,
+  "repeats_share_participants": true,
+  "original_image": "original.png",
+  "original_copied": true,
+  "server_clock_timezone_displayed": null,
+  "transcription_whitespace": "Prompt and table spacing normalized; displayed words, signs, precision and row order preserved",
+  "local_report_source_sha256": "068b2101bc8589c1f6d001199b8546f1f4610bd03693d5118e043673f824d3e8",
+  "native_summary_or_completion_files_downloaded": false,
+  "screenshot_filename": "截屏2026-11-09 21.41.53.png",
+  "screenshot_source_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_d2iFj9/截屏2026-11-09 21.41.53.png",
+  "screenshot_filename_client_time": "2026-11-09 21:41:53 Asia/Shanghai",
+  "original_sha256": "67784a8898d7c66d0086c26001c4702ba37eb329815647e0df22645b8984caa6",
+  "screen": 2,
+  "displayed_command": "bash server_report.sh --screen 2",
+  "matched_additive_R2_0": "0.076861",
+  "matched_additive_R2_1": "0.082641",
+  "prediction_rows_displayed": [
+    {
+      "model": "ecology_linear_oral",
+      "delta_R2_0": "-0.000126",
+      "delta_R2_1": "-0.000073",
+      "selected_interaction_folds_0_1": [
+        2,
+        1
+      ],
+      "nonzero_raw_product_contrast_folds_0_1": [
+        2,
+        1
+      ],
+      "raw_product_contrast_SD_mg_dl_0_1": [
+        "0.098",
+        "0.042"
+      ],
+      "full_added_correction_contrast_SD_mg_dl_0_1": [
+        "0.101",
+        "0.042"
+      ]
+    },
+    {
+      "model": "ecology_linear_gut",
+      "delta_R2_0": "-0.001336",
+      "delta_R2_1": "+0.001006",
+      "selected_interaction_folds_0_1": [
+        4,
+        5
+      ],
+      "nonzero_raw_product_contrast_folds_0_1": [
+        4,
+        5
+      ],
+      "raw_product_contrast_SD_mg_dl_0_1": [
+        "0.413",
+        "0.330"
+      ],
+      "full_added_correction_contrast_SD_mg_dl_0_1": [
+        "0.419",
+        "0.327"
+      ]
+    },
+    {
+      "model": "ecology_linear_both",
+      "delta_R2_0": "-0.000571",
+      "delta_R2_1": "+0.000814",
+      "selected_interaction_folds_0_1": [
+        4,
+        5
+      ],
+      "nonzero_raw_product_contrast_folds_0_1": [
+        4,
+        5
+      ],
+      "raw_product_contrast_SD_mg_dl_0_1": [
+        "0.384",
+        "0.252"
+      ],
+      "full_added_correction_contrast_SD_mg_dl_0_1": [
+        "0.396",
+        "0.252"
+      ]
+    },
+    {
+      "model": "ecology_spline_oral",
+      "delta_R2_0": "-0.000249",
+      "delta_R2_1": "-0.000057",
+      "selected_interaction_folds_0_1": [
+        2,
+        1
+      ],
+      "nonzero_raw_product_contrast_folds_0_1": [
+        2,
+        1
+      ],
+      "raw_product_contrast_SD_mg_dl_0_1": [
+        "0.066",
+        "0.045"
+      ],
+      "full_added_correction_contrast_SD_mg_dl_0_1": [
+        "0.074",
+        "0.046"
+      ]
+    },
+    {
+      "model": "ecology_spline_gut",
+      "delta_R2_0": "-0.000859",
+      "delta_R2_1": "+0.001006",
+      "selected_interaction_folds_0_1": [
+        4,
+        5
+      ],
+      "nonzero_raw_product_contrast_folds_0_1": [
+        4,
+        5
+      ],
+      "raw_product_contrast_SD_mg_dl_0_1": [
+        "0.281",
+        "0.205"
+      ],
+      "full_added_correction_contrast_SD_mg_dl_0_1": [
+        "0.294",
+        "0.205"
+      ]
+    },
+    {
+      "model": "ecology_spline_both",
+      "delta_R2_0": "-0.000961",
+      "delta_R2_1": "+0.000597",
+      "selected_interaction_folds_0_1": [
+        4,
+        3
+      ],
+      "nonzero_raw_product_contrast_folds_0_1": [
+        4,
+        3
+      ],
+      "raw_product_contrast_SD_mg_dl_0_1": [
+        "0.288",
+        "0.152"
+      ],
+      "full_added_correction_contrast_SD_mg_dl_0_1": [
+        "0.303",
+        "0.153"
+      ]
+    },
+    {
+      "model": "composition_linear_oral",
+      "delta_R2_0": "-0.000683",
+      "delta_R2_1": "-0.000371",
+      "selected_interaction_folds_0_1": [
+        4,
+        1
+      ],
+      "nonzero_raw_product_contrast_folds_0_1": [
+        4,
+        1
+      ],
+      "raw_product_contrast_SD_mg_dl_0_1": [
+        "0.113",
+        "0.074"
+      ],
+      "full_added_correction_contrast_SD_mg_dl_0_1": [
+        "0.118",
+        "0.076"
+      ]
+    },
+    {
+      "model": "composition_linear_gut",
+      "delta_R2_0": "-0.000229",
+      "delta_R2_1": "-0.000319",
+      "selected_interaction_folds_0_1": [
+        2,
+        2
+      ],
+      "nonzero_raw_product_contrast_folds_0_1": [
+        2,
+        2
+      ],
+      "raw_product_contrast_SD_mg_dl_0_1": [
+        "0.199",
+        "0.101"
+      ],
+      "full_added_correction_contrast_SD_mg_dl_0_1": [
+        "0.193",
+        "0.098"
+      ]
+    },
+    {
+      "model": "composition_linear_both",
+      "delta_R2_0": "-0.000260",
+      "delta_R2_1": "-0.000346",
+      "selected_interaction_folds_0_1": [
+        3,
+        1
+      ],
+      "nonzero_raw_product_contrast_folds_0_1": [
+        3,
+        1
+      ],
+      "raw_product_contrast_SD_mg_dl_0_1": [
+        "0.279",
+        "0.088"
+      ],
+      "full_added_correction_contrast_SD_mg_dl_0_1": [
+        "0.279",
+        "0.090"
+      ]
+    },
+    {
+      "model": "composition_spline_oral",
+      "delta_R2_0": "-0.001403",
+      "delta_R2_1": "-0.000493",
+      "selected_interaction_folds_0_1": [
+        4,
+        1
+      ],
+      "nonzero_raw_product_contrast_folds_0_1": [
+        4,
+        1
+      ],
+      "raw_product_contrast_SD_mg_dl_0_1": [
+        "0.134",
+        "0.087"
+      ],
+      "full_added_correction_contrast_SD_mg_dl_0_1": [
+        "0.141",
+        "0.088"
+      ]
+    },
+    {
+      "model": "composition_spline_gut",
+      "delta_R2_0": "-0.000131",
+      "delta_R2_1": "-0.000443",
+      "selected_interaction_folds_0_1": [
+        1,
+        1
+      ],
+      "nonzero_raw_product_contrast_folds_0_1": [
+        1,
+        1
+      ],
+      "raw_product_contrast_SD_mg_dl_0_1": [
+        "0.070",
+        "0.085"
+      ],
+      "full_added_correction_contrast_SD_mg_dl_0_1": [
+        "0.068",
+        "0.084"
+      ]
+    },
+    {
+      "model": "composition_spline_both",
+      "delta_R2_0": "-0.000583",
+      "delta_R2_1": "-0.000547",
+      "selected_interaction_folds_0_1": [
+        2,
+        1
+      ],
+      "nonzero_raw_product_contrast_folds_0_1": [
+        2,
+        1
+      ],
+      "raw_product_contrast_SD_mg_dl_0_1": [
+        "0.139",
+        "0.099"
+      ],
+      "full_added_correction_contrast_SD_mg_dl_0_1": [
+        "0.155",
+        "0.102"
+      ]
+    }
+  ],
+  "displayed_rules": [
+    "All 12 planned models; dR2 vs SAME additive background, including negatives.",
+    "opt=positive option selected; nz=nonzero raw-product contrast SD; neither is a test.",
+    "rawSD/corrSD=raw product/full added 10->15 contrast SD, mg/dL; not observed responses.",
+    "PERSON-LEVEL ASSOCIATIONS; sample-calendar meaning unverified; no meal/causal response."
+  ]
+}

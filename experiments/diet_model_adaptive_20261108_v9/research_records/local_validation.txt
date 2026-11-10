@@ -1,0 +1,16 @@
+Observed final verification output; preceding test names were streamed separately.
+Command: python check.py
+Environment: local macOS ARM64, synthetic inputs only.
+
+ok
+test_goal_uses_same_pipeline_both_repeats_and_unrounded_precision (test_pipeline.PipelineChecks.test_goal_uses_same_pipeline_both_repeats_and_unrounded_precision) ... ok
+test_member_warning_reaches_fixed_and_conditional_fusion (test_pipeline.PipelineChecks.test_member_warning_reaches_fixed_and_conditional_fusion) ... ok
+test_negative_scores_partial_batches_and_household_leakage_are_handled (test_pipeline.PipelineChecks.test_negative_scores_partial_batches_and_household_leakage_are_handled) ... ok
+test_outer_features_do_not_change_learned_meta_functions (test_pipeline.PipelineChecks.test_outer_features_do_not_change_learned_meta_functions) ... ok
+test_outer_labels_do_not_change_choices_fusion_or_any_new_prediction (test_pipeline.PipelineChecks.test_outer_labels_do_not_change_choices_fusion_or_any_new_prediction) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 159.472s
+
+OK
+EXPERIMENT_STORAGE_OK

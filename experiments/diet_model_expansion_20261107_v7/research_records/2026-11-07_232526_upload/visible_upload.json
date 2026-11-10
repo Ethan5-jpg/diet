@@ -1,0 +1,33 @@
+{
+  "source": "User screenshot, 2026-11-07 23:25:26 Asia/Shanghai",
+  "user_report": "Uploaded",
+  "visible_path": "collaborator_handoff_20261102_v1/experiments/diet_model_expansion_20261107_v7",
+  "visible_entries": [
+    "docs/",
+    "research_records/",
+    "tests/",
+    ".gitignore",
+    "bridge.py",
+    "check.py",
+    "config.json",
+    "engine.py",
+    "estimators.py",
+    "features.py",
+    "launch.py",
+    "models.py",
+    "pyproject.toml",
+    "README.md",
+    "registry.py",
+    "report.py",
+    "requirements.txt",
+    "run.py",
+    "runtime.py",
+    "setup.sh"
+  ],
+  "original_image_copied": true,
+  "image_sha256": "22cfbafddcfef1c8634e8505390343c6fad7f787e5cf0db9159f37b8482e2b0c",
+  "server_code_hash_verified": false,
+  "server_dependencies_verified": false,
+  "server_run_started_observed": false,
+  "server_scores_visible": false
+}

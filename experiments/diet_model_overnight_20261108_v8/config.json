@@ -1,0 +1,214 @@
+{
+  "version": "v8_20261108",
+  "outcome": "D_Glu",
+  "exposure": "fiber_density",
+  "confirmation_outcomes_read": false,
+  "outer_repeats": 2,
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "outer_seed": 20261104,
+  "model_seed": 20261108,
+  "contrast": [10, 15],
+  "reference_run": "console_20261107",
+  "v7_reference_run": "main_v7_20261107",
+  "nmf_iterations": 500,
+  "fm_iterations": 1600,
+  "sparse_iterations": 2500,
+  "stack_penalty": 0.1,
+  "upf_columns": ["UPF_lower_equalday_fraction", "UPF_upper_equalday_fraction"],
+  "core_members": ["anchor_hgb_oral", "anchor_hgb_balanced", "anchor_cat_oral", "anchor_hellinger_balanced", "nmf_cat_balanced", "hybrid_cat_balanced", "pls_cat_balanced", "rules_balanced"],
+  "sparse_fractions": [0.03, 0.1, 0.3],
+  "interaction_penalties": [0.01, 0.1, 1],
+  "families": {
+    "anchor_hgb": {
+      "learner": "hgb",
+      "representation": "clr",
+      "grid": [
+        {"count": 0, "iterations": 160, "leaves": 7, "leaf": 40, "l2": 30},
+        {"count": 0, "iterations": 280, "leaves": 15, "leaf": 40, "l2": 30},
+        {"count": 128, "iterations": 220, "leaves": 7, "leaf": 60, "l2": 30}
+      ]
+    },
+    "anchor_cat": {
+      "learner": "cat",
+      "representation": "clr",
+      "grid": [
+        {"count": 0, "iterations": 600, "depth": 4, "l2": 30},
+        {"count": 0, "iterations": 800, "depth": 6, "l2": 30},
+        {"count": 128, "iterations": 600, "depth": 4, "l2": 30}
+      ]
+    },
+    "anchor_hellinger": {
+      "learner": "hgb",
+      "representation": "hellinger",
+      "grid": [
+        {"count": 128, "iterations": 160, "leaves": 7, "leaf": 40, "l2": 30},
+        {"count": 0, "iterations": 240, "leaves": 15, "leaf": 40, "l2": 30}
+      ]
+    },
+    "nmf_hgb": {
+      "learner": "hgb",
+      "representation": "nmf",
+      "grid": [
+        {"count": 32, "iterations": 200, "leaves": 7, "leaf": 40, "l2": 30, "components": 16},
+        {"count": 32, "iterations": 200, "leaves": 7, "leaf": 40, "l2": 30, "components": 32},
+        {"count": 32, "iterations": 200, "leaves": 7, "leaf": 40, "l2": 30, "components": 64}
+      ]
+    },
+    "nmf_cat": {
+      "learner": "cat",
+      "representation": "nmf",
+      "grid": [
+        {"count": 32, "iterations": 600, "depth": 4, "l2": 30, "components": 16},
+        {"count": 32, "iterations": 600, "depth": 4, "l2": 30, "components": 32},
+        {"count": 32, "iterations": 600, "depth": 4, "l2": 30, "components": 64}
+      ]
+    },
+    "hybrid_hgb": {
+      "learner": "hgb",
+      "representation": "hybrid",
+      "grid": [
+        {"count": 64, "iterations": 220, "leaves": 7, "leaf": 40, "l2": 30, "components": 20},
+        {"count": 64, "iterations": 220, "leaves": 7, "leaf": 40, "l2": 30, "components": 40},
+        {"count": 64, "iterations": 220, "leaves": 7, "leaf": 40, "l2": 30, "components": 80}
+      ]
+    },
+    "hybrid_cat": {
+      "learner": "cat",
+      "representation": "hybrid",
+      "grid": [
+        {"count": 64, "iterations": 650, "depth": 4, "l2": 30, "components": 20},
+        {"count": 64, "iterations": 650, "depth": 4, "l2": 30, "components": 40},
+        {"count": 64, "iterations": 650, "depth": 4, "l2": 30, "components": 80}
+      ]
+    },
+    "pls_hgb": {
+      "learner": "hgb",
+      "representation": "pls",
+      "grid": [
+        {"count": 0, "iterations": 200, "leaves": 7, "leaf": 40, "l2": 30, "components": 5},
+        {"count": 0, "iterations": 200, "leaves": 7, "leaf": 40, "l2": 30, "components": 15},
+        {"count": 0, "iterations": 200, "leaves": 7, "leaf": 40, "l2": 30, "components": 30}
+      ]
+    },
+    "pls_cat": {
+      "learner": "cat",
+      "representation": "pls",
+      "grid": [
+        {"count": 0, "iterations": 600, "depth": 4, "l2": 30, "components": 5},
+        {"count": 0, "iterations": 600, "depth": 4, "l2": 30, "components": 15},
+        {"count": 0, "iterations": 600, "depth": 4, "l2": 30, "components": 30}
+      ]
+    },
+    "screen_hgb": {
+      "learner": "hgb",
+      "representation": "screen",
+      "grid": [
+        {"count": 64, "iterations": 220, "leaves": 7, "leaf": 40, "l2": 30},
+        {"count": 128, "iterations": 220, "leaves": 7, "leaf": 40, "l2": 30},
+        {"count": 256, "iterations": 220, "leaves": 7, "leaf": 40, "l2": 30}
+      ]
+    },
+    "screen_cat": {
+      "learner": "cat",
+      "representation": "screen",
+      "grid": [
+        {"count": 64, "iterations": 650, "depth": 4, "l2": 30},
+        {"count": 128, "iterations": 650, "depth": 4, "l2": 30},
+        {"count": 256, "iterations": 650, "depth": 4, "l2": 30}
+      ]
+    },
+    "joint_hgb": {
+      "learner": "hgb",
+      "representation": "clr",
+      "joint": true,
+      "grid": [
+        {"count": 0, "iterations": 160, "leaves": 7, "leaf": 40, "l2": 30},
+        {"count": 0, "iterations": 280, "leaves": 15, "leaf": 40, "l2": 30},
+        {"count": 128, "iterations": 220, "leaves": 7, "leaf": 60, "l2": 30}
+      ]
+    },
+    "joint_cat": {
+      "learner": "cat",
+      "representation": "clr",
+      "joint": true,
+      "grid": [
+        {"count": 0, "iterations": 600, "depth": 4, "l2": 30},
+        {"count": 0, "iterations": 800, "depth": 6, "l2": 30},
+        {"count": 128, "iterations": 600, "depth": 4, "l2": 30}
+      ]
+    },
+    "rules": {
+      "learner": "rules",
+      "representation": "clr",
+      "grid": [
+        {"count": 64, "trees": 64, "depth": 3, "leaf": 30, "penalty": 0.003},
+        {"count": 128, "trees": 96, "depth": 4, "leaf": 30, "penalty": 0.01},
+        {"count": 128, "trees": 96, "depth": 4, "leaf": 50, "penalty": 0.03}
+      ]
+    },
+    "linear_leaf": {
+      "learner": "linear_leaf",
+      "representation": "hybrid",
+      "grid": [
+        {"count": 16, "components": 10, "iterations": 200, "leaves": 7, "leaf": 60, "linear_l2": 10},
+        {"count": 16, "components": 20, "iterations": 200, "leaves": 7, "leaf": 60, "linear_l2": 30},
+        {"count": 16, "components": 40, "iterations": 200, "leaves": 7, "leaf": 60, "linear_l2": 100}
+      ]
+    },
+    "robust_cat": {
+      "learner": "robust_cat",
+      "representation": "clr",
+      "grid": [
+        {"count": 0, "iterations": 600, "depth": 4, "l2": 30},
+        {"count": 0, "iterations": 800, "depth": 6, "l2": 30},
+        {"count": 128, "iterations": 600, "depth": 4, "l2": 30}
+      ]
+    },
+    "rotation": {
+      "learner": "rotation",
+      "representation": "pc",
+      "grid": [
+        {"count": 0, "iterations": 180, "leaves": 7, "leaf": 40, "l2": 30, "components": 20, "rotations": 3},
+        {"count": 0, "iterations": 180, "leaves": 7, "leaf": 40, "l2": 30, "components": 40, "rotations": 3}
+      ]
+    },
+    "neighbors": {
+      "learner": "neighbors",
+      "representation": "pc",
+      "grid": [
+        {"count": 0, "components": 20, "neighbors": 60, "shrinkage": 0.5},
+        {"count": 0, "components": 40, "neighbors": 150, "shrinkage": 1},
+        {"count": 0, "components": 80, "neighbors": 250, "shrinkage": 1}
+      ]
+    },
+    "fm_safe": {
+      "learner": "fm",
+      "representation": "clr",
+      "grid": [
+        {"count": 64, "rank": 4, "penalty": 0.1},
+        {"count": 64, "rank": 8, "penalty": 0.3},
+        {"count": 128, "rank": 8, "penalty": 0.3}
+      ]
+    },
+    "additive_nmf": {
+      "learner": "additive",
+      "representation": "nmf",
+      "grid": [
+        {"count": 32, "iterations": 120, "leaves": 7, "leaf": 40, "l2": 30, "components": 16, "cycles": 3},
+        {"count": 32, "iterations": 120, "leaves": 7, "leaf": 40, "l2": 30, "components": 32, "cycles": 3},
+        {"count": 32, "iterations": 120, "leaves": 7, "leaf": 40, "l2": 30, "components": 64, "cycles": 3}
+      ]
+    },
+    "linear_main": {
+      "learner": "ridge",
+      "representation": "screen",
+      "grid": [
+        {"count": 128, "penalty": 0.01},
+        {"count": 128, "penalty": 0.1},
+        {"count": 128, "penalty": 1}
+      ]
+    }
+  },
+  "dependencies": {"numpy": "1.26.4", "scipy": "1.11.4", "pandas": "2.1.0", "pyarrow": "15.0.2", "scikit-learn": "1.4.1.post1", "catboost": "1.2.8", "lightgbm": "3.3.5"}
+}

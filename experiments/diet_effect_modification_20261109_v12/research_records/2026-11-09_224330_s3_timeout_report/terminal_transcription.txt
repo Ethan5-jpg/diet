@@ -1,0 +1,8 @@
+> PY
+FUNCTION_URI_HEADERS: exact source URIs; existing server access only.
+At most 3 file footers; no pointer values, abundance rows, outcomes or writes.
+FIELD humann_gene_familites_gene_level_parquet scheme=s3
+  HEADER_UNAVAILABLE NETWORK_OR_TIMEOUT
+FIELD humann_pathway_abundance_pathway_level_parquet scheme=s3
+TIME_LIMIT_REACHED; URI check incomplete.
+(pheno) [ec2-user@ip-10-0-71-168 diet_effect_modification_20261109_v12]$

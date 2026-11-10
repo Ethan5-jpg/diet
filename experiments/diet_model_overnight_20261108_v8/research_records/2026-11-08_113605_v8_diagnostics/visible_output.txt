@@ -1,0 +1,20 @@
+TOP NON-STACKED PIPELINES R2_0 R2_1 flag
+joint_cat_balanced 0.109047 0.111198 -
+nmf_cat_balanced 0.109011 0.112568 -
+nmf_hgb_oral 0.108301 0.112685 -
+joint_hgb_balanced 0.106938 0.110466 -
+additive_nmf_oral 0.106448 0.110383 -
+EXPLICIT: null_R2 -> interaction_R2; off=zero-weight case
+sparse_diet_oral r0 0.082085->0.082085 d=+0.00e+00 off=5/5 active=0/5
+sparse_diet_oral r1 0.084203->0.084203 d=+0.00e+00 off=5/5 active=0/5
+sparse_diet_balanced r0 0.072603->0.072603 d=+0.00e+00 off=5/5 active=0/5
+sparse_diet_balanced r1 0.078421->0.078421 d=+0.00e+00 off=5/5 active=0/5
+nmf_diet_oral r0 0.106448->0.106448 d=+0.00e+00 off=5/5 active=0/5
+nmf_diet_oral r1 0.110383->0.110383 d=+0.00e+00 off=5/5 active=0/5
+nmf_diet_balanced r0 0.099211->0.099211 d=+0.00e+00 off=5/5 active=0/5
+nmf_diet_balanced r1 0.104012->0.104012 d=+0.00e+00 off=5/5 active=0/5
+CONDITIONAL HOUSEHOLD CI: model-search uncertainty is not covered
+ridge_wide vs V6 r0: dR2=+0.005736 CI=[-0.000679,+0.012151]
+ridge_wide vs V6 r1: dR2=+0.007558 CI=[+0.000387,+0.014728]
+FM r0: mean_weight=0.000000 max_weight=0.000000 flagged=0/5
+FM r1: mean_weight=0.006694 max_weight=0.033468 flagged=0/5

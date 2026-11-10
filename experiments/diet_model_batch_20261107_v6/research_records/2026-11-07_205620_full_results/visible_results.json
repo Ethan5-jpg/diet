@@ -1,0 +1,211 @@
+{
+  "source_kind": "user_provided_screenshot",
+  "screenshot_time": "2026-11-07 20:56:20 Asia/Shanghai",
+  "run_id": "console_20261107",
+  "run_id_source": "Inspector reads this run path; header prints the same path-specific ID",
+  "status": "COMPLETE",
+  "models": 13,
+  "N0": 3343,
+  "N1": 3343,
+  "numeric_precision": "Six displayed decimal places; retain strings as shown",
+  "full_precision_server_json_read_locally": false,
+  "score_columns": [
+    "model",
+    "R2_0",
+    "R2_1",
+    "dR2_vs_v4_oral_0",
+    "dR2_vs_v4_oral_1"
+  ],
+  "scores": [
+    [
+      "catboost_oral",
+      "0.110465",
+      "0.111019",
+      "-0.000060",
+      "+0.003388"
+    ],
+    [
+      "catboost_oral_gut",
+      "0.107248",
+      "0.109009",
+      "-0.003277",
+      "+0.001379"
+    ],
+    [
+      "fusion",
+      "0.114660",
+      "0.115187",
+      "+0.004135",
+      "+0.007557"
+    ],
+    [
+      "hgb_oral",
+      "0.108898",
+      "0.110299",
+      "-0.001627",
+      "+0.002668"
+    ],
+    [
+      "hgb_oral_gut",
+      "0.103158",
+      "0.109644",
+      "-0.007367",
+      "+0.002014"
+    ],
+    [
+      "kernel_linear",
+      "0.093084",
+      "0.091701",
+      "-0.017441",
+      "-0.015929"
+    ],
+    [
+      "kernel_main",
+      "0.092169",
+      "0.092831",
+      "-0.018356",
+      "-0.014799"
+    ],
+    [
+      "kernel_spline",
+      "0.092350",
+      "0.092681",
+      "-0.018175",
+      "-0.014949"
+    ],
+    [
+      "kernel_supervised",
+      "0.092169",
+      "0.092831",
+      "-0.018356",
+      "-0.014799"
+    ],
+    [
+      "v4_hgb_oral",
+      "0.110525",
+      "0.107630",
+      "+0.000000",
+      "+0.000000"
+    ],
+    [
+      "v4_hgb_oral_gut",
+      "0.104950",
+      "0.113959",
+      "-0.005575",
+      "+0.006329"
+    ],
+    [
+      "xgboost_oral",
+      "0.091460",
+      "0.089819",
+      "-0.019065",
+      "-0.017811"
+    ],
+    [
+      "xgboost_oral_gut",
+      "0.103741",
+      "0.103712",
+      "-0.006784",
+      "-0.003918"
+    ]
+  ],
+  "paired_columns": [
+    "model",
+    "reference",
+    "dR2_0",
+    "dR2_1",
+    "wins0_of5",
+    "wins1_of5"
+  ],
+  "paired": [
+    [
+      "fusion",
+      "HGB",
+      "+0.004135",
+      "+0.007557",
+      "4/5",
+      "5/5"
+    ],
+    [
+      "kernel_linear",
+      "KMAIN",
+      "+0.000916",
+      "-0.001130",
+      "4/5",
+      "2/5"
+    ],
+    [
+      "kernel_spline",
+      "KMAIN",
+      "+0.000181",
+      "-0.000150",
+      "2/5",
+      "2/5"
+    ],
+    [
+      "kernel_supervised",
+      "KMAIN",
+      "+0.000000",
+      "+0.000000",
+      "0/5",
+      "0/5"
+    ]
+  ],
+  "modifier_columns": [
+    "model",
+    "active0_of5",
+    "active1_of5",
+    "SD0_mg_dL",
+    "SD1_mg_dL"
+  ],
+  "modifiers": [
+    [
+      "kernel_linear",
+      "5/5",
+      "4/5",
+      "0.116732",
+      "0.300465"
+    ],
+    [
+      "kernel_spline",
+      "3/5",
+      "4/5",
+      "0.062543",
+      "0.071660"
+    ],
+    [
+      "kernel_supervised",
+      "0/5",
+      "0/5",
+      "0.000000",
+      "0.000000"
+    ]
+  ],
+  "modifier_contrast": [
+    10.0,
+    15.0
+  ],
+  "derived_gut_minus_oral_from_rounded_scores": [
+    [
+      "CatBoost",
+      "-0.003217",
+      "-0.002010"
+    ],
+    [
+      "HGB＋筛菌",
+      "-0.005740",
+      "-0.000655"
+    ],
+    [
+      "XGBoost",
+      "+0.012281",
+      "+0.013893"
+    ],
+    [
+      "v4 HGB参考",
+      "-0.005575",
+      "+0.006329"
+    ]
+  ],
+  "old_run_or_tmux_status_not_rechecked": true
+}

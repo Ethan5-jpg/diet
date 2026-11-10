@@ -1,0 +1,4959 @@
+{
+  "scope": "V6-V11 after teammate V5, screenshot-derived evidence plus local configured method inventory",
+  "total_workflows_without_reference_rows": 307,
+  "count_limit": "Not unique algorithms or independent experiments; controls/representations repeat across versions.",
+  "versions": {
+    "6": {
+      "directory": "diet_model_batch_20261107_v6",
+      "new_workflows": 11,
+      "candidate_settings": null,
+      "reference_models": [
+        "v4_hgb_oral",
+        "v4_hgb_oral_gut"
+      ],
+      "observed_new_score_rows": 11,
+      "status": "Completed per user screenshots; scientific results not recomputed locally"
+    },
+    "7": {
+      "directory": "diet_model_expansion_20261107_v7",
+      "new_workflows": 30,
+      "candidate_settings": 67,
+      "reference_models": [
+        "v4_hgb_oral",
+        "v4_hgb_oral_gut",
+        "v6_fusion"
+      ],
+      "observed_new_score_rows": 30,
+      "status": "Completed per user screenshots; scientific results not recomputed locally"
+    },
+    "8": {
+      "directory": "diet_model_overnight_20261108_v8",
+      "new_workflows": 55,
+      "candidate_settings": 138,
+      "reference_models": [
+        "v4_hgb_oral",
+        "v4_hgb_oral_gut",
+        "v6_fusion",
+        "v7_ridge_stack"
+      ],
+      "observed_new_score_rows": 18,
+      "status": "Completed per user screenshots; scientific results not recomputed locally"
+    },
+    "9": {
+      "directory": "diet_model_adaptive_20261108_v9",
+      "new_workflows": 64,
+      "candidate_settings": 164,
+      "reference_models": [
+        "v6_fusion",
+        "v7_ridge_stack",
+        "v8_ridge_wide",
+        "v8_ridge_joint"
+      ],
+      "observed_new_score_rows": 17,
+      "status": "Completed per user screenshots; scientific results not recomputed locally"
+    },
+    "10": {
+      "directory": "diet_model_context_20261108_v10",
+      "new_workflows": 68,
+      "candidate_settings": 181,
+      "reference_models": [
+        "v8_ridge_wide",
+        "v8_ridge_joint",
+        "v9_convex_wide"
+      ],
+      "observed_new_score_rows": 16,
+      "status": "Completed per user screenshots; scientific results not recomputed locally"
+    },
+    "11": {
+      "directory": "diet_model_distribution_20261109_v11",
+      "new_workflows": 79,
+      "candidate_settings": 206,
+      "reference_models": [
+        "v8_ridge_wide",
+        "v10_ridge_diverse",
+        "v10_replay"
+      ],
+      "observed_new_score_rows": 6,
+      "status": "Completed per user screenshots; scientific results not recomputed locally"
+    }
+  },
+  "inventory": [
+    {
+      "version": 6,
+      "model": "catboost_oral",
+      "kind": "base_or_correction",
+      "learner": "catboost",
+      "site": "oral",
+      "representation": "see method summary",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": {
+        "R2": [
+          "0.110465",
+          "0.111019"
+        ],
+        "flag": null,
+        "sources": [
+          "research_records/2026-11-07_205620_full_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_batch_20261107_v6/config.json",
+      "source_registry": "diet_model_batch_20261107_v6/models.py"
+    },
+    {
+      "version": 6,
+      "model": "catboost_oral_gut",
+      "kind": "base_or_correction",
+      "learner": "catboost",
+      "site": "oral_gut",
+      "representation": "see method summary",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": {
+        "R2": [
+          "0.107248",
+          "0.109009"
+        ],
+        "flag": null,
+        "sources": [
+          "research_records/2026-11-07_205620_full_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_batch_20261107_v6/config.json",
+      "source_registry": "diet_model_batch_20261107_v6/models.py"
+    },
+    {
+      "version": 6,
+      "model": "fusion",
+      "kind": "base_or_correction",
+      "learner": "fusion",
+      "site": "see method summary",
+      "representation": "see method summary",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": {
+        "R2": [
+          "0.114660",
+          "0.115187"
+        ],
+        "flag": null,
+        "sources": [
+          "research_records/2026-11-07_205620_full_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_batch_20261107_v6/config.json",
+      "source_registry": "diet_model_batch_20261107_v6/models.py"
+    },
+    {
+      "version": 6,
+      "model": "hgb_oral",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "oral",
+      "representation": "see method summary",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": {
+        "R2": [
+          "0.108898",
+          "0.110299"
+        ],
+        "flag": null,
+        "sources": [
+          "research_records/2026-11-07_205620_full_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_batch_20261107_v6/config.json",
+      "source_registry": "diet_model_batch_20261107_v6/models.py"
+    },
+    {
+      "version": 6,
+      "model": "hgb_oral_gut",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "oral_gut",
+      "representation": "see method summary",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": {
+        "R2": [
+          "0.103158",
+          "0.109644"
+        ],
+        "flag": null,
+        "sources": [
+          "research_records/2026-11-07_205620_full_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_batch_20261107_v6/config.json",
+      "source_registry": "diet_model_batch_20261107_v6/models.py"
+    },
+    {
+      "version": 6,
+      "model": "kernel_linear",
+      "kind": "base_or_correction",
+      "learner": "kernel",
+      "site": "see method summary",
+      "representation": "see method summary",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": {
+        "R2": [
+          "0.093084",
+          "0.091701"
+        ],
+        "flag": null,
+        "sources": [
+          "research_records/2026-11-07_205620_full_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_batch_20261107_v6/config.json",
+      "source_registry": "diet_model_batch_20261107_v6/models.py"
+    },
+    {
+      "version": 6,
+      "model": "kernel_main",
+      "kind": "base_or_correction",
+      "learner": "kernel",
+      "site": "see method summary",
+      "representation": "see method summary",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": {
+        "R2": [
+          "0.092169",
+          "0.092831"
+        ],
+        "flag": null,
+        "sources": [
+          "research_records/2026-11-07_205620_full_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_batch_20261107_v6/config.json",
+      "source_registry": "diet_model_batch_20261107_v6/models.py"
+    },
+    {
+      "version": 6,
+      "model": "kernel_spline",
+      "kind": "base_or_correction",
+      "learner": "kernel",
+      "site": "see method summary",
+      "representation": "see method summary",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": {
+        "R2": [
+          "0.092350",
+          "0.092681"
+        ],
+        "flag": null,
+        "sources": [
+          "research_records/2026-11-07_205620_full_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_batch_20261107_v6/config.json",
+      "source_registry": "diet_model_batch_20261107_v6/models.py"
+    },
+    {
+      "version": 6,
+      "model": "kernel_supervised",
+      "kind": "base_or_correction",
+      "learner": "kernel",
+      "site": "see method summary",
+      "representation": "see method summary",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": {
+        "R2": [
+          "0.092169",
+          "0.092831"
+        ],
+        "flag": null,
+        "sources": [
+          "research_records/2026-11-07_205620_full_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_batch_20261107_v6/config.json",
+      "source_registry": "diet_model_batch_20261107_v6/models.py"
+    },
+    {
+      "version": 6,
+      "model": "xgboost_oral",
+      "kind": "base_or_correction",
+      "learner": "xgboost",
+      "site": "oral",
+      "representation": "see method summary",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": {
+        "R2": [
+          "0.091460",
+          "0.089819"
+        ],
+        "flag": null,
+        "sources": [
+          "research_records/2026-11-07_205620_full_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_batch_20261107_v6/config.json",
+      "source_registry": "diet_model_batch_20261107_v6/models.py"
+    },
+    {
+      "version": 6,
+      "model": "xgboost_oral_gut",
+      "kind": "base_or_correction",
+      "learner": "xgboost",
+      "site": "oral_gut",
+      "representation": "see method summary",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": {
+        "R2": [
+          "0.103741",
+          "0.103712"
+        ],
+        "flag": null,
+        "sources": [
+          "research_records/2026-11-07_205620_full_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_batch_20261107_v6/config.json",
+      "source_registry": "diet_model_batch_20261107_v6/models.py"
+    },
+    {
+      "version": 7,
+      "model": "lgbm_host",
+      "kind": "base_or_correction",
+      "learner": "lgbm",
+      "site": "host",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": 2,
+      "observed": {
+        "R2": [
+          "0.022132",
+          "0.024691"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-08_011836_full_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_expansion_20261107_v7/config.json",
+      "source_registry": "diet_model_expansion_20261107_v7/registry.py"
+    },
+    {
+      "version": 7,
+      "model": "lgbm_oral",
+      "kind": "base_or_correction",
+      "learner": "lgbm",
+      "site": "oral",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": 2,
+      "observed": {
+        "R2": [
+          "0.093339",
+          "0.099646"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-08_011836_full_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_expansion_20261107_v7/config.json",
+      "source_registry": "diet_model_expansion_20261107_v7/registry.py"
+    },
+    {
+      "version": 7,
+      "model": "lgbm_gut",
+      "kind": "base_or_correction",
+      "learner": "lgbm",
+      "site": "gut",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": 2,
+      "observed": {
+        "R2": [
+          "0.019226",
+          "0.027698"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-08_011836_full_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_expansion_20261107_v7/config.json",
+      "source_registry": "diet_model_expansion_20261107_v7/registry.py"
+    },
+    {
+      "version": 7,
+      "model": "lgbm_balanced",
+      "kind": "base_or_correction",
+      "learner": "lgbm",
+      "site": "balanced",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": 2,
+      "observed": {
+        "R2": [
+          "0.088615",
+          "0.100563"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-08_011836_full_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_expansion_20261107_v7/config.json",
+      "source_registry": "diet_model_expansion_20261107_v7/registry.py"
+    },
+    {
+      "version": 7,
+      "model": "ebm_oral",
+      "kind": "base_or_correction",
+      "learner": "ebm",
+      "site": "oral",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": 2,
+      "observed": {
+        "R2": [
+          "0.087057",
+          "0.092082"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-08_011836_full_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_expansion_20261107_v7/config.json",
+      "source_registry": "diet_model_expansion_20261107_v7/registry.py"
+    },
+    {
+      "version": 7,
+      "model": "ebm_balanced",
+      "kind": "base_or_correction",
+      "learner": "ebm",
+      "site": "balanced",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": 2,
+      "observed": {
+        "R2": [
+          "0.064024",
+          "0.070517"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-08_011836_full_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_expansion_20261107_v7/config.json",
+      "source_registry": "diet_model_expansion_20261107_v7/registry.py"
+    },
+    {
+      "version": 7,
+      "model": "hgb_hellinger_oral",
+      "kind": "base_or_correction",
+      "learner": "hgb_hellinger",
+      "site": "oral",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": 2,
+      "observed": {
+        "R2": [
+          "0.102654",
+          "0.111609"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-08_011836_full_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_expansion_20261107_v7/config.json",
+      "source_registry": "diet_model_expansion_20261107_v7/registry.py"
+    },
+    {
+      "version": 7,
+      "model": "hgb_hellinger_balanced",
+      "kind": "base_or_correction",
+      "learner": "hgb_hellinger",
+      "site": "balanced",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": 2,
+      "observed": {
+        "R2": [
+          "0.109145",
+          "0.117441"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-08_011836_full_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_expansion_20261107_v7/config.json",
+      "source_registry": "diet_model_expansion_20261107_v7/registry.py"
+    },
+    {
+      "version": 7,
+      "model": "hgb_presence_oral",
+      "kind": "base_or_correction",
+      "learner": "hgb_presence",
+      "site": "oral",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": 2,
+      "observed": {
+        "R2": [
+          "0.109854",
+          "0.109388"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-08_011836_full_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_expansion_20261107_v7/config.json",
+      "source_registry": "diet_model_expansion_20261107_v7/registry.py"
+    },
+    {
+      "version": 7,
+      "model": "hgb_presence_balanced",
+      "kind": "base_or_correction",
+      "learner": "hgb_presence",
+      "site": "balanced",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": 2,
+      "observed": {
+        "R2": [
+          "0.108174",
+          "0.107352"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-08_011836_full_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_expansion_20261107_v7/config.json",
+      "source_registry": "diet_model_expansion_20261107_v7/registry.py"
+    },
+    {
+      "version": 7,
+      "model": "gam_oral",
+      "kind": "base_or_correction",
+      "learner": "gam",
+      "site": "oral",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": 2,
+      "observed": {
+        "R2": [
+          "0.082399",
+          "0.100255"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-08_011836_full_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_expansion_20261107_v7/config.json",
+      "source_registry": "diet_model_expansion_20261107_v7/registry.py"
+    },
+    {
+      "version": 7,
+      "model": "gam_balanced",
+      "kind": "base_or_correction",
+      "learner": "gam",
+      "site": "balanced",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": 2,
+      "observed": {
+        "R2": [
+          "0.070595",
+          "0.081222"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-08_011836_full_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_expansion_20261107_v7/config.json",
+      "source_registry": "diet_model_expansion_20261107_v7/registry.py"
+    },
+    {
+      "version": 7,
+      "model": "tree_embed_oral",
+      "kind": "base_or_correction",
+      "learner": "tree_embed",
+      "site": "oral",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": 2,
+      "observed": {
+        "R2": [
+          "0.055773",
+          "0.074713"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-08_011836_full_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_expansion_20261107_v7/config.json",
+      "source_registry": "diet_model_expansion_20261107_v7/registry.py"
+    },
+    {
+      "version": 7,
+      "model": "tree_embed_balanced",
+      "kind": "base_or_correction",
+      "learner": "tree_embed",
+      "site": "balanced",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": 2,
+      "observed": {
+        "R2": [
+          "0.044060",
+          "0.049182"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-08_011836_full_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_expansion_20261107_v7/config.json",
+      "source_registry": "diet_model_expansion_20261107_v7/registry.py"
+    },
+    {
+      "version": 7,
+      "model": "pls_svr_oral",
+      "kind": "base_or_correction",
+      "learner": "pls_svr",
+      "site": "oral",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": {
+        "R2": [
+          "0.032212",
+          "0.034998"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-08_011836_full_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_expansion_20261107_v7/config.json",
+      "source_registry": "diet_model_expansion_20261107_v7/registry.py"
+    },
+    {
+      "version": 7,
+      "model": "pls_svr_balanced",
+      "kind": "base_or_correction",
+      "learner": "pls_svr",
+      "site": "balanced",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": {
+        "R2": [
+          "0.009440",
+          "0.002364"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-08_011836_full_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_expansion_20261107_v7/config.json",
+      "source_registry": "diet_model_expansion_20261107_v7/registry.py"
+    },
+    {
+      "version": 7,
+      "model": "factorization_oral",
+      "kind": "base_or_correction",
+      "learner": "factorization",
+      "site": "oral",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": {
+        "R2": [
+          "0.017768",
+          "0.021657"
+        ],
+        "flag": "W",
+        "sources": [
+          "research_records/2026-11-08_011836_full_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_expansion_20261107_v7/config.json",
+      "source_registry": "diet_model_expansion_20261107_v7/registry.py"
+    },
+    {
+      "version": 7,
+      "model": "factorization_balanced",
+      "kind": "base_or_correction",
+      "learner": "factorization",
+      "site": "balanced",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": {
+        "R2": [
+          "-0.131730",
+          "-0.165287"
+        ],
+        "flag": "W",
+        "sources": [
+          "research_records/2026-11-08_011836_full_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_expansion_20261107_v7/config.json",
+      "source_registry": "diet_model_expansion_20261107_v7/registry.py"
+    },
+    {
+      "version": 7,
+      "model": "host_residual_oral",
+      "kind": "base_or_correction",
+      "learner": "host_residual",
+      "site": "oral",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": 2,
+      "observed": {
+        "R2": [
+          "0.099962",
+          "0.102485"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-08_011836_full_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_expansion_20261107_v7/config.json",
+      "source_registry": "diet_model_expansion_20261107_v7/registry.py"
+    },
+    {
+      "version": 7,
+      "model": "host_residual_balanced",
+      "kind": "base_or_correction",
+      "learner": "host_residual",
+      "site": "balanced",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": 2,
+      "observed": {
+        "R2": [
+          "0.105334",
+          "0.108436"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-08_011836_full_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_expansion_20261107_v7/config.json",
+      "source_registry": "diet_model_expansion_20261107_v7/registry.py"
+    },
+    {
+      "version": 7,
+      "model": "nystrom_oral",
+      "kind": "base_or_correction",
+      "learner": "nystrom",
+      "site": "oral",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": {
+        "R2": [
+          "0.076471",
+          "0.076572"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-08_011836_full_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_expansion_20261107_v7/config.json",
+      "source_registry": "diet_model_expansion_20261107_v7/registry.py"
+    },
+    {
+      "version": 7,
+      "model": "nystrom_balanced",
+      "kind": "base_or_correction",
+      "learner": "nystrom",
+      "site": "balanced",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": {
+        "R2": [
+          "0.074263",
+          "0.074931"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-08_011836_full_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_expansion_20261107_v7/config.json",
+      "source_registry": "diet_model_expansion_20261107_v7/registry.py"
+    },
+    {
+      "version": 7,
+      "model": "gut_mixture",
+      "kind": "base_or_correction",
+      "learner": "mixture",
+      "site": "balanced",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": {
+        "R2": [
+          "0.058278",
+          "0.065225"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-08_011836_full_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_expansion_20261107_v7/config.json",
+      "source_registry": "diet_model_expansion_20261107_v7/registry.py"
+    },
+    {
+      "version": 7,
+      "model": "additive_boost",
+      "kind": "base_or_correction",
+      "learner": "additive",
+      "site": "balanced",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": 2,
+      "observed": {
+        "R2": [
+          "0.104149",
+          "0.111701"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-08_011836_full_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_expansion_20261107_v7/config.json",
+      "source_registry": "diet_model_expansion_20261107_v7/registry.py"
+    },
+    {
+      "version": 7,
+      "model": "ebm_diet_gut",
+      "kind": "base_or_correction",
+      "learner": "ebm_interaction",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": {
+        "R2": [
+          "0.064024",
+          "0.070517"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-08_011836_full_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_expansion_20261107_v7/config.json",
+      "source_registry": "diet_model_expansion_20261107_v7/registry.py"
+    },
+    {
+      "version": 7,
+      "model": "additive_pc_interaction",
+      "kind": "base_or_correction",
+      "learner": "pc_interaction",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": 4,
+      "observed": {
+        "R2": [
+          "0.105346",
+          "0.109333"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-08_011836_full_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_expansion_20261107_v7/config.json",
+      "source_registry": "diet_model_expansion_20261107_v7/registry.py"
+    },
+    {
+      "version": 7,
+      "model": "additive_gate_interaction",
+      "kind": "base_or_correction",
+      "learner": "gate_interaction",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": 5,
+      "observed": {
+        "R2": [
+          "0.104068",
+          "0.111828"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-08_011836_full_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_expansion_20261107_v7/config.json",
+      "source_registry": "diet_model_expansion_20261107_v7/registry.py"
+    },
+    {
+      "version": 7,
+      "model": "inner_selector",
+      "kind": "fusion_or_selector",
+      "learner": "fusion/selector",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": {
+        "R2": [
+          "0.103860",
+          "0.108123"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-08_011836_full_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_expansion_20261107_v7/config.json",
+      "source_registry": "diet_model_expansion_20261107_v7/registry.py"
+    },
+    {
+      "version": 7,
+      "model": "convex_blend",
+      "kind": "fusion_or_selector",
+      "learner": "fusion/selector",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": {
+        "R2": [
+          "0.111562",
+          "0.117443"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-08_011836_full_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_expansion_20261107_v7/config.json",
+      "source_registry": "diet_model_expansion_20261107_v7/registry.py"
+    },
+    {
+      "version": 7,
+      "model": "ridge_stack",
+      "kind": "fusion_or_selector",
+      "learner": "fusion/selector",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": {
+        "R2": [
+          "0.112019",
+          "0.119128"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-08_011836_full_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_expansion_20261107_v7/config.json",
+      "source_registry": "diet_model_expansion_20261107_v7/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "anchor_hgb_oral",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "oral",
+      "representation": "clr",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "anchor_hgb_balanced",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "balanced",
+      "representation": "clr",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "anchor_cat_oral",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "oral",
+      "representation": "clr",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "anchor_cat_balanced",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "balanced",
+      "representation": "clr",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "anchor_hellinger_oral",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "oral",
+      "representation": "hellinger",
+      "context": "existing/original",
+      "candidate_settings": 2,
+      "observed": null,
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "anchor_hellinger_balanced",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "balanced",
+      "representation": "hellinger",
+      "context": "existing/original",
+      "candidate_settings": 2,
+      "observed": null,
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "nmf_hgb_oral",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "oral",
+      "representation": "nmf",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": {
+        "R2": [
+          "0.108301",
+          "0.112685"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-08_113605_v8_diagnostics/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "nmf_hgb_balanced",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "balanced",
+      "representation": "nmf",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "nmf_cat_oral",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "oral",
+      "representation": "nmf",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "nmf_cat_balanced",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "balanced",
+      "representation": "nmf",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": {
+        "R2": [
+          "0.109011",
+          "0.112568"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-08_113605_v8_diagnostics/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "hybrid_hgb_oral",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "oral",
+      "representation": "hybrid",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "hybrid_hgb_balanced",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "balanced",
+      "representation": "hybrid",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "hybrid_cat_oral",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "oral",
+      "representation": "hybrid",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "hybrid_cat_balanced",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "balanced",
+      "representation": "hybrid",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "pls_hgb_oral",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "oral",
+      "representation": "pls",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "pls_hgb_balanced",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "balanced",
+      "representation": "pls",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "pls_cat_oral",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "oral",
+      "representation": "pls",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "pls_cat_balanced",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "balanced",
+      "representation": "pls",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "screen_hgb_oral",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "oral",
+      "representation": "screen",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "screen_hgb_balanced",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "balanced",
+      "representation": "screen",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "screen_cat_oral",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "oral",
+      "representation": "screen",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "screen_cat_balanced",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "balanced",
+      "representation": "screen",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "joint_hgb_oral",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "oral",
+      "representation": "clr",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "joint_hgb_balanced",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "balanced",
+      "representation": "clr",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": {
+        "R2": [
+          "0.106938",
+          "0.110466"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-08_113605_v8_diagnostics/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "joint_cat_oral",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "oral",
+      "representation": "clr",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "joint_cat_balanced",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "balanced",
+      "representation": "clr",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": {
+        "R2": [
+          "0.109047",
+          "0.111198"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-08_113605_v8_diagnostics/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "rules_oral",
+      "kind": "base_or_correction",
+      "learner": "rules",
+      "site": "oral",
+      "representation": "clr",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "rules_balanced",
+      "kind": "base_or_correction",
+      "learner": "rules",
+      "site": "balanced",
+      "representation": "clr",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "linear_leaf_oral",
+      "kind": "base_or_correction",
+      "learner": "linear_leaf",
+      "site": "oral",
+      "representation": "hybrid",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "linear_leaf_balanced",
+      "kind": "base_or_correction",
+      "learner": "linear_leaf",
+      "site": "balanced",
+      "representation": "hybrid",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "robust_cat_oral",
+      "kind": "base_or_correction",
+      "learner": "robust_cat",
+      "site": "oral",
+      "representation": "clr",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "robust_cat_balanced",
+      "kind": "base_or_correction",
+      "learner": "robust_cat",
+      "site": "balanced",
+      "representation": "clr",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "rotation_oral",
+      "kind": "base_or_correction",
+      "learner": "rotation",
+      "site": "oral",
+      "representation": "pc",
+      "context": "existing/original",
+      "candidate_settings": 2,
+      "observed": null,
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "rotation_balanced",
+      "kind": "base_or_correction",
+      "learner": "rotation",
+      "site": "balanced",
+      "representation": "pc",
+      "context": "existing/original",
+      "candidate_settings": 2,
+      "observed": null,
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "neighbors_oral",
+      "kind": "base_or_correction",
+      "learner": "neighbors",
+      "site": "oral",
+      "representation": "pc",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "neighbors_balanced",
+      "kind": "base_or_correction",
+      "learner": "neighbors",
+      "site": "balanced",
+      "representation": "pc",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "fm_safe_oral",
+      "kind": "base_or_correction",
+      "learner": "fm",
+      "site": "oral",
+      "representation": "clr",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "fm_safe_balanced",
+      "kind": "base_or_correction",
+      "learner": "fm",
+      "site": "balanced",
+      "representation": "clr",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "additive_nmf_oral",
+      "kind": "base_or_correction",
+      "learner": "additive",
+      "site": "oral",
+      "representation": "nmf",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": {
+        "R2": [
+          "0.106448",
+          "0.110383"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-08_113605_v8_diagnostics/visible_results.json",
+          "research_records/2026-11-08_113605_v8_diagnostics/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "additive_nmf_balanced",
+      "kind": "base_or_correction",
+      "learner": "additive",
+      "site": "balanced",
+      "representation": "nmf",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": {
+        "R2": [
+          "0.099211",
+          "0.104012"
+        ],
+        "flag": null,
+        "sources": [
+          "research_records/2026-11-08_113605_v8_diagnostics/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "linear_main_oral",
+      "kind": "base_or_correction",
+      "learner": "ridge",
+      "site": "oral",
+      "representation": "screen",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": {
+        "R2": [
+          "0.082085",
+          "0.084203"
+        ],
+        "flag": null,
+        "sources": [
+          "research_records/2026-11-08_113605_v8_diagnostics/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "linear_main_balanced",
+      "kind": "base_or_correction",
+      "learner": "ridge",
+      "site": "balanced",
+      "representation": "screen",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": {
+        "R2": [
+          "0.072603",
+          "0.078421"
+        ],
+        "flag": null,
+        "sources": [
+          "research_records/2026-11-08_113605_v8_diagnostics/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "sparse_diet_oral",
+      "kind": "base_or_correction",
+      "learner": "sparse_interaction",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": 4,
+      "observed": {
+        "R2": [
+          "0.082085",
+          "0.084203"
+        ],
+        "flag": null,
+        "sources": [
+          "research_records/2026-11-08_113605_v8_diagnostics/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "sparse_diet_balanced",
+      "kind": "base_or_correction",
+      "learner": "sparse_interaction",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": 4,
+      "observed": {
+        "R2": [
+          "0.072603",
+          "0.078421"
+        ],
+        "flag": null,
+        "sources": [
+          "research_records/2026-11-08_113605_v8_diagnostics/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "nmf_diet_oral",
+      "kind": "base_or_correction",
+      "learner": "nmf_interaction",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": 4,
+      "observed": {
+        "R2": [
+          "0.106448",
+          "0.110383"
+        ],
+        "flag": null,
+        "sources": [
+          "research_records/2026-11-08_113605_v8_diagnostics/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "nmf_diet_balanced",
+      "kind": "base_or_correction",
+      "learner": "nmf_interaction",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": 4,
+      "observed": {
+        "R2": [
+          "0.099211",
+          "0.104012"
+        ],
+        "flag": null,
+        "sources": [
+          "research_records/2026-11-08_113605_v8_diagnostics/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "convex_core",
+      "kind": "fusion_or_selector",
+      "learner": "fusion/selector",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": {
+        "R2": [
+          "0.117428",
+          "0.121169"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-08_112332_v8_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "convex_with_fm",
+      "kind": "fusion_or_selector",
+      "learner": "fusion/selector",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": {
+        "R2": [
+          "0.117428",
+          "0.121215"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-08_112332_v8_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "ridge_core",
+      "kind": "fusion_or_selector",
+      "learner": "fusion/selector",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": {
+        "R2": [
+          "0.119314",
+          "0.124576"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-08_112332_v8_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "convex_wide",
+      "kind": "fusion_or_selector",
+      "learner": "fusion/selector",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": null,
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "ridge_wide",
+      "kind": "fusion_or_selector",
+      "learner": "fusion/selector",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": {
+        "R2": [
+          "0.120396",
+          "0.122745"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-08_112332_v8_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "convex_joint",
+      "kind": "fusion_or_selector",
+      "learner": "fusion/selector",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": {
+        "R2": [
+          "0.117238",
+          "0.121392"
+        ],
+        "flag": "J",
+        "sources": [
+          "research_records/2026-11-08_112332_v8_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "ridge_joint",
+      "kind": "fusion_or_selector",
+      "learner": "fusion/selector",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": {
+        "R2": [
+          "0.120803",
+          "0.121851"
+        ],
+        "flag": "J",
+        "sources": [
+          "research_records/2026-11-08_112332_v8_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "inner_selector_core",
+      "kind": "fusion_or_selector",
+      "learner": "fusion/selector",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": null,
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 8,
+      "model": "inner_selector_joint",
+      "kind": "fusion_or_selector",
+      "learner": "fusion/selector",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": null,
+      "configuration": "diet_model_overnight_20261108_v8/config.json",
+      "source_registry": "diet_model_overnight_20261108_v8/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "anchor_hgb_oral",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "oral",
+      "representation": "clr",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "anchor_hgb_balanced",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "balanced",
+      "representation": "clr",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "anchor_cat_oral",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "oral",
+      "representation": "clr",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "anchor_cat_balanced",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "balanced",
+      "representation": "clr",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": {
+        "R2": [
+          "0.105924",
+          "0.110793"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-08_183847_v9_diagnostics/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "hurdle_hgb_oral",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "oral",
+      "representation": "hurdle",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "hurdle_hgb_balanced",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "balanced",
+      "representation": "hurdle",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": {
+        "R2": [
+          "0.107348",
+          "0.117711"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-08_183847_v9_diagnostics/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "hurdle_cat_oral",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "oral",
+      "representation": "hurdle",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": {
+        "R2": [
+          "0.107013",
+          "0.108575"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-08_183847_v9_diagnostics/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "hurdle_cat_balanced",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "balanced",
+      "representation": "hurdle",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "log1p_cat_oral",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "oral",
+      "representation": "log1p",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "log1p_cat_balanced",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "balanced",
+      "representation": "log1p",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": {
+        "R2": [
+          "0.104581",
+          "0.108512"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-08_183847_v9_diagnostics/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "rank_ridge_oral",
+      "kind": "base_or_correction",
+      "learner": "ridge",
+      "site": "oral",
+      "representation": "rank",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "rank_ridge_balanced",
+      "kind": "base_or_correction",
+      "learner": "ridge",
+      "site": "balanced",
+      "representation": "rank",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "rank_svr_oral",
+      "kind": "base_or_correction",
+      "learner": "svr",
+      "site": "oral",
+      "representation": "rank",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "rank_svr_balanced",
+      "kind": "base_or_correction",
+      "learner": "svr",
+      "site": "balanced",
+      "representation": "rank",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "alr_enet_oral",
+      "kind": "base_or_correction",
+      "learner": "enet",
+      "site": "oral",
+      "representation": "alr",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "alr_enet_balanced",
+      "kind": "base_or_correction",
+      "learner": "enet",
+      "site": "balanced",
+      "representation": "alr",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "alr_cat_oral",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "oral",
+      "representation": "alr",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "alr_cat_balanced",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "balanced",
+      "representation": "alr",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "balance_hgb_oral",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "oral",
+      "representation": "balance",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "balance_hgb_balanced",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "balanced",
+      "representation": "balance",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "balance_ridge_oral",
+      "kind": "base_or_correction",
+      "learner": "ridge",
+      "site": "oral",
+      "representation": "balance",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "balance_ridge_balanced",
+      "kind": "base_or_correction",
+      "learner": "ridge",
+      "site": "balanced",
+      "representation": "balance",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "rclr_hgb_oral",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "oral",
+      "representation": "rclr",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "rclr_hgb_balanced",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "balanced",
+      "representation": "rclr",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "rclr_cat_oral",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "oral",
+      "representation": "rclr",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "rclr_cat_balanced",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "balanced",
+      "representation": "rclr",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "eco_ridge_oral",
+      "kind": "base_or_correction",
+      "learner": "ridge",
+      "site": "oral",
+      "representation": "eco",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "eco_ridge_balanced",
+      "kind": "base_or_correction",
+      "learner": "ridge",
+      "site": "balanced",
+      "representation": "eco",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "eco_cat_oral",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "oral",
+      "representation": "eco",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "eco_cat_balanced",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "balanced",
+      "representation": "eco",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "ecohybrid_cat_oral",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "oral",
+      "representation": "ecohybrid",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "ecohybrid_cat_balanced",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "balanced",
+      "representation": "ecohybrid",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "ordered_cat_oral",
+      "kind": "base_or_correction",
+      "learner": "ordered_cat",
+      "site": "oral",
+      "representation": "clr",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "ordered_cat_balanced",
+      "kind": "base_or_correction",
+      "learner": "ordered_cat",
+      "site": "balanced",
+      "representation": "clr",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "leafwise_cat_oral",
+      "kind": "base_or_correction",
+      "learner": "leafwise_cat",
+      "site": "oral",
+      "representation": "clr",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "leafwise_cat_balanced",
+      "kind": "base_or_correction",
+      "learner": "leafwise_cat",
+      "site": "balanced",
+      "representation": "clr",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "tweedie_lgbm_oral",
+      "kind": "base_or_correction",
+      "learner": "tweedie",
+      "site": "oral",
+      "representation": "hurdle",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "tweedie_lgbm_balanced",
+      "kind": "base_or_correction",
+      "learner": "tweedie",
+      "site": "balanced",
+      "representation": "hurdle",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "gauss_target_cat_oral",
+      "kind": "base_or_correction",
+      "learner": "gauss_cat",
+      "site": "oral",
+      "representation": "ecohybrid",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "gauss_target_cat_balanced",
+      "kind": "base_or_correction",
+      "learner": "gauss_cat",
+      "site": "balanced",
+      "representation": "ecohybrid",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "residual_mlp_oral",
+      "kind": "base_or_correction",
+      "learner": "residual_mlp",
+      "site": "oral",
+      "representation": "compact",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "residual_mlp_balanced",
+      "kind": "base_or_correction",
+      "learner": "residual_mlp",
+      "site": "balanced",
+      "representation": "compact",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "deep_rvfl_oral",
+      "kind": "base_or_correction",
+      "learner": "deep_rvfl",
+      "site": "oral",
+      "representation": "compact",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "deep_rvfl_balanced",
+      "kind": "base_or_correction",
+      "learner": "deep_rvfl",
+      "site": "balanced",
+      "representation": "compact",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "daily_hgb_oral",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "oral",
+      "representation": "ecohybrid",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "daily_hgb_balanced",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "balanced",
+      "representation": "ecohybrid",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": {
+        "R2": [
+          "0.106250",
+          "0.108324"
+        ],
+        "flag": "D",
+        "sources": [
+          "research_records/2026-11-08_183847_v9_diagnostics/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "daily_cat_oral",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "oral",
+      "representation": "ecohybrid",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "daily_cat_balanced",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "balanced",
+      "representation": "ecohybrid",
+      "context": "existing/original",
+      "candidate_settings": 3,
+      "observed": {
+        "R2": [
+          "0.108682",
+          "0.113566"
+        ],
+        "flag": "D",
+        "sources": [
+          "research_records/2026-11-08_183847_v9_diagnostics/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "balance_diet_oral",
+      "kind": "base_or_correction",
+      "learner": "weak_interaction",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": 5,
+      "observed": {
+        "R2": [
+          "0.053619",
+          "0.068544"
+        ],
+        "flag": null,
+        "sources": [
+          "research_records/2026-11-08_182950_v9_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "balance_diet_balanced",
+      "kind": "base_or_correction",
+      "learner": "weak_interaction",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": 5,
+      "observed": {
+        "R2": [
+          "0.055858",
+          "0.070736"
+        ],
+        "flag": null,
+        "sources": [
+          "research_records/2026-11-08_182950_v9_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "eco_diet_oral",
+      "kind": "base_or_correction",
+      "learner": "weak_interaction",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": 5,
+      "observed": {
+        "R2": [
+          "0.044204",
+          "0.044963"
+        ],
+        "flag": null,
+        "sources": [
+          "research_records/2026-11-08_182950_v9_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "eco_diet_balanced",
+      "kind": "base_or_correction",
+      "learner": "weak_interaction",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": 5,
+      "observed": {
+        "R2": [
+          "0.042994",
+          "0.046851"
+        ],
+        "flag": null,
+        "sources": [
+          "research_records/2026-11-08_182950_v9_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "convex_core",
+      "kind": "fusion_or_selector",
+      "learner": "fusion/selector",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": null,
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "ridge_core",
+      "kind": "fusion_or_selector",
+      "learner": "fusion/selector",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": {
+        "R2": [
+          "0.116258",
+          "0.129846"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-08_182950_v9_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "convex_wide",
+      "kind": "fusion_or_selector",
+      "learner": "fusion/selector",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": {
+        "R2": [
+          "0.119491",
+          "0.126979"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-08_182950_v9_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "ridge_wide",
+      "kind": "fusion_or_selector",
+      "learner": "fusion/selector",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": {
+        "R2": [
+          "0.118120",
+          "0.129350"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-08_182950_v9_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "convex_daily",
+      "kind": "fusion_or_selector",
+      "learner": "fusion/selector",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": {
+        "R2": [
+          "0.118598",
+          "0.126942"
+        ],
+        "flag": "D",
+        "sources": [
+          "research_records/2026-11-08_182950_v9_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "ridge_daily",
+      "kind": "fusion_or_selector",
+      "learner": "fusion/selector",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": {
+        "R2": [
+          "0.117164",
+          "0.129255"
+        ],
+        "flag": "D",
+        "sources": [
+          "research_records/2026-11-08_182950_v9_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "gated_soft",
+      "kind": "fusion_or_selector",
+      "learner": "fusion/selector",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": null,
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "gated_medium",
+      "kind": "fusion_or_selector",
+      "learner": "fusion/selector",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": {
+        "R2": [
+          "0.112516",
+          "0.123671"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-08_182950_v9_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "gated_strong",
+      "kind": "fusion_or_selector",
+      "learner": "fusion/selector",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": null,
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "tree_meta",
+      "kind": "fusion_or_selector",
+      "learner": "fusion/selector",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": {
+        "R2": [
+          "0.109037",
+          "0.124472"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-08_182950_v9_results/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "polynomial_stack",
+      "kind": "fusion_or_selector",
+      "learner": "fusion/selector",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": null,
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 9,
+      "model": "inner_selector",
+      "kind": "fusion_or_selector",
+      "learner": "fusion/selector",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": null,
+      "configuration": "diet_model_adaptive_20261108_v9/config.json",
+      "source_registry": "diet_model_adaptive_20261108_v9/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "hgb_oral_none",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "oral",
+      "representation": "clr",
+      "context": "none",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "cat_balanced_none",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "balanced",
+      "representation": "clr",
+      "context": "none",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "block_balanced_none",
+      "kind": "base_or_correction",
+      "learner": "block",
+      "site": "balanced",
+      "representation": "clr",
+      "context": "none",
+      "candidate_settings": 4,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "hgb_host_none",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "host",
+      "representation": "clr",
+      "context": "none",
+      "candidate_settings": 2,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "cat_host_none",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "host",
+      "representation": "clr",
+      "context": "none",
+      "candidate_settings": 2,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "hgb_oral_macro",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "oral",
+      "representation": "clr",
+      "context": "macro",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "cat_balanced_macro",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "balanced",
+      "representation": "clr",
+      "context": "macro",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "block_balanced_macro",
+      "kind": "base_or_correction",
+      "learner": "block",
+      "site": "balanced",
+      "representation": "clr",
+      "context": "macro",
+      "candidate_settings": 4,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "hgb_host_macro",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "host",
+      "representation": "clr",
+      "context": "macro",
+      "candidate_settings": 2,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "cat_host_macro",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "host",
+      "representation": "clr",
+      "context": "macro",
+      "candidate_settings": 2,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "hgb_oral_sodium",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "oral",
+      "representation": "clr",
+      "context": "sodium",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "cat_balanced_sodium",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "balanced",
+      "representation": "clr",
+      "context": "sodium",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "block_balanced_sodium",
+      "kind": "base_or_correction",
+      "learner": "block",
+      "site": "balanced",
+      "representation": "clr",
+      "context": "sodium",
+      "candidate_settings": 4,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "hgb_host_sodium",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "host",
+      "representation": "clr",
+      "context": "sodium",
+      "candidate_settings": 2,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "cat_host_sodium",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "host",
+      "representation": "clr",
+      "context": "sodium",
+      "candidate_settings": 2,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "hgb_oral_life",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "oral",
+      "representation": "clr",
+      "context": "life",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "cat_balanced_life",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "balanced",
+      "representation": "clr",
+      "context": "life",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "block_balanced_life",
+      "kind": "base_or_correction",
+      "learner": "block",
+      "site": "balanced",
+      "representation": "clr",
+      "context": "life",
+      "candidate_settings": 4,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "hgb_host_life",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "host",
+      "representation": "clr",
+      "context": "life",
+      "candidate_settings": 2,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "cat_host_life",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "host",
+      "representation": "clr",
+      "context": "life",
+      "candidate_settings": 2,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "hgb_oral_full",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "oral",
+      "representation": "clr",
+      "context": "full",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "cat_balanced_full",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "balanced",
+      "representation": "clr",
+      "context": "full",
+      "candidate_settings": 3,
+      "observed": {
+        "R2": [
+          "0.109957",
+          "0.116989"
+        ],
+        "flag": null,
+        "sources": [
+          "research_records/2026-11-09_093835_diagnostics/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "block_balanced_full",
+      "kind": "base_or_correction",
+      "learner": "block",
+      "site": "balanced",
+      "representation": "clr",
+      "context": "full",
+      "candidate_settings": 4,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "hgb_host_full",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "host",
+      "representation": "clr",
+      "context": "full",
+      "candidate_settings": 2,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "cat_host_full",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "host",
+      "representation": "clr",
+      "context": "full",
+      "candidate_settings": 2,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "hgb_balanced_full",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "balanced",
+      "representation": "clr",
+      "context": "full",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "cat_oral_full",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "oral",
+      "representation": "clr",
+      "context": "full",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "block_oral_full",
+      "kind": "base_or_correction",
+      "learner": "block",
+      "site": "oral",
+      "representation": "clr",
+      "context": "full",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "block_gut_full",
+      "kind": "base_or_correction",
+      "learner": "block",
+      "site": "gut",
+      "representation": "clr",
+      "context": "full",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "hgb_oral_macro_life",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "oral",
+      "representation": "clr",
+      "context": "macro_life",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "cat_balanced_macro_life",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "balanced",
+      "representation": "clr",
+      "context": "macro_life",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "hgb_oral_joint",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "oral",
+      "representation": "clr",
+      "context": "joint",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "cat_balanced_joint",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "balanced",
+      "representation": "clr",
+      "context": "joint",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "hgb_oral_fiber_days",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "oral",
+      "representation": "clr",
+      "context": "fiber_days",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "cat_balanced_fiber_days",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "balanced",
+      "representation": "clr",
+      "context": "fiber_days",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "hgb_oral_distribution",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "oral",
+      "representation": "clr",
+      "context": "distribution",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "cat_balanced_distribution",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "balanced",
+      "representation": "clr",
+      "context": "distribution",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "hgb_oral_ratios",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "oral",
+      "representation": "clr",
+      "context": "ratios",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "cat_balanced_ratios",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "balanced",
+      "representation": "clr",
+      "context": "ratios",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "spline_oral_full",
+      "kind": "base_or_correction",
+      "learner": "spline",
+      "site": "oral",
+      "representation": "pc",
+      "context": "full",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "spline_balanced_full",
+      "kind": "base_or_correction",
+      "learner": "spline",
+      "site": "balanced",
+      "representation": "pc",
+      "context": "full",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "svr_oral_full",
+      "kind": "base_or_correction",
+      "learner": "svr",
+      "site": "oral",
+      "representation": "pc",
+      "context": "full",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "svr_balanced_full",
+      "kind": "base_or_correction",
+      "learner": "svr",
+      "site": "balanced",
+      "representation": "pc",
+      "context": "full",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "extra_oral_full",
+      "kind": "base_or_correction",
+      "learner": "extra",
+      "site": "oral",
+      "representation": "pc",
+      "context": "full",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "extra_balanced_full",
+      "kind": "base_or_correction",
+      "learner": "extra",
+      "site": "balanced",
+      "representation": "pc",
+      "context": "full",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "kernel_oral_full",
+      "kind": "base_or_correction",
+      "learner": "kernel",
+      "site": "oral",
+      "representation": "pc",
+      "context": "full",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "kernel_balanced_full",
+      "kind": "base_or_correction",
+      "learner": "kernel",
+      "site": "balanced",
+      "representation": "pc",
+      "context": "full",
+      "candidate_settings": 3,
+      "observed": {
+        "R2": [
+          "0.070024",
+          "0.075509"
+        ],
+        "flag": null,
+        "sources": [
+          "research_records/2026-11-09_093835_diagnostics/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "hurdle_hgb_oral_full",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "oral",
+      "representation": "hurdle",
+      "context": "full",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "hurdle_hgb_balanced_full",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "balanced",
+      "representation": "hurdle",
+      "context": "full",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "hurdle_cat_balanced_full",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "balanced",
+      "representation": "hurdle",
+      "context": "full",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "eco_cat_balanced_full",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "balanced",
+      "representation": "ecohybrid",
+      "context": "full",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "block_pc_balanced_full",
+      "kind": "base_or_correction",
+      "learner": "block",
+      "site": "balanced",
+      "representation": "pc",
+      "context": "full",
+      "candidate_settings": 4,
+      "observed": {
+        "R2": [
+          "0.077617",
+          "0.081908"
+        ],
+        "flag": null,
+        "sources": [
+          "research_records/2026-11-09_093835_diagnostics/visible_results.json",
+          "research_records/2026-11-09_093835_diagnostics/visible_results.json",
+          "research_records/2026-11-09_093835_diagnostics/visible_results.json",
+          "research_records/2026-11-09_093835_diagnostics/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "fiber_gut_linear",
+      "kind": "base_or_correction",
+      "learner": "correction",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": 5,
+      "observed": {
+        "R2": [
+          "0.078841",
+          "0.080282"
+        ],
+        "flag": null,
+        "sources": [
+          "research_records/2026-11-09_093835_diagnostics/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "fiber_oral_linear",
+      "kind": "base_or_correction",
+      "learner": "correction",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": 5,
+      "observed": {
+        "R2": [
+          "0.075303",
+          "0.081908"
+        ],
+        "flag": null,
+        "sources": [
+          "research_records/2026-11-09_093835_diagnostics/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "fiber_both_rcs",
+      "kind": "base_or_correction",
+      "learner": "correction",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": 5,
+      "observed": {
+        "R2": [
+          "0.077617",
+          "0.081908"
+        ],
+        "flag": null,
+        "sources": [
+          "research_records/2026-11-09_093835_diagnostics/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "fiber_gut_tree",
+      "kind": "base_or_correction",
+      "learner": "correction",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": 5,
+      "observed": {
+        "R2": [
+          "0.109373",
+          "0.115086"
+        ],
+        "flag": null,
+        "sources": [
+          "research_records/2026-11-09_093835_diagnostics/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "fiber_macro",
+      "kind": "base_or_correction",
+      "learner": "correction",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": 4,
+      "observed": {
+        "R2": [
+          "0.077589",
+          "0.084164"
+        ],
+        "flag": null,
+        "sources": [
+          "research_records/2026-11-09_093835_diagnostics/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "fiber_gut_kernel",
+      "kind": "base_or_correction",
+      "learner": "correction",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": 5,
+      "observed": {
+        "R2": [
+          "0.071266",
+          "0.075590"
+        ],
+        "flag": null,
+        "sources": [
+          "research_records/2026-11-09_093835_diagnostics/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "convex_base",
+      "kind": "fusion_or_selector",
+      "learner": "fusion/selector",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "ridge_base",
+      "kind": "fusion_or_selector",
+      "learner": "fusion/selector",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": {
+        "R2": [
+          "0.113074",
+          "0.120920"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-09_092630_complete/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "convex_macro",
+      "kind": "fusion_or_selector",
+      "learner": "fusion/selector",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "ridge_macro",
+      "kind": "fusion_or_selector",
+      "learner": "fusion/selector",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": {
+        "R2": [
+          "0.119592",
+          "0.126345"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-09_092630_complete/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "convex_full",
+      "kind": "fusion_or_selector",
+      "learner": "fusion/selector",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": null,
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "ridge_full",
+      "kind": "fusion_or_selector",
+      "learner": "fusion/selector",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": {
+        "R2": [
+          "0.119904",
+          "0.128421"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-09_092630_complete/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "convex_diverse",
+      "kind": "fusion_or_selector",
+      "learner": "fusion/selector",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": {
+        "R2": [
+          "0.122736",
+          "0.132459"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-09_092630_complete/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "ridge_diverse",
+      "kind": "fusion_or_selector",
+      "learner": "fusion/selector",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": {
+        "R2": [
+          "0.126227",
+          "0.137266"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-09_092630_complete/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "convex_wide",
+      "kind": "fusion_or_selector",
+      "learner": "fusion/selector",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": {
+        "R2": [
+          "0.122622",
+          "0.131805"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-09_092630_complete/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 10,
+      "model": "ridge_wide",
+      "kind": "fusion_or_selector",
+      "learner": "fusion/selector",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": {
+        "R2": [
+          "0.125175",
+          "0.136837"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-09_092630_complete/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_context_20261108_v10/config.json",
+      "source_registry": "diet_model_context_20261108_v10/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "hgb_oral_full",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "oral",
+      "representation": "clr",
+      "context": "full",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "cat_balanced_full",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "balanced",
+      "representation": "clr",
+      "context": "full",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "hgb_oral_joint",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "oral",
+      "representation": "clr",
+      "context": "joint",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "cat_balanced_joint",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "balanced",
+      "representation": "clr",
+      "context": "joint",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "hgb_oral_joint_upf",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "oral",
+      "representation": "clr",
+      "context": "joint_upf",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "cat_balanced_joint_upf",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "balanced",
+      "representation": "clr",
+      "context": "joint_upf",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "hgb_oral_shrink_global",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "oral",
+      "representation": "clr",
+      "context": "shrink_global",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "cat_balanced_shrink_global",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "balanced",
+      "representation": "clr",
+      "context": "shrink_global",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "hgb_oral_shrink_local",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "oral",
+      "representation": "clr",
+      "context": "shrink_local",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "cat_balanced_shrink_local",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "balanced",
+      "representation": "clr",
+      "context": "shrink_local",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "hgb_oral_shrink_uncertainty",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "oral",
+      "representation": "clr",
+      "context": "shrink_uncertainty",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "cat_balanced_shrink_uncertainty",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "balanced",
+      "representation": "clr",
+      "context": "shrink_uncertainty",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "hgb_oral_quality",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "oral",
+      "representation": "clr",
+      "context": "quality",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "cat_balanced_quality",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "balanced",
+      "representation": "clr",
+      "context": "quality",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "hgb_oral_covariance",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "oral",
+      "representation": "clr",
+      "context": "covariance",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "cat_balanced_covariance",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "balanced",
+      "representation": "clr",
+      "context": "covariance",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "hgb_oral_rff",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "oral",
+      "representation": "clr",
+      "context": "rff",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "cat_balanced_rff",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "balanced",
+      "representation": "clr",
+      "context": "rff",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "hgb_oral_prototype",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "oral",
+      "representation": "clr",
+      "context": "prototype",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "cat_balanced_prototype",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "balanced",
+      "representation": "clr",
+      "context": "prototype",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "hgb_oral_sliced",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "oral",
+      "representation": "clr",
+      "context": "sliced",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "cat_balanced_sliced",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "balanced",
+      "representation": "clr",
+      "context": "sliced",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "hgb_host_joint",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "host",
+      "representation": "clr",
+      "context": "joint",
+      "candidate_settings": 2,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "cat_host_joint",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "host",
+      "representation": "clr",
+      "context": "joint",
+      "candidate_settings": 2,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "linear_tree_oral_joint",
+      "kind": "base_or_correction",
+      "learner": "linear_tree",
+      "site": "oral",
+      "representation": "pc",
+      "context": "joint",
+      "candidate_settings": 2,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "linear_tree_balanced_joint",
+      "kind": "base_or_correction",
+      "learner": "linear_tree",
+      "site": "balanced",
+      "representation": "pc",
+      "context": "joint",
+      "candidate_settings": 2,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "dart_oral_joint",
+      "kind": "base_or_correction",
+      "learner": "dart",
+      "site": "oral",
+      "representation": "clr",
+      "context": "joint",
+      "candidate_settings": 2,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "dart_balanced_joint",
+      "kind": "base_or_correction",
+      "learner": "dart",
+      "site": "balanced",
+      "representation": "clr",
+      "context": "joint",
+      "candidate_settings": 2,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "posterior_cat_oral_joint",
+      "kind": "base_or_correction",
+      "learner": "posterior_cat",
+      "site": "oral",
+      "representation": "clr",
+      "context": "joint",
+      "candidate_settings": 2,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "posterior_cat_balanced_joint",
+      "kind": "base_or_correction",
+      "learner": "posterior_cat",
+      "site": "balanced",
+      "representation": "clr",
+      "context": "joint",
+      "candidate_settings": 2,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "huber_cat_oral_joint",
+      "kind": "base_or_correction",
+      "learner": "huber_cat",
+      "site": "oral",
+      "representation": "clr",
+      "context": "joint",
+      "candidate_settings": 2,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "huber_cat_balanced_joint",
+      "kind": "base_or_correction",
+      "learner": "huber_cat",
+      "site": "balanced",
+      "representation": "clr",
+      "context": "joint",
+      "candidate_settings": 2,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "bayes_oral_joint",
+      "kind": "base_or_correction",
+      "learner": "bayes",
+      "site": "oral",
+      "representation": "spc",
+      "context": "joint",
+      "candidate_settings": 2,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "bayes_balanced_joint",
+      "kind": "base_or_correction",
+      "learner": "bayes",
+      "site": "balanced",
+      "representation": "spc",
+      "context": "joint",
+      "candidate_settings": 2,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "ard_oral_joint",
+      "kind": "base_or_correction",
+      "learner": "ard",
+      "site": "oral",
+      "representation": "spc",
+      "context": "joint",
+      "candidate_settings": 2,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "ard_balanced_joint",
+      "kind": "base_or_correction",
+      "learner": "ard",
+      "site": "balanced",
+      "representation": "spc",
+      "context": "joint",
+      "candidate_settings": 2,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "adaptive_enet_oral_joint",
+      "kind": "base_or_correction",
+      "learner": "adaptive_enet",
+      "site": "oral",
+      "representation": "clr",
+      "context": "joint",
+      "candidate_settings": 2,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "adaptive_enet_balanced_joint",
+      "kind": "base_or_correction",
+      "learner": "adaptive_enet",
+      "site": "balanced",
+      "representation": "clr",
+      "context": "joint",
+      "candidate_settings": 2,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "spc_hgb_oral_joint",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "oral",
+      "representation": "spc",
+      "context": "joint",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "spc_hgb_balanced_joint",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "balanced",
+      "representation": "spc",
+      "context": "joint",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "spc_cat_oral_joint",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "oral",
+      "representation": "spc",
+      "context": "joint",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "spc_cat_balanced_joint",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "balanced",
+      "representation": "spc",
+      "context": "joint",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "quadratic_hgb_oral_joint",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "oral",
+      "representation": "quadratic",
+      "context": "joint",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "quadratic_hgb_balanced_joint",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "balanced",
+      "representation": "quadratic",
+      "context": "joint",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "quadratic_ridge_oral_joint",
+      "kind": "base_or_correction",
+      "learner": "ridge",
+      "site": "oral",
+      "representation": "quadratic",
+      "context": "joint",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "quadratic_ridge_balanced_joint",
+      "kind": "base_or_correction",
+      "learner": "ridge",
+      "site": "balanced",
+      "representation": "quadratic",
+      "context": "joint",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "hgb_balanced_joint",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "balanced",
+      "representation": "clr",
+      "context": "joint",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "cat_oral_joint",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "oral",
+      "representation": "clr",
+      "context": "joint",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "block_pc_oral_joint",
+      "kind": "base_or_correction",
+      "learner": "block",
+      "site": "oral",
+      "representation": "pc",
+      "context": "joint",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "block_pc_balanced_joint",
+      "kind": "base_or_correction",
+      "learner": "block",
+      "site": "balanced",
+      "representation": "pc",
+      "context": "joint",
+      "candidate_settings": 3,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "resid_host_hgb",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "host",
+      "representation": "clr",
+      "context": "joint",
+      "candidate_settings": 7,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "resid_oral_hgb",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "oral",
+      "representation": "clr",
+      "context": "joint",
+      "candidate_settings": 7,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "resid_balanced_hgb",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "balanced",
+      "representation": "clr",
+      "context": "joint",
+      "candidate_settings": 7,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "resid_oral_cat",
+      "kind": "base_or_correction",
+      "learner": "cat",
+      "site": "oral",
+      "representation": "clr",
+      "context": "joint",
+      "candidate_settings": 7,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "resid_oral_bayes",
+      "kind": "base_or_correction",
+      "learner": "bayes",
+      "site": "oral",
+      "representation": "spc",
+      "context": "joint",
+      "candidate_settings": 7,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "resid_ridge_hgb",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "oral",
+      "representation": "clr",
+      "context": "joint",
+      "candidate_settings": 7,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "resid_oralbase_oral",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "oral",
+      "representation": "clr",
+      "context": "joint",
+      "candidate_settings": 7,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "resid_oralbase_balanced",
+      "kind": "base_or_correction",
+      "learner": "hgb",
+      "site": "balanced",
+      "representation": "clr",
+      "context": "joint",
+      "candidate_settings": 7,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "cfiber_gut",
+      "kind": "base_or_correction",
+      "learner": "fiber",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": 4,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "cfiber_oral",
+      "kind": "base_or_correction",
+      "learner": "fiber",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": 4,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "cfiber_both",
+      "kind": "base_or_correction",
+      "learner": "fiber",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": 4,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "cfiber_macro",
+      "kind": "base_or_correction",
+      "learner": "fiber",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": 4,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "convex_oral",
+      "kind": "fusion_or_selector",
+      "learner": "fusion/selector",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "ridge_oral",
+      "kind": "fusion_or_selector",
+      "learner": "fusion/selector",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "positive_oral",
+      "kind": "fusion_or_selector",
+      "learner": "fusion/selector",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "convex_balanced",
+      "kind": "fusion_or_selector",
+      "learner": "fusion/selector",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "ridge_balanced",
+      "kind": "fusion_or_selector",
+      "learner": "fusion/selector",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "positive_balanced",
+      "kind": "fusion_or_selector",
+      "learner": "fusion/selector",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "convex_new",
+      "kind": "fusion_or_selector",
+      "learner": "fusion/selector",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "ridge_new",
+      "kind": "fusion_or_selector",
+      "learner": "fusion/selector",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": {
+        "R2": [
+          "0.126451",
+          "0.134122"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-09_172529_complete/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "positive_new",
+      "kind": "fusion_or_selector",
+      "learner": "fusion/selector",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": {
+        "R2": [
+          "0.127859",
+          "0.134546"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-09_172529_complete/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "convex_distribution",
+      "kind": "fusion_or_selector",
+      "learner": "fusion/selector",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "ridge_distribution",
+      "kind": "fusion_or_selector",
+      "learner": "fusion/selector",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "positive_distribution",
+      "kind": "fusion_or_selector",
+      "learner": "fusion/selector",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "convex_combined",
+      "kind": "fusion_or_selector",
+      "learner": "fusion/selector",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": {
+        "R2": [
+          "0.127149",
+          "0.135216"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-09_172529_complete/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "ridge_combined",
+      "kind": "fusion_or_selector",
+      "learner": "fusion/selector",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": {
+        "R2": [
+          "0.128020",
+          "0.139652"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-09_172529_complete/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "positive_combined",
+      "kind": "fusion_or_selector",
+      "learner": "fusion/selector",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": {
+        "R2": [
+          "0.130555",
+          "0.139855"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-09_172529_complete/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "sparse_new",
+      "kind": "fusion_or_selector",
+      "learner": "fusion/selector",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": null,
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    },
+    {
+      "version": 11,
+      "model": "sparse_combined",
+      "kind": "fusion_or_selector",
+      "learner": "fusion/selector",
+      "site": "pool",
+      "representation": "see config",
+      "context": "existing/original",
+      "candidate_settings": null,
+      "observed": {
+        "R2": [
+          "0.128340",
+          "0.140103"
+        ],
+        "flag": "-",
+        "sources": [
+          "research_records/2026-11-09_172529_complete/visible_results.json"
+        ]
+      },
+      "configuration": "diet_model_distribution_20261109_v11/config.json",
+      "source_registry": "diet_model_distribution_20261109_v11/registry.py"
+    }
+  ]
+}

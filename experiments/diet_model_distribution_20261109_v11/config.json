@@ -1,0 +1,319 @@
+{
+  "outcome": "D_Glu",
+  "exposure": "fiber_density",
+  "confirmation_outcomes_read": false,
+  "outer_repeats": 2,
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "outer_seed": 20261104,
+  "contrast": [
+    10,
+    15
+  ],
+  "dependencies": {
+    "numpy": "1.26.4",
+    "scipy": "1.11.4",
+    "pandas": "2.1.0",
+    "pyarrow": "15.0.2",
+    "scikit-learn": "1.4.1.post1",
+    "catboost": "1.2.8",
+    "lightgbm": "3.3.5"
+  },
+  "version": "v11_20261109",
+  "model_seed": 20261111,
+  "anchor_seed": 20261110,
+  "v10_reference_run": "context_v10_20261108",
+  "legacy_members": [
+    "hgb_oral_full",
+    "cat_balanced_full",
+    "block_balanced_full",
+    "hgb_host_full",
+    "cat_host_full",
+    "hgb_balanced_full",
+    "cat_oral_full",
+    "block_oral_full",
+    "block_gut_full",
+    "spline_oral_full",
+    "spline_balanced_full",
+    "svr_oral_full",
+    "svr_balanced_full",
+    "extra_oral_full",
+    "extra_balanced_full",
+    "kernel_oral_full",
+    "kernel_balanced_full",
+    "hurdle_hgb_oral_full",
+    "hurdle_hgb_balanced_full",
+    "hurdle_cat_balanced_full",
+    "eco_cat_balanced_full",
+    "block_pc_balanced_full",
+    "fiber_gut_linear",
+    "fiber_oral_linear",
+    "fiber_both_rcs",
+    "fiber_gut_tree",
+    "fiber_macro",
+    "fiber_gut_kernel"
+  ],
+  "legacy_stack_penalty": 0.1,
+  "completion_iterations": 1,
+  "projection_penalty": 0.01,
+  "crossfit_folds": 3,
+  "residual_weights": [
+    0.25,
+    0.5,
+    1
+  ],
+  "interaction_grid": [
+    [
+      5,
+      0.001
+    ],
+    [
+      10,
+      0.01
+    ],
+    [
+      20,
+      0.1
+    ]
+  ],
+  "meta_penalties": [
+    0.003,
+    0.01,
+    0.1,
+    1
+  ],
+  "sparse_penalties": [
+    0.001,
+    0.01,
+    0.1
+  ],
+  "diet_parameters": {
+    "seed": 20261111,
+    "fourier_width": 64,
+    "prototypes": 12,
+    "directions": 16,
+    "quantiles": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "gamma": 0.25
+  },
+  "families": {
+    "hgb": {
+      "grid": [
+        {
+          "count": 128,
+          "components": 30,
+          "iterations": 200,
+          "leaves": 7,
+          "leaf": 40,
+          "l2": 30
+        },
+        {
+          "count": 256,
+          "components": 30,
+          "iterations": 280,
+          "leaves": 15,
+          "leaf": 40,
+          "l2": 30
+        },
+        {
+          "count": 0,
+          "components": 30,
+          "iterations": 200,
+          "leaves": 7,
+          "leaf": 40,
+          "l2": 30
+        }
+      ]
+    },
+    "cat": {
+      "grid": [
+        {
+          "count": 128,
+          "components": 30,
+          "iterations": 600,
+          "depth": 4,
+          "l2": 30
+        },
+        {
+          "count": 256,
+          "components": 30,
+          "iterations": 800,
+          "depth": 6,
+          "l2": 30
+        },
+        {
+          "count": 0,
+          "components": 30,
+          "iterations": 600,
+          "depth": 4,
+          "l2": 30
+        }
+      ]
+    },
+    "block": {
+      "grid": [
+        {
+          "count": 128,
+          "components": 10,
+          "penalty": 0.001,
+          "micro_weight": 1,
+          "gut_weight": 1
+        },
+        {
+          "count": 128,
+          "components": 20,
+          "penalty": 0.01,
+          "micro_weight": 1,
+          "gut_weight": 1
+        },
+        {
+          "count": 128,
+          "components": 40,
+          "penalty": 0.1,
+          "micro_weight": 1,
+          "gut_weight": 1
+        }
+      ]
+    },
+    "ridge": {
+      "grid": [
+        {
+          "count": 64,
+          "components": 20,
+          "penalty": 0.001
+        },
+        {
+          "count": 128,
+          "components": 20,
+          "penalty": 0.01
+        },
+        {
+          "count": 256,
+          "components": 20,
+          "penalty": 0.1
+        }
+      ]
+    },
+    "linear_tree": {
+      "grid": [
+        {
+          "count": 128,
+          "components": 20,
+          "iterations": 250,
+          "leaves": 7,
+          "leaf": 60,
+          "linear_lambda": 1
+        },
+        {
+          "count": 128,
+          "components": 40,
+          "iterations": 400,
+          "leaves": 7,
+          "leaf": 60,
+          "linear_lambda": 10
+        }
+      ]
+    },
+    "dart": {
+      "grid": [
+        {
+          "count": 128,
+          "components": 20,
+          "iterations": 300,
+          "leaves": 7,
+          "leaf": 60
+        },
+        {
+          "count": 256,
+          "components": 20,
+          "iterations": 500,
+          "leaves": 15,
+          "leaf": 60
+        }
+      ]
+    },
+    "posterior_cat": {
+      "grid": [
+        {
+          "count": 128,
+          "components": 20,
+          "iterations": 600,
+          "depth": 4,
+          "l2": 30
+        },
+        {
+          "count": 256,
+          "components": 20,
+          "iterations": 800,
+          "depth": 5,
+          "l2": 30
+        }
+      ]
+    },
+    "huber_cat": {
+      "grid": [
+        {
+          "count": 128,
+          "components": 20,
+          "iterations": 600,
+          "depth": 4,
+          "l2": 30
+        },
+        {
+          "count": 256,
+          "components": 20,
+          "iterations": 800,
+          "depth": 5,
+          "l2": 30
+        }
+      ]
+    },
+    "bayes": {
+      "grid": [
+        {
+          "count": 128,
+          "components": 20
+        },
+        {
+          "count": 256,
+          "components": 40
+        }
+      ]
+    },
+    "ard": {
+      "grid": [
+        {
+          "count": 128,
+          "components": 20,
+          "threshold": 1000
+        },
+        {
+          "count": 256,
+          "components": 40,
+          "threshold": 10000
+        }
+      ]
+    },
+    "adaptive_enet": {
+      "grid": [
+        {
+          "count": 128,
+          "components": 20,
+          "penalty": 0.002,
+          "gamma": 0.5
+        },
+        {
+          "count": 256,
+          "components": 20,
+          "penalty": 0.02,
+          "gamma": 1
+        }
+      ]
+    }
+  }
+}

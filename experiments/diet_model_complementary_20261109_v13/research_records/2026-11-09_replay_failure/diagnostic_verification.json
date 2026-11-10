@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "terminal_script_executed": true,
+  "saved_model_error": 0.0,
+  "reconstructed_model_error": 0.003,
+  "scenario": "Synthetic rebuild coefficient perturbation detected",
+  "files_unchanged": true,
+  "native_data_loaded": false
+}

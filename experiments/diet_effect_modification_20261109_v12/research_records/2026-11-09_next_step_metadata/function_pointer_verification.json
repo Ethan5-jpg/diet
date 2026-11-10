@@ -1,0 +1,22 @@
+{
+  "scope": "SYNTHETIC_POINTER_METADATA_FIXTURES_ONLY",
+  "native_participant_data_read_locally": false,
+  "checks_passed": [
+    "bash_syntax",
+    "source_spelling_preserved",
+    "source_rows_not_3343_coverage",
+    "placeholder_counts",
+    "unstratified_parquet_priority",
+    "three_exact_pointer_probes_maximum",
+    "footer_only_no_values_printed",
+    "URI_not_fetched",
+    "outside_and_symlink_escape_blocked",
+    "no_function_fields_explicit",
+    "no_files_written",
+    "empty_preferred_field_explicitly_falls_back_without_claiming_unstratified_data",
+    "missing_sources_explicit",
+    "new_screenshot_hash_verified",
+    "frozen_51_file_manifest_unchanged"
+  ],
+  "script_sha256": "471d1e880980a79f18de1b8a2917b032714cc7e1e6c147ccf1990d0f3642cf93"
+}

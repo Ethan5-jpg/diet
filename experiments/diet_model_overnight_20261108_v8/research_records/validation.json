@@ -1,0 +1,71 @@
+{
+  "status": "LOCAL_SYNTHETIC_RECHECK_PASS",
+  "time_utc": "2026-11-07T18:45:05.737360+00:00",
+  "python": "3.11.17 (main, Oct 14 2026, 00:55:17) [Clang 23.1.3 ]",
+  "platform": "macOS-26.5.1-arm64-arm-64bit",
+  "architecture": "arm64",
+  "dependencies": {
+    "numpy": "1.26.4",
+    "scipy": "1.11.4",
+    "pandas": "2.1.0",
+    "pyarrow": "15.0.2",
+    "scikit-learn": "1.4.1.post1",
+    "catboost": "1.2.8",
+    "lightgbm": "3.3.5"
+  },
+  "tests": 29,
+  "unittest_seconds": 84.744,
+  "command": "python check.py",
+  "pipelines": 55,
+  "candidate_settings": 138,
+  "full_default_cases_smoke_test": true,
+  "synthetic_profiles": {
+    "N": 360,
+    "oral_features": 144,
+    "gut_features": 176
+  },
+  "nested_runtime_test": "2 repeats x 5 household outer folds x 3 household inner folds; reduced fitting budgets; same real worker, mocked synthetic input/reference providers",
+  "other_checks": [
+    "Ruff passed",
+    "Python syntax passed",
+    "bash -n setup.sh passed",
+    "ASCII executable files passed",
+    "original V6/V7 Python source hashes unchanged",
+    "uv pip check: 31 installed packages compatible"
+  ],
+  "prior_source_files_verified": 22,
+  "server_data_read": false,
+  "server_run_started": false,
+  "server_runtime_verified": false,
+  "real_data_R2_available": false,
+  "limitations": [
+    "Local platform is macOS ARM64, not Amazon Linux.",
+    "LightGBM 3.3.5 in the local test environment was previously built without OpenMP; target Linux uses the official pinned wheel.",
+    "Smoke checks establish finite predictions and serialization, not convergence for every research fit or research predictive performance.",
+    "Full nested workflow uses reduced synthetic budgets; real full-budget nested run remains pending."
+  ],
+  "source_sha256": {
+    "bridge.py": "60f81adce49bdd3bbe260e7e50ef92a52758944f00d8c5e07549cd9cb5ae34ad",
+    "check.py": "d78b6607b3f135ca29f2cc4345cbc9040862075a0b65f85dc10f3cf56a618060",
+    "config.json": "9295a63e6d141ff7f979fb9addde90e3a06328403693e52e09665bdb5e27cc78",
+    "engine.py": "43a4348fd741723a7f3243ba714da99b680cf55882f74a78228191b27b6acd54",
+    "estimators.py": "8a2ce665b7619fad7f8e9e1460df32ee7d2ca69e3fa0125cdd7ef6f8e0f9e154",
+    "features.py": "f8cb3485ae074654a6fd5a5bc335bd607c4f2f347c9a0a286456ef18a1bc5d0e",
+    "launch.py": "6024422fda28eee1adfd790a31a44e23e46af79530bdea7dd2f10434fd31aa79",
+    "models.py": "7532ba8ecb63faa85f36f630e34c083ca5e8f0cae0bd0c7ba9251fa32cb84331",
+    "registry.py": "98cb3915af2afb713cd8041f02ff0cbd7d082672a0d5d36a772a1a1a06e64614",
+    "report.py": "03b983c0e8ce26ac0501cf87bdc73710a754f0df7f83bd9bebdca5bfe258eef6",
+    "requirements.txt": "b70c4a226733a3887412b1dc35493e9989adc86bcb8914eaff25ed94a5328b12",
+    "run.py": "b0e05a7b10bcc753273480dd2e3cbb1344929e79608a186b28ec0424d7b38e42",
+    "runtime.py": "283377a0bb7456e1dcd2cb32fb6767c6205e3bd4386065e585a651422ecdb55b",
+    "setup.sh": "70c9ffc801090f8c69083e95f903ef38b5197405349bde660b8e13b8b65cdd6b",
+    "tests/support.py": "f135fe45e0419ded4b9f6404bad45035515c81654411ce7c7a16d63a5fffea9f",
+    "tests/test_features.py": "54ee6a5a96bf82c4645d07785ad221985d9f3070f942ac9ee0d9efb6c0295656",
+    "tests/test_integrity.py": "04704d98b324f25e5918b73aaa263e502960523451023a3c11087bc18b891253",
+    "tests/test_models.py": "9a7ba399cde0bd5a47a0fb139a67207d5f9991515c4b955f6725a7f27c540792",
+    "tests/test_pipeline.py": "29dc7be017f001db8d60322fdf58a4f17e889a0468911bf322a8dfaf83e9248c",
+    "upload_check.py": "535437bab81fe1c5909a4f511007477366c6642689e2cd3489c34287382a0a8f"
+  },
+  "review_record": "research_records/recheck_20261108/REVIEW.md",
+  "previous_validation": "research_records/recheck_20261108/source_before/research_records__validation.json.txt"
+}

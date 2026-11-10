@@ -1,0 +1,15 @@
+{
+  "source": "User screenshot 2026-11-07 23:31:18 Asia/Shanghai",
+  "visible_messages": [
+    "UPLOAD_CHECK_OK",
+    "bash setup.sh",
+    "Error: [Errno 38] Function not implemented: 'lib' -> '/home/ec2-user/studies/diet_gut_cgm_v2/multisystem_project_20261021/collaborator_handoff_20261102_v1/experiments/diet_model_expansion_20261107_v7/.venv/lib64'"
+  ],
+  "upload_check_passed_visible": true,
+  "environment_creation_failed_visible": true,
+  "server_run_started_observed": false,
+  "scores_visible": false,
+  "original_image_copied": true,
+  "image_sha256": "c4a5aa5fc6d77c017beb504fd4d68b10219ec3d5a0b6ba367a84c417348d8e50",
+  "later_user_preference": "Run directly in foreground terminal; user states browser closure does not terminate this VM session"
+}

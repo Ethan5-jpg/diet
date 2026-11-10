@@ -1,0 +1,10 @@
+test_actual_stopped_worker_resumes_cached_failed_fold_without_any_refit (test_replay_repair.ReplayRepairChecks.test_actual_stopped_worker_resumes_cached_failed_fold_without_any_refit) ... ok
+test_explicit_hash_amendment_preserves_originals_and_is_idempotent (test_replay_repair.ReplayRepairChecks.test_explicit_hash_amendment_preserves_originals_and_is_idempotent) ... ok
+test_input_drift_and_existing_locks_are_refused_without_patching (test_replay_repair.ReplayRepairChecks.test_input_drift_and_existing_locks_are_refused_without_patching) ... ok
+test_observed_numeric_difference_passes_but_larger_difference_stops (test_replay_repair.ReplayRepairChecks.test_observed_numeric_difference_passes_but_larger_difference_stops) ... ok
+test_publication_failure_rolls_back_source_manifest_and_registration (test_replay_repair.ReplayRepairChecks.test_publication_failure_rolls_back_source_manifest_and_registration) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 10.323s
+
+OK

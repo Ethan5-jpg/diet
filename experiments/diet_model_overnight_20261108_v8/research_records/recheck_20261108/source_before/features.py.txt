@@ -1,0 +1,205 @@
+"""Training-only microbiome factors, screening and documented dietary context."""
+
+from dataclasses import dataclass, field
+
+import numpy as np
+from sklearn.cross_decomposition import PLSRegression
+from sklearn.decomposition import NMF, PCA
+from sklearn.preprocessing import StandardScaler
+
+UPF_COLUMNS = ("UPF_lower_equalday_fraction", "UPF_upper_equalday_fraction")
+
+
+def screen(host, microbes, y, count, diet=None):
+    if count == 0 or count >= microbes.shape[1]:
+        return np.arange(microbes.shape[1])
+    residual = y - host @ np.linalg.lstsq(host, y, rcond=None)[0]
+    z = microbes - microbes.mean(0)
+
+    def score(a):
+        norm = np.linalg.norm(a, axis=0)
+        return np.divide(abs(a.T @ residual), norm, out=np.zeros_like(norm), where=norm > 1e-12)
+
+    scores = score(z)
+    if diet is not None:
+        # A marginal screen can miss nearly pure diet-by-microbiome signals.
+        for d in (diet - diet.mean(0)).T:
+            product = z * d[:, None]
+            product -= host @ np.linalg.lstsq(host, product, rcond=None)[0]
+            scores = np.maximum(scores, score(product))
+    return np.sort(np.argsort(-scores, kind="stable")[:count])
+
+
+def host_at(split, matrix, diet):
+    """Change every retained host diet column consistently for a fixed contrast."""
+    out = matrix.copy()
+    labels = split.preprocessing["host"]["labels"]
+    age, sex = matrix[:, labels.index("age")], matrix[:, labels.index("sex")]
+    values = dict(diet_linear=diet[0], diet_RCS=diet[1], diet_age=diet[0] * age, diet_sex=diet[0] * sex)
+    for name, value in values.items():
+        if name in labels:
+            out[:, labels.index(name)] = value
+    return out
+
+
+@dataclass
+class Role:
+    split: object
+    raw: dict
+    index: object
+    seed: int
+    cache: dict = field(default_factory=dict)
+
+    def view(self, site, representation):
+        key = ("view", site, representation)
+        if key not in self.cache:
+            s = self.split
+            if representation == "clr":
+                values = (s.ot, s.ov) if site == "oral" else (s.gt, s.gv)
+            else:
+                state = s.preprocessing["CLR"][site]
+                ref, output = state["reference_indices"], state["output_indices"]
+                values = []
+                for rows in (s.train_rows, s.rows):
+                    x = self.raw[site][np.ix_(rows, ref)]
+                    total = x.sum(1, keepdims=True)
+                    if (total <= 0).any():
+                        raise ValueError("Unsupported microbial profile")
+                    if representation != "hellinger":
+                        raise ValueError("Unknown representation")
+                    values.append(np.sqrt(x / total)[:, output])
+            if not all(np.isfinite(v).all() for v in values):
+                raise ValueError("Nonfinite microbiome features")
+            self.cache[key] = tuple(values)
+        return self.cache[key]
+
+    def factors(self, site, method, components, iterations):
+        key = ("factor", site, method, components, iterations)
+        if key not in self.cache:
+            representation = "hellinger" if method == "nmf" else "clr"
+            a, b = self.view(site, representation)
+            k = max(1, min(components, a.shape[1], len(a) - 1))
+            if method == "nmf":
+                model = NMF(
+                    n_components=k,
+                    init="nndsvda",
+                    solver="cd",
+                    tol=1e-3,
+                    max_iter=iterations,
+                    random_state=self.seed,
+                )
+                model.fit(a)
+            elif method == "pls":
+                h, y = self.split.ht, self.split.yt
+                residual = y - h @ np.linalg.lstsq(h, y, rcond=None)[0]
+                model = PLSRegression(n_components=k, max_iter=500, tol=1e-7).fit(a, residual)
+            else:
+                model = PCA(n_components=k, svd_solver="randomized", random_state=self.seed).fit(a)
+            # Train and validation use the identical frozen projection operation.
+            at, av = model.transform(a), model.transform(b)
+            scaler = StandardScaler().fit(at)
+            at, av = scaler.transform(at), scaler.transform(av)
+            self.cache[("projection", model, scaler, 0)] = at
+            self.cache[("projection", model, scaler, 1)] = av
+            self.cache[key] = (
+                at,
+                av,
+                dict(
+                    model=model,
+                    scaler=scaler,
+                    representation=representation,
+                    method=method,
+                ),
+            )
+        return self.cache[key]
+
+    def dietary(self):
+        key = ("diet",)
+        if key not in self.cache:
+            missing = set(UPF_COLUMNS) - set(self.index.columns)
+            if missing:
+                raise ValueError("Documented UPF columns missing: " + ",".join(sorted(missing)))
+            a = self.index.iloc[self.split.train_rows][list(UPF_COLUMNS)].to_numpy(float)
+            b = self.index.iloc[self.split.rows][list(UPF_COLUMNS)].to_numpy(float)
+            for x in (a, b):
+                finite = np.isfinite(x)
+                if ((x[finite] < 0) | (x[finite] > 1)).any():
+                    raise ValueError("UPF bounds must be fractions between zero and one")
+                if np.any(finite.all(1) & (x[:, 0] > x[:, 1] + 1e-10)):
+                    raise ValueError("UPF lower bound exceeds its upper bound")
+            medians = np.array([np.median(c[np.isfinite(c)]) if np.isfinite(c).any() else 0.0 for c in a.T])
+
+            def fill(x):
+                return np.column_stack([np.where(np.isfinite(x), x, medians), ~np.isfinite(x)])
+
+            scaler = StandardScaler().fit(fill(a))
+            self.cache[key] = (
+                scaler.transform(fill(a)),
+                scaler.transform(fill(b)),
+                dict(medians=medians, scaler=scaler, columns=UPF_COLUMNS),
+            )
+        return self.cache[key]
+
+    def design(self, site, method, case, iterations, joint=False):
+        key = ("design", site, method, tuple(sorted(case.items())), joint)
+        if key not in self.cache:
+            s = self.split
+            blocks_t, blocks_v, states = [s.ht], [s.hv], {}
+            if joint:
+                a, b, state = self.dietary()
+                blocks_t.append(a)
+                blocks_v.append(b)
+                states["diet"] = state
+            sites = ("oral", "gut") if site == "balanced" else (site,)
+            for name in sites:
+                rep = "hellinger" if method == "hellinger" else "clr"
+                a, b = self.view(name, rep)
+                k = case.get("count", 0)
+                interaction = s.dt if method == "screen" else None
+                indices = screen(s.ht, a, s.yt, k, interaction)
+                saved = dict(indices=indices, representation=rep)
+                if method in ("nmf", "hybrid", "pls", "pc"):
+                    factor_method = dict(hybrid="pc").get(method, method)
+                    at, av, factor = self.factors(name, factor_method, case["components"], iterations)
+                    saved.update(factor=factor, append_taxa=method in ("nmf", "hybrid"))
+                    if method in ("nmf", "hybrid"):
+                        at, av = np.column_stack([at, a[:, indices]]), np.column_stack([av, b[:, indices]])
+                    blocks_t.append(at)
+                    blocks_v.append(av)
+                else:
+                    blocks_t.append(a[:, indices])
+                    blocks_v.append(b[:, indices])
+                states[name] = saved
+            self.cache[key] = dict(
+                xt=np.column_stack(blocks_t),
+                xv=np.column_stack(blocks_v),
+                blocks_t=blocks_t,
+                blocks_v=blocks_v,
+                state=states,
+            )
+        return self.cache[key]
+
+    def replay(self, states, training=False):
+        pos = 0 if training else 1
+        blocks = [self.split.ht if training else self.split.hv]
+        for name, saved in states.items():
+            if name == "diet":
+                rows = self.split.train_rows if training else self.split.rows
+                x = self.index.iloc[rows][list(saved["columns"])].to_numpy(float)
+                x = np.column_stack([np.where(np.isfinite(x), x, saved["medians"]), ~np.isfinite(x)])
+                blocks.append(saved["scaler"].transform(x))
+                continue
+            a = self.view(name, saved["representation"])[pos]
+            if "factor" in saved:
+                f = saved["factor"]
+                key = ("projection", f["model"], f["scaler"], pos)
+                if key not in self.cache:
+                    raw = self.view(name, f["representation"])[pos]
+                    self.cache[key] = f["scaler"].transform(f["model"].transform(raw))
+                projected = self.cache[key]
+                if saved["append_taxa"]:
+                    projected = np.column_stack([projected, a[:, saved["indices"]]])
+                blocks.append(projected)
+            else:
+                blocks.append(a[:, saved["indices"]])
+        return np.column_stack(blocks), blocks

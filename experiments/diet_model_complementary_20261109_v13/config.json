@@ -1,0 +1,308 @@
+{
+  "outcome": "D_Glu",
+  "exposure": "fiber_density",
+  "confirmation_outcomes_read": false,
+  "outer_repeats": 2,
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "outer_seed": 20261104,
+  "contrast": [
+    10,
+    15
+  ],
+  "dependencies": {
+    "numpy": "1.26.4",
+    "scipy": "1.11.4",
+    "pandas": "2.1.0",
+    "pyarrow": "15.0.2",
+    "scikit-learn": "1.4.1.post1",
+    "catboost": "1.2.8",
+    "lightgbm": "3.3.5"
+  },
+  "version": "v13_20261109",
+  "model_seed": 20261113,
+  "v11_reference_run": "distribution_v11_20261109",
+  "legacy_members": [
+    "old__hgb_oral_full",
+    "old__cat_balanced_full",
+    "old__block_balanced_full",
+    "old__hgb_host_full",
+    "old__cat_host_full",
+    "old__hgb_balanced_full",
+    "old__cat_oral_full",
+    "old__block_oral_full",
+    "old__block_gut_full",
+    "old__spline_oral_full",
+    "old__spline_balanced_full",
+    "old__svr_oral_full",
+    "old__svr_balanced_full",
+    "old__extra_oral_full",
+    "old__extra_balanced_full",
+    "old__kernel_oral_full",
+    "old__kernel_balanced_full",
+    "old__hurdle_hgb_oral_full",
+    "old__hurdle_hgb_balanced_full",
+    "old__hurdle_cat_balanced_full",
+    "old__eco_cat_balanced_full",
+    "old__block_pc_balanced_full",
+    "old__fiber_gut_linear",
+    "old__fiber_oral_linear",
+    "old__fiber_both_rcs",
+    "old__fiber_gut_tree",
+    "old__fiber_macro",
+    "old__fiber_gut_kernel",
+    "hgb_oral_full",
+    "cat_balanced_full",
+    "hgb_oral_joint",
+    "cat_balanced_joint",
+    "hgb_oral_joint_upf",
+    "cat_balanced_joint_upf",
+    "hgb_oral_shrink_global",
+    "cat_balanced_shrink_global",
+    "hgb_oral_shrink_local",
+    "cat_balanced_shrink_local",
+    "hgb_oral_shrink_uncertainty",
+    "cat_balanced_shrink_uncertainty",
+    "hgb_oral_quality",
+    "cat_balanced_quality",
+    "hgb_oral_covariance",
+    "cat_balanced_covariance",
+    "hgb_oral_rff",
+    "cat_balanced_rff",
+    "hgb_oral_prototype",
+    "cat_balanced_prototype",
+    "hgb_oral_sliced",
+    "cat_balanced_sliced",
+    "hgb_host_joint",
+    "cat_host_joint",
+    "linear_tree_oral_joint",
+    "linear_tree_balanced_joint",
+    "dart_oral_joint",
+    "dart_balanced_joint",
+    "posterior_cat_oral_joint",
+    "posterior_cat_balanced_joint",
+    "huber_cat_oral_joint",
+    "huber_cat_balanced_joint",
+    "bayes_oral_joint",
+    "bayes_balanced_joint",
+    "ard_oral_joint",
+    "ard_balanced_joint",
+    "adaptive_enet_oral_joint",
+    "adaptive_enet_balanced_joint",
+    "spc_hgb_oral_joint",
+    "spc_hgb_balanced_joint",
+    "spc_cat_oral_joint",
+    "spc_cat_balanced_joint",
+    "quadratic_hgb_oral_joint",
+    "quadratic_hgb_balanced_joint",
+    "quadratic_ridge_oral_joint",
+    "quadratic_ridge_balanced_joint",
+    "hgb_balanced_joint",
+    "cat_oral_joint",
+    "block_pc_oral_joint",
+    "block_pc_balanced_joint",
+    "resid_host_hgb",
+    "resid_oral_hgb",
+    "resid_balanced_hgb",
+    "resid_oral_cat",
+    "resid_oral_bayes",
+    "resid_ridge_hgb",
+    "resid_oralbase_oral",
+    "resid_oralbase_balanced",
+    "cfiber_gut",
+    "cfiber_oral",
+    "cfiber_both",
+    "cfiber_macro"
+  ],
+  "meta_penalties": [
+    0.003,
+    0.01,
+    0.1,
+    1
+  ],
+  "sparse_penalties": [
+    0.001,
+    0.01,
+    0.1
+  ],
+  "default_threads": 2,
+  "families": {
+    "hgb": {
+      "grid": [
+        {
+          "count": 128,
+          "components": 6,
+          "slices": 8,
+          "iterations": 180,
+          "leaves": 7,
+          "leaf": 40,
+          "l2": 30
+        },
+        {
+          "count": 256,
+          "components": 10,
+          "slices": 12,
+          "iterations": 280,
+          "leaves": 15,
+          "leaf": 40,
+          "l2": 30
+        }
+      ]
+    },
+    "cat": {
+      "grid": [
+        {
+          "count": 128,
+          "components": 6,
+          "slices": 8,
+          "iterations": 600,
+          "depth": 4,
+          "l2": 30
+        },
+        {
+          "count": 256,
+          "components": 10,
+          "slices": 12,
+          "iterations": 800,
+          "depth": 6,
+          "l2": 30
+        }
+      ]
+    },
+    "mars": {
+      "grid": [
+        {
+          "count": 128,
+          "components": 6,
+          "slices": 8,
+          "max_terms": 13,
+          "degree": 1,
+          "penalty": 0.01
+        },
+        {
+          "count": 256,
+          "components": 10,
+          "slices": 12,
+          "max_terms": 25,
+          "degree": 2,
+          "penalty": 0.05
+        }
+      ]
+    },
+    "gp": {
+      "grid": [
+        {
+          "count": 128,
+          "components": 6,
+          "slices": 8,
+          "inducing": 96,
+          "length": 1.0,
+          "noise": 0.1
+        },
+        {
+          "count": 256,
+          "components": 10,
+          "slices": 12,
+          "inducing": 192,
+          "length": 0.7,
+          "noise": 0.05
+        },
+        {
+          "count": 256,
+          "components": 10,
+          "slices": 12,
+          "inducing": 192,
+          "length": 1.5,
+          "noise": 0.2
+        }
+      ]
+    },
+    "bin_cat": {
+      "grid": [
+        {
+          "count": 128,
+          "components": 6,
+          "slices": 8,
+          "iterations": 600,
+          "depth": 4,
+          "l2": 30,
+          "bins": 4
+        },
+        {
+          "count": 256,
+          "components": 10,
+          "slices": 12,
+          "iterations": 800,
+          "depth": 6,
+          "l2": 30,
+          "bins": 8
+        }
+      ]
+    },
+    "bin_hgb": {
+      "grid": [
+        {
+          "count": 128,
+          "components": 6,
+          "slices": 8,
+          "iterations": 180,
+          "leaves": 7,
+          "leaf": 40,
+          "l2": 30,
+          "bins": 4
+        },
+        {
+          "count": 256,
+          "components": 10,
+          "slices": 12,
+          "iterations": 280,
+          "leaves": 15,
+          "leaf": 40,
+          "l2": 30,
+          "bins": 8
+        }
+      ]
+    },
+    "quantile_cat": {
+      "grid": [
+        {
+          "count": 128,
+          "components": 6,
+          "slices": 8,
+          "iterations": 600,
+          "depth": 4,
+          "l2": 30,
+          "quantiles": 5
+        },
+        {
+          "count": 256,
+          "components": 10,
+          "slices": 12,
+          "iterations": 800,
+          "depth": 6,
+          "l2": 30,
+          "quantiles": 9
+        }
+      ]
+    },
+    "graph": {
+      "grid": [
+        {
+          "count": 128,
+          "penalty": 0.01,
+          "graph_weight": 0.0
+        },
+        {
+          "count": 128,
+          "penalty": 0.01,
+          "graph_weight": 1.0
+        },
+        {
+          "count": 128,
+          "penalty": 0.01,
+          "graph_weight": 10.0
+        }
+      ]
+    }
+  }
+}

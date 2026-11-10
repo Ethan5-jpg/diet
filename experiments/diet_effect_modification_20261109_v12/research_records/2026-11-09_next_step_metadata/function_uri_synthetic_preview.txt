@@ -1,0 +1,11 @@
+SYNTHETIC FILE-URI FIXTURE ONLY; NOT HPP CLOUD RESULTS
+FUNCTION_URI_HEADERS: exact source URIs; existing server access only.
+At most 3 file footers; no pointer values, abundance rows, outcomes or writes.
+FIELD humann_gene_familites_gene_level_parquet scheme=file
+  HEADER_OK rows=1 columns=2 bytes=1120
+FIELD humann_pathway_abundance_pathway_level_parquet scheme=file
+  HEADER_OK rows=1 columns=2 bytes=1120
+FIELD humann_pathway_coverage_pathway_level_parquet scheme=file
+  HEADER_OK rows=1 columns=2 bytes=1120
+Header access does not establish cohort overlap, sample identity, units or functional QC.
+FUNCTION_URI_HEADERS_DONE

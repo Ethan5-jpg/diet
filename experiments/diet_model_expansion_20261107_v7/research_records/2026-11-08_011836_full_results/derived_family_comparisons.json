@@ -1,0 +1,172 @@
+[
+  {
+    "family": "lgbm",
+    "oral": [
+      "0.093339",
+      "0.099646"
+    ],
+    "balanced": [
+      "0.088615",
+      "0.100563"
+    ],
+    "delta_from_rounded_R2": [
+      "-0.004724",
+      "+0.000917"
+    ],
+    "both_positive": false,
+    "any_warning": false
+  },
+  {
+    "family": "ebm",
+    "oral": [
+      "0.087057",
+      "0.092082"
+    ],
+    "balanced": [
+      "0.064024",
+      "0.070517"
+    ],
+    "delta_from_rounded_R2": [
+      "-0.023033",
+      "-0.021565"
+    ],
+    "both_positive": false,
+    "any_warning": false
+  },
+  {
+    "family": "hgb_hellinger",
+    "oral": [
+      "0.102654",
+      "0.111609"
+    ],
+    "balanced": [
+      "0.109145",
+      "0.117441"
+    ],
+    "delta_from_rounded_R2": [
+      "+0.006491",
+      "+0.005832"
+    ],
+    "both_positive": true,
+    "any_warning": false
+  },
+  {
+    "family": "hgb_presence",
+    "oral": [
+      "0.109854",
+      "0.109388"
+    ],
+    "balanced": [
+      "0.108174",
+      "0.107352"
+    ],
+    "delta_from_rounded_R2": [
+      "-0.001680",
+      "-0.002036"
+    ],
+    "both_positive": false,
+    "any_warning": false
+  },
+  {
+    "family": "gam",
+    "oral": [
+      "0.082399",
+      "0.100255"
+    ],
+    "balanced": [
+      "0.070595",
+      "0.081222"
+    ],
+    "delta_from_rounded_R2": [
+      "-0.011804",
+      "-0.019033"
+    ],
+    "both_positive": false,
+    "any_warning": false
+  },
+  {
+    "family": "tree_embed",
+    "oral": [
+      "0.055773",
+      "0.074713"
+    ],
+    "balanced": [
+      "0.044060",
+      "0.049182"
+    ],
+    "delta_from_rounded_R2": [
+      "-0.011713",
+      "-0.025531"
+    ],
+    "both_positive": false,
+    "any_warning": false
+  },
+  {
+    "family": "pls_svr",
+    "oral": [
+      "0.032212",
+      "0.034998"
+    ],
+    "balanced": [
+      "0.009440",
+      "0.002364"
+    ],
+    "delta_from_rounded_R2": [
+      "-0.022772",
+      "-0.032634"
+    ],
+    "both_positive": false,
+    "any_warning": false
+  },
+  {
+    "family": "factorization",
+    "oral": [
+      "0.017768",
+      "0.021657"
+    ],
+    "balanced": [
+      "-0.131730",
+      "-0.165287"
+    ],
+    "delta_from_rounded_R2": [
+      "-0.149498",
+      "-0.186944"
+    ],
+    "both_positive": false,
+    "any_warning": true
+  },
+  {
+    "family": "host_residual",
+    "oral": [
+      "0.099962",
+      "0.102485"
+    ],
+    "balanced": [
+      "0.105334",
+      "0.108436"
+    ],
+    "delta_from_rounded_R2": [
+      "+0.005372",
+      "+0.005951"
+    ],
+    "both_positive": true,
+    "any_warning": false
+  },
+  {
+    "family": "nystrom",
+    "oral": [
+      "0.076471",
+      "0.076572"
+    ],
+    "balanced": [
+      "0.074263",
+      "0.074931"
+    ],
+    "delta_from_rounded_R2": [
+      "-0.002208",
+      "-0.001641"
+    ],
+    "both_positive": false,
+    "any_warning": false
+  }
+]

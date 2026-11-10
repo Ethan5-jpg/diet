@@ -1,0 +1,16 @@
+{
+  "scope": "LOCAL_ARCHIVE_LINKS_AND_FROZEN_MANIFEST_ONLY",
+  "native_HUMANN_data_or_AWS_access_performed_locally": false,
+  "screenshot_archives_verified": [
+    "2026-11-09_220914_metadata_report",
+    "2026-11-09_221740_top_level_metadata_report",
+    "2026-11-09_223046_function_pointer_report",
+    "2026-11-09_224330_s3_timeout_report",
+    "2026-11-09_225306_s3_head_timeout_report"
+  ],
+  "summary_links_verified": true,
+  "frozen_manifest_files_verified": 51,
+  "local_native_run_directory_exists": false,
+  "current_readiness": "FUNCTION_FILE_ACCESS_AND_SAMPLE_MATCHING_UNVERIFIED",
+  "decision": "No further retries or directory scans; request TRE-supported read method, date semantics and gut functional-source information."
+}

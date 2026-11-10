@@ -1,0 +1,18 @@
+SYNTHETIC POINTER FIXTURE ONLY; NOT HPP RESULTS
+FUNCTION_POINTER_CHECK: source-index rows, NOT 3343-person coverage.
+Pointer values stay in TRE; no outcomes, abundance rows, remote fetches or writes.
+INDEX oral source_rows=6 functional_string_fields=4
+FIELD oral humann_gene_familites_gene_level_parquet nonempty_rows=4 distinct_pointers=3
+  FIRST_UP_TO_3_POINTERS {"LOCAL_FILE": 1, "OUTSIDE_ALLOWED_SCOPE": 1, "URI_NOT_FETCHED": 1}
+  ONE_FILE_HEADER rows=1 columns=3
+FIELD oral humann_pathway_abundance_pathway_level_parquet nonempty_rows=4 distinct_pointers=3
+  FIRST_UP_TO_3_POINTERS {"LOCAL_FILE": 1, "LOCAL_NOT_LOCATED": 1, "OUTSIDE_ALLOWED_SCOPE": 1}
+  ONE_FILE_HEADER rows=1 columns=3
+FIELD oral humann_pathway_coverage_pathway_level_parquet nonempty_rows=1 distinct_pointers=1
+  FIRST_UP_TO_3_POINTERS {"LOCAL_FILE": 1}
+  ONE_FILE_HEADER rows=1 columns=3
+INDEX gut source_rows=1 functional_string_fields=0
+  NO_MATCHING_FIELDS_IN_THIS_INDEX; other sources not excluded.
+Nonempty pointer != usable measurement; sampled files != complete availability.
+Locked-specimen matching, 3343-person overlap, units and functional QC remain UNVERIFIED.
+FUNCTION_POINTER_CHECK_DONE

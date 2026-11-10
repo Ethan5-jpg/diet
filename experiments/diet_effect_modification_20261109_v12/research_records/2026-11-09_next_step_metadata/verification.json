@@ -1,0 +1,20 @@
+{
+  "scope": "SYNTHETIC_METADATA_FIXTURES_ONLY",
+  "native_data_read": false,
+  "checks_passed": [
+    "bash_syntax",
+    "known_source_headers_without_rows",
+    "two_function_filename_candidates",
+    "sealed_directory_excluded",
+    "symlink_not_followed",
+    "depth_limit",
+    "no_files_written",
+    "W02_fallback_manifest",
+    "missing_source_manifest_explicit",
+    "frozen_51_file_manifest_unchanged",
+    "recorded_interpreter_selection",
+    "empty_project_explicit_partial_scan"
+  ],
+  "frozen_manifest_files": 51,
+  "inspect_metadata_sh_sha256": "8d6adff7d7e689ce9156afdc796c20be6dd952994a9b4528eefb3a7243abe2bb"
+}

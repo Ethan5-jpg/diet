@@ -1,0 +1,196 @@
+{
+  "source": "User-provided terminal aggregate diagnostic screenshot",
+  "time_local": "2026-11-08 11:36:05",
+  "timezone": "Asia/Shanghai",
+  "run_id_from_preceding_command": "overnight_v8_20261108",
+  "run_id_not_separately_printed": true,
+  "module_visible_in_prompt": "diet_model_overnight_20261108_v8",
+  "original_image_copied": true,
+  "original_sha256": "a4ab14082a3430db940a9cfd0b466c17ea5488cbd55fac453355b7aced775faf",
+  "top_non_stacked": [
+    {
+      "model": "joint_cat_balanced",
+      "R2_display": [
+        "0.109047",
+        "0.111198"
+      ],
+      "flag": "-"
+    },
+    {
+      "model": "nmf_cat_balanced",
+      "R2_display": [
+        "0.109011",
+        "0.112568"
+      ],
+      "flag": "-"
+    },
+    {
+      "model": "nmf_hgb_oral",
+      "R2_display": [
+        "0.108301",
+        "0.112685"
+      ],
+      "flag": "-"
+    },
+    {
+      "model": "joint_hgb_balanced",
+      "R2_display": [
+        "0.106938",
+        "0.110466"
+      ],
+      "flag": "-"
+    },
+    {
+      "model": "additive_nmf_oral",
+      "R2_display": [
+        "0.106448",
+        "0.110383"
+      ],
+      "flag": "-"
+    }
+  ],
+  "ranking_rule": "descending minimum R2 across the two repeats; does not establish largest single-repeat score",
+  "explicit_interactions": [
+    {
+      "model": "sparse_diet_oral",
+      "null_model": "linear_main_oral",
+      "null_R2_display": [
+        "0.082085",
+        "0.084203"
+      ],
+      "interaction_R2_display": [
+        "0.082085",
+        "0.084203"
+      ],
+      "delta_R2_display": [
+        "+0.00e+00",
+        "+0.00e+00"
+      ],
+      "off_case0_counts": [
+        5,
+        5
+      ],
+      "active_counts": [
+        0,
+        0
+      ],
+      "folds_each_repeat": 5
+    },
+    {
+      "model": "sparse_diet_balanced",
+      "null_model": "linear_main_balanced",
+      "null_R2_display": [
+        "0.072603",
+        "0.078421"
+      ],
+      "interaction_R2_display": [
+        "0.072603",
+        "0.078421"
+      ],
+      "delta_R2_display": [
+        "+0.00e+00",
+        "+0.00e+00"
+      ],
+      "off_case0_counts": [
+        5,
+        5
+      ],
+      "active_counts": [
+        0,
+        0
+      ],
+      "folds_each_repeat": 5
+    },
+    {
+      "model": "nmf_diet_oral",
+      "null_model": "additive_nmf_oral",
+      "null_R2_display": [
+        "0.106448",
+        "0.110383"
+      ],
+      "interaction_R2_display": [
+        "0.106448",
+        "0.110383"
+      ],
+      "delta_R2_display": [
+        "+0.00e+00",
+        "+0.00e+00"
+      ],
+      "off_case0_counts": [
+        5,
+        5
+      ],
+      "active_counts": [
+        0,
+        0
+      ],
+      "folds_each_repeat": 5
+    },
+    {
+      "model": "nmf_diet_balanced",
+      "null_model": "additive_nmf_balanced",
+      "null_R2_display": [
+        "0.099211",
+        "0.104012"
+      ],
+      "interaction_R2_display": [
+        "0.099211",
+        "0.104012"
+      ],
+      "delta_R2_display": [
+        "+0.00e+00",
+        "+0.00e+00"
+      ],
+      "off_case0_counts": [
+        5,
+        5
+      ],
+      "active_counts": [
+        0,
+        0
+      ],
+      "folds_each_repeat": 5
+    }
+  ],
+  "derived_off_case0_total": 40,
+  "derived_active_total": 0,
+  "ridge_wide_vs_v6": [
+    {
+      "repeat": 0,
+      "delta_R2_display": "+0.005736",
+      "conditional_CI_display": [
+        "-0.000679",
+        "+0.012151"
+      ]
+    },
+    {
+      "repeat": 1,
+      "delta_R2_display": "+0.007558",
+      "conditional_CI_display": [
+        "+0.000387",
+        "+0.014728"
+      ]
+    }
+  ],
+  "interval_scope": "Normal-approximation household-cluster interval, conditional on learned predictions; model-search uncertainty not covered; participants overlap between repeats",
+  "FM": [
+    {
+      "repeat": 0,
+      "mean_weight_display": "0.000000",
+      "max_weight_display": "0.000000",
+      "flagged_display": "0/5"
+    },
+    {
+      "repeat": 1,
+      "mean_weight_display": "0.006694",
+      "max_weight_display": "0.033468",
+      "flagged_display": "0/5"
+    }
+  ],
+  "limitations": [
+    "No full-precision JSON or individual data were transferred.",
+    "Zero-weight counts explicitly establish null selection for these four procedures, not absence of biological interaction.",
+    "No independent confirmation cohort is represented.",
+    "No remaining model scores or unshown warning details are inferred."
+  ]
+}

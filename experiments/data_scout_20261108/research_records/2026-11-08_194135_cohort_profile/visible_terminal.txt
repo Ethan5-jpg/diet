@@ -1,0 +1,20 @@
+STEP2 repeat0_N=3343 repeat1_N=3343 shared=3343
+Distributions: finite/N and p10/50/90; original population retained.
+n_fiber_days: finite=3343/3343 p10/50/90=4.00/8.00/12.00
+n_energy_days: finite=3343/3343 p10/50/90=11.00/14.00/14.00
+fiber_density: finite=3343/3343 p10/50/90=8.87/13.54/20.58
+mean_daily_energy_fiber: finite=3343/3343 p10/50/90=1139.78/1607.98/2231.14
+raw_Glu_mg_dL: finite=3343/3343 p10/50/90=81.00/93.20/108.35
+activity_walking_10min_days_weekly_numeric: finite=2718/3343 p10/50/90=1.00/4.00/7.00
+activity_moderate_days_weekly_numeric: finite=2681/3343 p10/50/90=0.00/2.00/5.00
+activity_vigorous_days_weekly_numeric: finite=699/3343 p10/50/90=0.00/0.00/3.00
+sleep_hours_daily_numeric: finite=2700/3343 p10/50/90=6.00/7.00/8.00
+alcohol_label: available=2729/3343 categories=6
+prepared_common_people=3025/3343 days=21262
+prepared_common_days_all: finite=3343/3343 p10/50/90=3.00/6.00/11.00
+window_envelope_overlap=3296/3343 known; not exact-day overlap
+O_sample_date: known=3343/3343 before/within/after=12/69/3262
+O_sample_date_minus_CGM_end_days: finite=3343/3343 p10/50/90=24.00/68.00/112.80
+G_sample_date: known=3343/3343 before/within/after=55/1/3287
+G_sample_date_minus_CGM_end_days: finite=3343/3343 p10/50/90=5.00/10.00/21.00
+Prepared common-day absence does not mean no shared day; source calendar dates are descriptive.

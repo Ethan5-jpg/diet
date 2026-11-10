@@ -1,0 +1,29 @@
+SYNTHETIC ONLY; NOT HPP RESULTS
+
+PATHWAY_KEYS: projected metadata only; no individual values, features, outcomes, fitting or writes.
+  COLUMN source participant_id type=string null=0 nan=0 placeholder=0 valid=3 unique_valid=3 nonscalar=0
+  COLUMN source cohort type=string null=0 nan=0 placeholder=0 valid=3 unique_valid=1 nonscalar=0
+  COLUMN source research_stage type=string null=0 nan=0 placeholder=0 valid=3 unique_valid=1 nonscalar=0
+  COLUMN source array_index type=integer null=0 nan=0 placeholder=0 valid=3 unique_valid=1 nonscalar=0
+TABLE abundance
+  PANDAS_INDEX known_fields=["participant_id", "research_stage"] unknown_named_fields=1 range_descriptors=1
+  LABELS numeric_names=1 contains_PWY=1 other=2 public_code_tokens=["PWY-1234"] unknown_nonnumeric_positions_types=[[8, "string"]]
+  PROJECTED rows=3 metadata_columns=5
+  COLUMN abundance participant_id type=string null=0 nan=0 placeholder=0 valid=3 unique_valid=3 nonscalar=0
+  COLUMN abundance cohort type=string null=0 nan=0 placeholder=0 valid=3 unique_valid=1 nonscalar=0
+  COLUMN abundance research_stage type=null null=3 nan=0 placeholder=0 valid=0 unique_valid=0 nonscalar=0
+  COLUMN abundance array_index type=integer null=0 nan=0 placeholder=0 valid=3 unique_valid=1 nonscalar=0
+  COLUMN abundance registration_code type=string null=0 nan=0 placeholder=0 valid=3 unique_valid=3 nonscalar=0
+  PID_ONLY_DIAGNOSTIC shared_unique_ids=3 table_unique_ids=3 source_unique_ids=3 table_repeated_ids=0 source_repeated_ids=0
+TABLE coverage
+  PANDAS_INDEX known_fields=["participant_id", "research_stage"] unknown_named_fields=1 range_descriptors=1
+  LABELS numeric_names=1 contains_PWY=1 other=2 public_code_tokens=["PWY-1234"] unknown_nonnumeric_positions_types=[[8, "string"]]
+  PROJECTED rows=3 metadata_columns=5
+  COLUMN coverage participant_id type=string null=0 nan=0 placeholder=0 valid=3 unique_valid=3 nonscalar=0
+  COLUMN coverage cohort type=string null=0 nan=0 placeholder=0 valid=3 unique_valid=1 nonscalar=0
+  COLUMN coverage research_stage type=null null=3 nan=0 placeholder=0 valid=0 unique_valid=0 nonscalar=0
+  COLUMN coverage array_index type=integer null=0 nan=0 placeholder=0 valid=3 unique_valid=1 nonscalar=0
+  COLUMN coverage registration_code type=string null=0 nan=0 placeholder=0 valid=3 unique_valid=3 nonscalar=0
+  PID_ONLY_DIAGNOSTIC shared_unique_ids=3 table_unique_ids=3 source_unique_ids=3 table_repeated_ids=0 source_repeated_ids=0
+Participant overlap is not locked-sample identity or fixed 3343-person coverage; no key filling or row-order matching.
+PATHWAY_KEYS_DONE

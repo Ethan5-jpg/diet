@@ -1,0 +1,87 @@
+{
+  "source_kind": "user_provided_clipboard_screenshot",
+  "record_date": "2026-11-08 Asia/Shanghai",
+  "capture_timestamp_explicit": false,
+  "image_sha256": "3251bc3ff9733e2ca7c76f64a7a416ed526687c2f0e5bf5876df5405c7d2d226",
+  "run_id_from_requested_command": "main_v7_20261107",
+  "run_id_visible_in_screenshot": false,
+  "scope": "Selected outer-role refits only, 10 models per pipeline; inner candidate convergence not displayed",
+  "optimizer_limit_from_config": 160,
+  "quality": [
+    {
+      "model": "factorization_oral",
+      "flagged": 3,
+      "not_converged": 3,
+      "total": 10,
+      "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+      "message_count": 3
+    },
+    {
+      "model": "factorization_balanced",
+      "flagged": 9,
+      "not_converged": 9,
+      "total": 10,
+      "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+      "message_count": 9
+    }
+  ],
+  "ensemble_member_diagnosed": "factorization_balanced",
+  "fold_order": [
+    "f0",
+    "f1",
+    "f2",
+    "f3",
+    "f4"
+  ],
+  "convex_FM_weights_by_repeat": [
+    [
+      "0.021048",
+      "0.022230",
+      "0.000000",
+      "0.000000",
+      "0.038390"
+    ],
+    [
+      "0.000000",
+      "0.043743",
+      "0.000000",
+      "0.055324",
+      "0.018497"
+    ]
+  ],
+  "ridge_FM_rawcoefs_by_repeat": [
+    [
+      "0.021092",
+      "0.027152",
+      "-0.003219",
+      "-0.020547",
+      "0.035952"
+    ],
+    [
+      "0.003439",
+      "0.040308",
+      "0.002117",
+      "0.053118",
+      "0.020470"
+    ]
+  ],
+  "numeric_precision": "6 displayed decimal places; values retained as strings",
+  "derived_from_rounded_values": {
+    "convex_weight_mean_by_repeat": [
+      "0.0163336",
+      "0.0235128"
+    ],
+    "convex_weight_mean_percent_by_repeat": [
+      "1.6333600",
+      "2.3512800"
+    ],
+    "convex_weight_max": "0.055324",
+    "convex_weight_max_percent": "5.532400",
+    "displayed_zero_weights": 4,
+    "ridge_coef_min": "-0.020547",
+    "ridge_coef_max": "0.053118"
+  },
+  "effect_of_removing_FM_on_R2_measured": false,
+  "models_refitted": false,
+  "individual_predictions_downloaded": false
+}

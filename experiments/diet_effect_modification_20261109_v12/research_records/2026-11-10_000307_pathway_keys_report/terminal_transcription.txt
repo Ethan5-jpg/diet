@@ -1,0 +1,30 @@
+> PY
+PATHWAY_KEYS: projected metadata only; no individual values, features, outcomes, fitting or writes.
+  COLUMN source participant_id type=integer null=0 nan=0 placeholder=0 valid=8816 unique_valid=8816 nonscalar=0
+  COLUMN source cohort type=string null=0 nan=0 placeholder=0 valid=8816 unique_valid=1 nonscalar=0
+  COLUMN source research_stage type=string null=0 nan=0 placeholder=414 valid=8402 unique_valid=2 nonscalar=0
+  COLUMN source array_index type=integer null=0 nan=0 placeholder=0 valid=8816 unique_valid=1 nonscalar=0
+  COLUMN source collection_date type=timestamp null=0 nan=0 placeholder=0 valid=8816 unique_valid=52 nonscalar=0
+TABLE abundance
+  PANDAS_INDEX known_fields=["participant_id", "cohort", "research_stage", "array_index", "collection_date"] unknown_named_fields=0 range_descriptors=0
+  LABELS numeric_names=0 contains_PWY=473 other=14 public_code_tokens=["AEROBACTINSYN-PWY", "ALLANTOINDEG-PWY", "ANAEROFRUCAT-PWY"] unknown_nonnumeric_positions_types=[]
+  PROJECTED rows=8838 metadata_columns=5
+  COLUMN abundance participant_id type=integer null=0 nan=0 placeholder=0 valid=8838 unique_valid=8838 nonscalar=0
+  COLUMN abundance cohort type=string null=0 nan=0 placeholder=0 valid=8838 unique_valid=1 nonscalar=0
+  COLUMN abundance research_stage type=string null=0 nan=0 placeholder=8838 valid=0 unique_valid=0 nonscalar=0
+  COLUMN abundance array_index type=integer null=0 nan=0 placeholder=0 valid=8838 unique_valid=1 nonscalar=0
+  COLUMN abundance collection_date type=timestamp null=0 nan=0 placeholder=0 valid=8838 unique_valid=52 nonscalar=0
+  PID_ONLY_DIAGNOSTIC shared_unique_ids=8816 table_unique_ids=8838 source_unique_ids=8816 table_repeated_ids=0 source_repeated_ids=0
+TABLE coverage
+  PANDAS_INDEX known_fields=["participant_id", "cohort", "research_stage", "array_index", "collection_date"] unknown_named_fields=0 range_descriptors=0
+  LABELS numeric_names=0 contains_PWY=473 other=14 public_code_tokens=["AEROBACTINSYN-PWY", "ALLANTOINDEG-PWY", "ANAEROFRUCAT-PWY"] unknown_nonnumeric_positions_types=[]
+  PROJECTED rows=8838 metadata_columns=5
+  COLUMN coverage participant_id type=integer null=0 nan=0 placeholder=0 valid=8838 unique_valid=8838 nonscalar=0
+  COLUMN coverage cohort type=string null=0 nan=0 placeholder=0 valid=8838 unique_valid=1 nonscalar=0
+  COLUMN coverage research_stage type=string null=0 nan=0 placeholder=8838 valid=0 unique_valid=0 nonscalar=0
+  COLUMN coverage array_index type=integer null=0 nan=0 placeholder=0 valid=8838 unique_valid=1 nonscalar=0
+  COLUMN coverage collection_date type=timestamp null=0 nan=0 placeholder=0 valid=8838 unique_valid=52 nonscalar=0
+  PID_ONLY_DIAGNOSTIC shared_unique_ids=8816 table_unique_ids=8838 source_unique_ids=8816 table_repeated_ids=0 source_repeated_ids=0
+Participant overlap is not locked-sample identity or fixed 3343-person coverage; no key filling or row-order matching.
+PATHWAY_KEYS_DONE
+(pheno) [ec2-user@ip-10-0-71-168 diet_effect_modification_20261109_v12]$

@@ -1,0 +1,26 @@
+{
+  "status": "NATIVE_RUN_COMPLETED_AFTER_REPAIR_REPORTED",
+  "error": "V11 positive fusion replay differs",
+  "location": "engine.py:163",
+  "stage": "r0_f3",
+  "observed_at": "2026-11-09 21:36:28 Asia/Shanghai",
+  "native_error_magnitude_known": true,
+  "original_v13_manifest_files_unchanged": false,
+  "original_run_to_preserve": "complementary_v13_20261109",
+  "diagnosis_scope": "Compare reconstructed and saved V11 fusion; no native fits or file changes requested",
+  "proof": "diagnostic_verification.json",
+  "hypothesis_not_confirmed": "numerical refit differences or cache/recipe discrepancy",
+  "native_max_prediction_error_mg_dL": 2.52560283798e-08,
+  "saved_v11_model_prediction_error_mg_dL": 0,
+  "repair_scope": "Post-fit absolute comparison tolerance 1e-8 -> 1e-6 mg/dL; no model fitting or cached prediction changed",
+  "changed_original_source_files": [
+    "engine.py"
+  ],
+  "preserved_originals": "original/",
+  "thread_count_causation_established": false,
+  "previous_status": "LOCAL_REPAIR_READY_NATIVE_APPLICATION_PENDING",
+  "resolution_observed_at": "2026-11-10T01:05:07+08:00",
+  "resolution_evidence": "../2026-11-10_010507_complete/complete_report.png",
+  "completion_replay_max_error_mg_dL_display": "2.53e-08",
+  "native_repair_source_bytes_independently_checked_locally": false
+}

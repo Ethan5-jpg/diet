@@ -1,0 +1,32 @@
+> HPP_FUNCTION_INSTALL_AND_RUN
+FUNCTIONAL_SOURCES_READY: isolated child folder; previous V12 files retained.
+FUNCTIONAL_UPLOAD_CHECK_OK files=13
+FUNCTIONAL_SYNTHETIC_CHECKS_OK checks=35; no native HPP data read.
+START native functional pilot; source audit first; no confirmation outcomes.
+SOURCE_READY functional_people=3337 original_people=3343
+Traceback (most recent call last):
+  File "/home/ec2-user/studies/diet_gut_cgm_v2/multisystem_project_20261021/collaborator_handoff_20261102_v1/experiments/diet_effect_modification_20261109_v12/functional_followup_20261110_v1/pilot.py", line 320, in <module>
+    main()
+  File "/home/ec2-user/studies/diet_gut_cgm_v2/multisystem_project_20261021/collaborator_handoff_20261102_v1/experiments/diet_effect_modification_20261109_v12/functional_followup_20261110_v1/pilot.py", line 315, in main
+    summary=execute(data,config,run,args.threads,args.resume,lambda message:print(message,flush=True))
+  File "/home/ec2-user/studies/diet_gut_cgm_v2/multisystem_project_20261021/collaborator_handoff_20261102_v1/experiments/diet_effect_modification_20261109_v12/functional_followup_20261110_v1/pilot.py", line 268, in execute
+    save_arrays(flag_path,expected_flags)
+  File "/home/ec2-user/studies/diet_gut_cgm_v2/multisystem_project_20261021/collaborator_handoff_20261102_v1/experiments/diet_effect_modification_20261109_v12/functional_followup_20261110_v1/pilot.py", line 32, in save_arrays
+    np.savez_compressed(str(temporary), **arrays)
+  File "/home/ec2-user/miniconda/envs/pheno/lib/python3.11/site-packages/numpy/lib/npyio.py", line 710, in savez_compressed
+    _savez(file, args, kwds, True)
+  File "/home/ec2-user/miniconda/envs/pheno/lib/python3.11/site-packages/numpy/lib/npyio.py", line 742, in _savez
+    with zipfile_factory(file, mode="w", compression=compression) as zipf:
+  File "/home/ec2-user/miniconda/envs/pheno/lib/python3.11/zipfile.py", line 1209, in close
+    self._fileobj.seek(self._zipfile.start_dir)
+OSError: [Errno 95] Operation not supported
+Exception ignored in: <function ZipFile.__del__ at 0x7f8de8d73060>
+Traceback (most recent call last):
+  File "/home/ec2-user/miniconda/envs/pheno/lib/python3.11/zipfile.py", line 1874, in __del__
+    self.close()
+  File "/home/ec2-user/miniconda/envs/pheno/lib/python3.11/zipfile.py", line 1896, in close
+    self._fpclose(fp)
+  File "/home/ec2-user/miniconda/envs/pheno/lib/python3.11/zipfile.py", line 1996, in _fpclose
+    fp.close()
+OSError: [Errno 95] Operation not supported
+(pheno) [ec2-user@ip-10-0-71-168 diet_effect_modification_20261109_v12]$

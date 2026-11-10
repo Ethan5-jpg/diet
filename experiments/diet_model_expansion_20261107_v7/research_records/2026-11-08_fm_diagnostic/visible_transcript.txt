@@ -1,0 +1,8 @@
+factorization_oral flagged=3/10 optimizer_not_converged=3/10
+  n=3 STOP: TOTAL NO. of ITERATIONS REACHED LIMIT
+factorization_balanced flagged=9/10 optimizer_not_converged=9/10
+  n=9 STOP: TOTAL NO. of ITERATIONS REACHED LIMIT
+r0 convex_FM_weights: 0.021048 0.022230 0.000000 0.000000 0.038390
+r0 ridge_FM_rawcoefs: 0.021092 0.027152 -0.003219 -0.020547 0.035952
+r1 convex_FM_weights: 0.000000 0.043743 0.000000 0.055324 0.018497
+r1 ridge_FM_rawcoefs: 0.003439 0.040308 0.002117 0.053118 0.020470

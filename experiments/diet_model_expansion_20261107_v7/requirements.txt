@@ -1,0 +1,9 @@
+# Install in the server-local V7 venv, inheriting the pinned pheno environment.
+# Binary wheels only; no global environment upgrades.
+numpy==1.26.4
+scipy==1.11.4
+pandas==2.1.0
+pyarrow==15.0.2
+scikit-learn==1.4.1.post1
+lightgbm==3.3.5
+interpret-core==0.6.5

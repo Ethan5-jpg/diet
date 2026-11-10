@@ -1,0 +1,4 @@
+PIP_STUB_OK
+DEPENDENCIES_OK_STUB
+ENV_PYTHON=/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/hpp_setup_path_o38zoxvu/server local env/bin/python
+START: /var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/hpp_setup_path_o38zoxvu/server local env/bin/python launch.py --console --run-id main_v7_20261107 --threads 4

@@ -1,0 +1,29 @@
+18:34:40 FINAL_HASH_AUDIT
+V10 COMPLETE | fiber_density -> D_Glu (mg/dL) | 10/10 household outer folds
+N0=3343 N1=3343 | 68 new pipelines; repeats share participants
+model R2_0 R2_1 dV8_0 dV8_1 flag
+v8_ridge_wide 0.120396 0.122745 +0.000000 +0.000000 -
+v8_ridge_joint 0.120803 0.121851 +0.000407 -0.000894 -
+v9_convex_wide 0.119491 0.126979 -0.000905 +0.004234 -
+ridge_diverse 0.126227 0.137266 +0.005831 +0.014521 -
+ridge_wide 0.125175 0.136837 +0.004779 +0.014092 -
+convex_diverse 0.122736 0.132459 +0.002340 +0.009714 -
+convex_wide 0.122622 0.131805 +0.002227 +0.009060 -
+ridge_full 0.119904 0.128421 -0.000492 +0.005676 -
+ridge_base 0.113074 0.120920 -0.007322 -0.001825 -
+ridge_macro 0.119592 0.126345 -0.000804 +0.003600 -
+
+EXPLICIT: delta_R2 vs SAME selected background; SD of added 10->15 fiber contrast (mg/dL)
+model dR2_0 dR2_1 active0/1 SD0 SD1
+fiber_gut_linear +0.001224 -0.001626 4/4 0.756 0.674
+fiber_oral_linear -0.002314 +0.000000 2/0 0.269 0.000
+fiber_both_rcs +0.000000 +0.000000 0/0 0.000 0.000
+fiber_gut_tree -0.000585 -0.001903 1/2 0.218 0.358
+fiber_macro -0.000027 +0.002256 3/4 0.454 0.438
+fiber_gut_kernel +0.001242 +0.000081 4/1 0.721 0.406
+BEATS_V8_BOTH=4/68; fit-flag pipelines=0
+Both repeats R2>=0.20: 0/68; without fit flags: 0
+Both repeats R2>=0.30: 0/68; without fit flags: 0
+New input blocks and prediction gains do not establish microbial effect modification.
+Exploratory discovery; no confirmation data. --diagnostics: input gains and matched nulls.
+18:34:47 BATCH_COMPLETE

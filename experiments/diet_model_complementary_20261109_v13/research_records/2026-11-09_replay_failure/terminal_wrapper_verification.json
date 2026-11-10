@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "shell_syntax": "PASS",
+  "cases": [
+    "exact helper written, repaired and resume dispatched; repeat is idempotent",
+    "invalid input stops before resume"
+  ],
+  "private_checkpoints_unchanged": true,
+  "wrapper_sha256": "d79b158cb5d01d5fd1601eb2fe37ea498eb1c7d21a9814e83b28ca40d13a2e36",
+  "native_server_executed": false
+}

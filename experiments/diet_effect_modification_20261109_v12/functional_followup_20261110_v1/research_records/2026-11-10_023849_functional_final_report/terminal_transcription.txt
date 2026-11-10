@@ -1,0 +1,53 @@
+[Top shell terminator partly cropped; full visible output below. Population line wraps on screen; joined here.]
+IO_REPAIR_PREFLIGHT_OK: known sources, no completed old folds, no active owner; failed run retained.
+IO_REPAIR_INSTALLED: memory ZIP plus sequential writes; statistical plan unchanged; old run preserved.
+FUNCTIONAL_UPLOAD_CHECK_OK files=13
+FUNCTIONAL_SYNTHETIC_CHECKS_OK checks=41; no native HPP data read.
+START native functional pilot; source audit first; no confirmation outcomes.
+SOURCE_READY functional_people=3337 original_people=3343
+START r0_f0 inner training roles
+FIT r0_f0 outer models; selection fixed
+OUTER_COMPLETE r0_f0 people=660 routes=3
+START r0_f1 inner training roles
+FIT r0_f1 outer models; selection fixed
+OUTER_COMPLETE r0_f1 people=675 routes=3
+START r0_f2 inner training roles
+FIT r0_f2 outer models; selection fixed
+OUTER_COMPLETE r0_f2 people=666 routes=3
+START r0_f3 inner training roles
+FIT r0_f3 outer models; selection fixed
+OUTER_COMPLETE r0_f3 people=665 routes=3
+START r0_f4 inner training roles
+FIT r0_f4 outer models; selection fixed
+OUTER_COMPLETE r0_f4 people=671 routes=3
+START r1_f0 inner training roles
+FIT r1_f0 outer models; selection fixed
+OUTER_COMPLETE r1_f0 people=675 routes=3
+START r1_f1 inner training roles
+FIT r1_f1 outer models; selection fixed
+OUTER_COMPLETE r1_f1 people=659 routes=3
+START r1_f2 inner training roles
+FIT r1_f2 outer models; selection fixed
+OUTER_COMPLETE r1_f2 people=664 routes=3
+START r1_f3 inner training roles
+FIT r1_f3 outer models; selection fixed
+OUTER_COMPLETE r1_f3 people=656 routes=3
+START r1_f4 inner training roles
+FIT r1_f4 outer models; selection fixed
+OUTER_COMPLETE r1_f4 people=683 routes=3
+DISCOVERY FUNCTION PILOT | fiber_density -> D_Glu (mg/dL)
+Population: {"confirmation_outcomes_read": false, "excluded_whole_candidate_null": 6, "functional_households": 3053, "functional_people": 3337, "independent_confirmation": false, "original_people": 3343, "partial_null_nonreporting_is_assumption": true, "provider_abundance_unit_verified": false, "technical_fields": ["raw_read_count", "metaphlan4_aligned_read_count"]}
+PRIMARY abundance_relative, repeat 0; other encodings and repeat 1 are sensitivity only.
+route repeat base_R2 full_R2 delta_R2 conditional_HH_CI95 selected_folds rawY_delta support added_contrast_SD
+abundance_relative 0 0.083105 0.083083 -0.000022 [-0.000241,+0.000195] 2 -0.000021 0.810 0.039
+coverage_confidence 0 0.086535 0.086209 -0.000327 [-0.001133,+0.000456] 1 -0.000321 0.800 0.126
+abundance_unknown_null 0 0.079556 0.079556 +0.000000 [+0.000000,+0.000000] 0 +0.000000 0.803 0.000
+abundance_relative 1 0.086624 0.086491 -0.000133 [-0.000320,+0.000050] 1 -0.000135 0.805 0.036
+coverage_confidence 1 0.091890 0.091072 -0.000818 [-0.001696,-0.000011] 1 -0.000807 0.788 0.151
+abundance_unknown_null 1 0.084471 0.084480 +0.000010 [-0.000205,+0.000214] 1 +0.000028 0.800 0.041
+Same-person split contrast correlation: {"abundance_relative": 0.21468145827053571, "abundance_unknown_null": null, "coverage_confidence": 0.19518064004598654}
+Matched baselines are refit within each route on the same functional subset; do not compare with old N=3343 R2.
+CIs resample households with OOF predictions fixed; no learning/selection uncertainty or formal interaction P value.
+Null encoding is an assumption; contrasts are model-generated associations, not measured individual diet responses.
+Eligibility stays fixed; outcome clipping limits use training roles only, with no new validation-outcome exclusions.
+(pheno) [ec2-user@ip-10-0-71-168 diet_effect_modification_20261109_v12]$

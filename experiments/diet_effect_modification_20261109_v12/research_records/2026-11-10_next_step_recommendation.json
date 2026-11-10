@@ -1,0 +1,90 @@
+{
+  "date": "2026-11-10 Asia/Shanghai",
+  "status": "RECOMMENDATION_ONLY_NOT_A_NEW_CONFIRMED_PROTOCOL",
+  "user_question": "那我接下来该怎么做",
+  "objective": "Advance the existing diet-association modification question with stronger evaluation rather than another adaptive algorithm search on fiber_density -> D_Glu.",
+  "completed_current_pair": {
+    "V12_primary_p_displayed": [
+      0.3769,
+      0.1278
+    ],
+    "functional_primary_delta_R2_displayed": [
+      -2.2e-05,
+      -0.000133
+    ],
+    "functional_stopping_rule_triggered": true
+  },
+  "historical_distinct_candidate": {
+    "source": "experiments/实验.md; experiments/diet_gut_fiber_modules_20261104_v5/freeze_pc.py and RUN.md",
+    "candidate": "Discovery-trained frozen gut PC10 fiber-contrast score",
+    "development_delta_R2_displayed": [
+      0.00394,
+      0.00165
+    ],
+    "status": "Earlier development candidate; not independently confirmed. Different from current oral-function route. Current native frozen rule and all access history have not been inspected in this turn."
+  },
+  "prior_scope": {
+    "exposures": [
+      "fiber_density",
+      "UPF"
+    ],
+    "endpoints": [
+      "D_Glu",
+      "D_TotalFat",
+      "D_VAT",
+      "D_Liver_elasticity",
+      "D_Liver_velocity",
+      "D_Liver_viscosity",
+      "D_Liver_attenuation",
+      "D_Liver_dispersion",
+      "D_Liver_speed_of_sound"
+    ],
+    "combinations": 18,
+    "already_screened": true,
+    "original_multiple_testing_positions": 55,
+    "family_reconciliation_required_before_confirmation": true
+  },
+  "recommended_sequence": [
+    {
+      "step": 1,
+      "action": "Reconcile the existing frozen candidate, full prior result history, current confirmation membership and access audit without opening reserved outcomes. Reconstruct/verify score application by taxon IDs and units and trace source hashes.",
+      "unknown": "Local November 1-4 reports describe sealed confirmation; this is not proof it remains sealed on November 10 or in other analysts' work."
+    },
+    {
+      "step": 2,
+      "action": "Before reserved outcome access, freeze the complete confirmation candidate list, matched main-effect background, estimand, contrasts, outcome preprocessing, household inference and multiple-comparison arrangement. Retain original family positions or explicitly justify a new family; do not silently shrink 55 positions to an uncorrected single test.",
+      "candidate_priority": "Review the already designated V5 gut PC10 candidate for its original question; do not substitute the best current sensitivity route."
+    },
+    {
+      "step": 3,
+      "action": "If confirmation families and outcomes remain unexposed to candidate development, execute one frozen held-out evaluation after the protocol and input mapping are fully validated. If exposed, label it development and plan genuinely untouched evaluation; never rename it independent confirmation."
+    },
+    {
+      "step": 4,
+      "action": "Report magnitude and uncertainty and negative/sensitivity results together. Replication would support a limited associational heterogeneity claim; lack of support means this candidate should not anchor a positive modification claim. Any further dietary exposure or outcome expansion must be a separately documented batch with all results reported, never iterative reuse of opened confirmation outcomes."
+    }
+  ],
+  "paper_claims": {
+    "prediction_and_modification_separate": true,
+    "oral_predictive_increment_is_development_evidence": true,
+    "no_causal_or_meal_response_claim": true,
+    "single_dataset_prediction_score_does_not_guarantee_publishability": true
+  },
+  "public_primary_context": [
+    {
+      "title": "Diet–microbiome associations in 10,068 individuals from the Human Phenotype Project to guide personalized nutrition",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41872600/",
+      "doi": "10.1038/s41591-026-04312-x",
+      "scope": "Published diet-to-microbiome association/prediction work; not treated as proof of dietary effect modification. PubMed search abstract available; direct Nature page blocked by redirect, full text not reviewed."
+    },
+    {
+      "title": "Personalized Nutrition by Prediction of Glycemic Responses",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26590418/",
+      "scope": "Meal-level glycemic prediction with independent validation and a dietary trial; different measurement/design from current person-average observational data."
+    }
+  ],
+  "new_native_models_started": false,
+  "reserved_outcomes_accessed": false,
+  "new_server_instruction_copied": false,
+  "prior_repair_command_retired_for_completed_run": true
+}

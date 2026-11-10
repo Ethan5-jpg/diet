@@ -1,0 +1,104 @@
+{
+  "source": "User-supplied server screenshot",
+  "module": "diet_effect_modification_20261109_v12",
+  "screenshot_filename": "\u622a\u5c4f2026-11-09 19.09.13.png",
+  "screenshot_filename_client_time": "2026-11-09 19:09:13 Asia/Shanghai",
+  "server_clock_timezone_displayed": null,
+  "original_image": "original.png",
+  "original_sha256": "390ae2baacf4103eef1e477bdb7a45a3d78238d94f1ba3f22f3a7d30811160c4",
+  "original_copied": true,
+  "command": "bash server_run.sh --prior-summary-reviewed --threads 2",
+  "configured_threads": 2,
+  "expected_default_run_id": "effect_modification_v12_20261109",
+  "run_id_explicitly_displayed": false,
+  "run_id_basis": "Verified uploaded launcher default; command shows no run-id override",
+  "upload_check": {
+    "status": "OK",
+    "files": 51,
+    "displayed_twice": true
+  },
+  "reported_versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.11.4",
+    "pandas": "2.1.0",
+    "pyarrow": "15.0.2",
+    "scikit-learn": "1.4.1.post1",
+    "threadpoolctl": "3.3.0"
+  },
+  "environment": "existing packages unchanged",
+  "server_synthetic_preflight": {
+    "tests": 41,
+    "seconds_displayed": "23.297",
+    "status": "OK"
+  },
+  "discovery_load_time_displayed": "11:07:23",
+  "v11_completion_gate": "passed",
+  "completed_outer_folds_visible": 3,
+  "total_planned_outer_folds": 10,
+  "displayed_folds": [
+    {
+      "repeat": 0,
+      "fold": 0,
+      "start": "11:07:31",
+      "selected_main_time": "11:07:35",
+      "main_penalty": 1,
+      "fit": "11:07:54",
+      "finished": "11:07:57",
+      "outer_complete": "11:07:57",
+      "people": 661,
+      "support_percent_displayed": "75.2",
+      "status": "COMPLETE"
+    },
+    {
+      "repeat": 0,
+      "fold": 1,
+      "start": "11:07:57",
+      "selected_main_time": "11:08:01",
+      "main_penalty": 1,
+      "fit": "11:08:21",
+      "finished": "11:08:23",
+      "outer_complete": "11:08:23",
+      "people": 677,
+      "support_percent_displayed": "71.9",
+      "status": "COMPLETE"
+    },
+    {
+      "repeat": 0,
+      "fold": 2,
+      "start": "11:08:24",
+      "selected_main_time": "11:08:27",
+      "main_penalty": 1,
+      "fit": "11:08:47",
+      "finished": "11:08:49",
+      "outer_complete": "11:08:50",
+      "people": 668,
+      "support_percent_displayed": "79.0",
+      "status": "COMPLETE"
+    },
+    {
+      "repeat": 0,
+      "fold": 3,
+      "start": "11:08:50",
+      "selected_main_time": "11:08:54",
+      "main_penalty": 1,
+      "fit": null,
+      "finished": null,
+      "outer_complete": null,
+      "people": null,
+      "support_percent_displayed": null,
+      "status": "IN_PROGRESS_AT_SCREENSHOT"
+    }
+  ],
+  "batch_complete_displayed": false,
+  "final_R2_displayed": false,
+  "interaction_P_values_displayed": false,
+  "visible_error": false,
+  "full_fit_warning_summary_displayed": false,
+  "limitations": [
+    "State only as of screenshot; no inference of later progress.",
+    "Preflight seconds are not the total native modeling duration.",
+    "Support is the training-neighbor diet-range diagnostic for 10-to-15, not R2 or an interaction test.",
+    "All four shown main penalties equal 1; no decision to change the frozen grid follows.",
+    "No server data/model files downloaded; native final aggregates have not been received."
+  ]
+}

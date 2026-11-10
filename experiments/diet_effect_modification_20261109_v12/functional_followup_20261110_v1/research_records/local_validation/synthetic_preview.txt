@@ -1,0 +1,17 @@
+GENERATED DATA ONLY; NOT HPP FINDINGS
+
+SYNTHETIC ONLY | fiber_density -> D_Glu (mg/dL)
+Population: {"excluded_whole_candidate_null": 2, "functional_households": 210, "functional_people": 420, "original_people": 422, "synthetic_only": true}
+PRIMARY abundance_relative, repeat 0; other encodings and repeat 1 are sensitivity only.
+route repeat base_R2 full_R2 delta_R2 conditional_HH_CI95 selected_folds rawY_delta support added_contrast_SD
+abundance_relative 0 0.115302 0.855422 +0.740120 [+0.641769,+0.907946] 3 +0.740120 0.914 9.099
+coverage_confidence 0 0.086053 0.667972 +0.581920 [+0.460202,+0.728842] 3 +0.581920 0.912 7.642
+abundance_unknown_null 0 0.131265 0.930571 +0.799306 [+0.708954,+0.959118] 3 +0.799306 0.871 9.634
+abundance_relative 1 0.186280 0.845596 +0.659316 [+0.578353,+0.789895] 3 +0.659316 0.900 8.551
+coverage_confidence 1 0.157092 0.675986 +0.518894 [+0.434800,+0.666517] 3 +0.518894 0.886 8.410
+abundance_unknown_null 1 0.175175 0.909839 +0.734664 [+0.646842,+0.858785] 3 +0.734664 0.864 9.095
+Same-person split contrast correlation: {"abundance_relative": 0.9579150230385269, "abundance_unknown_null": 0.9633488327723578, "coverage_confidence": 0.9312934843123784}
+Matched baselines are refit within each route on the same functional subset; do not compare with old N=3343 R2.
+CIs resample households with OOF predictions fixed; no learning/selection uncertainty or formal interaction P value.
+Null encoding is an assumption; contrasts are model-generated associations, not measured individual diet responses.
+Eligibility stays fixed; outcome clipping limits use training roles only, with no new validation-outcome exclusions.

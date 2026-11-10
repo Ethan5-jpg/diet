@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "date": "2026-11-10",
+  "scope": "local_screenshot_documentation_only",
+  "visible_rows_checked": 13,
+  "new_score_pairs_visible": 8,
+  "unshown_new_score_pairs": 58,
+  "registered_new_workflow_inventory_unique_count": 66,
+  "screenshot_and_transcription_hashes_match": true,
+  "separately_rounded_delta_tolerance": "0.000001",
+  "model_runtime_sources_changed": false,
+  "previously_tested_source_hashes_rechecked": 32,
+  "full_model_tests_rerun": false,
+  "local_document_links_checked": 41,
+  "startup_original_image_available": false,
+  "startup_original_image_copy_claimed": false,
+  "original_V6_V11_307_workflow_scope_preserved": true,
+  "native_result_arrays_or_models_downloaded": false,
+  "native_results_recomputed_locally": false,
+  "followup": {
+    "diagnostics_record": "../2026-11-10_124524_diagnostics",
+    "completion_visible_results_sha256_current": "9780ae9f8984ac76e8b6d90566bf5010f6311e92ffa89d9e108bafcde92be0e0",
+    "reason": "Only completion follow-up metadata updated; all displayed score rows retained."
+  }
+}

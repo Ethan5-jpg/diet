@@ -1,0 +1,147 @@
+{
+  "source": "User-supplied server fixed-population pathway provenance and descriptive QC screenshot",
+  "screenshot_filename": "截屏2026-11-10 00.37.04.png",
+  "screenshot_filename_client_time": "2026-11-10 00:37:04 Asia/Shanghai",
+  "source_image_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_0MRqGW/截屏2026-11-10 00.37.04.png",
+  "original_image": "original.png",
+  "original_copied": true,
+  "original_sha256": "996b5bacfab96baed3b53bda71d23cd027c45c6b5c81c5904cc1fe2f22454b9e",
+  "transcription_whitespace": "Indentation and shell prompt spacing normalized; all displayed diagnostic lines preserved.",
+  "frozen_membership": {
+    "discovery_rows": 4427,
+    "fixed_people": 3343,
+    "households": 3059,
+    "same_two_repeat_mask": true,
+    "discovery_input_sha_verified": true
+  },
+  "locked_source_records": {
+    "registry_sha_verified": true,
+    "source_record_verified": 3343
+  },
+  "tables": {
+    "abundance": {
+      "source_metadata": {
+        "shared_unique_people": 8816,
+        "cohort_equal": 8816,
+        "array_equal": 8816,
+        "calendar_date_equal": 8816,
+        "timestamp_equal": 8816,
+        "source_record_metadata_compatible": 8816
+      },
+      "fixed_link": {
+        "target": 3343,
+        "linked": 3343,
+        "source_record_metadata_agree": 3343
+      },
+      "feature_schema": {
+        "numeric_total": 487,
+        "special_totals_excluded": 2,
+        "candidate_columns": 485,
+        "annotation_and_units_pending": true
+      },
+      "qc_cells": {
+        "cells": 1621355,
+        "arrow_null": 1050518,
+        "nonnull_nan": 0,
+        "inf": 0,
+        "negative": 0,
+        "gt1": 570823,
+        "min_med_p99_max": [
+          0.04921947792172432,
+          91.0246810913086,
+          3617.21142578125,
+          38009.83203125
+        ],
+        "units_unverified": true
+      },
+      "qc_profiles": {
+        "fixed_people": 3343,
+        "no_finite": 6,
+        "no_positive_observed": 6,
+        "all_observed_zero": 0,
+        "constant_observed_features": 19,
+        "all_missing_features": 11,
+        "positive_fields_q10_50_90": [
+          87.20000000000005,
+          178.0,
+          245.0
+        ]
+      }
+    },
+    "coverage": {
+      "source_metadata": {
+        "shared_unique_people": 8816,
+        "cohort_equal": 8816,
+        "array_equal": 8816,
+        "calendar_date_equal": 8816,
+        "timestamp_equal": 8816,
+        "source_record_metadata_compatible": 8816
+      },
+      "fixed_link": {
+        "target": 3343,
+        "linked": 3343,
+        "source_record_metadata_agree": 3343
+      },
+      "feature_schema": {
+        "numeric_total": 487,
+        "special_totals_excluded": 2,
+        "candidate_columns": 485,
+        "annotation_and_units_pending": true
+      },
+      "qc_cells": {
+        "cells": 1621355,
+        "arrow_null": 1050518,
+        "nonnull_nan": 0,
+        "inf": 0,
+        "negative": 0,
+        "gt1": 0,
+        "min_med_p99_max": [
+          0.0,
+          1.8107999721905799e-06,
+          1.0,
+          1.0
+        ],
+        "units_unverified": true
+      },
+      "qc_profiles": {
+        "fixed_people": 3343,
+        "no_finite": 6,
+        "no_positive_observed": 6,
+        "all_observed_zero": 0,
+        "constant_observed_features": 92,
+        "all_missing_features": 11,
+        "positive_fields_q10_50_90": [
+          73.0,
+          93.0,
+          136.0
+        ]
+      }
+    }
+  },
+  "pair": {
+    "feature_label_sets_equal": true,
+    "fixed_people": 3343,
+    "common_finite_cells": 570837,
+    "exact_equal_common_finite_cells": 0
+  },
+  "done_displayed": true,
+  "derived_arithmetic": {
+    "finite_cells_per_table": 570837,
+    "arrow_null_fraction": 0.6479259631604429,
+    "nonempty_profiles": 3337,
+    "features_with_any_finite_value": 474,
+    "finite_and_null_masks_equal_inferred": true,
+    "inference_reason": "Each table has 570837 finite cells, all other non-null nonfinite categories are zero, and their aligned finite-cell intersection is 570837; hence finite and Arrow-null masks coincide."
+  },
+  "limits": [
+    "All 3343 records passed the delivered fixed membership, locked registry/source path/SHA/ordinal/key and function metadata agreement checks; this is source-record traceability, not independent raw per-specimen HUMAnN validation or causal timing.",
+    "The two excluded special fields are UNMAPPED/UNINTEGRATED under the delivered exact-name rule. The remaining 485 are candidate feature labels, not all independently annotated pathways.",
+    "Missing candidate cells are Arrow nulls, not observed zero or non-null NaN. The interpretation of within-profile nulls and six entirely-null candidate profiles remains unresolved.",
+    "The same null count alone would not prove mask identity; mask equality is inferred here from both finite totals and the aligned intersection, based on the delivered column/person ordering.",
+    "The six wholly-null rows refer to the 485 candidates after excluding two special totals; the special totals, output status and read QC for these people were not inspected.",
+    "The 11 all-missing candidates need not be globally absent in other people; counts are restricted to the fixed 3343.",
+    "Observed-only constant feature counts 19 and 92 exclude the 11 entirely missing fields and do not imply constant after a future justified non-detection encoding.",
+    "Coverage range [0,1] and abundance range do not establish provider units, normalization, enzymatic activity or reaction completeness.",
+    "The old y array was used inside the TRE only for finite-position membership; no new outcome associations, summaries, P values or model scores were produced."
+  ]
+}

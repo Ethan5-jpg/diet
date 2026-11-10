@@ -1,0 +1,22 @@
+FIXED_PATHWAY_FEASIBILITY: TRE-only linkage and descriptive QC; old outcome availability only for fixed membership; no outcome summaries, models or writes.
+FROZEN_MEMBERSHIP discovery_rows=4427 fixed_people=3343 households=3059 same_two_repeat_mask=True discovery_input_sha_verified=True
+LOCKED_SOURCE_RECORDS registry_sha_verified=True reasons={"source_record_verified": 3343}
+TABLE abundance
+  SOURCE_METADATA shared_unique_people=8816 cohort_equal=8816 array_equal=8816 calendar_date_equal=8816 timestamp_equal=8816 source_record_metadata_compatible=8816
+  FIXED_LINK target=3343 linked=3343 reasons={"source_record_metadata_agree": 3343}
+  FEATURE_SCHEMA numeric_total=487 special_totals_excluded=2 candidate_columns=485 annotation_and_units_pending=True
+TABLE coverage
+  SOURCE_METADATA shared_unique_people=8816 cohort_equal=8816 array_equal=8816 calendar_date_equal=8816 timestamp_equal=8816 source_record_metadata_compatible=8816
+  FIXED_LINK target=3343 linked=3343 reasons={"source_record_metadata_agree": 3343}
+  FEATURE_SCHEMA numeric_total=487 special_totals_excluded=2 candidate_columns=485 annotation_and_units_pending=True
+PAIR_FEATURE_LABEL_SETS_EQUAL=True
+DESCRIPTIVE_QC: all fixed people passed source-record metadata checks; missing cells are retained.
+  QC_CELLS abundance cells=1621355 arrow_null=1050518 nonnull_nan=0 inf=0 negative=0 gt1=570823 min_med_p99_max=[0.04921947792172432, 91.0246810913086, 3617.21142578125, 38009.83203125] units_unverified=True
+  QC_PROFILES abundance fixed_people=3343 no_finite=6 no_positive_observed=6 all_observed_zero=0 constant_observed_features=19 all_missing_features=11 positive_fields_q10_50_90=[87.20000000000005, 178.0, 245.0]
+  QC_CELLS coverage cells=1621355 arrow_null=1050518 nonnull_nan=0 inf=0 negative=0 gt1=0 min_med_p99_max=[0.0, 1.8107999721905799e-06, 1.0, 1.0] units_unverified=True
+  QC_PROFILES coverage fixed_people=3343 no_finite=6 no_positive_observed=6 all_observed_zero=0 constant_observed_features=92 all_missing_features=11 positive_fields_q10_50_90=[73.0, 93.0, 136.0]
+PAIR_NUMERIC fixed_people=3343 common_finite_cells=570837 exact_equal_common_finite_cells=0
+Source-record agreement is not independent native-file specimen validation, verified units, causal timing or a new scientific effect.
+FIXED_PATHWAY_FEASIBILITY_DONE
+(pheno) [ec2-user@ip-10-0-71-168 diet_effect_modification_20261109_v12]$
+(pheno) [ec2-user@ip-10-0-71-168 diet_effect_modification_20261109_v12]$

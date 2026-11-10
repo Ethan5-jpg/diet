@@ -1,0 +1,45 @@
+{
+  "source": "User-supplied screenshot",
+  "capture_time": "2026-11-08 21:45:36 Asia/Shanghai",
+  "recorded_at_utc": "2026-11-08T13:47:06.491677+00:00",
+  "original_copied": true,
+  "image_sha256": "86953131530ba815944aea8a457fd9564ab6edf6adc9ba0b7618fbe10ac6e79b",
+  "visible_folder": "experiments/diet_model_context_20261108_v10",
+  "visible_subfolders": [
+    "docs",
+    "research_records",
+    "tests"
+  ],
+  "visible_files": [
+    ".gitignore",
+    "bridge.py",
+    "check.py",
+    "config.json",
+    "context.py",
+    "engine.py",
+    "estimators.py",
+    "features.py",
+    "fusion.py",
+    "launch.py",
+    "models.py",
+    "pyproject.toml",
+    "README.md",
+    "registry.py",
+    "report.py",
+    "requirements.txt",
+    "run.py",
+    "runtime.py",
+    "server_report.sh",
+    "server_run.sh",
+    "setup.sh",
+    "summary.md",
+    "upload_check.py",
+    "upload_manifest.json"
+  ],
+  "interpretation": "Folder placement and principal filenames look consistent with the prepared V10 package.",
+  "limitations": [
+    "No native checksum verification is shown.",
+    "No launch, process status, model fitting or R2 results are shown."
+  ],
+  "remote_actions_performed": false
+}

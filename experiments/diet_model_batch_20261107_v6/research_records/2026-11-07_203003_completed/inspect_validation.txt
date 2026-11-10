@@ -1,0 +1,3 @@
+PASS: Python syntax, synthetic 13-model schema, ASCII output, matched references, no output for incomplete runs.
+Output lines on synthetic fixture: 30
+No server JSON was read locally.

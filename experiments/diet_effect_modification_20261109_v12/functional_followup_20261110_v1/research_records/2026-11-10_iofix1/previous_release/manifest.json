@@ -1,0 +1,20 @@
+{
+  "files": {
+    "IMPLEMENTATION_PLAN.md": "ba8fb78c33145fe08eac0ce7895519b59a6463e6cd87c64a6ccbb24bd7ca58fb",
+    "PROTOCOL.md": "bb845b41d395cf6748a401e7077b1c86f52432e2f16c4bfc815326c1091ab123",
+    "README.md": "3be7666891a8a3e2a5bf1f716838f5ac05934a8de0eb460dd0db38557b91ed03",
+    "audit_driver.py": "0c2186ecfc4b42456437f5145847addf807d4cff9979088e30f57bcccfbcf92c",
+    "check_synthetic.py": "10e90a306d1c64fedb5a577193adfc33aa6391a549fe9e040a97d1d9b4b6655d",
+    "config.json": "5f4fe8a03443b1623a9c2a980e3e8aadf3188148ab65290982ddf3cd898e3102",
+    "demo_data.py": "4a25c6af3289ed250f42307ffa1ccebbe9ddc72abee81f293b0ebedf94a2efab",
+    "demo_files.py": "ec6f1e5a4f8a972b1473c425827e7a4424a15e4cfaa5d4f11cfa4d9a9c57b965",
+    "frozen.py": "783382e5bae6ddd26d97226569867be69ec7e7cacfd2ed29cbc32fe812c52eea",
+    "functional.py": "fcefca3fa10d03ac95abe9b286c573dfbcbd280371ed8d3fc5e7dc7c280d3d3a",
+    "native.py": "761492bdf30fb074d18d48a159a93d239089fe6ecd79e31927beab00dc271884",
+    "pilot.py": "46417d533e03873e58214fcc2029e8ab2d8016b7d5310792c26b71361557a471",
+    "server_run.sh": "8e7d81c72f09a45d9dc5a55e0772410a007dad2bf48e19d6018c5ab9461cc1fd"
+  },
+  "native_HPP_inputs_embedded": false,
+  "original_V12_files_modified": false,
+  "version": "functional_followup_20261110_v1"
+}

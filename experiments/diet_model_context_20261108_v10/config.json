@@ -1,0 +1,225 @@
+{
+  "outcome": "D_Glu",
+  "exposure": "fiber_density",
+  "confirmation_outcomes_read": false,
+  "outer_repeats": 2,
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "outer_seed": 20261104,
+  "contrast": [
+    10,
+    15
+  ],
+  "v8_reference_run": "overnight_v8_20261108",
+  "dependencies": {
+    "numpy": "1.26.4",
+    "scipy": "1.11.4",
+    "pandas": "2.1.0",
+    "pyarrow": "15.0.2",
+    "scikit-learn": "1.4.1.post1",
+    "catboost": "1.2.8",
+    "lightgbm": "3.3.5"
+  },
+  "version": "v10_20261108",
+  "model_seed": 20261110,
+  "v9_reference_run": "adaptive_v9_20261108",
+  "completion_iterations": 1,
+  "stack_penalty": 0.1,
+  "interaction_grid": [
+    [
+      5,
+      0.001
+    ],
+    [
+      10,
+      0.001
+    ],
+    [
+      10,
+      0.01
+    ],
+    [
+      20,
+      0.1
+    ]
+  ],
+  "families": {
+    "hgb": {
+      "grid": [
+        {
+          "count": 128,
+          "components": 30,
+          "iterations": 200,
+          "leaves": 7,
+          "leaf": 40,
+          "l2": 30
+        },
+        {
+          "count": 256,
+          "components": 30,
+          "iterations": 280,
+          "leaves": 15,
+          "leaf": 40,
+          "l2": 30
+        },
+        {
+          "count": 0,
+          "components": 30,
+          "iterations": 200,
+          "leaves": 7,
+          "leaf": 40,
+          "l2": 30
+        }
+      ]
+    },
+    "cat": {
+      "grid": [
+        {
+          "count": 128,
+          "components": 30,
+          "iterations": 600,
+          "depth": 4,
+          "l2": 30
+        },
+        {
+          "count": 256,
+          "components": 30,
+          "iterations": 800,
+          "depth": 6,
+          "l2": 30
+        },
+        {
+          "count": 0,
+          "components": 30,
+          "iterations": 600,
+          "depth": 4,
+          "l2": 30
+        }
+      ]
+    },
+    "block": {
+      "grid": [
+        {
+          "count": 0,
+          "components": 30,
+          "penalty": 0.01,
+          "micro_weight": 0.25,
+          "gut_weight": 1
+        },
+        {
+          "count": 0,
+          "components": 30,
+          "penalty": 0.01,
+          "micro_weight": 1,
+          "gut_weight": 1
+        },
+        {
+          "count": 0,
+          "components": 30,
+          "penalty": 0.1,
+          "micro_weight": 1,
+          "gut_weight": 1
+        },
+        {
+          "count": 0,
+          "components": 30,
+          "penalty": 0.01,
+          "micro_weight": 1,
+          "gut_weight": 0.25
+        }
+      ]
+    },
+    "spline": {
+      "grid": [
+        {
+          "count": 0,
+          "components": 20,
+          "penalty": 0.001,
+          "micro_weight": 1
+        },
+        {
+          "count": 0,
+          "components": 20,
+          "penalty": 0.01,
+          "micro_weight": 1
+        },
+        {
+          "count": 0,
+          "components": 20,
+          "penalty": 0.1,
+          "micro_weight": 1
+        }
+      ]
+    },
+    "svr": {
+      "grid": [
+        {
+          "count": 0,
+          "components": 20,
+          "C": 1
+        },
+        {
+          "count": 0,
+          "components": 30,
+          "C": 10
+        },
+        {
+          "count": 0,
+          "components": 50,
+          "C": 10
+        }
+      ]
+    },
+    "extra": {
+      "grid": [
+        {
+          "count": 0,
+          "components": 30,
+          "iterations": 400,
+          "leaf": 10,
+          "features": 0.7
+        },
+        {
+          "count": 0,
+          "components": 30,
+          "iterations": 400,
+          "leaf": 20,
+          "features": 1
+        },
+        {
+          "count": 0,
+          "components": 30,
+          "iterations": 400,
+          "leaf": 40,
+          "features": 1
+        }
+      ]
+    },
+    "kernel": {
+      "grid": [
+        {
+          "count": 0,
+          "components": 30,
+          "penalty": 0.001,
+          "bandwidth": 0.5,
+          "micro_weight": 0.25
+        },
+        {
+          "count": 0,
+          "components": 30,
+          "penalty": 0.01,
+          "bandwidth": 1,
+          "micro_weight": 1
+        },
+        {
+          "count": 0,
+          "components": 30,
+          "penalty": 0.1,
+          "bandwidth": 2,
+          "micro_weight": 1
+        }
+      ]
+    }
+  },
+  "projection_penalty": 0.01
+}

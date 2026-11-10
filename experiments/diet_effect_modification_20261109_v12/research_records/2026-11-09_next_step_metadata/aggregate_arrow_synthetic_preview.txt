@@ -1,0 +1,13 @@
+SYNTHETIC AGGREGATE FILES ONLY; NOT HPP RESULTS
+ORAL_AGGREGATE_CHECK: local metadata only; no S3 calls, rows, models or writes.
+PLATFORM_CONFIG path_keys=["DATASETS_PATH"] prefix_rules=0 root_candidates=1
+EXACT_AGGREGATED_DIR exists=True limited=False group_dirs=["humann_profiles", "metaphlan_abundances_aggregated"]
+SOURCE_INDEX rows=3 requested_fields_present=3/3
+FIELD humann_aggregated_gene_familites_gene_level_arrow nonempty=2 unique=1 schemes={"s3": 1}
+  LOCAL_CANDIDATE_SCHEMA_OK format=IPC_FILE columns=2 batches=1 bytes=690
+FIELD humann_aggregated_pathway_abundance_pathway_level_arrow nonempty=2 unique=1 schemes={"s3": 1}
+  LOCAL_CANDIDATE_SCHEMA_OK format=IPC_STREAM columns=2 bytes=448
+FIELD humann_aggregated_pathway_coverage_pathway_level_arrow nonempty=2 unique=1 schemes={"s3": 1}
+  LOCAL_CANDIDATE_SCHEMA_OK format=PARQUET columns=2 rows=1
+Local candidates require source/version and locked-sample matching; 3343-person coverage unverified.
+ORAL_AGGREGATE_CHECK_DONE

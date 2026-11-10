@@ -1,0 +1,30 @@
+{
+  "source": "User-supplied server single-AWS-CLI-HeadObject terminal screenshot",
+  "screenshot_filename": "截屏2026-11-09 22.53.06.png",
+  "screenshot_filename_client_time": "2026-11-09 22:53:06 Asia/Shanghai",
+  "source_image_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_RdIEBL/截屏2026-11-09 22.53.06.png",
+  "original_image": "original.png",
+  "original_copied": true,
+  "original_sha256": "6c263fbd12eb11a161609b8ba00d53ae542b8dc84376d5f6f526ecdcccbaa5d2",
+  "server_clock_timezone_displayed": null,
+  "transcription_whitespace": "Indentation and shell prompt spacing normalized; all displayed diagnostic lines preserved.",
+  "displayed_status": "HEAD_PROCESS_TIMEOUT_12S",
+  "S3_HEAD_ONCE_DONE_displayed": true,
+  "HEAD_OK_displayed": false,
+  "service_error_or_CLI_exit_code_displayed": false,
+  "configured_child_timeout_seconds": 12,
+  "configured_overall_alarm_seconds_from_delivered_source": 20,
+  "actual_wall_runtime_explicitly_displayed": false,
+  "CLI_available_and_source_pointer_accepted_inferred_from_delivered_control_flow": true,
+  "object_size_or_file_header_obtained": false,
+  "URI_bucket_key_credentials_or_individual_values_displayed": false,
+  "limits": [
+    "The wrapper reached its normal end after handling subprocess timeout; this is not a successful S3 response.",
+    "No AccessDenied, 403, 404, region, object length or object footer was returned on screen.",
+    "The child could have been waiting during credential discovery, endpoint/region handling or the network request; the screenshot cannot distinguish these causes.",
+    "CLI presence is inferred from the tested delivered control flow, not from a printed binary path or version.",
+    "Python reader and AWS CLI both failed to obtain metadata within their respective limits; this does not prove permanent unavailability or file absence.",
+    "Functional measurements, locked-sample linkage, overlap with the fixed 3343 people and date semantics remain unverified.",
+    "No new model or outcome analysis was run."
+  ]
+}

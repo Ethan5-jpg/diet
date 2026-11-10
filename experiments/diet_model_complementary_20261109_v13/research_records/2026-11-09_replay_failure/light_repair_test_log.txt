@@ -1,0 +1,12 @@
+test_actual_stopped_worker_resumes_cached_failed_fold_without_any_refit (test_replay_repair.ReplayRepairChecks.test_actual_stopped_worker_resumes_cached_failed_fold_without_any_refit) ... ok
+test_code_drift_and_existing_locks_are_refused_without_patching (test_replay_repair.ReplayRepairChecks.test_code_drift_and_existing_locks_are_refused_without_patching) ... ok
+test_explicit_hash_amendment_preserves_originals_and_is_idempotent (test_replay_repair.ReplayRepairChecks.test_explicit_hash_amendment_preserves_originals_and_is_idempotent) ... ok
+test_observed_numeric_difference_passes_but_larger_difference_stops (test_replay_repair.ReplayRepairChecks.test_observed_numeric_difference_passes_but_larger_difference_stops) ... ok
+test_publication_failure_rolls_back_source_manifest_and_registration (test_replay_repair.ReplayRepairChecks.test_publication_failure_rolls_back_source_manifest_and_registration) ... ok
+test_repair_does_not_open_data_or_private_cache_and_retains_their_hashes (test_replay_repair.ReplayRepairChecks.test_repair_does_not_open_data_or_private_cache_and_retains_their_hashes) ... ok
+test_unchanged_real_resume_refuses_data_drift_before_using_any_cached_fold (test_replay_repair.ReplayRepairChecks.test_unchanged_real_resume_refuses_data_drift_before_using_any_cached_fold) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 14.035s
+
+OK

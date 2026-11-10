@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "timestamp_utc": "2026-11-08T13:34:15.660017+00:00",
+  "scope": "Actual local setup and read-only report after V10 recheck; no native training",
+  "checks": {
+    "existing_pinned_environment": "PASS",
+    "upload_verification": "PASS",
+    "unstarted_report_readonly": "PASS",
+    "no_packages_changed": true,
+    "local_interpreter_marker_removed": true
+  },
+  "setup_sha256": "b4679534242e187011b1b8b68268d014d14ac922ed80f55e559b38cb40eed4fd"
+}

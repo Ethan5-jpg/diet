@@ -1,0 +1,24 @@
+V14 COMPLETE | fiber_density -> D_Glu (mg/dL) | 10/10 household outer folds
+N0=3343 N1=3343 | 66 new workflows; repeats share participants
+model                        R2_0      R2_1       dV11_0     dV11_1 flag
+v11_positive_combined         0.130555  0.139855  +0.000000  +0.000000 -
+v11_sparse_combined           0.128340  0.140103  -0.002215  +0.000249 -
+v13_positive_combined         0.129425  0.139372  -0.001130  -0.000483 -
+v11_replay                    0.130555  0.139855  -0.000000  +0.000000 -
+v13_replay                    0.129425  0.139372  -0.001130  -0.000483 -
+positive_combined             0.131369  0.139524  +0.000814  -0.000331 -
+positive_bank                 0.129425  0.139372  -0.001130  -0.000483 -
+ridge_combined                0.128999  0.136047  -0.001557  -0.003808 -
+ridge_bank                    0.128262  0.136995  -0.002294  -0.002860 -
+convex_combined               0.128182  0.134184  -0.002373  -0.005670 -
+convex_bank                   0.127244  0.134341  -0.003312  -0.005513 -
+rbf_ard_stack_combined        0.125098  0.128473  -0.005457  -0.011382 -
+positive_new                  0.109193  0.109225  -0.021362  -0.030630 -
+BEATS_V11_BOTH=0/66; fit-flag new workflows=0
+BEATS_V13_BOTH=1/66
+Both repeats R2>=0.20: 0/66; without fit flags: 0
+Both repeats R2>=0.30: 0/66; without fit flags: 0
+Saved V11/V13 fusion replay max errors=2.53e-08/0 mg/dL
+Supplementary prediction only; does not establish microbial effect modification.
+No confirmation data. --diagnostics: matched representations/objectives/pools.
+20:29:28 BATCH_COMPLETE

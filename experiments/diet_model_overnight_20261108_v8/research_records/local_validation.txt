@@ -1,0 +1,12 @@
+Observed final verification output (the preceding test names were streamed separately):
+Command: /private/tmp/hpp_v7_check_20261107/bin/python check.py
+Platform: local macOS ARM64; synthetic inputs only.
+
+ok
+test_warning_from_contributing_member_reaches_fusion_flag (test_pipeline.PipelineChecks.test_warning_from_contributing_member_reaches_fusion_flag) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 85.441s
+
+OK
+EXPERIMENT_STORAGE_OK

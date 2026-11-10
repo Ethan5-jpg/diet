@@ -1,0 +1,33 @@
+{
+  "source": "User supplied screenshot 2026-11-09 11.32.18",
+  "stage": "upload_tree_only",
+  "experiment": "diet_model_distribution_20261109_v11",
+  "expected_run_id": "distribution_v11_20261109",
+  "visible_directory_name": "diet_model_distribution_20261109_v11",
+  "visible_directories": [
+    "docs",
+    "research_records",
+    "tests"
+  ],
+  "fully_visible_files": [
+    ".gitignore",
+    "bridge.py",
+    "check.py",
+    "config.json",
+    "context.py",
+    "engine.py",
+    "estimators.py",
+    "features.py",
+    "food_features.py",
+    "fusion.py",
+    "launch.py",
+    "legacy.py"
+  ],
+  "partially_visible_file": "models.py",
+  "image_copied": true,
+  "native_upload_checksum_verified": false,
+  "native_environment_verified": false,
+  "native_run_started": false,
+  "performance_results_visible": false,
+  "limitations": "Cropped tree view alone does not verify the parent server path, upload completeness or run status."
+}

@@ -1,0 +1,35 @@
+16:12:37 LOAD discovery inputs and completed V6 evaluation reference
+16:12:38 HASH sources, inputs and references; no confirmation data
+16:12:40 START r0_f0 lgbm_host candidates=2
+16:12:43 SELECT r0_f0 lgbm_host case=0 elapsed=3.4s
+16:12:43 START r0_f0 lgbm_oral candidates=2
+16:12:52 SELECT r0_f0 lgbm_oral case=0 elapsed=8.7s
+16:12:52 START r0_f0 lgbm_gut candidates=2
+16:13:13 SELECT r0_f0 lgbm_gut case=0 elapsed=21.5s
+16:13:13 START r0_f0 lgbm_balanced candidates=2
+16:13:41 SELECT r0_f0 lgbm_balanced case=0 elapsed=27.1s
+16:13:41 START r0_f0 ebm_oral candidates=2
+16:14:08 SELECT r0_f0 ebm_oral case=0 elapsed=27.2s
+16:14:08 START r0_f0 ebm_balanced candidates=2
+16:14:29 SELECT r0_f0 ebm_balanced case=0 elapsed=21.6s
+16:14:29 START r0_f0 hgb_hellinger_oral candidates=2
+16:14:36 SELECT r0_f0 hgb_hellinger_oral case=0 elapsed=6.8s
+16:14:36 START r0_f0 hgb_hellinger_balanced candidates=2
+16:14:55 SELECT r0_f0 hgb_hellinger_balanced case=0 elapsed=18.8s
+16:14:55 START r0_f0 hgb_presence_oral candidates=2
+16:15:01 SELECT r0_f0 hgb_presence_oral case=0 elapsed=5.8s
+16:15:01 START r0_f0 hgb_presence_balanced candidates=2
+16:15:13 SELECT r0_f0 hgb_presence_balanced case=0 elapsed=12.4s
+16:15:13 START r0_f0 gam_oral candidates=2
+16:15:16 SELECT r0_f0 gam_oral case=1 elapsed=2.3s
+16:15:16 START r0_f0 gam_balanced candidates=2
+16:15:18 SELECT r0_f0 gam_balanced case=0 elapsed=2.5s
+16:15:18 START r0_f0 tree_embed_oral candidates=2
+16:15:21 SELECT r0_f0 tree_embed_oral case=1 elapsed=3.1s
+16:15:21 START r0_f0 tree_embed_balanced candidates=2
+16:15:24 SELECT r0_f0 tree_embed_balanced case=0 elapsed=3.3s
+16:15:24 START r0_f0 pls_svr_oral candidates=3
+16:15:34 SELECT r0_f0 pls_svr_oral case=0 elapsed=9.0s
+16:15:34 START r0_f0 pls_svr_balanced candidates=3
+16:15:42 SELECT r0_f0 pls_svr_balanced case=0 elapsed=8.8s
+16:15:42 START r0_f0 factorization_oral candidates=3

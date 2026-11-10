@@ -1,0 +1,18 @@
+SYNTHETIC FIXTURE ONLY; NOT HPP RESULTS
+METADATA_TOPLEVEL_ONLY: no recursion, participant rows, outcomes or writes.
+PROCESSING_FIELDS oral ["humann_genefamilies_path", "metaphlan4_results_txt"] more=0
+DATE_FIELD_COMMENTS oral [["collection_date", "FIXTURE_DATE_DESCRIPTION"]]
+PROCESSING_FIELDS gut ["humann_genefamilies_path", "metaphlan4_results_txt"] more=0
+DATE_FIELD_COMMENTS gut [["collection_date", "FIXTURE_DATE_DESCRIPTION"]]
+TOPLEVEL /Users/blizzardxu/Desktop/HPP/HPP_Full_Code_With_Models_20261102_v2/experiments/diet_effect_modification_20261109_v12/research_records/2026-11-09_next_step_metadata/top_fixture_zv3a4rgv/hpp_datasets checked=4 limited=False
+  MATCHES [["DIR", "gut_microbiome"], ["DIR", "oral_microbiome"]] more=0
+TOPLEVEL /Users/blizzardxu/Desktop/HPP/HPP_Full_Code_With_Models_20261102_v2/experiments/diet_effect_modification_20261109_v12/research_records/2026-11-09_next_step_metadata/top_fixture_zv3a4rgv/hpp_datasets/gut_microbiome checked=500 limited=True
+  MATCHES [["DIR", "abundance"], ["FILE", "gut_microbiome.parquet"]] more=0
+TOPLEVEL /Users/blizzardxu/Desktop/HPP/HPP_Full_Code_With_Models_20261102_v2/experiments/diet_effect_modification_20261109_v12/research_records/2026-11-09_next_step_metadata/top_fixture_zv3a4rgv/hpp_datasets/oral_microbiome checked=3 limited=False
+  MATCHES [["DIR", "abundance"], ["FILE", "README.md"], ["FILE", "oral_microbiome.parquet"]] more=0
+TOPLEVEL /Users/blizzardxu/Desktop/HPP/HPP_Full_Code_With_Models_20261102_v2/experiments/diet_effect_modification_20261109_v12/research_records/2026-11-09_next_step_metadata/top_fixture_zv3a4rgv/hpp_datasets/gut_microbiome/abundance checked=1 limited=False
+  MATCHES [] more=0
+TOPLEVEL /Users/blizzardxu/Desktop/HPP/HPP_Full_Code_With_Models_20261102_v2/experiments/diet_effect_modification_20261109_v12/research_records/2026-11-09_next_step_metadata/top_fixture_zv3a4rgv/hpp_datasets/oral_microbiome/abundance checked=1 limited=False
+  MATCHES [["DIR", "humann3"]] more=0
+Names and pointer fields do not establish functional measurements or participant overlap.
+METADATA_TOPLEVEL_DONE

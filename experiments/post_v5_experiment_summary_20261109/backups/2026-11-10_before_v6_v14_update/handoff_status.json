@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-09",
+  "user_authorized_handoff": true,
+  "recipient_thread": "01a1bec8-75f7-76d3-acf9-56a14499e0fd",
+  "recipient_review_status": "COMPLETE",
+  "v12_review": {
+    "local_checks_passed": 41,
+    "full_ten_fold_synthetic_run": true,
+    "fixes": [
+      "Duplicate/incomplete checkpoint progress handling",
+      "Readonly result query side effects",
+      "Early duplicate-run interception"
+    ],
+    "fixed_diet_contrast_independently_checked": true,
+    "statistical_formula_or_model_parameters_changed": false
+  },
+  "v13": {
+    "folder": "diet_model_complementary_20261109_v13",
+    "new_workflows": 55,
+    "default_candidates": 84,
+    "local_tests_passed": 51,
+    "native_real_data_results_pending": false,
+    "native_completion_reported": true,
+    "completed_outer_folds": 10,
+    "observed_at": "2026-11-10T01:05:07+08:00",
+    "paired_diagnostics_pending": false,
+    "visible_new_workflow_score_pairs": 5,
+    "beats_v11_both": 0,
+    "native_results_recomputed_locally": false,
+    "observed_paired_diagnostics": 34,
+    "paired_diagnostics_observed_at": "2026-11-10T01:16:49+08:00",
+    "sir_vs_pc_both_repeat_wins": 8,
+    "sir_vs_pc_pairs": 8,
+    "primary_predictive_reference": "v11_positive_combined"
+  },
+  "native_data_transferred": false,
+  "last_updated": "2026-11-10",
+  "v14": {
+    "folder": "diet_model_structural_20261110_v14",
+    "new_workflows": 66,
+    "default_base_candidates": 80,
+    "local_tests_passed": 42,
+    "native_completion_reported": true,
+    "completed_outer_folds": 10,
+    "observed_at": "2026-11-10T12:36:47+08:00",
+    "native_real_data_results_pending": false,
+    "paired_diagnostics_pending": true,
+    "visible_new_workflow_score_pairs": 8,
+    "unshown_new_workflow_score_pairs": 58,
+    "beats_v11_both": 0,
+    "beats_v13_both": 1,
+    "new_fit_flags": 0,
+    "primary_comparator": "v11_positive_combined",
+    "leading_new_workflow": "positive_combined",
+    "R2_display": [
+      "0.131369",
+      "0.139524"
+    ],
+    "native_results_recomputed_locally": false
+  }
+}

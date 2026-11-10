@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "date": "2026-11-10",
+  "scope": "local_completion_documentation_only",
+  "model_runtime_sources_changed": false,
+  "full_model_tests_rerun_for_documentation": false,
+  "previously_tested_source_hashes_rechecked": 29,
+  "screenshot_and_transcription_hashes_match": true,
+  "paired_display_scores": 9,
+  "new_score_pairs": 5,
+  "unshown_new_score_pairs": 50,
+  "new_workflow_inventory_unique_count": 55,
+  "separate_rounding_tolerance": "0.000001",
+  "local_markdown_links_checked": 28,
+  "original_V6_V11_scope_preserved": true,
+  "native_models_or_individual_data_downloaded": false,
+  "native_results_independently_recomputed": false
+}

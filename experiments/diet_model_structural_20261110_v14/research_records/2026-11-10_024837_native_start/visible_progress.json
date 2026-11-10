@@ -1,0 +1,143 @@
+{
+  "evidence_type": "retrospective_transcription_from_conversation_image",
+  "observed_at": "2026-11-10T02:48:37+08:00",
+  "original_image_name": "\u622a\u5c4f2026-11-10 02.48.37.png",
+  "original_image_available_at_archiving": false,
+  "original_image_copied": false,
+  "run_id_context": "structural_v14_20261110",
+  "visible_hash_counter_total": 23284,
+  "visible_final_hash_progress": 23200,
+  "visible_started_workflows": [
+    {
+      "clock": "18:47:11",
+      "model": "hgb_sir_oral",
+      "candidates": 2
+    },
+    {
+      "clock": "18:47:16",
+      "model": "hgb_sir_balanced",
+      "candidates": 2
+    },
+    {
+      "clock": "18:47:22",
+      "model": "cat_sir_oral",
+      "candidates": 2
+    },
+    {
+      "clock": "18:47:31",
+      "model": "cat_sir_balanced",
+      "candidates": 2
+    },
+    {
+      "clock": "18:47:40",
+      "model": "hgb_rff_sir_oral",
+      "candidates": 2
+    },
+    {
+      "clock": "18:47:46",
+      "model": "hgb_rff_sir_balanced",
+      "candidates": 2
+    },
+    {
+      "clock": "18:47:54",
+      "model": "cat_rff_sir_oral",
+      "candidates": 2
+    },
+    {
+      "clock": "18:48:03",
+      "model": "cat_rff_sir_balanced",
+      "candidates": 2
+    },
+    {
+      "clock": "18:48:13",
+      "model": "hgb_pilot_gradient_oral",
+      "candidates": 2
+    },
+    {
+      "clock": "18:48:19",
+      "model": "hgb_pilot_gradient_balanced",
+      "candidates": 2
+    },
+    {
+      "clock": "18:48:26",
+      "model": "cat_pilot_gradient_oral",
+      "candidates": 2
+    },
+    {
+      "clock": "18:48:34",
+      "model": "cat_pilot_gradient_balanced",
+      "candidates": 2
+    }
+  ],
+  "visible_selected_workflows": [
+    {
+      "clock": "18:47:16",
+      "model": "hgb_sir_oral",
+      "candidate": 0,
+      "elapsed_seconds_display": "5.3"
+    },
+    {
+      "clock": "18:47:22",
+      "model": "hgb_sir_balanced",
+      "candidate": 0,
+      "elapsed_seconds_display": "6.1"
+    },
+    {
+      "clock": "18:47:31",
+      "model": "cat_sir_oral",
+      "candidate": 0,
+      "elapsed_seconds_display": "8.3"
+    },
+    {
+      "clock": "18:47:40",
+      "model": "cat_sir_balanced",
+      "candidate": 0,
+      "elapsed_seconds_display": "9.5"
+    },
+    {
+      "clock": "18:47:46",
+      "model": "hgb_rff_sir_oral",
+      "candidate": 0,
+      "elapsed_seconds_display": "6.6"
+    },
+    {
+      "clock": "18:47:54",
+      "model": "hgb_rff_sir_balanced",
+      "candidate": 0,
+      "elapsed_seconds_display": "7.7"
+    },
+    {
+      "clock": "18:48:03",
+      "model": "cat_rff_sir_oral",
+      "candidate": 0,
+      "elapsed_seconds_display": "9.0"
+    },
+    {
+      "clock": "18:48:13",
+      "model": "cat_rff_sir_balanced",
+      "candidate": 1,
+      "elapsed_seconds_display": "10.1"
+    },
+    {
+      "clock": "18:48:19",
+      "model": "hgb_pilot_gradient_oral",
+      "candidate": 0,
+      "elapsed_seconds_display": "5.8"
+    },
+    {
+      "clock": "18:48:26",
+      "model": "hgb_pilot_gradient_balanced",
+      "candidate": 1,
+      "elapsed_seconds_display": "7.1"
+    },
+    {
+      "clock": "18:48:34",
+      "model": "cat_pilot_gradient_oral",
+      "candidate": 0,
+      "elapsed_seconds_display": "8.2"
+    }
+  ],
+  "pooled_metrics_not_shown": true,
+  "full_batch_completion_not_shown_in_this_crop": true,
+  "superseded_by": "../2026-11-10_123647_complete/visible_results.json"
+}

@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "synthetic_only": true,
+  "checks": [
+    "complete_source_payload_installs_with_exact_checksums",
+    "quoted_paths_with_spaces_supported",
+    "parent_phase_files_preserved",
+    "identical_reinstall_does_not_rewrite_sources",
+    "differing_existing_sources_refused_without_overwrite",
+    "incoming_temporaries_cleaned_on_rejection",
+    "install_only_checks_never_start_native_models"
+  ],
+  "check_count": 7,
+  "installer_sha256": "0d73b5705683b4ed557e59bf48956a19c58321d97b6a4799322c963a7651cbef",
+  "source_files": 13,
+  "native_server_execution": "pending_user",
+  "bash_syntax_verified": true
+}

@@ -1,0 +1,62 @@
+{
+  "source": "User-supplied server function-pointer terminal screenshot",
+  "screenshot_filename": "截屏2026-11-09 22.30.46.png",
+  "screenshot_filename_client_time": "2026-11-09 22:30:46 Asia/Shanghai",
+  "source_image_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_LJ9nA2/截屏2026-11-09 22.30.46.png",
+  "original_image": "original.png",
+  "original_copied": true,
+  "original_sha256": "d9828b29df989c569699aa7223fe3c103c427acfbcb2066be7a3e454b1db69f9",
+  "server_clock_timezone_displayed": null,
+  "transcription_whitespace": "Indentation and shell prompt spacing normalized; field spellings and counts preserved.",
+  "source_index_rows": {
+    "oral": 8816,
+    "gut": 10694
+  },
+  "matching_functional_string_fields": {
+    "oral": 16,
+    "gut": 0
+  },
+  "oral_selected_field_rows_displayed": [
+    {
+      "field": "humann_gene_familites_gene_level_parquet",
+      "nonempty_rows": 8816,
+      "distinct_pointers": 8816,
+      "first_up_to_3_pointer_status_counts": {
+        "URI_NOT_FETCHED": 3
+      }
+    },
+    {
+      "field": "humann_pathway_abundance_pathway_level_parquet",
+      "nonempty_rows": 8816,
+      "distinct_pointers": 8816,
+      "first_up_to_3_pointer_status_counts": {
+        "URI_NOT_FETCHED": 3
+      }
+    },
+    {
+      "field": "humann_pathway_coverage_pathway_level_parquet",
+      "nonempty_rows": 8816,
+      "distinct_pointers": 8816,
+      "first_up_to_3_pointer_status_counts": {
+        "URI_NOT_FETCHED": 3
+      }
+    }
+  ],
+  "no_matching_fields_in_gut_index_displayed": true,
+  "function_pointer_check_done_displayed": true,
+  "uri_schemes_shown": false,
+  "uri_values_shown": false,
+  "functional_file_footer_or_abundance_read": false,
+  "cohort_overlap_with_3343_verified": false,
+  "new_model_or_Y_result": false,
+  "limits": [
+    "Source-index rows may include different visits or repeated people; 8816 is not the V12 participant count.",
+    "Each selected field has 8816 distinct nonempty pointer strings; actual files and measurements remain unverified.",
+    "URI_NOT_FETCHED is deliberate skipping by the earlier helper, not an attempted access failure or evidence of missing permissions.",
+    "The helper skipped every scheme:// pointer, including file://; scheme, remote storage and local alias availability are not established.",
+    "Nine URI skips shown correspond to three pointer probes per selected field; they are not an availability audit of all files.",
+    "No matching functional string columns were found in the current gut index by the declared regex; other sources and nonstring representations remain unassessed.",
+    "Oral profiles cannot be presented as measured gut functional capacity; no new outcome screening is justified.",
+    "Date semantics, sample-lock linkage, fixed-cohort overlap, units, normalization and quality remain unresolved."
+  ]
+}

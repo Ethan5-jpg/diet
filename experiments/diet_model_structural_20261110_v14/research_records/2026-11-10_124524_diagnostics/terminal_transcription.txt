@@ -1,0 +1,38 @@
+RUN=structural_v14_20261110 STATUS=COMPLETE
+MATCHED NEW REPRESENTATIONS / OBJECTIVES: delta_R2 repeat0 repeat1
+hgb_rff_sir_oral vs hgb_sir_oral: -0.016653 -0.026113
+hgb_rff_sir_balanced vs hgb_sir_balanced: -0.027256 -0.028142
+cat_rff_sir_oral vs cat_sir_oral: -0.017501 -0.029750
+cat_rff_sir_balanced vs cat_sir_balanced: -0.024213 -0.031323
+hgb_pilot_gradient_oral vs hgb_sir_oral: -0.000535 -0.006208
+hgb_pilot_gradient_balanced vs hgb_sir_balanced: +0.002916 +0.003937
+cat_pilot_gradient_oral vs cat_sir_oral: +0.004088 -0.005311
+cat_pilot_gradient_balanced vs cat_sir_balanced: +0.011298 +0.006403
+local_rff_sir_oral vs local_sir_oral: -0.018105 -0.027997
+local_rff_sir_balanced vs local_sir_balanced: -0.026318 -0.032382
+forest_local_rff_sir_oral vs forest_local_sir_oral: -0.017226 -0.030233
+forest_local_rff_sir_balanced vs forest_local_sir_balanced: -0.019265 -0.018987
+ntk_rff_sir_oral vs ntk_sir_oral: -0.020511 -0.021117
+ntk_rff_sir_balanced vs ntk_sir_balanced: -0.025968 -0.019941
+diffusion_rff_sir_oral vs diffusion_sir_oral: -0.024788 -0.033421
+diffusion_rff_sir_balanced vs diffusion_sir_balanced: -0.017488 -0.023462
+svr_rff_sir_oral vs svr_sir_oral: -0.020089 -0.037299
+svr_rff_sir_balanced vs svr_sir_balanced: -0.011808 -0.034547
+rbf_ard_rff_sir_oral vs rbf_ard_sir_oral: -0.021641 -0.036989
+rbf_ard_rff_sir_balanced vs rbf_ard_sir_balanced: -0.034608 -0.027202
+hgb_cca_balanced vs hgb_paired_pc_balanced: +0.019351 +0.002918
+cat_cca_balanced vs cat_paired_pc_balanced: +0.018325 +0.000368
+convex_balanced vs convex_oral: +0.001162 +0.001672
+convex_combined vs convex_new: +0.019872 +0.024223
+ridge_balanced vs ridge_oral: +0.002168 +0.004085
+ridge_combined vs ridge_new: +0.020147 +0.025880
+positive_balanced vs positive_oral: +0.001536 +0.002817
+positive_combined vs positive_new: +0.022176 +0.030299
+local_stack_bank vs positive_bank: -0.036025 -0.039438
+ntk_stack_bank vs positive_bank: -0.058581 -0.065769
+rbf_ard_stack_bank vs positive_bank: -0.007572 -0.007150
+local_stack_combined vs positive_combined: -0.038429 -0.034357
+ntk_stack_combined vs positive_combined: -0.060870 -0.065452
+rbf_ard_stack_combined vs positive_combined: -0.006271 -0.011051
+Positive/negative increments are retained. Conditional intervals are in summary.json.
+Supervised directions are predictive; no pathway or causal interpretation.

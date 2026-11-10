@@ -1,0 +1,25 @@
+V8 COMPLETE | fiber_density -> D_Glu (mg/dL) | 10/10 household outer folds
+N0=3343 N1=3343 | 55 pipelines; two repeats share participants
+model R2_0 R2_1 dV6_0 dV6_1 flag
+v4_hgb_oral 0.110525 0.107630 -0.004135 -0.007557 -
+v4_hgb_oral_gut 0.104950 0.113959 -0.009710 -0.001228 -
+v6_fusion 0.114660 0.115187 +0.000000 +0.000000 -
+v7_ridge_stack 0.112019 0.119128 -0.002640 +0.003941 -
+ridge_joint 0.120803 0.121851 +0.006143 +0.006663 J
+ridge_wide 0.120396 0.122745 +0.005736 +0.007558 -
+ridge_core 0.119314 0.124576 +0.004655 +0.009389 -
+convex_core 0.117428 0.121169 +0.002768 +0.005982 -
+convex_with_fm 0.117428 0.121215 +0.002768 +0.006028 -
+convex_joint 0.117238 0.121392 +0.002578 +0.006205 J
+
+EXPLICIT INTERACTION: gain vs the same selected main-effect null
+model dR2_0 dR2_1 wins0 wins1 SD0 SD1
+sparse_diet_oral +0.000000 +0.000000 0/5 0/5 0.000 0.000
+sparse_diet_balanced +0.000000 +0.000000 0/5 0/5 0.000 0.000
+nmf_diet_oral +0.000000 +0.000000 0/5 0/5 0.000 0.000
+nmf_diet_balanced +0.000000 +0.000000 0/5 0/5 0.000 0.000
+WITH-FM minus NO-FM: dR2=-0.000000,+0.000046
+Both repeats R2>=0.20: 0/55; without fit flags: 0
+Both repeats R2>=0.30: 0/55; without fit flags: 0
+J=added documented UPF bounds; W=fit warning (including contributing fusion members).
+Ranking is exploratory; no confirmation data read. Full aggregates: summary.json.

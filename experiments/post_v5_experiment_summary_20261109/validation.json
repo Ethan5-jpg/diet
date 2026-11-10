@@ -1,0 +1,74 @@
+{
+  "status": "PASS",
+  "date": "2026-11-10",
+  "scope": "Local documentation, aggregates, arithmetic, provenance and link checks; no model fitting",
+  "configured_workflows": 428,
+  "prediction_versions": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    13,
+    14
+  ],
+  "configured_by_version": {
+    "6": 11,
+    "7": 30,
+    "8": 55,
+    "9": 64,
+    "10": 68,
+    "11": 79,
+    "13": 55,
+    "14": 66
+  },
+  "observed_new_dual_repeat_scores": 111,
+  "unshown_new_dual_repeat_scores": 317,
+  "observed_by_version": {
+    "6": 11,
+    "7": 30,
+    "8": 18,
+    "9": 17,
+    "10": 16,
+    "11": 6,
+    "13": 5,
+    "14": 8
+  },
+  "duplicate_version_names": 0,
+  "all_307_prior_inventory_metrics_preserved": true,
+  "v12_primary_markers": 4,
+  "v12_matched_routes": 12,
+  "functional_routes": 3,
+  "functional_route_repeat_rows": 6,
+  "functional_population_distinct": true,
+  "v14_observed_paired_diagnostics": 34,
+  "v14_runtime_hashes_unchanged": 32,
+  "v14_upload_manifest_verified_files": 68,
+  "backup_files_hash_verified": 6,
+  "local_links_checked": true,
+  "local_link_count": 67,
+  "broken_links": [],
+  "source_files_hash_verified": 39,
+  "scientific_results_recomputed": false,
+  "full_model_tests_rerun": false,
+  "new_experiment_started": false,
+  "native_server_accessed": false,
+  "confirmation_outcomes_read": false,
+  "documentation_corrections": [
+    {
+      "scope": "V6 registry source pointer only",
+      "previous": "diet_model_batch_20261107_v6/models.py",
+      "current": "diet_model_batch_20261107_v6/experiment.py",
+      "reason": "Actual V6 model_names/INTERACTIONS definitions live in experiment.py; the old models.py pointer did not exist. No source code or displayed metrics changed."
+    }
+  ],
+  "artifact_sha256": {
+    "summary.md": "4e16d1f046df785c50f19a978540b82d68a01edfbfd6f0eb1e0b52be03f57c4b",
+    "model_inventory.md": "53745246802e48df8dc42bf34724d3d1412d64e41e882b8fab55423abe371956",
+    "modification_inventory.md": "5f7837b59c0a1a148eb0ab8d1f1c7ddcecb8125adb68bfec66b3af2b513f2eb9",
+    "README.md": "2ea769fe676db740c75db692918c23065735ef14f46e865f9760010d0419f0fe",
+    "evidence_inventory.json": "cd14b4ff00ebc0cb5060df53ead2875876a09d2e3ddfe7f0f2af2fc29b9c87de",
+    "handoff_status.json": "1c98be8b36c99dd419b283eb940d221518358ea99aeca61446fdc5697a3b1179"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "status": "PASS",
+  "evidence_source": "SYNTHETIC_FULL_GRID_ONLY",
+  "n": 1400,
+  "taxa_per_site": 64,
+  "actual_pc_per_site": 30,
+  "outer_units": 10,
+  "workflows": 13,
+  "source_sha256": {
+    "synthetic.py": "9e5734109af5c5b7c7a5b9502aaa6f870bf4ffdefd601d0aaacdd66313f12f41",
+    "run.py": "2a4384c47d1c21f7607ad020406d99fe7e12805ef662045cbd48ebbfee8e99ae",
+    "check.py": "dc947259fc98754195a3272eb4b0ace80626aec548e5dbe278d6b0931d7cda13",
+    "models.py": "9e5b087570069128baad60957353c0dc849b260e9447fea27eab3aa726b4aac8",
+    "bridge.py": "e99997cac0cab398315c60c570dd1949d36a086dd41f999e07607f1370ac16b7",
+    "upload_check.py": "bc34d9116d500ccb1d3b79daaa1ec138d5d73e4aba763d3ac9a8c60c5dff5247",
+    "background.py": "9cc3271d6a07197ce1d99a6ddbf814adb77bc32a1659f89bd58aa7eb418dca3c",
+    "features.py": "a11f59b63ed1c1b640f228aeb5d5dc06ad9003b6a784cd63c6f8bbc361bab3a1",
+    "runtime.py": "56de58e82a2dbf687f4ca86f3c221970d64216be190c28113c4a2ac0661cdd6e",
+    "engine.py": "b2843b64e46473f84b4af8ff0761dd385f6ff278451b5bae0822966c6c3f80ea",
+    "launch.py": "e8beb0698c63b1e34617ec422f2dfd756905734cef48b68021c79355a37f41e0",
+    "inference.py": "8a5296e4609d9e67f0e70dae6c4883eaa181311912af5d08f5cf1cf05ae2ce30",
+    "calibrate.py": "7c8b8179691f653e558601ab6d9c6c55ed7a4f2d027434e4baee4159d1b7f1cc",
+    "report.py": "0878493c2105864c12fb807cce37bf2b73a9e5589ccbb046d35aafcb5c4f80cb",
+    "validate_full_grid.py": "cd1aab3838772ff70170883ede0a891adbf3cb437162aaae4586fc55b559f625"
+  },
+  "config": {
+    "version": "v12_effect_modification_20261109_prepared",
+    "exposure": "fiber_density",
+    "outcome": "D_Glu",
+    "unit": "mg/dL",
+    "confirmation_outcomes_read": false,
+    "expected_people": 3343,
+    "outer_repeats": 2,
+    "outer_folds": 5,
+    "inner_folds": 3,
+    "outer_seed": 20261104,
+    "model_seed": 20261112,
+    "primary_repeat": 0,
+    "contrast": [
+      10,
+      15
+    ],
+    "main_components_per_site": 30,
+    "modifier_components_per_site": 6,
+    "curved_components_per_site": 6,
+    "main_penalties": [
+      0.001,
+      0.01,
+      0.1,
+      1.0
+    ],
+    "interaction_penalties": [
+      0.003,
+      0.03,
+      0.3,
+      3.0
+    ],
+    "score_multipliers": 1999,
+    "prediction_bootstraps": 999,
+    "support_neighbors": 100,
+    "support_quantiles": [
+      0.1,
+      0.9
+    ],
+    "minimum_households_for_inference": 30,
+    "v11_run_id": "distribution_v11_20261109",
+    "dependencies": {
+      "numpy": "1.26.4",
+      "scipy": "1.11.4",
+      "pandas": "2.1.0",
+      "pyarrow": "15.0.2",
+      "scikit-learn": "1.4.1.post1"
+    }
+  },
+  "replay_max_error": 0.0,
+  "main_columns": [
+    182,
+    182,
+    182,
+    183,
+    182,
+    182,
+    182,
+    182,
+    182,
+    183
+  ],
+  "inference_nuisance_ranks": [
+    158,
+    158,
+    158,
+    158,
+    158,
+    158,
+    158,
+    158,
+    158,
+    158
+  ],
+  "seconds": 4.898819665999326,
+  "native_inputs_read": false
+}

@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "timestamp_utc": "2026-11-08T13:30:34.249600+00:00",
+  "elapsed_seconds": 217.514,
+  "command": [
+    "/private/tmp/hpp_v7_check_20261107/bin/python",
+    "-B",
+    "check.py"
+  ],
+  "scope": "Local synthetic recheck using actual frozen preprocessing; no native or confirmation data",
+  "tests": 38,
+  "test_seconds": 216.327,
+  "source_hashes": {
+    "bridge.py": "dcf073021f93474fc9158382caaaecb2e6300425a10ea3b11a432b89cd643030",
+    "check.py": "25ffdc840d65f40dd88a326f56f74ad3c0daad95bb50b73d7a17e12e1c2981eb",
+    "config.json": "9fb9f9fdfe3be8c730fddee325e65e6c3f13cfa2b07d4a56424cbfc1ac68dc3b",
+    "context.py": "d8bb8ccc6e40553a17181e33f8fffe11e4e1129d67aaad89235aabf7c59fd4f4",
+    "engine.py": "07b4ae697ce57630772a1cdbab5b54d1e5a179460d27465f244a360c9ecdf250",
+    "estimators.py": "fb11d9e702cf4c6c18f283ba985eef4abf9036d5106ec7ec56acd0cf162199ed",
+    "features.py": "49f993312788bb25769941ecfaebf7a95babc96df8eebbb1f4cc1741c49225ed",
+    "fusion.py": "bcf398b359be23bba799a8ac2b805d86a53c6f780ace293f9c1627a132026a1a",
+    "launch.py": "0ce5699f481fda8dbeff3475d0019b557a92988fd47cd6b249660f2a1fa1b21e",
+    "models.py": "2b37444bba06a6c52726526a3b61aa27f77325f829ebc5c96de67618e4e595c1",
+    "registry.py": "5ad2bfe59a39d07b939ce85f13b5d967c20e7ce0542a8384facbd38dc59fcb66",
+    "report.py": "0aecd76fdf9c00acdddacf46737512b5346f4fbe2e56e10098670cf65f724ec4",
+    "requirements.txt": "b70c4a226733a3887412b1dc35493e9989adc86bcb8914eaff25ed94a5328b12",
+    "run.py": "6f9068c4f05a629e6f4b273673074bb56d33dc691dac31c0de408d2f764ccdfd",
+    "runtime.py": "2ff1bbde959c7ac306ed359c4aa421855d1ff76c6bebdac454e98ae8bca9d0ee",
+    "server_report.sh": "b9c5837a170011a5f297548d96c74f7514f37a0ddebf7ca17fa8620a702af51c",
+    "server_run.sh": "d7162ecdb7cca02a40fabe2fb6973a457e17d04a4f9dabeb38c39e79a71e8330",
+    "setup.sh": "b4679534242e187011b1b8b68268d014d14ac922ed80f55e559b38cb40eed4fd",
+    "tests/support.py": "03619733bd84f195b8c980426a1edbea814bd6b47d9a2699aaca0cd5d6686a60",
+    "tests/test_context.py": "00b343e356aaa272995818dee8f9ad27f214e0594639ffb0f0860cc95e5da75a",
+    "tests/test_integrity.py": "07c5c925fa848cb30bfe026bee5cc518107f066e704b5fffd736346c6e1fe486",
+    "tests/test_models.py": "3762d24dc9cc5d4afb3193210adbc14462a4470938a431958e5a29751e497e24",
+    "tests/test_pipeline.py": "177aea2033e7ef5c69048a50953427a0db945949f200f5147ccacab8675f8fb2",
+    "upload_check.py": "535437bab81fe1c5909a4f511007477366c6642689e2cd3489c34287382a0a8f"
+  },
+  "sources_unchanged_during_checks": true,
+  "platform": "macOS-26.5.1-arm64-arm-64bit-Mach-O",
+  "native_linux_tested": false,
+  "scientific_results_available": false,
+  "pipelines": 68,
+  "candidate_settings": 181,
+  "additional_checks": {
+    "ruff_check": "PASS",
+    "ruff_format": "PASS",
+    "python_compile": "PASS",
+    "bash_syntax": "PASS",
+    "tested_source_hashes_match_delivery": true
+  },
+  "dependency_versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.11.4",
+    "pandas": "2.1.0",
+    "pyarrow": "15.0.2",
+    "scikit-learn": "1.4.1.post1",
+    "catboost": "1.2.8",
+    "lightgbm": "3.3.5",
+    "joblib": "1.6.0",
+    "threadpoolctl": "3.8.0"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "status": "LOCAL_SYNTHETIC_RECHECK_PASS",
+  "time_utc": "2026-11-08T04:53:55.569388+00:00",
+  "tests": 32,
+  "unittest_seconds": 156.73,
+  "full_suite_exit_code": 0,
+  "default_candidate_settings": 164,
+  "executable_sources_changed": false,
+  "model_settings_changed": false,
+  "additional_edge_check": {
+    "taxa_per_site": 2200,
+    "source_cap": 2048,
+    "screen_count": 256,
+    "rclr_dimensions": 32,
+    "completion_iterations": 2,
+    "food_context": "entirely missing",
+    "independent_train_validation_replay": "PASS"
+  },
+  "inspected": [
+    "food table provenance and QC thresholds",
+    "composite-key alignment",
+    "household inner/outer partitions",
+    "matched null and native-unit interaction contrasts",
+    "training-only transformations",
+    "foreground launch and native venv",
+    "resume and report integrity"
+  ],
+  "static_checks": [
+    "Ruff",
+    "Python syntax",
+    "ASCII executable files",
+    "no builtin parameterized annotations",
+    "bash -n setup.sh"
+  ],
+  "prior_source_files_unchanged": 34,
+  "server_data_read": false,
+  "real_data_performance_tested": false,
+  "limits": [
+    "Local platform is macOS ARM64, not Amazon Linux.",
+    "Local LightGBM 3.3.5 was previously built without OpenMP; target Linux uses the official pinned wheel.",
+    "All default candidates were smoke-tested on small synthetic profiles; complete runtime used reduced budgets.",
+    "Checks establish tested code behavior, not actual HPP predictive gains or optimization convergence for every research fit.",
+    "FOOD-only source schema was verified against the archived handoff builder; the actual server file was not accessed."
+  ],
+  "source_sha256": {
+    "bridge.py": "979886b01aada1942fb46b6b7852377ae75ea3ce78df3eb1e18461bcce5948ff",
+    "check.py": "2e3f80e63bc5eb6dd4474c1fc21f6cb27f3a6e1383d7494870b14c85f6c53a1d",
+    "config.json": "c63d67a9fb942c5abcb495ac9c424089b8040d40aabecbe6f5fbd24fbcaf4731",
+    "daily.py": "a12bd3802b8eaf2358d2d4f6f68a6138b0b13a936872d409df5f1194d4e90e35",
+    "engine.py": "527e9a505df8a5eefc43b1ec0ffcd1dbaf46f91432d5bfc38a27558a6cf3b86e",
+    "estimators.py": "4483dce4557bf6c3cba1645634f0fd80fe337fbc20abcfaeb7f64cb1362222ab",
+    "features.py": "bec9f4f7aaf4532f9e35ca2c89d5ac75bb1ed793d7014a6b73aafa6a93004ff7",
+    "fusion.py": "a13db3ed9a00c7d68cde2863dfdc6df2412c5093c1408a51238c21c667861727",
+    "launch.py": "6fd75a7b1457f4dc41eeeb450e80ae2ad7c2c68928b4aca1d5d60683a66074d4",
+    "models.py": "b943c2c284a31ce5040a0e07e444595503f9cc91cf25c3ba9193d7e122177baa",
+    "registry.py": "636efc45f371bf1b5f97da51faed17560949f06c1a8a337b4763aeb6a579a968",
+    "report.py": "b799a4d1b083aa83443508da882d0ff5d69649491d6c62928b5b1cea02a8da90",
+    "requirements.txt": "b70c4a226733a3887412b1dc35493e9989adc86bcb8914eaff25ed94a5328b12",
+    "run.py": "c8b7d626ec5dbb87d3c291f67901da0ec662c01b089afd83b0d9aa6f02d299a1",
+    "runtime.py": "d6a1bc413de32322a123780477a7e74660def97635450b44fa42ec256eba278a",
+    "setup.sh": "346cd86d1b9d157a10d7c7f1e5feaf05ce888412d18773644f6fcf3eb98b2b82",
+    "tests/support.py": "55a006e55b831d0cdde22880fa9a5309d196c71094d7acd68ef3893528a871ce",
+    "tests/test_data.py": "dca62037c3d09ef4adfda1144ba6c6baaa13f83f148d33ac71dd7c0c35f8e190",
+    "tests/test_features.py": "246406f1da5496f317e4fd70889e5df39d8d08b262bc6d4ae0899597daed67ae",
+    "tests/test_integrity.py": "41d8c0f7b11caa5337f763f12012dd07d4e23cc015c66afc1110c57a3e26319c",
+    "tests/test_models.py": "9905a927fbcace4f094bc4b8d37ac2805212a9df1106febc0c3a430e90385c6a",
+    "tests/test_pipeline.py": "b51ff57d6e31c85eb595520600f8d4b272176273a1775a3cdfbbc2bb8a63d6dd",
+    "upload_check.py": "535437bab81fe1c5909a4f511007477366c6642689e2cd3489c34287382a0a8f"
+  }
+}

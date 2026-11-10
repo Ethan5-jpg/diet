@@ -1,0 +1,78 @@
+{
+  "source_kind": "user_provided_screenshot",
+  "screenshot_time": "2026-11-07 20:30:03 Asia/Shanghai",
+  "run_id_expected": "console_20261107",
+  "run_id_explicitly_visible": false,
+  "complete_outer_folds": "10/10",
+  "batch_complete_visible": true,
+  "label_reconstruction": "Local frozen reporting.py; Chinese labels appear as boxes in screenshot",
+  "numeric_precision": "Six displayed decimal places; strings retain the visible precision",
+  "full_precision_server_json_read_locally": false,
+  "score_columns": [
+    "model",
+    "R2_repeat0",
+    "R2_repeat1",
+    "delta_vs_v4_oral_repeat0",
+    "delta_vs_v4_oral_repeat1"
+  ],
+  "visible_scores": [
+    [
+      "v4_hgb_oral",
+      "0.110525",
+      "0.107630",
+      "+0.000000",
+      "+0.000000"
+    ],
+    [
+      "fusion",
+      "0.114660",
+      "0.115187",
+      "+0.004135",
+      "+0.007557"
+    ],
+    [
+      "catboost_oral",
+      "0.110465",
+      "0.111019",
+      "-0.000060",
+      "+0.003388"
+    ],
+    [
+      "hgb_oral",
+      "0.108898",
+      "0.110299",
+      "-0.001627",
+      "+0.002668"
+    ],
+    [
+      "kernel_main",
+      "0.092169",
+      "0.092831",
+      "-0.018356",
+      "-0.014799"
+    ]
+  ],
+  "interaction_columns": [
+    "model",
+    "delta_vs_kernel_main_repeat0",
+    "delta_vs_kernel_main_repeat1"
+  ],
+  "visible_interactions": [
+    [
+      "kernel_linear",
+      "+0.000916",
+      "-0.001130"
+    ],
+    [
+      "kernel_spline",
+      "+0.000181",
+      "-0.000150"
+    ],
+    [
+      "kernel_supervised",
+      "+0.000000",
+      "+0.000000"
+    ]
+  ],
+  "both_repeat_positive_interactions": "0/3"
+}

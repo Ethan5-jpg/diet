@@ -1,0 +1,14 @@
+{
+  "status": "LOCAL_SYNTHETIC_PASS",
+  "real_server_access": false,
+  "real_data_rows_read": false,
+  "synthetic_metadata_only_spy": true,
+  "max_output_lines": 32,
+  "normal_test_output_lines": 17,
+  "missing_and_bad_file_handling": true,
+  "code_syntax": "PASS",
+  "ascii": "PASS",
+  "server_results": "PENDING",
+  "final_metadata_only_and_bad_file_recheck": "PASS",
+  "server_command_disables_bytecode_writes": true
+}

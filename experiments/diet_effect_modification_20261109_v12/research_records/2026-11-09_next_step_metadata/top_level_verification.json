@@ -1,0 +1,20 @@
+{
+  "scope": "SYNTHETIC_METADATA_FIXTURES_ONLY",
+  "native_files_read_locally": false,
+  "checks_passed": [
+    "bash_syntax",
+    "metadata_only_no_participant_values",
+    "candidate_not_a_date_token",
+    "column_descriptions_only",
+    "processing_pointer_names_only",
+    "per_directory_cap_does_not_starve_other_roots",
+    "no_recursive_scan",
+    "sealed_names_and_symlinks_skipped",
+    "no_files_written",
+    "absent_column_description_explicit",
+    "missing_sources_explicit",
+    "metadata_screenshot_hash_verified",
+    "frozen_51_file_manifest_unchanged"
+  ],
+  "script_sha256": "bdc3675ee9388321b610168d2b9ef08a6bfec61cbb3600d96ae507c7b2f060cd"
+}

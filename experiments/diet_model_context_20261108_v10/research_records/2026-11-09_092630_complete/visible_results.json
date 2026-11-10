@@ -1,0 +1,255 @@
+{
+  "evidence": "User-supplied server completion screenshot",
+  "capture_time": "2026-11-09 09:26:30 Asia/Shanghai",
+  "recorded_at_utc": "2026-11-09T01:34:58.630033+00:00",
+  "original_copied": true,
+  "image_sha256": "568d74b2eec61cf4b14b8aee18f0127b77c096b217dbb4183d1bf52b3f0d3a70",
+  "run_id": "context_v10_20261108",
+  "run_id_provenance": "Earlier startup screenshot and default configuration; not printed in this crop",
+  "status_visible": "V10 COMPLETE",
+  "batch_complete_visible": true,
+  "final_hash_audit_announced": true,
+  "server_log_times": {
+    "final_hash_audit": "18:34:40",
+    "batch_complete": "18:34:47",
+    "timezone_not_printed": true
+  },
+  "target": {
+    "exposure": "fiber_density",
+    "outcome": "D_Glu",
+    "unit": "mg/dL"
+  },
+  "outer_folds_completed": 10,
+  "outer_folds_total": 10,
+  "N_per_repeat": [
+    3343,
+    3343
+  ],
+  "new_pipelines": 68,
+  "repeats_share_participants": true,
+  "visible_model_rows": [
+    {
+      "model": "v8_ridge_wide",
+      "R2_0": 0.120396,
+      "R2_1": 0.122745,
+      "dV8_0": 0,
+      "dV8_1": 0,
+      "flag": "-"
+    },
+    {
+      "model": "v8_ridge_joint",
+      "R2_0": 0.120803,
+      "R2_1": 0.121851,
+      "dV8_0": 0.000407,
+      "dV8_1": -0.000894,
+      "flag": "-"
+    },
+    {
+      "model": "v9_convex_wide",
+      "R2_0": 0.119491,
+      "R2_1": 0.126979,
+      "dV8_0": -0.000905,
+      "dV8_1": 0.004234,
+      "flag": "-"
+    },
+    {
+      "model": "ridge_diverse",
+      "R2_0": 0.126227,
+      "R2_1": 0.137266,
+      "dV8_0": 0.005831,
+      "dV8_1": 0.014521,
+      "flag": "-"
+    },
+    {
+      "model": "ridge_wide",
+      "R2_0": 0.125175,
+      "R2_1": 0.136837,
+      "dV8_0": 0.004779,
+      "dV8_1": 0.014092,
+      "flag": "-"
+    },
+    {
+      "model": "convex_diverse",
+      "R2_0": 0.122736,
+      "R2_1": 0.132459,
+      "dV8_0": 0.00234,
+      "dV8_1": 0.009714,
+      "flag": "-"
+    },
+    {
+      "model": "convex_wide",
+      "R2_0": 0.122622,
+      "R2_1": 0.131805,
+      "dV8_0": 0.002227,
+      "dV8_1": 0.00906,
+      "flag": "-"
+    },
+    {
+      "model": "ridge_full",
+      "R2_0": 0.119904,
+      "R2_1": 0.128421,
+      "dV8_0": -0.000492,
+      "dV8_1": 0.005676,
+      "flag": "-"
+    },
+    {
+      "model": "ridge_base",
+      "R2_0": 0.113074,
+      "R2_1": 0.12092,
+      "dV8_0": -0.007322,
+      "dV8_1": -0.001825,
+      "flag": "-"
+    },
+    {
+      "model": "ridge_macro",
+      "R2_0": 0.119592,
+      "R2_1": 0.126345,
+      "dV8_0": -0.000804,
+      "dV8_1": 0.0036,
+      "flag": "-"
+    }
+  ],
+  "explicit_rows": [
+    {
+      "model": "fiber_gut_linear",
+      "matched_null_from_local_registry": "block_pc_balanced_full",
+      "delta_R2_0": 0.001224,
+      "delta_R2_1": -0.001626,
+      "active_folds_per_repeat": [
+        4,
+        4
+      ],
+      "folds_per_repeat": 5,
+      "modifier_SD_mg_dL": [
+        0.756,
+        0.674
+      ],
+      "null_R2_not_visible": true,
+      "absolute_interaction_R2_not_visible": true
+    },
+    {
+      "model": "fiber_oral_linear",
+      "matched_null_from_local_registry": "block_pc_balanced_full",
+      "delta_R2_0": -0.002314,
+      "delta_R2_1": 0,
+      "active_folds_per_repeat": [
+        2,
+        0
+      ],
+      "folds_per_repeat": 5,
+      "modifier_SD_mg_dL": [
+        0.269,
+        0
+      ],
+      "null_R2_not_visible": true,
+      "absolute_interaction_R2_not_visible": true
+    },
+    {
+      "model": "fiber_both_rcs",
+      "matched_null_from_local_registry": "block_pc_balanced_full",
+      "delta_R2_0": 0,
+      "delta_R2_1": 0,
+      "active_folds_per_repeat": [
+        0,
+        0
+      ],
+      "folds_per_repeat": 5,
+      "modifier_SD_mg_dL": [
+        0,
+        0
+      ],
+      "null_R2_not_visible": true,
+      "absolute_interaction_R2_not_visible": true
+    },
+    {
+      "model": "fiber_gut_tree",
+      "matched_null_from_local_registry": "cat_balanced_full",
+      "delta_R2_0": -0.000585,
+      "delta_R2_1": -0.001903,
+      "active_folds_per_repeat": [
+        1,
+        2
+      ],
+      "folds_per_repeat": 5,
+      "modifier_SD_mg_dL": [
+        0.218,
+        0.358
+      ],
+      "null_R2_not_visible": true,
+      "absolute_interaction_R2_not_visible": true
+    },
+    {
+      "model": "fiber_macro",
+      "matched_null_from_local_registry": "block_pc_balanced_full",
+      "delta_R2_0": -2.7e-05,
+      "delta_R2_1": 0.002256,
+      "active_folds_per_repeat": [
+        3,
+        4
+      ],
+      "folds_per_repeat": 5,
+      "modifier_SD_mg_dL": [
+        0.454,
+        0.438
+      ],
+      "null_R2_not_visible": true,
+      "absolute_interaction_R2_not_visible": true
+    },
+    {
+      "model": "fiber_gut_kernel",
+      "matched_null_from_local_registry": "kernel_balanced_full",
+      "delta_R2_0": 0.001242,
+      "delta_R2_1": 8.1e-05,
+      "active_folds_per_repeat": [
+        4,
+        1
+      ],
+      "folds_per_repeat": 5,
+      "modifier_SD_mg_dL": [
+        0.721,
+        0.406
+      ],
+      "null_R2_not_visible": true,
+      "absolute_interaction_R2_not_visible": true
+    }
+  ],
+  "beats_v8_both": 4,
+  "selected_fit_flag_pipelines": 0,
+  "both_repeat_threshold_counts": {
+    "0.20": 0,
+    "0.30": 0
+  },
+  "derivations": {
+    "ridge_macro_vs_ridge_base": [
+      0.006518,
+      0.005425
+    ],
+    "ridge_full_vs_ridge_macro": [
+      0.000312,
+      0.002076
+    ],
+    "ridge_diverse_vs_ridge_full": [
+      0.006323,
+      0.008845
+    ],
+    "best_vs_v9_convex_wide": [
+      0.006736,
+      0.010287
+    ],
+    "best_residual_mse_reduction_vs_v8": [
+      0.006629119467396695,
+      0.016552769719180845
+    ],
+    "runtime_seconds_estimated_from_visible_start_and_end": 16652,
+    "derived_from_rounded_values": true
+  },
+  "limitations": [
+    "Six-decimal displayed R2 and three-decimal modifier SD only; full-precision server artifacts not downloaded.",
+    "Only visible report rows transcribed, not all 68 pipelines.",
+    "No paired intervals or foldwise loss wins visible.",
+    "Repeats share participants; not independent validation samples.",
+    "Positive interaction point estimates do not establish reproducibility, causality or mechanism.",
+    "Active counts are not counts of improved folds."
+  ],
+  "native_actions_by_assistant": false
+}

@@ -1,0 +1,27 @@
+{
+  "status": "LOCAL_SYNTHETIC_PASS",
+  "time_utc": "2026-11-08T11:31:57.810355+00:00",
+  "tests": 6,
+  "last_unittest_seconds": 0.198,
+  "normal_output_lines": 20,
+  "max_tested_output_lines": 25,
+  "real_server_access": false,
+  "real_server_values_read_locally": false,
+  "new_models_fitted": false,
+  "upstream_columns_projected": true,
+  "upstream_materialization_filtered_by_all_three_identity_fields": true,
+  "cohort": "frozen V4 repeat0 eligible discovery rows; repeat1 and shared counts printed separately",
+  "checks": [
+    "discovery role and input-row alignment before upstream reads",
+    "three-key cohort filter excludes other cohorts and noneligible IDs",
+    "nullable numeric handling and missing optional fields",
+    "source duplicates and duplicate prepared days rejected",
+    "glucose native-unit validation",
+    "aggregate-only output and no participant ID display"
+  ],
+  "ruff": "PASS",
+  "ascii": "PASS",
+  "syntax": "PASS",
+  "source_sha256": "ce5a29a540e6aeb5bb1afa0f7da1485ddb959e077667e688ee53ab253dcb8515",
+  "server_step2_results": "PENDING"
+}

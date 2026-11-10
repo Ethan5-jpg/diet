@@ -1,0 +1,122 @@
+{
+  "source": "User-supplied server primary-report screenshot",
+  "module": "diet_effect_modification_20261109_v12",
+  "screenshot_filename": "\u622a\u5c4f2026-11-09 21.36.54.png",
+  "screenshot_filename_client_time": "2026-11-09 21:36:54 Asia/Shanghai",
+  "server_clock_timezone_displayed": null,
+  "original_image": "original.png",
+  "original_copied": true,
+  "original_sha256": "d4e4ca0bfb23be95cef6cf7968615a31efadcfca50eb8fc2b8712a490cc40132",
+  "evidence_source_displayed": "DISCOVERY_SERVER",
+  "N": 3343,
+  "households": 3059,
+  "exposure": "fiber_density",
+  "outcome": "D_Glu",
+  "unit": "mg/dL",
+  "expected_run_id": "effect_modification_v12_20261109",
+  "run_id_explicitly_displayed": false,
+  "primary_repeat": 0,
+  "repeats_share_participants": true,
+  "last_fold": {
+    "repeat": 1,
+    "fold": 4,
+    "people": 684,
+    "support_percent_displayed": "80.4",
+    "finished_time_displayed": "11:11:47",
+    "outer_complete_time_displayed": "11:11:48"
+  },
+  "final_source_input_audit_time_displayed": "11:11:48",
+  "primary_final_report_displayed": true,
+  "BATCH_COMPLETE_tag_explicitly_visible": false,
+  "primary_tests_displayed": [
+    {
+      "repeat": 0,
+      "PRIMARY_global_p": "0.3769",
+      "diagnostic_joint_p": "0.0560",
+      "oral_Holm": "0.3769",
+      "gut_Holm": "0.3769",
+      "minimum_effective_HH": "428.7"
+    },
+    {
+      "repeat": 1,
+      "PRIMARY_global_p": "0.1278",
+      "diagnostic_joint_p": "0.0700",
+      "oral_Holm": "0.1278",
+      "gut_Holm": "0.3010",
+      "minimum_effective_HH": "511.7"
+    }
+  ],
+  "exposure_contrast": [
+    10,
+    15
+  ],
+  "exposure_unit": "g/1000 kcal",
+  "modifier_contrast": "Q75 minus Q25; other terms held equal",
+  "marker_rows_displayed": [
+    {
+      "marker": "oral_shannon",
+      "diff0": "+0.629",
+      "family95CI0": [
+        "-1.151",
+        "+2.408"
+      ],
+      "diff1": "1.561",
+      "Holm0": "0.7544"
+    },
+    {
+      "marker": "oral_dominance",
+      "diff0": "+1.185",
+      "family95CI0": [
+        "-0.584",
+        "+2.954"
+      ],
+      "diff1": "1.495",
+      "Holm0": "0.3769"
+    },
+    {
+      "marker": "gut_shannon",
+      "diff0": "+1.065",
+      "family95CI0": [
+        "-0.703",
+        "+2.832"
+      ],
+      "diff1": "1.035",
+      "Holm0": "0.3970"
+    },
+    {
+      "marker": "gut_dominance",
+      "diff0": "+0.511",
+      "family95CI0": [
+        "-1.044",
+        "+2.066"
+      ],
+      "diff1": "0.585",
+      "Holm0": "0.7544"
+    }
+  ],
+  "family_intervals_shown_for_repeat": 0,
+  "displayed_rules": [
+    "Bonferroni-union primary global test",
+    "joint Wald/multiplier diagnostic only",
+    "four-marker family 95% intervals",
+    "pointwise intervals remain on server",
+    "no causal or historical search correction",
+    "person-level associations; sample-calendar meaning unverified"
+  ],
+  "not_shown": [
+    "repeat-1 family intervals",
+    "absolute or incremental R2",
+    "twelve matched predictive comparisons",
+    "raw-outcome sensitivity",
+    "aggregate support fraction",
+    "full fit-warning summary",
+    "native completion.json contents"
+  ],
+  "limits": [
+    "Screenshot precision only, no native data/model/summary files downloaded.",
+    "A primary null result applies to the four predefined ecological coordinates within this working model, not every possible biological modifier.",
+    "Positive modifier differences do not by themselves specify whether either absolute diet contrast raises or lowers the outcome.",
+    "Do not replace the predeclared primary rule by the smaller diagnostic P value.",
+    "Filename/capture timing is not model runtime; terminal clock timezone is unlabelled."
+  ]
+}

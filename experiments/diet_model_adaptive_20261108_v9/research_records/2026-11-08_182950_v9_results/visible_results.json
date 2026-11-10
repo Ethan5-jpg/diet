@@ -1,0 +1,231 @@
+{
+  "source": "User-supplied server terminal screenshot; aggregate text only",
+  "screenshot_time": "2026-11-08 18:29:50 Asia/Shanghai (attachment filename)",
+  "module": "diet_model_adaptive_20261108_v9",
+  "run_id": "adaptive_v9_20261108",
+  "original_image": "original.png",
+  "original_copied": true,
+  "original_sha256": "522b442097f2366beba9a03dfbec43938116a873d1693ca508a671b858ceec89",
+  "outcome": "D_Glu",
+  "exposure": "fiber_density",
+  "outcome_unit": "mg/dL",
+  "metric": "pooled outer-OOF R2 per repeat",
+  "status": "V9 COMPLETE; BATCH_COMPLETE",
+  "outer_folds_completed": 10,
+  "outer_folds_total": 10,
+  "N0": 3343,
+  "N1": 3343,
+  "new_pipelines": 64,
+  "repeats_share_participants": true,
+  "terminal_clock_timezone": "not shown; preserve displayed clock without conversion",
+  "final_hash_audit_time": "10:22:48",
+  "batch_complete_time": "10:22:56",
+  "displayed_scores": [
+    {
+      "model": "v6_fusion",
+      "R2_0": "0.114660",
+      "R2_1": "0.115187",
+      "dV8_0": "-0.005736",
+      "dV8_1": "-0.007558",
+      "flag": "-"
+    },
+    {
+      "model": "v7_ridge_stack",
+      "R2_0": "0.112019",
+      "R2_1": "0.119128",
+      "dV8_0": "-0.008376",
+      "dV8_1": "-0.003617",
+      "flag": "-"
+    },
+    {
+      "model": "v8_ridge_wide",
+      "R2_0": "0.120396",
+      "R2_1": "0.122745",
+      "dV8_0": "+0.000000",
+      "dV8_1": "+0.000000",
+      "flag": "-"
+    },
+    {
+      "model": "v8_ridge_joint",
+      "R2_0": "0.120803",
+      "R2_1": "0.121851",
+      "dV8_0": "+0.000407",
+      "dV8_1": "-0.000894",
+      "flag": "-"
+    },
+    {
+      "model": "convex_wide",
+      "R2_0": "0.119491",
+      "R2_1": "0.126979",
+      "dV8_0": "-0.000905",
+      "dV8_1": "+0.004234",
+      "flag": "-"
+    },
+    {
+      "model": "convex_daily",
+      "R2_0": "0.118598",
+      "R2_1": "0.126942",
+      "dV8_0": "-0.001798",
+      "dV8_1": "+0.004197",
+      "flag": "D"
+    },
+    {
+      "model": "ridge_wide",
+      "R2_0": "0.118120",
+      "R2_1": "0.129350",
+      "dV8_0": "-0.002276",
+      "dV8_1": "+0.006605",
+      "flag": "-"
+    },
+    {
+      "model": "ridge_daily",
+      "R2_0": "0.117164",
+      "R2_1": "0.129255",
+      "dV8_0": "-0.003232",
+      "dV8_1": "+0.006511",
+      "flag": "D"
+    },
+    {
+      "model": "ridge_core",
+      "R2_0": "0.116258",
+      "R2_1": "0.129846",
+      "dV8_0": "-0.004137",
+      "dV8_1": "+0.007101",
+      "flag": "-"
+    },
+    {
+      "model": "gated_medium",
+      "R2_0": "0.112516",
+      "R2_1": "0.123671",
+      "dV8_0": "-0.007880",
+      "dV8_1": "+0.000926",
+      "flag": "-"
+    },
+    {
+      "model": "tree_meta",
+      "R2_0": "0.109037",
+      "R2_1": "0.124472",
+      "dV8_0": "-0.011358",
+      "dV8_1": "+0.001727",
+      "flag": "-"
+    }
+  ],
+  "displayed_explicit_interactions": [
+    {
+      "model": "balance_diet_oral",
+      "repeat": 0,
+      "null_R2": "0.053619",
+      "interaction_R2": "0.053619",
+      "delta_R2": "+0.000000",
+      "off_folds": 5,
+      "active_folds": 0,
+      "total_folds": 5
+    },
+    {
+      "model": "balance_diet_oral",
+      "repeat": 1,
+      "null_R2": "0.068544",
+      "interaction_R2": "0.068544",
+      "delta_R2": "+0.000000",
+      "off_folds": 5,
+      "active_folds": 0,
+      "total_folds": 5
+    },
+    {
+      "model": "balance_diet_balanced",
+      "repeat": 0,
+      "null_R2": "0.055858",
+      "interaction_R2": "0.055858",
+      "delta_R2": "+0.000000",
+      "off_folds": 5,
+      "active_folds": 0,
+      "total_folds": 5
+    },
+    {
+      "model": "balance_diet_balanced",
+      "repeat": 1,
+      "null_R2": "0.070736",
+      "interaction_R2": "0.070736",
+      "delta_R2": "+0.000000",
+      "off_folds": 5,
+      "active_folds": 0,
+      "total_folds": 5
+    },
+    {
+      "model": "eco_diet_oral",
+      "repeat": 0,
+      "null_R2": "0.044204",
+      "interaction_R2": "0.044204",
+      "delta_R2": "+0.000000",
+      "off_folds": 5,
+      "active_folds": 0,
+      "total_folds": 5
+    },
+    {
+      "model": "eco_diet_oral",
+      "repeat": 1,
+      "null_R2": "0.045931",
+      "interaction_R2": "0.044963",
+      "delta_R2": "-0.000968",
+      "off_folds": 4,
+      "active_folds": 1,
+      "total_folds": 5
+    },
+    {
+      "model": "eco_diet_balanced",
+      "repeat": 0,
+      "null_R2": "0.042994",
+      "interaction_R2": "0.042994",
+      "delta_R2": "+0.000000",
+      "off_folds": 5,
+      "active_folds": 0,
+      "total_folds": 5
+    },
+    {
+      "model": "eco_diet_balanced",
+      "repeat": 1,
+      "null_R2": "0.046851",
+      "interaction_R2": "0.046851",
+      "delta_R2": "+0.000000",
+      "off_folds": 5,
+      "active_folds": 0,
+      "total_folds": 5
+    }
+  ],
+  "target_counters": [
+    {
+      "threshold": "0.20",
+      "both_repeats_pass": 0,
+      "total_pipelines": 64,
+      "passes_without_fit_flags": 0
+    },
+    {
+      "threshold": "0.30",
+      "both_repeats_pass": 0,
+      "total_pipelines": 64,
+      "passes_without_fit_flags": 0
+    }
+  ],
+  "displayed_notes": [
+    "D=added FOOD-only day variability; W=fit warning incl. contributing fusion inputs.",
+    "Exploratory discovery ranking; no confirmation data. Full aggregates: summary.json."
+  ],
+  "derived": {
+    "interaction_off_folds": 39,
+    "interaction_active_folds": 1,
+    "interaction_fold_opportunities": 40,
+    "best_new_pipeline_by_minimum_repeat": "convex_wide",
+    "best_new_minimum_displayed_R2": "0.119491",
+    "reference_minimum_displayed_R2": "0.120396",
+    "highest_second_repeat_among_displayed": "ridge_core: 0.129846"
+  },
+  "interpretation": "All outer folds completed. Leading new workflows show lower repeat-0 and higher repeat-1 R2 than V8 ridge_wide. No pipeline reaches 0.20 in both repeats. Explicit correction is off in 39/40 outer selections; the only active selection is associated with negative pooled repeat-1 delta_R2 for eco_diet_oral.",
+  "limits": [
+    "Only the short table is visible; do not infer omitted atomic scores or flags.",
+    "Displayed values are rounded to six decimals; preserve printed deltas independently instead of recomputing them from rounded R2.",
+    "No paired confidence intervals or matched daily atomic ablations are displayed.",
+    "Shared participants and repeated model search prevent interpreting repeats as independent confirmation.",
+    "Predictive total R2 is not the fraction explained by a causal diet-by-microbiome interaction.",
+    "Weak matched ecological/balance nulls and mostly zero corrections do not establish biological absence of effect modification."
+  ]
+}

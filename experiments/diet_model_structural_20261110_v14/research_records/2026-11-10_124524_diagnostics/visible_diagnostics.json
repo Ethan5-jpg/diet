@@ -1,0 +1,317 @@
+{
+  "evidence_type": "user_supplied_terminal_screenshot_transcription",
+  "observed_at": "2026-11-10T12:45:24+08:00",
+  "run_id": "structural_v14_20261110",
+  "status_display": "COMPLETE",
+  "new_workflows": 66,
+  "N0": 3343,
+  "N1": 3343,
+  "repeats_share_participants": true,
+  "expected_pairs": 34,
+  "observed_pairs": 34,
+  "rows": [
+    {
+      "model": "hgb_rff_sir_oral",
+      "reference": "hgb_sir_oral",
+      "delta_R2_0_display": "-0.016653",
+      "delta_R2_1_display": "-0.026113",
+      "group": "rff_sir"
+    },
+    {
+      "model": "hgb_rff_sir_balanced",
+      "reference": "hgb_sir_balanced",
+      "delta_R2_0_display": "-0.027256",
+      "delta_R2_1_display": "-0.028142",
+      "group": "rff_sir"
+    },
+    {
+      "model": "cat_rff_sir_oral",
+      "reference": "cat_sir_oral",
+      "delta_R2_0_display": "-0.017501",
+      "delta_R2_1_display": "-0.029750",
+      "group": "rff_sir"
+    },
+    {
+      "model": "cat_rff_sir_balanced",
+      "reference": "cat_sir_balanced",
+      "delta_R2_0_display": "-0.024213",
+      "delta_R2_1_display": "-0.031323",
+      "group": "rff_sir"
+    },
+    {
+      "model": "hgb_pilot_gradient_oral",
+      "reference": "hgb_sir_oral",
+      "delta_R2_0_display": "-0.000535",
+      "delta_R2_1_display": "-0.006208",
+      "group": "pilot_gradient"
+    },
+    {
+      "model": "hgb_pilot_gradient_balanced",
+      "reference": "hgb_sir_balanced",
+      "delta_R2_0_display": "+0.002916",
+      "delta_R2_1_display": "+0.003937",
+      "group": "pilot_gradient"
+    },
+    {
+      "model": "cat_pilot_gradient_oral",
+      "reference": "cat_sir_oral",
+      "delta_R2_0_display": "+0.004088",
+      "delta_R2_1_display": "-0.005311",
+      "group": "pilot_gradient"
+    },
+    {
+      "model": "cat_pilot_gradient_balanced",
+      "reference": "cat_sir_balanced",
+      "delta_R2_0_display": "+0.011298",
+      "delta_R2_1_display": "+0.006403",
+      "group": "pilot_gradient"
+    },
+    {
+      "model": "local_rff_sir_oral",
+      "reference": "local_sir_oral",
+      "delta_R2_0_display": "-0.018105",
+      "delta_R2_1_display": "-0.027997",
+      "group": "rff_sir"
+    },
+    {
+      "model": "local_rff_sir_balanced",
+      "reference": "local_sir_balanced",
+      "delta_R2_0_display": "-0.026318",
+      "delta_R2_1_display": "-0.032382",
+      "group": "rff_sir"
+    },
+    {
+      "model": "forest_local_rff_sir_oral",
+      "reference": "forest_local_sir_oral",
+      "delta_R2_0_display": "-0.017226",
+      "delta_R2_1_display": "-0.030233",
+      "group": "rff_sir"
+    },
+    {
+      "model": "forest_local_rff_sir_balanced",
+      "reference": "forest_local_sir_balanced",
+      "delta_R2_0_display": "-0.019265",
+      "delta_R2_1_display": "-0.018987",
+      "group": "rff_sir"
+    },
+    {
+      "model": "ntk_rff_sir_oral",
+      "reference": "ntk_sir_oral",
+      "delta_R2_0_display": "-0.020511",
+      "delta_R2_1_display": "-0.021117",
+      "group": "rff_sir"
+    },
+    {
+      "model": "ntk_rff_sir_balanced",
+      "reference": "ntk_sir_balanced",
+      "delta_R2_0_display": "-0.025968",
+      "delta_R2_1_display": "-0.019941",
+      "group": "rff_sir"
+    },
+    {
+      "model": "diffusion_rff_sir_oral",
+      "reference": "diffusion_sir_oral",
+      "delta_R2_0_display": "-0.024788",
+      "delta_R2_1_display": "-0.033421",
+      "group": "rff_sir"
+    },
+    {
+      "model": "diffusion_rff_sir_balanced",
+      "reference": "diffusion_sir_balanced",
+      "delta_R2_0_display": "-0.017488",
+      "delta_R2_1_display": "-0.023462",
+      "group": "rff_sir"
+    },
+    {
+      "model": "svr_rff_sir_oral",
+      "reference": "svr_sir_oral",
+      "delta_R2_0_display": "-0.020089",
+      "delta_R2_1_display": "-0.037299",
+      "group": "rff_sir"
+    },
+    {
+      "model": "svr_rff_sir_balanced",
+      "reference": "svr_sir_balanced",
+      "delta_R2_0_display": "-0.011808",
+      "delta_R2_1_display": "-0.034547",
+      "group": "rff_sir"
+    },
+    {
+      "model": "rbf_ard_rff_sir_oral",
+      "reference": "rbf_ard_sir_oral",
+      "delta_R2_0_display": "-0.021641",
+      "delta_R2_1_display": "-0.036989",
+      "group": "rff_sir"
+    },
+    {
+      "model": "rbf_ard_rff_sir_balanced",
+      "reference": "rbf_ard_sir_balanced",
+      "delta_R2_0_display": "-0.034608",
+      "delta_R2_1_display": "-0.027202",
+      "group": "rff_sir"
+    },
+    {
+      "model": "hgb_cca_balanced",
+      "reference": "hgb_paired_pc_balanced",
+      "delta_R2_0_display": "+0.019351",
+      "delta_R2_1_display": "+0.002918",
+      "group": "cca"
+    },
+    {
+      "model": "cat_cca_balanced",
+      "reference": "cat_paired_pc_balanced",
+      "delta_R2_0_display": "+0.018325",
+      "delta_R2_1_display": "+0.000368",
+      "group": "cca"
+    },
+    {
+      "model": "convex_balanced",
+      "reference": "convex_oral",
+      "delta_R2_0_display": "+0.001162",
+      "delta_R2_1_display": "+0.001672",
+      "group": "balanced_pool"
+    },
+    {
+      "model": "convex_combined",
+      "reference": "convex_new",
+      "delta_R2_0_display": "+0.019872",
+      "delta_R2_1_display": "+0.024223",
+      "group": "combined_pool"
+    },
+    {
+      "model": "ridge_balanced",
+      "reference": "ridge_oral",
+      "delta_R2_0_display": "+0.002168",
+      "delta_R2_1_display": "+0.004085",
+      "group": "balanced_pool"
+    },
+    {
+      "model": "ridge_combined",
+      "reference": "ridge_new",
+      "delta_R2_0_display": "+0.020147",
+      "delta_R2_1_display": "+0.025880",
+      "group": "combined_pool"
+    },
+    {
+      "model": "positive_balanced",
+      "reference": "positive_oral",
+      "delta_R2_0_display": "+0.001536",
+      "delta_R2_1_display": "+0.002817",
+      "group": "balanced_pool"
+    },
+    {
+      "model": "positive_combined",
+      "reference": "positive_new",
+      "delta_R2_0_display": "+0.022176",
+      "delta_R2_1_display": "+0.030299",
+      "group": "combined_pool"
+    },
+    {
+      "model": "local_stack_bank",
+      "reference": "positive_bank",
+      "delta_R2_0_display": "-0.036025",
+      "delta_R2_1_display": "-0.039438",
+      "group": "nonlinear_stack"
+    },
+    {
+      "model": "ntk_stack_bank",
+      "reference": "positive_bank",
+      "delta_R2_0_display": "-0.058581",
+      "delta_R2_1_display": "-0.065769",
+      "group": "nonlinear_stack"
+    },
+    {
+      "model": "rbf_ard_stack_bank",
+      "reference": "positive_bank",
+      "delta_R2_0_display": "-0.007572",
+      "delta_R2_1_display": "-0.007150",
+      "group": "nonlinear_stack"
+    },
+    {
+      "model": "local_stack_combined",
+      "reference": "positive_combined",
+      "delta_R2_0_display": "-0.038429",
+      "delta_R2_1_display": "-0.034357",
+      "group": "nonlinear_stack"
+    },
+    {
+      "model": "ntk_stack_combined",
+      "reference": "positive_combined",
+      "delta_R2_0_display": "-0.060870",
+      "delta_R2_1_display": "-0.065452",
+      "group": "nonlinear_stack"
+    },
+    {
+      "model": "rbf_ard_stack_combined",
+      "reference": "positive_combined",
+      "delta_R2_0_display": "-0.006271",
+      "delta_R2_1_display": "-0.011051",
+      "group": "nonlinear_stack"
+    }
+  ],
+  "groups": {
+    "balanced_pool": {
+      "pairs": 3,
+      "positive_both": 3,
+      "negative_both": 0,
+      "mixed": 0,
+      "min_display": "0.001162",
+      "max_display": "0.004085"
+    },
+    "cca": {
+      "pairs": 2,
+      "positive_both": 2,
+      "negative_both": 0,
+      "mixed": 0,
+      "min_display": "0.000368",
+      "max_display": "0.019351"
+    },
+    "combined_pool": {
+      "pairs": 3,
+      "positive_both": 3,
+      "negative_both": 0,
+      "mixed": 0,
+      "min_display": "0.019872",
+      "max_display": "0.030299"
+    },
+    "nonlinear_stack": {
+      "pairs": 6,
+      "positive_both": 0,
+      "negative_both": 6,
+      "mixed": 0,
+      "min_display": "-0.065769",
+      "max_display": "-0.006271"
+    },
+    "pilot_gradient": {
+      "pairs": 4,
+      "positive_both": 2,
+      "negative_both": 1,
+      "mixed": 1,
+      "min_display": "-0.006208",
+      "max_display": "0.011298"
+    },
+    "rff_sir": {
+      "pairs": 16,
+      "positive_both": 0,
+      "negative_both": 16,
+      "mixed": 0,
+      "min_display": "-0.037299",
+      "max_display": "-0.011808"
+    }
+  },
+  "original_image": "diagnostics_report.png",
+  "original_sha256": "4231c64617db1b12b97c68e570b4fb0df54ecdbf0aed771438badf54c14b1aab",
+  "transcription_sha256": "f8f8e2b4c9e7974423518fe83d960b64e67bf462dd33218c97a877c826ec18f0",
+  "source_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_OZuxed/截屏2026-11-10 12.45.24.png",
+  "registry_pairs_verified": true,
+  "native_full_precision_intervals_displayed": false,
+  "native_data_or_predictions_downloaded": false,
+  "native_results_recomputed_locally": false,
+  "limitations": [
+    "Rounded display values only; relative deltas do not fill unshown absolute scores.",
+    "Same participants across repeats; direction counts are not independent tests.",
+    "Balanced and oral pools have 22 and 18 members; pool contrast is not a pure equal-budget gut addition.",
+    "Fourier SIR also introduces a conditional-PC bottleneck; the contrast does not isolate nonlinearity.",
+    "CCA and supervised directions support predictive interpretations only."
+  ]
+}

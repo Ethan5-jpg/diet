@@ -1,0 +1,26 @@
+V11 COMPLETE | fiber_density -> D_Glu (mg/dL) | 10/10 household outer folds
+N0=3343 N1=3343 | 79 new pipelines; repeats share participants
+model R2_0 R2_1 dV10_0 dV10_1 flag
+v8_ridge_wide 0.120396 0.122745 -0.005831 -0.014521 -
+v10_ridge_diverse 0.126227 0.137266 +0.000000 +0.000000 -
+v10_replay 0.126227 0.137266 +0.000000 +0.000000 -
+positive_combined 0.130555 0.139855 +0.004328 +0.002589 -
+sparse_combined 0.128340 0.140103 +0.002113 +0.002838 -
+ridge_combined 0.128020 0.139652 +0.001793 +0.002386 -
+positive_new 0.127859 0.134546 +0.001632 -0.002720 -
+convex_combined 0.127149 0.135216 +0.000922 -0.002050 -
+ridge_new 0.126451 0.134122 +0.000225 -0.003144 -
+
+EXPLICIT: delta_R2 vs SAME selected background; SD of added 10->15 fiber contrast (mg/dL)
+model dR2_0 dR2_1 active0/1 SD0 SD1
+cfiber_gut +0.000000 +0.000000 0/0 0.000 0.000
+cfiber_oral -0.001802 +0.000000 1/0 0.228 0.000
+cfiber_both +0.000000 +0.000000 0/0 0.000 0.000
+cfiber_macro -0.001438 +0.002127 2/4 0.420 0.500
+BEATS_V10_BOTH=3/79; fit-flag new pipelines=0
+Both repeats R2>=0.20: 0/79; without fit flags: 0
+Both repeats R2>=0.30: 0/79; without fit flags: 0
+V10 bank replay max error=0; prior matched INNER caches used for combined fusion.
+Prediction gains do not establish microbial effect modification; discovery exploration only.
+No confirmation data. --diagnostics: input profiles, microbial gains and matched nulls.
+09:25:13 BATCH_COMPLETE

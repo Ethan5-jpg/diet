@@ -1,0 +1,145 @@
+{
+  "evidence_source": "SYNTHETIC_CALIBRATION_ONLY",
+  "seed": 20261112,
+  "n_per_replication": 1200,
+  "household_size": 2,
+  "score_draws": 399,
+  "scenarios": {
+    "strong_main_effects_only": {
+      "repetitions": 1000,
+      "available": 1000,
+      "rejection_rate": 0.034,
+      "unavailable": 0,
+      "unavailable_reasons": [],
+      "rejection_rate_mc95": [
+        0.024431348663226313,
+        0.04713519024531107
+      ],
+      "coverage": [
+        0.95,
+        0.945,
+        0.946,
+        0.963
+      ],
+      "mean_estimate": [
+        -0.002856851263346988,
+        0.0019314338260282369,
+        0.0004524081966145963,
+        0.0006300475482317755
+      ],
+      "diagnostic_joint_rejection_rate": 0.056,
+      "true_theta": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "deliberately_misspecified": false
+    },
+    "nonlinear_correlated_main_effects_only": {
+      "repetitions": 1000,
+      "available": 1000,
+      "rejection_rate": 0.039,
+      "unavailable": 0,
+      "unavailable_reasons": [],
+      "rejection_rate_mc95": [
+        0.02865896090418048,
+        0.05286931041950135
+      ],
+      "coverage": [
+        0.952,
+        0.949,
+        0.942,
+        0.937
+      ],
+      "mean_estimate": [
+        -0.003011500962058125,
+        0.0004157573101798683,
+        0.0008204293271370832,
+        -0.0027416764117463473
+      ],
+      "diagnostic_joint_rejection_rate": 0.073,
+      "true_theta": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "deliberately_misspecified": false
+    },
+    "known_interaction": {
+      "repetitions": 1000,
+      "available": 999,
+      "rejection_rate": 1.0,
+      "unavailable": 1,
+      "unavailable_reasons": [
+        "Too few effective households for a fixed ecological coordinate"
+      ],
+      "rejection_rate_mc95": [
+        0.9961694255987267,
+        1.0
+      ],
+      "coverage": [
+        0.9419419419419419,
+        0.948948948948949,
+        0.950950950950951,
+        0.938938938938939
+      ],
+      "mean_estimate": [
+        0.8017487149649564,
+        -0.6994400449302137,
+        -0.0011047880608089985,
+        0.00035442740761965205
+      ],
+      "diagnostic_joint_rejection_rate": 1.0,
+      "true_theta": [
+        0.8,
+        -0.7,
+        0.0,
+        0.0
+      ],
+      "deliberately_misspecified": false
+    },
+    "omitted_background_assumption_stress": {
+      "repetitions": 1000,
+      "available": 999,
+      "rejection_rate": 0.1061061061061061,
+      "unavailable": 1,
+      "unavailable_reasons": [
+        "Too few effective households for a fixed ecological coordinate"
+      ],
+      "rejection_rate_mc95": [
+        0.08849434484010732,
+        0.12673554710564053
+      ],
+      "coverage": [
+        0.7977977977977978,
+        0.9319319319319319,
+        0.9329329329329329,
+        0.9519519519519519
+      ],
+      "mean_estimate": [
+        0.1486114386474303,
+        0.0003309023652906662,
+        0.0024994761332840943,
+        -0.002763167484874506
+      ],
+      "diagnostic_joint_rejection_rate": 0.15115115115115116,
+      "true_theta": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "deliberately_misspecified": true
+    }
+  },
+  "limitations": "Fixed finite-basis simulation, not a proof for all nuisance errors, learned PCs, heavy tails or historical discovery selection. Omitted-background case deliberately violates approximation assumptions.",
+  "native_participant_inputs_read": false,
+  "source_sha256": {
+    "features.py": "c4bd4fe9a1e3876b380746904ec8186ab47ee15b58abc61f2d63583bb1539beb",
+    "inference.py": "0d6297744db67e66dd2874945b21159df261571cb67a06ccb7df3b2bb23320a3",
+    "calibrate.py": "a8475e7563c85e90f2f887aa22f253283d8d5f5491b1f03830d24ab600760cb5",
+    "synthetic.py": "9e5734109af5c5b7c7a5b9502aaa6f870bf4ffdefd601d0aaacdd66313f12f41"
+  }
+}

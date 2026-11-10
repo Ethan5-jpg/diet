@@ -1,0 +1,174 @@
+{
+  "source": "User-supplied server terminal screenshot of aggregate diagnostic reader",
+  "screenshot_time": "2026-11-08 18:38:47 Asia/Shanghai (attachment filename)",
+  "module": "diet_model_adaptive_20261108_v9",
+  "run_id": "adaptive_v9_20261108",
+  "original_image": "original.png",
+  "original_copied": true,
+  "original_sha256": "0e892719dd353e672e4c6ebf18f6c98aeb229bb81a864946e193e6930e1d97b3",
+  "outcome": "D_Glu",
+  "exposure": "fiber_density",
+  "outcome_unit": "mg/dL",
+  "metric": "pooled outer-OOF R2 by repeat",
+  "same_pipeline_beats_v8_both": 0,
+  "total_pipelines": 64,
+  "fit_flag_pipelines": 0,
+  "top_atomic_sort": "descending minimum of the two repeat R2 values; original reader definition",
+  "displayed_top_atomic": [
+    {
+      "model": "daily_cat_balanced",
+      "R2_0": "0.108682",
+      "R2_1": "0.113566",
+      "flag": "D"
+    },
+    {
+      "model": "hurdle_hgb_balanced",
+      "R2_0": "0.107348",
+      "R2_1": "0.117711",
+      "flag": "-"
+    },
+    {
+      "model": "hurdle_cat_oral",
+      "R2_0": "0.107013",
+      "R2_1": "0.108575",
+      "flag": "-"
+    },
+    {
+      "model": "daily_hgb_balanced",
+      "R2_0": "0.106250",
+      "R2_1": "0.108324",
+      "flag": "D"
+    },
+    {
+      "model": "anchor_cat_balanced",
+      "R2_0": "0.105924",
+      "R2_1": "0.110793",
+      "flag": "-"
+    },
+    {
+      "model": "log1p_cat_balanced",
+      "R2_0": "0.104581",
+      "R2_1": "0.108512",
+      "flag": "-"
+    }
+  ],
+  "displayed_gains_vs_v8": [
+    {
+      "model": "convex_wide",
+      "repeat": 0,
+      "comparator": "v8_ridge_wide",
+      "delta_R2": "-0.000905",
+      "conditional_household_interval": [
+        "-0.007357",
+        "+0.005548"
+      ],
+      "improved_folds": 2,
+      "total_folds": 5
+    },
+    {
+      "model": "convex_wide",
+      "repeat": 1,
+      "comparator": "v8_ridge_wide",
+      "delta_R2": "+0.004234",
+      "conditional_household_interval": [
+        "-0.002255",
+        "+0.010723"
+      ],
+      "improved_folds": 3,
+      "total_folds": 5
+    },
+    {
+      "model": "ridge_wide",
+      "repeat": 0,
+      "comparator": "v8_ridge_wide",
+      "delta_R2": "-0.002276",
+      "conditional_household_interval": [
+        "-0.009124",
+        "+0.004573"
+      ],
+      "improved_folds": 1,
+      "total_folds": 5
+    },
+    {
+      "model": "ridge_wide",
+      "repeat": 1,
+      "comparator": "v8_ridge_wide",
+      "delta_R2": "+0.006605",
+      "conditional_household_interval": [
+        "-0.000585",
+        "+0.013795"
+      ],
+      "improved_folds": 4,
+      "total_folds": 5
+    },
+    {
+      "model": "ridge_core",
+      "repeat": 0,
+      "comparator": "v8_ridge_wide",
+      "delta_R2": "-0.004137",
+      "conditional_household_interval": [
+        "-0.010508",
+        "+0.002233"
+      ],
+      "improved_folds": 1,
+      "total_folds": 5
+    },
+    {
+      "model": "ridge_core",
+      "repeat": 1,
+      "comparator": "v8_ridge_wide",
+      "delta_R2": "+0.007101",
+      "conditional_household_interval": [
+        "+0.000621",
+        "+0.013580"
+      ],
+      "improved_folds": 4,
+      "total_folds": 5
+    }
+  ],
+  "displayed_matched_additions": [
+    {
+      "model": "daily_cat_oral",
+      "comparator": "ecohybrid_cat_oral",
+      "delta_R2_0": "-0.001488",
+      "delta_R2_1": "-0.000755"
+    },
+    {
+      "model": "daily_cat_balanced",
+      "comparator": "ecohybrid_cat_balanced",
+      "delta_R2_0": "+0.004388",
+      "delta_R2_1": "+0.001642"
+    },
+    {
+      "model": "gated_soft",
+      "comparator": "convex_core",
+      "delta_R2_0": "-0.000831",
+      "delta_R2_1": "-0.000322"
+    },
+    {
+      "model": "gated_medium",
+      "comparator": "convex_core",
+      "delta_R2_0": "+0.000378",
+      "delta_R2_1": "-0.000160"
+    },
+    {
+      "model": "gated_strong",
+      "comparator": "convex_core",
+      "delta_R2_0": "+0.000575",
+      "delta_R2_1": "-0.000179"
+    }
+  ],
+  "displayed_note": "D=extra FOOD inputs; W=fit flag. Intervals exclude adaptive-search uncertainty.",
+  "paired_cat_definitions_verified_locally": true,
+  "interval_level_inferred_from_report_code": "approximately 95 percent, normal approximation with 1.96; screenshot labels conditional household intervals",
+  "interpretation": "No new pipeline beats V8 ridge_wide in both repeats. No fit flags were recorded. Daily-food features have positive point gains in both repeats only for the balanced CatBoost comparison, while oral CatBoost gains are negative. No conditional gate preset improves on convex_core in both repeats. Only ridge_core repeat 1 among the six displayed gain intervals lies entirely above zero; its repeat 0 point gain is negative and its interval crosses zero.",
+  "limits": [
+    "Six atomic workflows are displayed; no scores for omitted workflows are transcribed.",
+    "Zero recorded fit flags does not certify global convergence or a numerical or biological signal ceiling.",
+    "Intervals condition on fitted predictions and exclude adaptive selection and multiple-comparison uncertainty.",
+    "Both repeats share participants; this is discovery development rather than independent confirmation.",
+    "Paired daily and gate point gains are shown without paired intervals.",
+    "Positive daily-input prediction gains are not diet-by-microbiome interaction evidence.",
+    "All numeric strings preserve screenshot precision and signs."
+  ]
+}

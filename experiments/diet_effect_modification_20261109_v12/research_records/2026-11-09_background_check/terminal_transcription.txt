@@ -1,0 +1,24 @@
+UPLOAD_CHECK_OK files=51
+DEPENDENCIES_OK numpy=1.26.4 scipy=1.11.4 pandas=2.1.0 pyarrow=15.0.2 scikit-learn=1.4.1.post1 threadpoolctl=3.3.0
+ENV_READY; existing packages unchanged.
+BACKGROUND ONLY | no outcome model, no new scientific result
+N=3343 households=3059 | same people in two repeats
+fiber g/1000 kcal Q05/Q25/Q50/Q75/Q95: 7.759 10.916 13.543 16.802 23.565
+marker                 Q25       Q75   corr_fiber
+oral_shannon            1.7139    2.6303      -0.0342
+oral_dominance          0.2244    0.4770       0.0167
+gut_shannon             3.3376    3.9868       0.0235
+gut_dominance           0.0995    0.2358      -0.0323
+Fiber Q10/Q90 within marker tails (descriptive, no exclusions):
+marker               tail     N     fiber_Q10     fiber_Q90
+oral_shannon          Q1   836         9.072        20.513
+oral_shannon          Q4   836         8.807        19.910
+oral_dominance        Q1   836         8.675        19.992
+oral_dominance        Q4   836         9.018        20.331
+gut_shannon           Q1   836         8.669        20.301
+gut_shannon           Q4   836         8.747        20.050
+gut_dominance         Q1   836         8.749        20.242
+gut_dominance         Q4   836         8.690        20.041
+Marker correlations: oral H/dom=-0.901 gut H/dom=-0.919 oral/gut H=0.000
+Person averages are not strict diet/CGM-day alignment; sample-date semantics unverified.
+No Y summaries, participant rows, V11 model scores or input/result changes.

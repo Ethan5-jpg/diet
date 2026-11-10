@@ -1,0 +1,104 @@
+{
+  "checked_on": "2026-11-09",
+  "sources": [
+    {
+      "id": "hpp_home",
+      "url": "https://humanphenotypeproject.org/home",
+      "type": "official project website",
+      "supports": [
+        "项目由Pheno.AI运营，官方知识库与平台文档属于同一数据提供方。"
+      ]
+    },
+    {
+      "id": "oral_dictionary",
+      "url": "https://knowledgebase.pheno.ai/datasets/070-oral_microbiome.html",
+      "type": "official dataset dictionary",
+      "sections": [
+        "Data availability",
+        "Data dictionary"
+      ],
+      "supports": [
+        "官网明确列出口腔HUMAnN 3.6基因家族、通路丰度与覆盖度数据。",
+        "聚合Arrow映射表被列为主要数据；逐样本TSV/Parquet被列为支持文件。",
+        "口腔collection_date的字典定义为交样日期；其采样流程关联颊拭子的人类遗传采样。"
+      ],
+      "native_TRE_access_proven": false
+    },
+    {
+      "id": "gut_dictionary",
+      "url": "https://knowledgebase.pheno.ai/datasets/013-gut_microbiome.html",
+      "type": "official dataset dictionary",
+      "sections": [
+        "Data availability",
+        "Data dictionary"
+      ],
+      "supports": [
+        "可用性清单列出测序/QC索引、URS和MetaPhlAn分类丰度。",
+        "公开条目未列出可直接调用的HUMAnN基因或通路功能表。",
+        "collection_date和collection_timestamp分别被定义为交样日期和时间。"
+      ],
+      "absence_of_all_gut_functional_data_proven": false
+    },
+    {
+      "id": "genetics_dictionary",
+      "url": "https://knowledgebase.pheno.ai/datasets/014-human_genetics.html",
+      "type": "official dataset dictionary",
+      "sections": [
+        "Measurement protocol",
+        "Data dictionary"
+      ],
+      "supports": [
+        "该模块同名collection_date被解释为下载Gencove结果的日期，不能套用到口腔或肠道日期字段。"
+      ]
+    },
+    {
+      "id": "official_gut_paper_summary",
+      "url": "https://knowledgebase.pheno.ai/publications/12fc42c7-a9e4-807c-8cd4-ffe82a9c6d5d.html",
+      "type": "official HPP publication page",
+      "supports": [
+        "HPP确有肠道功能层面研究；论文使用不等于当前目录已提供可直接加载的表。"
+      ]
+    },
+    {
+      "id": "gut_primary_paper",
+      "url": "https://www.nature.com/articles/s41467-024-53832-y",
+      "type": "primary research paper, search-index full text retrieved",
+      "supports": [
+        "论文方法说明肠道功能谱由HUMAnN生成；数据可用性指向受控HPP访问，未给本次TRE可直接使用的功能文件位置。"
+      ],
+      "scope_note": "仅用于资源来源判断，不借用论文的功能关联结果筛选本发现集的目标。"
+    },
+    {
+      "id": "official_loader",
+      "url": "https://phenoai.github.io/pheno-utils/pheno_loader.html",
+      "type": "official software documentation",
+      "supports": [
+        "PhenoLoader提供数据字典与bulk数据读取接口。",
+        "文档说明按主表指针定位bulk文件，并展示按参与者选择的接口。"
+      ],
+      "limitations": [
+        "未验证用户当前安装版本、配置或Arrow读取方法；不能声称SDK必然修复S3超时。"
+      ]
+    },
+    {
+      "id": "official_loader_setup",
+      "url": "https://phenoai.github.io/pheno-utils/",
+      "type": "official software documentation",
+      "supports": [
+        "文档说明TRE配置通常由平台生成；后续应使用既有配置，不盲目改写路径或安装升级。"
+      ]
+    }
+  ],
+  "public_catalog_pdf": {
+    "official_parent_url": "https://humanphenotypeproject.org/data-access",
+    "linked_view_url": "https://drive.google.com/file/d/1z01X9knOD0fyNo2dqs49yYgENZQfsQLH/view",
+    "retrieval_status": "Only title/view shell obtained; direct PDF retrieval unsuccessful.",
+    "used_as_evidence_for_data_presence_or_absence": false
+  },
+  "retrieval_limits": [
+    "公开字典的示例人数/日期可能对应较早发布版本，不当作用户当前TRE覆盖或版本证明。",
+    "部分官方软件源码链接失效；读取接口依据仍可访问的官方文档，未假定当前服务器版本。",
+    "没有对用户S3 URI、未发表统计量或参与者信息进行公开网络检索。"
+  ],
+  "historical_screenshot_records_preserved": true
+}

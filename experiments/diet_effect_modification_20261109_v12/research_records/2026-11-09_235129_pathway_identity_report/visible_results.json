@@ -1,0 +1,114 @@
+{
+  "source": "User-supplied server pathway identity and projected identifier diagnostic screenshot",
+  "screenshot_filename": "截屏2026-11-09 23.51.29.png",
+  "screenshot_filename_client_time": "2026-11-09 23:51:29 Asia/Shanghai",
+  "source_image_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_o8I8rD/截屏2026-11-09 23.51.29.png",
+  "original_image": "original.png",
+  "original_copied": true,
+  "original_sha256": "96c0d2e14cd7e282281beb25377c895034ceadffd54dfb893102b85abbbb269e",
+  "transcription_whitespace": "Indentation and shell prompt spacing normalized; all displayed diagnostic lines preserved.",
+  "source_index": {
+    "rows": 8816,
+    "identifier_fields": [
+      "participant_id",
+      "cohort",
+      "research_stage",
+      "array_index"
+    ]
+  },
+  "locked_registry": {
+    "rows": 19059,
+    "schema_only": true,
+    "linkage_fields": [
+      "participant_id",
+      "cohort",
+      "research_stage",
+      "site",
+      "linked_index_row_ordinal",
+      "index_sample_name",
+      "primary_index_source_path"
+    ]
+  },
+  "tables": {
+    "abundance": {
+      "unique_pointers": 1,
+      "columns": 492,
+      "record_batches": 1,
+      "numeric_nonidentifier_columns": 487,
+      "known_identifiers": [
+        "participant_id",
+        "cohort",
+        "research_stage",
+        "array_index"
+      ],
+      "public_pathway_code_candidates": [],
+      "identifier_projection_rows": 8838,
+      "identifier_projection_columns": 4,
+      "key_links": {
+        "visit": {
+          "found": 0,
+          "missing": 0,
+          "null_key": 8838,
+          "source_ambiguous": 0,
+          "table_duplicate_rows": 0
+        },
+        "visit+array_index": {
+          "found": 0,
+          "missing": 0,
+          "null_key": 8838,
+          "source_ambiguous": 0,
+          "table_duplicate_rows": 0
+        }
+      }
+    },
+    "coverage": {
+      "unique_pointers": 1,
+      "columns": 492,
+      "record_batches": 1,
+      "numeric_nonidentifier_columns": 487,
+      "known_identifiers": [
+        "participant_id",
+        "cohort",
+        "research_stage",
+        "array_index"
+      ],
+      "public_pathway_code_candidates": [],
+      "identifier_projection_rows": 8838,
+      "identifier_projection_columns": 4,
+      "key_links": {
+        "visit": {
+          "found": 0,
+          "missing": 0,
+          "null_key": 8838,
+          "source_ambiguous": 0,
+          "table_duplicate_rows": 0
+        },
+        "visit+array_index": {
+          "found": 0,
+          "missing": 0,
+          "null_key": 8838,
+          "source_ambiguous": 0,
+          "table_duplicate_rows": 0
+        }
+      }
+    }
+  },
+  "pair": {
+    "pointer_equal": false,
+    "canonical_path_equal": false,
+    "same_file": false,
+    "full_file_bytes_equal": false
+  },
+  "pathway_identity_done_displayed": true,
+  "limits": [
+    "Both local candidates are different files with different serialized bytes; numerical functional values were not compared, so biological differences or correct abundance/coverage meanings are not established.",
+    "Each table has 8838 projected identifier rows, not 8838 established participants; current source index has 8816 rows. Origin, release and sample correspondence remain unverified.",
+    "All 8838 rows lack a complete valid visit-key tuple under the delivered validator. The output does not identify which column is null, NaN or a placeholder string.",
+    "found=0 and missing=0 reflect that no complete keys entered the comparison, not that none overlap with the source or fixed 3343 people.",
+    "source_ambiguous=0 and table_duplicate_rows=0 were computed only over complete valid keys; they do not establish uniqueness when all keys were excluded.",
+    "Empty public-code candidate lists mean only no schema names matched the deliberately narrow pathway-code regex; they do not establish no pathways or annotations.",
+    "487 numeric nonidentifier fields are a schema count, not 487 verified functional pathways. One additional field besides the four known identifiers and these numeric fields remains uncharacterized.",
+    "The registry was inspected for metadata/schema only; no locked-sample row matching or outcome association was done.",
+    "No participant values, file pointers, numerical function values, outcomes, P values or model scores were displayed."
+  ]
+}

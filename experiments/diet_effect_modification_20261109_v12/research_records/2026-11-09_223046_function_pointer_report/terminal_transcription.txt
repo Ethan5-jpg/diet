@@ -1,0 +1,15 @@
+FUNCTION_POINTER_CHECK: source-index rows, NOT 3343-person coverage.
+Pointer values stay in TRE; no outcomes, abundance rows, remote fetches or writes.
+INDEX oral source_rows=8816 functional_string_fields=16
+FIELD oral humann_gene_familites_gene_level_parquet nonempty_rows=8816 distinct_pointers=8816
+  FIRST_UP_TO_3_POINTERS {"URI_NOT_FETCHED": 3}
+FIELD oral humann_pathway_abundance_pathway_level_parquet nonempty_rows=8816 distinct_pointers=8816
+  FIRST_UP_TO_3_POINTERS {"URI_NOT_FETCHED": 3}
+FIELD oral humann_pathway_coverage_pathway_level_parquet nonempty_rows=8816 distinct_pointers=8816
+  FIRST_UP_TO_3_POINTERS {"URI_NOT_FETCHED": 3}
+INDEX gut source_rows=10694 functional_string_fields=0
+  NO_MATCHING_FIELDS_IN_THIS_INDEX; other sources not excluded.
+Nonempty pointer != usable measurement; sampled files != complete availability.
+Locked-specimen matching, 3343-person overlap, units and functional QC remain UNVERIFIED.
+FUNCTION_POINTER_CHECK_DONE
+(pheno) [ec2-user@ip-10-0-71-168 diet_effect_modification_20261109_v12]$

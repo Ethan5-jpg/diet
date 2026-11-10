@@ -1,0 +1,204 @@
+{
+  "source": "User-supplied server report screenshot",
+  "module": "diet_effect_modification_20261109_v12",
+  "archived_at_local_time": "2026-11-09T21:47:26.340219+08:00",
+  "source_precision": "Displayed rounded values only; native summary.json not obtained",
+  "evidence_source_displayed": "DISCOVERY_SERVER",
+  "N": 3343,
+  "households": 3059,
+  "exposure": "fiber_density",
+  "outcome": "D_Glu",
+  "outcome_unit": "mg/dL",
+  "expected_run_id": "effect_modification_v12_20261109",
+  "run_id_explicitly_displayed": false,
+  "primary_repeat": 0,
+  "repeats_share_participants": true,
+  "original_image": "original.png",
+  "original_copied": true,
+  "server_clock_timezone_displayed": null,
+  "transcription_whitespace": "Prompt and table spacing normalized; displayed words, signs, precision and row order preserved",
+  "local_report_source_sha256": "068b2101bc8589c1f6d001199b8546f1f4610bd03693d5118e043673f824d3e8",
+  "native_summary_or_completion_files_downloaded": false,
+  "screenshot_filename": "截屏2026-11-09 21.42.22.png",
+  "screenshot_source_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_HnGKkC/截屏2026-11-09 21.42.22.png",
+  "screenshot_filename_client_time": "2026-11-09 21:42:22 Asia/Shanghai",
+  "original_sha256": "76bad38b7819ca9c9c9667c84c6657ea282343657d70ea65c9e59dc6ae6a0690",
+  "screen": 3,
+  "displayed_command": "bash server_report.sh --screen 3",
+  "local_contrast_support_fraction_0_1": [
+    "0.770",
+    "0.771"
+  ],
+  "raw_outcome_sensitivity_primary_global_p_0_1": [
+    "0.3803",
+    "0.1500"
+  ],
+  "diagnostic_rows_displayed": [
+    {
+      "model": "ecology_linear_oral",
+      "raw_product_contrast_pearson_r": "0.209",
+      "full_added_correction_contrast_pearson_r": "0.213",
+      "delta_R2_CI0": [
+        "-0.00080",
+        "+0.00053"
+      ],
+      "delta_R2_CI1": [
+        "-0.00042",
+        "+0.00024"
+      ]
+    },
+    {
+      "model": "ecology_linear_gut",
+      "raw_product_contrast_pearson_r": "0.797",
+      "full_added_correction_contrast_pearson_r": "0.780",
+      "delta_R2_CI0": [
+        "-0.00356",
+        "+0.00096"
+      ],
+      "delta_R2_CI1": [
+        "-0.00086",
+        "+0.00280"
+      ]
+    },
+    {
+      "model": "ecology_linear_both",
+      "raw_product_contrast_pearson_r": "0.798",
+      "full_added_correction_contrast_pearson_r": "0.778",
+      "delta_R2_CI0": [
+        "-0.00285",
+        "+0.00183"
+      ],
+      "delta_R2_CI1": [
+        "-0.00067",
+        "+0.00216"
+      ]
+    },
+    {
+      "model": "ecology_spline_oral",
+      "raw_product_contrast_pearson_r": "0.158",
+      "full_added_correction_contrast_pearson_r": "0.173",
+      "delta_R2_CI0": [
+        "-0.00119",
+        "+0.00064"
+      ],
+      "delta_R2_CI1": [
+        "-0.00062",
+        "+0.00050"
+      ]
+    },
+    {
+      "model": "ecology_spline_gut",
+      "raw_product_contrast_pearson_r": "0.811",
+      "full_added_correction_contrast_pearson_r": "0.776",
+      "delta_R2_CI0": [
+        "-0.00269",
+        "+0.00102"
+      ],
+      "delta_R2_CI1": [
+        "-0.00053",
+        "+0.00252"
+      ]
+    },
+    {
+      "model": "ecology_spline_both",
+      "raw_product_contrast_pearson_r": "0.594",
+      "full_added_correction_contrast_pearson_r": "0.575",
+      "delta_R2_CI0": [
+        "-0.00296",
+        "+0.00114"
+      ],
+      "delta_R2_CI1": [
+        "-0.00056",
+        "+0.00181"
+      ]
+    },
+    {
+      "model": "composition_linear_oral",
+      "raw_product_contrast_pearson_r": "0.295",
+      "full_added_correction_contrast_pearson_r": "0.284",
+      "delta_R2_CI0": [
+        "-0.00136",
+        "+0.00001"
+      ],
+      "delta_R2_CI1": [
+        "-0.00074",
+        "+0.00011"
+      ]
+    },
+    {
+      "model": "composition_linear_gut",
+      "raw_product_contrast_pearson_r": "0.311",
+      "full_added_correction_contrast_pearson_r": "0.281",
+      "delta_R2_CI0": [
+        "-0.00121",
+        "+0.00076"
+      ],
+      "delta_R2_CI1": [
+        "-0.00080",
+        "+0.00013"
+      ]
+    },
+    {
+      "model": "composition_linear_both",
+      "raw_product_contrast_pearson_r": "0.181",
+      "full_added_correction_contrast_pearson_r": "0.169",
+      "delta_R2_CI0": [
+        "-0.00179",
+        "+0.00128"
+      ],
+      "delta_R2_CI1": [
+        "-0.00088",
+        "+0.00013"
+      ]
+    },
+    {
+      "model": "composition_spline_oral",
+      "raw_product_contrast_pearson_r": "0.301",
+      "full_added_correction_contrast_pearson_r": "0.280",
+      "delta_R2_CI0": [
+        "-0.00258",
+        "-0.00031"
+      ],
+      "delta_R2_CI1": [
+        "-0.00108",
+        "+0.00006"
+      ]
+    },
+    {
+      "model": "composition_spline_gut",
+      "raw_product_contrast_pearson_r": "0.153",
+      "full_added_correction_contrast_pearson_r": "0.139",
+      "delta_R2_CI0": [
+        "-0.00059",
+        "+0.00031"
+      ],
+      "delta_R2_CI1": [
+        "-0.00102",
+        "+0.00008"
+      ]
+    },
+    {
+      "model": "composition_spline_both",
+      "raw_product_contrast_pearson_r": "0.159",
+      "full_added_correction_contrast_pearson_r": "0.131",
+      "delta_R2_CI0": [
+        "-0.00155",
+        "+0.00047"
+      ],
+      "delta_R2_CI1": [
+        "-0.00133",
+        "+0.00014"
+      ]
+    }
+  ],
+  "warnings_displayed": 0,
+  "CI_level_not_explicitly_printed_on_screen": true,
+  "CI_level_implementation_context": "95% conditional intervals, verified in frozen inference.py quantiles [0.025, 0.975]",
+  "displayed_rules": [
+    "dR2 intervals resample households with fitted OOF predictions FIXED.",
+    "r compares raw-product/full-correction contrasts on repeated people, not replication.",
+    "Support is a range diagnostic; low support limits contrast interpretation.",
+    "Warnings=0; complete loadings/choices remain in TRE_ONLY checkpoints.",
+    "PERSON-LEVEL ASSOCIATIONS; sample-calendar meaning unverified; no meal/causal response."
+  ]
+}

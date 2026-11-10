@@ -1,0 +1,113 @@
+{
+  "verification_date_Asia_Shanghai": "2026-11-07",
+  "status": "PASS",
+  "tests_passed": 21,
+  "method_groups": 6,
+  "prediction_pipelines": 11,
+  "inner_candidate_settings": 87,
+  "checks": [
+    "Every default candidate fits synthetic data through the frozen preprocessing interface",
+    "Independent primal-vs-dual kernel solution and native-unit contrast reconstruction",
+    "Changing outer validation labels leaves selection, predictions and fusion weights unchanged",
+    "Training kernel quantities do not depend on validation features",
+    "All three boosting implementations predict consistently from saved model objects",
+    "Supervised interaction projection and convex fusion numerical checks",
+    "Full synthetic two-round household CV, resume and code/config/environment identity guards",
+    "No refitting completed cached candidates",
+    "Pooled R2 and matched interaction increments recomputed without averaging fold R2",
+    "Incomplete runs suppress pooled scores; incomplete writes recover; corrupted payloads fail",
+    "Actual Parquet/NPZ input adapter, target units, row identity and discovery role guards",
+    "Discovery-role rejection occurs before opening the outcome file",
+    "Detached launch, preserved logs and existing-run lock protection",
+    "Full uploaded-folder simulation without the preliminary draft or participant input files",
+    "Short report retains paired per-round R2, matched interaction deltas and negative results",
+    "Target threshold requires the same pipeline in both rounds, using unrounded values",
+    "Completed run writes compact SUMMARY.md; incomplete and unstarted runs produce no scores"
+  ],
+  "style": {
+    "ruff_check": "PASS",
+    "ruff_format_check": "PASS",
+    "E402_exception": "run.py sets native thread limits before numerical imports"
+  },
+  "environment": {
+    "python": "3.11.17 (main, Oct 14 2026, 00:55:17) [Clang 23.1.3 ]",
+    "numpy": "1.26.4",
+    "scipy": "1.11.4",
+    "pandas": "2.1.0",
+    "pyarrow": "15.0.2",
+    "scikit-learn": "1.4.1.post1",
+    "catboost": "1.2.8",
+    "xgboost": "2.0.3",
+    "ruff": "0.17.4"
+  },
+  "source_sha256": {
+    "README.md": "4b4b488dc1b165404532611d0e8295c2e882d8e75f807f1cf9471bc92b6a6eca",
+    "config.json": "3b154b1da034ccd8805c7614c29b9ee8da138e2a9f5e7ce4e941bdf15ae0757d",
+    "data.py": "8b53591a1e3763684425fe7bbc04bd5d3499875089401466914f8f2d5bb6143e",
+    "experiment.py": "94698a402f3a53a797c94e31a1910bb4e6f8dc01861ae5e79a4b3f1634145de3",
+    "launch.py": "ff00d84f9f0c6ea990f00c1de1228d5755edf512484f3829fc3a4129c73c7ffb",
+    "learners.py": "a4b4a5c7b037a0ea3e63c26c076f64c8ec92d533e6d90c480aeadc4b7262b4ee",
+    "numerics.py": "7de8512c2c117eabeff5f650a0946346ea458aa5bcee9372b1d5ac465807a825",
+    "pyproject.toml": "9ca1fab2a6ba4d1c38ee7f9dd531d60fbc0d6346d1353bbb3e649907e279b28b",
+    "reporting.py": "4bbbe659d22c846f105abf621899b43efee87584de7fea9e9b844247ab676a8a",
+    "requirements.txt": "166aec1e3dac793b3e6d6c4131d3ae3cb66306a71e04eb4e03281787d0a4d123",
+    "run.py": "c392eb3b965ea48b94fa0bc5f21752e7d05ab6243775d2427c8260c35187c342",
+    "storage.py": "3387a02e426180bc05180abaf5aaddef01639339b8c66d23e7d050141d4be097",
+    "test_suite.py": "f0bed5cc5d41d6517755a214d3a8826c93caa24a261b2974638d69b8dc4e12ce",
+    "tests/support.py": "5413cfd6a6aa1b0d23164543eac9ed3c32669d09f316976cce422c6a735e18ac",
+    "tests/test_adapter.py": "aeb9ff33537c046df3029240b79a868a7592bb7951950a11eeea969fbc19e8ac",
+    "tests/test_launch.py": "efe8dc5b7fc459fe7813a25b7519eacebb111cee62c1fc4af7fa447baadf9ada",
+    "tests/test_models.py": "dc7be62c60f07a69ca4900ba1f1531ce299c77e2dfb5003653e87dfc73c239da",
+    "tests/test_pipeline.py": "7e2a4da39f09bca723662f6c6544e4a92074dedab336a4507c8ed22178548f0e",
+    "tests/test_reporting.py": "9d52f3b9ab332d53afac498f7381c42c83916f75dfac23170f23c780e4715ad8",
+    "tests/test_storage.py": "a2744bd905dab32c6065969097325db32fc2613be76a0e2783e160856c6e30e0"
+  },
+  "frozen_preprocessing_sha256": "b8f8e902a0722b5f90672d2cf63811b665074b32649e1b8a87772bb476f1e375",
+  "data_scope": "Synthetic data only; no HPP participant files were downloaded, opened or fitted locally",
+  "real_HPP_results": null,
+  "server_status": "Screenshot 16:36:26: after TERM and KILL, PID 24812 still Ds with CPU time 00:05:48; kernel wait/exit stage unverified; no restart; platform handoff prepared",
+  "version": "v6_20261107",
+  "package_directory": "diet_model_batch_20261107_v6",
+  "renumbering_validation": {
+    "status": "PASS",
+    "all_18_tests_rerun": true,
+    "all_seven_algorithm_and_runner_files_unchanged": true,
+    "model_grids_unchanged": true,
+    "naming_only": true
+  },
+  "reporting_update_validation": {
+    "status": "PASS",
+    "all_21_tests_rerun": true,
+    "full_uploaded_layout_test": {
+      "status": "PASS",
+      "tests_passed": 21,
+      "source_unchanged": true,
+      "no_participant_inputs": true,
+      "no_formal_runs_created": true,
+      "server_execution": false
+    },
+    "model_grids_unchanged": true
+  },
+  "server_observation": {
+    "source": "research_records/2026-11-07_152958_launch/record.md",
+    "screenshot_time": "2026-11-07 15:29:58",
+    "tests_passed": 21,
+    "test_duration_seconds": 34.801,
+    "launched_pid": 24812,
+    "log": "main_20261107.log",
+    "actual_training_metrics_observed": false
+  },
+  "latest_server_observation": {
+    "source": "research_records/2026-11-07_163626_kill_pending/record.md",
+    "screenshot_time": "2026-11-07 16:36:26",
+    "pid": 24812,
+    "elapsed": "01:06:33",
+    "cpu_time": "00:05:48",
+    "stat": "Ds",
+    "term_command_observed": true,
+    "kill_command_observed": true,
+    "signal_pending_fields_observed": false,
+    "worker_exit_observed": false,
+    "actual_training_metrics_observed": false
+  }
+}

@@ -1,0 +1,21 @@
+PATHWAY_IDENTITY: local file hashes, schemas and projected identifiers; no outcomes, models, row output or writes.
+SOURCE_INDEX rows=8816 identifier_fields=["participant_id", "cohort", "research_stage", "array_index"]
+LOCKED_REGISTRY rows=19059 linkage_fields=["participant_id", "cohort", "research_stage", "site", "linked_index_row_ordinal", "index_sample_name", "primary_index_source_path"] (schema only)
+TABLE abundance unique_pointers=1
+  STRUCTURE columns=492 batches=1 numeric_nonidentifier_columns=487 known_identifiers=["participant_id", "cohort", "research_stage", "array_index"]
+  PUBLIC_PATHWAY_CODE_CANDIDATES []
+  IDENTIFIER_PROJECTION rows=8838 columns=4
+  KEY_LINK visit found=0 missing=0 null_key=8838 source_ambiguous=0 table_duplicate_rows=0
+  KEY_LINK visit+array_index found=0 missing=0 null_key=8838 source_ambiguous=0 table_duplicate_rows=0
+TABLE coverage unique_pointers=1
+  STRUCTURE columns=492 batches=1 numeric_nonidentifier_columns=487 known_identifiers=["participant_id", "cohort", "research_stage", "array_index"]
+  PUBLIC_PATHWAY_CODE_CANDIDATES []
+  IDENTIFIER_PROJECTION rows=8838 columns=4
+  KEY_LINK visit found=0 missing=0 null_key=8838 source_ambiguous=0 table_duplicate_rows=0
+  KEY_LINK visit+array_index found=0 missing=0 null_key=8838 source_ambiguous=0 table_duplicate_rows=0
+PAIR pointer_equal=False
+PAIR canonical_path_equal=False same_file=False
+PAIR full_file_bytes_equal=False
+Key matches are linkage diagnostics; locked-specimen identity, units and fixed 3343-person coverage remain unverified.
+PATHWAY_IDENTITY_DONE
+(pheno) [ec2-user@ip-10-0-71-168 diet_effect_modification_20261109_v12]$

@@ -1,0 +1,8 @@
+{
+  "checked_on": "2026-11-10",
+  "source_url": "https://github.com/biobakery/humann/blob/master/readme.md?plain=1",
+  "provider": "biobakery/humann official repository",
+  "section": "Pathway abundance file",
+  "used_for": "UNMAPPED and UNINTEGRATED are special summary features, not individual pathways.",
+  "limits": "Current master documentation, not native HPP processing/version/units or null-encoding verification. No secondary-source claims used."
+}

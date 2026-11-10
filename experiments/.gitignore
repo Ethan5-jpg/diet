@@ -1,0 +1,17 @@
+# Native data and generated runtime artifacts stay outside this source archive.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+.python_path
+.DS_Store
+runs/
+checkpoints/
+*.npy
+*.npz
+*.parquet
+*.arrow
+*.feather
+*.pkl
+*.joblib

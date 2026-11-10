@@ -1,0 +1,30 @@
+10:22:48 FINAL_HASH_AUDIT
+V9 COMPLETE | fiber_density -> D_Glu (mg/dL) | 10/10 household outer folds
+N0=3343 N1=3343 | 64 pipelines; repeats share participants
+model R2_0 R2_1 dV8_0 dV8_1 flag
+v6_fusion 0.114660 0.115187 -0.005736 -0.007558 -
+v7_ridge_stack 0.112019 0.119128 -0.008376 -0.003617 -
+v8_ridge_wide 0.120396 0.122745 +0.000000 +0.000000 -
+v8_ridge_joint 0.120803 0.121851 +0.000407 -0.000894 -
+convex_wide 0.119491 0.126979 -0.000905 +0.004234 -
+convex_daily 0.118598 0.126942 -0.001798 +0.004197 D
+ridge_wide 0.118120 0.129350 -0.002276 +0.006605 -
+ridge_daily 0.117164 0.129255 -0.003232 +0.006511 D
+ridge_core 0.116258 0.129846 -0.004137 +0.007101 -
+gated_medium 0.112516 0.123671 -0.007880 +0.000926 -
+tree_meta 0.109037 0.124472 -0.011358 +0.001727 -
+
+EXPLICIT: model repeat null_R2 interaction_R2 delta_R2 off active
+balance_diet_oral 0 0.053619 0.053619 +0.000000 5 0
+balance_diet_oral 1 0.068544 0.068544 +0.000000 5 0
+balance_diet_balanced 0 0.055858 0.055858 +0.000000 5 0
+balance_diet_balanced 1 0.070736 0.070736 +0.000000 5 0
+eco_diet_oral 0 0.044204 0.044204 +0.000000 5 0
+eco_diet_oral 1 0.045931 0.044963 -0.000968 4 1
+eco_diet_balanced 0 0.042994 0.042994 +0.000000 5 0
+eco_diet_balanced 1 0.046851 0.046851 +0.000000 5 0
+Both repeats R2>=0.20: 0/64; without fit flags: 0
+Both repeats R2>=0.30: 0/64; without fit flags: 0
+D=added FOOD-only day variability; W=fit warning incl. contributing fusion inputs.
+Exploratory discovery ranking; no confirmation data. Full aggregates: summary.json.
+10:22:56 BATCH_COMPLETE

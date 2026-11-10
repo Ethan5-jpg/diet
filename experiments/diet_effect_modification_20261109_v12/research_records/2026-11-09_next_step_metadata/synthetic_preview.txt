@@ -1,0 +1,20 @@
+SYNTHETIC METADATA FIXTURE; NOT HPP RESULTS
+METADATA_ONLY: no participant rows, outcomes, fitting or writes.
+DATE_POLICY: "descriptive_only_fixture"
+LOCKED_SAMPLE_REGISTRY source_rows=1 date_fields=2
+  collection_date:date32[day], collection_timestamp:string
+SOURCE: oral_index "/Users/blizzardxu/Desktop/HPP/HPP_Full_Code_With_Models_20261102_v2/experiments/diet_effect_modification_20261109_v12/research_records/2026-11-09_next_step_metadata/fixture_m3fh23_d/studies/hpp_datasets/oral/index.parquet"
+oral_index source_rows=1 date_fields=2
+  collection_date:date32[day], collection_timestamp:string
+SOURCE: gut_index "/Users/blizzardxu/Desktop/HPP/HPP_Full_Code_With_Models_20261102_v2/experiments/diet_effect_modification_20261109_v12/research_records/2026-11-09_next_step_metadata/fixture_m3fh23_d/studies/hpp_datasets/gut/index.parquet"
+gut_index source_rows=1 date_fields=2
+  collection_date:date32[day], collection_timestamp:string
+SCAN_ROOT: "/Users/blizzardxu/Desktop/HPP/HPP_Full_Code_With_Models_20261102_v2/experiments/diet_effect_modification_20261109_v12/research_records/2026-11-09_next_step_metadata/fixture_m3fh23_d/studies/diet_gut_cgm_v2/project/analysis/shared"
+SCAN_ROOT: "/Users/blizzardxu/Desktop/HPP/HPP_Full_Code_With_Models_20261102_v2/experiments/diet_effect_modification_20261109_v12/research_records/2026-11-09_next_step_metadata/fixture_m3fh23_d/studies/hpp_datasets/gut"
+SCAN_ROOT: "/Users/blizzardxu/Desktop/HPP/HPP_Full_Code_With_Models_20261102_v2/experiments/diet_effect_modification_20261109_v12/research_records/2026-11-09_next_step_metadata/fixture_m3fh23_d/studies/hpp_datasets/oral"
+SCAN_ROOT: "/Users/blizzardxu/Desktop/HPP/HPP_Full_Code_With_Models_20261102_v2/experiments/diet_effect_modification_20261109_v12/research_records/2026-11-09_next_step_metadata/fixture_m3fh23_d/studies/hpp_datasets"
+FUNCTION_FILENAME_SCAN: dirs=6 entries=12 errors=0 limited=False max_depth=2
+CANDIDATE: "/Users/blizzardxu/Desktop/HPP/HPP_Full_Code_With_Models_20261102_v2/experiments/diet_effect_modification_20261109_v12/research_records/2026-11-09_next_step_metadata/fixture_m3fh23_d/studies/diet_gut_cgm_v2/project/analysis/shared/pathabundance.tsv"
+CANDIDATE: "/Users/blizzardxu/Desktop/HPP/HPP_Full_Code_With_Models_20261102_v2/experiments/diet_effect_modification_20261109_v12/research_records/2026-11-09_next_step_metadata/fixture_m3fh23_d/studies/hpp_datasets/gut/genefamilies.tsv"
+Date meaning, functional validity and overlap with 3343 people remain UNVERIFIED.
+METADATA_CHECK_DONE

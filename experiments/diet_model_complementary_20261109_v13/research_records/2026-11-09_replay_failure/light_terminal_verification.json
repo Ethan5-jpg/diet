@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "shell_syntax": "PASS",
+  "cases": [
+    "success and repeat: installer, code checks, repair and resume dispatch",
+    "source drift: refused before patch publication",
+    "data drift: original hash retained; unchanged resume gate refuses evaluation"
+  ],
+  "private_checkpoint_unchanged": true,
+  "native_installed_helper_sha256": "9f0a7388f62ccca98e8b9cf21bcf000a5accae4ca6ad3b5acd73dff0b5373be5",
+  "canonical_helper_ast_equal": true,
+  "native_server_executed": false
+}

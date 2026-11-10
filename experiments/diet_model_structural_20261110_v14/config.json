@@ -1,0 +1,456 @@
+{
+  "outcome": "D_Glu",
+  "exposure": "fiber_density",
+  "confirmation_outcomes_read": false,
+  "outer_repeats": 2,
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "outer_seed": 20261104,
+  "contrast": [
+    10,
+    15
+  ],
+  "dependencies": {
+    "numpy": "1.26.4",
+    "scipy": "1.11.4",
+    "pandas": "2.1.0",
+    "pyarrow": "15.0.2",
+    "scikit-learn": "1.4.1.post1",
+    "catboost": "1.2.8",
+    "lightgbm": "3.3.5"
+  },
+  "v11_reference_run": "distribution_v11_20261109",
+  "legacy_members": [
+    "old__hgb_oral_full",
+    "old__cat_balanced_full",
+    "old__block_balanced_full",
+    "old__hgb_host_full",
+    "old__cat_host_full",
+    "old__hgb_balanced_full",
+    "old__cat_oral_full",
+    "old__block_oral_full",
+    "old__block_gut_full",
+    "old__spline_oral_full",
+    "old__spline_balanced_full",
+    "old__svr_oral_full",
+    "old__svr_balanced_full",
+    "old__extra_oral_full",
+    "old__extra_balanced_full",
+    "old__kernel_oral_full",
+    "old__kernel_balanced_full",
+    "old__hurdle_hgb_oral_full",
+    "old__hurdle_hgb_balanced_full",
+    "old__hurdle_cat_balanced_full",
+    "old__eco_cat_balanced_full",
+    "old__block_pc_balanced_full",
+    "old__fiber_gut_linear",
+    "old__fiber_oral_linear",
+    "old__fiber_both_rcs",
+    "old__fiber_gut_tree",
+    "old__fiber_macro",
+    "old__fiber_gut_kernel",
+    "hgb_oral_full",
+    "cat_balanced_full",
+    "hgb_oral_joint",
+    "cat_balanced_joint",
+    "hgb_oral_joint_upf",
+    "cat_balanced_joint_upf",
+    "hgb_oral_shrink_global",
+    "cat_balanced_shrink_global",
+    "hgb_oral_shrink_local",
+    "cat_balanced_shrink_local",
+    "hgb_oral_shrink_uncertainty",
+    "cat_balanced_shrink_uncertainty",
+    "hgb_oral_quality",
+    "cat_balanced_quality",
+    "hgb_oral_covariance",
+    "cat_balanced_covariance",
+    "hgb_oral_rff",
+    "cat_balanced_rff",
+    "hgb_oral_prototype",
+    "cat_balanced_prototype",
+    "hgb_oral_sliced",
+    "cat_balanced_sliced",
+    "hgb_host_joint",
+    "cat_host_joint",
+    "linear_tree_oral_joint",
+    "linear_tree_balanced_joint",
+    "dart_oral_joint",
+    "dart_balanced_joint",
+    "posterior_cat_oral_joint",
+    "posterior_cat_balanced_joint",
+    "huber_cat_oral_joint",
+    "huber_cat_balanced_joint",
+    "bayes_oral_joint",
+    "bayes_balanced_joint",
+    "ard_oral_joint",
+    "ard_balanced_joint",
+    "adaptive_enet_oral_joint",
+    "adaptive_enet_balanced_joint",
+    "spc_hgb_oral_joint",
+    "spc_hgb_balanced_joint",
+    "spc_cat_oral_joint",
+    "spc_cat_balanced_joint",
+    "quadratic_hgb_oral_joint",
+    "quadratic_hgb_balanced_joint",
+    "quadratic_ridge_oral_joint",
+    "quadratic_ridge_balanced_joint",
+    "hgb_balanced_joint",
+    "cat_oral_joint",
+    "block_pc_oral_joint",
+    "block_pc_balanced_joint",
+    "resid_host_hgb",
+    "resid_oral_hgb",
+    "resid_balanced_hgb",
+    "resid_oral_cat",
+    "resid_oral_bayes",
+    "resid_ridge_hgb",
+    "resid_oralbase_oral",
+    "resid_oralbase_balanced",
+    "cfiber_gut",
+    "cfiber_oral",
+    "cfiber_both",
+    "cfiber_macro"
+  ],
+  "meta_penalties": [
+    0.003,
+    0.01,
+    0.1,
+    1
+  ],
+  "sparse_penalties": [
+    0.001,
+    0.01,
+    0.1
+  ],
+  "default_threads": 2,
+  "version": "v14_20261110",
+  "model_seed": 20261114,
+  "v13_reference_run": "complementary_v13_20261109",
+  "prior_members": [
+    "hgb_pc_oral",
+    "hgb_pc_balanced",
+    "cat_pc_oral",
+    "cat_pc_balanced",
+    "mars_pc_oral",
+    "mars_pc_balanced",
+    "gp_pc_oral",
+    "gp_pc_balanced",
+    "hgb_sir_oral",
+    "hgb_sir_balanced",
+    "cat_sir_oral",
+    "cat_sir_balanced",
+    "mars_sir_oral",
+    "mars_sir_balanced",
+    "gp_sir_oral",
+    "gp_sir_balanced",
+    "hgb_save_oral",
+    "hgb_save_balanced",
+    "cat_save_oral",
+    "cat_save_balanced",
+    "mars_save_oral",
+    "mars_save_balanced",
+    "gp_save_oral",
+    "gp_save_balanced",
+    "bin_cat_pc_oral",
+    "bin_cat_pc_balanced",
+    "bin_hgb_pc_oral",
+    "bin_hgb_pc_balanced",
+    "quantile_cat_pc_oral",
+    "quantile_cat_pc_balanced",
+    "bin_cat_save_oral",
+    "bin_cat_save_balanced",
+    "bin_hgb_save_oral",
+    "bin_hgb_save_balanced",
+    "quantile_cat_save_oral",
+    "quantile_cat_save_balanced",
+    "graph_oral",
+    "graph_balanced"
+  ],
+  "families": {
+    "hgb": {
+      "grid": [
+        {
+          "count": 128,
+          "components": 6,
+          "slices": 8,
+          "pre_components": 24,
+          "rff_features": 128,
+          "bandwidth": 1.0,
+          "pilot_penalty": 0.05,
+          "cca_penalty": 0.1,
+          "iterations": 180,
+          "leaves": 7,
+          "leaf": 40,
+          "l2": 30
+        },
+        {
+          "count": 256,
+          "components": 10,
+          "slices": 12,
+          "pre_components": 32,
+          "rff_features": 192,
+          "bandwidth": 0.7,
+          "pilot_penalty": 0.1,
+          "cca_penalty": 0.5,
+          "iterations": 280,
+          "leaves": 15,
+          "leaf": 40,
+          "l2": 30
+        }
+      ]
+    },
+    "cat": {
+      "grid": [
+        {
+          "count": 128,
+          "components": 6,
+          "slices": 8,
+          "pre_components": 24,
+          "rff_features": 128,
+          "bandwidth": 1.0,
+          "pilot_penalty": 0.05,
+          "cca_penalty": 0.1,
+          "iterations": 600,
+          "depth": 4,
+          "l2": 30
+        },
+        {
+          "count": 256,
+          "components": 10,
+          "slices": 12,
+          "pre_components": 32,
+          "rff_features": 192,
+          "bandwidth": 0.7,
+          "pilot_penalty": 0.1,
+          "cca_penalty": 0.5,
+          "iterations": 800,
+          "depth": 6,
+          "l2": 30
+        }
+      ]
+    },
+    "local": {
+      "grid": [
+        {
+          "count": 128,
+          "components": 6,
+          "slices": 8,
+          "pre_components": 24,
+          "rff_features": 128,
+          "bandwidth": 1.0,
+          "pilot_penalty": 0.05,
+          "cca_penalty": 0.1,
+          "neighbors": 80,
+          "penalty": 0.1
+        },
+        {
+          "count": 256,
+          "components": 10,
+          "slices": 12,
+          "pre_components": 32,
+          "rff_features": 192,
+          "bandwidth": 0.7,
+          "pilot_penalty": 0.1,
+          "cca_penalty": 0.5,
+          "neighbors": 160,
+          "penalty": 0.5
+        }
+      ]
+    },
+    "forest_local": {
+      "grid": [
+        {
+          "count": 128,
+          "components": 6,
+          "slices": 8,
+          "pre_components": 24,
+          "rff_features": 128,
+          "bandwidth": 1.0,
+          "pilot_penalty": 0.05,
+          "cca_penalty": 0.1,
+          "trees": 64,
+          "depth": 5,
+          "leaf": 25,
+          "penalty": 0.1
+        },
+        {
+          "count": 256,
+          "components": 10,
+          "slices": 12,
+          "pre_components": 32,
+          "rff_features": 192,
+          "bandwidth": 0.7,
+          "pilot_penalty": 0.1,
+          "cca_penalty": 0.5,
+          "trees": 96,
+          "depth": 7,
+          "leaf": 35,
+          "penalty": 0.5
+        }
+      ]
+    },
+    "ntk": {
+      "grid": [
+        {
+          "count": 128,
+          "components": 6,
+          "slices": 8,
+          "pre_components": 24,
+          "rff_features": 128,
+          "bandwidth": 1.0,
+          "pilot_penalty": 0.05,
+          "cca_penalty": 0.1,
+          "inducing": 96,
+          "layers": 2,
+          "penalty": 0.01
+        },
+        {
+          "count": 256,
+          "components": 10,
+          "slices": 12,
+          "pre_components": 32,
+          "rff_features": 192,
+          "bandwidth": 0.7,
+          "pilot_penalty": 0.1,
+          "cca_penalty": 0.5,
+          "inducing": 192,
+          "layers": 3,
+          "penalty": 0.05
+        }
+      ]
+    },
+    "diffusion": {
+      "grid": [
+        {
+          "count": 128,
+          "components": 6,
+          "slices": 8,
+          "pre_components": 24,
+          "rff_features": 128,
+          "bandwidth": 1.0,
+          "pilot_penalty": 0.05,
+          "cca_penalty": 0.1,
+          "neighbors": 20,
+          "smoothing": 0.5,
+          "trend_penalty": 0.1
+        },
+        {
+          "count": 256,
+          "components": 10,
+          "slices": 12,
+          "pre_components": 32,
+          "rff_features": 192,
+          "bandwidth": 0.7,
+          "pilot_penalty": 0.1,
+          "cca_penalty": 0.5,
+          "neighbors": 40,
+          "smoothing": 2.0,
+          "trend_penalty": 1.0
+        }
+      ]
+    },
+    "svr": {
+      "grid": [
+        {
+          "count": 128,
+          "components": 6,
+          "slices": 8,
+          "pre_components": 24,
+          "rff_features": 128,
+          "bandwidth": 1.0,
+          "pilot_penalty": 0.05,
+          "cca_penalty": 0.1,
+          "C": 1.0,
+          "epsilon": 0.15,
+          "gamma_scale": 1.0
+        },
+        {
+          "count": 256,
+          "components": 10,
+          "slices": 12,
+          "pre_components": 32,
+          "rff_features": 192,
+          "bandwidth": 0.7,
+          "pilot_penalty": 0.1,
+          "cca_penalty": 0.5,
+          "C": 5.0,
+          "epsilon": 0.25,
+          "gamma_scale": 0.5
+        }
+      ]
+    },
+    "rbf_ard": {
+      "grid": [
+        {
+          "count": 128,
+          "components": 6,
+          "slices": 8,
+          "pre_components": 24,
+          "rff_features": 128,
+          "bandwidth": 1.0,
+          "pilot_penalty": 0.05,
+          "cca_penalty": 0.1,
+          "inducing": 64,
+          "length": 1.0,
+          "max_iter": 300
+        },
+        {
+          "count": 256,
+          "components": 10,
+          "slices": 12,
+          "pre_components": 32,
+          "rff_features": 192,
+          "bandwidth": 0.7,
+          "pilot_penalty": 0.1,
+          "cca_penalty": 0.5,
+          "inducing": 128,
+          "length": 1.5,
+          "max_iter": 500
+        }
+      ]
+    }
+  },
+  "nonlinear_meta_grid": {
+    "local": [
+      {
+        "neighbors": 100,
+        "penalty": 0.3,
+        "meta_components": 12
+      },
+      {
+        "neighbors": 180,
+        "penalty": 1.0,
+        "meta_components": 20
+      }
+    ],
+    "ntk": [
+      {
+        "inducing": 96,
+        "layers": 2,
+        "penalty": 0.03,
+        "meta_components": 16
+      },
+      {
+        "inducing": 128,
+        "layers": 3,
+        "penalty": 0.1,
+        "meta_components": 24
+      }
+    ],
+    "rbf_ard": [
+      {
+        "inducing": 48,
+        "length": 1.0,
+        "max_iter": 300,
+        "meta_components": 12
+      },
+      {
+        "inducing": 96,
+        "length": 1.5,
+        "max_iter": 500,
+        "meta_components": 20
+      }
+    ]
+  }
+}

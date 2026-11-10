@@ -1,0 +1,42 @@
+{
+  "source": "User-supplied server terminal screenshot",
+  "screenshot_time": "2026-11-08 13:09:50 Asia/Shanghai (attachment filename)",
+  "module": "diet_model_adaptive_20261108_v9",
+  "proposed_run_id": "adaptive_v9_20261108",
+  "observed_worker_run_id": null,
+  "original_image": "original.png",
+  "original_sha256": "c0a87bfb9b4d6f50eba88c400b19698017e96a55fa91e68a1bd762b89d8e6c6b",
+  "original_copied": true,
+  "upload_check": {
+    "status": "UPLOAD_CHECK_OK",
+    "files": 34
+  },
+  "observed_satisfied_packages": {
+    "numpy": "1.26.4",
+    "scipy": "1.11.4",
+    "pandas": "2.1.0"
+  },
+  "requested_package": "pyarrow==15.0.2",
+  "error_lines": [
+    "WARNING: 401 Error, Credentials not correct for private package index",
+    "ERROR: Could not find a version that satisfies the requirement pyarrow==15.0.2 (from versions: none)",
+    "ERROR: No matching distribution found for pyarrow==15.0.2"
+  ],
+  "shell_prompt_returned": true,
+  "experiment_started": false,
+  "model_scores": [],
+  "previous_v8_terminal_tail": {
+    "repeat": 1,
+    "FM_mean_weight": "0.006694",
+    "FM_max_weight": "0.033468",
+    "flagged": "0/5",
+    "scope": "preceding V8 output; not a V9 result"
+  },
+  "interpretation": "Dependency installation stopped at private-index HTTP 401 authentication; the subsequent launch command did not run.",
+  "resolution": "Use the existing V8 native venv after a pinned-environment check. V8 and V9 requirement files are byte-identical locally. Do not rerun installation for this route.",
+  "limits": [
+    "The screenshot does not identify why the private-index credentials were rejected.",
+    "Existing V8 environment compatibility must be checked on the server.",
+    "No V9 synthetic preflight, worker launch or R2 is shown."
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "configured_workflows": 307,
+  "observed_new_dual_repeat_scores": 98,
+  "duplicate_version_names": 0,
+  "local_links_checked": true,
+  "scientific_results_recomputed": false
+}

@@ -1,0 +1,24 @@
+Observed final excerpt from the complete local post-fix run of python check.py.
+Local macOS ARM64; synthetic inputs only. Earlier test names were streamed separately.
+
+ok
+test_conditional_gate_learns_which_expert_is_useful_in_a_subgroup (test_models.ModelChecks.test_conditional_gate_learns_which_expert_is_useful_in_a_subgroup) ... ok
+test_convex_fusion_recovers_a_known_solution (test_models.ModelChecks.test_convex_fusion_recovers_a_known_solution) ... ok
+test_matched_null_zero_and_native_contrasts_are_exact_after_rank_drop (test_models.ModelChecks.test_matched_null_zero_and_native_contrasts_are_exact_after_rank_drop) ... ok
+test_residual_network_learns_known_nonlinearity (test_models.ModelChecks.test_residual_network_learns_known_nonlinearity) ... ok
+test_softmax_gate_gradient_matches_finite_difference (test_models.ModelChecks.test_softmax_gate_gradient_matches_finite_difference) ... ok
+test_target_inverse_never_uses_validation_targets (test_models.ModelChecks.test_target_inverse_never_uses_validation_targets) ... ok
+test_two_layer_neural_gradient_matches_finite_difference (test_models.ModelChecks.test_two_layer_neural_gradient_matches_finite_difference) ... ok
+test_actual_worker_two_repeat_runtime_resume_and_readonly_reports (test_pipeline.PipelineChecks.test_actual_worker_two_repeat_runtime_resume_and_readonly_reports) ... ok
+test_goal_uses_same_pipeline_both_repeats_and_unrounded_precision (test_pipeline.PipelineChecks.test_goal_uses_same_pipeline_both_repeats_and_unrounded_precision) ... ok
+test_member_warning_reaches_fixed_and_conditional_fusion (test_pipeline.PipelineChecks.test_member_warning_reaches_fixed_and_conditional_fusion) ... ok
+test_negative_scores_partial_batches_and_household_leakage_are_handled (test_pipeline.PipelineChecks.test_negative_scores_partial_batches_and_household_leakage_are_handled) ... ok
+test_outer_features_do_not_change_learned_meta_functions (test_pipeline.PipelineChecks.test_outer_features_do_not_change_learned_meta_functions) ... ok
+test_outer_labels_do_not_change_choices_fusion_or_any_new_prediction (test_pipeline.PipelineChecks.test_outer_labels_do_not_change_choices_fusion_or_any_new_prediction) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 159.812s
+
+OK
+EXPERIMENT_STORAGE_OK
+

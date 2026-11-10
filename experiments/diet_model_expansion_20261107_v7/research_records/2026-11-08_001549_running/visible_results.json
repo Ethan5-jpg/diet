@@ -1,0 +1,142 @@
+{
+  "screenshot_local_time": "2026-11-08 00:15:49 Asia/Shanghai",
+  "log_clock_timezone_explicitly_shown": false,
+  "run_id_expected_from_previous_commands": "main_v7_20261107",
+  "run_id_visible_in_this_screenshot": false,
+  "pyarrow_installed_version": "15.0.2",
+  "base_pheno_pyarrow_1500_not_uninstalled_visible": true,
+  "preflight": {
+    "tests": 26,
+    "passed": 26,
+    "seconds_displayed": 75.756,
+    "status": "OK",
+    "experiment_storage": "OK"
+  },
+  "real_data_training_started_visible": true,
+  "current_outer_tag": "r0_f0",
+  "latest_visible_event": {
+    "log_time": "16:15:42",
+    "event": "START",
+    "model": "factorization_oral",
+    "candidates": 3
+  },
+  "completed_inner_selections_visible": [
+    {
+      "log_time": "16:12:43",
+      "outer_tag": "r0_f0",
+      "model": "lgbm_host",
+      "case": 0,
+      "elapsed_seconds_displayed": 3.4
+    },
+    {
+      "log_time": "16:12:52",
+      "outer_tag": "r0_f0",
+      "model": "lgbm_oral",
+      "case": 0,
+      "elapsed_seconds_displayed": 8.7
+    },
+    {
+      "log_time": "16:13:13",
+      "outer_tag": "r0_f0",
+      "model": "lgbm_gut",
+      "case": 0,
+      "elapsed_seconds_displayed": 21.5
+    },
+    {
+      "log_time": "16:13:41",
+      "outer_tag": "r0_f0",
+      "model": "lgbm_balanced",
+      "case": 0,
+      "elapsed_seconds_displayed": 27.1
+    },
+    {
+      "log_time": "16:14:08",
+      "outer_tag": "r0_f0",
+      "model": "ebm_oral",
+      "case": 0,
+      "elapsed_seconds_displayed": 27.2
+    },
+    {
+      "log_time": "16:14:29",
+      "outer_tag": "r0_f0",
+      "model": "ebm_balanced",
+      "case": 0,
+      "elapsed_seconds_displayed": 21.6
+    },
+    {
+      "log_time": "16:14:36",
+      "outer_tag": "r0_f0",
+      "model": "hgb_hellinger_oral",
+      "case": 0,
+      "elapsed_seconds_displayed": 6.8
+    },
+    {
+      "log_time": "16:14:55",
+      "outer_tag": "r0_f0",
+      "model": "hgb_hellinger_balanced",
+      "case": 0,
+      "elapsed_seconds_displayed": 18.8
+    },
+    {
+      "log_time": "16:15:01",
+      "outer_tag": "r0_f0",
+      "model": "hgb_presence_oral",
+      "case": 0,
+      "elapsed_seconds_displayed": 5.8
+    },
+    {
+      "log_time": "16:15:13",
+      "outer_tag": "r0_f0",
+      "model": "hgb_presence_balanced",
+      "case": 0,
+      "elapsed_seconds_displayed": 12.4
+    },
+    {
+      "log_time": "16:15:16",
+      "outer_tag": "r0_f0",
+      "model": "gam_oral",
+      "case": 1,
+      "elapsed_seconds_displayed": 2.3
+    },
+    {
+      "log_time": "16:15:18",
+      "outer_tag": "r0_f0",
+      "model": "gam_balanced",
+      "case": 0,
+      "elapsed_seconds_displayed": 2.5
+    },
+    {
+      "log_time": "16:15:21",
+      "outer_tag": "r0_f0",
+      "model": "tree_embed_oral",
+      "case": 1,
+      "elapsed_seconds_displayed": 3.1
+    },
+    {
+      "log_time": "16:15:24",
+      "outer_tag": "r0_f0",
+      "model": "tree_embed_balanced",
+      "case": 0,
+      "elapsed_seconds_displayed": 3.3
+    },
+    {
+      "log_time": "16:15:34",
+      "outer_tag": "r0_f0",
+      "model": "pls_svr_oral",
+      "case": 0,
+      "elapsed_seconds_displayed": 9.0
+    },
+    {
+      "log_time": "16:15:42",
+      "outer_tag": "r0_f0",
+      "model": "pls_svr_balanced",
+      "case": 0,
+      "elapsed_seconds_displayed": 8.8
+    }
+  ],
+  "outer_complete_events_visible": 0,
+  "batch_complete_visible": false,
+  "sample_size_visible": false,
+  "real_R2_visible": false,
+  "image_sha256": "551620094950de676a0410e5e6a82eb5538f5ab44d20f1733359fba44512287e"
+}

@@ -1,0 +1,250 @@
+{
+  "source": "Two user-provided screenshots of the same visible V8 report",
+  "time_local": "2026-11-08 11:23:32",
+  "timezone": "Asia/Shanghai",
+  "run_id": "overnight_v8_20261108",
+  "module": "diet_model_overnight_20261108_v8",
+  "images": [
+    {
+      "source_path": "/Users/blizzardxu/Desktop/\u622a\u5c4f2026-11-08 11.23.32.png",
+      "copied_to": "original_1.png",
+      "sha256": "ddbe7191bc5edf8b7dcc43596e397fbfd9e54e7c335eae69e8f3219b968f1388"
+    },
+    {
+      "source_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/codex-clipboard-5c7c5e88-f42b-485f-964a-fe3b9dbc6f4b.png",
+      "copied_to": "original_2.png",
+      "sha256": "d9ce8819726553232862db87315a17b8a9620eea2eeacf164450b122cc50690c"
+    }
+  ],
+  "displayed_status": "V8 COMPLETE",
+  "outer_folds_display": "10/10",
+  "N_by_repeat": [
+    3343,
+    3343
+  ],
+  "pipelines": 55,
+  "last_outer": {
+    "repeat": 1,
+    "fold": 4,
+    "server_clock": "22:02:29",
+    "elapsed_minutes_display": "180.8"
+  },
+  "final_hash_audit_line_visible": true,
+  "literal_BATCH_COMPLETE_not_visible": true,
+  "outcome": "D_Glu",
+  "unit": "mg/dL",
+  "exposure": "fiber_density",
+  "scores_visible": [
+    {
+      "model": "v4_hgb_oral",
+      "R2_display": [
+        "0.110525",
+        "0.107630"
+      ],
+      "delta_vs_v6_display": [
+        "-0.004135",
+        "-0.007557"
+      ],
+      "flag": "-"
+    },
+    {
+      "model": "v4_hgb_oral_gut",
+      "R2_display": [
+        "0.104950",
+        "0.113959"
+      ],
+      "delta_vs_v6_display": [
+        "-0.009710",
+        "-0.001228"
+      ],
+      "flag": "-"
+    },
+    {
+      "model": "v6_fusion",
+      "R2_display": [
+        "0.114660",
+        "0.115187"
+      ],
+      "delta_vs_v6_display": [
+        "+0.000000",
+        "+0.000000"
+      ],
+      "flag": "-"
+    },
+    {
+      "model": "v7_ridge_stack",
+      "R2_display": [
+        "0.112019",
+        "0.119128"
+      ],
+      "delta_vs_v6_display": [
+        "-0.002640",
+        "+0.003941"
+      ],
+      "flag": "-"
+    },
+    {
+      "model": "ridge_joint",
+      "R2_display": [
+        "0.120803",
+        "0.121851"
+      ],
+      "delta_vs_v6_display": [
+        "+0.006143",
+        "+0.006663"
+      ],
+      "flag": "J"
+    },
+    {
+      "model": "ridge_wide",
+      "R2_display": [
+        "0.120396",
+        "0.122745"
+      ],
+      "delta_vs_v6_display": [
+        "+0.005736",
+        "+0.007558"
+      ],
+      "flag": "-"
+    },
+    {
+      "model": "ridge_core",
+      "R2_display": [
+        "0.119314",
+        "0.124576"
+      ],
+      "delta_vs_v6_display": [
+        "+0.004655",
+        "+0.009389"
+      ],
+      "flag": "-"
+    },
+    {
+      "model": "convex_core",
+      "R2_display": [
+        "0.117428",
+        "0.121169"
+      ],
+      "delta_vs_v6_display": [
+        "+0.002768",
+        "+0.005982"
+      ],
+      "flag": "-"
+    },
+    {
+      "model": "convex_with_fm",
+      "R2_display": [
+        "0.117428",
+        "0.121215"
+      ],
+      "delta_vs_v6_display": [
+        "+0.002768",
+        "+0.006028"
+      ],
+      "flag": "-"
+    },
+    {
+      "model": "convex_joint",
+      "R2_display": [
+        "0.117238",
+        "0.121392"
+      ],
+      "delta_vs_v6_display": [
+        "+0.002578",
+        "+0.006205"
+      ],
+      "flag": "J"
+    }
+  ],
+  "explicit_interactions_visible": [
+    {
+      "model": "sparse_diet_oral",
+      "delta_R2_display": [
+        "+0.000000",
+        "+0.000000"
+      ],
+      "improved_folds_display": [
+        "0/5",
+        "0/5"
+      ],
+      "SD_mg_dL_display": [
+        "0.000",
+        "0.000"
+      ],
+      "null_R2_not_shown": true,
+      "selected_zero_weight_counts_not_shown": true
+    },
+    {
+      "model": "sparse_diet_balanced",
+      "delta_R2_display": [
+        "+0.000000",
+        "+0.000000"
+      ],
+      "improved_folds_display": [
+        "0/5",
+        "0/5"
+      ],
+      "SD_mg_dL_display": [
+        "0.000",
+        "0.000"
+      ],
+      "null_R2_not_shown": true,
+      "selected_zero_weight_counts_not_shown": true
+    },
+    {
+      "model": "nmf_diet_oral",
+      "delta_R2_display": [
+        "+0.000000",
+        "+0.000000"
+      ],
+      "improved_folds_display": [
+        "0/5",
+        "0/5"
+      ],
+      "SD_mg_dL_display": [
+        "0.000",
+        "0.000"
+      ],
+      "null_R2_not_shown": true,
+      "selected_zero_weight_counts_not_shown": true
+    },
+    {
+      "model": "nmf_diet_balanced",
+      "delta_R2_display": [
+        "+0.000000",
+        "+0.000000"
+      ],
+      "improved_folds_display": [
+        "0/5",
+        "0/5"
+      ],
+      "SD_mg_dL_display": [
+        "0.000",
+        "0.000"
+      ],
+      "null_R2_not_shown": true,
+      "selected_zero_weight_counts_not_shown": true
+    }
+  ],
+  "with_FM_minus_no_FM_delta_display": [
+    "-0.000000",
+    "+0.000046"
+  ],
+  "both_repeat_goal_counts": {
+    "R2_ge_0.20": "0/55",
+    "R2_ge_0.30": "0/55",
+    "R2_ge_0.20_without_fit_flags": 0,
+    "R2_ge_0.30_without_fit_flags": 0
+  },
+  "joint_minus_wide_derived_from_rounded_R2": [
+    "+0.000407",
+    "-0.000894"
+  ],
+  "limitations": [
+    "Only the default displayed rows are available; hidden atomic-model scores are unknown.",
+    "All metrics are screenshot-rounded; preserve displayed deltas rather than recomputing them from rounded R2.",
+    "Zero displayed interaction gain/SD does not establish every selected case has zero weight; inspect aggregate selection metadata.",
+    "No confidence interval is shown. Repeats share participants and remain discovery development.",
+    "No server system or participant-level object was accessed by the local assistant."
+  ]
+}

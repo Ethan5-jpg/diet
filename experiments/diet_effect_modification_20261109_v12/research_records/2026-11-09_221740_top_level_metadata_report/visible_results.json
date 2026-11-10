@@ -1,0 +1,127 @@
+{
+  "source": "User-supplied server top-level metadata terminal screenshot",
+  "screenshot_filename": "截屏2026-11-09 22.17.40.png",
+  "screenshot_filename_client_time": "2026-11-09 22:17:40 Asia/Shanghai",
+  "source_image_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_hX1PdZ/截屏2026-11-09 22.17.40.png",
+  "original_image": "original.png",
+  "original_copied": true,
+  "original_sha256": "15b15e4cfc06e9ce9356f4f04092c87bf732e1d1c8cd1be1c029320fb5169466",
+  "transcription_whitespace": "Long terminal line wraps and indentation normalized; source field spellings preserved, including familites.",
+  "server_clock_timezone_displayed": null,
+  "processing_fields_displayed": {
+    "oral": [
+      "metaphlan4_aligned_read_count",
+      "metaphlan4_results_tsv",
+      "humann_gene_families_tsv",
+      "humann_gene_familites_gene_level_parquet",
+      "humann_gene_familites_microbe_level_parquet",
+      "humann_pathway_abundance_tsv",
+      "humann_pathway_abundance_pathway_level_parquet",
+      "humann_pathway_abundance_microbe_level_parquet",
+      "humann_pathway_coverage_tsv",
+      "humann_pathway_coverage_pathway_level_parquet"
+    ],
+    "gut": [
+      "metaphlan_abundance_kingdom_parquet",
+      "metaphlan_abundance_phylum_parquet",
+      "metaphlan_abundance_class_parquet",
+      "metaphlan_abundance_order_parquet",
+      "metaphlan_abundance_family_parquet",
+      "metaphlan_abundance_genus_parquet",
+      "metaphlan_abundance_species_parquet",
+      "metaphlan_abundance_strain_parquet",
+      "metaphlan4_results_txt",
+      "wgs_compare_error_total"
+    ]
+  },
+  "additional_processing_fields_not_displayed": {
+    "oral": 16,
+    "gut": 5
+  },
+  "date_field_comments_displayed": {
+    "oral": "UNAVAILABLE",
+    "gut": "UNAVAILABLE"
+  },
+  "top_level_listings_displayed": [
+    {
+      "root": "/home/ec2-user/studies/hpp_datasets",
+      "checked": 39,
+      "limited": false,
+      "matches": [
+        [
+          "DIR",
+          "gut_microbiome"
+        ],
+        [
+          "DIR",
+          "human_genetics"
+        ],
+        [
+          "DIR",
+          "nightingale_metabolomics"
+        ],
+        [
+          "DIR",
+          "oral_microbiome"
+        ]
+      ],
+      "more": 0
+    },
+    {
+      "root": "/home/ec2-user/studies/hpp_datasets/gut_microbiome",
+      "checked": 4,
+      "limited": false,
+      "matches": [
+        [
+          "DIR",
+          "abundance"
+        ],
+        [
+          "FILE",
+          "gut_microbiome.parquet"
+        ]
+      ],
+      "more": 0
+    },
+    {
+      "root": "/home/ec2-user/studies/hpp_datasets/oral_microbiome",
+      "checked": 4,
+      "limited": false,
+      "matches": [
+        [
+          "FILE",
+          "oral_microbiome.parquet"
+        ],
+        [
+          "FILE",
+          "oral_microbiome_2025_04_UUID.parquet"
+        ]
+      ],
+      "more": 0
+    },
+    {
+      "root": "/home/ec2-user/studies/hpp_datasets/gut_microbiome/abundance",
+      "checked": 2,
+      "limited": false,
+      "matches": [],
+      "more": 0
+    }
+  ],
+  "directory_unavailable_displayed": [
+    "/home/ec2-user/studies/hpp_datasets/oral_microbiome/abundance"
+  ],
+  "metadata_toplevel_done_displayed": true,
+  "participant_rows_or_pointer_values_displayed": false,
+  "functional_file_values_or_headers_inspected": false,
+  "limits": [
+    "Oral HUMAnN-related pointer field names are present; nonmissing counts, path resolution, measurements and overlap with 3343 people have not been established.",
+    "Five gut processing fields remain undisplayed; absence of HUMAnN in the displayed first ten is not proof of absent gut functional fields.",
+    "Date column comments were unavailable in Arrow field metadata; this does not establish absence of an external data dictionary.",
+    "An empty MATCHES list in a directory with checked=2 means no keyword matches, not an empty directory.",
+    "DIRECTORY_UNAVAILABLE does not distinguish missing path from permission or other access failure.",
+    "The alternate oral index name containing 2025_04_UUID does not establish a new cohort, valid specimen namespace or replacement eligibility.",
+    "Nightingale metabolomics and human genetics directory names alone do not demonstrate any particular usable measurement or authorize new outcome screening.",
+    "Oral functional profiles cannot be presented as measured gut fermentation capacity.",
+    "No new model, result P value or R2 was produced; V12 findings remain unchanged."
+  ]
+}

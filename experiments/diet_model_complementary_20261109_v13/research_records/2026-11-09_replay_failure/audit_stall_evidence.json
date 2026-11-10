@@ -1,0 +1,9 @@
+{
+  "source": "User screenshot 2026-11-09 22:53:42 Asia/Shanghai",
+  "stopped_at": "apply_replay_fix.py line 80 audit(json.loads(current[1]))",
+  "waiting_at": "storage.sha -> pathlib.open -> io.open",
+  "patch_publication_started": false,
+  "keyboard_interrupt_returned_to_prompt": true,
+  "proposed_change": "Code-only repair checks; preserve all other registration hashes for unchanged strict --resume identity",
+  "underlying_filesystem_cause_confirmed": false
+}

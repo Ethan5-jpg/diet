@@ -1,0 +1,11 @@
+SYNTHETIC ONLY; not real experiment output
+FM QUALITY: outer folds only
+factorization_oral flagged=1/10 optimizer_not_converged=1/10
+  n=1 SYNTHETIC ITERATION LIMIT
+factorization_balanced flagged=1/10 optimizer_not_converged=1/10
+  n=1 SYNTHETIC ITERATION LIMIT
+r0 convex_FM_weights: 0.000000 0.000000 0.000000 0.000000 0.000000
+r0 ridge_FM_rawcoefs: -0.200413 -0.200413 -0.200413 -0.200413 -0.200413
+r1 convex_FM_weights: 0.000000 0.000000 0.000000 0.000000 0.000000
+r1 ridge_FM_rawcoefs: -0.200413 -0.200413 -0.200413 -0.200413 -0.200413
+Model-level diagnostics only; no refitting or individual records printed.

@@ -1,0 +1,12 @@
+{
+  "purpose": "Preserve cumulative V6-V11 report and V13/V14 appendices before coherent V6-V14 update",
+  "date": "2026-11-10",
+  "sha256": {
+    "summary.md": "d8c6e8e998425d0a334935e3ec613fbba9f25e156e5651f573138d977f481da0",
+    "model_inventory.md": "d23395af3f432de333fd7f5d05c69b35f487c1a5e6d0bd7937493a10449b83a0",
+    "README.md": "fdf373fab38e3eb58d2fa77481388467c7e3cb84bf418f1add8d9c018ed4e2ad",
+    "evidence_inventory.json": "6c78b41197a5be4c9c9dcd6c2b0af36fe982b057e8a407679b23354b8798f568",
+    "validation.json": "8eef5ab8ed1f3590fdf786d72a114d44aa1b834566e09782ec7a2742c9f62fbc",
+    "handoff_status.json": "7756dff66ae939658cbdc59e3aad51e793bca862075a2cec48263e4428412eb0"
+  }
+}

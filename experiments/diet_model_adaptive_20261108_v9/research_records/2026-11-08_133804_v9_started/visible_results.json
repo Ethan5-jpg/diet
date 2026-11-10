@@ -1,0 +1,114 @@
+{
+  "source": "User-supplied server terminal screenshot",
+  "screenshot_time": "2026-11-08 13:38:04 Asia/Shanghai (attachment filename)",
+  "log_time_zone": "not displayed; preserve terminal clock values as shown",
+  "module": "diet_model_adaptive_20261108_v9",
+  "run_id": "adaptive_v9_20261108",
+  "original_image": "original.png",
+  "original_copied": true,
+  "original_sha256": "c01ed3720661144b3aa7babc0e233c5939ca31d83886298e90a0a2e81ce90389",
+  "interpreter": "/home/ec2-user/.venvs/hpp_v8_20261108/bin/python",
+  "threads": 4,
+  "portability_fix": {
+    "status": "PORTABILITY_FIX_OK",
+    "files": 34
+  },
+  "upload_check": {
+    "status": "UPLOAD_CHECK_OK",
+    "files": 34
+  },
+  "server_synthetic_preflight": {
+    "tests_run": 32,
+    "seconds": 439.197,
+    "status": "OK",
+    "experiment_storage": "EXPERIMENT_STORAGE_OK"
+  },
+  "worker": {
+    "pid": 3724,
+    "stage": "running_first_outer_fold_inner_selection",
+    "repeat": 0,
+    "fold": 0
+  },
+  "food_context": {
+    "people_with_three_days": 3735,
+    "features": 13,
+    "daily_outcomes_read": false,
+    "count_scope": "discovery food coverage; not final model evaluation N"
+  },
+  "stages": [
+    {
+      "time": "05:35:53",
+      "event": "LOAD discovery inputs and completed V6/V7/V8 evaluation references"
+    },
+    {
+      "time": "05:36:03",
+      "event": "FOOD_CONTEXT people_with_three_days=3735 features=13; no daily outcomes read"
+    },
+    {
+      "time": "05:36:03",
+      "event": "HASH sources, inputs and references; no confirmation data"
+    },
+    {
+      "time": "05:36:05",
+      "event": "START",
+      "outer": "r0_f0",
+      "model": "anchor_hgb_oral",
+      "candidates": 3
+    },
+    {
+      "time": "05:36:16",
+      "event": "SELECT",
+      "outer": "r0_f0",
+      "model": "anchor_hgb_oral",
+      "case": 0,
+      "elapsed_seconds": "10.7"
+    },
+    {
+      "time": "05:36:16",
+      "event": "START",
+      "outer": "r0_f0",
+      "model": "anchor_hgb_balanced",
+      "candidates": 3
+    },
+    {
+      "time": "05:36:45",
+      "event": "SELECT",
+      "outer": "r0_f0",
+      "model": "anchor_hgb_balanced",
+      "case": 0,
+      "elapsed_seconds": "29.2"
+    },
+    {
+      "time": "05:36:45",
+      "event": "START",
+      "outer": "r0_f0",
+      "model": "anchor_cat_oral",
+      "candidates": 3
+    },
+    {
+      "time": "05:37:14",
+      "event": "SELECT",
+      "outer": "r0_f0",
+      "model": "anchor_cat_oral",
+      "case": 2,
+      "elapsed_seconds": "28.9"
+    },
+    {
+      "time": "05:37:14",
+      "event": "START",
+      "outer": "r0_f0",
+      "model": "anchor_cat_balanced",
+      "candidates": 3
+    }
+  ],
+  "completed_outer_folds_shown": 0,
+  "batch_complete_shown": false,
+  "model_scores": [],
+  "interpretation": "The portability fix and all server synthetic checks passed. Real-data V9 loading and multiple candidate selections have progressed. The latest visible stage is anchor_cat_balanced selection within r0_f0.",
+  "limits": [
+    "Status is observed at the screenshot time; it is not continuous monitoring.",
+    "SELECT means an inner candidate was selected, not that an entire outer fold or final model evaluation completed.",
+    "No V9 pooled R2 or real-data gain is available yet."
+  ],
+  "supersedes_status": "2026-11-08_132007_v9_preflight_missing_helper"
+}

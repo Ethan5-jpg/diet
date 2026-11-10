@@ -1,0 +1,36 @@
+{
+  "source": "User-supplied native server functional pilot startup failure screenshot",
+  "screenshot_filename": "截屏2026-11-10 02.01.50.png",
+  "screenshot_filename_client_time": "2026-11-10 02:01:50 Asia/Shanghai",
+  "source_image_path": "/Users/blizzardxu/Desktop/截屏2026-11-10 02.01.50.png",
+  "original_image": "original.png",
+  "original_copied": true,
+  "original_sha256": "770ddf467e9ef3a0bfedaf84685f59d0bd18a07640e4854f05df3b0060fcf1b5",
+  "transcription_whitespace": "Traceback caret indicators omitted; line text and values preserved; top shell terminator partially cropped.",
+  "startup": {
+    "installer_ready": true,
+    "module_upload_files": 13,
+    "synthetic_checks_passed": 35,
+    "source_ready": true,
+    "functional_people": 3337,
+    "original_people": 3343
+  },
+  "failure": {
+    "exception": "OSError",
+    "errno": 95,
+    "message": "Operation not supported",
+    "phase": "Initial cohort_flags NPZ serialization before outer model loop",
+    "numpy_call": "np.savez_compressed(str(temporary), **arrays)",
+    "failing_operation": "self._fileobj.seek(self._zipfile.start_dir)",
+    "secondary_finalizer_error": true
+  },
+  "model_fit_started": false,
+  "scientific_model_results_obtained": false,
+  "limits": [
+    "The screenshot shows failure before the first outer/inner model log in the delivered implementation; no effect estimate or model score was obtained.",
+    "Source readiness and the 35 synthetic checks succeeded on the native server, but direct compressed archive writing required unsupported file operations.",
+    "The underlying filesystem type, mount implementation, region and network are not diagnosed by this screenshot.",
+    "The registered run and lock may remain, and the temporary NPZ may be incomplete; their native existence/content must be checked by the repair command rather than inferred as inspected.",
+    "All participant information remains in TRE. No source rows, Y values or native files were downloaded."
+  ]
+}

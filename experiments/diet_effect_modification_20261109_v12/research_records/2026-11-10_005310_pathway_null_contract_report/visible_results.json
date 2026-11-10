@@ -1,0 +1,271 @@
+{
+  "source": "User-supplied server pathway-null contract diagnostic screenshot",
+  "screenshot_filename": "截屏2026-11-10 00.53.10.png",
+  "screenshot_filename_client_time": "2026-11-10 00:53:10 Asia/Shanghai",
+  "source_image_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_HnpJVZ/截屏2026-11-10 00.53.10.png",
+  "original_image": "original.png",
+  "original_copied": true,
+  "original_sha256": "95d96e3ebdafcbb885a8905130cca7f7c16b2dc7ddecd6c9b275172fdde1f7e3",
+  "transcription_whitespace": "Indentation and shell prompt spacing normalized; repeated feasibility lines and all additional diagnostic lines preserved.",
+  "frozen_membership": {
+    "discovery_rows": 4427,
+    "fixed_people": 3343,
+    "households": 3059,
+    "same_two_repeat_mask": true,
+    "discovery_input_sha_verified": true
+  },
+  "locked_source_records": {
+    "registry_sha_verified": true,
+    "source_record_verified": 3343
+  },
+  "tables": {
+    "abundance": {
+      "source_metadata": {
+        "shared_unique_people": 8816,
+        "cohort_equal": 8816,
+        "array_equal": 8816,
+        "calendar_date_equal": 8816,
+        "timestamp_equal": 8816,
+        "source_record_metadata_compatible": 8816
+      },
+      "fixed_link": {
+        "target": 3343,
+        "linked": 3343,
+        "source_record_metadata_agree": 3343
+      },
+      "feature_schema": {
+        "numeric_total": 487,
+        "special_totals_excluded": 2,
+        "candidate_columns": 485,
+        "annotation_and_units_pending": true
+      },
+      "qc_cells": {
+        "cells": 1621355,
+        "arrow_null": 1050518,
+        "nonnull_nan": 0,
+        "inf": 0,
+        "negative": 0,
+        "gt1": 570823,
+        "min_med_p99_max": [
+          0.04921947792172432,
+          91.0246810913086,
+          3617.21142578125,
+          38009.83203125
+        ],
+        "units_unverified": true
+      },
+      "qc_profiles": {
+        "fixed_people": 3343,
+        "no_finite": 6,
+        "no_positive_observed": 6,
+        "all_observed_zero": 0,
+        "constant_observed_features": 19,
+        "all_missing_features": 11,
+        "positive_fields_q10_50_90": [
+          87.20000000000005,
+          178.0,
+          245.0
+        ]
+      }
+    },
+    "coverage": {
+      "source_metadata": {
+        "shared_unique_people": 8816,
+        "cohort_equal": 8816,
+        "array_equal": 8816,
+        "calendar_date_equal": 8816,
+        "timestamp_equal": 8816,
+        "source_record_metadata_compatible": 8816
+      },
+      "fixed_link": {
+        "target": 3343,
+        "linked": 3343,
+        "source_record_metadata_agree": 3343
+      },
+      "feature_schema": {
+        "numeric_total": 487,
+        "special_totals_excluded": 2,
+        "candidate_columns": 485,
+        "annotation_and_units_pending": true
+      },
+      "qc_cells": {
+        "cells": 1621355,
+        "arrow_null": 1050518,
+        "nonnull_nan": 0,
+        "inf": 0,
+        "negative": 0,
+        "gt1": 0,
+        "min_med_p99_max": [
+          0.0,
+          1.8107999721905799e-06,
+          1.0,
+          1.0
+        ],
+        "units_unverified": true
+      },
+      "qc_profiles": {
+        "fixed_people": 3343,
+        "no_finite": 6,
+        "no_positive_observed": 6,
+        "all_observed_zero": 0,
+        "constant_observed_features": 92,
+        "all_missing_features": 11,
+        "positive_fields_q10_50_90": [
+          73.0,
+          93.0,
+          136.0
+        ]
+      }
+    }
+  },
+  "pair": {
+    "feature_label_sets_equal": true,
+    "fixed_people": 3343,
+    "common_finite_cells": 570837,
+    "exact_equal_common_finite_cells": 0
+  },
+  "done_displayed": true,
+  "derived_arithmetic": {
+    "finite_cells_per_table": 570837,
+    "arrow_null_fraction": 0.6479259631604429,
+    "nonempty_profiles": 3337,
+    "features_with_any_finite_value": 474,
+    "finite_and_null_masks_equal_inferred": true,
+    "inference_reason": "Each table has 570837 finite cells, all other non-null nonfinite categories are zero, and their aligned finite-cell intersection is 570837; hence finite and Arrow-null masks coincide.",
+    "finite_and_null_masks_equal_directly_displayed": true
+  },
+  "limits": [
+    "All repeated feasibility and numerical QC displayed values match the prior 00:37 report; no new association model was fitted.",
+    "Arrow-null mask equality is now directly reported, not merely inferred from aggregate finite totals.",
+    "All six entirely-null candidate profiles have finite abundance special totals equal to zero and coverage special totals equal to one, compatible with HUMAnN 3.6 output conventions; this is not proof of successful full processing, usable biological zero profiles or QC passing.",
+    "Positive raw and MetaPhlAn-aligned read counts for six people establish presence of reads, not adequate depth, HUMAnN-aligned reads or contaminant-free measurements. No read values, cutoffs or per-person details were shown.",
+    "All four individual-file pointer columns are nonempty for the six people; no individual files were fetched and availability is not independently established.",
+    "No explicit standard units/normalization metadata entries were found in inspected schema/field keys. Units may be defined elsewhere; absence of inspected entries does not establish native units.",
+    "The pipeline omission rule and paired masks support a non-reporting interpretation for partial nulls, but the HPP aggregation contract remains an analysis assumption, not a certified fact.",
+    "No filling, filtering, rescaling, outcome association, P value or model score was produced."
+  ],
+  "pathway_null_contract_done_displayed": true,
+  "null_storage": {
+    "arrow_null_masks_equal": true,
+    "whole_candidate_null_in_either_table": 6,
+    "with_paired_finite_candidates": 3337,
+    "other_profiles_without_paired_finite": 0,
+    "coverage_explicit_zero_cells": 246687,
+    "coverage_zero_with_positive_abundance_cells": 246687
+  },
+  "scale_metadata": {
+    "abundance": {
+      "explicit_entries": 0,
+      "recognized": {},
+      "unrecognized_entries": 0
+    },
+    "coverage": {
+      "explicit_entries": 0,
+      "recognized": {},
+      "unrecognized_entries": 0
+    }
+  },
+  "special_status": {
+    "abundance": {
+      "special_columns": 2,
+      "fixed_rows_all_special_finite": 3343,
+      "populated_rows_all_special_finite": 3337,
+      "blank_rows_all_special_finite": 6,
+      "blank_rows_all_special_zero": 6,
+      "blank_rows_all_special_one": 0
+    },
+    "coverage": {
+      "special_columns": 2,
+      "fixed_rows_all_special_finite": 3343,
+      "populated_rows_all_special_finite": 3337,
+      "blank_rows_all_special_finite": 6,
+      "blank_rows_all_special_zero": 0,
+      "blank_rows_all_special_one": 6
+    }
+  },
+  "blank_special": {
+    "abundance": {
+      "UNINTEGRATED": {
+        "group_n": 6,
+        "finite": 6,
+        "missing_or_nonfinite": 0,
+        "positive": 0,
+        "zero": 6,
+        "one": 0,
+        "negative": 0
+      },
+      "UNMAPPED": {
+        "group_n": 6,
+        "finite": 6,
+        "missing_or_nonfinite": 0,
+        "positive": 0,
+        "zero": 6,
+        "one": 0,
+        "negative": 0
+      }
+    },
+    "coverage": {
+      "UNINTEGRATED": {
+        "group_n": 6,
+        "finite": 6,
+        "missing_or_nonfinite": 0,
+        "positive": 6,
+        "zero": 0,
+        "one": 6,
+        "negative": 0
+      },
+      "UNMAPPED": {
+        "group_n": 6,
+        "finite": 6,
+        "missing_or_nonfinite": 0,
+        "positive": 6,
+        "zero": 0,
+        "one": 6,
+        "negative": 0
+      }
+    }
+  },
+  "blank_source_qc": {
+    "group_n": 6,
+    "available_technical_fields": [
+      "raw_read_count",
+      "metaphlan4_aligned_read_count"
+    ],
+    "read_qc": {
+      "raw_read_count": {
+        "finite_numeric": 6,
+        "positive": 6,
+        "zero": 0,
+        "negative": 0
+      },
+      "metaphlan4_aligned_read_count": {
+        "finite_numeric": 6,
+        "positive": 6,
+        "zero": 0,
+        "negative": 0
+      }
+    },
+    "pointers": {
+      "humann_pathway_abundance_tsv": {
+        "nonempty": 6,
+        "denominator": 6,
+        "file_access_attempted": false
+      },
+      "humann_pathway_coverage_tsv": {
+        "nonempty": 6,
+        "denominator": 6,
+        "file_access_attempted": false
+      },
+      "humann_pathway_abundance_pathway_level_parquet": {
+        "nonempty": 6,
+        "denominator": 6,
+        "file_access_attempted": false
+      },
+      "humann_pathway_coverage_pathway_level_parquet": {
+        "nonempty": 6,
+        "denominator": 6,
+        "file_access_attempted": false
+      }
+    }
+  }
+}

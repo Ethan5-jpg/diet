@@ -1,0 +1,19 @@
+11:11:47 FINISHED r1_f4 people=684 support=80.4%
+11:11:48 OUTER_COMPLETE r1 f4
+11:11:48 FINAL_SOURCE_INPUT_AUDIT
+DISCOVERY_SERVER | V12 fiber_density -> D_Glu (mg/dL) | N=3343 HH=3059
+PRIMARY: joint linear fiber x [oral/gut Shannon, dominance]; repeat 0
+Repeat 1 is split sensitivity on the SAME people.
+repeat=0 PRIMARY_global_p=0.3769 diagnostic_joint_p=0.0560 oral_Holm=0.3769 gut_Holm=0.3769
+repeat=1 PRIMARY_global_p=0.1278 diagnostic_joint_p=0.0700 oral_Holm=0.1278 gut_Holm=0.3010
+Effective HH minimum across four coordinates: r0=428.7 r1=511.7 (diagnostic, not df)
+10->15 fiber contrast: modifier Q75 minus Q25, other terms held equal
+marker                  diff0           family95%CI0     diff1     Holm0
+oral_shannon           +0.629 [   -1.151,   +2.408]     1.561    0.7544
+oral_dominance         +1.185 [   -0.584,   +2.954]     1.495    0.3769
+gut_shannon            +1.065 [   -0.703,   +2.832]     1.035    0.3970
+gut_dominance          +0.511 [   -1.044,   +2.066]     0.585    0.7544
+Primary global: Bonferroni union; joint Wald/multiplier is diagnostic only.
+Shown CIs: four-marker Bonferroni family 95%; pointwise CIs stay in summary.json.
+Follow-ups after primary test; no causal or historical search correction.
+PERSON-LEVEL ASSOCIATIONS; sample-calendar meaning unverified; no meal/causal response.

@@ -1,0 +1,26 @@
+{
+  "checked_on": "2026-11-10",
+  "sources": [
+    {
+      "url": "https://knowledgebase.pheno.ai/datasets/070-oral_microbiome.html",
+      "used_for": "Provider documents HUMAnN 3.6 aggregate Arrow primary inputs; no local aggregation-null contract inferred."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/biobakery/humann/3.6/readme.md",
+      "version": "3.6",
+      "used_for": "Zero-abundance pathway omission; coverage is detection-confidence information; same reporting order; special totals do not have meaningful pathway coverage."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/biobakery/humann/3.6/humann/quantify/modules.py",
+      "version": "3.6",
+      "used_for": "Coverage special values explicitly set to one; abundance special values use a compression constant which can be zero."
+    },
+    {
+      "url": "https://phenoai.github.io/pheno-utils/pheno_loader.html",
+      "used_for": "Targeted fillna text lookup had no match; not treated as evidence that aggregation never fills values."
+    }
+  ],
+  "no_secondary_source_claims_used": true,
+  "local_schema_units_or_null_semantics_certified": false,
+  "native_individual_files_or_S3_fetched": false
+}

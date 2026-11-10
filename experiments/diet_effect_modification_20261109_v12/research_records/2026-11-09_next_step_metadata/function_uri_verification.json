@@ -1,0 +1,22 @@
+{
+  "scope": "SYNTHETIC_LOCAL_FILE_URI_FIXTURES_ONLY",
+  "native_data_read_locally": false,
+  "cloud_access_tested": false,
+  "checks_passed": [
+    "bash_syntax",
+    "file_URI_footer_regression",
+    "three_footer_maximum",
+    "source_spelling_preserved",
+    "no_rows_paths_or_column_IDs_printed",
+    "no_files_written",
+    "unsupported_scheme_not_fetched",
+    "credential_bearing_URI_options_not_attempted",
+    "outside_local_path_blocked",
+    "missing_and_corrupt_files_do_not_expose_exception_text",
+    "safe_error_categories",
+    "missing_index_explicit",
+    "new_screenshot_hash_verified",
+    "frozen_51_file_manifest_unchanged"
+  ],
+  "script_sha256": "dd59badff6c141ad300f8e2d19cba90e81166a2d5b956f0a11c1e97864c707b2"
+}

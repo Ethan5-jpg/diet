@@ -1,0 +1,39 @@
+SYNTHETIC ONLY; NOT HPP RESULTS
+
+FIXED_PATHWAY_FEASIBILITY: TRE-only linkage and descriptive QC; old outcome availability only for fixed membership; no outcome summaries, models or writes.
+FROZEN_MEMBERSHIP discovery_rows=5 fixed_people=3 households=2 same_two_repeat_mask=True discovery_input_sha_verified=True
+LOCKED_SOURCE_RECORDS registry_sha_verified=True reasons={"source_record_verified": 3}
+TABLE abundance
+  SOURCE_METADATA shared_unique_people=5 cohort_equal=5 array_equal=5 calendar_date_equal=5 timestamp_equal=5 source_record_metadata_compatible=5
+  FIXED_LINK target=3 linked=3 reasons={"source_record_metadata_agree": 3}
+  FEATURE_SCHEMA numeric_total=5 special_totals_excluded=2 candidate_columns=3 annotation_and_units_pending=True
+TABLE coverage
+  SOURCE_METADATA shared_unique_people=5 cohort_equal=5 array_equal=5 calendar_date_equal=5 timestamp_equal=5 source_record_metadata_compatible=5
+  FIXED_LINK target=3 linked=3 reasons={"source_record_metadata_agree": 3}
+  FEATURE_SCHEMA numeric_total=5 special_totals_excluded=2 candidate_columns=3 annotation_and_units_pending=True
+PAIR_FEATURE_LABEL_SETS_EQUAL=True
+DESCRIPTIVE_QC: all fixed people passed source-record metadata checks; missing cells are retained.
+  QC_CELLS abundance cells=9 arrow_null=1 nonnull_nan=1 inf=0 negative=0 gt1=3 min_med_p99_max=[0.0, 1.0, 3.9399999999999995, 4.0] units_unverified=True
+  QC_PROFILES abundance fixed_people=3 no_finite=0 no_positive_observed=0 all_observed_zero=0 constant_observed_features=2 all_missing_features=0 positive_fields_q10_50_90=[1.0, 1.0, 1.8]
+  QC_CELLS coverage cells=9 arrow_null=0 nonnull_nan=0 inf=0 negative=0 gt1=0 min_med_p99_max=[0.0, 0.2, 0.392, 0.4] units_unverified=True
+  QC_PROFILES coverage fixed_people=3 no_finite=0 no_positive_observed=0 all_observed_zero=0 constant_observed_features=1 all_missing_features=0 positive_fields_q10_50_90=[2.0, 2.0, 2.0]
+PAIR_NUMERIC fixed_people=3 common_finite_cells=7 exact_equal_common_finite_cells=3
+Source-record agreement is not independent native-file specimen validation, verified units, causal timing or a new scientific effect.
+FIXED_PATHWAY_FEASIBILITY_DONE
+
+SYNTHETIC DATE-MISMATCH CASE
+FIXED_PATHWAY_FEASIBILITY: TRE-only linkage and descriptive QC; old outcome availability only for fixed membership; no outcome summaries, models or writes.
+FROZEN_MEMBERSHIP discovery_rows=5 fixed_people=3 households=2 same_two_repeat_mask=True discovery_input_sha_verified=True
+LOCKED_SOURCE_RECORDS registry_sha_verified=True reasons={"source_record_verified": 3}
+TABLE abundance
+  SOURCE_METADATA shared_unique_people=5 cohort_equal=5 array_equal=5 calendar_date_equal=4 timestamp_equal=4 source_record_metadata_compatible=4
+  FIXED_LINK target=3 linked=2 reasons={"function_metadata_conflict_or_date_missing": 1, "source_record_metadata_agree": 2}
+  FEATURE_SCHEMA numeric_total=5 special_totals_excluded=2 candidate_columns=3 annotation_and_units_pending=True
+TABLE coverage
+  SOURCE_METADATA shared_unique_people=5 cohort_equal=5 array_equal=5 calendar_date_equal=5 timestamp_equal=5 source_record_metadata_compatible=5
+  FIXED_LINK target=3 linked=3 reasons={"source_record_metadata_agree": 3}
+  FEATURE_SCHEMA numeric_total=5 special_totals_excluded=2 candidate_columns=3 annotation_and_units_pending=True
+PAIR_FEATURE_LABEL_SETS_EQUAL=True
+QC_SKIPPED: complete fixed-population source-record linkage not established; no subset replacement.
+Source-record agreement is not independent native-file specimen validation, verified units, causal timing or a new scientific effect.
+FIXED_PATHWAY_FEASIBILITY_DONE

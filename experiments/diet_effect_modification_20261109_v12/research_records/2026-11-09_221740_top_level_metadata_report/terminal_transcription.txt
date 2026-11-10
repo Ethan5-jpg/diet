@@ -1,0 +1,17 @@
+METADATA_TOPLEVEL_ONLY: no recursion, participant rows, outcomes or writes.
+PROCESSING_FIELDS oral ["metaphlan4_aligned_read_count", "metaphlan4_results_tsv", "humann_gene_families_tsv", "humann_gene_familites_gene_level_parquet", "humann_gene_familites_microbe_level_parquet", "humann_pathway_abundance_tsv", "humann_pathway_abundance_pathway_level_parquet", "humann_pathway_abundance_microbe_level_parquet", "humann_pathway_coverage_tsv", "humann_pathway_coverage_pathway_level_parquet"] more=16
+DATE_FIELD_COMMENTS oral UNAVAILABLE
+PROCESSING_FIELDS gut ["metaphlan_abundance_kingdom_parquet", "metaphlan_abundance_phylum_parquet", "metaphlan_abundance_class_parquet", "metaphlan_abundance_order_parquet", "metaphlan_abundance_family_parquet", "metaphlan_abundance_genus_parquet", "metaphlan_abundance_species_parquet", "metaphlan_abundance_strain_parquet", "metaphlan4_results_txt", "wgs_compare_error_total"] more=5
+DATE_FIELD_COMMENTS gut UNAVAILABLE
+TOPLEVEL /home/ec2-user/studies/hpp_datasets checked=39 limited=False
+  MATCHES [["DIR", "gut_microbiome"], ["DIR", "human_genetics"], ["DIR", "nightingale_metabolomics"], ["DIR", "oral_microbiome"]] more=0
+TOPLEVEL /home/ec2-user/studies/hpp_datasets/gut_microbiome checked=4 limited=False
+  MATCHES [["DIR", "abundance"], ["FILE", "gut_microbiome.parquet"]] more=0
+TOPLEVEL /home/ec2-user/studies/hpp_datasets/oral_microbiome checked=4 limited=False
+  MATCHES [["FILE", "oral_microbiome.parquet"], ["FILE", "oral_microbiome_2025_04_UUID.parquet"]] more=0
+TOPLEVEL /home/ec2-user/studies/hpp_datasets/gut_microbiome/abundance checked=2 limited=False
+  MATCHES [] more=0
+DIRECTORY_UNAVAILABLE /home/ec2-user/studies/hpp_datasets/oral_microbiome/abundance
+Names and pointer fields do not establish functional measurements or participant overlap.
+METADATA_TOPLEVEL_DONE
+(pheno) [ec2-user@ip-10-0-71-168 diet_effect_modification_20261109_v12]$

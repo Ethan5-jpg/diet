@@ -1,0 +1,52 @@
+V7 COMPLETE | fiber density -> D_Glu (mg/dL) | 10/10 outer folds
+
+N@=3343 N1=3343 | 30 new pipelines | household-grouped CV
+
+model R2_0 R21 dv6_0 dv6_1 flag
+
+v4_hgb_oral 0.110525 0.107630 -0.004135 -0.007557  -
+
+v4_hgb_oral_gut 9.104950 @.113959 -0.009710 -0.001228  -
+
+v6_fusion 0.114660 9.115187 +0.000000 +0.000000 = -
+
+ridge_stack 0.112019 9.119128 -0.002640 +0.003941 -
+
+convex_blend 0.111562 0.117443 -0.003098 +0.002256  -
+
+hgb_presence oral 0.109854 9.109388 -0.004806 -0.005799  -
+
+hgb_hellinger_balanced 0.109145 9.117441 -0.005514 +0.002253 -
+
+hgb_presence_balanced 0.108174 0.107352 -0.006486 -0.007836  -
+
+inner_selector 0.103860 9.108123 -0.010800 -0.007064  -
+
+ebm_balanced 0.064024 0.070517 -0.050635 -0.044670  -
+
+additive boost 0.104149 9.111701 -0.010511 -0.003486  -
+
+EXPLICIT INTERACTION: delta vs matched null (not vs V6)
+
+model dR2_0 dk2.1 wins wins1 spo spl
+
+ebm _diet_gut +0.000000 +0.000000 0/5 6/5 0.0000 + 0.0000
+null=ebm balanced; active=0/5,0/5
+
+additive _pc_interaction +0.001197 -0.002368 3/5. 1/5. 0.6437 «0.7521
+null=additive boost; active=3/5,4/5
+
+additive gate interaction  -0.000080 +0.000128 1/5 3/5. 0.3525 «0.2531
+null=additive boost; active=3/5,4/5
+
+Same pipeline passes both repeats: R2>=0.20 0/30; R2>=0.30 0/30
+
+W-fit warning or FM iteration limit; full details retained in summary. json.
+
+Ranking is exploratory. Repeats share participants. No confirmation data read.
+
+Full results: summary. json; private checkpoints/models: TRE_ONLY/.
+
+17:01:49 BATCH COMPLETE
+
+(pheno) [ec2-user@ip-10-0-71-168 diet_model_expansion 20261107 v7]$

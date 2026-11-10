@@ -1,0 +1,133 @@
+{
+  "evidence_source": "SYNTHETIC_CALIBRATION_ONLY",
+  "seed": 20261112,
+  "n_per_replication": 1200,
+  "household_size": 2,
+  "score_draws": 399,
+  "scenarios": {
+    "strong_main_effects_only": {
+      "repetitions": 1000,
+      "available": 1000,
+      "rejection_rate": 0.034,
+      "rejection_rate_mc95": [
+        0.024431348663226313,
+        0.04713519024531107
+      ],
+      "coverage": [
+        0.95,
+        0.945,
+        0.946,
+        0.963
+      ],
+      "mean_estimate": [
+        -0.002856851263346988,
+        0.0019314338260282369,
+        0.0004524081966145963,
+        0.0006300475482317755
+      ],
+      "diagnostic_joint_rejection_rate": 0.056,
+      "true_theta": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "deliberately_misspecified": false
+    },
+    "nonlinear_correlated_main_effects_only": {
+      "repetitions": 1000,
+      "available": 1000,
+      "rejection_rate": 0.039,
+      "rejection_rate_mc95": [
+        0.02865896090418048,
+        0.05286931041950135
+      ],
+      "coverage": [
+        0.952,
+        0.949,
+        0.942,
+        0.937
+      ],
+      "mean_estimate": [
+        -0.003011500962058125,
+        0.0004157573101798683,
+        0.0008204293271370832,
+        -0.0027416764117463473
+      ],
+      "diagnostic_joint_rejection_rate": 0.073,
+      "true_theta": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "deliberately_misspecified": false
+    },
+    "known_interaction": {
+      "repetitions": 1000,
+      "available": 1000,
+      "rejection_rate": 1.0,
+      "rejection_rate_mc95": [
+        0.9961732415144449,
+        1.0
+      ],
+      "coverage": [
+        0.941,
+        0.949,
+        0.951,
+        0.939
+      ],
+      "mean_estimate": [
+        0.8015330844336799,
+        -0.6994744468672138,
+        -0.0011444036668327127,
+        0.00042895683431842227
+      ],
+      "diagnostic_joint_rejection_rate": 1.0,
+      "true_theta": [
+        0.8,
+        -0.7,
+        0.0,
+        0.0
+      ],
+      "deliberately_misspecified": false
+    },
+    "omitted_background_assumption_stress": {
+      "repetitions": 1000,
+      "available": 1000,
+      "rejection_rate": 0.106,
+      "rejection_rate_mc95": [
+        0.08840506686305155,
+        0.12661041882356588
+      ],
+      "coverage": [
+        0.798,
+        0.932,
+        0.933,
+        0.952
+      ],
+      "mean_estimate": [
+        0.14861017931753498,
+        0.0003043135084498112,
+        0.0025368732347896524,
+        -0.0028062048915654604
+      ],
+      "diagnostic_joint_rejection_rate": 0.151,
+      "true_theta": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "deliberately_misspecified": true
+    }
+  },
+  "limitations": "Fixed finite-basis simulation, not a proof for all nuisance errors, learned PCs, heavy tails or historical discovery selection. Omitted-background case deliberately violates approximation assumptions.",
+  "native_participant_inputs_read": false,
+  "source_sha256": {
+    "features.py": "c4bd4fe9a1e3876b380746904ec8186ab47ee15b58abc61f2d63583bb1539beb",
+    "inference.py": "8a5296e4609d9e67f0e70dae6c4883eaa181311912af5d08f5cf1cf05ae2ce30",
+    "calibrate.py": "7c8b8179691f653e558601ab6d9c6c55ed7a4f2d027434e4baee4159d1b7f1cc",
+    "synthetic.py": "9e5734109af5c5b7c7a5b9502aaa6f870bf4ffdefd601d0aaacdd66313f12f41"
+  }
+}

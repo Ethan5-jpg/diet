@@ -1,0 +1,18 @@
+METADATA_ONLY: no participant rows, outcomes, fitting or writes.
+DATE_POLICY: "dates and signed nearest observed food/qualified CGM day gaps descriptive only; no 30/60/90 day, same-day or pre-sampling gate; missing date alone does not reject a known valid same-visit sample"
+LOCKED_SAMPLE_REGISTRY source_rows=19059 date_fields=8
+  candidate_id:string, candidate_kind:string, candidate_index_ordinals_json:string, abundance_calendar_date:string, linked_index_calendar_date:string, descriptive_sample_calendar_date:string, sample_date_missing:bool
+  MORE_DATE_FIELDS=1
+SOURCE: oral_index "/home/ec2-user/studies/hpp_datasets/oral_microbiome/oral_microbiome.parquet"
+oral_index source_rows=8816 date_fields=1
+  collection_date:timestamp[ns]
+SOURCE: gut_index "/home/ec2-user/studies/hpp_datasets/gut_microbiome/gut_microbiome.parquet"
+gut_index source_rows=10694 date_fields=2
+  collection_timestamp:timestamp[ns, tz=Asia/Jerusalem], collection_date:timestamp[ns]
+SCAN_ROOT: "/home/ec2-user/studies/diet_gut_cgm_v2/multisystem_project_20261021/analysis/shared"
+SCAN_ROOT: "/home/ec2-user/studies/hpp_datasets/gut_microbiome"
+FUNCTION_FILENAME_SCAN: dirs=4 entries=30000 errors=0 limited=True max_depth=2
+NOT_LOCATED_IN_LIMITED_SCAN; this does not establish absence.
+Date meaning, functional validity and overlap with 3343 people remain UNVERIFIED.
+METADATA_CHECK_DONE
+(pheno) [ec2-user@ip-10-0-71-168 diet_effect_modification_20261109_v12]$

@@ -1,0 +1,20 @@
+{
+  "scope": "LOCAL_SYNTHETIC_AWS_CLI_STUB_ONLY",
+  "native_AWS_or_HPP_access_tested": false,
+  "checks_passed": [
+    "bash_syntax",
+    "existing_CLI_HEAD_only_arguments",
+    "one_attempt_child_environment",
+    "source_URI_and_metadata_not_printed",
+    "head_success_size_only",
+    "denied_response_without_secret_stderr",
+    "not_found_response_preserves_uncertainty",
+    "invalid_success_metadata_not_marked_success",
+    "subprocess_timeout_kills_request_without_retry",
+    "missing_CLI_no_request",
+    "source_index_unchanged",
+    "new_screenshot_hash_verified",
+    "frozen_51_file_manifest_unchanged"
+  ],
+  "script_sha256": "be831a854b3176eed749ac101ae2a1c54288363b6e493dd236707392fa1f894d"
+}

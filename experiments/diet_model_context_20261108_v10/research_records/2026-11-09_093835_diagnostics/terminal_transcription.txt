@@ -1,0 +1,36 @@
+RUN=context_v10_20261108 STATUS=COMPLETE
+MATCHED INPUT ADDITIONS: delta_R2 repeat0 repeat1 (same people, algorithm family and grid)
+hgb_oral_macro vs hgb_oral_none: +0.008130 +0.007903
+hgb_oral_sodium vs hgb_oral_macro: -0.001202 +0.001296
+hgb_oral_life vs hgb_oral_none: +0.000006 -0.000380
+hgb_oral_full vs hgb_oral_sodium: +0.000044 -0.000413
+cat_balanced_macro vs cat_balanced_none: +0.003567 +0.004918
+cat_balanced_sodium vs cat_balanced_macro: -0.000426 +0.004104
+cat_balanced_life vs cat_balanced_none: +0.000652 +0.004277
+cat_balanced_full vs cat_balanced_sodium: +0.002491 -0.000418
+hgb_oral_macro_life vs hgb_oral_full: +0.000760 +0.001113
+cat_balanced_macro_life vs cat_balanced_full: -0.002222 -0.001013
+hgb_oral_joint vs hgb_oral_full: +0.000461 +0.000864
+cat_balanced_joint vs cat_balanced_full: +0.001790 +0.000985
+hgb_oral_fiber_days vs hgb_oral_full: +0.005890 -0.004669
+cat_balanced_fiber_days vs cat_balanced_full: -0.003865 -0.004447
+hgb_oral_distribution vs hgb_oral_full: +0.002114 -0.001639
+cat_balanced_distribution vs cat_balanced_full: +0.000434 +0.000572
+hgb_oral_ratios vs hgb_oral_full: +0.002807 -0.001446
+cat_balanced_ratios vs cat_balanced_full: +0.002497 +0.000004
+ridge_macro vs ridge_base: +0.006518 +0.005425
+ridge_full vs ridge_macro: +0.000312 +0.002076
+ridge_diverse vs ridge_full: +0.006323 +0.008845
+MATCHED MICROBIAL INPUTS ON FULL CONTEXT: delta_R2 repeat0 repeat1
+hgb_oral_full vs hgb_host_full: +0.062685 +0.073810
+cat_balanced_full vs cat_host_full: +0.060349 +0.063505
+cat_balanced_full vs cat_oral_full: +0.000124 -0.000654
+EXPLICIT MATCHED NULLS: null R2_0/R2_1 -> fitted R2_0/R2_1
+fiber_gut_linear vs block_pc_balanced_full: 0.077617/0.081908 -> 0.078841/0.080282
+fiber_oral_linear vs block_pc_balanced_full: 0.077617/0.081908 -> 0.075303/0.081908
+fiber_both_rcs vs block_pc_balanced_full: 0.077617/0.081908 -> 0.077617/0.081908
+fiber_gut_tree vs cat_balanced_full: 0.109957/0.116989 -> 0.109373/0.115086
+fiber_macro vs block_pc_balanced_full: 0.077617/0.081908 -> 0.077589/0.084164
+fiber_gut_kernel vs kernel_balanced_full: 0.070024/0.075509 -> 0.071266/0.075590
+FIT_FLAGS=0; full notes in summary.json
+Conditional household intervals in JSON exclude adaptive-search uncertainty.

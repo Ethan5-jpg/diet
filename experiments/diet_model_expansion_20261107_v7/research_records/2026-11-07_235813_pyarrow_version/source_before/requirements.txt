@@ -1,0 +1,4 @@
+# Install in the server-local V7 venv, inheriting the pinned pheno environment.
+# Binary wheels only; no global environment upgrades.
+lightgbm==3.3.5
+interpret-core==0.6.5

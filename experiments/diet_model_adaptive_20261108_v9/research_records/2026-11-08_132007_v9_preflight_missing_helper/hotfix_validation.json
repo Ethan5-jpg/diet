@@ -1,0 +1,38 @@
+{
+  "status": "LOCAL_PORTABILITY_FIX_VERIFIED",
+  "time_utc": "2026-11-08T05:26:37.815982+00:00",
+  "changed_source": "tests/test_integrity.py",
+  "before_sha256": "41d8c0f7b11caa5337f763f12012dd07d4e23cc015c66afc1110c57a3e26319c",
+  "after_sha256": "16dd47e9e2e3577c6e284d4dcecf39981848824638c04937cf6a3268fd779308",
+  "required_legacy_files": [
+    "diet_model_batch_20261107_v6/data.py",
+    "diet_model_batch_20261107_v6/numerics.py",
+    "diet_model_batch_20261107_v6/storage.py",
+    "diet_model_overnight_20261108_v8/features.py"
+  ],
+  "historical_hash_snapshot_retained": true,
+  "regression_checks": {
+    "original_missing_auxiliary_failure_reproduced": true,
+    "fixed_missing_auxiliary_passes": true,
+    "missing_required_source_rejected": true,
+    "changed_required_source_rejected": true,
+    "server_terminal_patch_first_apply": true,
+    "server_terminal_patch_idempotent_repeat": true,
+    "unexpected_test_source_not_overwritten": true
+  },
+  "full_suite": {
+    "tests": 32,
+    "seconds": 159.812,
+    "status": "OK",
+    "experiment_storage_probe": "PASS"
+  },
+  "model_code_or_config_changed": false,
+  "legacy_module_changes": false,
+  "upload_manifest_files_verified": 34,
+  "server_fix_applied": false,
+  "real_data_experiment_started": false,
+  "limitations": [
+    "Local fix and synthetic tests verified; user must apply the exact patch on server and rerun preflight.",
+    "Server screenshot showed 31/32 synthetic tests passing before this fix; no V9 predictive result."
+  ]
+}

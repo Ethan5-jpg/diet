@@ -1,0 +1,75 @@
+{
+  "source": "User-supplied server metadata-only terminal screenshot",
+  "screenshot_filename": "截屏2026-11-09 22.09.14.png",
+  "screenshot_filename_client_time": "2026-11-09 22:09:14 Asia/Shanghai",
+  "source_image_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_AXt20e/截屏2026-11-09 22.09.14.png",
+  "original_image": "original.png",
+  "original_copied": true,
+  "original_sha256": "2906b301f4e5291c6c8f7a19a819ff488156c2f733ad134b3233772760590243",
+  "server_clock_timezone_displayed": null,
+  "transcription_whitespace": "Indentation and terminal prompt spacing normalized; values and words preserved",
+  "metadata_check_done_displayed": true,
+  "date_policy_displayed": "dates and signed nearest observed food/qualified CGM day gaps descriptive only; no 30/60/90 day, same-day or pre-sampling gate; missing date alone does not reject a known valid same-visit sample",
+  "locked_registry": {
+    "source_rows": 19059,
+    "date_fields_displayed": 8,
+    "fields_displayed": [
+      "candidate_id:string",
+      "candidate_kind:string",
+      "candidate_index_ordinals_json:string",
+      "abundance_calendar_date:string",
+      "linked_index_calendar_date:string",
+      "descriptive_sample_calendar_date:string",
+      "sample_date_missing:bool"
+    ],
+    "additional_fields_not_shown": 1
+  },
+  "raw_index_headers_displayed": [
+    {
+      "role": "oral_index",
+      "source_path": "/home/ec2-user/studies/hpp_datasets/oral_microbiome/oral_microbiome.parquet",
+      "source_rows": 8816,
+      "date_fields_displayed": 1,
+      "fields_displayed": [
+        "collection_date:timestamp[ns]"
+      ]
+    },
+    {
+      "role": "gut_index",
+      "source_path": "/home/ec2-user/studies/hpp_datasets/gut_microbiome/gut_microbiome.parquet",
+      "source_rows": 10694,
+      "date_fields_displayed": 2,
+      "fields_displayed": [
+        "collection_timestamp:timestamp[ns, tz=Asia/Jerusalem]",
+        "collection_date:timestamp[ns]"
+      ]
+    }
+  ],
+  "scan_roots_displayed": [
+    "/home/ec2-user/studies/diet_gut_cgm_v2/multisystem_project_20261021/analysis/shared",
+    "/home/ec2-user/studies/hpp_datasets/gut_microbiome"
+  ],
+  "function_filename_scan": {
+    "dirs": 4,
+    "entries": 30000,
+    "errors": 0,
+    "limited": true,
+    "max_depth": 2,
+    "candidate_paths_displayed": [],
+    "absence_proven": false
+  },
+  "planned_roots_not_reached": [
+    "/home/ec2-user/studies/hpp_datasets/oral_microbiome",
+    "/home/ec2-user/studies/hpp_datasets"
+  ],
+  "limitations": [
+    "The operation ended normally, but its filename search was partial due to the global entry cap.",
+    "The 8 date_fields include candidate_id, candidate_kind and candidate_index_ordinals_json because the substring date occurs in candidate; they are not 8 date measurements.",
+    "Raw source table row counts are not the 3343-person analysis population or evidence of extra eligible participants.",
+    "Field names, Arrow types and Asia/Jerusalem timezone do not independently establish biological collection time or sequencing time.",
+    "No participant rows, outcomes, functional values or cohort overlap were shown.",
+    "No functional filename was located within the visited scope; functional data availability remains unknown."
+  ],
+  "new_model_or_outcome_result": false,
+  "native_participant_files_downloaded": false
+}

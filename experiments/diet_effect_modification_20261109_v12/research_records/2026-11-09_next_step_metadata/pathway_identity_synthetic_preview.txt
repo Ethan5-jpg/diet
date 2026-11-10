@@ -1,0 +1,24 @@
+SYNTHETIC ONLY; NOT HPP RESULTS
+
+PATHWAY_IDENTITY: local file hashes, schemas and projected identifiers; no outcomes, models, row output or writes.
+SOURCE_INDEX rows=3 identifier_fields=["participant_id", "cohort", "research_stage", "array_index", "sample_name"]
+LOCKED_REGISTRY rows=3 linkage_fields=["participant_id", "cohort", "research_stage", "site", "linked_index_row_ordinal", "index_sample_name", "primary_index_source_path"] (schema only)
+TABLE abundance unique_pointers=1
+  STRUCTURE columns=7 batches=1 numeric_nonidentifier_columns=2 known_identifiers=["participant_id", "cohort", "research_stage", "array_index", "sample_name"]
+  PUBLIC_PATHWAY_CODE_CANDIDATES ["PWY-1234", "GLYCOLYSIS-PWY"]
+  IDENTIFIER_PROJECTION rows=3 columns=5
+  KEY_LINK visit found=3 missing=0 null_key=0 source_ambiguous=0 table_duplicate_rows=0
+  KEY_LINK visit+array_index found=3 missing=0 null_key=0 source_ambiguous=0 table_duplicate_rows=0
+  KEY_LINK visit+sample_name found=3 missing=0 null_key=0 source_ambiguous=0 table_duplicate_rows=0
+TABLE coverage unique_pointers=1
+  STRUCTURE columns=7 batches=1 numeric_nonidentifier_columns=2 known_identifiers=["participant_id", "cohort", "research_stage", "array_index", "sample_name"]
+  PUBLIC_PATHWAY_CODE_CANDIDATES ["PWY-1234", "GLYCOLYSIS-PWY"]
+  IDENTIFIER_PROJECTION rows=3 columns=5
+  KEY_LINK visit found=3 missing=0 null_key=0 source_ambiguous=0 table_duplicate_rows=0
+  KEY_LINK visit+array_index found=3 missing=0 null_key=0 source_ambiguous=0 table_duplicate_rows=0
+  KEY_LINK visit+sample_name found=3 missing=0 null_key=0 source_ambiguous=0 table_duplicate_rows=0
+PAIR pointer_equal=False
+PAIR canonical_path_equal=False same_file=False
+PAIR full_file_bytes_equal=False
+Key matches are linkage diagnostics; locked-specimen identity, units and fixed 3343-person coverage remain unverified.
+PATHWAY_IDENTITY_DONE

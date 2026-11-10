@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "tests": 49,
+  "seconds": 113.11,
+  "helper_regression_tests": 5,
+  "actual_worker_failure_then_resume_without_refit": true,
+  "original_model_checkpoints_preserved": true,
+  "source_drift_and_lock_refused": true,
+  "handled_write_failure_rolled_back": true,
+  "idempotent": true,
+  "guard_only_engine_diff": true,
+  "helper_sha256": "89af414429ade9b6aa38ec082a31e6051f875f3a20c7649848270c0da7cd17f1",
+  "native_execution_pending": true,
+  "unchanged_original_root_python_sources": [
+    "bridge.py",
+    "check.py",
+    "context.py",
+    "estimators.py",
+    "features.py",
+    "food_features.py",
+    "fusion.py",
+    "launch.py",
+    "legacy.py",
+    "models.py",
+    "registry.py",
+    "report.py",
+    "resources.py",
+    "run.py",
+    "runtime.py",
+    "upload_check.py"
+  ]
+}

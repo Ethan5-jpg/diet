@@ -1,0 +1,12 @@
+Observed completion of the second local verification run.
+Command: PYTHONDONTWRITEBYTECODE=1 python check.py
+Environment: local macOS ARM64; synthetic inputs only. This is the final output excerpt, not a full transcript.
+
+ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 156.730s
+
+OK
+EXPERIMENT_STORAGE_OK
+

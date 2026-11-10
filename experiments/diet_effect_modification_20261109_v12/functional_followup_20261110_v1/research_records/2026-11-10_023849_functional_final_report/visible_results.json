@@ -1,0 +1,274 @@
+{
+  "source": "User-supplied native server screenshot, read against frozen delivered reporting implementation",
+  "screenshot_filename": "截屏2026-11-10 02.38.49.png",
+  "screenshot_filename_client_time": "2026-11-10 02:38:49 Asia/Shanghai",
+  "server_timezone_observed": false,
+  "source_image_path": "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/TemporaryItems/NSIRD_screencaptureui_NS4EH8/截屏2026-11-10 02.38.49.png",
+  "original_image": "original.png",
+  "original_sha256": "e2a6f88a5812529c9dbf232a758fd904cd27b11462f6cb0289faa998c469fdee",
+  "precision": "All values are transcribed screenshot display values. R2, delta and CI columns were rounded independently; do not recompute exact delta from rounded R2 columns. No native full-precision summary file read.",
+  "repair": {
+    "preflight_passed": true,
+    "installed": true,
+    "old_failed_run_preservation_reported": true,
+    "statistical_plan_unchanged_reported": true,
+    "module_manifest_files": 13,
+    "synthetic_checks_passed": 41
+  },
+  "run_id": "function_20261110_v1_iofix1",
+  "completion": {
+    "outer_units_completed": 10,
+    "expected_outer_units": 10,
+    "route_count": 3,
+    "fold_people_by_repeat": [
+      [
+        660,
+        675,
+        666,
+        665,
+        671
+      ],
+      [
+        675,
+        659,
+        664,
+        656,
+        683
+      ]
+    ],
+    "final_report_visible": true,
+    "shell_prompt_returned": true,
+    "traceback_visible": false,
+    "final_files_directly_inspected": false,
+    "completion_evidence": "All ten OUTER_COMPLETE logs, six final result rows and returned shell prompt; delivered execute() saves final NPZ, summary and COMPLETE receipt before returning to report()."
+  },
+  "population": {
+    "confirmation_outcomes_read": false,
+    "excluded_whole_candidate_null": 6,
+    "functional_households": 3053,
+    "functional_people": 3337,
+    "independent_confirmation": false,
+    "original_people": 3343,
+    "partial_null_nonreporting_is_assumption": true,
+    "provider_abundance_unit_verified": false,
+    "technical_fields": [
+      "raw_read_count",
+      "metaphlan4_aligned_read_count"
+    ]
+  },
+  "primary": {
+    "route": "abundance_relative",
+    "repeat": 0
+  },
+  "scores": [
+    {
+      "route": "abundance_relative",
+      "repeat": 0,
+      "displayed": {
+        "base_R2": "0.083105",
+        "full_R2": "0.083083",
+        "delta_R2": "-0.000022",
+        "conditional_household_CI95": [
+          "-0.000241",
+          "+0.000195"
+        ],
+        "interaction_selected_folds": 2,
+        "raw_y_delta_R2": "-0.000021",
+        "local_support": "0.810",
+        "added_model_contrast_SD_mg_dL": "0.039"
+      },
+      "numeric_from_display": {
+        "base_R2": 0.083105,
+        "full_R2": 0.083083,
+        "delta_R2": -2.2e-05,
+        "conditional_household_CI95": [
+          -0.000241,
+          0.000195
+        ],
+        "interaction_selected_folds": 2,
+        "raw_y_delta_R2": -2.1e-05,
+        "local_support": 0.81,
+        "added_model_contrast_SD_mg_dL": 0.039
+      }
+    },
+    {
+      "route": "coverage_confidence",
+      "repeat": 0,
+      "displayed": {
+        "base_R2": "0.086535",
+        "full_R2": "0.086209",
+        "delta_R2": "-0.000327",
+        "conditional_household_CI95": [
+          "-0.001133",
+          "+0.000456"
+        ],
+        "interaction_selected_folds": 1,
+        "raw_y_delta_R2": "-0.000321",
+        "local_support": "0.800",
+        "added_model_contrast_SD_mg_dL": "0.126"
+      },
+      "numeric_from_display": {
+        "base_R2": 0.086535,
+        "full_R2": 0.086209,
+        "delta_R2": -0.000327,
+        "conditional_household_CI95": [
+          -0.001133,
+          0.000456
+        ],
+        "interaction_selected_folds": 1,
+        "raw_y_delta_R2": -0.000321,
+        "local_support": 0.8,
+        "added_model_contrast_SD_mg_dL": 0.126
+      }
+    },
+    {
+      "route": "abundance_unknown_null",
+      "repeat": 0,
+      "displayed": {
+        "base_R2": "0.079556",
+        "full_R2": "0.079556",
+        "delta_R2": "+0.000000",
+        "conditional_household_CI95": [
+          "+0.000000",
+          "+0.000000"
+        ],
+        "interaction_selected_folds": 0,
+        "raw_y_delta_R2": "+0.000000",
+        "local_support": "0.803",
+        "added_model_contrast_SD_mg_dL": "0.000"
+      },
+      "numeric_from_display": {
+        "base_R2": 0.079556,
+        "full_R2": 0.079556,
+        "delta_R2": 0.0,
+        "conditional_household_CI95": [
+          0.0,
+          0.0
+        ],
+        "interaction_selected_folds": 0,
+        "raw_y_delta_R2": 0.0,
+        "local_support": 0.803,
+        "added_model_contrast_SD_mg_dL": 0.0
+      }
+    },
+    {
+      "route": "abundance_relative",
+      "repeat": 1,
+      "displayed": {
+        "base_R2": "0.086624",
+        "full_R2": "0.086491",
+        "delta_R2": "-0.000133",
+        "conditional_household_CI95": [
+          "-0.000320",
+          "+0.000050"
+        ],
+        "interaction_selected_folds": 1,
+        "raw_y_delta_R2": "-0.000135",
+        "local_support": "0.805",
+        "added_model_contrast_SD_mg_dL": "0.036"
+      },
+      "numeric_from_display": {
+        "base_R2": 0.086624,
+        "full_R2": 0.086491,
+        "delta_R2": -0.000133,
+        "conditional_household_CI95": [
+          -0.00032,
+          5e-05
+        ],
+        "interaction_selected_folds": 1,
+        "raw_y_delta_R2": -0.000135,
+        "local_support": 0.805,
+        "added_model_contrast_SD_mg_dL": 0.036
+      }
+    },
+    {
+      "route": "coverage_confidence",
+      "repeat": 1,
+      "displayed": {
+        "base_R2": "0.091890",
+        "full_R2": "0.091072",
+        "delta_R2": "-0.000818",
+        "conditional_household_CI95": [
+          "-0.001696",
+          "-0.000011"
+        ],
+        "interaction_selected_folds": 1,
+        "raw_y_delta_R2": "-0.000807",
+        "local_support": "0.788",
+        "added_model_contrast_SD_mg_dL": "0.151"
+      },
+      "numeric_from_display": {
+        "base_R2": 0.09189,
+        "full_R2": 0.091072,
+        "delta_R2": -0.000818,
+        "conditional_household_CI95": [
+          -0.001696,
+          -1.1e-05
+        ],
+        "interaction_selected_folds": 1,
+        "raw_y_delta_R2": -0.000807,
+        "local_support": 0.788,
+        "added_model_contrast_SD_mg_dL": 0.151
+      }
+    },
+    {
+      "route": "abundance_unknown_null",
+      "repeat": 1,
+      "displayed": {
+        "base_R2": "0.084471",
+        "full_R2": "0.084480",
+        "delta_R2": "+0.000010",
+        "conditional_household_CI95": [
+          "-0.000205",
+          "+0.000214"
+        ],
+        "interaction_selected_folds": 1,
+        "raw_y_delta_R2": "+0.000028",
+        "local_support": "0.800",
+        "added_model_contrast_SD_mg_dL": "0.041"
+      },
+      "numeric_from_display": {
+        "base_R2": 0.084471,
+        "full_R2": 0.08448,
+        "delta_R2": 1e-05,
+        "conditional_household_CI95": [
+          -0.000205,
+          0.000214
+        ],
+        "interaction_selected_folds": 1,
+        "raw_y_delta_R2": 2.8e-05,
+        "local_support": 0.8,
+        "added_model_contrast_SD_mg_dL": 0.041
+      }
+    }
+  ],
+  "same_people_added_contrast_split_correlation": {
+    "abundance_relative": 0.2146814582705357,
+    "abundance_unknown_null": null,
+    "coverage_confidence": 0.19518064004598654
+  },
+  "inference": {
+    "all_routes_positive_both_repeats": false,
+    "primary_positive_either_repeat": false,
+    "positive_conditional_interval_count": 0,
+    "negative_conditional_interval_rows": [
+      "coverage_confidence repeat 1"
+    ],
+    "all_zero_conditional_interval_rows": [
+      "abundance_unknown_null repeat 0"
+    ],
+    "protocol_stopping_rule_triggered": true,
+    "no_formal_interaction_P_value": true,
+    "causal_conclusion_supported": false,
+    "independent_confirmation": false
+  },
+  "limits": [
+    "Same people across splits: repeat 1 is split sensitivity, not independent replication.",
+    "Intervals condition on fixed OOF predictions; no retraining or selection uncertainty.",
+    "Zero interval in unknown-null repeat 0 follows selection of no interaction in all five folds; it is not an equivalence or no-biological-effect test.",
+    "Missing correlation is undefined when one split has a constant model contrast; it is not a correlation of zero.",
+    "Functional signal encoding and original abundance units remain unverified; oral pathways do not establish gut activity.",
+    "Original 3343-person R2 cannot be compared directly to the new 3337-person results.",
+    "No participant data, native predictions, summary JSON or checkpoints downloaded."
+  ]
+}

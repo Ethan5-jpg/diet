@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "mocked_cli": true,
+  "native_linux_install_tested": false,
+  "environment_outside_project": true,
+  "path_with_spaces_tested": true,
+  "calls": [
+    {
+      "args": [
+        "-m",
+        "venv",
+        "--system-site-packages",
+        "/var/folders/f9/rv3yqgwd61z97g_9l8zf_krc0000gn/T/hpp_setup_path_o38zoxvu/server local env"
+      ],
+      "cwd": "/Users/blizzardxu/Desktop/HPP/HPP_Full_Code_With_Models_20261102_v2/experiments/diet_model_expansion_20261107_v7"
+    },
+    {
+      "args": [
+        "-m",
+        "pip",
+        "install",
+        "--no-deps",
+        "--only-binary=:all:",
+        "-r",
+        "requirements.txt"
+      ],
+      "cwd": "/Users/blizzardxu/Desktop/HPP/HPP_Full_Code_With_Models_20261102_v2/experiments/diet_model_expansion_20261107_v7"
+    },
+    {
+      "args": [
+        "-"
+      ],
+      "cwd": "/Users/blizzardxu/Desktop/HPP/HPP_Full_Code_With_Models_20261102_v2/experiments/diet_model_expansion_20261107_v7"
+    }
+  ]
+}

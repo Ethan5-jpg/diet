@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "full_suite_tests": 51,
+  "seconds": 110.721,
+  "repair_tests": 7,
+  "no_data_cache_reads_in_repair": true,
+  "normal_resume_rejects_data_drift_before_any_outer": true,
+  "model_sources_unchanged": true,
+  "canonical_helper_sha256": "ea789975ffb0822f7ebd63ab10acbcf62f9099f37c7dc1267afbc31565f6d243",
+  "native_installed_helper_sha256": "9f0a7388f62ccca98e8b9cf21bcf000a5accae4ca6ad3b5acd73dff0b5373be5",
+  "installer_sha256": "434e905388de7a3b726c46ebe49db73de7b8b915456c0c3c3ee358bcf774219b",
+  "canonical_and_installed_ast_equal": true,
+  "native_execution_pending": true
+}

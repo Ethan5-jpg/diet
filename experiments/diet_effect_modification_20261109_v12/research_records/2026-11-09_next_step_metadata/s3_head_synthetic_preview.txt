@@ -1,0 +1,4 @@
+SYNTHETIC AWS-CLI STUB ONLY; NOT REAL AWS ACCESS
+S3_HEAD_ONCE: existing CLI/access; no object listing, body reads or writes.
+HEAD_OK bytes=1234
+S3_HEAD_ONCE_DONE

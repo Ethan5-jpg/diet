@@ -1,0 +1,123 @@
+{
+  "created_utc": "2026-11-07T15:40:43.742618+00:00",
+  "scope": "Local synthetic verification only; no server access or participant data",
+  "status": "PASS",
+  "tests_passed": 26,
+  "upload_simulation_tests_passed": 26,
+  "new_pipelines": 30,
+  "candidate_settings": 67,
+  "historical_evaluation_references": 3,
+  "full_pipeline_test": "2 repeats x 5 outer folds x 3 inner folds with reduced grids and iterations",
+  "exact_default_grid_test": "All 67 default cases on one wide synthetic train/validation role (oral144/gut176)",
+  "platform": "macOS-26.5.1-arm64-arm-64bit",
+  "python": "3.11.17",
+  "machine": "arm64",
+  "versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.11.4",
+    "pandas": "2.1.0",
+    "pyarrow": "15.0.2",
+    "scikit-learn": "1.4.1.post1",
+    "lightgbm": "3.3.5",
+    "interpret-core": "0.6.5",
+    "joblib": "1.6.0",
+    "threadpoolctl": "3.8.0",
+    "ruff": "0.17.4"
+  },
+  "four_thread_smoke": {
+    "models": [
+      "lgbm_balanced",
+      "ebm_balanced",
+      "tree_embed_balanced"
+    ],
+    "passed": true,
+    "recorded_warnings": 0
+  },
+  "static_checks": {
+    "ruff": "PASS",
+    "ruff_format": "PASS",
+    "bash_syntax": "PASS",
+    "runtime_ASCII": "PASS",
+    "no_builtin_generic_annotations": "PASS"
+  },
+  "lightgbm_local_build": "Official 3.3.5 source; macOS ARM64; OpenMP disabled",
+  "linux_wheel_audit": {
+    "filename": "lightgbm-3.3.5-py3-none-manylinux1_x86_64.whl",
+    "sha256": "044f65664c1a32c98cb619bafa97d8cd9d93c2c2d5053376aadfe509a3a3e7fa",
+    "highest_GLIBC": "2.14",
+    "highest_GLIBCXX": "3.4.19",
+    "highest_CXXABI": "1.3.7",
+    "linux_execution_tested": false
+  },
+  "interpret_linux_x64_highest_GLIBC": "2.4",
+  "tmux_actual_session_tested": false,
+  "tmux_command_and_conflict_logic_mock_tested": true,
+  "legacy_tmux_18_manual_reviewed": true,
+  "real_server_run_started": false,
+  "real_v7_scores_available": false,
+  "confirmation_outcomes_read": false,
+  "source_hashes": {
+    "bridge.py": "87fb726dc7a73381933ea723d6c654f060432bc2616aa3ccb2550991d5557dad",
+    "check.py": "2354c437974ce9ff475d0859ba2556cd7b6606ae70ee5b8aee4747de63a74766",
+    "engine.py": "50eb9cd57e88230f395841ab236c5c70c1cccb4cf7c6656d7b074dacb79a47f3",
+    "estimators.py": "71db7d16bd24b16ae843e41436cb04a1134f0c6534d763f1d76479ff4ff574c4",
+    "features.py": "28f3a20b05c48a80ce753af2e6ac1fd47726974eff1582a230584585196f344c",
+    "launch.py": "995776bf1b188a64414c0253296b06dfc90a6a2ea984e60a3d1f2f816a6dc76a",
+    "models.py": "ae794f389573164788adf54f53b1e77915c9e44f388b2b6eab5f6d05e17dbffe",
+    "registry.py": "ff8451ba1484f94510d9da55f054f48752631ea6fa5aba09ee33eb46114d17ae",
+    "report.py": "8a1ed5d103c424e505c21b9b524b12ac7bef1504916d4b3d74da23055b7c3536",
+    "run.py": "d75f4fe540bf5b7320c3ba0dc3f0e0fb0c7d1620558bdabac94b75aa66654e40",
+    "runtime.py": "175e4df8da2083fdbbc0aae790e94d8e1998773bc62f838c4b0e5ae35fa06f42",
+    "tests/support.py": "781fd39ffe77d1d90abe1d373d4aff53973f1d93bdbc2964b127439f04021714",
+    "tests/test_backends.py": "0ee1b3ef050b7316ca56dc6485d8beb9fe5a821f5bcf7af4b482fefc4f4a19b0",
+    "tests/test_integrity.py": "b0623ff416ad349399ff0e07b6e00e94c6bd85f6c3979b7d996266ee26f8ba39",
+    "tests/test_numerics.py": "be58d01f1e53c62a51d9b48aabb368f1da54f5e57b7229087ea52aeb74a4bc37",
+    "tests/test_pipeline.py": "f37a1d372daf6716cd0bcab32cd41ab86ca60d84cc65cfd1e22cdc1fbcb2db2c",
+    "tests/test_regressions.py": "0e813f868571968e4736d8319058439fe0d09ae5bf52688756c9b912c7f90256",
+    "setup.sh": "9a91cbd200afef4cd38538b6d254b47f5e3fbe7c8403c0b188490e2e45aeb5f8",
+    "requirements.txt": "b9f26a3063332f7720c489964ee4bd1bfbdf1ec33643cf2f450b86898e583348",
+    "config.json": "ecdf3df008e2dde7b622603da2c356abd0b3c73b2860151af30227a5285c5b80",
+    "pyproject.toml": "ca906bf25c0e88d52696a9cf5513e6162016d5fbef4020da7326f9aa52c8c06a",
+    ".gitignore": "b0eeb494497f9880362fdd5eb0d8c9d0ad5499c3f44463f0a0631caaf60d0d62"
+  },
+  "frozen_v6_source_hashes": {
+    "data.py": "8b53591a1e3763684425fe7bbc04bd5d3499875089401466914f8f2d5bb6143e",
+    "numerics.py": "7de8512c2c117eabeff5f650a0946346ea458aa5bcee9372b1d5ac465807a825",
+    "storage.py": "3387a02e426180bc05180abaf5aaddef01639339b8c66d23e7d050141d4be097"
+  },
+  "test_log_hashes": {
+    "validation_tests.txt": "42f0dc188e56490f1632e75e41db643e945f5fd79e9eaf7dd457a5e5f9643618",
+    "upload_simulation_tests.txt": "a69d9f692e78e3cb7beff8f07be40d8a03850adff855b306d2593a66051b71c1",
+    "setup_path_mock.json": "7e1144975e7060f862db17f8f546fe644c60d415db24653303a44483680c1796"
+  },
+  "revision": "v7_reaudit_20261107",
+  "server_io_probe_added": true,
+  "local_module_storage_probe": "PASS",
+  "upload_simulation_storage_probe": "PASS",
+  "server_storage_probe_executed": false,
+  "bugs_fixed": [
+    "Randomized PCA training and replay coordinate mismatch",
+    "Gate convergence warnings missing from saved diagnostics",
+    "Partial final summary blocked checkpoint resume"
+  ],
+  "added_regression_tests": 6,
+  "expected_old_regression_failures": 4,
+  "old_finalization_failure_isolated": true,
+  "old_validation_preserved_at": "research_records/reaudit_20261107/before_validation.json",
+  "reaudit_report": "research_records/reaudit_20261107/REPORT.md",
+  "changed_runtime_files": [
+    "check.py",
+    "features.py",
+    "models.py",
+    "run.py",
+    "runtime.py"
+  ],
+  "setup_revision": "server_local_venv_20261107",
+  "default_server_python": "/home/ec2-user/.venvs/hpp_v7_20261107/bin/python",
+  "preferred_launch_mode": "console",
+  "server_environment_ready_observed": false,
+  "server_setup_error_observed": "Errno 38 creating .venv/lib64 symlink",
+  "setup_path_mock_test": "PASS; CLI mocked; not a Linux installation test",
+  "model_configuration_and_math_unchanged": true,
+  "latest_setup_record": "research_records/2026-11-07_233118_venv_symlink/record.md"
+}

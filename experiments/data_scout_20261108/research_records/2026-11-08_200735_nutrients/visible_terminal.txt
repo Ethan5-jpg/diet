@@ -1,0 +1,18 @@
+STEP3 FOOD ONLY: frozen repeat0_N=3343; no new outcome association or fit.
+current_energy_days=43158 people=3343/3343
+day_key_matches=43158/43158 energy_mismatch=0 fiber_mismatch=0
+carbohydrate_g: days=41128/43158 people_ge3=3343/3343 ge7=3249
+  density_g/1000kcal p10/50/90=77.61/103.56/124.56; odd_even_rho=0.769 paired_people=3310
+lipid_g: days=38241/43158 people_ge3=3332/3343 ge7=3129
+  density_g/1000kcal p10/50/90=33.60/41.14/49.97; odd_even_rho=0.680 paired_people=3230
+protein_g: days=40999/43158 people_ge3=3343/3343 ge7=3252
+  density_g/1000kcal p10/50/90=34.04/44.31/59.36; odd_even_rho=0.749 paired_people=3309
+sodium_mg: days=36029/43158 people_ge3=3314/3343 ge7=3012
+  density_mg/1000kcal p10/50/90=1178.61/1564.49/2033.67; odd_even_rho=0.608 paired_people=3145
+alcohol_g: days=569/43158 people_ge3=26/3343 ge7=1
+  density_g/1000kcal p10/50/90=0.00/0.00/4.25; odd_even_rho=NA paired_people=1
+dietary_fiber_g: days=26132/43158 people_ge3=3343/3343 ge7=2091
+  density_g/1000kcal p10/50/90=8.87/13.54/20.58; odd_even_rho=0.719 paired_people=2441
+joint_CARB_FAT_PROTEIN: days=36766 people_ge3=3330/3343 ge7=3108
+Complete sums cover recorded events, not proven complete daily intake; missing is not zero.
+Odd/even: >=3 days/half, >=10 paired people, variable half-means; same-window consistency only.

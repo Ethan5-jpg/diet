@@ -1,0 +1,25 @@
+(pheno) [ec2-user@ip-10-0-71-168 diet_effect_modification_20261109_v12]$ bash server_report.sh --screen 3
+DISCOVERY_SERVER | V12 fiber_density -> D_Glu (mg/dL) | N=3343 HH=3059
+DIAGNOSTICS: conditional uncertainty, support and split sensitivity
+Local contrast support fraction: r0=0.770 r1=0.771
+Raw-outcome sensitivity r0 primary_global_p=0.3803
+Raw-outcome sensitivity r1 primary_global_p=0.1500
+model raw_r/corr_r dR2 CI0 dR2 CI1
+ecology_linear_oral 0.209/0.213 [-0.00080,+0.00053] [-0.00042,+0.00024]
+ecology_linear_gut 0.797/0.780 [-0.00356,+0.00096] [-0.00086,+0.00280]
+ecology_linear_both 0.798/0.778 [-0.00285,+0.00183] [-0.00067,+0.00216]
+ecology_spline_oral 0.158/0.173 [-0.00119,+0.00064] [-0.00062,+0.00050]
+ecology_spline_gut 0.811/0.776 [-0.00269,+0.00102] [-0.00053,+0.00252]
+ecology_spline_both 0.594/0.575 [-0.00296,+0.00114] [-0.00056,+0.00181]
+composition_linear_oral 0.295/0.284 [-0.00136,+0.00001] [-0.00074,+0.00011]
+composition_linear_gut 0.311/0.281 [-0.00121,+0.00076] [-0.00080,+0.00013]
+composition_linear_both 0.181/0.169 [-0.00179,+0.00128] [-0.00088,+0.00013]
+composition_spline_oral 0.301/0.280 [-0.00258,-0.00031] [-0.00108,+0.00006]
+composition_spline_gut 0.153/0.139 [-0.00059,+0.00031] [-0.00102,+0.00008]
+composition_spline_both 0.159/0.131 [-0.00155,+0.00047] [-0.00133,+0.00014]
+dR2 intervals resample households with fitted OOF predictions FIXED.
+r compares raw-product/full-correction contrasts on repeated people, not replication.
+Support is a range diagnostic; low support limits contrast interpretation.
+Warnings=0; complete loadings/choices remain in TRE_ONLY checkpoints.
+PERSON-LEVEL ASSOCIATIONS; sample-calendar meaning unverified; no meal/causal response.
+(pheno) [ec2-user@ip-10-0-71-168 diet_effect_modification_20261109_v12]$ 

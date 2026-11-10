@@ -1,0 +1,243 @@
+{
+  "version": "v9_20261108",
+  "outcome": "D_Glu",
+  "exposure": "fiber_density",
+  "confirmation_outcomes_read": false,
+  "outer_repeats": 2,
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "outer_seed": 20261104,
+  "model_seed": 20261109,
+  "contrast": [10, 15],
+  "reference_run": "console_20261107",
+  "v7_reference_run": "main_v7_20261107",
+  "v8_reference_run": "overnight_v8_20261108",
+  "completion_iterations": 8,
+  "neural_seeds": 2,
+  "stack_penalty": 0.1,
+  "gate_penalties": [0.01, 0.1, 1],
+  "interaction_penalties": [0.0001, 0.001, 0.01, 0.1],
+  "core_members": ["anchor_hgb_oral", "anchor_cat_balanced", "hurdle_cat_balanced", "alr_cat_balanced", "rclr_cat_balanced", "ecohybrid_cat_balanced", "ordered_cat_oral", "gauss_target_cat_balanced"],
+  "families": {
+    "anchor_hgb": {
+      "learner": "hgb",
+      "representation": "clr",
+      "grid": [
+        {"count": 0, "iterations": 160, "leaves": 7, "leaf": 40, "l2": 30},
+        {"count": 0, "iterations": 280, "leaves": 15, "leaf": 40, "l2": 30},
+        {"count": 128, "iterations": 220, "leaves": 7, "leaf": 60, "l2": 30}
+      ]
+    },
+    "anchor_cat": {
+      "learner": "cat",
+      "representation": "clr",
+      "grid": [
+        {"count": 0, "iterations": 600, "depth": 4, "l2": 30},
+        {"count": 0, "iterations": 800, "depth": 6, "l2": 30},
+        {"count": 128, "iterations": 600, "depth": 4, "l2": 30}
+      ]
+    },
+    "hurdle_hgb": {
+      "learner": "hgb",
+      "representation": "hurdle",
+      "grid": [
+        {"count": 64, "iterations": 200, "leaves": 7, "leaf": 40, "l2": 30},
+        {"count": 128, "iterations": 200, "leaves": 7, "leaf": 40, "l2": 30},
+        {"count": 256, "iterations": 200, "leaves": 7, "leaf": 40, "l2": 30}
+      ]
+    },
+    "hurdle_cat": {
+      "learner": "cat",
+      "representation": "hurdle",
+      "grid": [
+        {"count": 64, "iterations": 600, "depth": 4, "l2": 30},
+        {"count": 128, "iterations": 600, "depth": 4, "l2": 30},
+        {"count": 256, "iterations": 600, "depth": 4, "l2": 30}
+      ]
+    },
+    "log1p_cat": {
+      "learner": "cat",
+      "representation": "log1p",
+      "grid": [
+        {"count": 64, "iterations": 600, "depth": 4, "l2": 30},
+        {"count": 128, "iterations": 600, "depth": 4, "l2": 30},
+        {"count": 256, "iterations": 600, "depth": 4, "l2": 30}
+      ]
+    },
+    "rank_ridge": {
+      "learner": "ridge",
+      "representation": "rank",
+      "grid": [
+        {"count": 64, "penalty": 0.01},
+        {"count": 128, "penalty": 0.1},
+        {"count": 256, "penalty": 1}
+      ]
+    },
+    "rank_svr": {
+      "learner": "svr",
+      "representation": "rank",
+      "grid": [
+        {"count": 64, "C": 1},
+        {"count": 128, "C": 1},
+        {"count": 128, "C": 10}
+      ]
+    },
+    "alr_enet": {
+      "learner": "enet",
+      "representation": "alr",
+      "grid": [
+        {"count": 128, "penalty": 0.005},
+        {"count": 256, "penalty": 0.02},
+        {"count": 256, "penalty": 0.08}
+      ]
+    },
+    "alr_cat": {
+      "learner": "cat",
+      "representation": "alr",
+      "grid": [
+        {"count": 64, "iterations": 600, "depth": 4, "l2": 30},
+        {"count": 128, "iterations": 600, "depth": 4, "l2": 30},
+        {"count": 256, "iterations": 600, "depth": 4, "l2": 30}
+      ]
+    },
+    "balance_hgb": {
+      "learner": "hgb",
+      "representation": "balance",
+      "grid": [
+        {"count": 64, "iterations": 200, "leaves": 7, "leaf": 40, "l2": 30, "pairs": 8},
+        {"count": 128, "iterations": 200, "leaves": 7, "leaf": 40, "l2": 30, "pairs": 16},
+        {"count": 256, "iterations": 200, "leaves": 7, "leaf": 40, "l2": 30, "pairs": 32}
+      ]
+    },
+    "balance_ridge": {
+      "learner": "ridge",
+      "representation": "balance",
+      "grid": [
+        {"count": 64, "pairs": 8, "penalty": 0.01},
+        {"count": 128, "pairs": 16, "penalty": 0.1},
+        {"count": 256, "pairs": 32, "penalty": 1}
+      ]
+    },
+    "rclr_hgb": {
+      "learner": "hgb",
+      "representation": "rclr",
+      "grid": [
+        {"count": 0, "iterations": 200, "leaves": 7, "leaf": 40, "l2": 30, "components": 8},
+        {"count": 0, "iterations": 200, "leaves": 7, "leaf": 40, "l2": 30, "components": 16},
+        {"count": 0, "iterations": 200, "leaves": 7, "leaf": 40, "l2": 30, "components": 32}
+      ]
+    },
+    "rclr_cat": {
+      "learner": "cat",
+      "representation": "rclr",
+      "grid": [
+        {"count": 0, "iterations": 600, "depth": 4, "l2": 30, "components": 8},
+        {"count": 0, "iterations": 600, "depth": 4, "l2": 30, "components": 16},
+        {"count": 0, "iterations": 600, "depth": 4, "l2": 30, "components": 32}
+      ]
+    },
+    "eco_ridge": {
+      "learner": "ridge",
+      "representation": "eco",
+      "grid": [
+        {"count": 0, "penalty": 0.001},
+        {"count": 0, "penalty": 0.01},
+        {"count": 0, "penalty": 0.1}
+      ]
+    },
+    "eco_cat": {
+      "learner": "cat",
+      "representation": "eco",
+      "grid": [
+        {"count": 0, "iterations": 500, "depth": 3, "l2": 30},
+        {"count": 0, "iterations": 800, "depth": 4, "l2": 30},
+        {"count": 0, "iterations": 1000, "depth": 5, "l2": 30}
+      ]
+    },
+    "ecohybrid_cat": {
+      "learner": "cat",
+      "representation": "ecohybrid",
+      "grid": [
+        {"count": 64, "iterations": 600, "depth": 4, "l2": 30},
+        {"count": 128, "iterations": 600, "depth": 4, "l2": 30},
+        {"count": 256, "iterations": 600, "depth": 4, "l2": 30}
+      ]
+    },
+    "ordered_cat": {
+      "learner": "ordered_cat",
+      "representation": "clr",
+      "grid": [
+        {"count": 128, "iterations": 600, "depth": 3, "l2": 30},
+        {"count": 256, "iterations": 700, "depth": 4, "l2": 30},
+        {"count": 0, "iterations": 800, "depth": 5, "l2": 30}
+      ]
+    },
+    "leafwise_cat": {
+      "learner": "leafwise_cat",
+      "representation": "clr",
+      "grid": [
+        {"count": 128, "iterations": 600, "depth": 6, "l2": 30, "leaves": 15},
+        {"count": 256, "iterations": 700, "depth": 7, "l2": 30, "leaves": 31},
+        {"count": 0, "iterations": 800, "depth": 8, "l2": 30, "leaves": 31}
+      ]
+    },
+    "tweedie_lgbm": {
+      "learner": "tweedie",
+      "representation": "hurdle",
+      "grid": [
+        {"count": 128, "power": 1.1, "iterations": 500, "leaves": 7},
+        {"count": 128, "power": 1.5, "iterations": 500, "leaves": 7},
+        {"count": 128, "power": 1.9, "iterations": 500, "leaves": 7}
+      ]
+    },
+    "gauss_target_cat": {
+      "learner": "gauss_cat",
+      "representation": "ecohybrid",
+      "grid": [
+        {"count": 64, "iterations": 600, "depth": 4, "l2": 30},
+        {"count": 128, "iterations": 600, "depth": 4, "l2": 30},
+        {"count": 256, "iterations": 600, "depth": 4, "l2": 30}
+      ]
+    },
+    "residual_mlp": {
+      "learner": "residual_mlp",
+      "representation": "compact",
+      "grid": [
+        {"count": 0, "components": 20, "hidden": 64, "epochs": 160, "decay": 0.01, "shrinkage": 0.5},
+        {"count": 0, "components": 30, "hidden": 128, "epochs": 200, "decay": 0.01, "shrinkage": 1},
+        {"count": 0, "components": 40, "hidden": 64, "epochs": 240, "decay": 0.1, "shrinkage": 1}
+      ]
+    },
+    "deep_rvfl": {
+      "learner": "deep_rvfl",
+      "representation": "compact",
+      "grid": [
+        {"count": 0, "components": 20, "hidden": 64, "layers": 3, "penalty": 0.01},
+        {"count": 0, "components": 30, "hidden": 128, "layers": 3, "penalty": 0.1},
+        {"count": 0, "components": 40, "hidden": 256, "layers": 3, "penalty": 1}
+      ]
+    },
+    "daily_hgb": {
+      "learner": "hgb",
+      "representation": "ecohybrid",
+      "daily": true,
+      "grid": [
+        {"count": 64, "iterations": 200, "leaves": 7, "leaf": 40, "l2": 30},
+        {"count": 128, "iterations": 200, "leaves": 7, "leaf": 40, "l2": 30},
+        {"count": 256, "iterations": 200, "leaves": 7, "leaf": 40, "l2": 30}
+      ]
+    },
+    "daily_cat": {
+      "learner": "cat",
+      "representation": "ecohybrid",
+      "daily": true,
+      "grid": [
+        {"count": 64, "iterations": 600, "depth": 4, "l2": 30},
+        {"count": 128, "iterations": 600, "depth": 4, "l2": 30},
+        {"count": 256, "iterations": 600, "depth": 4, "l2": 30}
+      ]
+    }
+  },
+  "dependencies": {"numpy": "1.26.4", "scipy": "1.11.4", "pandas": "2.1.0", "pyarrow": "15.0.2", "scikit-learn": "1.4.1.post1", "catboost": "1.2.8", "lightgbm": "3.3.5"},
+  "meta_tree_iterations": 160
+}

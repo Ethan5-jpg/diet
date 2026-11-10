@@ -1,0 +1,27 @@
+bash server_run.sh --prior-summary-reviewed --threads 2
+UPLOAD_CHECK_OK files=51
+DEPENDENCIES_OK numpy=1.26.4 scipy=1.11.4 pandas=2.1.0 pyarrow=15.0.2 scikit-learn=1.4.1.post1 threadpoolctl=3.3.0
+ENV_READY; existing packages unchanged.
+UPLOAD_CHECK_OK files=51
+[41-test progress dots displayed]
+Ran 41 tests in 23.297s
+
+OK
+11:07:23 LOAD existing discovery-only sources; V11 completion gate passed
+11:07:31 START r0_f0 inner feature construction
+11:07:35 SELECT r0_f0 main penalty=1
+11:07:54 FIT r0_f0 outer models; all selection fixed
+11:07:57 FINISHED r0_f0 people=661 support=75.2%
+11:07:57 OUTER_COMPLETE r0 f0
+11:07:57 START r0_f1 inner feature construction
+11:08:01 SELECT r0_f1 main penalty=1
+11:08:21 FIT r0_f1 outer models; all selection fixed
+11:08:23 FINISHED r0_f1 people=677 support=71.9%
+11:08:23 OUTER_COMPLETE r0 f1
+11:08:24 START r0_f2 inner feature construction
+11:08:27 SELECT r0_f2 main penalty=1
+11:08:47 FIT r0_f2 outer models; all selection fixed
+11:08:49 FINISHED r0_f2 people=668 support=79.0%
+11:08:50 OUTER_COMPLETE r0 f2
+11:08:50 START r0_f3 inner feature construction
+11:08:54 SELECT r0_f3 main penalty=1

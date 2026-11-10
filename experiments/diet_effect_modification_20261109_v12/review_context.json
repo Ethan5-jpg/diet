@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-09",
+  "status": "V6_V11_SUMMARY_REVIEWED_LOCALLY",
+  "source_hashes": {
+    "/Users/blizzardxu/Desktop/HPP/HPP_Full_Code_With_Models_20261102_v2/experiments/post_v5_experiment_summary_20261109/summary.md": "1123955f6c5e6fad518c925d1037c3f95ad4722148d3f8c960222a42eaf7bd34",
+    "/Users/blizzardxu/Desktop/HPP/HPP_Full_Code_With_Models_20261102_v2/experiments/post_v5_experiment_summary_20261109/model_inventory.md": "d23395af3f432de333fd7f5d05c69b35f487c1a5e6d0bd7937493a10449b83a0",
+    "/Users/blizzardxu/Desktop/HPP/HPP_Full_Code_With_Models_20261102_v2/experiments/post_v5_experiment_summary_20261109/evidence_inventory.json": "6c78b41197a5be4c9c9dcd6c2b0af36fe982b057e8a407679b23354b8798f568",
+    "/Users/blizzardxu/Desktop/HPP/HPP_Full_Code_With_Models_20261102_v2/experiments/diet_model_distribution_20261109_v11/research_records/2026-11-09_172529_complete/summary.md": "0784306b3a999ce983cb86d3535d7b9583efa93add2ed77e8c15df26292bed4e",
+    "/Users/blizzardxu/Desktop/HPP/HPP_Full_Code_With_Models_20261102_v2/experiments/diet_model_distribution_20261109_v11/research_records/2026-11-09_172529_complete/visible_results.json": "05d6938fb66da0575230adde93a22288e4b4d435a2583988d1e6673750121a8b",
+    "/Users/blizzardxu/Desktop/HPP/HPP_Full_Code_With_Models_20261102_v2/experiments/data_scout_20261108/research_records/2026-11-08_194135_cohort_profile/visible_results.json": "ac4dcc414d193cf06f350cebc2c0fba0a5250f6be2c8cd32cd729b7479e2acf5",
+    "/Users/blizzardxu/Desktop/HPP/HPP_Full_Code_With_Models_20261102_v2/experiments/data_scout_20261108/research_records/2026-11-08_200735_nutrients/20261109_image_recheck.md": "0599ac799fef716d089e1d91a0509b4bea20496efa4422d5aade6c2824bc2dfe"
+  },
+  "evidence_type": "User server screenshots and local transcriptions; no native prediction/data download",
+  "historical_workflow_count": 307,
+  "workflow_count_is_independent_algorithms": false,
+  "v11": {
+    "run_id": "distribution_v11_20261109",
+    "displayed_status": "COMPLETE",
+    "outer_folds": 10,
+    "people_per_repeat": 3343,
+    "displayed_leading_balanced_model": "positive_combined",
+    "R2": [
+      0.130555,
+      0.139855
+    ],
+    "delta_vs_v10": [
+      0.004328,
+      0.002589
+    ],
+    "explicit": {
+      "gut_delta_R2": [
+        0,
+        0
+      ],
+      "gut_active_folds": [
+        0,
+        0
+      ],
+      "both_delta_R2": [
+        0,
+        0
+      ],
+      "both_active_folds": [
+        0,
+        0
+      ],
+      "oral_delta_R2": [
+        -0.001802,
+        0
+      ],
+      "oral_active_folds": [
+        1,
+        0
+      ],
+      "macro_delta_R2": [
+        -0.001438,
+        0.002127
+      ],
+      "macro_is_microbial": false
+    },
+    "full_79_row_table_available_locally": false,
+    "matched_input_diagnostics_available_locally": false
+  },
+  "timing": {
+    "recorded_oral_sample_minus_CGM_end_days_p10_p50_p90": [
+      24,
+      68,
+      112.8
+    ],
+    "recorded_gut_sample_minus_CGM_end_days_p10_p50_p90": [
+      5,
+      10,
+      21
+    ],
+    "sample_calendar_semantics_independently_verified": false,
+    "person_average_inputs_are_strictly_CGM_day_aligned": false,
+    "prepared_diet_CGM_common_table_people": 3025,
+    "prepared_diet_CGM_common_table_days": 21262,
+    "common_table_absence_proves_no_common_day": false,
+    "D_Glu_timestamp_inferred_from_CGM_calendar": false
+  },
+  "corrected_descriptive_counts": {
+    "joint_macro_days": 37676,
+    "joint_macro_people_ge3": 3330,
+    "lipid_people_ge3": 3333
+  },
+  "decisions": {
+    "keep_original_3343_people": true,
+    "keep_fiber_D_Glu_target": true,
+    "keep_four_outcome_blind_primary_markers": true,
+    "primary_repeat": 0,
+    "contrast": [
+      10,
+      15
+    ],
+    "prior_scores_used_for_training": false,
+    "historical_search_adjusted_by_current_pvalues": false,
+    "independent_confirmation": false,
+    "primary_label_is_independent_confirmatory_analysis": false
+  }
+}

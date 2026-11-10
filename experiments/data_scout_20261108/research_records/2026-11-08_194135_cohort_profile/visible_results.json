@@ -1,0 +1,163 @@
+{
+  "source": "User-supplied server output of Step 2 cohort aggregate command",
+  "screenshot_time": "2026-11-08 19:41:35 Asia/Shanghai (attachment filename)",
+  "module": "data_scout_20261108",
+  "phase": "step2_cohort_profile",
+  "original_image": "original.png",
+  "original_copied": true,
+  "original_sha256": "db809017b7d546bb45bb6abee34db341e52555940ed779d59481eb807db7f10b",
+  "repeat0_N": 3343,
+  "repeat1_N": 3343,
+  "shared_N": 3343,
+  "statistics": [
+    {
+      "field": "n_fiber_days",
+      "finite": 3343,
+      "denominator": 3343,
+      "p10": "4.00",
+      "p50": "8.00",
+      "p90": "12.00"
+    },
+    {
+      "field": "n_energy_days",
+      "finite": 3343,
+      "denominator": 3343,
+      "p10": "11.00",
+      "p50": "14.00",
+      "p90": "14.00"
+    },
+    {
+      "field": "fiber_density",
+      "finite": 3343,
+      "denominator": 3343,
+      "p10": "8.87",
+      "p50": "13.54",
+      "p90": "20.58"
+    },
+    {
+      "field": "mean_daily_energy_fiber",
+      "finite": 3343,
+      "denominator": 3343,
+      "p10": "1139.78",
+      "p50": "1607.98",
+      "p90": "2231.14"
+    },
+    {
+      "field": "raw_Glu_mg_dL",
+      "finite": 3343,
+      "denominator": 3343,
+      "p10": "81.00",
+      "p50": "93.20",
+      "p90": "108.35"
+    },
+    {
+      "field": "activity_walking_10min_days_weekly_numeric",
+      "finite": 2718,
+      "denominator": 3343,
+      "p10": "1.00",
+      "p50": "4.00",
+      "p90": "7.00"
+    },
+    {
+      "field": "activity_moderate_days_weekly_numeric",
+      "finite": 2681,
+      "denominator": 3343,
+      "p10": "0.00",
+      "p50": "2.00",
+      "p90": "5.00"
+    },
+    {
+      "field": "activity_vigorous_days_weekly_numeric",
+      "finite": 699,
+      "denominator": 3343,
+      "p10": "0.00",
+      "p50": "0.00",
+      "p90": "3.00"
+    },
+    {
+      "field": "sleep_hours_daily_numeric",
+      "finite": 2700,
+      "denominator": 3343,
+      "p10": "6.00",
+      "p50": "7.00",
+      "p90": "8.00"
+    },
+    {
+      "field": "prepared_common_days_all",
+      "finite": 3343,
+      "denominator": 3343,
+      "p10": "3.00",
+      "p50": "6.00",
+      "p90": "11.00"
+    },
+    {
+      "field": "O_sample_date_minus_CGM_end_days",
+      "finite": 3343,
+      "denominator": 3343,
+      "p10": "24.00",
+      "p50": "68.00",
+      "p90": "112.80"
+    },
+    {
+      "field": "G_sample_date_minus_CGM_end_days",
+      "finite": 3343,
+      "denominator": 3343,
+      "p10": "5.00",
+      "p50": "10.00",
+      "p90": "21.00"
+    }
+  ],
+  "alcohol_label": {
+    "available": 2729,
+    "denominator": 3343,
+    "categories": 6
+  },
+  "prepared_common": {
+    "people": 3025,
+    "denominator": 3343,
+    "days": 21262
+  },
+  "window_envelope_overlap": {
+    "overlap": 3296,
+    "known": 3343,
+    "definition": "inclusive date-envelope overlap; not exact recorded-day overlap"
+  },
+  "sample_timing": [
+    {
+      "site": "oral",
+      "field": "O_sample_date",
+      "known": 3343,
+      "before": 12,
+      "within": 69,
+      "after": 3262
+    },
+    {
+      "site": "gut",
+      "field": "G_sample_date",
+      "known": 3343,
+      "before": 55,
+      "within": 1,
+      "after": 3287
+    }
+  ],
+  "derived_percentages": {
+    "walking_available": 81.3,
+    "moderate_available": 80.2,
+    "vigorous_available": 20.9,
+    "sleep_available": 80.8,
+    "alcohol_available": 81.6,
+    "prepared_common_people": 90.5,
+    "oral_date_after_CGM": 97.6,
+    "gut_date_after_CGM": 98.3,
+    "window_envelope_overlap": 98.6
+  },
+  "interpretation": "The two repeated-CV eligible cohorts contain the same 3343 discovery participants. Several optional covariates have around 80 percent coverage, vigorous-activity numeric coverage is around 21 percent. Fiber recording days are fewer in their distribution than energy recording days. Most recorded selected-sample calendar dates are after the CGM envelope.",
+  "limits": [
+    "Sample calendar dates are descriptive source fields; their provenance and exact collection-time meaning are not independently revalidated here.",
+    "Post-CGM dates do not establish a causal direction or explain the R2 plateau by themselves.",
+    "Prepared common-day absence does not prove no shared day, because the table has prior eligibility restrictions.",
+    "P10/P50/P90 are marginal summaries, not paired per-person differences.",
+    "No outcome-association, treatment-response or new model result was computed.",
+    "Coverage is availability, not proof that a covariate is valid for adjustment; missing vigorous activity must not be silently coded as zero."
+  ]
+}

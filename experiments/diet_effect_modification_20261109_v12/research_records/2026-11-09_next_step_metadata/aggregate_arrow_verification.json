@@ -1,0 +1,25 @@
+{
+  "scope": "SYNTHETIC_INDEX_AND_AGGREGATE_FILES_ONLY",
+  "native_HUMANN_access_tested": false,
+  "checks_passed": [
+    "bash_syntax",
+    "official_field_names",
+    "full_namespace_mapping_not_basename",
+    "IPC_file_schema_only",
+    "IPC_stream_schema_only",
+    "actual_Parquet_format_detected",
+    "source_pointer_counts",
+    "no_values_paths_or_credentials_printed",
+    "no_files_written",
+    "explicit_config_prefix_with_boundary",
+    "missing_official_field_explicit",
+    "prefix_boundary_prevents_wrong_alias",
+    "no_basename_search_or_missing_config_assumption",
+    "outside_scope_not_opened",
+    "IPC_metadata_budget",
+    "no_batch_or_S3_reader_invoked",
+    "frozen_51_file_manifest_unchanged",
+    "official_manifest_consistent"
+  ],
+  "script_sha256": "fe6bde78152f0bc9223f4cbf744e4ecd66dc8a6894c91e362e6f2f4e82e297ce"
+}

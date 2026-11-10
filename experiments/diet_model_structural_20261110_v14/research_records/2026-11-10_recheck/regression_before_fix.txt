@@ -1,0 +1,60 @@
+test_all_metric_heads_ignore_query_changes_in_training_inactive_columns (test_estimators.EstimatorChecks.test_all_metric_heads_ignore_query_changes_in_training_inactive_columns) ... FAIL
+test_all_new_regressors_preserve_constant_response_and_pickle (test_estimators.EstimatorChecks.test_all_new_regressors_preserve_constant_response_and_pickle) ... ok
+test_forest_partitions_separate_households_and_leaf_kernel_is_normalized (test_estimators.EstimatorChecks.test_forest_partitions_separate_households_and_leaf_kernel_is_normalized) ... ok
+test_graph_smoother_matches_dense_equation_and_is_inductive (test_estimators.EstimatorChecks.test_graph_smoother_matches_dense_equation_and_is_inductive) ... ok
+test_local_ridge_agrees_with_independent_unpenalized_intercept_equations (test_estimators.EstimatorChecks.test_local_ridge_agrees_with_independent_unpenalized_intercept_equations) ... ok
+test_ntk_is_psd_normalized_and_full_center_fit_matches_exact_centered_krr (test_estimators.EstimatorChecks.test_ntk_is_psd_normalized_and_full_center_fit_matches_exact_centered_krr) ... ok
+test_sparse_basis_iteration_limit_emits_a_capturable_fit_warning (test_estimators.EstimatorChecks.test_sparse_basis_iteration_limit_emits_a_capturable_fit_warning) ... ok
+test_training_inactive_columns_are_zero_for_training_and_unseen_queries (test_estimators.EstimatorChecks.test_training_inactive_columns_are_zero_for_training_and_unseen_queries) ... FAIL
+
+======================================================================
+FAIL: test_all_metric_heads_ignore_query_changes_in_training_inactive_columns (test_estimators.EstimatorChecks.test_all_metric_heads_ignore_query_changes_in_training_inactive_columns)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/blizzardxu/Desktop/HPP/HPP_Full_Code_With_Models_20261102_v2/experiments/diet_model_structural_20261110_v14/tests/test_estimators.py", line 54, in test_all_metric_heads_ignore_query_changes_in_training_inactive_columns
+    np.testing.assert_array_equal(model.predict(x[:6]),model.predict(query),err_msg=name)
+  File "/Users/blizzardxu/Desktop/HPP/tmp/hpp_model_check_py311/lib/python3.11/site-packages/numpy/testing/_private/utils.py", line 920, in assert_array_equal
+    assert_array_compare(operator.__eq__, x, y, err_msg=err_msg,
+  File "/Users/blizzardxu/.local/share/uv/python/cpython-3.11.17-macos-aarch64-none/lib/python3.11/contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/blizzardxu/Desktop/HPP/tmp/hpp_model_check_py311/lib/python3.11/site-packages/numpy/testing/_private/utils.py", line 797, in assert_array_compare
+    raise AssertionError(msg)
+AssertionError: 
+Arrays are not equal
+local
+Mismatched elements: 6 / 6 (100%)
+Max absolute difference: 28026464.87264053
+Max relative difference: 1.00000002
+ x: array([-0.671202,  0.875695,  0.425286,  0.27191 , -0.557599,  0.73575 ])
+ y: array([28026464.105166, 28026465.648584, 28026464.902692, 28026465.142089,
+       28026464.315041, 28026465.562919])
+
+======================================================================
+FAIL: test_training_inactive_columns_are_zero_for_training_and_unseen_queries (test_estimators.EstimatorChecks.test_training_inactive_columns_are_zero_for_training_and_unseen_queries)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/blizzardxu/Desktop/HPP/HPP_Full_Code_With_Models_20261102_v2/experiments/diet_model_structural_20261110_v14/tests/test_estimators.py", line 36, in test_training_inactive_columns_are_zero_for_training_and_unseen_queries
+    np.testing.assert_array_equal(metric.transform(x)[:,-2:],0)
+  File "/Users/blizzardxu/Desktop/HPP/tmp/hpp_model_check_py311/lib/python3.11/site-packages/numpy/testing/_private/utils.py", line 920, in assert_array_equal
+    assert_array_compare(operator.__eq__, x, y, err_msg=err_msg,
+  File "/Users/blizzardxu/.local/share/uv/python/cpython-3.11.17-macos-aarch64-none/lib/python3.11/contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/blizzardxu/Desktop/HPP/tmp/hpp_model_check_py311/lib/python3.11/site-packages/numpy/testing/_private/utils.py", line 797, in assert_array_compare
+    raise AssertionError(msg)
+AssertionError: 
+Arrays are not equal
+
+Mismatched elements: 60 / 120 (50%)
+Max absolute difference: 2.18153364
+Max relative difference: inf
+ x: array([[ 0.      , -1.698267],
+       [ 0.      ,  0.068838],
+       [ 0.      , -1.104187],...
+ y: array(0)
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.501s
+
+FAILED (failures=2)

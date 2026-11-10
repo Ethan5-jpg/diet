@@ -1,0 +1,142 @@
+{
+  "source": "User-supplied server background screenshot",
+  "received_client_date": "2026-11-09",
+  "exact_server_time_displayed": null,
+  "module": "diet_effect_modification_20261109_v12",
+  "stage": "BACKGROUND_ONLY",
+  "command": "bash server_background.sh",
+  "original_image": "original.png",
+  "original_sha256": "c020f61f22a20d5ae01244124d4c3d621132eb826c9e1bf5525d056f79e13487",
+  "original_copied": true,
+  "upload_check": {
+    "status": "OK",
+    "files": 51
+  },
+  "dependencies_check": "OK",
+  "environment_message": "existing packages unchanged",
+  "reported_versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.11.4",
+    "pandas": "2.1.0",
+    "pyarrow": "15.0.2",
+    "scikit-learn": "1.4.1.post1",
+    "threadpoolctl": "3.3.0"
+  },
+  "N": 3343,
+  "households": 3059,
+  "repeats_share_people": true,
+  "fiber_unit": "g/1000 kcal",
+  "fiber_quantiles_displayed": {
+    "Q05": "7.759",
+    "Q25": "10.916",
+    "Q50": "13.543",
+    "Q75": "16.802",
+    "Q95": "23.565"
+  },
+  "markers_displayed": [
+    {
+      "name": "oral_shannon",
+      "Q25": "1.7139",
+      "Q75": "2.6303",
+      "corr_fiber": "-0.0342"
+    },
+    {
+      "name": "oral_dominance",
+      "Q25": "0.2244",
+      "Q75": "0.4770",
+      "corr_fiber": "0.0167"
+    },
+    {
+      "name": "gut_shannon",
+      "Q25": "3.3376",
+      "Q75": "3.9868",
+      "corr_fiber": "0.0235"
+    },
+    {
+      "name": "gut_dominance",
+      "Q25": "0.0995",
+      "Q75": "0.2358",
+      "corr_fiber": "-0.0323"
+    }
+  ],
+  "marker_tail_fiber_ranges_displayed": [
+    {
+      "marker": "oral_shannon",
+      "tail": "Q1",
+      "N": 836,
+      "fiber_Q10": "9.072",
+      "fiber_Q90": "20.513"
+    },
+    {
+      "marker": "oral_shannon",
+      "tail": "Q4",
+      "N": 836,
+      "fiber_Q10": "8.807",
+      "fiber_Q90": "19.910"
+    },
+    {
+      "marker": "oral_dominance",
+      "tail": "Q1",
+      "N": 836,
+      "fiber_Q10": "8.675",
+      "fiber_Q90": "19.992"
+    },
+    {
+      "marker": "oral_dominance",
+      "tail": "Q4",
+      "N": 836,
+      "fiber_Q10": "9.018",
+      "fiber_Q90": "20.331"
+    },
+    {
+      "marker": "gut_shannon",
+      "tail": "Q1",
+      "N": 836,
+      "fiber_Q10": "8.669",
+      "fiber_Q90": "20.301"
+    },
+    {
+      "marker": "gut_shannon",
+      "tail": "Q4",
+      "N": 836,
+      "fiber_Q10": "8.747",
+      "fiber_Q90": "20.050"
+    },
+    {
+      "marker": "gut_dominance",
+      "tail": "Q1",
+      "N": 836,
+      "fiber_Q10": "8.749",
+      "fiber_Q90": "20.242"
+    },
+    {
+      "marker": "gut_dominance",
+      "tail": "Q4",
+      "N": 836,
+      "fiber_Q10": "8.690",
+      "fiber_Q90": "20.041"
+    }
+  ],
+  "marker_correlations_displayed": {
+    "oral_shannon_dominance": "-0.901",
+    "gut_shannon_dominance": "-0.919",
+    "oral_gut_shannon": "0.000"
+  },
+  "displayed_scope": [
+    "no outcome model",
+    "no new scientific result",
+    "person averages are not strict diet/CGM-day alignment",
+    "sample-date semantics unverified",
+    "no Y summaries, participant rows, V11 model scores or input/result changes"
+  ],
+  "outcome_model_run_evidenced_by_this_command": false,
+  "analysis_run_id_displayed": null,
+  "resource_snapshot_displayed": false,
+  "limitations": [
+    "Displayed precision only; no server full-precision result or participant data downloaded.",
+    "Eight marginal marker-tail diet ranges contain 10 and 15; this is not multivariate local/conditional support.",
+    "Strong inverse diversity-dominance correlations may widen conditional intervals; fixed primary targets are retained.",
+    "Near-zero marginal diet-marker correlation does not exclude interaction or confounding; rounded 0.000 does not prove exact zero/independence.",
+    "This background command is not the 41-check server modeling preflight or an inferential result."
+  ]
+}

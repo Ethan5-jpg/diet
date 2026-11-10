@@ -1,0 +1,11 @@
+factorization oral flagged=3/10 optimizer_not_converged=3/10
+
+n=3 STOP: TOTAL NO. of ITERATIONS REACHED LIMIT
+factorization balanced flagged=9/10 optimizer_not_converged=9/10
+
+n=9 STOP: TOTAL NO. of ITERATIONS REACHED LIMIT
+TO convex FM_weights: 0.021048 0.022230 0.000000 0.000000 0.038390
+10 ridge FM_rawcoefs: @.021092 0.027152 -0.003219 -0.020547 0.035952
+rl convex_FM_weights: 0.000000 0.043743 0.000000 0.055324 0.018497
+Tl ridge FM_rawcoefs: 0.003439 0.040308 0.002117 0.053118 0.020470
+(pheno) [ec2-user@ip-10-0-71-168 diet_model_expansion 20261107 v7]$

@@ -1,0 +1,26 @@
+test_runtime_partial_then_complete_resume_and_readonly_report (test_pipeline.PipelineChecks.test_runtime_partial_then_complete_resume_and_readonly_report) ... ERROR
+
+======================================================================
+ERROR: test_runtime_partial_then_complete_resume_and_readonly_report (test_pipeline.PipelineChecks.test_runtime_partial_then_complete_resume_and_readonly_report)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/private/tmp/hpp_v7_reaudit_baseline_20261107/collaborator_handoff_20261102_v1/experiments/diet_model_expansion_20261107_v7/tests/test_pipeline.py", line 97, in test_runtime_partial_then_complete_resume_and_readonly_report
+    runtime_worker.execute(args)
+  File "/private/tmp/hpp_v7_reaudit_baseline_20261107/collaborator_handoff_20261102_v1/experiments/diet_model_expansion_20261107_v7/run.py", line 81, in execute
+    if json.loads(path.read_text()) != result:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/blizzardxu/.local/share/uv/python/cpython-3.11.17-macos-aarch64-none/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/blizzardxu/.local/share/uv/python/cpython-3.11.17-macos-aarch64-none/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/blizzardxu/.local/share/uv/python/cpython-3.11.17-macos-aarch64-none/lib/python3.11/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5 column 5 (char 50)
+
+----------------------------------------------------------------------
+Ran 1 test in 5.743s
+
+FAILED (errors=1)

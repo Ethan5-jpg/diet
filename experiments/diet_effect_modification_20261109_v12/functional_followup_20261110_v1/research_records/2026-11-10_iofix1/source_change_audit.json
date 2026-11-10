@@ -1,0 +1,15 @@
+{
+  "old_source_manifest_sha256": "5e5ac520f43b6bc68fd9448f85b460ce3a483b01c3dc17a623ce59f6924c2280",
+  "new_source_manifest_sha256": "3a99e664252c1ecd82c48d3c0cabb2f7098f03bd8724c18f84a684eb2d7820bd",
+  "changed_files": [
+    "README.md",
+    "check_synthetic.py",
+    "pilot.py"
+  ],
+  "statistical_config_unchanged": true,
+  "protocol_unchanged": true,
+  "functional_representation_code_unchanged": true,
+  "native_reader_unchanged": true,
+  "old_run_id": "function_20261110_v1",
+  "new_run_id": "function_20261110_v1_iofix1"
+}

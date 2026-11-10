@@ -1,0 +1,25 @@
+{
+  "source_dates": [
+    "2026-11-07 23:58:13 Asia/Shanghai",
+    "2026-11-07 23:58:23 Asia/Shanghai"
+  ],
+  "server_python": "/home/ec2-user/.venvs/hpp_v7_20261107/bin/python",
+  "installed": {
+    "lightgbm": "3.3.5",
+    "interpret-core": "0.6.5"
+  },
+  "tests_run": 26,
+  "elapsed_seconds_displayed": 54.898,
+  "errors": 1,
+  "passed": 25,
+  "failing_test": "test_runtime_partial_then_complete_resume_and_readonly_report",
+  "error": "ValueError: Version mismatch for pyarrow: expected 15.0.2, found 15.0.0",
+  "failure_stage": "environment(config), before real-data loading and training",
+  "launch_result": "subprocess.CalledProcessError; check.py exit status 1",
+  "server_real_training_started_observed": false,
+  "scores_visible": false,
+  "images": {
+    "install_and_checks.png": "c8c96ea6ead75243e78e9df2503fba87f105be3614ad1a2ef8102c18814dafb3",
+    "pyarrow_error.png": "edb1ccdd30c479cdb7ee138ce1dae11814d039f38e7dd0d556c37bf3322fa074"
+  }
+}

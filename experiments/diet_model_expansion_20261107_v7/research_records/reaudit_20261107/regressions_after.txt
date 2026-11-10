@@ -1,0 +1,11 @@
+test_closed_result_publication_recovers_partial_files_and_keeps_evidence (test_regressions.PublicationChecks.test_closed_result_publication_recovers_partial_files_and_keeps_evidence) ... ok
+test_publish_failure_before_rename_leaves_no_completed_result (test_regressions.PublicationChecks.test_publish_failure_before_rename_leaves_no_completed_result) ... ok
+test_gate_convergence_warning_is_kept_with_the_candidate (test_regressions.RegressionChecks.test_gate_convergence_warning_is_kept_with_the_candidate) ... ok
+test_hybrid_design_replays_identically_for_training_and_validation (test_regressions.RegressionChecks.test_hybrid_design_replays_identically_for_training_and_validation) ... ok
+test_mixture_training_prediction_uses_the_fitted_coordinates (test_regressions.RegressionChecks.test_mixture_training_prediction_uses_the_fitted_coordinates) ... ok
+test_randomized_pca_training_scores_equal_replayed_projection (test_regressions.RegressionChecks.test_randomized_pca_training_scores_equal_replayed_projection) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.522s
+
+OK

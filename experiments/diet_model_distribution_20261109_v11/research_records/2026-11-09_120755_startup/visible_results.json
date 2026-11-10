@@ -1,0 +1,146 @@
+{
+  "experiment": "diet_model_distribution_20261109_v11",
+  "run_id": "distribution_v11_20261109",
+  "sources": [
+    {
+      "screenshot_time": "2026-11-09 12:07:55",
+      "image": "01_native_preflight.png"
+    },
+    {
+      "screenshot_time": "2026-11-09 12:08:08",
+      "image": "02_first_model_selection.png"
+    }
+  ],
+  "upload_check": {
+    "status": "OK",
+    "files": 40
+  },
+  "environment": {
+    "status": "DEPENDENCIES_OK",
+    "python": "/home/ec2-user/.venvs/hpp_v8_20261108/bin/python",
+    "packages_changed": false,
+    "versions": {
+      "numpy": "1.26.4",
+      "scipy": "1.11.4",
+      "pandas": "2.1.0",
+      "pyarrow": "15.0.2",
+      "scikit-learn": "1.4.1.post1",
+      "catboost": "1.2.8",
+      "lightgbm": "3.3.5",
+      "joblib": "1.3.2",
+      "threadpoolctl": "3.0.0"
+    }
+  },
+  "native_synthetic_preflight": {
+    "tests": 46,
+    "status": "OK",
+    "seconds_displayed": 625.25,
+    "all_default_candidates": 206,
+    "storage_status": "EXPERIMENT_STORAGE_OK"
+  },
+  "worker": {
+    "pid": 16785,
+    "mode": "CONSOLE_WORKER"
+  },
+  "cache_checks": [
+    {
+      "repeat": 0,
+      "fold": 0,
+      "time_displayed": "03:58:05",
+      "status": "completed"
+    },
+    {
+      "repeat": 0,
+      "fold": 1,
+      "time_displayed": "03:58:22",
+      "status": "completed"
+    },
+    {
+      "repeat": 0,
+      "fold": 2,
+      "time_displayed": "03:58:51",
+      "status": "completed"
+    },
+    {
+      "repeat": 0,
+      "fold": 3,
+      "time_displayed": "03:59:20",
+      "status": "completed"
+    },
+    {
+      "repeat": 0,
+      "fold": 4,
+      "time_displayed": "03:59:48",
+      "status": "completed"
+    },
+    {
+      "repeat": 1,
+      "fold": 0,
+      "time_displayed": "04:00:18",
+      "status": "completed"
+    },
+    {
+      "repeat": 1,
+      "fold": 1,
+      "time_displayed": "04:00:47",
+      "status": "completed"
+    },
+    {
+      "repeat": 1,
+      "fold": 2,
+      "time_displayed": "04:01:18",
+      "status": "completed"
+    },
+    {
+      "repeat": 1,
+      "fold": 3,
+      "time_displayed": "04:01:49",
+      "status": "completed"
+    },
+    {
+      "repeat": 1,
+      "fold": 4,
+      "time_displayed": "04:02:19",
+      "status": "completed"
+    }
+  ],
+  "distribution_audit": {
+    "fixed_N": 3343,
+    "energy_days": 43158,
+    "joint_macro_ge3": 3330,
+    "bag_days": 37676,
+    "no_new_outcomes": true
+  },
+  "observed_timeline": [
+    {
+      "time": "03:57:35",
+      "event": "LOAD discovery inputs and joint-day distributions"
+    },
+    {
+      "time": "04:02:19",
+      "event": "DISTRIBUTION audit and HASH sources, inputs and references; no confirmation data"
+    },
+    {
+      "time": "04:07:36",
+      "event": "START r0_f0 hgb_oral_full candidates=3"
+    },
+    {
+      "time": "04:07:50",
+      "event": "SELECT r0_f0 hgb_oral_full case=0 elapsed=14.1s"
+    },
+    {
+      "time": "04:07:50",
+      "event": "START r0_f0 cat_balanced_full candidates=3"
+    }
+  ],
+  "status_at_screenshot": "RUNNING_FIRST_OUTER_FOLD_INNER_SELECTION",
+  "final_R2_visible": false,
+  "completed_outer_folds_visible": 0,
+  "image_copies_saved": true,
+  "limits": [
+    "Server clock times transcribed as displayed; timezone not inferred.",
+    "Preflight is synthetic even when run on the native server.",
+    "Actual modeling started, but no OUTER_COMPLETE, final R2, or BATCH_COMPLETE is visible.",
+    "V10 bank numerical replay on real outer predictions is checked later and is not established by these screenshots."
+  ]
+}

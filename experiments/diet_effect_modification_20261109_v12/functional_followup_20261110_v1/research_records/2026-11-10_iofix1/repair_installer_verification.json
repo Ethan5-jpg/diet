@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "synthetic_only": true,
+  "check_count": 14,
+  "checks": [
+    "known_old_sources_upgrade_to_exact_new_checksums",
+    "repair_handles_quoted_directory_paths_with_spaces",
+    "failed_registration_lock_and_partial_archive_preserved_byte_for_byte",
+    "original_runtime_sources_backed_up_and_verified",
+    "already_repaired_sources_are_not_rewritten",
+    "repair_only_test_never_starts_native_model_or_leaves_temporaries",
+    "unknown_source_refused_without_source_changes",
+    "active_old_process_refused_without_source_changes",
+    "completed_fold_refused_without_source_changes",
+    "changed_statistics_refused_without_source_changes",
+    "remote_lock_refused_without_source_changes",
+    "all_fitting_selection_scoring_and_checkpoint_logic_AST_unchanged",
+    "statistical_configuration_and_all_analysis_modules_unchanged",
+    "repair_shell_syntax_valid"
+  ],
+  "repair_command_sha256": "fdb07d7278b10e0dfd1cf57ad574a0d193a211074645b31d38225e69e754220b",
+  "native_TRE_storage_execution_verified": false,
+  "native_participant_data_read": false
+}

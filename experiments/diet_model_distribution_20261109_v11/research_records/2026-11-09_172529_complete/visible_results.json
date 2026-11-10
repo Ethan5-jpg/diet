@@ -1,0 +1,151 @@
+{
+  "source": "User screenshot 2026-11-09 17:25:29 Asia/Shanghai",
+  "experiment": "diet_model_distribution_20261109_v11",
+  "run_id": "distribution_v11_20261109",
+  "status_displayed": "V11 COMPLETE",
+  "batch_complete_time_displayed": "09:25:13",
+  "outer_folds_completed": 10,
+  "outer_folds_total": 10,
+  "outcome": "D_Glu",
+  "outcome_unit": "mg/dL",
+  "exposure": "fiber_density",
+  "N0": 3343,
+  "N1": 3343,
+  "new_pipelines": 79,
+  "repeats_share_participants": true,
+  "scores_displayed": [
+    {
+      "model": "v8_ridge_wide",
+      "R2_0": 0.120396,
+      "R2_1": 0.122745,
+      "dV10_0": -0.005831,
+      "dV10_1": -0.014521,
+      "flag": "-"
+    },
+    {
+      "model": "v10_ridge_diverse",
+      "R2_0": 0.126227,
+      "R2_1": 0.137266,
+      "dV10_0": 0.0,
+      "dV10_1": 0.0,
+      "flag": "-"
+    },
+    {
+      "model": "v10_replay",
+      "R2_0": 0.126227,
+      "R2_1": 0.137266,
+      "dV10_0": 0.0,
+      "dV10_1": 0.0,
+      "flag": "-"
+    },
+    {
+      "model": "positive_combined",
+      "R2_0": 0.130555,
+      "R2_1": 0.139855,
+      "dV10_0": 0.004328,
+      "dV10_1": 0.002589,
+      "flag": "-"
+    },
+    {
+      "model": "sparse_combined",
+      "R2_0": 0.12834,
+      "R2_1": 0.140103,
+      "dV10_0": 0.002113,
+      "dV10_1": 0.002838,
+      "flag": "-"
+    },
+    {
+      "model": "ridge_combined",
+      "R2_0": 0.12802,
+      "R2_1": 0.139652,
+      "dV10_0": 0.001793,
+      "dV10_1": 0.002386,
+      "flag": "-"
+    },
+    {
+      "model": "positive_new",
+      "R2_0": 0.127859,
+      "R2_1": 0.134546,
+      "dV10_0": 0.001632,
+      "dV10_1": -0.00272,
+      "flag": "-"
+    },
+    {
+      "model": "convex_combined",
+      "R2_0": 0.127149,
+      "R2_1": 0.135216,
+      "dV10_0": 0.000922,
+      "dV10_1": -0.00205,
+      "flag": "-"
+    },
+    {
+      "model": "ridge_new",
+      "R2_0": 0.126451,
+      "R2_1": 0.134122,
+      "dV10_0": 0.000225,
+      "dV10_1": -0.003144,
+      "flag": "-"
+    }
+  ],
+  "explicit_displayed": [
+    {
+      "model": "cfiber_gut",
+      "dR2_0": 0.0,
+      "dR2_1": 0.0,
+      "active_folds_0": 0,
+      "active_folds_1": 0,
+      "SD0_mg_dL": 0.0,
+      "SD1_mg_dL": 0.0
+    },
+    {
+      "model": "cfiber_oral",
+      "dR2_0": -0.001802,
+      "dR2_1": 0.0,
+      "active_folds_0": 1,
+      "active_folds_1": 0,
+      "SD0_mg_dL": 0.228,
+      "SD1_mg_dL": 0.0
+    },
+    {
+      "model": "cfiber_both",
+      "dR2_0": 0.0,
+      "dR2_1": 0.0,
+      "active_folds_0": 0,
+      "active_folds_1": 0,
+      "SD0_mg_dL": 0.0,
+      "SD1_mg_dL": 0.0
+    },
+    {
+      "model": "cfiber_macro",
+      "dR2_0": -0.001438,
+      "dR2_1": 0.002127,
+      "active_folds_0": 2,
+      "active_folds_1": 4,
+      "SD0_mg_dL": 0.42,
+      "SD1_mg_dL": 0.5
+    }
+  ],
+  "beats_v10_both": 3,
+  "fit_flag_new_pipelines": 0,
+  "both_repeats_ge_020": 0,
+  "both_repeats_ge_030": 0,
+  "v10_replay_max_error_displayed": 0,
+  "contrast": [
+    10,
+    15
+  ],
+  "contrast_unit": "g/1000 kcal",
+  "explicit_comparator": "SAME selected background; not total-model V10 comparator",
+  "confirmation_outcomes_read_displayed": false,
+  "missing": [
+    "Full 79-pipeline score table",
+    "V11 matched-input and residual diagnostics",
+    "Conditional household intervals and per-fold choices"
+  ],
+  "limitations": [
+    "Values transcribed at displayed precision; no native full-precision summary or participant-level predictions downloaded.",
+    "Default ranking uses the lower R2 across the two repeats; the single-repeat maximum across all 79 workflows is not shown.",
+    "active0/1 is the number of folds with a nonzero varying correction, not a number of people or taxa.",
+    "Zero increments and inactive corrections do not prove absence of biological modification."
+  ]
+}

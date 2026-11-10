@@ -1,0 +1,22 @@
+BEATS_V8_BOTH=0/64; FIT_FLAG_PIPELINES=0
+TOP ATOMIC PIPELINES: model R2_0 R2_1 flag
+daily_cat_balanced 0.108682 0.113566 D
+hurdle_hgb_balanced 0.107348 0.117711 -
+hurdle_cat_oral 0.107013 0.108575 -
+daily_hgb_balanced 0.106250 0.108324 D
+anchor_cat_balanced 0.105924 0.110793 -
+log1p_cat_balanced 0.104581 0.108512 -
+GAINS VS V8: conditional household intervals; wins out of 5
+convex_wide r0 d=-0.000905 CI=[-0.007357,+0.005548] wins=2/5
+convex_wide r1 d=+0.004234 CI=[-0.002255,+0.010723] wins=3/5
+ridge_wide r0 d=-0.002276 CI=[-0.009124,+0.004573] wins=1/5
+ridge_wide r1 d=+0.006605 CI=[-0.000585,+0.013795] wins=4/5
+ridge_core r0 d=-0.004137 CI=[-0.010508,+0.002233] wins=1/5
+ridge_core r1 d=+0.007101 CI=[+0.000621,+0.013580] wins=4/5
+MATCHED ADDITIONS: delta_R2 repeat0 repeat1
+daily_cat_oral vs ecohybrid_cat_oral: -0.001488 -0.000755
+daily_cat_balanced vs ecohybrid_cat_balanced: +0.004388 +0.001642
+gated_soft vs convex_core: -0.000831 -0.000322
+gated_medium vs convex_core: +0.000378 -0.000160
+gated_strong vs convex_core: +0.000575 -0.000179
+D=extra FOOD inputs; W=fit flag. Intervals exclude adaptive-search uncertainty.

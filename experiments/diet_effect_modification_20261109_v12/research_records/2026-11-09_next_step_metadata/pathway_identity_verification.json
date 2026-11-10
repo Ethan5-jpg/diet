@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "synthetic_only": true,
+  "real_server_execution": "pending_user",
+  "script_sha256": "d7f0f889aabec94599945ce9d776ef80888edca48ecf50d117389a3561dad345",
+  "checks_count": 22,
+  "checks": [
+    "distinct_same_size_files_not_claimed_equal",
+    "known_identifier_projection_excludes_numeric_pathway_columns",
+    "visit_array_and_sample_diagnostics_present",
+    "registry_schema_only_and_scope_limit_explicit",
+    "public_code_examples_allowlisted",
+    "same_pointer_and_same_file_detected",
+    "different_files_with_identical_content_detected",
+    "ambiguous_existing_candidates_not_selected",
+    "remote_protocol_not_requested_or_printed",
+    "parent_traversal_not_resolved",
+    "multiple_pointers_not_silently_reduced",
+    "missing_pointer_column_explicit",
+    "no_identifier_does_not_read_function_batch",
+    "null_and_placeholder_keys_remain_unmatched",
+    "duplicate_source_keys_reported",
+    "duplicate_function_keys_reported",
+    "footer_budget_retained",
+    "file_budget_prevents_body_read",
+    "unexpected_format_no_body_parse",
+    "compressed_ipc_projection_supported",
+    "all_scenarios_no_private_values_paths_or_tracebacks",
+    "python_and_bash_syntax_valid"
+  ],
+  "cases_count": 16,
+  "scope": "Only generated Parquet/IPC data; no native HPP inputs or outcomes; no new model tests."
+}
