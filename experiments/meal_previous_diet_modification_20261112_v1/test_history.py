@@ -6,7 +6,7 @@ import unittest
 import numpy as np
 import pandas as pd
 
-from analyze_previous import ENDPOINTS, ROOT, fit_blocks
+from analyze_previous import ENDPOINTS, ROOT, fit_blocks, losses, summarize
 from history import design, preceding, repeated
 
 MODEL_PATH = ROOT.parent / "diet_daily_modification_20261112_v1/models.py"
@@ -59,6 +59,37 @@ class PreviousMealTest(unittest.TestCase):
         for ep in ENDPOINTS:
             np.testing.assert_array_equal(fit[ep]["direction_vector"], repeat[ep]["direction_vector"])
             np.testing.assert_array_equal(fit[ep]["joint"][2], repeat[ep]["joint"][2])
+
+    def test_held_out_gains_distinguish_a_previous_meal_interaction(self):
+        rng = np.random.default_rng(61112)
+        person = np.repeat(np.arange(120), 8)
+        n = len(person)
+        prior = rng.uniform(8., 85., n)
+        protein = rng.uniform(3., 35., n)
+        meals = pd.DataFrame({
+            "input_row": person, "person_index": person, "carbs": rng.uniform(15., 60., n),
+            "prior_carbs": prior, "prior_energy": 4 * (prior + protein) + rng.uniform(40., 330., n),
+            "prior_protein": protein, "prior_fiber": rng.uniform(.5, 8., n),
+            "prior_gap": rng.uniform(135., 360., n), "local_hour": rng.uniform(9., 21., n),
+        })
+        scores = rng.normal(size=(120, 3))
+        train = person < 80
+        x, w = MODEL.center(rng.normal(size=(n, 3)), person)
+        _, current, triple = design(meals, scores, MODEL)
+        direction = np.array([.5, -.2, .1])
+        ordinary = x @ np.array([1., .5, .2]) + current @ direction
+        for strength in (0., .8):
+            y = ordinary + strength * (triple @ direction)
+            matrices = {(ep, "carbs"): (y, x, w) for ep in ENDPOINTS}
+            params = fit_blocks(meals, matrices, scores, train, MODEL)
+            paired = losses(meals, matrices, scores, params, ~train, person, 120, MODEL)
+            net = summarize(paired, 56)["net_p0"]
+            if strength:
+                self.assertGreater(net["joint"]["delta_r2"], .05)
+                self.assertGreater(net["direction"]["delta_r2"], .05)
+            else:
+                self.assertAlmostEqual(net["joint"]["delta_r2"], 0., places=12)
+                self.assertAlmostEqual(net["direction"]["delta_r2"], 0., places=12)
 
 
 if __name__ == "__main__":
