@@ -1,0 +1,24 @@
+{
+  "base_inputs_sha": "c5d28bb133105ed914de8d05f2e2a2402c13223164d4d05902ce0aba592f9f6b",
+  "base_runner_sha": "056cef596a6d402a6ab17e3c5406ecea4f7d08a30e3bc22606f74e503a758e38",
+  "base_models_sha": "13078e7de66f1b140a4ac776d6ee5572475a66abb9c798ca743a4bbe564ad432",
+  "cgm_helper_sha": "5818892483242c25794182e828bb1f8cc02a267978216886da2015bb238bc9a8",
+  "time_offsets_minutes": [-15, 0, 15],
+  "max_food_episode_span_minutes": 30,
+  "isolation_minutes": 135,
+  "minimum_kcal": 50,
+  "minimum_carbohydrate_g": 5,
+  "minimum_meals": 5,
+  "minimum_days": 3,
+  "batch_size": 96,
+  "smoke_people": 48,
+  "cgm": {
+    "baseline_minutes": 30,
+    "baseline_min_points": 2,
+    "baseline_nearest_minutes": 15,
+    "post_minutes": 120,
+    "max_gap_minutes": 20,
+    "minimum_post_points": 7,
+    "warmup_minutes": 0
+  }
+}
