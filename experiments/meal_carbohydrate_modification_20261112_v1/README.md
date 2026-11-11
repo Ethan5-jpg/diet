@@ -4,7 +4,13 @@ This stage constructs the meal-level discovery input for testing whether the wit
 
 Food timestamps must agree with their local wall-time fields to within one minute. Group events up to 30 minutes from an episode's first timestamp. Use only episodes on eligible energy days, with full nutrient data, no repeated-food/time or duplicate flags, and at least 135 minutes of isolation from the preceding and following episode. Match only the visit's already selected W14 CGM connection. Each raw point file is checked against the W09 fragment manifest before processing. Apply the same verified CGM window implementation used in the earlier HPP meal pipeline, including a pre-window median and conservative interpolation and gap criteria. Store net and positive incremental areas divided by 120, peak rise, baseline and pre-window slope. Compute the same windows at the registered log time and at ±15 minutes to assess clock sensitivity. Time shifts use the same detected episodes. The later analysis can compare all three clocks on exactly the same meals.
 
-The frozen Experiment 2 discovery roster is the only roster used. Admission requires five qualifying meals across at least three calendar dates. This release prepares inputs and audits window coverage. The model specification will report within-person carbohydrate contrasts, separate main effects from microbiome modification, and include pre-window outcomes as a temporal check.
+The frozen Experiment 2 discovery roster is the only roster used. Admission requires five qualifying meals across at least three calendar dates. The model stage uses the same meals with complete windows at all three clock offsets and re-applies the five-meal and three-day minimums on that subset.
+
+## Within-person models
+
+The primary test is the two-hour time-averaged net increment at the logged timestamp, with a 45% to 55% carbohydrate share contrast at fixed protein share and recorded energy. The modifier is the fixed seven-taxon abundance sum from the earlier Westlake adaptation. A second exposure uses a 10 g carbohydrate difference at fixed protein grams and recorded energy. The model includes participant fixed effects with equal total weight per participant, dietary main terms, local time, weekday, prior episode gap, and dose by age and sex. Post-window models additionally adjust for pre-window glucose and slope. Pre-window glucose is examined as a temporal check of residual diet selection or timing.
+
+Compare peak rise, net increment at both alternative clocks, and oral, gut and combined PCs and Shannon representations. Report household CR1 omnibus tests with Holm adjustment for all 60 models, signed quartile contrasts for scalar modifiers, and matched prediction results from two five-fold household partitions. Microbial transformations and coefficients use training households. The fold-out target is the within-person deviation in the recorded-window outcome.
 
 ## TRE deployment
 
@@ -17,6 +23,9 @@ cd "$h/experiments/meal_carbohydrate_modification_20261112_v1"
 "$p" -B -m unittest -q test_prepare
 "$p" -B prepare.py --package "$h" --commit FULL_COMMIT --run smoke-1 --smoke
 "$p" -B prepare.py --package "$h" --commit FULL_COMMIT --run discovery-1
+"$p" -B -m unittest -q test_analyze
+"$p" -B analyze.py --package "$h" --commit MODEL_COMMIT --prepared discovery-1 --run models-smoke --smoke
+"$p" -B analyze.py --package "$h" --commit MODEL_COMMIT --prepared discovery-1 --run models-1
 ```
 
 The full window table, batch checkpoints and logs stay in the study. A completed run has a marker with hashes for the registration, summary and private window table. Use `--resume` after checking the previous process and lock; registered source bytes must match.
