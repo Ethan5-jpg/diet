@@ -29,8 +29,11 @@ COMPARE = dict(oral_vs_none=("oral_pc5", "none"), gut_vs_none=("gut_pc5", "none"
                both_vs_gut=("both_pc5", "gut_pc5"))
 
 
-def family_totals(y, x, w, z, training, family, n_family, model):
-    valid = ~training
+def family_totals(y, x, w, z, training, family, n_family, model, *, valid=None):
+    if valid is None:
+        valid = ~training
+    require(training.any() and valid.any() and not (training & valid).any(),
+            "Invalid matched training and evaluation masks")
     fitted = model.fit_background(x[training], y[training], w[training])
     background = x[valid] @ fitted[0]
     loss = dict(none=(y[valid] - background) ** 2)
@@ -72,22 +75,9 @@ def verified_result(path):
     return load(path / "registration.json"), summary
 
 
-def main():
-    parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--package", type=Path, required=True)
-    parser.add_argument("--archived", default="models-1")
-    parser.add_argument("--run", required=True)
-    parser.add_argument("--commit", required=True)
-    args = parser.parse_args()
-    package = args.package.resolve()
-    require((package / "experiments" / ROOT.name).resolve() == ROOT
-            and re.fullmatch(r"[a-zA-Z0-9_-]+", args.archived)
-            and re.fullmatch(r"[a-zA-Z0-9_-]+", args.run)
-            and re.fullmatch(r"[0-9a-f]{40}", args.commit), "Unexpected run or source")
+def archived_inputs(package, archived):
     config = load(ROOT / "config.json")
     inputs, io = base_modules(config)
-    model = __import__("models")
-    archived = ROOT / "runs_TRE_ONLY" / args.archived
     receipt, original = verified_result(archived)
     source_hashes = receipt["sources"]
     require(all(digest(Path(p)) == h for p, h in source_hashes.items()), "An archived model input changed")
@@ -125,6 +115,27 @@ def main():
     external = ROOT.parent / "diet_carb_external_score_20261112_v1/config.json"
     require(digest(external) == EXTERNAL_CONFIG_SHA, "Literature panel definition differs")
     mapping = load(external)["taxa"]
+    return (receipt, original, io, meal, index, pop, family_ids, family, outer,
+            raw, taxa, preprocess.MicrobiomeCLR, mapping)
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--package", type=Path, required=True)
+    parser.add_argument("--archived", default="models-1")
+    parser.add_argument("--run", required=True)
+    parser.add_argument("--commit", required=True)
+    args = parser.parse_args()
+    package = args.package.resolve()
+    require((package / "experiments" / ROOT.name).resolve() == ROOT
+            and re.fullmatch(r"[a-zA-Z0-9_-]+", args.archived)
+            and re.fullmatch(r"[a-zA-Z0-9_-]+", args.run)
+            and re.fullmatch(r"[0-9a-f]{40}", args.commit), "Unexpected run or source")
+    model = __import__("models")
+    archived = ROOT / "runs_TRE_ONLY" / args.archived
+    (receipt, original, io, meal, index, pop, family_ids, family, outer,
+     raw, taxa, clr, mapping) = archived_inputs(package, archived)
+    source_hashes = receipt["sources"]
     matrices, dose = bases(meal, model)
     person = meal.person_index.to_numpy()
     result = {name: {} for name in ENDPOINTS}
@@ -141,7 +152,7 @@ def main():
             training = outer[repeat] != fold
             groups = index.iloc[pop].split_unit_id
             require(not set(groups[training]) & set(groups[~training]), "Household crossing")
-            marker = markers(model, raw, taxa, index, pop, training, preprocess.MicrobiomeCLR, mapping)
+            marker = markers(model, raw, taxa, index, pop, training, clr, mapping)
             z = {name: model.center(dose["carbs"][:, None] * marker[name][person], person)[0] for name in SITES}
             for endpoint in ENDPOINTS:
                 y, x, w = matrices[endpoint, "carbs"]

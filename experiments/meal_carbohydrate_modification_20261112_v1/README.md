@@ -29,3 +29,24 @@ cd "$h/experiments/meal_carbohydrate_modification_20261112_v1"
 ```
 
 The full window table, batch checkpoints and logs stay in the study. A completed run has a marker with hashes for the registration, summary and private window table. Use `--resume` after checking the previous process and lock; registered source bytes must match.
+
+## Transfer across recording days
+
+This discovery sensitivity focuses on the selected 10 g carbohydrate contrast at
+fixed recorded energy and protein. Split each participant's sorted dates at the
+median date rank and require at least four dates overall and four meals in each
+period. Keep dates intact. Evaluate the recorded-clock net response and peak
+rise, with pre-meal glucose as a temporal check. Recenter all model terms within
+participant and period to keep the within-person deviation target.
+
+Use the archived model, main terms, fixed interaction penalty and two household
+partitions. Within each fold fit on the early dates of training households and
+score the late dates of held-out households, and vice versa. Fit each microbial
+representation on training households. Compare the joint and single-site
+interaction blocks against the same additive background. Report 1,999 paired
+household bootstrap draws per repeat and direction, conditional on the fitted
+predictions. These are robustness checks in the selected discovery population.
+
+Run `test_time_transfer` and then `time_transfer.py` with the package path, the
+full release commit and a new run identifier. Use `--smoke` with a separate
+identifier to check both time directions in the first fold before the full run.
