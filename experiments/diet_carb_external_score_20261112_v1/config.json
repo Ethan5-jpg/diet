@@ -1,0 +1,21 @@
+{
+  "base_code": {
+    "config.json": "775f55167c9564176225b50268d55a3cd6942a5d1e672f458237e26b183f9276",
+    "inputs.py": "c5d28bb133105ed914de8d05f2e2a2402c13223164d4d05902ce0aba592f9f6b",
+    "models.py": "13078e7de66f1b140a4ac776d6ee5572475a66abb9c798ca743a4bbe564ad432",
+    "run.py": "056cef596a6d402a6ab17e3c5406ecea4f7d08a30e3bc22606f74e503a758e38"
+  },
+  "taxa": {
+    "Bacteroides thetaiotaomicron": "s__Bacteroides_thetaiotaomicron",
+    "Bacteroides caccae": "s__Bacteroides_caccae",
+    "Escherichia unclassified": null,
+    "Escherichia coli": "s__Escherichia_coli",
+    "Ruminococcus sp 5 1 39BFAA": null,
+    "Lachnospiraceae bacterium 3 1 57FAA CT1": null,
+    "Ruminococcus gnavus": "s__Ruminococcus_gnavus",
+    "Clostridiales bacterium 1 7 47FAA": "s__Clostridiales_bacterium_1_7_47FAA",
+    "Clostridium symbiosum": "s__Clostridium_symbiosum",
+    "Clostridium bolteae": "s__Enterocloster_bolteae"
+  },
+  "penalty": 0.03
+}
