@@ -55,6 +55,10 @@ def group_draws(groups, categories, labels, weights, unknown, *, draws, seed, sh
 
 
 class Tests(unittest.TestCase):
+    def test_dependency_digest_format(self):
+        for digest in [*CFG["base_code"].values(), *CFG["food_code"].values(), CFG["context_sha"]]:
+            self.assertRegex(digest, r"^[0-9a-f]{64}$")
+
     def test_shared_food_label(self):
         low, high = np.array([.1, .2]), np.array([.4, .5])
         weights = sparse.csr_matrix([[.3], [.3]])
