@@ -1,0 +1,29 @@
+{
+  "expected_discovery_rows": 4427,
+  "expected_people": 3343,
+  "expected_households": 3059,
+  "min_common_days": 3,
+  "pc_width": 5,
+  "penalties": [0.03, 0.3],
+  "primary_test": "carb_gut_pc_linear",
+  "routes": [
+    ["carb", "gut_pc", false],
+    ["carb", "oral_pc", false],
+    ["carb", "both_pc", false],
+    ["carb", "gut_shannon", false],
+    ["carb", "oral_shannon", false],
+    ["carb", "both_shannon", false],
+    ["carb", "gut_pc", true],
+    ["carb", "both_pc", true],
+    ["fiber", "gut_pc", false],
+    ["fiber", "oral_pc", false],
+    ["fiber", "both_pc", false],
+    ["fiber", "gut_shannon", false],
+    ["fiber", "oral_shannon", false],
+    ["fiber", "both_shannon", false],
+    ["fiber", "gut_pc", true],
+    ["joint", "gut_pc", false],
+    ["joint", "both_pc", false],
+    ["joint", "both_shannon", false]
+  ]
+}
