@@ -1,9 +1,12 @@
 """Synthetic tests for classification, linkage and overlap."""
 
 import unittest
+from types import SimpleNamespace
 
+import numpy as np
 import pandas as pd
 
+from analyze_processing import design
 from processing import coverage, nearby_pair_count, reconstruct, repeated_support
 
 
@@ -47,6 +50,22 @@ class ProcessingTest(unittest.TestCase):
         sources = ("upf_carbs", "non_upf_carbs")
         self.assertEqual(repeated_support(meal, sources).tolist(), [True] * 4 + [False] * 4)
         self.assertEqual(nearby_pair_count(meal.loc[meal.input_row.eq(1)], *sources), 1)
+
+    def test_replacement_varies_with_modifier_at_fixed_total_and_unknown(self):
+        def center(values, unit):
+            frame = pd.DataFrame(values)
+            return (frame - frame.groupby(unit).transform("mean")).to_numpy(), None
+
+        meals = pd.DataFrame({
+            "carbs": [40.] * 4, "carb_share": [50.] * 4,
+            "upf_carbs": [5., 15., 5., 15.], "non_upf_carbs": [30., 20., 30., 20.],
+            "unknown_carbs": [5.] * 4, "unknown_kcal": [20.] * 4,
+            "age_calendar_years": [50.] * 4, "sex_code": [0.] * 4,
+        })
+        person = np.array([0, 0, 1, 1])
+        nuisance, effect = design(meals, np.array([[-1.], [1.]]), person, person, SimpleNamespace(center=center))
+        np.testing.assert_allclose(nuisance[:, -2:], 0.)
+        np.testing.assert_allclose(effect[:, 0], [.5, -.5, -.5, .5])
 
 
 if __name__ == "__main__":
