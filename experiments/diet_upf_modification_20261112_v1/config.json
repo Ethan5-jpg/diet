@@ -1,0 +1,21 @@
+{
+  "base_code": {
+    "inputs.py": "c5d28bb133105ed914de8d05f2e2a2402c13223164d4d05902ce0aba592f9f6b",
+    "models.py": "13078e7de66f1b140a4ac776d6ee5572475a66abb9c798ca743a4bbe564ad432",
+    "run.py": "056cef596a6d402a6ab17e3c5406ecea4f7d08a30e3bc22606f74e503a758e38"
+  },
+  "food_code": {
+    "upf_catalogue_calibration_v2.py": "72126fe481a6810e2f3f4dcd99f9533dca81a57ad81ebf1cc09e7d6bd0477437",
+    "w17_interval_upf_rcs.py": "89834726a65741909fa6b920c84e90b495f64eb026f8cc8bc30b3b13177f2f55",
+    "w16_estimators.py": "5cf6e0f5ab9da126cc498a8fe992ba4704a22098b872be68f4b611a1d7a264ad",
+    "w17_interval_upf_prototype.py": "f0c527d253a3a3fe0ba55212a9db5e49fa22cd00273089b40368c5ae75c8b5506",
+    "preprocessing_v1_20261030.py": "b8f8e902a0722b5f90672d2cf63811b665074b32649e1b8a87772bb476f1e375"
+  },
+  "context_sha": "d8bb8ccc6e40553a17181e33f8fffe11e4e1129d67aaad89235aabf7c59fd4f4",
+  "draws": 512,
+  "scenario_fits": 32,
+  "seed": 20261112041,
+  "pc_width": 10,
+  "penalties": [0.03, 0.3],
+  "primary": "integrated_joint_gut_shannon_linear"
+}
