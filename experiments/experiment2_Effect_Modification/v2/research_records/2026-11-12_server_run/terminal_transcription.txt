@@ -1,0 +1,109 @@
+# Real HPP server aggregate output transcribed from the user's screenshots.
+# Evidence was captured on 2026-11-12 at 22:54:23 (primary r0), 22:54:42 (primary r1 and stability),
+# and 22:55:11 (primary completion marker and age/sex sensitivity run), Asia/Shanghai.
+# Values retain the precision and signs displayed. Shell prompts and server
+# identifiers were omitted from the transcription.
+
+EXP2_V2_UPLOAD_OK files=7
+EXP2_V2_ENV_OK
+EXP2_V2_SOURCE_READY people=3343 households=3059
+EXP2_V2_V11_REFERENCE r0=0.130555 r1=0.139855
+EXP2_V2_OUTER_COMPLETE r0 f0 people=661 baseline=shallow
+EXP2_V2_OUTER_COMPLETE r0 f1 people=677 baseline=shallow
+EXP2_V2_OUTER_COMPLETE r0 f2 people=668 baseline=shallow
+EXP2_V2_OUTER_COMPLETE r0 f3 people=665 baseline=shallow
+EXP2_V2_OUTER_COMPLETE r0 f4 people=672 baseline=shallow
+EXP2_V2_EFFECT r0 | 10->15 g/1000kcal; Q75-Q25 in mg/dL
+  oral_shannon      effect=-0.127 family95=[-0.769,+0.515] CI95=[-0.630,+0.377] tails_Q05-95=[8.3,23.0]/[7.7,23.7] covers=yes near10/15=116/130,133/126
+  oral_dominance    effect=+0.303 family95=[-0.322,+0.929] CI95=[-0.188,+0.794] tails_Q05-95=[7.6,23.7]/[8.3,22.9] covers=yes near10/15=125/122,120/131
+  gut_shannon       effect=+0.649 family95=[+0.082,+1.216] CI95=[+0.204,+1.094] tails_Q05-95=[7.7,23.7]/[7.9,22.7] covers=yes near10/15=152/114,115/132
+  gut_dominance     effect=-0.532 family95=[-1.045,-0.020] CI95=[-0.934,-0.130] tails_Q05-95=[7.7,23.1]/[7.7,23.7] covers=yes near10/15=119/138,153/99
+EXP2_V2_RAW_EFFECT r0 | 10->15 g/1000kcal; Q75-Q25 in mg/dL
+  oral_shannon      effect=-0.145 family95=[-0.792,+0.503]
+  oral_dominance    effect=+0.322 family95=[-0.311,+0.955]
+  gut_shannon       effect=+0.624 family95=[+0.044,+1.203]
+  gut_dominance     effect=-0.503 family95=[-1.035,+0.028]
+EXP2_V2_DOSE_SHAPE r0 | gut Shannon Q75-Q25; fixed knot at 12.5 g/1000kcal
+  near12.5 (within 1 g/1000kcal) low/high=142/169
+  10->15 effect=+0.847 mg/dL pointwise_CI95=[+0.217,+1.478]
+  10->12.5 effect=+0.627 mg/dL pointwise_CI95=[-0.067,+1.321]
+  12.5->15 effect=+0.220 mg/dL pointwise_CI95=[-0.086,+0.526]
+  above_minus_below effect=-0.407 mg/dL pointwise_CI95=[-1.275,+0.460]
+EXP2_V2_PREDICT r0 N=3343 baseline_R2=+0.066968
+  route                 full_R2   delta_R2      household_CI95    active
+  oral_shannon        +0.066953 -0.000015 [-0.000196,+0.000169] 1/5
+  oral_dominance      +0.066918 -0.000050 [-0.000812,+0.000687] 3/5
+  gut_shannon         +0.066685 -0.000283 [-0.002177,+0.001681] 4/5
+  gut_dominance       +0.066223 -0.000745 [-0.002754,+0.001221] 4/5
+  learned_oral        +0.066968 +0.000000 [+0.000000,+0.000000] 0/5
+  learned_gut         +0.067868 +0.000900 [-0.001582,+0.003458] 4/5
+  learned_both        +0.066694 -0.000274 [-0.002413,+0.001902] 3/5
+  selector            +0.066236 -0.000732 [-0.003655,+0.002153] 5/5
+EXP2_V2_OUTER_COMPLETE r1 f0 people=677 baseline=shallow
+EXP2_V2_OUTER_COMPLETE r1 f1 people=661 baseline=shallow
+EXP2_V2_OUTER_COMPLETE r1 f2 people=665 baseline=shallow
+EXP2_V2_OUTER_COMPLETE r1 f3 people=656 baseline=shallow
+EXP2_V2_OUTER_COMPLETE r1 f4 people=684 baseline=shallow
+EXP2_V2_EFFECT r1 | 10->15 g/1000kcal; Q75-Q25 in mg/dL
+  oral_shannon      effect=-0.085 family95=[-0.729,+0.559] CI95=[-0.590,+0.420] tails_Q05-95=[8.3,23.0]/[7.7,23.7] covers=yes near10/15=116/130,133/126
+  oral_dominance    effect=+0.339 family95=[-0.284,+0.962] CI95=[-0.150,+0.828] tails_Q05-95=[7.6,23.7]/[8.3,22.9] covers=yes near10/15=125/122,120/131
+  gut_shannon       effect=+0.504 family95=[-0.059,+1.068] CI95=[+0.062,+0.946] tails_Q05-95=[7.7,23.7]/[7.9,22.7] covers=yes near10/15=152/114,115/132
+  gut_dominance     effect=-0.384 family95=[-0.888,+0.120] CI95=[-0.779,+0.012] tails_Q05-95=[7.7,23.1]/[7.7,23.7] covers=yes near10/15=119/138,153/99
+EXP2_V2_RAW_EFFECT r1 | 10->15 g/1000kcal; Q75-Q25 in mg/dL
+  oral_shannon      effect=-0.101 family95=[-0.750,+0.548]
+  oral_dominance    effect=+0.355 family95=[-0.274,+0.984]
+  gut_shannon       effect=+0.484 family95=[-0.091,+1.059]
+  gut_dominance     effect=-0.359 family95=[-0.881,+0.163]
+EXP2_V2_DOSE_SHAPE r1 | gut Shannon Q75-Q25; fixed knot at 12.5 g/1000kcal
+  near12.5 (within 1 g/1000kcal) low/high=142/169
+  10->15 effect=+0.838 mg/dL pointwise_CI95=[+0.189,+1.487]
+  10->12.5 effect=+0.769 mg/dL pointwise_CI95=[+0.055,+1.484]
+  12.5->15 effect=+0.069 mg/dL pointwise_CI95=[-0.229,+0.367]
+  above_minus_below effect=-0.701 mg/dL pointwise_CI95=[-1.583,+0.181]
+EXP2_V2_PREDICT r1 N=3343 baseline_R2=+0.073424
+  route                 full_R2   delta_R2      household_CI95    active
+  oral_shannon        +0.073424 +0.000000 [+0.000000,+0.000000] 0/5
+  oral_dominance      +0.073285 -0.000139 [-0.000510,+0.000239] 1/5
+  gut_shannon         +0.073750 +0.000326 [-0.001008,+0.001672] 5/5
+  gut_dominance       +0.073595 +0.000171 [-0.001395,+0.001789] 5/5
+  learned_oral        +0.073424 +0.000000 [+0.000000,+0.000000] 0/5
+  learned_gut         +0.072606 -0.000819 [-0.002428,+0.000831] 2/5
+  learned_both        +0.071147 -0.002278 [-0.004497,-0.000045] 2/5
+  selector            +0.072996 -0.000428 [-0.002636,+0.001649] 5/5
+EXP2_V2_STABILITY | same people; fitted 10->15 added contrast
+  oral_shannon        contrast_SD0/1=0.033/0.000 mg/dL corr=NA
+  oral_dominance      contrast_SD0/1=0.134/0.076 mg/dL corr=+0.306
+  gut_shannon         contrast_SD0/1=0.354/0.250 mg/dL corr=+0.764
+  gut_dominance       contrast_SD0/1=0.371/0.270 mg/dL corr=+0.774
+  learned_oral        contrast_SD0/1=0.000/0.000 mg/dL corr=NA
+  learned_gut         contrast_SD0/1=0.450/0.292 mg/dL corr=+0.411
+  learned_both        contrast_SD0/1=0.365/0.416 mg/dL corr=+0.330
+  selector            contrast_SD0/1=0.515/0.366 mg/dL corr=+0.582
+EXP2_V2_COMPLETE | primary and dose shape; r0,r1; discovery only
+
+EXP2_V2_UPLOAD_OK files=7
+EXP2_V2_ENV_OK
+EXP2_V2_SOURCE_READY people=3343 households=3059
+EXP2_V2_V11_REFERENCE r0=0.130555 r1=0.139855
+EXP2_V2_OUTER_COMPLETE r0 f0 people=661 baseline=shallow shared_age_sex_columns=2
+EXP2_V2_OUTER_COMPLETE r0 f1 people=677 baseline=shallow shared_age_sex_columns=2
+EXP2_V2_OUTER_COMPLETE r0 f2 people=668 baseline=shallow shared_age_sex_columns=2
+EXP2_V2_OUTER_COMPLETE r0 f3 people=665 baseline=shallow shared_age_sex_columns=2
+EXP2_V2_OUTER_COMPLETE r0 f4 people=672 baseline=shallow shared_age_sex_columns=2
+EXP2_V2_HOST_PREDICT r0 N=3343 baseline_R2=+0.070196
+  route                 full_R2   delta_R2      household_CI95    active
+  gut_shannon         +0.070001 -0.000194 [-0.002093,+0.001820] 4/5
+  learned_both        +0.070090 -0.000105 [-0.002134,+0.001954] 3/5
+EXP2_V2_OUTER_COMPLETE r1 f0 people=677 baseline=shallow shared_age_sex_columns=2
+EXP2_V2_OUTER_COMPLETE r1 f1 people=661 baseline=shallow shared_age_sex_columns=2
+EXP2_V2_OUTER_COMPLETE r1 f2 people=665 baseline=shallow shared_age_sex_columns=2
+EXP2_V2_OUTER_COMPLETE r1 f3 people=656 baseline=shallow shared_age_sex_columns=2
+EXP2_V2_OUTER_COMPLETE r1 f4 people=684 baseline=shallow shared_age_sex_columns=2
+EXP2_V2_HOST_PREDICT r1 N=3343 baseline_R2=+0.068214
+  route                 full_R2   delta_R2      household_CI95    active
+  gut_shannon         +0.068565 +0.000350 [-0.001031,+0.001748] 5/5
+  learned_both        +0.067148 -0.001066 [-0.002894,+0.000765] 2/5
+EXP2_V2_HOST_STABILITY | same people; fitted 10->15 added contrast
+  gut_shannon         contrast_SD0/1=0.364/0.260 mg/dL corr=+0.797
+  learned_both        contrast_SD0/1=0.328/0.337 mg/dL corr=+0.373
+EXP2_V2_COMPLETE | age/sex baseline sensitivity; r0,r1; discovery only
