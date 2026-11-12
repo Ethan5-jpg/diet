@@ -119,9 +119,9 @@ def sources_and_panels(package):
     canonical = read_arrays(weights_file)
     require(np.array_equal(pop, canonical["training_rows"]) and canonical["scores"].shape == (len(index), 10),
             "Canonical axes differ")
-    meal["group"] = meal.person_index
-    base, dose = bases(meal, model)
-    archived = (meal, meal.input_row.to_numpy(int), base, dose["carbs"], base["net_p0", "carbs"][2])
+    archived_meal = meal.assign(group=meal.person_index)
+    base, dose = bases(archived_meal, model)
+    archived = (archived_meal, meal.input_row.to_numpy(int), base, dose["carbs"], base["net_p0", "carbs"][2])
     everyone = np.arange(len(index))
     template = dataset(meal, pooled, everyone, model)
     extra = pq.read_table(window, use_threads=False, pre_buffer=False).to_pandas().merge(
