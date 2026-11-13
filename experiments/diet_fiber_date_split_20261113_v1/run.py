@@ -7,6 +7,7 @@ for variable in ("OPENBLAS_NUM_THREADS", "OMP_NUM_THREADS", "MKL_NUM_THREADS"):
 
 import argparse
 from importlib.util import module_from_spec, spec_from_file_location
+from io import BytesIO
 from pathlib import Path
 import re
 import sys
@@ -173,7 +174,9 @@ def main():
             results = {key: fold_losses(*score_design(role, ecology, pcs, standardized), one, family, count, ~held, held)
                        for key, role in roles_by_direction.items()}
             file = out / f"r{repeat}_f{fold}.npz"
-            np.savez_compressed(file, **results)
+            buffer = BytesIO()
+            np.savez_compressed(buffer, **results)
+            file.write_bytes(buffer.getvalue())
             io.write(file.with_suffix(".json"), dict(registration=fingerprint, sha=digest(file)))
             io.emit("FIBER_DATES_FOLD", repeat=repeat, fold=fold)
     associations, paired = {}, {}
