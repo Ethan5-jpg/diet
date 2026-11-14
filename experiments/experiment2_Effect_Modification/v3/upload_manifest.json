@@ -1,0 +1,9 @@
+{
+  "files": {
+    "association.py": "63ea83f0b1d066053884d6cb827fd7c20c94318c388ec6f5bbdb3cd25bd4d45e",
+    "fermentation_score.py": "87950719455e3b7678ad942b4abef211ab47b79f1bca55b051e7174ccddbe6ef",
+    "prediction.py": "4fb79e558098dd493f16ed92c7d83b88fd4518c4e519135484078b4c15f7bdd1",
+    "run_v3.py": "b33c2a04834cb123b247315edea5473fcad01ecdc064d230bb41a8fe229c23e5",
+    "server_run.sh": "71309720fcd1af13e3ac4b339f19377834ab6ee5b4c0d4403774db15a3929ba0"
+  }
+}
