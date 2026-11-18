@@ -1,0 +1,45 @@
+{
+  "packages": {
+    "v6": {
+      "adapters/__init__.py": "18f75162bf166545dd69e67a316cadb1b7c14ffcb7e4f864b0b7c93722d7a388",
+      "adapters/fermentation_score.py": "87950719455e3b7678ad942b4abef211ab47b79f1bca55b051e7174ccddbe6ef",
+      "adapters/person_inputs.py": "e13bc27e4b0e4487d406171b5f2172ba558f957b4af314a905df9ef945aaeb1a",
+      "integration_fixture.py": "e1030ba83732fe09d59094ba0fa4789b2a61e604febf02627f572762bdddd6a5",
+      "run_v6.py": "616caf90e6c2455c443104912201e47d6bbec1985949f1a0211ab1ad147cc503"
+    },
+    "v7": {
+      "run_v7.py": "5a1ad00cb88a5a84ae66a32afdb286539e36ca4e41af65da39cbe439a2af0468",
+      "test_v7_models.py": "69ad67ddd241869dd200b8bb7344f6fa02a90edb5d4a469061d66569f8792d2b",
+      "upload_manifest.json": "c276fa58a1a1a9d8b40c8598a7acb763f8f51e4db80cbb40de27998a0742b692",
+      "v7_eval.py": "18955b8a64d0dc4dc0f944ded66d8d707a930a16d021a3f7adf63f157203ecd6",
+      "v7_models.py": "2606dfe4551306d61da662a15f7d6ea460206b973449ad8a0e8ee3c2355db59b",
+      "v7_modifier_views.py": "37e8438c0efc4102a39002cdc9c8c07647e55485ea8616ea6fa7e33084b9cde6",
+      "v7_reference.py": "5e7b468ca6157d5819ed889b904ba16a762cb74775f01c129f804dc266b73322",
+      "v7_source.py": "22ca1458e105ecc022d17f13f37100fdc4ba3be36e2a754e1d63f138a9ef0ac4",
+      "v7_threshold.py": "3e4920338efe2a8798c8b2b87c146247d1b011fb29d7fb2c2344ce020c817f39"
+    },
+    "v8": {
+      "README.md": "cf059a3c67a34e320194b1d9684806f12df73f97d005cd6318a3c1e2cd2cab0d",
+      "design.json": "eb2a2926b50b168d1a97b4e1879dcab66bd4463d74b27f24b3c0a4deede81ea6",
+      "run_all.sh": "ce59af8dc09e4e55ee601ceb8f234d6ddd03c41038fed19e6ada08ffe546965c",
+      "run_v8.py": "caa36c096c412494b4b203f755cb8eb73edd9c9476dc1b61a46e5d1b13ca7501",
+      "server_run.sh": "eac1788fe09a48cbdcd5b3dfa781650f6f115b397b1e497a2e3c0f66d8d6ec42",
+      "test_v8_models.py": "b3b33221af705d29b5bf9e6822a7754db6b7a0522a4f6a1a0582b1069adbe0df",
+      "test_v8_run.py": "6b3c0163861b1ae30abd314b578eca8df01db26287ad1587921e81a8c8c8a9da",
+      "test_v8_scores.py": "cb963580e4f18e866b0b7fcd433759cb1aabc37f9ba773461c1f472d07decce4",
+      "test_v8_selection.py": "44da76e7b2ea0a333cbd7dfd84e3d11e8f9c6344b3299de7a2d3e29fa6c7b3ee",
+      "v8_models.py": "01969e3612bb7d9b68590cc034a354834431a146289e106c955a04dff0a94ad8",
+      "v8_scores.py": "cd78e92b3704affd95804709af0611f02ff657b21ee90a0af8dbe4debb094790",
+      "v8_selection.py": "7ec239da9255d655aa8019394f5a044897130713ce01ec61f3dd62eb255cb27e"
+    }
+  },
+  "pins": {
+    "numpy": "1.26.4",
+    "pandas": "2.1.0",
+    "pyarrow": "15.0.2",
+    "scikit-learn": "1.4.1.post1",
+    "scipy": "1.11.4",
+    "threadpoolctl": "3.3.0"
+  },
+  "version": "effect_modification_v8_ecology_maximin_20261118"
+}

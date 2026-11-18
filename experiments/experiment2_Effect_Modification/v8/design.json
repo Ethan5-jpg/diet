@@ -1,0 +1,570 @@
+{
+  "bootstrap_draws": 1999,
+  "bootstrap_seed": 8182026,
+  "equal_weight_parents": {
+    "blend_cross_family": [
+      "pc10_ecology",
+      "pc_tail_soft",
+      "fiber_curve_ecology",
+      "marker_product",
+      "three_species_balance"
+    ],
+    "blend_dose": [
+      "pc10_ecology",
+      "fiber_curve_ecology",
+      "fiber_curve_pc3_ecology"
+    ],
+    "blend_panel": [
+      "pc10_ecology",
+      "three_species_balance",
+      "three_species_balance_count"
+    ],
+    "blend_shapes": [
+      "pc10_ecology",
+      "marker_surface",
+      "pc2_marker_gate_both"
+    ],
+    "blend_shrinkage": [
+      "pc10_ecology",
+      "pc_tail_ecology_light",
+      "ecology_fermentation_light"
+    ]
+  },
+  "exposure": "fiber_density",
+  "family_count": 33,
+  "first_inner": "archived V7 family folds",
+  "historical_parent": "gut_pc10_ecology_both",
+  "inner_household_folds": 3,
+  "inner_objective": "maximize the smaller of the two paired inner ratios",
+  "inner_repeats": 2,
+  "main_penalty": 1.0,
+  "models": [
+    {
+      "curve_weight": 3.0,
+      "curved": [],
+      "eco_weights": [
+        1.0,
+        1.0
+      ],
+      "extra": [],
+      "extra_weight": 2.0,
+      "name": "pc10_ecology",
+      "rank": 10,
+      "tail_after": 10,
+      "tail_weight": 1.0
+    },
+    {
+      "curve_weight": 3.0,
+      "curved": [],
+      "eco_weights": [
+        0.35,
+        0.35
+      ],
+      "extra": [],
+      "extra_weight": 2.0,
+      "name": "ecology_both_light",
+      "rank": 10,
+      "tail_after": 10,
+      "tail_weight": 1.0
+    },
+    {
+      "curve_weight": 3.0,
+      "curved": [],
+      "eco_weights": [
+        3.0,
+        3.0
+      ],
+      "extra": [],
+      "extra_weight": 2.0,
+      "name": "ecology_both_strong",
+      "rank": 10,
+      "tail_after": 10,
+      "tail_weight": 1.0
+    },
+    {
+      "curve_weight": 3.0,
+      "curved": [],
+      "eco_weights": [
+        0.35,
+        2.0
+      ],
+      "extra": [],
+      "extra_weight": 2.0,
+      "name": "ecology_shannon_light",
+      "rank": 10,
+      "tail_after": 10,
+      "tail_weight": 1.0
+    },
+    {
+      "curve_weight": 3.0,
+      "curved": [],
+      "eco_weights": [
+        2.0,
+        0.35
+      ],
+      "extra": [],
+      "extra_weight": 2.0,
+      "name": "ecology_fermentation_light",
+      "rank": 10,
+      "tail_after": 10,
+      "tail_weight": 1.0
+    },
+    {
+      "curve_weight": 3.0,
+      "curved": [],
+      "eco_weights": [
+        1.0,
+        1.0
+      ],
+      "extra": [],
+      "extra_weight": 2.0,
+      "name": "pc_tail_soft",
+      "rank": 10,
+      "tail_after": 5,
+      "tail_weight": 2.0
+    },
+    {
+      "curve_weight": 3.0,
+      "curved": [],
+      "eco_weights": [
+        1.0,
+        1.0
+      ],
+      "extra": [],
+      "extra_weight": 2.0,
+      "name": "pc_tail_strong",
+      "rank": 10,
+      "tail_after": 5,
+      "tail_weight": 5.0
+    },
+    {
+      "curve_weight": 3.0,
+      "curved": [],
+      "eco_weights": [
+        0.5,
+        0.5
+      ],
+      "extra": [],
+      "extra_weight": 2.0,
+      "name": "pc_tail_ecology_light",
+      "rank": 10,
+      "tail_after": 5,
+      "tail_weight": 3.0
+    },
+    {
+      "curve_weight": 3.0,
+      "curved": [],
+      "eco_weights": [
+        1.0,
+        1.0
+      ],
+      "extra": [],
+      "extra_weight": 2.0,
+      "name": "pc12_ecology",
+      "rank": 12,
+      "tail_after": 10,
+      "tail_weight": 3.0
+    },
+    {
+      "curve_weight": 3.0,
+      "curved": [],
+      "eco_weights": [
+        1.0,
+        1.0
+      ],
+      "extra": [],
+      "extra_weight": 2.0,
+      "name": "pc16_ecology",
+      "rank": 16,
+      "tail_after": 10,
+      "tail_weight": 5.0
+    },
+    {
+      "curve_weight": 3.0,
+      "curved": [
+        "shannon"
+      ],
+      "eco_weights": [
+        1.0,
+        1.0
+      ],
+      "extra": [],
+      "extra_weight": 2.0,
+      "name": "fiber_curve_shannon",
+      "rank": 10,
+      "tail_after": 10,
+      "tail_weight": 1.0
+    },
+    {
+      "curve_weight": 3.0,
+      "curved": [
+        "fermentation"
+      ],
+      "eco_weights": [
+        1.0,
+        1.0
+      ],
+      "extra": [],
+      "extra_weight": 2.0,
+      "name": "fiber_curve_fermentation",
+      "rank": 10,
+      "tail_after": 10,
+      "tail_weight": 1.0
+    },
+    {
+      "curve_weight": 3.0,
+      "curved": [
+        "shannon",
+        "fermentation"
+      ],
+      "eco_weights": [
+        1.0,
+        1.0
+      ],
+      "extra": [],
+      "extra_weight": 2.0,
+      "name": "fiber_curve_ecology",
+      "rank": 10,
+      "tail_after": 10,
+      "tail_weight": 1.0
+    },
+    {
+      "curve_weight": 3.0,
+      "curved": [
+        "g1",
+        "g2",
+        "g3",
+        "shannon",
+        "fermentation"
+      ],
+      "eco_weights": [
+        1.0,
+        1.0
+      ],
+      "extra": [],
+      "extra_weight": 2.0,
+      "name": "fiber_curve_pc3_ecology",
+      "rank": 10,
+      "tail_after": 10,
+      "tail_weight": 1.0
+    },
+    {
+      "curve_weight": 6.0,
+      "curved": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8",
+        "g9",
+        "g10",
+        "shannon",
+        "fermentation"
+      ],
+      "eco_weights": [
+        1.0,
+        1.0
+      ],
+      "extra": [],
+      "extra_weight": 2.0,
+      "name": "fiber_curve_pc10_ecology",
+      "rank": 10,
+      "tail_after": 10,
+      "tail_weight": 1.0
+    },
+    {
+      "curve_weight": 3.0,
+      "curved": [],
+      "eco_weights": [
+        1.0,
+        1.0
+      ],
+      "extra": [
+        "shannon_hinge"
+      ],
+      "extra_weight": 2.0,
+      "name": "marker_hinge_shannon",
+      "rank": 10,
+      "tail_after": 10,
+      "tail_weight": 1.0
+    },
+    {
+      "curve_weight": 3.0,
+      "curved": [],
+      "eco_weights": [
+        1.0,
+        1.0
+      ],
+      "extra": [
+        "fermentation_hinge"
+      ],
+      "extra_weight": 2.0,
+      "name": "marker_hinge_fermentation",
+      "rank": 10,
+      "tail_after": 10,
+      "tail_weight": 1.0
+    },
+    {
+      "curve_weight": 3.0,
+      "curved": [],
+      "eco_weights": [
+        1.0,
+        1.0
+      ],
+      "extra": [
+        "shannon_hinge",
+        "fermentation_hinge"
+      ],
+      "extra_weight": 2.0,
+      "name": "marker_hinges",
+      "rank": 10,
+      "tail_after": 10,
+      "tail_weight": 1.0
+    },
+    {
+      "curve_weight": 3.0,
+      "curved": [],
+      "eco_weights": [
+        1.0,
+        1.0
+      ],
+      "extra": [
+        "shannon_x_fermentation"
+      ],
+      "extra_weight": 2.0,
+      "name": "marker_product",
+      "rank": 10,
+      "tail_after": 10,
+      "tail_weight": 1.0
+    },
+    {
+      "curve_weight": 3.0,
+      "curved": [],
+      "eco_weights": [
+        1.0,
+        1.0
+      ],
+      "extra": [
+        "shannon_hinge",
+        "fermentation_hinge",
+        "shannon_x_fermentation"
+      ],
+      "extra_weight": 4.0,
+      "name": "marker_surface",
+      "rank": 10,
+      "tail_after": 10,
+      "tail_weight": 1.0
+    },
+    {
+      "curve_weight": 3.0,
+      "curved": [],
+      "eco_weights": [
+        1.0,
+        1.0
+      ],
+      "extra": [
+        "v7_gate_shannon_g1",
+        "v7_gate_shannon_g2"
+      ],
+      "extra_weight": 4.0,
+      "name": "pc2_marker_gate_shannon",
+      "rank": 10,
+      "tail_after": 10,
+      "tail_weight": 1.0
+    },
+    {
+      "curve_weight": 3.0,
+      "curved": [],
+      "eco_weights": [
+        1.0,
+        1.0
+      ],
+      "extra": [
+        "v7_gate_fermentation_g1",
+        "v7_gate_fermentation_g2"
+      ],
+      "extra_weight": 4.0,
+      "name": "pc2_marker_gate_fermentation",
+      "rank": 10,
+      "tail_after": 10,
+      "tail_weight": 1.0
+    },
+    {
+      "curve_weight": 3.0,
+      "curved": [],
+      "eco_weights": [
+        1.0,
+        1.0
+      ],
+      "extra": [
+        "v7_gate_shannon_g1",
+        "v7_gate_shannon_g2",
+        "v7_gate_fermentation_g1",
+        "v7_gate_fermentation_g2"
+      ],
+      "extra_weight": 4.0,
+      "name": "pc2_marker_gate_both",
+      "rank": 10,
+      "tail_after": 10,
+      "tail_weight": 1.0
+    },
+    {
+      "curve_weight": 3.0,
+      "curved": [],
+      "eco_weights": [
+        1.0,
+        1.0
+      ],
+      "extra": [
+        "v7_gate_shannon_g1",
+        "v7_gate_shannon_g2",
+        "v7_gate_shannon_g3",
+        "v7_gate_shannon_g4",
+        "v7_gate_fermentation_g1",
+        "v7_gate_fermentation_g2",
+        "v7_gate_fermentation_g3",
+        "v7_gate_fermentation_g4"
+      ],
+      "extra_weight": 4.0,
+      "name": "pc4_marker_gate_both",
+      "rank": 10,
+      "tail_after": 10,
+      "tail_weight": 1.0
+    },
+    {
+      "curve_weight": 3.0,
+      "curved": [],
+      "eco_weights": [
+        1.0,
+        1.0
+      ],
+      "extra": [
+        "panel_rb",
+        "panel_rb_e"
+      ],
+      "extra_weight": 2.0,
+      "name": "three_species_balance",
+      "rank": 10,
+      "tail_after": 10,
+      "tail_weight": 1.0
+    },
+    {
+      "curve_weight": 3.0,
+      "curved": [],
+      "eco_weights": [
+        1.0,
+        1.0
+      ],
+      "extra": [
+        "panel_count"
+      ],
+      "extra_weight": 2.0,
+      "name": "three_species_detection_count",
+      "rank": 10,
+      "tail_after": 10,
+      "tail_weight": 1.0
+    },
+    {
+      "curve_weight": 3.0,
+      "curved": [],
+      "eco_weights": [
+        1.0,
+        1.0
+      ],
+      "extra": [
+        "panel_rb",
+        "panel_rb_e",
+        "panel_count"
+      ],
+      "extra_weight": 3.0,
+      "name": "three_species_balance_count",
+      "rank": 10,
+      "tail_after": 10,
+      "tail_weight": 1.0
+    },
+    {
+      "curve_weight": 3.0,
+      "curved": [
+        "shannon",
+        "fermentation"
+      ],
+      "eco_weights": [
+        1.0,
+        1.0
+      ],
+      "extra": [
+        "panel_rb",
+        "panel_rb_e"
+      ],
+      "extra_weight": 2.0,
+      "name": "three_species_balance_fiber_curve",
+      "rank": 10,
+      "tail_after": 10,
+      "tail_weight": 1.0
+    }
+  ],
+  "outcome": "D_Glu",
+  "outer_household_folds": 5,
+  "outer_objective": "smaller of the two outer OOF percentage gains for the same procedure",
+  "outer_repeats": 2,
+  "penalties": [
+    100.0,
+    10.0,
+    3.0,
+    1.0,
+    0.3,
+    0.1,
+    0.03,
+    0.01
+  ],
+  "primary": "nested_maximin",
+  "reserved_outcomes_read": false,
+  "routes": [
+    "pc10_ecology",
+    "ecology_both_light",
+    "ecology_both_strong",
+    "ecology_shannon_light",
+    "ecology_fermentation_light",
+    "pc_tail_soft",
+    "pc_tail_strong",
+    "pc_tail_ecology_light",
+    "pc12_ecology",
+    "pc16_ecology",
+    "fiber_curve_shannon",
+    "fiber_curve_fermentation",
+    "fiber_curve_ecology",
+    "fiber_curve_pc3_ecology",
+    "fiber_curve_pc10_ecology",
+    "marker_hinge_shannon",
+    "marker_hinge_fermentation",
+    "marker_hinges",
+    "marker_product",
+    "marker_surface",
+    "pc2_marker_gate_shannon",
+    "pc2_marker_gate_fermentation",
+    "pc2_marker_gate_both",
+    "pc4_marker_gate_both",
+    "three_species_balance",
+    "three_species_detection_count",
+    "three_species_balance_count",
+    "three_species_balance_fiber_curve",
+    "blend_shrinkage",
+    "blend_dose",
+    "blend_shapes",
+    "blend_panel",
+    "blend_cross_family",
+    "v7_ecology_replay",
+    "nested_maximin",
+    "nested_maximin_guarded",
+    "nested_top3_blend"
+  ],
+  "scope": "discovery",
+  "second_inner_seed_base": 810271,
+  "settings_count": 264,
+  "target_pct": 6.46,
+  "three_species_log_offset": 0.0001,
+  "version": "effect_modification_v8_ecology_maximin_20261118"
+}

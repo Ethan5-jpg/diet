@@ -1,0 +1,54 @@
+{
+  "packages": {
+    "v6": {
+      "adapters/__init__.py": "18f75162bf166545dd69e67a316cadb1b7c14ffcb7e4f864b0b7c93722d7a388",
+      "adapters/fermentation_score.py": "87950719455e3b7678ad942b4abef211ab47b79f1bca55b051e7174ccddbe6ef",
+      "adapters/person_inputs.py": "e13bc27e4b0e4487d406171b5f2172ba558f957b4af314a905df9ef945aaeb1a",
+      "integration_fixture.py": "e1030ba83732fe09d59094ba0fa4789b2a61e604febf02627f572762bdddd6a5",
+      "run_v6.py": "616caf90e6c2455c443104912201e47d6bbec1985949f1a0211ab1ad147cc503"
+    },
+    "v7": {
+      "run_v7.py": "5a1ad00cb88a5a84ae66a32afdb286539e36ca4e41af65da39cbe439a2af0468",
+      "test_v7_models.py": "69ad67ddd241869dd200b8bb7344f6fa02a90edb5d4a469061d66569f8792d2b",
+      "upload_manifest.json": "c276fa58a1a1a9d8b40c8598a7acb763f8f51e4db80cbb40de27998a0742b692",
+      "v7_eval.py": "18955b8a64d0dc4dc0f944ded66d8d707a930a16d021a3f7adf63f157203ecd6",
+      "v7_models.py": "2606dfe4551306d61da662a15f7d6ea460206b973449ad8a0e8ee3c2355db59b",
+      "v7_modifier_views.py": "37e8438c0efc4102a39002cdc9c8c07647e55485ea8616ea6fa7e33084b9cde6",
+      "v7_reference.py": "5e7b468ca6157d5819ed889b904ba16a762cb74775f01c129f804dc266b73322",
+      "v7_source.py": "22ca1458e105ecc022d17f13f37100fdc4ba3be36e2a754e1d63f138a9ef0ac4",
+      "v7_threshold.py": "3e4920338efe2a8798c8b2b87c146247d1b011fb29d7fb2c2344ce020c817f39"
+    },
+    "v8": {
+      "run_v8.py": "caa36c096c412494b4b203f755cb8eb73edd9c9476dc1b61a46e5d1b13ca7501",
+      "upload_manifest.json": "71b9a147055d1bda9bec0ecea9102233fe4c194b4d984e8d19af34c7568f8608",
+      "v8_models.py": "01969e3612bb7d9b68590cc034a354834431a146289e106c955a04dff0a94ad8",
+      "v8_scores.py": "cd78e92b3704affd95804709af0611f02ff657b21ee90a0af8dbe4debb094790",
+      "v8_selection.py": "7ec239da9255d655aa8019394f5a044897130713ce01ec61f3dd62eb255cb27e"
+    },
+    "v9": {
+      "README.md": "6503dc2d7b576e0387275b91bf9fb79d542dbe1dd80056de6c0bdeb86ad4064f",
+      "design.json": "647dbe464f9e9cb8a18262a4a3cab1b6ff47d124e67eaef820214b0f62ccfc3f",
+      "run_all.sh": "c4faaf2e82dbf665325cd99dfa4ff930716d73800560c8d94af92bcb8d31af7d",
+      "run_v9.py": "41d86800d9bddbbd91eeb71db7d908ee49cfd8c1695a63f08f29a5f087d5a5ca",
+      "server_run.sh": "cb0e7b9d71e67a94a24ce2881703f5997c01bdab240b670aebb849695fab7eb9",
+      "test_v9_models.py": "fd11ec323da1fffbeee4e25fecb06b0785bd8263e0c2779e0a009cbacd74db09",
+      "test_v9_validation.py": "6dc2883f75158ede0ef2ff4718345d6af92d195083a56371521367e724e0610f",
+      "v9_ablation.py": "e276ad00cd03302fd9a265cf857ada10667dcca388d3d8af676e5e09c9238e41",
+      "v9_cv.py": "371e30d7f1d0fdac2bf4200e62f0ec1b1b92166380d4ac3e0d18cd47d6635da8",
+      "v9_features.py": "952aa85a08c84395c62a22510254157c1612e8a42ba212baac8f3e5c962ed505",
+      "v9_fit.py": "4de3760850931394ac53f484f948d83e073e13b98b45d55bfbccf99e8a098e41",
+      "v9_fixed.py": "bc5ecd30f3286fa11315e64f816cbb8d4ee99ddaa12916495eecd5adc5663416",
+      "v9_grid.py": "37a71424a24dcb82fa4c582b48b78f17138c1ac92438abfb16d6bb1f09f8339d",
+      "v9_report.py": "2ef27bc9796b205c96892ab380b35165d01feb9c4210fa5707388520cdffd0b7"
+    }
+  },
+  "pins": {
+    "numpy": "1.26.4",
+    "pandas": "2.1.0",
+    "pyarrow": "15.0.2",
+    "scikit-learn": "1.4.1.post1",
+    "scipy": "1.11.4",
+    "threadpoolctl": "3.3.0"
+  },
+  "version": "effect_modification_v9_paired_broad_20261118_r2"
+}

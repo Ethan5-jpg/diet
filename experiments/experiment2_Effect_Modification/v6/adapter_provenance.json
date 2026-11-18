@@ -1,0 +1,17 @@
+{
+  "adapters/fermentation_score.py": {
+    "exact_copy": true,
+    "original": "experiment2_Effect_Modification/v3/fermentation_score.py",
+    "sha256": "87950719455e3b7678ad942b4abef211ab47b79f1bca55b051e7174ccddbe6ef"
+  },
+  "adapters/moderation_models.py": {
+    "exact_copy": true,
+    "original": "experiment2_Effect_Modification/v2/moderation_models.py",
+    "sha256": "aaa64447d8cbd7cb271f307be7b9752b13025b91e69d13ddab73c1f79dfb8b81"
+  },
+  "adapters/person_inputs.py": {
+    "exact_copy": true,
+    "original": "experiment2_Effect_Modification/v2/person_inputs.py",
+    "sha256": "e13bc27e4b0e4487d406171b5f2172ba558f957b4af314a905df9ef945aaeb1a"
+  }
+}

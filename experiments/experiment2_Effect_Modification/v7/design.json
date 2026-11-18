@@ -1,0 +1,1427 @@
+{
+  "benchmark_pct": 6.456892195933457,
+  "bootstrap_households": 1999,
+  "cohort": "discovery",
+  "decomposition": {
+    "log_floor": 1e-06,
+    "maximum_taxa": 12,
+    "minimum_prevalence": 0.1,
+    "rff_bands": {
+      "broad": [
+        10,
+        0.25
+      ],
+      "medium20": [
+        20,
+        0.5
+      ],
+      "narrow": [
+        10,
+        1.0
+      ]
+    },
+    "rff_directions": 12,
+    "rff_seed": 20261118
+  },
+  "equal_weight_blend_parents": {
+    "blend_gut_composition": [
+      "gut_pc10_plus_taxa_clr",
+      "gut_pc10_plus_taxa_pivot",
+      "gut_pc10_plus_taxa_detect_intensity"
+    ],
+    "blend_gut_ecology": [
+      "gut_pc10_ridge",
+      "gut_pc10_shannon",
+      "gut_pc10_fermentation"
+    ],
+    "blend_gut_rank": [
+      "gut_pc6_ridge",
+      "gut_pc10_ridge",
+      "gut_pc16_ridge"
+    ],
+    "blend_gut_rff": [
+      "gut_pc10_plus_rff_broad",
+      "gut_pc10_plus_rff_narrow",
+      "gut_pc10_plus_rff_medium20"
+    ],
+    "blend_gut_shape": [
+      "gut_pc10_ridge",
+      "gut_pc10_dose_spline",
+      "gut_pc10_hinge"
+    ]
+  },
+  "exposure": "fiber_density",
+  "inner": 3,
+  "interaction_penalties": [
+    100.0,
+    10.0,
+    1.0,
+    0.1,
+    0.01
+  ],
+  "main_lambda": 1.0,
+  "model_families": [
+    {
+      "doses": [
+        0
+      ],
+      "modifiers": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8",
+        "g9",
+        "g10"
+      ],
+      "name": "gut_pc10_ridge",
+      "penalty_shape": "uniform"
+    },
+    {
+      "doses": [
+        0
+      ],
+      "modifiers": [
+        "g1",
+        "g2",
+        "g3",
+        "g4"
+      ],
+      "name": "gut_pc4_ridge",
+      "penalty_shape": "uniform"
+    },
+    {
+      "doses": [
+        0
+      ],
+      "modifiers": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ],
+      "name": "gut_pc6_ridge",
+      "penalty_shape": "uniform"
+    },
+    {
+      "doses": [
+        0
+      ],
+      "modifiers": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8"
+      ],
+      "name": "gut_pc8_ridge",
+      "penalty_shape": "uniform"
+    },
+    {
+      "doses": [
+        0
+      ],
+      "modifiers": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8",
+        "g9",
+        "g10",
+        "g11",
+        "g12"
+      ],
+      "name": "gut_pc12_ridge",
+      "penalty_shape": "uniform"
+    },
+    {
+      "doses": [
+        0
+      ],
+      "modifiers": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8",
+        "g9",
+        "g10",
+        "g11",
+        "g12",
+        "g13",
+        "g14",
+        "g15",
+        "g16"
+      ],
+      "name": "gut_pc16_ridge",
+      "penalty_shape": "uniform"
+    },
+    {
+      "doses": [
+        0
+      ],
+      "modifiers": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8",
+        "g9",
+        "g10",
+        "g11",
+        "g12",
+        "g13",
+        "g14",
+        "g15",
+        "g16",
+        "g17",
+        "g18",
+        "g19",
+        "g20"
+      ],
+      "name": "gut_pc20_ridge",
+      "penalty_shape": "uniform"
+    },
+    {
+      "doses": [
+        0
+      ],
+      "modifiers": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8",
+        "g9",
+        "g10",
+        "g11",
+        "g12",
+        "g13",
+        "g14",
+        "g15",
+        "g16",
+        "g17",
+        "g18",
+        "g19",
+        "g20",
+        "g21",
+        "g22",
+        "g23",
+        "g24",
+        "g25",
+        "g26",
+        "g27",
+        "g28",
+        "g29",
+        "g30",
+        "g31",
+        "g32"
+      ],
+      "name": "gut_pc32_ridge",
+      "penalty_shape": "uniform"
+    },
+    {
+      "doses": [
+        0,
+        1
+      ],
+      "modifiers": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ],
+      "name": "gut_pc6_dose_spline",
+      "penalty_shape": "uniform"
+    },
+    {
+      "doses": [
+        0,
+        1
+      ],
+      "modifiers": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8",
+        "g9",
+        "g10"
+      ],
+      "name": "gut_pc10_dose_spline",
+      "penalty_shape": "uniform"
+    },
+    {
+      "doses": [
+        0,
+        1
+      ],
+      "modifiers": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8",
+        "g9",
+        "g10",
+        "g11",
+        "g12",
+        "g13",
+        "g14",
+        "g15",
+        "g16"
+      ],
+      "name": "gut_pc16_dose_spline",
+      "penalty_shape": "uniform"
+    },
+    {
+      "doses": [
+        0,
+        1
+      ],
+      "modifiers": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8",
+        "g9",
+        "g10",
+        "g11",
+        "g12",
+        "g13",
+        "g14",
+        "g15",
+        "g16",
+        "g17",
+        "g18",
+        "g19",
+        "g20",
+        "g21",
+        "g22",
+        "g23",
+        "g24"
+      ],
+      "name": "gut_pc24_dose_spline",
+      "penalty_shape": "uniform"
+    },
+    {
+      "doses": [
+        0
+      ],
+      "modifiers": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8",
+        "g9",
+        "g10"
+      ],
+      "name": "gut_pc10_spectral_taper",
+      "penalty_shape": "taper"
+    },
+    {
+      "doses": [
+        0
+      ],
+      "modifiers": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8",
+        "g9",
+        "g10",
+        "g11",
+        "g12",
+        "g13",
+        "g14",
+        "g15",
+        "g16"
+      ],
+      "name": "gut_pc16_spectral_taper",
+      "penalty_shape": "taper"
+    },
+    {
+      "doses": [
+        0
+      ],
+      "modifiers": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8",
+        "g9",
+        "g10",
+        "g11",
+        "g12",
+        "g13",
+        "g14",
+        "g15",
+        "g16",
+        "g17",
+        "g18",
+        "g19",
+        "g20",
+        "g21",
+        "g22",
+        "g23",
+        "g24"
+      ],
+      "name": "gut_pc24_spectral_taper",
+      "penalty_shape": "taper"
+    },
+    {
+      "doses": [
+        0
+      ],
+      "modifiers": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8",
+        "g9",
+        "g10",
+        "g11",
+        "g12",
+        "g13",
+        "g14",
+        "g15",
+        "g16",
+        "g17",
+        "g18",
+        "g19",
+        "g20",
+        "g21",
+        "g22",
+        "g23",
+        "g24",
+        "g25",
+        "g26",
+        "g27",
+        "g28",
+        "g29",
+        "g30",
+        "g31",
+        "g32"
+      ],
+      "name": "gut_pc32_spectral_taper",
+      "penalty_shape": "taper"
+    },
+    {
+      "doses": [
+        0,
+        1
+      ],
+      "modifiers": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8",
+        "g9",
+        "g10"
+      ],
+      "name": "gut_pc10_dose_spline_shrink",
+      "penalty_shape": "shrink_curve"
+    },
+    {
+      "doses": [
+        0,
+        1
+      ],
+      "modifiers": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8",
+        "g9",
+        "g10",
+        "g11",
+        "g12",
+        "g13",
+        "g14",
+        "g15",
+        "g16"
+      ],
+      "name": "gut_pc16_dose_spline_taper",
+      "penalty_shape": "taper"
+    },
+    {
+      "doses": [
+        0
+      ],
+      "modifiers": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "sq_g1",
+        "sq_g2",
+        "sq_g3",
+        "sq_g4"
+      ],
+      "name": "gut_pc4_quadratic",
+      "penalty_shape": "uniform"
+    },
+    {
+      "doses": [
+        0
+      ],
+      "modifiers": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "hinge_g1",
+        "hinge_g2",
+        "hinge_g3",
+        "hinge_g4"
+      ],
+      "name": "gut_pc4_hinge",
+      "penalty_shape": "uniform"
+    },
+    {
+      "doses": [
+        0
+      ],
+      "modifiers": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8",
+        "g9",
+        "g10",
+        "sq_g1",
+        "sq_g2",
+        "sq_g3",
+        "sq_g4",
+        "sq_g5",
+        "sq_g6",
+        "sq_g7",
+        "sq_g8",
+        "sq_g9",
+        "sq_g10"
+      ],
+      "name": "gut_pc10_quadratic",
+      "penalty_shape": "uniform"
+    },
+    {
+      "doses": [
+        0
+      ],
+      "modifiers": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8",
+        "g9",
+        "g10",
+        "hinge_g1",
+        "hinge_g2",
+        "hinge_g3",
+        "hinge_g4",
+        "hinge_g5",
+        "hinge_g6",
+        "hinge_g7",
+        "hinge_g8",
+        "hinge_g9",
+        "hinge_g10"
+      ],
+      "name": "gut_pc10_hinge",
+      "penalty_shape": "uniform"
+    },
+    {
+      "doses": [
+        0
+      ],
+      "modifiers": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8",
+        "g9",
+        "g10",
+        "pair_g1_g2",
+        "pair_g1_g3",
+        "pair_g1_g4",
+        "pair_g2_g3",
+        "pair_g2_g4",
+        "pair_g3_g4"
+      ],
+      "name": "gut_pc10_community_pairs",
+      "penalty_shape": "uniform"
+    },
+    {
+      "doses": [
+        0
+      ],
+      "modifiers": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8",
+        "g9",
+        "g10",
+        "o1",
+        "o2"
+      ],
+      "name": "gut_pc10_oral_pc2",
+      "penalty_shape": "uniform"
+    },
+    {
+      "doses": [
+        0
+      ],
+      "modifiers": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8",
+        "g9",
+        "g10",
+        "o1",
+        "o2"
+      ],
+      "name": "gut_pc10_oral_pc2_shrink",
+      "penalty_shape": "shrink_oral"
+    },
+    {
+      "doses": [
+        0
+      ],
+      "modifiers": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8",
+        "g9",
+        "g10",
+        "o1",
+        "o2",
+        "o3",
+        "o4",
+        "o5"
+      ],
+      "name": "gut_pc10_oral_pc5",
+      "penalty_shape": "uniform"
+    },
+    {
+      "doses": [
+        0
+      ],
+      "modifiers": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8",
+        "g9",
+        "g10",
+        "o1",
+        "o2",
+        "o3",
+        "o4",
+        "o5"
+      ],
+      "name": "gut_pc10_oral_pc5_shrink",
+      "penalty_shape": "shrink_oral"
+    },
+    {
+      "doses": [
+        0
+      ],
+      "modifiers": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8",
+        "g9",
+        "g10",
+        "o1",
+        "o2",
+        "o3",
+        "o4",
+        "o5",
+        "o6",
+        "o7",
+        "o8",
+        "o9",
+        "o10"
+      ],
+      "name": "gut_pc10_oral_pc10",
+      "penalty_shape": "uniform"
+    },
+    {
+      "doses": [
+        0
+      ],
+      "modifiers": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8",
+        "g9",
+        "g10",
+        "o1",
+        "o2",
+        "o3",
+        "o4",
+        "o5",
+        "o6",
+        "o7",
+        "o8",
+        "o9",
+        "o10"
+      ],
+      "name": "gut_pc10_oral_pc10_shrink",
+      "penalty_shape": "shrink_oral"
+    },
+    {
+      "doses": [
+        0
+      ],
+      "modifiers": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8",
+        "g9",
+        "g10",
+        "shannon"
+      ],
+      "name": "gut_pc10_shannon",
+      "penalty_shape": "uniform"
+    },
+    {
+      "doses": [
+        0
+      ],
+      "modifiers": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8",
+        "g9",
+        "g10",
+        "fermentation"
+      ],
+      "name": "gut_pc10_fermentation",
+      "penalty_shape": "uniform"
+    },
+    {
+      "doses": [
+        0
+      ],
+      "modifiers": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8",
+        "g9",
+        "g10",
+        "shannon",
+        "fermentation"
+      ],
+      "name": "gut_pc10_ecology_both",
+      "penalty_shape": "uniform"
+    },
+    {
+      "doses": [
+        0
+      ],
+      "modifiers": [
+        "v7_rff_broad_1",
+        "v7_rff_broad_2",
+        "v7_rff_broad_3",
+        "v7_rff_broad_4",
+        "v7_rff_broad_5",
+        "v7_rff_broad_6",
+        "v7_rff_broad_7",
+        "v7_rff_broad_8",
+        "v7_rff_broad_9",
+        "v7_rff_broad_10",
+        "v7_rff_broad_11",
+        "v7_rff_broad_12",
+        "v7_rff_broad_13",
+        "v7_rff_broad_14",
+        "v7_rff_broad_15",
+        "v7_rff_broad_16",
+        "v7_rff_broad_17",
+        "v7_rff_broad_18",
+        "v7_rff_broad_19",
+        "v7_rff_broad_20",
+        "v7_rff_broad_21",
+        "v7_rff_broad_22",
+        "v7_rff_broad_23",
+        "v7_rff_broad_24"
+      ],
+      "name": "gut_rff_broad",
+      "penalty_shape": "uniform"
+    },
+    {
+      "doses": [
+        0
+      ],
+      "modifiers": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8",
+        "g9",
+        "g10",
+        "v7_rff_broad_1",
+        "v7_rff_broad_2",
+        "v7_rff_broad_3",
+        "v7_rff_broad_4",
+        "v7_rff_broad_5",
+        "v7_rff_broad_6",
+        "v7_rff_broad_7",
+        "v7_rff_broad_8",
+        "v7_rff_broad_9",
+        "v7_rff_broad_10",
+        "v7_rff_broad_11",
+        "v7_rff_broad_12",
+        "v7_rff_broad_13",
+        "v7_rff_broad_14",
+        "v7_rff_broad_15",
+        "v7_rff_broad_16",
+        "v7_rff_broad_17",
+        "v7_rff_broad_18",
+        "v7_rff_broad_19",
+        "v7_rff_broad_20",
+        "v7_rff_broad_21",
+        "v7_rff_broad_22",
+        "v7_rff_broad_23",
+        "v7_rff_broad_24"
+      ],
+      "name": "gut_pc10_plus_rff_broad",
+      "penalty_shape": "uniform"
+    },
+    {
+      "doses": [
+        0
+      ],
+      "modifiers": [
+        "v7_rff_narrow_1",
+        "v7_rff_narrow_2",
+        "v7_rff_narrow_3",
+        "v7_rff_narrow_4",
+        "v7_rff_narrow_5",
+        "v7_rff_narrow_6",
+        "v7_rff_narrow_7",
+        "v7_rff_narrow_8",
+        "v7_rff_narrow_9",
+        "v7_rff_narrow_10",
+        "v7_rff_narrow_11",
+        "v7_rff_narrow_12",
+        "v7_rff_narrow_13",
+        "v7_rff_narrow_14",
+        "v7_rff_narrow_15",
+        "v7_rff_narrow_16",
+        "v7_rff_narrow_17",
+        "v7_rff_narrow_18",
+        "v7_rff_narrow_19",
+        "v7_rff_narrow_20",
+        "v7_rff_narrow_21",
+        "v7_rff_narrow_22",
+        "v7_rff_narrow_23",
+        "v7_rff_narrow_24"
+      ],
+      "name": "gut_rff_narrow",
+      "penalty_shape": "uniform"
+    },
+    {
+      "doses": [
+        0
+      ],
+      "modifiers": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8",
+        "g9",
+        "g10",
+        "v7_rff_narrow_1",
+        "v7_rff_narrow_2",
+        "v7_rff_narrow_3",
+        "v7_rff_narrow_4",
+        "v7_rff_narrow_5",
+        "v7_rff_narrow_6",
+        "v7_rff_narrow_7",
+        "v7_rff_narrow_8",
+        "v7_rff_narrow_9",
+        "v7_rff_narrow_10",
+        "v7_rff_narrow_11",
+        "v7_rff_narrow_12",
+        "v7_rff_narrow_13",
+        "v7_rff_narrow_14",
+        "v7_rff_narrow_15",
+        "v7_rff_narrow_16",
+        "v7_rff_narrow_17",
+        "v7_rff_narrow_18",
+        "v7_rff_narrow_19",
+        "v7_rff_narrow_20",
+        "v7_rff_narrow_21",
+        "v7_rff_narrow_22",
+        "v7_rff_narrow_23",
+        "v7_rff_narrow_24"
+      ],
+      "name": "gut_pc10_plus_rff_narrow",
+      "penalty_shape": "uniform"
+    },
+    {
+      "doses": [
+        0
+      ],
+      "modifiers": [
+        "v7_rff_medium20_1",
+        "v7_rff_medium20_2",
+        "v7_rff_medium20_3",
+        "v7_rff_medium20_4",
+        "v7_rff_medium20_5",
+        "v7_rff_medium20_6",
+        "v7_rff_medium20_7",
+        "v7_rff_medium20_8",
+        "v7_rff_medium20_9",
+        "v7_rff_medium20_10",
+        "v7_rff_medium20_11",
+        "v7_rff_medium20_12",
+        "v7_rff_medium20_13",
+        "v7_rff_medium20_14",
+        "v7_rff_medium20_15",
+        "v7_rff_medium20_16",
+        "v7_rff_medium20_17",
+        "v7_rff_medium20_18",
+        "v7_rff_medium20_19",
+        "v7_rff_medium20_20",
+        "v7_rff_medium20_21",
+        "v7_rff_medium20_22",
+        "v7_rff_medium20_23",
+        "v7_rff_medium20_24"
+      ],
+      "name": "gut_rff_medium20",
+      "penalty_shape": "uniform"
+    },
+    {
+      "doses": [
+        0
+      ],
+      "modifiers": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8",
+        "g9",
+        "g10",
+        "v7_rff_medium20_1",
+        "v7_rff_medium20_2",
+        "v7_rff_medium20_3",
+        "v7_rff_medium20_4",
+        "v7_rff_medium20_5",
+        "v7_rff_medium20_6",
+        "v7_rff_medium20_7",
+        "v7_rff_medium20_8",
+        "v7_rff_medium20_9",
+        "v7_rff_medium20_10",
+        "v7_rff_medium20_11",
+        "v7_rff_medium20_12",
+        "v7_rff_medium20_13",
+        "v7_rff_medium20_14",
+        "v7_rff_medium20_15",
+        "v7_rff_medium20_16",
+        "v7_rff_medium20_17",
+        "v7_rff_medium20_18",
+        "v7_rff_medium20_19",
+        "v7_rff_medium20_20",
+        "v7_rff_medium20_21",
+        "v7_rff_medium20_22",
+        "v7_rff_medium20_23",
+        "v7_rff_medium20_24"
+      ],
+      "name": "gut_pc10_plus_rff_medium20",
+      "penalty_shape": "uniform"
+    },
+    {
+      "doses": [
+        0
+      ],
+      "modifiers": [
+        "v7_clr_1",
+        "v7_clr_2",
+        "v7_clr_3",
+        "v7_clr_4",
+        "v7_clr_5",
+        "v7_clr_6",
+        "v7_clr_7",
+        "v7_clr_8",
+        "v7_clr_9",
+        "v7_clr_10",
+        "v7_clr_11",
+        "v7_clr_12"
+      ],
+      "name": "gut_taxa_clr",
+      "penalty_shape": "uniform"
+    },
+    {
+      "doses": [
+        0
+      ],
+      "modifiers": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8",
+        "g9",
+        "g10",
+        "v7_clr_1",
+        "v7_clr_2",
+        "v7_clr_3",
+        "v7_clr_4",
+        "v7_clr_5",
+        "v7_clr_6",
+        "v7_clr_7",
+        "v7_clr_8",
+        "v7_clr_9",
+        "v7_clr_10",
+        "v7_clr_11",
+        "v7_clr_12"
+      ],
+      "name": "gut_pc10_plus_taxa_clr",
+      "penalty_shape": "uniform"
+    },
+    {
+      "doses": [
+        0
+      ],
+      "modifiers": [
+        "v7_pivot_1",
+        "v7_pivot_2",
+        "v7_pivot_3",
+        "v7_pivot_4",
+        "v7_pivot_5",
+        "v7_pivot_6",
+        "v7_pivot_7",
+        "v7_pivot_8",
+        "v7_pivot_9",
+        "v7_pivot_10",
+        "v7_pivot_11"
+      ],
+      "name": "gut_taxa_pivot",
+      "penalty_shape": "uniform"
+    },
+    {
+      "doses": [
+        0
+      ],
+      "modifiers": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8",
+        "g9",
+        "g10",
+        "v7_pivot_1",
+        "v7_pivot_2",
+        "v7_pivot_3",
+        "v7_pivot_4",
+        "v7_pivot_5",
+        "v7_pivot_6",
+        "v7_pivot_7",
+        "v7_pivot_8",
+        "v7_pivot_9",
+        "v7_pivot_10",
+        "v7_pivot_11"
+      ],
+      "name": "gut_pc10_plus_taxa_pivot",
+      "penalty_shape": "uniform"
+    },
+    {
+      "doses": [
+        0
+      ],
+      "modifiers": [
+        "v7_detect_intensity_1",
+        "v7_detect_intensity_2",
+        "v7_detect_intensity_3",
+        "v7_detect_intensity_4",
+        "v7_detect_intensity_5",
+        "v7_detect_intensity_6",
+        "v7_detect_intensity_7",
+        "v7_detect_intensity_8",
+        "v7_detect_intensity_9",
+        "v7_detect_intensity_10",
+        "v7_detect_intensity_11",
+        "v7_detect_intensity_12",
+        "v7_detect_intensity_13",
+        "v7_detect_intensity_14",
+        "v7_detect_intensity_15",
+        "v7_detect_intensity_16",
+        "v7_detect_intensity_17",
+        "v7_detect_intensity_18",
+        "v7_detect_intensity_19",
+        "v7_detect_intensity_20",
+        "v7_detect_intensity_21",
+        "v7_detect_intensity_22",
+        "v7_detect_intensity_23",
+        "v7_detect_intensity_24"
+      ],
+      "name": "gut_taxa_detect_intensity",
+      "penalty_shape": "uniform"
+    },
+    {
+      "doses": [
+        0
+      ],
+      "modifiers": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8",
+        "g9",
+        "g10",
+        "v7_detect_intensity_1",
+        "v7_detect_intensity_2",
+        "v7_detect_intensity_3",
+        "v7_detect_intensity_4",
+        "v7_detect_intensity_5",
+        "v7_detect_intensity_6",
+        "v7_detect_intensity_7",
+        "v7_detect_intensity_8",
+        "v7_detect_intensity_9",
+        "v7_detect_intensity_10",
+        "v7_detect_intensity_11",
+        "v7_detect_intensity_12",
+        "v7_detect_intensity_13",
+        "v7_detect_intensity_14",
+        "v7_detect_intensity_15",
+        "v7_detect_intensity_16",
+        "v7_detect_intensity_17",
+        "v7_detect_intensity_18",
+        "v7_detect_intensity_19",
+        "v7_detect_intensity_20",
+        "v7_detect_intensity_21",
+        "v7_detect_intensity_22",
+        "v7_detect_intensity_23",
+        "v7_detect_intensity_24"
+      ],
+      "name": "gut_pc10_plus_taxa_detect_intensity",
+      "penalty_shape": "uniform"
+    },
+    {
+      "doses": [
+        0
+      ],
+      "modifiers": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8",
+        "g9",
+        "g10",
+        "shannon",
+        "v7_gate_shannon_g1",
+        "v7_gate_shannon_g2",
+        "v7_gate_shannon_g3",
+        "v7_gate_shannon_g4"
+      ],
+      "name": "gut_pc10_marker_gate_shannon",
+      "penalty_shape": "uniform"
+    },
+    {
+      "doses": [
+        0
+      ],
+      "modifiers": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8",
+        "g9",
+        "g10",
+        "fermentation",
+        "v7_gate_fermentation_g1",
+        "v7_gate_fermentation_g2",
+        "v7_gate_fermentation_g3",
+        "v7_gate_fermentation_g4"
+      ],
+      "name": "gut_pc10_marker_gate_fermentation",
+      "penalty_shape": "uniform"
+    },
+    {
+      "doses": [
+        0
+      ],
+      "modifiers": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8",
+        "g9",
+        "g10",
+        "shannon",
+        "fermentation",
+        "v7_gate_shannon_g1",
+        "v7_gate_shannon_g2",
+        "v7_gate_shannon_g3",
+        "v7_gate_shannon_g4",
+        "v7_gate_fermentation_g1",
+        "v7_gate_fermentation_g2",
+        "v7_gate_fermentation_g3",
+        "v7_gate_fermentation_g4"
+      ],
+      "name": "gut_pc10_marker_gate_both",
+      "penalty_shape": "uniform"
+    }
+  ],
+  "original_comparator": {
+    "families": [
+      "gut_pc10_ridge",
+      "gut_pc4_ridge",
+      "gut_pc6_ridge",
+      "gut_pc8_ridge",
+      "gut_pc12_ridge",
+      "gut_pc16_ridge",
+      "gut_pc20_ridge",
+      "gut_pc32_ridge",
+      "gut_pc6_dose_spline",
+      "gut_pc10_dose_spline",
+      "gut_pc16_dose_spline",
+      "gut_pc24_dose_spline",
+      "gut_pc10_spectral_taper",
+      "gut_pc16_spectral_taper",
+      "gut_pc24_spectral_taper",
+      "gut_pc32_spectral_taper",
+      "gut_pc10_dose_spline_shrink",
+      "gut_pc16_dose_spline_taper",
+      "gut_pc4_quadratic",
+      "gut_pc4_hinge",
+      "gut_pc10_quadratic",
+      "gut_pc10_hinge",
+      "gut_pc10_community_pairs",
+      "gut_pc10_oral_pc2",
+      "gut_pc10_oral_pc2_shrink",
+      "gut_pc10_oral_pc5",
+      "gut_pc10_oral_pc5_shrink",
+      "gut_pc10_oral_pc10",
+      "gut_pc10_oral_pc10_shrink",
+      "gut_pc10_shannon",
+      "gut_pc10_fermentation",
+      "gut_pc10_ecology_both",
+      "blend_gut_rank",
+      "blend_gut_shape",
+      "blend_gut_ecology"
+    ],
+    "name": "ratio_selector_original35",
+    "penalties": [
+      "100",
+      "10",
+      "1",
+      "0.1",
+      "0.01"
+    ]
+  },
+  "outcome": "D_Glu",
+  "outer": [
+    2,
+    5
+  ],
+  "output_routes": [
+    "gut_pc10_ridge",
+    "gut_pc4_ridge",
+    "gut_pc6_ridge",
+    "gut_pc8_ridge",
+    "gut_pc12_ridge",
+    "gut_pc16_ridge",
+    "gut_pc20_ridge",
+    "gut_pc32_ridge",
+    "gut_pc6_dose_spline",
+    "gut_pc10_dose_spline",
+    "gut_pc16_dose_spline",
+    "gut_pc24_dose_spline",
+    "gut_pc10_spectral_taper",
+    "gut_pc16_spectral_taper",
+    "gut_pc24_spectral_taper",
+    "gut_pc32_spectral_taper",
+    "gut_pc10_dose_spline_shrink",
+    "gut_pc16_dose_spline_taper",
+    "gut_pc4_quadratic",
+    "gut_pc4_hinge",
+    "gut_pc10_quadratic",
+    "gut_pc10_hinge",
+    "gut_pc10_community_pairs",
+    "gut_pc10_oral_pc2",
+    "gut_pc10_oral_pc2_shrink",
+    "gut_pc10_oral_pc5",
+    "gut_pc10_oral_pc5_shrink",
+    "gut_pc10_oral_pc10",
+    "gut_pc10_oral_pc10_shrink",
+    "gut_pc10_shannon",
+    "gut_pc10_fermentation",
+    "gut_pc10_ecology_both",
+    "gut_rff_broad",
+    "gut_pc10_plus_rff_broad",
+    "gut_rff_narrow",
+    "gut_pc10_plus_rff_narrow",
+    "gut_rff_medium20",
+    "gut_pc10_plus_rff_medium20",
+    "gut_taxa_clr",
+    "gut_pc10_plus_taxa_clr",
+    "gut_taxa_pivot",
+    "gut_pc10_plus_taxa_pivot",
+    "gut_taxa_detect_intensity",
+    "gut_pc10_plus_taxa_detect_intensity",
+    "gut_pc10_marker_gate_shannon",
+    "gut_pc10_marker_gate_fermentation",
+    "gut_pc10_marker_gate_both",
+    "blend_gut_rank",
+    "blend_gut_shape",
+    "blend_gut_ecology",
+    "blend_gut_rff",
+    "blend_gut_composition",
+    "reference_pc10_p01",
+    "ratio_selector",
+    "ratio_selector_guarded",
+    "ratio_selector_original35"
+  ],
+  "primary": "ratio_selector",
+  "threshold_screen": "Single-repeat one-sided 95% maximum centered margin over all 52 families, conditional on fixed predictions",
+  "version": "effect_modification_v7_ratio_pc10_20261118_expanded"
+}

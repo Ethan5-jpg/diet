@@ -1,0 +1,8 @@
+cd /home/ec2-user/studies/diet_gut_cgm_v2/multisystem_project_20261021/collaborator_handoff_20261102_v1/experiment2_Effect_Modification/v6 &&
+bash run_all.sh
+
+只重新查看已经完成的结果：
+bash server_run.sh --report
+
+请发回：EXP2_V6_HISTORY_COMPLETE、EXP2_V6_PRIMARY、EXP2_V6_EXPLORATORY_MAX、EXP2_V6_ADDED_METHODS_COMPARE、EXP2_V6_SUMMARY。
+如报错，请发 EXP2_V6_STOP 和错误信息。

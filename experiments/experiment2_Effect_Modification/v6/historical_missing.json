@@ -1,0 +1,482 @@
+[
+  {
+    "label": "visit_UPF_gut_shannon",
+    "source": "experiment2_Effect_Modification/github_collaborator_20261112/HPP_饮食菌群血糖修饰效应实验报告_2026-11-12.md",
+    "source_line": 13,
+    "deltas": [
+      1.2e-05,
+      6.6e-05
+    ],
+    "ci": null,
+    "missing": "corresponding base/full R2",
+    "notes": "3343 people3059 households; UPF +10 percentage points; modification difference -0.369mg/dL CI[-.847,.109]; 64 Holm p all1"
+  },
+  {
+    "label": "daily_carb_fiber",
+    "source": "experiment2_Effect_Modification/github_collaborator_20261112/HPP_饮食菌群血糖修饰效应实验报告_2026-11-12.md",
+    "source_line": 14,
+    "deltas": null,
+    "ci": null,
+    "missing": "corresponding base/full R2",
+    "notes": "2937 people20179 persondays; no numeric matched R2; REVIEW:48 says both tested penalties and repeats negative"
+  },
+  {
+    "label": "meal_carbs_both_pc5_discovery",
+    "source": "experiment2_Effect_Modification/github_collaborator_20261112/HPP_饮食菌群血糖修饰效应实验报告_2026-11-12.md",
+    "source_line": 22,
+    "deltas": [
+      0.000337,
+      0.000478
+    ],
+    "ci": null,
+    "missing": "corresponding base/full R2",
+    "notes": "3132 people2885 households55440 meals; both CI cross0; duplicates should not count as extra datasets"
+  },
+  {
+    "label": "meal_carbs_newhouse_peak",
+    "source": "experiment2_Effect_Modification/github_collaborator_20261112/HPP_饮食菌群血糖修饰效应实验报告_2026-11-12.md",
+    "source_line": 24,
+    "deltas": [
+      0.001119
+    ],
+    "ci": [
+      -0.001455,
+      0.003715
+    ],
+    "missing": "corresponding base/full R2",
+    "notes": "secondary peak outcome same 411 new people"
+  },
+  {
+    "label": "meal_carbs_newhouse_time_offsets",
+    "source": "experiment2_Effect_Modification/github_collaborator_20261112/HPP_饮食菌群血糖修饰效应实验报告_2026-11-12.md",
+    "source_line": 25,
+    "deltas": [
+      0.000335,
+      0.000556
+    ],
+    "ci": null,
+    "missing": "corresponding base/full R2",
+    "notes": "minus/plus15min; intervals cross0; premeal negative-control delta -.001076"
+  },
+  {
+    "label": "meal_carbs_newhouse_premeal",
+    "source": "experiment2_Effect_Modification/github_collaborator_20261112/HPP_饮食菌群血糖修饰效应实验报告_2026-11-12.md",
+    "source_line": 25,
+    "deltas": [
+      -0.001076
+    ],
+    "ci": null,
+    "missing": "corresponding base/full R2",
+    "notes": "negative-control outcome not same net_p0 endpoint"
+  },
+  {
+    "label": "meal_shared_offsets_vs_separate_discovery",
+    "source": "experiment2_Effect_Modification/github_collaborator_20261112/HPP_饮食菌群血糖修饰效应实验报告_2026-11-12.md",
+    "source_line": 27,
+    "deltas": [
+      1.768e-05,
+      1.205e-05
+    ],
+    "ci": null,
+    "missing": "corresponding base/full R2",
+    "notes": "shared interaction coefficients relative to separately fitted offsets; not all-interaction vs null"
+  },
+  {
+    "label": "meal_shared_offsets_vs_separate_newhouse",
+    "source": "experiment2_Effect_Modification/github_collaborator_20261112/HPP_饮食菌群血糖修饰效应实验报告_2026-11-12.md",
+    "source_line": 27,
+    "deltas": [
+      -8.41e-06
+    ],
+    "ci": [
+      -0.00012757,
+      0.00011037
+    ],
+    "missing": "corresponding base/full R2",
+    "notes": "shared vs separately fitted offset corrections"
+  },
+  {
+    "label": "previous_meal_triple_r0",
+    "source": "experiment2_Effect_Modification/github_collaborator_20261112/HPP_饮食菌群血糖修饰效应实验报告_2026-11-12.md",
+    "source_line": 35,
+    "deltas": [
+      -0.002651
+    ],
+    "ci": [
+      -0.004931,
+      -0.000758
+    ],
+    "missing": "corresponding base/full R2",
+    "notes": "discovery645 people623HH5907 meals;date transfer240 people2824 meals; newhouse24 people24HH185 meals; compares triple addition to model with lower-order interactions"
+  },
+  {
+    "label": "previous_meal_triple_r1",
+    "source": "experiment2_Effect_Modification/github_collaborator_20261112/HPP_饮食菌群血糖修饰效应实验报告_2026-11-12.md",
+    "source_line": 36,
+    "deltas": [
+      -0.003991
+    ],
+    "ci": [
+      -0.009615,
+      0.000525
+    ],
+    "missing": "corresponding base/full R2",
+    "notes": "discovery645 people623HH5907 meals;date transfer240 people2824 meals; newhouse24 people24HH185 meals; compares triple addition to model with lower-order interactions"
+  },
+  {
+    "label": "previous_meal_triple_early_late_r0",
+    "source": "experiment2_Effect_Modification/github_collaborator_20261112/HPP_饮食菌群血糖修饰效应实验报告_2026-11-12.md",
+    "source_line": 37,
+    "deltas": [
+      -0.028396
+    ],
+    "ci": [
+      -0.047664,
+      -0.011486
+    ],
+    "missing": "corresponding base/full R2",
+    "notes": "discovery645 people623HH5907 meals;date transfer240 people2824 meals; newhouse24 people24HH185 meals; compares triple addition to model with lower-order interactions"
+  },
+  {
+    "label": "previous_meal_triple_early_late_r1",
+    "source": "experiment2_Effect_Modification/github_collaborator_20261112/HPP_饮食菌群血糖修饰效应实验报告_2026-11-12.md",
+    "source_line": 37,
+    "deltas": [
+      -0.013424
+    ],
+    "ci": [
+      -0.027369,
+      -0.00102
+    ],
+    "missing": "corresponding base/full R2",
+    "notes": "discovery645 people623HH5907 meals;date transfer240 people2824 meals; newhouse24 people24HH185 meals; compares triple addition to model with lower-order interactions"
+  },
+  {
+    "label": "previous_meal_triple_late_early_r0",
+    "source": "experiment2_Effect_Modification/github_collaborator_20261112/HPP_饮食菌群血糖修饰效应实验报告_2026-11-12.md",
+    "source_line": 38,
+    "deltas": [
+      -0.004464
+    ],
+    "ci": [
+      -0.027562,
+      0.030087
+    ],
+    "missing": "corresponding base/full R2",
+    "notes": "discovery645 people623HH5907 meals;date transfer240 people2824 meals; newhouse24 people24HH185 meals; compares triple addition to model with lower-order interactions"
+  },
+  {
+    "label": "previous_meal_triple_late_early_r1",
+    "source": "experiment2_Effect_Modification/github_collaborator_20261112/HPP_饮食菌群血糖修饰效应实验报告_2026-11-12.md",
+    "source_line": 38,
+    "deltas": [
+      -0.014879
+    ],
+    "ci": [
+      -0.033073,
+      0.005422
+    ],
+    "missing": "corresponding base/full R2",
+    "notes": "discovery645 people623HH5907 meals;date transfer240 people2824 meals; newhouse24 people24HH185 meals; compares triple addition to model with lower-order interactions"
+  },
+  {
+    "label": "previous_meal_triple_newhouse_joint",
+    "source": "experiment2_Effect_Modification/github_collaborator_20261112/HPP_饮食菌群血糖修饰效应实验报告_2026-11-12.md",
+    "source_line": 39,
+    "deltas": [
+      -0.000901
+    ],
+    "ci": [
+      -0.00361,
+      0.001737
+    ],
+    "missing": "corresponding base/full R2",
+    "notes": "discovery645 people623HH5907 meals;date transfer240 people2824 meals; newhouse24 people24HH185 meals; compares triple addition to model with lower-order interactions"
+  },
+  {
+    "label": "previous_meal_triple_newhouse_1d",
+    "source": "experiment2_Effect_Modification/github_collaborator_20261112/HPP_饮食菌群血糖修饰效应实验报告_2026-11-12.md",
+    "source_line": 40,
+    "deltas": [
+      -0.002196
+    ],
+    "ci": [
+      -0.003993,
+      -0.00032
+    ],
+    "missing": "corresponding base/full R2",
+    "notes": "discovery645 people623HH5907 meals;date transfer240 people2824 meals; newhouse24 people24HH185 meals; compares triple addition to model with lower-order interactions"
+  },
+  {
+    "label": "repeat_template_net_r0",
+    "source": "experiment2_Effect_Modification/github_collaborator_20261112/HPP_饮食菌群血糖修饰效应实验报告_2026-11-12.md",
+    "source_line": 50,
+    "deltas": [
+      0.001227
+    ],
+    "ci": [
+      -0.002297,
+      0.004632
+    ],
+    "missing": "corresponding base/full R2",
+    "notes": "discovery1709people1618HH8273meals2953templates; newhouse168HH635meals; tuned same participants; peak not main mean-net endpoint"
+  },
+  {
+    "label": "repeat_template_peak_r0",
+    "source": "experiment2_Effect_Modification/github_collaborator_20261112/HPP_饮食菌群血糖修饰效应实验报告_2026-11-12.md",
+    "source_line": 50,
+    "deltas": [
+      0.007792
+    ],
+    "ci": [
+      0.0027,
+      0.014267
+    ],
+    "missing": "corresponding base/full R2",
+    "notes": "discovery1709people1618HH8273meals2953templates; newhouse168HH635meals; tuned same participants; peak not main mean-net endpoint"
+  },
+  {
+    "label": "repeat_template_net_r1",
+    "source": "experiment2_Effect_Modification/github_collaborator_20261112/HPP_饮食菌群血糖修饰效应实验报告_2026-11-12.md",
+    "source_line": 51,
+    "deltas": [
+      0.002042
+    ],
+    "ci": [
+      -0.00151,
+      0.005666
+    ],
+    "missing": "corresponding base/full R2",
+    "notes": "discovery1709people1618HH8273meals2953templates; newhouse168HH635meals; tuned same participants; peak not main mean-net endpoint"
+  },
+  {
+    "label": "repeat_template_peak_r1",
+    "source": "experiment2_Effect_Modification/github_collaborator_20261112/HPP_饮食菌群血糖修饰效应实验报告_2026-11-12.md",
+    "source_line": 51,
+    "deltas": [
+      0.007772
+    ],
+    "ci": [
+      0.001108,
+      0.016852
+    ],
+    "missing": "corresponding base/full R2",
+    "notes": "discovery1709people1618HH8273meals2953templates; newhouse168HH635meals; tuned same participants; peak not main mean-net endpoint"
+  },
+  {
+    "label": "repeat_template_net_newhouse",
+    "source": "experiment2_Effect_Modification/github_collaborator_20261112/HPP_饮食菌群血糖修饰效应实验报告_2026-11-12.md",
+    "source_line": 52,
+    "deltas": [
+      -0.012886
+    ],
+    "ci": [
+      -0.035672,
+      0.002621
+    ],
+    "missing": "corresponding base/full R2",
+    "notes": "discovery1709people1618HH8273meals2953templates; newhouse168HH635meals; tuned same participants; peak not main mean-net endpoint"
+  },
+  {
+    "label": "repeat_template_peak_newhouse",
+    "source": "experiment2_Effect_Modification/github_collaborator_20261112/HPP_饮食菌群血糖修饰效应实验报告_2026-11-12.md",
+    "source_line": 52,
+    "deltas": [
+      -0.01153
+    ],
+    "ci": [
+      -0.041001,
+      0.020556
+    ],
+    "missing": "corresponding base/full R2",
+    "notes": "discovery1709people1618HH8273meals2953templates; newhouse168HH635meals; tuned same participants; peak not main mean-net endpoint"
+  },
+  {
+    "label": "individual_earlier_response_predicts_later",
+    "source": "experiment2_Effect_Modification/github_collaborator_20261112/HPP_饮食菌群血糖修饰效应实验报告_2026-11-12.md",
+    "source_line": 56,
+    "deltas": [
+      0.0037,
+      0.0039
+    ],
+    "ci": null,
+    "missing": "corresponding base/full R2",
+    "notes": "2556 people2382HH50279 meals; these gains are individual observed response history, not microbiome modification; microbiome extra nearly0"
+  },
+  {
+    "label": "whole_community_similarity",
+    "source": "experiment2_Effect_Modification/github_collaborator_20261112/HPP_饮食菌群血糖修饰效应实验报告_2026-11-12.md",
+    "source_line": 58,
+    "deltas": null,
+    "ci": null,
+    "missing": "corresponding base/full R2",
+    "notes": "report explicitly says no verified full results"
+  },
+  {
+    "label": "host_HbA1c_BMI_added_microbiome",
+    "source": "experiment2_Effect_Modification/github_collaborator_20261112/HPP_饮食菌群血糖修饰效应实验报告_2026-11-12.md",
+    "source_line": 64,
+    "deltas": [
+      0.00047,
+      0.0004
+    ],
+    "ci": null,
+    "missing": "corresponding base/full R2",
+    "notes": "1155people22761 meals; forward-date transfer both negative; host modification +.216mg/dL per.5% HbA1c is not microbial"
+  },
+  {
+    "label": "fruit_vs_bread",
+    "source": "experiment2_Effect_Modification/github_collaborator_20261112/HPP_饮食菌群血糖修饰效应实验报告_2026-11-12.md",
+    "source_line": 65,
+    "deltas": null,
+    "ci": null,
+    "missing": "corresponding base/full R2",
+    "notes": "1336people28106meals; no numeric result in report"
+  },
+  {
+    "label": "wholewheat_Lachnoclostridium",
+    "source": "experiment2_Effect_Modification/github_collaborator_20261112/HPP_饮食菌群血糖修饰效应实验报告_2026-11-12.md",
+    "source_line": 66,
+    "deltas": [
+      -0.000118,
+      -7.1e-05
+    ],
+    "ci": null,
+    "missing": "corresponding base/full R2",
+    "notes": "669people14657meals; detection41people; modification-.206mg/dL CI[-1.031,.619]"
+  },
+  {
+    "label": "coffee_C_phoceensis",
+    "source": "experiment2_Effect_Modification/github_collaborator_20261112/HPP_饮食菌群血糖修饰效应实验报告_2026-11-12.md",
+    "source_line": 68,
+    "deltas": [
+      -0.00034,
+      -3.2e-05
+    ],
+    "ci": null,
+    "missing": "corresponding base/full R2",
+    "notes": "634people9273meals; modification+.145mg/dL CI[-.551,.842]"
+  },
+  {
+    "label": "morning_context_added",
+    "source": "experiment2_Effect_Modification/github_collaborator_20261112/HPP_饮食菌群血糖修饰效应实验报告_2026-11-12.md",
+    "source_line": 69,
+    "deltas": [
+      -0.000391,
+      -0.001214
+    ],
+    "ci": null,
+    "missing": "corresponding base/full R2",
+    "notes": "863people9479meals; added context interactions above common carbs*microbiome"
+  },
+  {
+    "label": "stool_delivery_nearby_meals",
+    "source": "experiment2_Effect_Modification/github_collaborator_20261112/HPP_饮食菌群血糖修饰效应实验报告_2026-11-12.md",
+    "source_line": 70,
+    "deltas": [
+      -0.00082,
+      -0.000393
+    ],
+    "ci": null,
+    "missing": "corresponding base/full R2",
+    "notes": "300people6608meals; gutPC5 temporal interactions, delivery date not verified sampling date"
+  },
+  {
+    "label": "oral_function_paths",
+    "source": "experiment2_Effect_Modification/github_collaborator_20261112/HPP_饮食菌群血糖修饰效应实验报告_2026-11-12.md",
+    "source_line": 71,
+    "deltas": null,
+    "ci": null,
+    "missing": "corresponding base/full R2",
+    "notes": "485 pathways checked; no numeric paired R2 in report"
+  },
+  {
+    "label": "glucose_curve_shape_discovery",
+    "source": "experiment2_Effect_Modification/github_collaborator_20261112/HPP_饮食菌群血糖修饰效应实验报告_2026-11-12.md",
+    "source_line": 72,
+    "deltas": [
+      2.2e-05,
+      1e-05
+    ],
+    "ci": null,
+    "missing": "corresponding base/full R2",
+    "notes": "55440meals; retains average-level interaction; four30min stages; shape Holm p .019, both deltaCI cross0"
+  },
+  {
+    "label": "glucose_curve_shape_forward",
+    "source": "experiment2_Effect_Modification/github_collaborator_20261112/HPP_饮食菌群血糖修饰效应实验报告_2026-11-12.md",
+    "source_line": 72,
+    "deltas": [
+      -0.000577,
+      -0.000807
+    ],
+    "ci": null,
+    "missing": "corresponding base/full R2",
+    "notes": "forward date transfer"
+  },
+  {
+    "label": "animal_literature_3taxa_score_newhouse",
+    "source": "experiment2_Effect_Modification/github_collaborator_20261112/HPP_饮食菌群血糖修饰效应实验报告_2026-11-12.md",
+    "source_line": 74,
+    "deltas": [
+      -8.3e-05
+    ],
+    "ci": [
+      -0.000846,
+      0.000741
+    ],
+    "missing": "corresponding base/full R2",
+    "notes": "Alistipes indistinctus, A.finegoldii,B.thetaiotaomicron; differs from experiment2 fiberfermentation3taxa;401newHH; discovered single effect+.070mg/dL, adjustedPC effect+.006mg/dL; no main carb contrast denominator"
+  },
+  {
+    "label": "fiber_shannon_between_within",
+    "source": "experiment2_Effect_Modification/github_collaborator_20261114/HPP_纤维与肠道Shannon修饰效应实验报告_2026-11-13.md",
+    "source_line": 15,
+    "deltas": null,
+    "ci": null,
+    "missing": "corresponding base/full R2",
+    "notes": "2937people2698HH20179days; between linear+.575mg/dL and split+.837; within-.022 and-.011; no reference fibercontrast denominator; personcentered and between-person use different SST scales"
+  },
+  {
+    "label": "fiber_shannon_date_split",
+    "source": "experiment2_Effect_Modification/github_collaborator_20261114/HPP_纤维与肠道Shannon修饰效应实验报告_2026-11-13.md",
+    "source_line": 27,
+    "deltas": [
+      0.0006,
+      0.001
+    ],
+    "ci": null,
+    "missing": "corresponding base/full R2",
+    "notes": "deltas only approximate range reported at31, not one-to-one model rows;2578people2391HH19102days; earlylate linear+.524mg/dL; lateearly+.516; full-date+.666; split effects+.770/.771/.982; mg/dL effects cannot divide by R2; no same-model reference dietarycontrast reported"
+  },
+  {
+    "label": "exp2_v1_all_101_atomic_routes",
+    "source": "experiment2_Effect_Modification/v1/exp2_report.py",
+    "source_line": 99,
+    "missing": "Local screenshots show workflow summaries and 18 latest routes, not every saved atomic route; server summary.json required."
+  },
+  {
+    "label": "exp2_v3_Shannon_and_fermentation",
+    "source": "experiment2_Effect_Modification/SUMMARY.md",
+    "source_line": 25,
+    "missing": "Current local text archive has deltas but no full/base pair; use saved EXP2_V3_PREDICT log if present."
+  },
+  {
+    "label": "exp2_v4_all_backgrounds_and_routes",
+    "source": "experiment2_Effect_Modification/v5/PLAN.md",
+    "source_line": 5,
+    "missing": "Current local summary has delta R2 in percentage points but not matching base/full; read EXP2_V4_PREDICT from completed log."
+  },
+  {
+    "label": "legacy_v5_pc_and_module",
+    "source": "experiments/实验.md",
+    "source_line": 97,
+    "missing": "Only delta displayed locally; server round summaries contain MSE_null, MSE_model, mse_gain and delta, sufficient to recover matching R2."
+  },
+  {
+    "label": "legacy_V11_cfiber_routes",
+    "source": "experiments/diet_model_distribution_20261109_v11/summary.md",
+    "source_line": 24,
+    "missing": "Explicit interaction background full/base scores not displayed in current local archive; never substitute fused V11 total R2."
+  }
+]

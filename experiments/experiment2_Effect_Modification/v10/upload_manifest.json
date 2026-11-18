@@ -1,0 +1,20 @@
+{
+  "files": {
+    "README.md": "a183bea3fb3940120a210237cb7927e246471d36873b38e0dab758f2ab27a22d",
+    "design.json": "3d985cfd432756093d71994bb3b805a8ed26206a0beac35887fea91f4832d86d",
+    "run_all.sh": "76015d11959dc7e7fc579daeb4e526e67400d5c3b31dab59b84ba4738eb4df70",
+    "run_v10.py": "0e9b6c1bdf19427a0ae0244d57c226defe713b73776b65212d0cffb0aa1af480",
+    "server_run.sh": "8369091335177fbb1c6a106c5f4811d2611ded7b48b2ac247b1b07ac92fb6f0e",
+    "test_v10_audit.py": "b5811c95eec05a006aa11a91f05579151474c1d147ec9ce0743a5e85af022161",
+    "test_v10_fit.py": "8cbeb94cf61eeeaa5a2f87fe8a86c173aabf6fd259cc91bc466d8ed054f005bc",
+    "test_v10_inference.py": "c09b4396c2d9662c1bee2fb9c27598e6bc42b33087a064af102b4339fe4623b8",
+    "v10_audit.py": "6f0912a93638272209fdf3cd59dee77ce09ce7e0ed3697b96cf2e5ab9728ec90",
+    "v10_cv.py": "e3cf718624606858bce82e2e1069b81a8a4495a58a216190f9a5a2d602ac60de",
+    "v10_features.py": "f6ffeca708b712ac8d5bf71f79141419bfd9b45ceb7ba99a50316849ed83ff61",
+    "v10_fit.py": "16bca23e3190f035d274d660e0d3f26d45ca2284c563aca79ce7f329dfac8ade",
+    "v10_grid.py": "7f21c2bf7b9fd120985fac647f7288a824a55c717e266fd76f670528e32cd806",
+    "v10_report.py": "3d8610e6580a3bb0b6f083809ecaa09da4b3ea882f23ee9524807b5f0e8602e5"
+  },
+  "v9_manifest_sha256": "6fb5f6ee15b768fc2684b4115be12e657b44d7a81461129bd4c93523f466c9e1",
+  "version": "v10"
+}

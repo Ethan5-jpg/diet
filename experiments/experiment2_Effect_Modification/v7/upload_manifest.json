@@ -1,0 +1,38 @@
+{
+  "pins": {
+    "numpy": "1.26.4",
+    "pandas": "2.1.0",
+    "pyarrow": "15.0.2",
+    "scikit-learn": "1.4.1.post1",
+    "scipy": "1.11.4",
+    "threadpoolctl": "3.3.0"
+  },
+  "v6": {
+    "adapters/__init__.py": "18f75162bf166545dd69e67a316cadb1b7c14ffcb7e4f864b0b7c93722d7a388",
+    "adapters/fermentation_score.py": "87950719455e3b7678ad942b4abef211ab47b79f1bca55b051e7174ccddbe6ef",
+    "adapters/person_inputs.py": "e13bc27e4b0e4487d406171b5f2172ba558f957b4af314a905df9ef945aaeb1a",
+    "integration_fixture.py": "e1030ba83732fe09d59094ba0fa4789b2a61e604febf02627f572762bdddd6a5",
+    "run_v6.py": "616caf90e6c2455c443104912201e47d6bbec1985949f1a0211ab1ad147cc503"
+  },
+  "v7": {
+    "HISTORICAL_REFERENCE.md": "bdb1220f09e29d4a9ac06c7213ac88fa4fb46d9253b3d6bbba8ad5e92ea35dcf",
+    "README.md": "3fb0b99ac3ae7f45b2bdbced5093e0054ee729733dd9bcd4880f6a479c1f5722",
+    "design.json": "ff1b59aee328c7b151417df7f72c969d5309feb2c0089afbec02a46a03c74135",
+    "run_all.sh": "2c3b112e6205147098779cd8ea53efdafaa575462dfff60be14088b17e77d7a5",
+    "run_v7.py": "5a1ad00cb88a5a84ae66a32afdb286539e36ca4e41af65da39cbe439a2af0468",
+    "server_run.sh": "d456f7759c20aae4013b3a3c9060667fd27f008cffcb4eab107855a556262020",
+    "test_v7_eval.py": "361d7a72e71887b8787e02121310c3599d72527104bc4bef9927812fb4fa1a4e",
+    "test_v7_models.py": "69ad67ddd241869dd200b8bb7344f6fa02a90edb5d4a469061d66569f8792d2b",
+    "test_v7_modifier_views.py": "ec807e611d24f7c5c1b9b48269b362dc122d49a8267d2b4c689cb0c3b9f98dd9",
+    "test_v7_runtime.py": "fda5867ddc7d039d9736d0609f2affb20d7a0b7add8d925615b4d781fb736511",
+    "test_v7_source.py": "9a5aa1a05828befda8f13fb0c1bf94ac6b8b1fdde5d2a02a9ae336c40e9fc108",
+    "test_v7_threshold.py": "e398d5c3cdb1e33e6c26d24c7bc6fce5881c462f450a47696bb399356a8900b7",
+    "v7_eval.py": "18955b8a64d0dc4dc0f944ded66d8d707a930a16d021a3f7adf63f157203ecd6",
+    "v7_models.py": "2606dfe4551306d61da662a15f7d6ea460206b973449ad8a0e8ee3c2355db59b",
+    "v7_modifier_views.py": "37e8438c0efc4102a39002cdc9c8c07647e55485ea8616ea6fa7e33084b9cde6",
+    "v7_reference.py": "5e7b468ca6157d5819ed889b904ba16a762cb74775f01c129f804dc266b73322",
+    "v7_source.py": "22ca1458e105ecc022d17f13f37100fdc4ba3be36e2a754e1d63f138a9ef0ac4",
+    "v7_threshold.py": "3e4920338efe2a8798c8b2b87c146247d1b011fb29d7fb2c2344ce020c817f39"
+  },
+  "version": "effect_modification_v7_ratio_pc10_20261118_expanded"
+}
