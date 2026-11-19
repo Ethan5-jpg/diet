@@ -1,0 +1,14 @@
+{
+  "files": {
+    "README.md": "8b528b31186f4506c4c421efb7fde6dd9d6650f27098615571e14573db5ed439",
+    "metrics.py": "2017ec3b666b686299cdb043dfabb369e8e4c2ad178223d7e2596b77359499d9",
+    "models.py": "aebe15d0445549bf036cf74d83c10a53cb6a9838ecd88b181146295274a8ab3a",
+    "protocol.py": "c91909c6ec07ee186efab2ea4a9d50cb0a627d92211ffe5b31c41e996bac9ff5",
+    "reference.py": "e6340cafc0cf05eebadc2984ee8f47f5b7a628c62b9dd1a6430ea69a67c30707",
+    "run.py": "9aed077df7896f92f8af3cfaa137f81374dd6884e66f896481099b13f0751e3e",
+    "server_run.sh": "e51d2c94611963532b88aec42d99b8d5fab400da8ad4920afa90901fa89e29e8",
+    "source.py": "8e445d4977ee70f30896c9a53c7ea4fcdbb9678c17f623eb6f8efedf004a61ba",
+    "test_full_pheno.py": "8e91c7b26fb3309eead2b04a4d695f87e4d108898404e8181e7a0bcd4420ee51"
+  },
+  "version": "hpp_full_pheno_v1"
+}

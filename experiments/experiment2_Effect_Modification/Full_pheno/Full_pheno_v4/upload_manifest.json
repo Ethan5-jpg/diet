@@ -1,0 +1,15 @@
+{
+  "files": {
+    "README.md": "09b8aaa403643736cce31b3c99f8d0deeb1f8efc99bbcbfa7e2bfca2aa22e70e",
+    "run_v4.py": "d7d65527da8f1084ab086468e9be265166a8f8ac1117a6165f92ea0339307371",
+    "server_run.sh": "f30f8cf56b9db440d8b141ec45e4b9d884375bba1727042989c0aa8539a63e70",
+    "test_v4.py": "f99ba0660b023dd58cec99a7c2dd22c8d75a0ab7625523bf953f965fb43636e4",
+    "v4_design.py": "77ea2143dda5a3bf6561fffd49914d1313216741f00c0f30c2dad51f2ad5cec4",
+    "v4_engine.py": "d057757942abb5c1ce03f7005d845bc98cea96632ff1dcf95754f170747e92af",
+    "v4_models.py": "50e1100d5f473ea9f0ebf578d13b7bfd7c0bf9f04025babd7ecf8bf645390c35",
+    "v4_report.py": "4d52c1316fc57cacae6cd358f1df12f318bf8dfa8a1d13951400259391a9f467",
+    "v4_score.py": "7ba96a21a763154dcd90d6790b40cb16a0f7872af30f7bc2bfbb0689439dc444",
+    "v4_select.py": "151da5408c49a28b07eebd7047cc2e84306587b1c1b52b2ce16a7eb6e0a08dbf"
+  },
+  "version": "hpp_full_pheno_v4"
+}
