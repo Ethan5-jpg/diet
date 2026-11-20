@@ -224,10 +224,11 @@ def main():
         buffer = BytesIO()
         np.savez_compressed(buffer, **data, participant_id=both.keys[0][held],
                             households=np.asarray(both.family[held], dtype=str), lower=lower, upper=upper)
+        unused = {p.outcome_file(e) for e in p.ENDPOINTS}
+        require(set(snapshot.paths) - unused <= snapshot.verified, "V15_RESERVED_DISCOVERY_SNAPSHOT")
+        snapshot.verify_manifest()
         pred = out / "predictions.npz"
         v1_run.atomic_write(pred, buffer.getvalue())
-        snapshot.verify_manifest()
-        require(set(snapshot.paths) <= snapshot.verified, "V15_RESERVED_DISCOVERY_SNAPSHOT")
         frozen = dict(predictions_sha=v1_run.file_sha(pred), registration_sha=v1_run.file_sha(out / "registration.json"),
                       heads=["A", "reference:B", "ridge_100:B", "reference:fixed", "reference:half",
                              "ridge_100:fixed", "ridge_100:half"], participants=len(held),
