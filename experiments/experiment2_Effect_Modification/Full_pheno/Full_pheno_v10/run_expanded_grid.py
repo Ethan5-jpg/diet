@@ -34,10 +34,9 @@ def diet_catalog(values, audit):
     return recipes
 
 
-def predict_new(study, fold, context, values, y):
+def predict_new(study, fold, context, values, y, backgrounds):
     import numpy as np
     import protocol as p
-    from breadth import fit_profile
     from models import create_design, dose_basis, fiber_basis, products
     from v4_models import no_diet_main
 
@@ -59,24 +58,29 @@ def predict_new(study, fold, context, values, y):
     if scale<=p.RANK_TOL or min(np.sum(train_x > train_x.min()), np.sum(train_x < train_x.max()))<20:
         return None, "diet_variation"
     x = ((x-x[:n].mean())/scale)[:,None]
-    design = create_design(study, context, fold, rows, n)
-    if context=="fiber_density":
-        raw = fiber_basis(study.numeric["fiber_density"][rows])
-    else:
-        raw = bg.archived[context][rows]
-    dose = dose_basis(raw,n)[0]
-    plain = no_diet_main(study, rows, n, design.main, dose)
-    inv = np.linalg.pinv(plain[:n],rcond=p.RANK_TOL)
-    a = plain @ (inv @ y[tr])
+    # Reuse the same fitted background for this endpoint and exact matched cohort.
+    key = (fold,context,np.packbits(ok).tobytes())
+    if key not in backgrounds:
+        design = create_design(study, context, fold, rows, n)
+        raw = (fiber_basis(study.numeric["fiber_density"][rows]) if context=="fiber_density"
+               else bg.archived[context][rows])
+        dose = dose_basis(raw,n)[0]
+        plain = no_diet_main(study, rows, n, design.main, dose)
+        inv = np.linalg.pinv(plain[:n],rcond=p.RANK_TOL)
+        backgrounds[key] = plain, inv, plain @ (inv @ y[tr])
+    plain, inv, a = backgrounds[key]
     z = x - plain @ (inv @ x[:n])
-    if np.linalg.norm(z[:n])<=p.RANK_TOL:
+    norm = float((z[:n]**2).sum())
+    if norm<=p.RANK_TOL**2*n:
         return None, "diet_collinearity"
-    b = a + (z @ (z[:n].T @ (y[tr]-a[:n]))) / float((z[:n]**2).sum()+.10*n)
-    fixed = np.column_stack((plain,z))
-    fixed_inv = np.linalg.pinv(fixed[:n],rcond=p.RANK_TOL)
+    b = a + (z @ (z[:n].T @ (y[tr]-a[:n]))) / (norm+.10*n)
     z_gut = products(x,bg.pcs[rows,p.N_PC:2*p.N_PC])
-    correction = .5*fit_profile(z_gut,fixed,fixed_inv,y[tr]-b[:n]).fit(1.)
-    c = b[n:]+correction
+    gut = z_gut - plain @ (inv @ z_gut[:n])
+    gut -= z @ (z[:n].T @ gut[:n]) / norm
+    train_gut = gut[:n]
+    penalty = train_gut.T @ train_gut + n*np.eye(train_gut.shape[1])
+    coef = np.linalg.solve(penalty,train_gut.T @ (y[tr]-b[:n]))
+    c = b[n:] + .5*(gut[n:] @ coef)
     require(np.isfinite(np.column_stack((a[n:],b[n:],c))).all(), "V10_GRID_NONFINITE")
     return (held, y[held], a[n:], b[n:], c), None
 
@@ -119,14 +123,15 @@ def run_partition(study, calibration, sites, diets, outcomes, seed):
     work = study if seed is None else Repartition(study, sites, calibration, seed, emit)
     clean = {e:[clean_outcome(y.y,work.backgrounds[f].role) for f in p.FOLDS] for e,y in outcomes.items()}
     records, excluded = [], []
-    for name, group, kind, value in diets:
-        vals = [work.backgrounds[f].archived["UPF"][:,0] if name=="UPF" else value for f in p.FOLDS]
-        for e in outcomes:
+    for j, e in enumerate(outcomes, 1):
+        backgrounds = {}
+        for name, group, kind, value in diets:
+            vals = [work.backgrounds[f].archived["UPF"][:,0] if name=="UPF" else value for f in p.FOLDS]
             if group=="original" and e in p.ENDPOINTS:
                 continue
             parts, reason = [], None
             for fold, y, x in zip(p.FOLDS,clean[e],vals,strict=True):
-                part, reason = predict_new(work,fold,kind,x,y)
+                part, reason = predict_new(work,fold,kind,x,y,backgrounds)
                 if reason:
                     break
                 parts.append(part)
@@ -138,6 +143,8 @@ def run_partition(study, calibration, sites, diets, outcomes, seed):
                     continue
                 reason = "endpoint_variation"
             excluded.append(dict(identifier, reason=reason))
+        if j%10==0 or j==len(outcomes):
+            emit("V10_GRID_ENDPOINT_BATCH",dict(seed=seed,endpoints=j,tested=len(records)))
     holm(records)
     return dict(seed=seed, rows=records, excluded=excluded)
 
