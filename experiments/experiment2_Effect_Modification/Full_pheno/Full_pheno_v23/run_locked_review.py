@@ -16,6 +16,16 @@ from taxonomy import end_group, map_diets
 
 V22 = HERE.parent / "Full_pheno_v22/runs/TRE_ONLY/source-overlay-1"
 SEEDS = (20262903, 20262927)
+SOURCES = ("sleep:sleep_hrv", "cardiovascular:ecg", "cardiovascular:retinal_vascular")
+
+
+def keep_registered_sources(weights, policy, domains, sources):
+    import numpy as np
+
+    group = np.char.add(np.char.add(domains, ":"), sources)
+    scope = np.isin(group, SOURCES)
+    weights[1,~scope] = weights[0,~scope]
+    return {k:v for k,v in policy.items() if k in SOURCES}
 
 
 def score_probes(folds, candidates):
@@ -57,6 +67,7 @@ def fit_partition(out, seed, work, sites, cal, diets, y, masks, endpoints, domai
         fpath = out / f"{seed}-fold-{f}.npz"
         if not fpath.exists():
             weights, policy = inner_terms(work, ctx, cal, f, diets, y, masks, domains, sources, seed, emit)
+            policy = keep_registered_sources(weights, policy, domains, sources)
             require(np.array_equal(weights[0,columns], weights[1,columns]), "V23_LIPID_BASELINE_REFINEMENT_CHANGED")
             data, gap = paired_overlay.collect(work, f, diets, y, masks, weights)
             small = category_forecasts.collect(work, f, diets, narrow, small_masks, weights[1,columns])
@@ -142,6 +153,7 @@ def main():
                            prior_records=proofs, procedure=identified,
                            version22_commit=prior["commit"],
                            frozen_targets=[list(x) for x in CANDIDATES],
+                           sources_eligible_for_refinement=list(SOURCES),
                            seeds=[[f"fresh-{j}",s] for j,s in enumerate(SEEDS,1)],
                            local_code={f.name:v1_run.file_sha(f) for f in (HERE / "PROTOCOL.md",Path(__file__))}))
         inv = read_json(REFERENCE / "inventory.json")
