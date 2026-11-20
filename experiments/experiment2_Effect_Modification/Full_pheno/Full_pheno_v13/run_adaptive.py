@@ -6,7 +6,7 @@ import sys
 
 
 HERE=Path(__file__).resolve().parent
-sys.path.insert(1,str(HERE.parent/"Full_pheno_v12"))
+sys.path[1:1]=[str(HERE),str(HERE.parent/"Full_pheno_v12")]
 from review_grid import REFERENCE, emit, parse, register, require, v1_run
 from run_locked import context
 from taxonomy import end_group, map_diets, summarize
