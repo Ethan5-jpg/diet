@@ -8,7 +8,7 @@ HERE=Path(__file__).resolve().parent
 sys.path.insert(1,str(HERE.parent/"Full_pheno_v11"))
 sys.path.insert(1,str(HERE.parent/"Full_pheno_v10"))
 from run_locked import emit, parse, register, require, v1_run
-from taxonomy import DIET_CLASS, end_group, summarize
+from taxonomy import end_group, map_diets, summarize
 
 
 REFERENCE=HERE.parent/"Full_pheno_v11/runs/TRE_ONLY/batch-1"
@@ -22,14 +22,14 @@ def main():
         inventory, old, *parts=(v1_run.read_json(path) for path in files)
         require(not (REFERENCE/"RUNNING.lock").exists() and old["reserved_outcomes_read"] is False,
                 "V12_ARCHIVE_INCOMPLETE")
-        require(set(inventory["diet_ids"])==DIET_CLASS.keys(),"V12_DIET_CLASSIFIES_ALL")
+        dietary_classes=map_diets(inventory["diet_ids"])
         endpoints=inventory["endpoint_ids"]
         source=inventory["source_audit"]["domains"]
         classes={e:end_group(e,source[e]) for e in endpoints}
         proof={str(p):v1_run.file_sha(p) for p in files}
         register(out,dict(commit=args.commit,reference=proof,code={p.name:v1_run.file_sha(p)
                             for p in (Path(__file__),HERE/"taxonomy.py")}))
-        result=summarize(parts,classes,DIET_CLASS)
+        result=summarize(parts,classes,dietary_classes)
         require(result["shared_pairs"]==old["shared"],"V12_GRID_DENOMINATOR")
         require(sum(r["joint"] for r in result["categories"].values())==old["joint_everywhere"],
                 "V12_GRID_JOINT_REPLAY")

@@ -4,7 +4,7 @@ from pathlib import Path
 
 from review_grid import HERE, REFERENCE, emit, parse, register, require, v1_run
 from run_locked import context
-from taxonomy import DIET_CLASS, end_group, summarize
+from taxonomy import end_group, map_diets, summarize
 
 
 RED_OUTCOMES = ("cgm_indices:cgm_sd_roc", "cgm_indices:cgm_sdwsh")
@@ -73,7 +73,7 @@ def main():
         require(set(map(str,inputs.values()))<=old["sources"].keys(),"V12_DIET_SOURCE_NOT_IN_V11")
         endpoints=inv["endpoint_ids"]
         require(list(outcome)==endpoints and [d[0] for d in diets]==inv["diet_ids"],"V12_FEATURE_REPLAY")
-        require(set(inv["diet_ids"])==DIET_CLASS.keys(),"V12_CLASSIFICATION_COVERAGE")
+        map_diets(inv["diet_ids"])
         require(all(metadata["domains"][e]==inv["source_audit"]["domains"][e] for e in endpoints),
                 "V12_OUTCOME_CLASSIFICATION_REPLAY")
         ref_names=("registration","inventory","summary")

@@ -7,7 +7,7 @@ import protocol as p
 from batch_fit import clip_outcomes, context_design, fold_moments, match_rows, outcome_groups
 from run_expanded_grid import holm
 from run_v2 import require
-from taxonomy import GROUPS, RECORDING
+from taxonomy import GROUPS, RECORDING, diet_key
 
 
 BASES = {**GROUPS, "recording": RECORDING,
@@ -55,7 +55,7 @@ def panels(diets, study, fold, support):
     bg=study.backgrounds[fold]
     fit=support & bg.role
     n=int(fit.sum())
-    raw={name:bg.archived["UPF"][:,0] if name=="UPF" else val for name,_,val in diets}
+    raw={diet_key(name):bg.archived["UPF"][:,0] if name=="UPF" else val for name,_,val in diets}
     scores,audit={},{}
     for name,features in BASES.items():
         scores[name],audit[name]=block({x:raw[x] for x in features},fit,n)

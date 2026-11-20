@@ -29,6 +29,19 @@ RECORDING = ("nova_unknown", "unknown_nova_sd", "items_logged")
 DIET_CLASS = {name: group for group,names in GROUPS.items() for name in names} | dict.fromkeys(RECORDING,"recording")
 
 
+def diet_key(name):
+    """Resolve cosmetic separators in stored food-category labels."""
+    prefix, separator, category=name.partition(":")
+    return prefix+separator+" ".join(category.replace("_"," ").split()) if prefix=="category" else name
+
+
+def map_diets(names):
+    keys={name:diet_key(name) for name in names}
+    if len(set(keys.values()))!=len(keys) or set(keys.values())!=DIET_CLASS.keys():
+        raise ValueError("V12 diet taxonomy does not cover each registered measure exactly once")
+    return {name:DIET_CLASS[key] for name,key in keys.items()}
+
+
 def end_group(name, source):
     if (name == "D_Glu" or name.startswith("cgm_") or source in {"cgm_indices", "glycemic"}
             or any(x in name for x in ("__glucose_", "__hba1c_"))):
