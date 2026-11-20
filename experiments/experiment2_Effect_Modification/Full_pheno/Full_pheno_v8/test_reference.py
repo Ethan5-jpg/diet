@@ -22,7 +22,7 @@ class ReferenceTest(unittest.TestCase):
             study = Study(Snapshot(root,required_files(p.MODES["all"])),with_upf=True,expected=None)
             n = study.n
             people = np.repeat(np.arange(n),3)
-            known_upf = np.tile(np.array([.02,.08,.15]),n)
+            known_upf = np.tile(np.array([.01,.03,.06]),n)
             days = ((np.linspace(.07,.7,n),np.full(n,3)),
                     (people,known_upf,np.full(3*n,.80),np.full(n,3),np.full(n,known_upf.mean()),np.full(n,.8)))
             outcomes = {e:study.outcome(e) for e in p.ENDPOINTS}
