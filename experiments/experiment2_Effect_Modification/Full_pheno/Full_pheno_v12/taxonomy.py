@@ -30,9 +30,14 @@ DIET_CLASS = {name: group for group,names in GROUPS.items() for name in names} |
 
 
 def diet_key(name):
-    """Resolve cosmetic separators in stored food-category labels."""
+    """Resolve separator and spelling variants in stored food-category labels."""
     prefix, separator, category=name.partition(":")
-    return prefix+separator+" ".join(category.replace("_"," ").split()) if prefix=="category" else name
+    if prefix!="category":
+        return name
+    normalized=" ".join(category.replace("_"," ").split())
+    if normalized=="proccessed meat products":
+        normalized="processed meat products"
+    return prefix+separator+normalized
 
 
 def map_diets(names):
